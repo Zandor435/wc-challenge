@@ -34,12 +34,21 @@ KEY = os.environ.get("API_FOOTBALL_KEY", "fa4a83828c1f8b553acba91e321faabb")
 WORLD_CUP_LEAGUE_ID = 1
 
 
-def api_get(path, params):
+def api_get(path, params, retries=2):
+    """GET with simple 429 backoff (free tier = 10 req/min)."""
     qs = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
     url = f"{BASE}{path}?{qs}"
     req = urllib.request.Request(url, headers={"x-apisports-key": KEY})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r)
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries:
+                print("  rate-limited (429); waiting 62s for the per-minute window…")
+                time.sleep(62)
+                continue
+            raise
 
 
 def classify_round(api_round: str):
@@ -69,6 +78,8 @@ def main():
     ap.add_argument("--out", default=os.path.join(DATA, "live_results.json"))
     ap.add_argument("--with-goals", action="store_true",
                     help="also fetch goal-scorer events -> data/goals.json (uses 1 req/fixture)")
+    ap.add_argument("--max-goal-fixtures", type=int, default=0,
+                    help="cap how many fixtures to pull goal events for (0 = no cap). Protects the free-tier quota.")
     args = ap.parse_args()
 
     aliases = json.load(open(os.path.join(DATA, "team_aliases.json"), encoding="utf-8"))["aliases"]
@@ -81,6 +92,7 @@ def main():
     print(f"API returned {len(fixtures)} fixtures for league {args.league} season {args.season}")
 
     matches, goals = [], []
+    goal_fixtures_done = 0
     for f in fixtures:
         fx, teams, g = f["fixture"], f["teams"], f["goals"]
         if fx["status"]["short"] not in ("FT", "AET", "PEN"):
@@ -104,7 +116,9 @@ def main():
             rec["decided_by"] = "penalties"
         matches.append(rec)
 
-        if args.with_goals:
+        if args.with_goals and (args.max_goal_fixtures == 0
+                                or goal_fixtures_done < args.max_goal_fixtures):
+            goal_fixtures_done += 1
             ev = api_get("/fixtures/events", {"fixture": fx["id"]})
             for e in ev.get("response", []):
                 if e.get("type") == "Goal":
@@ -115,7 +129,7 @@ def main():
                         "minute": e["time"]["elapsed"],
                         "detail": e.get("detail"),
                     })
-            time.sleep(0.2)  # be gentle on the free tier
+            time.sleep(7)  # free tier = 10 req/min; stay safely under it
 
     out = {
         "source": f"api-football league {args.league} season {args.season}",
@@ -129,7 +143,8 @@ def main():
     if args.with_goals:
         gp = os.path.join(DATA, "goals.json")
         with open(gp, "w", encoding="utf-8") as fh:
-            json.dump({"goals": goals}, fh, indent=2, ensure_ascii=False)
+            json.dump({"source": out["source"], "goals": goals}, fh,
+                      indent=2, ensure_ascii=False)
         print(f"Wrote {len(goals)} goal events -> {gp}")
 
 

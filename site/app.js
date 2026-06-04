@@ -48,6 +48,32 @@ function renderTeamTable(teams) {
     </table>`;
 }
 
+function renderPlayerGoals(doc) {
+  const el = document.getElementById("player-goals");
+  const leaders = (doc && doc.leaders) || [];
+  if (!leaders.length) {
+    el.className = "empty";
+    el.textContent = "No goals tracked yet — populates once matches are played.";
+    return;
+  }
+  const rows = leaders.map(r => `
+    <tr>
+      <td class="num">${r.rank}</td>
+      <td>${r.player}</td>
+      <td>${r.team}</td>
+      <td><span class="owner-tag" style="color:${OWNER_COLORS[r.owner] || "inherit"}">${r.owner}</span></td>
+      <td class="num">${r.goals}</td>
+      <td class="num">${r.penalties || 0}</td>
+    </tr>`).join("");
+  el.innerHTML = `
+    <table>
+      <thead><tr><th class="num">#</th><th>Player</th><th>Team</th><th>Owner</th>
+                 <th class="num">Goals</th><th class="num">Pens</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <p class="src-note">source: ${doc.source || "—"}</p>`;
+}
+
 async function main() {
   try {
     const [standings, teamTable] = await Promise.all([
@@ -56,6 +82,11 @@ async function main() {
     ]);
     renderLeaderboard(standings.standings);
     renderTeamTable(teamTable.teams);
+    loadJSON("data/player_goals.json").then(renderPlayerGoals).catch(() => {
+      const el = document.getElementById("player-goals");
+      el.className = "empty";
+      el.textContent = "No goals tracked yet — populates once matches are played.";
+    });
     document.getElementById("rules-version").textContent = standings.rules_version || "—";
     document.getElementById("meta").textContent =
       `${standings.tournament || "World Cup 2026"} · rules ${standings.rules_version} · source: ${standings.source}`;

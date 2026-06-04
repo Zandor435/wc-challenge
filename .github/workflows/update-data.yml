@@ -1,0 +1,49 @@
+name: Update standings from API-Football
+
+# Fetches live World Cup results, rescoring the pool, and commits the refreshed
+# JSON so the site (GitHub Pages / Netlify) redeploys automatically.
+#
+# Runs twice daily during the tournament window and on demand. Until API-Football
+# populates the 2026 season, the fetch returns 0 matches and nothing is committed —
+# safe to leave running.
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"   # 06:00 & 18:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Season to fetch"
+        default: "2026"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch + score
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          python scripts/build.py --fetch --season "${{ github.event.inputs.season || '2026' }}"
+      - name: Commit refreshed data if changed
+        run: |
+          git config user.name  "wc-challenge-bot"
+          git config user.email "actions@github.com"
+          git add site/data/*.json
+          if git diff --staged --quiet; then
+            echo "No standings changes."
+          else
+            git commit -m "Auto-update standings ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi

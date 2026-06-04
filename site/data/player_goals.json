@@ -1,0 +1,70 @@
+{
+  "source": "api-football 2022 proxy (6-fixture sample)",
+  "note": "Goals by players on drafted teams only. Penalties counted in the total.",
+  "leaders": [
+    {
+      "player": "B. Saka",
+      "team": "England",
+      "owner": "Gayden",
+      "goals": 2,
+      "penalties": 0,
+      "rank": 1
+    },
+    {
+      "player": "J. Bellingham",
+      "team": "England",
+      "owner": "Gayden",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 2
+    },
+    {
+      "player": "J. Grealish",
+      "team": "England",
+      "owner": "Gayden",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 3
+    },
+    {
+      "player": "M. Rashford",
+      "team": "England",
+      "owner": "Gayden",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 4
+    },
+    {
+      "player": "R. Sterling",
+      "team": "England",
+      "owner": "Gayden",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 5
+    },
+    {
+      "player": "Saleh Al Shehri",
+      "team": "Saudi Arabia",
+      "owner": "Zach",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 6
+    },
+    {
+      "player": "Salem Al Dawsari",
+      "team": "Saudi Arabia",
+      "owner": "Zach",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 7
+    },
+    {
+      "player": "T. Weah",
+      "team": "USA",
+      "owner": "Devin",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 8
+    }
+  ]
+}
