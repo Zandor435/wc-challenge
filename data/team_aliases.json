@@ -1,0 +1,21 @@
+{
+  "_note": "Maps alternate team spellings (from API-Football, schedules, etc.) to the canonical draft-board name used in tiers.json and draft_board.json. Identity entries are implicit; only differences are listed.",
+  "aliases": {
+    "South Korea": "Korea Republic",
+    "Korea, Republic of": "Korea Republic",
+    "Republic of Korea": "Korea Republic",
+    "Türkiye": "Turkey",
+    "Turkiye": "Turkey",
+    "United States": "USA",
+    "United States of America": "USA",
+    "Bosnia and Herzegovina": "Bosnia",
+    "Bosnia & Herzegovina": "Bosnia",
+    "Curaçao": "Curacao",
+    "Czech Republic": "Czechia",
+    "Côte d'Ivoire": "Ivory Coast",
+    "Cote d'Ivoire": "Ivory Coast",
+    "Congo DR": "DR Congo",
+    "DR Congo": "DR Congo",
+    "Cabo Verde": "Cape Verde"
+  }
+}

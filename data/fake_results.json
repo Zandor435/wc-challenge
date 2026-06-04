@@ -1,0 +1,13 @@
+{
+  "_note": "Fake results supplied in JOB 2 to test the scoring engine. All group-stage. Stage = 'group'. Score is final score (home_score - away_score). 'decided_by' is informational; for knockouts use 'penalties' to mark a shootout (still scored as a win).",
+  "source": "JOB2_fake_test",
+  "matches": [
+    { "date": "2026-06-11", "stage": "group", "home": "Mexico",      "away": "South Africa", "home_score": 1, "away_score": 0 },
+    { "date": "2026-06-11", "stage": "group", "home": "South Korea",  "away": "Czechia",      "home_score": 2, "away_score": 1 },
+
+    { "date": "2026-06-13", "stage": "group", "home": "Qatar",        "away": "Switzerland",  "home_score": 0, "away_score": 1 },
+    { "date": "2026-06-13", "stage": "group", "home": "Brazil",       "away": "Morocco",      "home_score": 2, "away_score": 2 },
+    { "date": "2026-06-13", "stage": "group", "home": "Haiti",        "away": "Scotland",     "home_score": 0, "away_score": 3 },
+    { "date": "2026-06-13", "stage": "group", "home": "Australia",    "away": "Turkey",       "home_score": 1, "away_score": 2 }
+  ]
+}

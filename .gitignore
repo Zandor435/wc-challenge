@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.DS_Store
+.netlify/
+data/proxy_2022_results.json
+data/live_results.json
+data/goals.json

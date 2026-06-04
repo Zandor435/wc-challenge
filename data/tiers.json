@@ -1,0 +1,17 @@
+{
+  "_note": "All 48 World Cup teams, tiered. Drafted teams use the locked draft-board tiers. The 24 undrafted teams were tiered during the Monte Carlo calibration (betting-odds -> tier). 1 = strongest, 4 = weakest. Used for group-stage upset bonus.",
+  "tiers": {
+    "Argentina": 1, "Brazil": 1, "France": 1, "Spain": 1, "England": 1, "Portugal": 1,
+    "Germany": 1, "Netherlands": 1, "Belgium": 1, "Uruguay": 1, "Colombia": 1, "Croatia": 1,
+
+    "Morocco": 2, "Japan": 2, "Switzerland": 2, "Austria": 2, "Norway": 2, "Sweden": 2,
+    "Senegal": 2, "Ivory Coast": 2, "Mexico": 2, "USA": 2, "Ecuador": 2,
+
+    "Scotland": 3, "Turkey": 3, "Czechia": 3, "Bosnia": 3, "Egypt": 3, "Tunisia": 3,
+    "Algeria": 3, "South Africa": 3, "Ghana": 3, "Australia": 3, "Korea Republic": 3,
+    "Canada": 3, "Paraguay": 3,
+
+    "Cape Verde": 4, "DR Congo": 4, "Iran": 4, "Uzbekistan": 4, "Jordan": 4, "Qatar": 4,
+    "Saudi Arabia": 4, "Iraq": 4, "New Zealand": 4, "Panama": 4, "Haiti": 4, "Curacao": 4
+  }
+}

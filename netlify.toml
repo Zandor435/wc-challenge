@@ -1,0 +1,10 @@
+# Netlify config. The site is pure static files in site/ — no build step.
+# Updating data/*.json and pushing to the connected repo auto-redeploys.
+[build]
+  publish = "site"
+  command = ""
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "no-cache"

@@ -1,0 +1,35 @@
+{
+  "version": "rebalanced_v3",
+  "group_stage": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0,
+    "upset_mode": "tier_gap",
+    "upset_bonus_per_tier_gap": 2,
+    "upset_note": "Upset bonus = 2 x (winner_tier_number - loser_tier_number). Fires only when the winner's tier number is higher (weaker) than the loser's: 1-tier gap = +2, 2-tier gap = +4, 3-tier gap = +6. Tiers come from tiers.json (all 48 teams); points go only to the drafting owner."
+  },
+  "knockout_stage": {
+    "match_points_apply": true,
+    "win": 3,
+    "loss": 0,
+    "penalties_note": "A penalty-shootout result is scored as a normal knockout win/loss: winner +3, loser 0, no draw point.",
+    "third_place_game": {
+      "generates_points": true,
+      "note": "The third-place playoff is played; its winner earns the +3 knockout match-win point but no advancement bonus."
+    },
+    "advancement_bonuses": {
+      "round_of_32": 0,
+      "round_of_16": 2,
+      "quarterfinal": 5,
+      "semifinal": 10,
+      "final": 18,
+      "win_world_cup": 30
+    },
+    "advancement_note": "An advancement bonus is earned for REACHING a round, i.e. by winning the match in the prior round. Winning an R32 match earns round_of_16 (reached R16); winning R16 earns quarterfinal; winning QF earns semifinal; winning SF earns final; winning the Final earns win_world_cup. The third-place game advances to nothing."
+  },
+  "meta": {
+    "buyin": 10,
+    "payout": "winner_takes_all",
+    "tournament": "FIFA World Cup 2026"
+  }
+}
