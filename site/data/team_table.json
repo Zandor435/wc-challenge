@@ -34,8 +34,8 @@
       "tier": 3,
       "W": 0,
       "D": 0,
-      "L": 0,
-      "points": 0
+      "L": 1,
+      "points": 0.0
     },
     {
       "team": "Bosnia",
@@ -52,8 +52,8 @@
       "tier": 4,
       "W": 0,
       "D": 0,
-      "L": 0,
-      "points": 0
+      "L": 1,
+      "points": 0.0
     },
     {
       "team": "England",
@@ -86,19 +86,19 @@
       "team": "Korea Republic",
       "owner": "Gayden",
       "tier": 3,
-      "W": 0,
+      "W": 1,
       "D": 0,
       "L": 0,
-      "points": 0
+      "points": 3.0
     },
     {
       "team": "Turkey",
       "owner": "Gayden",
       "tier": 3,
-      "W": 0,
+      "W": 1,
       "D": 0,
       "L": 0,
-      "points": 0
+      "points": 3.0
     },
     {
       "team": "Jordan",
@@ -119,16 +119,16 @@
       "points": 0
     },
     {
-      "team": "Senegal",
+      "team": "Morocco",
       "owner": "Gunner",
       "tier": 2,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 0,
-      "points": 0
+      "points": 1.0
     },
     {
-      "team": "Morocco",
+      "team": "Senegal",
       "owner": "Gunner",
       "tier": 2,
       "W": 0,
@@ -168,18 +168,18 @@
       "owner": "Zach",
       "tier": 1,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 0,
-      "points": 0
+      "points": 1.0
     },
     {
       "team": "Switzerland",
       "owner": "Zach",
       "tier": 2,
-      "W": 0,
+      "W": 1,
       "D": 0,
       "L": 0,
-      "points": 0
+      "points": 3.0
     },
     {
       "team": "Austria",
@@ -205,8 +205,8 @@
       "tier": 3,
       "W": 0,
       "D": 0,
-      "L": 0,
-      "points": 0
+      "L": 1,
+      "points": 0.0
     },
     {
       "team": "Saudi Arabia",

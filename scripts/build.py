@@ -12,6 +12,7 @@ This is what a cron job / GitHub Action would call. After it runs, commit and
 push site/data/*.json and Netlify redeploys automatically.
 """
 import argparse
+import json
 import os
 import subprocess
 import sys
@@ -35,6 +36,14 @@ def main():
     if args.fetch:
         results = os.path.join("data", "live_results.json")
         run([sys.executable, "fetch_results.py", "--season", str(args.season), "--out", results])
+        # Guard: a fetch that returns 0 finished matches (e.g. the 2026 season
+        # before kickoff) must NOT overwrite the committed standings with zeros.
+        with open(os.path.join(HERE, results), encoding="utf-8") as fh:
+            n = len(json.load(fh).get("matches", []))
+        if n == 0:
+            print(f"Fetch returned 0 finished matches for season {args.season}; "
+                  "leaving existing site/data untouched (no clobber).")
+            return
 
     run([sys.executable, "scoring.py", "--results", results,
          "--out-dir", os.path.join("site", "data")])
