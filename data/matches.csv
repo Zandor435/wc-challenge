@@ -1,0 +1,105 @@
+date,phase,group,team1,team2,team1_owner,team2_owner,team1_tier,team2_tier,venue,time_et
+2026-06-11,group,A,Mexico,South Africa,,Devin,,3,Mexico City,3 p.m. ET
+2026-06-11,group,A,Korea Republic,Czechia,Gayden,Zach,3,3,"Zapopan, Mexico",10 p.m. ET
+2026-06-12,group,B,Canada,Bosnia,Gunner,Devin,3,3,Toronto,3 p.m. ET
+2026-06-12,group,D,USA,Paraguay,Devin,,2,,"Inglewood, Calif.",9 p.m. ET
+2026-06-13,group,B,Qatar,Switzerland,,Zach,,2,"Santa Clara, Calif.",3 p.m. ET
+2026-06-13,group,C,Brazil,Morocco,Zach,Gunner,1,2,"East Rutherford, New Jersey",6 p.m. ET
+2026-06-13,group,C,Haiti,Scotland,Devin,,4,,"Foxborough, Mass.",9 p.m. ET
+2026-06-13,group,D,Australia,Turkey,,Gayden,,3,"Vancouver, Canada",12 a.m. ET (June 14)
+2026-06-14,group,E,Germany,Curacao,,,,,Houston,1 p.m. ET
+2026-06-14,group,F,Netherlands,Japan,,Gayden,,2,"Arlington, Texas",4 p.m. ET
+2026-06-14,group,E,Ivory Coast,Ecuador,Gayden,,2,,Philadelphia,7 p.m. ET
+2026-06-14,group,F,Sweden,Tunisia,,,,,"Guadalupe, Mexico",10 p.m. ET
+2026-06-15,group,H,Spain,Cape Verde,Devin,,1,,Atlanta,1 p.m. ET
+2026-06-15,group,G,Belgium,Egypt,,Gunner,,3,Seattle,6 p.m. ET
+2026-06-15,group,H,Saudi Arabia,Uruguay,Zach,,4,,"Miami Gardens, Fla.",6 p.m. ET
+2026-06-15,group,G,Iran,New Zealand,,,,,"Inglewood, Calif.",12 a.m. ET (June 16)
+2026-06-16,group,I,France,Senegal,Gunner,Gunner,1,2,"East Rutherford, N.J.",3 p.m. ET
+2026-06-16,group,I,Iraq,Norway,,Devin,,2,"Foxborough, Mass.",6 p.m. ET
+2026-06-16,group,J,Argentina,Algeria,,,,,"Kansas City, Mo.",9 p.m. ET
+2026-06-16,group,J,Austria,Jordan,Zach,Gayden,2,4,"Santa Clara, Calif.",12 a.m. ET (June 17)
+2026-06-17,group,K,Portugal,DR Congo,,Gunner,,4,Houston,1 p.m. ET
+2026-06-17,group,L,England,Croatia,Gayden,,1,,"Arlington, Texas",4 p.m. ET
+2026-06-17,group,L,Ghana,Panama,Zach,,3,,Toronto,7 p.m. ET
+2026-06-17,group,K,Uzbekistan,Colombia,,,,,Mexico City,10 p.m. ET
+2026-06-18,group,A,Czechia,South Africa,Zach,Devin,3,3,Atlanta,noon ET
+2026-06-18,group,B,Switzerland,Bosnia,Zach,Devin,2,3,"Inglewood, Calif.",3 p.m. ET
+2026-06-18,group,B,Canada,Qatar,Gunner,,3,,"Vancouver, Canada",6 p.m. ET
+2026-06-18,group,A,Mexico,Korea Republic,,Gayden,,3,"Zapopan, Mexico",11 p.m. ET
+2026-06-19,group,D,USA,Australia,Devin,,2,,Seattle,3 p.m. ET
+2026-06-19,group,C,Scotland,Morocco,,Gunner,,2,"Foxborough, Mass.",6 p.m. ET
+2026-06-19,group,C,Brazil,Haiti,Zach,Devin,1,4,Philadelphia,9 p.m. ET
+2026-06-19,group,D,Turkey,Paraguay,Gayden,,3,,"Santa Clara, Calif.",12 a.m. ET (June 20)
+2026-06-20,group,F,Netherlands,Sweden,,,,,Houston,1 p.m. ET
+2026-06-20,group,E,Germany,Ivory Coast,,Gayden,,2,Toronto,4 p.m. ET
+2026-06-20,group,E,Ecuador,Curacao,,,,,"Kansas City, Mo.",8 p.m. ET
+2026-06-20,group,F,Tunisia,Japan,,Gayden,,2,"Guadalupe, Mexico",12 a.m. ET (June 21)
+2026-06-21,group,H,Spain,Saudi Arabia,Devin,Zach,1,4,Atlanta,noon ET
+2026-06-21,group,G,Belgium,Iran,,,,,"Inglewood, Calif.",3 p.m. ET
+2026-06-21,group,H,Uruguay,Cape Verde,,,,,"Miami Gardens, Fla.",6 p.m. ET
+2026-06-21,group,G,New Zealand,Egypt,,Gunner,,3,Vancouver,9 p.m. ET
+2026-06-22,group,J,Argentina,Austria,,Zach,,2,"Arlington, Texas",1 p.m. ET
+2026-06-22,group,I,France,Iraq,Gunner,,1,,Philadelphia,5 p.m. ET
+2026-06-22,group,I,Norway,Senegal,Devin,Gunner,2,2,"East Rutherford, N.J.",8 p.m. ET
+2026-06-22,group,J,Jordan,Algeria,Gayden,,4,,"Santa Clara, Calif.",11 p.m. ET
+2026-06-23,group,K,Portugal,Uzbekistan,,,,,Houston,1 p.m. ET
+2026-06-23,group,L,England,Ghana,Gayden,Zach,1,3,"Foxborough, Mass.",4 p.m. ET
+2026-06-23,group,L,Panama,Croatia,,,,,Toronto,7 p.m. ET
+2026-06-23,group,K,Colombia,DR Congo,,Gunner,,4,"Zapopan, Mexico",10 p.m. ET
+2026-06-24,group,B,Switzerland,Canada,Zach,Gunner,2,3,"Vancouver, Canada",3 p.m. ET
+2026-06-24,group,B,Bosnia,Qatar,Devin,,3,,Seattle,3 p.m. ET
+2026-06-24,group,C,Scotland,Brazil,,Zach,,1,"Miami Gardens, Fla.",6 p.m. ET
+2026-06-24,group,C,Morocco,Haiti,Gunner,Devin,2,4,Atlanta,6 p.m. ET
+2026-06-24,group,A,Czechia,Mexico,Zach,,3,,Mexico City,9 p.m. ET
+2026-06-24,group,A,South Africa,Korea Republic,Devin,Gayden,3,3,"Guadalupe, Mexico",9 p.m. ET
+2026-06-25,group,E,Ecuador,Germany,,,,,"East Rutherford, N.J.",4 p.m. ET
+2026-06-25,group,E,Curacao,Ivory Coast,,Gayden,,2,Philadelphia,4 p.m. ET
+2026-06-25,group,F,Japan,Sweden,Gayden,,2,,"Arlington, Texas",7 p.m. ET
+2026-06-25,group,F,Tunisia,Netherlands,,,,,"Kansas City, Mo.",7 p.m. ET
+2026-06-25,group,D,Turkey,USA,Gayden,Devin,3,2,"Inglewood, Calif.",10 p.m. ET
+2026-06-25,group,D,Paraguay,Australia,,,,,"Santa Clara, Calif.",10 p.m. ET
+2026-06-26,group,I,Norway,France,Devin,Gunner,2,1,"Foxborough, Mass.",3 p.m. ET
+2026-06-26,group,I,Senegal,Iraq,Gunner,,2,,Toronto,3 p.m. ET
+2026-06-26,group,H,Cape Verde,Saudi Arabia,,Zach,,4,Houston,8 p.m. ET
+2026-06-26,group,H,Uruguay,Spain,,Devin,,1,"Zapopan, Mexico",8 p.m. ET
+2026-06-26,group,G,Egypt,Iran,Gunner,,3,,Seattle,11 p.m. ET
+2026-06-26,group,G,New Zealand,Belgium,,,,,"Vancouver, Canada",11 p.m. ET
+2026-06-27,group,L,Panama,England,,Gayden,,1,"East Rutherford, N.J.",5 p.m. ET
+2026-06-27,group,L,Croatia,Ghana,,Zach,,3,Philadelphia,5 p.m. ET
+2026-06-27,group,K,Colombia,Portugal,,,,,"Miami Gardens, Fla.",7:30 p.m. ET
+2026-06-27,group,K,DR Congo,Uzbekistan,Gunner,,4,,Atlanta Stadium,7:30 p.m. ET
+2026-06-27,group,J,Algeria,Austria,,Zach,,2,"Kansas City, Mo.",10 p.m. ET
+2026-06-27,group,J,Jordan,Argentina,Gayden,,4,,"Arlington, Texas",10 p.m. ET
+2026-06-28,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Inglewood, Calif.",3 p.m. ET
+2026-06-29,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,Houston,1 p.m. ET
+2026-06-29,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Foxborough, Mass.",4:30 p.m. ET
+2026-06-29,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Guadalupe, Mexico",9 p.m. ET
+2026-06-30,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Arlington, Texas",1 p.m. ET
+2026-06-30,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"East Rutherford, N.J.",5 p.m. ET
+2026-06-30,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,Mexico City,9 p.m. ET
+2026-07-01,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,Atlanta,noon ET
+2026-07-01,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,Seattle,4 p.m. ET
+2026-07-01,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Santa Clara, Calif.",8 p.m. ET
+2026-07-02,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Inglewood, Calif.",3 p.m. ET
+2026-07-02,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,Toronto,7 p.m. ET
+2026-07-02,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Vancouver, Canada",11 p.m. ET
+2026-07-03,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Arlington, Texas",2 p.m. ET
+2026-07-03,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Miami Gardens, Fla.",6 p.m. ET
+2026-07-03,round_of_32,,TBD,TBD,TBD,TBD,TBD,TBD,"Kansas City, Mo.",9:30 p.m. ET
+2026-07-04,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,Houston,1 p.m. ET
+2026-07-04,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,Philadelphia,5 p.m. ET
+2026-07-05,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,"East Rutherford, N.J.",4 p.m. ET
+2026-07-05,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,Mexico City,8 p.m. ET
+2026-07-06,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,"Arlington, Texas",3 p.m. ET
+2026-07-06,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,Seattle,5 p.m. ET
+2026-07-07,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,Atlanta,noon ET
+2026-07-07,round_of_16,,TBD,TBD,TBD,TBD,TBD,TBD,"Vancouver, Canada",4 p.m. ET
+2026-07-09,quarterfinal,,TBD,TBD,TBD,TBD,TBD,TBD,"Foxborough, Mass.",4 p.m. ET
+2026-07-10,quarterfinal,,TBD,TBD,TBD,TBD,TBD,TBD,"Inglewood, Calif.",3 p.m. ET
+2026-07-11,quarterfinal,,TBD,TBD,TBD,TBD,TBD,TBD,"Miami Gardens, Fla.",5 p.m. ET
+2026-07-11,quarterfinal,,TBD,TBD,TBD,TBD,TBD,TBD,"Kansas City, Mo.",9 p.m. ET
+2026-07-14,semifinal,,TBD,TBD,TBD,TBD,TBD,TBD,"Arlington, Texas",3 p.m. ET
+2026-07-15,semifinal,,TBD,TBD,TBD,TBD,TBD,TBD,Atlanta,3 p.m. ET
+2026-07-18,third_place,,TBD,TBD,TBD,TBD,TBD,TBD,"Miami Gardens, Fla.",5 p.m. ET
+2026-07-19,final,,TBD,TBD,TBD,TBD,TBD,TBD,"East Rutherford, N.J.",3 p.m. ET
