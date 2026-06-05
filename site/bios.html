@@ -171,18 +171,61 @@
     .move .k { font-size: .66rem; text-transform: uppercase; letter-spacing: .12em; color: var(--c); font-weight: 700; }
     .move .v { font-family: "Oswald", sans-serif; font-size: 1.12rem; font-weight: 600; color: var(--text); margin-top: 4px; line-height: 1.15; }
 
-    /* ---- bio body placeholder ---- */
-    .bio-content {
-      margin-top: 20px; border: 1px dashed #2b2f3a; border-radius: 10px;
-      padding: 22px; text-align: center; background: rgba(255,255,255,.012);
+    /* ---- bio body ---- */
+    .bio-content { margin-top: 24px; }
+    .bio-content b { color: var(--c); font-weight: 800; }
+    .bio-lead {
+      margin: 0; color: #e8eaee; font-size: 1.02rem; line-height: 1.62;
+      border-left: 3px solid var(--c); padding-left: 16px;
     }
-    .bio-content .badge {
-      display: inline-block; font-family: "Oswald", sans-serif; letter-spacing: .14em;
-      font-size: .72rem; font-weight: 700; color: var(--c);
-      border: 1px solid color-mix(in srgb, var(--c) 45%, #000); border-radius: 999px;
-      padding: 5px 12px; text-transform: uppercase;
+
+    /* Manager Rating — distinct stat-bar block */
+    .bio-ratings {
+      margin-top: 20px; padding: 16px 18px;
+      background: linear-gradient(180deg, color-mix(in srgb, var(--c) 9%, var(--surface)), var(--surface));
+      border: 1px solid color-mix(in srgb, var(--c) 30%, var(--line)); border-radius: 10px;
     }
-    .bio-content p { color: var(--muted); margin: 11px 0 0; font-size: .88rem; }
+    .ratings-label {
+      display: block; font-family: "Oswald", sans-serif; text-transform: uppercase;
+      letter-spacing: .2em; font-size: .74rem; font-weight: 700; color: var(--c); margin-bottom: 12px;
+    }
+    .ratings-grid { display: grid; gap: 9px; }
+    .rating { display: grid; grid-template-columns: 92px 1fr 26px; align-items: center; gap: 12px; }
+    .r-name {
+      font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .04em;
+      font-size: .8rem; font-weight: 600; color: var(--muted); white-space: nowrap;
+    }
+    .r-bar { height: 9px; border-radius: 999px; background: #0c0d11; box-shadow: inset 0 0 0 1px var(--line); overflow: hidden; }
+    .r-fill {
+      display: block; height: 100%; border-radius: 999px;
+      background: linear-gradient(90deg, color-mix(in srgb, var(--c) 55%, #000), var(--c));
+      box-shadow: 0 0 10px color-mix(in srgb, var(--c) 60%, transparent);
+    }
+    .r-val { font-family: "Oswald", sans-serif; font-weight: 700; font-size: .95rem; color: var(--text); text-align: right; }
+
+    /* bullets */
+    .bio-bullets { list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+    .bio-bullets li {
+      position: relative; padding-left: 22px; color: #c7ccd4; font-size: .92rem; line-height: 1.5;
+    }
+    .bio-bullets li::before {
+      content: "›"; position: absolute; left: 4px; top: -1px;
+      color: var(--c); font-weight: 800; font-size: 1.05rem;
+    }
+
+    /* rival */
+    .bio-rival {
+      margin-top: 20px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+      padding: 12px 16px; border-radius: 10px;
+      background: color-mix(in srgb, var(--c) 8%, var(--surface));
+      border: 1px solid color-mix(in srgb, var(--c) 28%, var(--line));
+    }
+    .rival-tag {
+      flex: none; font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .14em;
+      font-size: .72rem; font-weight: 700; color: #0a0a0b; background: var(--c);
+      padding: 4px 10px; border-radius: 999px;
+    }
+    .rival-text { color: #d7dbe2; font-size: .92rem; font-weight: 500; }
 
     /* ---- alternating layout (portrait right on even sections) ---- */
     .bio:nth-child(even) .bio-inner { grid-template-columns: 1.05fr minmax(280px, 0.95fr); }
@@ -190,6 +233,12 @@
     .bio:nth-child(even) .bio-main { order: 1; }
     .bio:nth-child(even) { --glow-x: 78%; }
     .bio:nth-child(even)::after { right: auto; left: 3%; }
+
+    /* desktop: pin the dominant portrait in view while reading the bio */
+    @media (min-width: 861px) {
+      .bio-inner { align-items: start; }
+      .bio-portrait { position: sticky; top: 72px; align-self: start; }
+    }
 
     .bios-foot { text-align: center; color: var(--muted-2); font-size: .8rem; padding: 40px 18px 60px; border-top: 1px solid #14161c; }
     .bios-foot a { color: var(--muted); }
@@ -238,9 +287,10 @@
   </footer>
 
   <script>
-  /* ---------- owner profiles (ring personas + rosters + placeholder moves) ----------
+  /* ---------- owner profiles (ring personas, rosters, moves, bios) ----------
      Numbers (record / points / win %) are pulled live from the JSON below.
-     Signature/Finishing moves are placeholders — edit the strings here to fill in. */
+     Bio lead/bullets allow inline <b>…</b> for emphasis (authored, trusted HTML);
+     ratings are on a 0–10 scale and render as owner-color stat bars. */
   const OWNER_COLORS = { Zach: "#f4c430", Gunner: "#2f6dff", Gayden: "#28c060", Devin: "#f0743a" };
 
   const PROFILES = [
@@ -249,32 +299,72 @@
       ringName: "MUSTARD BOY", realName: "Zach", persona: "The Hulkster · Hulkamania",
       portrait: "assets/portraits/wwe/zach_wwe.jpg",
       tiers: { 1: ["Brazil"], 2: ["Switzerland", "Austria"], 3: ["Ghana", "Czechia"], 4: ["Saudi Arabia"] },
-      signature: "The Big Boot",          // placeholder — fill in
-      finisher: "Atomic Mustard Leg Drop", // placeholder — fill in
+      signature: "The Overthink — stares at a spreadsheet so long his opponent falls asleep",
+      finisher: "The 20K Simulation — locks you in a submission hold, runs the numbers, and determines he was going to lose anyway",
+      bio: {
+        lead: `<b>OH YEAH</b>, forged in the aisles of a Baton Rouge grocery store, where his own brother — <b>HIS OWN FLESH AND BLOOD</b> — walked him straight into a mustard display like a guided missile. Every bottle hit the floor. Yellow everywhere. A legend was born. Now this man runs 20,000 computer simulations before breakfast and <b>STILL has the worst odds in the building.</b>`,
+        ratings: { Research: 10, Confidence: 6, Vibes: 8, "Trash Talk": 7, Delusion: 9 },
+        bullets: [
+          `Once almost drafted Italy. <b>Italy is not in the tournament.</b> His cousin Gunner watched him do it and said nothing for two full minutes.`,
+          `Has built an entire website, automated pipeline, and AI-generated portraits for a <b>$10 bet</b>. The ROI will never recover.`,
+          `His two daughters have a better chance of picking a winning roster by pointing at flags.`,
+        ],
+        rival: `Gunner — built the whole system and Gunner's still going to win with it.`,
+      },
     },
     {
       id: "gunner", owner: "Gunner", color: OWNER_COLORS.Gunner,
       ringName: "BUBBA G", realName: "Gunner", persona: "The Macho Man · Slim Jim Energy",
       portrait: "assets/portraits/wwe/gunner_wwe.jpg",
       tiers: { 1: ["France"], 2: ["Senegal", "Morocco"], 3: ["Egypt", "Canada"], 4: ["DR Congo"] },
-      signature: "The Flying Elbow",  // placeholder — fill in
-      finisher: "Oooh Yeah Diving Elbow Drop", // placeholder — fill in
+      signature: "The Quiet Troll — whispers incorrect information to a family member and watches them self-destruct",
+      finisher: "The 30.4% — simply exists while the simulation does the rest",
+      bio: {
+        lead: `From the swamps of Birmingham to the silence of a man who already knows he's won. <b>The youngest. The quietest. The most dangerous.</b> This man played college soccer, knows every squad rotation, every group of death, every dark horse — and when draft day came, he sat back, said almost nothing, and walked out with the best roster in the league. He also once wore a Brasil jacket as a child. <b>He did not draft Brazil.</b>`,
+        ratings: { Research: 10, Confidence: 10, Vibes: 3, "Trash Talk": 4, Delusion: 0 },
+        bullets: [
+          `Told Zach that Italy was in the tournament. Watched him believe it. Never corrected him. <b>Waited.</b>`,
+          `Is a physical therapist by trade, which is fitting because the other three managers are going to need rehab after this.`,
+          `Loves fishing. Catches bass with the same patience he used to reel in France at pick two.`,
+        ],
+        rival: `Zach — the commissioner built the whole game and Gunner's about to take his money with it.`,
+      },
     },
     {
       id: "gayden", owner: "Gayden", color: OWNER_COLORS.Gayden,
       ringName: "THE BACKPASS ASSASSIN", realName: "Gayden", persona: "Legion of Doom · Road Warrior",
       portrait: "assets/portraits/wwe/gayden_wwe.jpg",
       tiers: { 1: ["England"], 2: ["Japan", "Ivory Coast"], 3: ["Korea Republic", "Turkey"], 4: ["Jordan"] },
-      signature: "The Spike Clothesline", // placeholder — fill in
-      finisher: "The Doomsday Backpass",   // placeholder — fill in
+      signature: "The Armbar — threatens physical violence when losing an argument about soccer",
+      finisher: "The Sideways Pass — moves laterally with such force that absolutely nothing is accomplished",
+      bio: {
+        lead: `<b>FIFTY-TWO YEARS OLD.</b> The oldest warrior in the ring. A former Furman Paladin who played college soccer before most of these managers were born, and he wants you to <b>KNOW</b> about it. This man does jiu jitsu, rides motorcycles, hunts, fishes, and will absolutely threaten to put you in a rear naked choke if you question his draft strategy. He has trained under the legendary Michael Bradley — a player so visionary, so transcendent, that he completed more sideways passes than any American in history. <b>THE CROWD BOOS. HE DOESN'T CARE.</b>`,
+        ratings: { Research: 5, Confidence: 10, Vibes: 9, "Trash Talk": 10, Delusion: 8 },
+        bullets: [
+          `Genuinely believes Michael Bradley was good. Has been wrong about this for over a decade. Will not stop.`,
+          `Drafted Korea Republic and Turkey in T3 and called it "savvy." The Monte Carlo called it "statistically unremarkable."`,
+          `Once walked his little brother into a mustard display on purpose. <b>Created a supervillain.</b>`,
+        ],
+        rival: `Everyone — but especially anyone who disrespects Michael Bradley.`,
+      },
     },
     {
       id: "devin", owner: "Devin", color: OWNER_COLORS.Devin,
       ringName: "GHOST PEPPER", realName: "Devin", persona: "The Ultimate Warrior",
       portrait: "assets/portraits/wwe/devin_wwe.jpg",
       tiers: { 1: ["Spain"], 2: ["USA", "Norway"], 3: ["South Africa", "Bosnia"], 4: ["Haiti"] },
-      signature: "The Gorilla Press",      // placeholder — fill in
-      finisher: "The Scoville Splash",     // placeholder — fill in
+      signature: "The Just Wait — makes an indefensible decision and tells everyone to be patient",
+      finisher: "The Ghost Pepper — charges in with maximum confidence, immediately regrets everything",
+      bio: {
+        lead: `This man once looked at a pepper and said "I can eat that." He could not eat that. It was a ghost pepper. He panicked. He sweated. He questioned every decision that led him to that moment. <b>AND THEN HE DID THE EXACT SAME THING ON DRAFT DAY.</b> Looked at Haiti in Tier 4 and said "I can draft that." Everyone laughed. He said "just wait." <b>We are still waiting.</b>`,
+        ratings: { Research: 4, Confidence: 9, Vibes: 10, "Trash Talk": 5, Delusion: 8 },
+        bullets: [
+          `Has Spain and USA, which is genuinely solid. Then you scroll down to South Africa, Bosnia, and Haiti and realize the first two picks were an accident.`,
+          `The only boy with three sisters. Has been outnumbered his entire life. Now has three kids and one on the way. <b>Still outnumbered.</b>`,
+          `Auburn grad whose dad played football at LSU. Can't pick a side in anything — including which hemisphere to draft from.`,
+        ],
+        rival: `The concept of research — they've never met.`,
+      },
     },
   ];
 
@@ -310,6 +400,31 @@
     }).join("");
   }
 
+  /* bio body — lead paragraph, Manager Rating bars, bullets, rival.
+     lead/bullets/rival are authored HTML (allow <b>…</b>); not escaped by design. */
+  function bioHTML(b) {
+    if (!b) return "";
+    const ratings = Object.entries(b.ratings || {}).map(([k, v]) => {
+      const pct = Math.max(0, Math.min(10, +v)) * 10;
+      return `<div class="rating">
+                <span class="r-name">${esc(k)}</span>
+                <span class="r-bar"><span class="r-fill" style="width:${pct}%"></span></span>
+                <span class="r-val">${esc(v)}</span>
+              </div>`;
+    }).join("");
+    const bullets = (b.bullets || []).map((t) => `<li>${t}</li>`).join("");
+    return `
+      <div class="bio-content">
+        ${b.lead ? `<p class="bio-lead">${b.lead}</p>` : ""}
+        ${ratings ? `<div class="bio-ratings">
+            <span class="ratings-label">Manager Rating</span>
+            <div class="ratings-grid">${ratings}</div>
+          </div>` : ""}
+        ${bullets ? `<ul class="bio-bullets">${bullets}</ul>` : ""}
+        ${b.rival ? `<div class="bio-rival"><span class="rival-tag">Rival</span><span class="rival-text">${b.rival}</span></div>` : ""}
+      </div>`;
+  }
+
   function sectionHTML(p, idx, stats) {
     const t1 = (p.tiers[1] || [])[0];
     return `
@@ -339,10 +454,7 @@
               <div class="move"><div class="k">Finishing Move</div><div class="v">${esc(p.finisher)}</div></div>
             </div>
 
-            <div class="bio-content">
-              <span class="badge">Bio · Coming Soon</span>
-              <p>The full ring entrance is being written. Check back for ${esc(p.ringName)}'s story.</p>
-            </div>
+            ${bioHTML(p.bio)}
           </div>
         </div>
       </section>`;
