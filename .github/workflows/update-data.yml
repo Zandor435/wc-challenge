@@ -56,16 +56,39 @@ jobs:
         run: |
           python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --with-goals --out data/_goals_scratch.json
           python player_goals.py --goals data/goals.json --out site/data/player_goals.json
+      - name: Kickoff gate
+        # The narrative engine is the one part of this pipeline that ACCUMULATES
+        # (narrative_state.json + tournament_recap.md build on themselves). Before
+        # the tournament kicks off, daily_results.json still holds fake test
+        # fixtures, so running the engine would overwrite the committed Day-0
+        # preseason baseline with artifacts of fake data.
+        #
+        # Same spirit as win_probability.py --skip-if-empty: skip the work until
+        # there is real tournament data. This is a DATE gate (kickoff = 2026-06-11
+        # UTC), so it is automatic and self-removing — once the date passes it runs
+        # with no edit needed. No manual cleanup required.
+        id: kickoff
+        run: |
+          TODAY=$(date -u +%Y%m%d)
+          if [ "$TODAY" -ge 20260611 ]; then
+            echo "run=true"  >> "$GITHUB_OUTPUT"
+            echo "Past kickoff ($TODAY >= 20260611) — running the narrative engine."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Preseason ($TODAY < 20260611) — skipping narrative engine; preserving the Day-0 baseline."
+          fi
       - name: Build narrative state
         # Runs AFTER scoring/win-prob/goals, BEFORE commentary. Distils every data
         # file into site/data/narrative_state.json (streaks, head-to-heads, notable
         # events, auto-tagged themes, phase context) — the accumulating memory the
         # stateful commentary engine reads. Stdlib only; no API key needed.
+        if: steps.kickoff.outputs.run == 'true'
         run: |
           python build_narrative_state.py --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
       - name: Generate pundit commentary + Jim Rome column
         # Reads narrative_state.json (fresh, above) + the previous tournament_recap.md
         # and writes the next installment, plus the cold-take commentary.json.
+        if: steps.kickoff.outputs.run == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
