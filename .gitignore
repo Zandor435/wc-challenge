@@ -7,3 +7,6 @@ __pycache__/
 data/proxy_2022_results.json
 data/live_results.json
 data/goals.json
+
+_refcrops/
+foxsports-reference.png
