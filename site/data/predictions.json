@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "total_predictions": 0,
+    "scored": 0,
+    "brier_score": null,
+    "correct_winner_pct": null
+  },
+  "predictions": []
+}
