@@ -159,9 +159,42 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 
 .hero-board { padding: 14px 16px; display: flex; flex-direction: column; }
 .rank-row {
-  display: grid; grid-template-columns: 26px 18px 1fr auto; align-items: center;
-  gap: 12px; padding: 12px 8px; border-bottom: 1px solid var(--line-soft);
+  display: grid; grid-template-columns: 22px 16px 60px 1fr auto; align-items: center;
+  gap: 11px; padding: 11px 8px; border-bottom: 1px solid var(--line-soft);
 }
+.owner-avatar {
+  width: 60px; height: 60px; border-radius: 50%; position: relative; overflow: hidden;
+  background: var(--c, #444); border: 2px solid rgba(255,255,255,.16);
+  display: flex; align-items: center; justify-content: center; flex: 0 0 auto;
+}
+.owner-avatar::after {
+  content: attr(data-initial);
+  font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.5rem; color: #fff;
+}
+.owner-avatar img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.owner-avatar.lg { width: 88px; height: 88px; border-width: 3px; }
+.owner-avatar.lg::after { font-size: 2.2rem; }
+
+/* ---------------- OWNER PORTFOLIOS ---------------- */
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(248px, 1fr)); gap: 14px; }
+.portfolio-card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-top: 4px solid var(--c, var(--blue-br)); border-radius: var(--radius);
+  padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 12px;
+}
+.pf-head { display: flex; align-items: center; gap: 14px; }
+.pf-id { display: flex; flex-direction: column; gap: 3px; }
+.pf-name { font-family: "Oswald", sans-serif; text-transform: uppercase; font-weight: 700; font-size: 1.4rem; line-height: 1; }
+.pf-sub { font-size: .74rem; color: var(--muted); font-weight: 600; letter-spacing: .02em; }
+.pf-teams { display: flex; flex-direction: column; }
+.pf-team {
+  display: grid; grid-template-columns: 30px 1fr auto auto; align-items: center; gap: 10px;
+  padding: 6px 2px; border-top: 1px solid var(--line-soft); font-size: .85rem;
+}
+.pf-team:first-child { border-top: 0; }
+.pf-team-name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pf-team-rec { font-size: .72rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pf-team-pts { font-family: "Oswald", sans-serif; font-weight: 700; font-variant-numeric: tabular-nums; min-width: 18px; text-align: right; }
 .rank-row:last-child { border-bottom: 0; }
 .rank-row .rk { font-family: "Oswald", sans-serif; font-size: 1.25rem; font-weight: 700; color: var(--muted); text-align: center; }
 .rank-row.first .rk { color: var(--gold); }

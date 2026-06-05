@@ -9,6 +9,22 @@ const OWNER_COLORS = {
 };
 const ownerColor = (o) => OWNER_COLORS[o] || "#8b919c";
 
+// AI manager portraits (Nano Banana). Owners without one fall back to an
+// initials circle; add the file + an entry here once their reference is generated.
+const OWNER_PORTRAITS = {
+  Zach:  "assets/portraits/zach_1.jpg",   // José Mourinho
+  Devin: "assets/portraits/devin_1.jpg",  // Ted Lasso
+  // Gunner: "assets/portraits/gunner_1.jpg",  // Jesse Marsch — pending reference photo
+  // Gayden: "assets/portraits/gayden_1.jpg",  // Pep Guardiola — pending reference photo
+};
+function avatar(owner, cls = "") {
+  const c = ownerColor(owner);
+  const src = OWNER_PORTRAITS[owner];
+  const img = src ? `<img src="${src}" alt="${esc(owner)}" loading="lazy"
+                       onerror="this.style.display='none'">` : "";
+  return `<span class="owner-avatar ${cls}" style="--c:${c}" data-initial="${esc(owner[0])}">${img}</span>`;
+}
+
 async function loadJSON(path) {
   const res = await fetch(path + "?v=" + Date.now());
   if (!res.ok) throw new Error(`${path}: ${res.status}`);
@@ -121,6 +137,7 @@ function renderStandings(doc) {
       <div class="rank-row ${r.rank === 1 ? "first" : ""}">
         <div class="rk">${r.rank}</div>
         <div class="arrow ${trend}">${arrow}</div>
+        ${avatar(r.owner)}
         <div class="owner-cell">
           <span class="owner-name" style="color:${c}">${esc(r.owner)}</span>
           <span class="owner-sub">${esc(sub)}</span>
@@ -131,6 +148,37 @@ function renderStandings(doc) {
         </div>
       </div>`;
   }).join("");
+}
+
+/* ---------- OWNER PORTFOLIOS ---------- */
+function renderPortfolios(standings, teamTable) {
+  const box = el("owner-portfolios");
+  box.classList.remove("loading");
+  const byOwner = {};
+  (teamTable.teams || []).forEach((t) => { (byOwner[t.owner] = byOwner[t.owner] || []).push(t); });
+  const ranked = (standings.standings || []);
+  box.innerHTML = `<div class="portfolio-grid">${ranked.map((r) => {
+    const c = ownerColor(r.owner);
+    const teams = (byOwner[r.owner] || []).sort((a, b) => (a.tier || 9) - (b.tier || 9));
+    const rows = teams.map((t) => `
+      <div class="pf-team">
+        <span class="tier tier-${t.tier}">T${t.tier}</span>
+        <span class="pf-team-name">${esc(t.team)}</span>
+        <span class="pf-team-rec">${t.W}-${t.D}-${t.L}</span>
+        <span class="pf-team-pts">${t.points}</span>
+      </div>`).join("");
+    return `
+      <div class="portfolio-card" style="--c:${c}">
+        <div class="pf-head">
+          ${avatar(r.owner, "lg")}
+          <div class="pf-id">
+            <span class="pf-name" style="color:${c}">${esc(r.owner)}</span>
+            <span class="pf-sub">Rank #${r.rank} · ${r.total_points} pts</span>
+          </div>
+        </div>
+        <div class="pf-teams">${rows}</div>
+      </div>`;
+  }).join("")}</div>`;
 }
 
 /* ---------- DRAFTED TEAMS TABLE ---------- */
@@ -227,6 +275,7 @@ async function main() {
     ]);
 
     renderStandings(standings);
+    renderPortfolios(standings, teams);
     renderTeams(teams);
     renderResults(daily);
     renderTicker(flattenMatches(daily));
