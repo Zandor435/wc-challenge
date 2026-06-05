@@ -1,9 +1,946 @@
 {
   "meta": {
-    "total_predictions": 0,
+    "total_predictions": 72,
     "scored": 0,
     "brier_score": null,
     "correct_winner_pct": null
   },
-  "predictions": []
+  "predictions": [
+    {
+      "date": "2026-06-11",
+      "match_id": "grp_A_1",
+      "team1": "Mexico",
+      "team2": "South Africa",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5057,
+        "draw": 0.2334,
+        "team2_win": 0.2609
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-11",
+      "match_id": "grp_A_2",
+      "team1": "Korea Republic",
+      "team2": "Czechia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4029,
+        "draw": 0.2581,
+        "team2_win": 0.339
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-12",
+      "match_id": "grp_B_1",
+      "team1": "Canada",
+      "team2": "Bosnia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4029,
+        "draw": 0.2581,
+        "team2_win": 0.339
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-12",
+      "match_id": "grp_D_1",
+      "team1": "USA",
+      "team2": "Paraguay",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4742,
+        "draw": 0.2434,
+        "team2_win": 0.2825
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-13",
+      "match_id": "grp_B_2",
+      "team1": "Qatar",
+      "team2": "Switzerland",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2247,
+        "draw": 0.211,
+        "team2_win": 0.5644
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-13",
+      "match_id": "grp_C_1",
+      "team1": "Brazil",
+      "team2": "Morocco",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5057,
+        "draw": 0.2334,
+        "team2_win": 0.2609
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-13",
+      "match_id": "grp_C_2",
+      "team1": "Haiti",
+      "team2": "Scotland",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1848,
+        "draw": 0.1783,
+        "team2_win": 0.637
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-13",
+      "match_id": "grp_D_2",
+      "team1": "Australia",
+      "team2": "Turkey",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3052,
+        "draw": 0.2512,
+        "team2_win": 0.4436
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-14",
+      "match_id": "grp_E_1",
+      "team1": "Germany",
+      "team2": "Curacao",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.8731,
+        "draw": 0.0555,
+        "team2_win": 0.0714
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-14",
+      "match_id": "grp_E_2",
+      "team1": "Ivory Coast",
+      "team2": "Ecuador",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.339,
+        "draw": 0.2581,
+        "team2_win": 0.4029
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-14",
+      "match_id": "grp_F_1",
+      "team1": "Netherlands",
+      "team2": "Japan",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4867,
+        "draw": 0.2396,
+        "team2_win": 0.2737
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-14",
+      "match_id": "grp_F_2",
+      "team1": "Sweden",
+      "team2": "Tunisia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4377,
+        "draw": 0.2525,
+        "team2_win": 0.3099
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-15",
+      "match_id": "grp_G_1",
+      "team1": "Belgium",
+      "team2": "Egypt",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5644,
+        "draw": 0.211,
+        "team2_win": 0.2247
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-15",
+      "match_id": "grp_G_2",
+      "team1": "Iran",
+      "team2": "New Zealand",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5446,
+        "draw": 0.219,
+        "team2_win": 0.2364
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-15",
+      "match_id": "grp_H_1",
+      "team1": "Spain",
+      "team2": "Cape Verde",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.8225,
+        "draw": 0.0825,
+        "team2_win": 0.095
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-15",
+      "match_id": "grp_H_2",
+      "team1": "Saudi Arabia",
+      "team2": "Uruguay",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1649,
+        "draw": 0.1593,
+        "team2_win": 0.6758
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-16",
+      "match_id": "grp_I_1",
+      "team1": "France",
+      "team2": "Senegal",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5512,
+        "draw": 0.2164,
+        "team2_win": 0.2324
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-16",
+      "match_id": "grp_I_2",
+      "team1": "Iraq",
+      "team2": "Norway",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1952,
+        "draw": 0.1876,
+        "team2_win": 0.6172
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-16",
+      "match_id": "grp_J_1",
+      "team1": "Argentina",
+      "team2": "Algeria",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.663,
+        "draw": 0.1656,
+        "team2_win": 0.1714
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-16",
+      "match_id": "grp_J_2",
+      "team1": "Austria",
+      "team2": "Jordan",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5974,
+        "draw": 0.1966,
+        "team2_win": 0.206
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-17",
+      "match_id": "grp_K_1",
+      "team1": "Portugal",
+      "team2": "DR Congo",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.701,
+        "draw": 0.1466,
+        "team2_win": 0.1525
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-17",
+      "match_id": "grp_K_2",
+      "team1": "Uzbekistan",
+      "team2": "Colombia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1987,
+        "draw": 0.1906,
+        "team2_win": 0.6106
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-17",
+      "match_id": "grp_L_1",
+      "team1": "England",
+      "team2": "Croatia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4804,
+        "draw": 0.2415,
+        "team2_win": 0.278
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-17",
+      "match_id": "grp_L_2",
+      "team1": "Ghana",
+      "team2": "Panama",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4436,
+        "draw": 0.2512,
+        "team2_win": 0.3052
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-18",
+      "match_id": "grp_A_3",
+      "team1": "Czechia",
+      "team2": "South Africa",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4201,
+        "draw": 0.2557,
+        "team2_win": 0.3242
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-18",
+      "match_id": "grp_A_4",
+      "team1": "Mexico",
+      "team2": "Korea Republic",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4143,
+        "draw": 0.2566,
+        "team2_win": 0.3291
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-18",
+      "match_id": "grp_B_3",
+      "team1": "Switzerland",
+      "team2": "Bosnia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.468,
+        "draw": 0.2451,
+        "team2_win": 0.2869
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-18",
+      "match_id": "grp_B_4",
+      "team1": "Canada",
+      "team2": "Qatar",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.493,
+        "draw": 0.2376,
+        "team2_win": 0.2694
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-19",
+      "match_id": "grp_C_3",
+      "team1": "Scotland",
+      "team2": "Morocco",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2567,
+        "draw": 0.2312,
+        "team2_win": 0.5122
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-19",
+      "match_id": "grp_C_4",
+      "team1": "Brazil",
+      "team2": "Haiti",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.8839,
+        "draw": 0.0498,
+        "team2_win": 0.0663
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-19",
+      "match_id": "grp_D_3",
+      "team1": "USA",
+      "team2": "Australia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.468,
+        "draw": 0.2451,
+        "team2_win": 0.2869
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-19",
+      "match_id": "grp_D_4",
+      "team1": "Turkey",
+      "team2": "Paraguay",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4497,
+        "draw": 0.2498,
+        "team2_win": 0.3005
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-20",
+      "match_id": "grp_E_3",
+      "team1": "Germany",
+      "team2": "Ivory Coast",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5776,
+        "draw": 0.2054,
+        "team2_win": 0.2171
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-20",
+      "match_id": "grp_E_4",
+      "team1": "Ecuador",
+      "team2": "Curacao",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.7373,
+        "draw": 0.1278,
+        "team2_win": 0.1349
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-20",
+      "match_id": "grp_F_3",
+      "team1": "Netherlands",
+      "team2": "Sweden",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5381,
+        "draw": 0.2216,
+        "team2_win": 0.2404
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-20",
+      "match_id": "grp_F_4",
+      "team1": "Tunisia",
+      "team2": "Japan",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2737,
+        "draw": 0.2396,
+        "team2_win": 0.4867
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-21",
+      "match_id": "grp_G_3",
+      "team1": "Belgium",
+      "team2": "Iran",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5578,
+        "draw": 0.2137,
+        "team2_win": 0.2285
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-21",
+      "match_id": "grp_G_4",
+      "team1": "New Zealand",
+      "team2": "Egypt",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2404,
+        "draw": 0.2216,
+        "team2_win": 0.5381
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-21",
+      "match_id": "grp_H_3",
+      "team1": "Spain",
+      "team2": "Saudi Arabia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.8178,
+        "draw": 0.085,
+        "team2_win": 0.0972
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-21",
+      "match_id": "grp_H_4",
+      "team1": "Uruguay",
+      "team2": "Cape Verde",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.6821,
+        "draw": 0.1561,
+        "team2_win": 0.1618
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-22",
+      "match_id": "grp_I_3",
+      "team1": "France",
+      "team2": "Iraq",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.7928,
+        "draw": 0.0984,
+        "team2_win": 0.1088
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-22",
+      "match_id": "grp_I_4",
+      "team1": "Norway",
+      "team2": "Senegal",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3754,
+        "draw": 0.2599,
+        "team2_win": 0.3647
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-22",
+      "match_id": "grp_J_3",
+      "team1": "Argentina",
+      "team2": "Austria",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.6304,
+        "draw": 0.1814,
+        "team2_win": 0.1882
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-22",
+      "match_id": "grp_J_4",
+      "team1": "Jordan",
+      "team2": "Algeria",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2247,
+        "draw": 0.211,
+        "team2_win": 0.5644
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-23",
+      "match_id": "grp_K_3",
+      "team1": "Portugal",
+      "team2": "Uzbekistan",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.7072,
+        "draw": 0.1434,
+        "team2_win": 0.1495
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-23",
+      "match_id": "grp_K_4",
+      "team1": "Colombia",
+      "team2": "DR Congo",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.604,
+        "draw": 0.1936,
+        "team2_win": 0.2023
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-23",
+      "match_id": "grp_L_3",
+      "team1": "England",
+      "team2": "Ghana",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.6694,
+        "draw": 0.1625,
+        "team2_win": 0.1681
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-23",
+      "match_id": "grp_L_4",
+      "team1": "Panama",
+      "team2": "Croatia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1882,
+        "draw": 0.1814,
+        "team2_win": 0.6304
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-24",
+      "match_id": "grp_A_5",
+      "team1": "Czechia",
+      "team2": "Mexico",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3005,
+        "draw": 0.2498,
+        "team2_win": 0.4497
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-24",
+      "match_id": "grp_A_6",
+      "team1": "South Africa",
+      "team2": "Korea Republic",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2959,
+        "draw": 0.2483,
+        "team2_win": 0.4557
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-24",
+      "match_id": "grp_B_5",
+      "team1": "Switzerland",
+      "team2": "Canada",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4318,
+        "draw": 0.2537,
+        "team2_win": 0.3146
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-24",
+      "match_id": "grp_B_6",
+      "team1": "Bosnia",
+      "team2": "Qatar",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4557,
+        "draw": 0.2483,
+        "team2_win": 0.2959
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-24",
+      "match_id": "grp_C_5",
+      "team1": "Scotland",
+      "team2": "Brazil",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1714,
+        "draw": 0.1656,
+        "team2_win": 0.663
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-24",
+      "match_id": "grp_C_6",
+      "team1": "Morocco",
+      "team2": "Haiti",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.7823,
+        "draw": 0.104,
+        "team2_win": 0.1137
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-25",
+      "match_id": "grp_D_5",
+      "team1": "Turkey",
+      "team2": "USA",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3491,
+        "draw": 0.2592,
+        "team2_win": 0.3917
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-25",
+      "match_id": "grp_D_6",
+      "team1": "Paraguay",
+      "team2": "Australia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3647,
+        "draw": 0.2599,
+        "team2_win": 0.3754
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-25",
+      "match_id": "grp_E_5",
+      "team1": "Ecuador",
+      "team2": "Germany",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2404,
+        "draw": 0.2216,
+        "team2_win": 0.5381
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-25",
+      "match_id": "grp_E_6",
+      "team1": "Curacao",
+      "team2": "Ivory Coast",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1525,
+        "draw": 0.1466,
+        "team2_win": 0.701
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-25",
+      "match_id": "grp_F_5",
+      "team1": "Japan",
+      "team2": "Sweden",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.4143,
+        "draw": 0.2566,
+        "team2_win": 0.3291
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-25",
+      "match_id": "grp_F_6",
+      "team1": "Tunisia",
+      "team2": "Netherlands",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1952,
+        "draw": 0.1876,
+        "team2_win": 0.6172
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-26",
+      "match_id": "grp_G_5",
+      "team1": "Egypt",
+      "team2": "Iran",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3647,
+        "draw": 0.2599,
+        "team2_win": 0.3754
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-26",
+      "match_id": "grp_G_6",
+      "team1": "New Zealand",
+      "team2": "Belgium",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1322,
+        "draw": 0.1247,
+        "team2_win": 0.7431
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-26",
+      "match_id": "grp_H_5",
+      "team1": "Cape Verde",
+      "team2": "Saudi Arabia",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3647,
+        "draw": 0.2599,
+        "team2_win": 0.3754
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-26",
+      "match_id": "grp_H_6",
+      "team1": "Uruguay",
+      "team2": "Spain",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2525,
+        "draw": 0.2289,
+        "team2_win": 0.5186
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-26",
+      "match_id": "grp_I_5",
+      "team1": "Norway",
+      "team2": "France",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2364,
+        "draw": 0.219,
+        "team2_win": 0.5446
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-26",
+      "match_id": "grp_I_6",
+      "team1": "Senegal",
+      "team2": "Iraq",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.6106,
+        "draw": 0.1906,
+        "team2_win": 0.1987
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-27",
+      "match_id": "grp_J_5",
+      "team1": "Algeria",
+      "team2": "Austria",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.344,
+        "draw": 0.2587,
+        "team2_win": 0.3973
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-27",
+      "match_id": "grp_J_6",
+      "team1": "Jordan",
+      "team2": "Argentina",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.0865,
+        "draw": 0.0727,
+        "team2_win": 0.8407
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-27",
+      "match_id": "grp_K_5",
+      "team1": "Colombia",
+      "team2": "Portugal",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.2959,
+        "draw": 0.2483,
+        "team2_win": 0.4557
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-27",
+      "match_id": "grp_K_6",
+      "team1": "DR Congo",
+      "team2": "Uzbekistan",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.3754,
+        "draw": 0.2599,
+        "team2_win": 0.3647
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-27",
+      "match_id": "grp_L_5",
+      "team1": "Panama",
+      "team2": "England",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.1294,
+        "draw": 0.1217,
+        "team2_win": 0.7489
+      },
+      "actual": null
+    },
+    {
+      "date": "2026-06-27",
+      "match_id": "grp_L_6",
+      "team1": "Croatia",
+      "team2": "Ghana",
+      "stage": "group",
+      "predicted": {
+        "team1_win": 0.5446,
+        "draw": 0.219,
+        "team2_win": 0.2364
+      },
+      "actual": null
+    }
+  ]
 }
