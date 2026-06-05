@@ -45,6 +45,17 @@ jobs:
         # alone; the committed preseason Day-0 entry stays as the chart's origin.
         run: |
           python win_probability.py --results data/live_results.json --skip-if-empty
+      - name: Update player goals (Golden Boot)
+        # Pulls goal events (scratch --out, so live_results.json and the win-prob
+        # step above are untouched) into data/goals.json, then aggregates scorers
+        # on drafted teams into site/data/player_goals.json. continue-on-error so a
+        # goals fetch / quota hiccup can never block the standings+timeline commit.
+        continue-on-error: true
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --with-goals --out data/_goals_scratch.json
+          python player_goals.py --goals data/goals.json --out site/data/player_goals.json
       - name: Generate pundit commentary
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

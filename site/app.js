@@ -12,10 +12,10 @@ const ownerColor = (o) => OWNER_COLORS[o] || "#8b919c";
 // AI manager portraits (Nano Banana). Owners without one fall back to an
 // initials circle; add the file + an entry here once their reference is generated.
 const OWNER_PORTRAITS = {
-  Zach:  "assets/portraits/zach_1.jpg",   // José Mourinho
-  Devin: "assets/portraits/devin_1.jpg",  // Ted Lasso
-  // Gunner: "assets/portraits/gunner_1.jpg",  // Jesse Marsch — pending reference photo
-  // Gayden: "assets/portraits/gayden_1.jpg",  // Pep Guardiola — pending reference photo
+  Zach:   "assets/portraits/zach_1.jpg",   // José Mourinho
+  Devin:  "assets/portraits/devin_1.jpg",  // Ted Lasso
+  Gunner: "assets/portraits/gunner_1.jpg", // Jesse Marsch
+  Gayden: "assets/portraits/gayden_1.jpg", // Pep Guardiola
 };
 function avatar(owner, cls = "") {
   const c = ownerColor(owner);
@@ -23,6 +23,33 @@ function avatar(owner, cls = "") {
   const img = src ? `<img src="${src}" alt="${esc(owner)}" loading="lazy"
                        onerror="this.style.display='none'">` : "";
   return `<span class="owner-avatar ${cls}" style="--c:${c}" data-initial="${esc(owner[0])}">${img}</span>`;
+}
+
+/* ---------- TEAM FLAGS ----------
+   Canonical team name -> ISO 3166-1 alpha-2 code (flagcdn). Keys match the
+   canonical forms produced by team_aliases.json / tiers.json. England, Scotland,
+   and Wales use GB sub-region codes. An unmapped name yields no flag. */
+const TEAM_FLAGS = {
+  Argentina: "ar", Brazil: "br", France: "fr", Spain: "es", Portugal: "pt",
+  Germany: "de", Netherlands: "nl", Belgium: "be", Uruguay: "uy",
+  Colombia: "co", Croatia: "hr", Morocco: "ma", Japan: "jp",
+  Switzerland: "ch", Austria: "at", Norway: "no", Sweden: "se",
+  Senegal: "sn", "Ivory Coast": "ci", Mexico: "mx", USA: "us", Ecuador: "ec",
+  Turkey: "tr", Czechia: "cz", Bosnia: "ba", Egypt: "eg", Tunisia: "tn",
+  Algeria: "dz", "South Africa": "za", Ghana: "gh", Australia: "au",
+  "Korea Republic": "kr", Canada: "ca", Paraguay: "py", "Cape Verde": "cv",
+  "DR Congo": "cd", Iran: "ir", Uzbekistan: "uz", Jordan: "jo", Qatar: "qa",
+  "Saudi Arabia": "sa", Iraq: "iq", "New Zealand": "nz", Panama: "pa",
+  Haiti: "ht", Curacao: "cw",
+  // GB sub-flags
+  England: "gb-eng", Scotland: "gb-sct", Wales: "gb-wls",
+};
+function flag(team) {
+  const code = TEAM_FLAGS[team];
+  if (!code) return "";
+  return `<img class="flag" src="https://flagcdn.com/24x18/${code}.png" ` +
+         `srcset="https://flagcdn.com/48x36/${code}.png 2x" ` +
+         `width="24" height="18" alt="" loading="lazy" />`;
 }
 
 async function loadJSON(path) {
@@ -66,11 +93,11 @@ function renderTicker(matches) {
       <div class="tick">
         <div class="tick-status">${esc(status)} · ${esc(m.date.slice(5))}</div>
         <div class="tick-row ${homeWin ? "win" : ""}">
-          <span class="tick-team">${esc(m.home)}</span>
+          <span class="tick-team">${flag(m.home)}${esc(m.home)}</span>
           <span class="tick-score">${m.home_score}</span>
         </div>
         <div class="tick-row ${awayWin ? "win" : ""}">
-          <span class="tick-team">${esc(m.away)}</span>
+          <span class="tick-team">${flag(m.away)}${esc(m.away)}</span>
           <span class="tick-score">${m.away_score}</span>
         </div>
         ${ptsHTML}
@@ -150,6 +177,70 @@ function renderStandings(doc) {
   }).join("");
 }
 
+/* ---------- WIN PROBABILITY CHART ---------- */
+let winprobChart = null;
+function winprobEmpty(msg) {
+  const c = el("winprob-chart");
+  if (c && c.parentElement) c.parentElement.innerHTML = `<div class="news-empty"><p>${esc(msg)}</p></div>`;
+}
+function renderWinProb(timeline) {
+  const canvas = el("winprob-chart");
+  if (!canvas) return;
+  const entries = (Array.isArray(timeline) ? [...timeline] : [])
+    .sort((a, b) => String(a.date).localeCompare(String(b.date)) || (a.matchday || 0) - (b.matchday || 0));
+  if (!entries.length) { winprobEmpty("Win probability populates once the engine runs."); return; }
+  if (typeof Chart === "undefined") { winprobEmpty("Chart library unavailable."); return; }
+
+  // owners: canonical color order first, then any extras seen in the data
+  const seen = new Set();
+  entries.forEach((e) => Object.keys(e.win_probability || {}).forEach((o) => seen.add(o)));
+  const owners = [
+    ...Object.keys(OWNER_COLORS).filter((o) => seen.has(o)),
+    ...[...seen].filter((o) => !(o in OWNER_COLORS)),
+  ];
+  const xlabel = (e) => (e.label === "preseason" || e.matchday === 0)
+    ? "Preseason" : (e.date ? e.date.slice(5) : `MD ${e.matchday}`);
+  const labels = entries.map(xlabel);
+  const datasets = owners.map((o) => ({
+    label: o,
+    data: entries.map((e) => (e.win_probability && e.win_probability[o] != null)
+      ? +(e.win_probability[o] * 100).toFixed(1) : null),
+    borderColor: ownerColor(o),
+    backgroundColor: ownerColor(o),
+    borderWidth: 2.5,
+    pointRadius: 4, pointHoverRadius: 6, pointBackgroundColor: ownerColor(o),
+    tension: 0.25, spanGaps: true,
+  }));
+
+  if (el("winprob-meta")) {
+    el("winprob-meta").textContent = entries.length === 1
+      ? "PRESEASON BASELINE" : `THROUGH ${labels[labels.length - 1]}`;
+  }
+  if (winprobChart) winprobChart.destroy();
+  winprobChart = new Chart(canvas, {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { labels: { color: "#cfd3da", usePointStyle: true, pointStyleWidth: 10,
+                            boxHeight: 7, font: { family: "Inter", weight: "600" } } },
+        tooltip: {
+          backgroundColor: "#101218", borderColor: "#262a34", borderWidth: 1,
+          titleColor: "#fff", bodyColor: "#cfd3da",
+          callbacks: { label: (ctx) => ` ${ctx.dataset.label}: ${ctx.parsed.y}%` },
+        },
+      },
+      scales: {
+        x: { grid: { color: "#1d212a" }, ticks: { color: "#8b919c", font: { family: "Inter" } } },
+        y: { min: 0, suggestedMax: 50, grid: { color: "#1d212a" },
+             ticks: { color: "#8b919c", font: { family: "Inter" }, callback: (v) => v + "%" } },
+      },
+    },
+  });
+}
+
 /* ---------- OWNER PORTFOLIOS ---------- */
 function renderPortfolios(standings, teamTable) {
   const box = el("owner-portfolios");
@@ -163,7 +254,7 @@ function renderPortfolios(standings, teamTable) {
     const rows = teams.map((t) => `
       <div class="pf-team">
         <span class="tier tier-${t.tier}">T${t.tier}</span>
-        <span class="pf-team-name">${esc(t.team)}</span>
+        <span class="pf-team-name">${flag(t.team)}${esc(t.team)}</span>
         <span class="pf-team-rec">${t.W}-${t.D}-${t.L}</span>
         <span class="pf-team-pts">${t.points}</span>
       </div>`).join("");
@@ -192,7 +283,7 @@ function renderTeams(doc) {
     return `
       <tr>
         <td class="rk-col">${i + 1}</td>
-        <td class="team-name">${esc(t.team)}</td>
+        <td class="team-name">${flag(t.team)}${esc(t.team)}</td>
         <td><span class="owner-pill"><span class="owner-dot" style="background:${c}"></span><span style="color:${c}">${esc(t.owner)}</span></span></td>
         <td><span class="tier tier-${t.tier}">T${t.tier}</span></td>
         <td class="num">${t.W}</td>
@@ -227,8 +318,8 @@ function renderResults(daily) {
       return `
         <div class="match-card">
           <div class="match-stage">${esc(stage)} · ${esc(m.date.slice(5))}</div>
-          <div class="match-line ${homeWin ? "win" : ""}"><span class="mt">${esc(m.home)}</span><span class="ms">${m.home_score}</span></div>
-          <div class="match-line ${awayWin ? "win" : ""}"><span class="mt">${esc(m.away)}</span><span class="ms">${m.away_score}</span></div>
+          <div class="match-line ${homeWin ? "win" : ""}"><span class="mt">${flag(m.home)}${esc(m.home)}</span><span class="ms">${m.home_score}</span></div>
+          <div class="match-line ${awayWin ? "win" : ""}"><span class="mt">${flag(m.away)}${esc(m.away)}</span><span class="ms">${m.away_score}</span></div>
           ${ptsHTML}
         </div>`;
     }).join("");
@@ -258,7 +349,7 @@ function renderGoldenBoot(doc) {
         <div class="boot-rk">${r.rank}</div>
         <div class="boot-who">
           <span class="boot-player">${esc(r.player)}</span>
-          <span class="boot-meta">${esc(r.team)} · <b style="color:${c}">${esc(r.owner)}</b></span>
+          <span class="boot-meta">${flag(r.team)}${esc(r.team)} · <b style="color:${c}">${esc(r.owner)}</b></span>
         </div>
         <div class="boot-goals"><span class="ball">⚽</span>${r.goals} ${pens}</div>
       </div>`;
@@ -284,6 +375,9 @@ async function main() {
     el("leaguebar-meta").textContent = `scoring · ${v}`;
     el("foot-rules").textContent = v;
     el("foot-src").textContent = standings.source || "—";
+
+    loadJSON("data/timeline.json").then(renderWinProb)
+      .catch(() => winprobEmpty("Win probability populates once the engine runs."));
 
     loadJSON("data/commentary.json").then(renderRoundtable).catch(warmingUp);
 

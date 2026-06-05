@@ -36,6 +36,18 @@ body {
 a { color: inherit; text-decoration: none; }
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 16px; }
 .loading, .ticker-loading { color: var(--muted); font-size: .85rem; padding: 14px 2px; }
+.flag {
+  display: inline-block;
+  width: 21px;
+  height: 16px;
+  margin-right: 7px;
+  vertical-align: -2px;
+  border-radius: 2px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, .08);
+}
+.boot-meta .flag { width: 16px; height: 12px; margin-right: 5px; vertical-align: -1px; }
+.tick-team .flag { margin-right: 0; }
 
 /* display headers use Oswald, condensed + uppercase */
 h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name {
@@ -355,4 +367,23 @@ td.rk-col { color: var(--muted); font-family: "Oswald", sans-serif; font-weight:
   .hero-title { font-size: 2.8rem; }
   .mainnav { display: none; }
   .leaguebar-meta { display: none; }
+}
+
+/* ---------------- WIN PROBABILITY CHART ---------------- */
+.winprob-wrap {
+  position: relative;
+  height: 340px;
+  padding: 16px 12px 6px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.winprob-note {
+  margin: 10px 2px 0;
+  font-size: .78rem;
+  color: var(--muted-2);
+  line-height: 1.45;
+}
+@media (max-width: 640px) {
+  .winprob-wrap { height: 280px; }
 }

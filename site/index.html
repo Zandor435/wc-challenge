@@ -22,6 +22,7 @@
       </a>
       <nav class="mainnav" aria-label="Primary">
         <a href="#standings" class="active">STANDINGS</a>
+        <a href="#winprob">WIN %</a>
         <a href="#roundtable">ROUNDTABLE</a>
         <a href="#portfolios">OWNERS</a>
         <a href="#teams">TEAMS</a>
@@ -60,6 +61,16 @@
         <div class="hero-leader" id="hero-leader"></div>
       </div>
       <div class="hero-board" id="hero-board"><div class="loading">Loading standings…</div></div>
+    </section>
+
+    <!-- ============ WIN PROBABILITY ============ -->
+    <section class="block" id="winprob">
+      <div class="block-head">
+        <h2>📈 WIN PROBABILITY</h2>
+        <span class="block-more" id="winprob-meta"></span>
+      </div>
+      <div class="winprob-wrap"><canvas id="winprob-chart"></canvas></div>
+      <p class="winprob-note">Each owner's chance of finishing #1, from a 5,000-run Monte Carlo that locks actual results and simulates the rest. Updates after every scoring cycle.</p>
     </section>
 
     <!-- ============ PUNDIT ROUNDTABLE ============ -->
@@ -128,6 +139,7 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
