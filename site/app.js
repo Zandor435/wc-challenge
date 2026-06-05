@@ -259,16 +259,17 @@ function renderPortfolios(standings, teamTable) {
         <span class="pf-team-pts">${t.points}</span>
       </div>`).join("");
     return `
-      <div class="portfolio-card" style="--c:${c}">
+      <a class="portfolio-card" href="bios.html#${encodeURIComponent(r.owner.toLowerCase())}" style="--c:${c}">
         <div class="pf-head">
           ${avatar(r.owner, "lg")}
           <div class="pf-id">
             <span class="pf-name" style="color:${c}">${esc(r.owner)}</span>
             <span class="pf-sub">Rank #${r.rank} · ${r.total_points} pts</span>
           </div>
+          <span class="pf-biolink">BIO →</span>
         </div>
         <div class="pf-teams">${rows}</div>
-      </div>`;
+      </a>`;
   }).join("")}</div>`;
 }
 

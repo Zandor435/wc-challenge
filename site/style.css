@@ -194,7 +194,11 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   border-top: 4px solid var(--c, var(--blue-br)); border-radius: var(--radius);
   padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 12px;
 }
+.portfolio-card { transition: border-color .15s, transform .15s, box-shadow .15s; }
+.portfolio-card:hover { border-color: var(--c, var(--blue-br)); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.4); }
+.portfolio-card:hover .pf-biolink { color: var(--c, var(--blue-br)); opacity: 1; }
 .pf-head { display: flex; align-items: center; gap: 14px; }
+.pf-biolink { margin-left: auto; align-self: flex-start; font-family: "Oswald", sans-serif; font-size: .72rem; font-weight: 700; letter-spacing: .06em; color: var(--muted); opacity: .8; transition: color .15s, opacity .15s; }
 .pf-id { display: flex; flex-direction: column; gap: 3px; }
 .pf-name { font-family: "Oswald", sans-serif; text-transform: uppercase; font-weight: 700; font-size: 1.4rem; line-height: 1; }
 .pf-sub { font-size: .74rem; color: var(--muted); font-weight: 600; letter-spacing: .02em; }
