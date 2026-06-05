@@ -62,6 +62,37 @@ function renderTicker(matches) {
   }).join("");
 }
 
+/* ---------- PUNDIT ROUNDTABLE ---------- */
+const PUNDIT_FALLBACK_COLORS = {
+  "Eric Wynalda": "#e2231a",
+  "Landon Donovan": "#2f6dff",
+  "Clint Dempsey": "#28c060",
+  "Alexi Lalas": "#f4a423",
+};
+function warmingUp() {
+  el("roundtable-cards").classList.remove("loading");
+  el("roundtable-cards").innerHTML = `<div class="roundtable-warming">Pundits are warming up…</div>`;
+}
+function renderRoundtable(doc) {
+  const box = el("roundtable-cards");
+  box.classList.remove("loading");
+  const pundits = (doc && doc.pundits) || [];
+  const live = pundits.filter((p) => p.take && p.take.trim() && p.take.trim() !== "Pundits are warming up...");
+  if (!live.length) { warmingUp(); return; }
+  if (doc.source) el("roundtable-meta").textContent = `SOURCE: ${doc.source}`;
+  box.innerHTML = `<div class="roundtable-grid">${pundits.map((p) => {
+    const color = p.color || PUNDIT_FALLBACK_COLORS[p.name] || "#2f6dff";
+    return `
+      <div class="pundit-card" style="--pundit:${color}">
+        <div class="pundit-head">
+          <span class="pundit-name">${esc(p.name)}</span>
+          ${p.tone ? `<span class="pundit-tone">${esc(p.tone)}</span>` : ""}
+        </div>
+        <p class="pundit-take">${esc(p.take)}</p>
+      </div>`;
+  }).join("")}</div>`;
+}
+
 /* ---------- HERO + STANDINGS BOARD ---------- */
 function renderStandings(doc) {
   const s = doc.standings || [];
@@ -204,6 +235,8 @@ async function main() {
     el("leaguebar-meta").textContent = `scoring · ${v}`;
     el("foot-rules").textContent = v;
     el("foot-src").textContent = standings.source || "—";
+
+    loadJSON("data/commentary.json").then(renderRoundtable).catch(warmingUp);
 
     loadJSON("data/player_goals.json").then(renderGoldenBoot).catch(() => {
       el("player-goals").classList.remove("loading");

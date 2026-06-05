@@ -1,0 +1,30 @@
+{
+  "generated": "2026-06-13T08:00:00Z",
+  "source": "sample_placeholder",
+  "pundits": [
+    {
+      "name": "Eric Wynalda",
+      "take": "Let me make this simple: Gayden is the only one of these four who belongs at the table, and 6 points proves it. Zach at 4 is coasting on a Brazil draw he had nothing to do with. And Devin? Zero points. ZERO. You drafted Haiti and South Africa and then acted surprised when they got beat — that's not bad luck, that's not watching a single match. This is a joke.",
+      "tone": "arrogant",
+      "color": "#e2231a"
+    },
+    {
+      "name": "Landon Donovan",
+      "take": "Look, I think Gayden's having a nice little run, though I'd gently point out he didn't really do anything — Korea Republic and Turkey won in spite of him. And I feel for Devin, I really do, but when you sit at zero and your big swings were South Africa and Haiti... I mean, bless his heart, what conversation was he having with himself on draft night? Gunner means well at 1 point. He does.",
+      "tone": "hedging",
+      "color": "#2f6dff"
+    },
+    {
+      "name": "Clint Dempsey",
+      "take": "Gayden out here at 6 lookin' like he backed himself — credit where it's due, boy's puttin' in work. Meanwhile Devin's sittin' on a goose egg 'cause he drafted Haiti like he got a tip from his fantasy group chat. That's tough, man. Gunner gettin' cooked with that 1 point too — Morocco draw ain't gonna save ya.",
+      "tone": "chill",
+      "color": "#28c060"
+    },
+    {
+      "name": "Alexi Lalas",
+      "take": "Devin. DEVIN. Look at me. You have ZERO points and you want to talk to me about the beautiful game? You drafted Bosnia and Haiti and called it a strategy. Let me tell you something — Gayden's 6 points isn't greatness, it's the bare minimum, and the rest of you should be embarrassed to share a group chat with him. This is what a lack of preparation looks like, gentlemen. Mic drop.",
+      "tone": "bombastic",
+      "color": "#f4a423"
+    }
+  ]
+}

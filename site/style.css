@@ -175,6 +175,40 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .rank-row .owner-pts { font-family: "Oswald", sans-serif; font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 .bar-tab { width: 4px; align-self: stretch; border-radius: 2px; }
 
+/* ---------------- PUNDIT ROUNDTABLE ---------------- */
+.roundtable-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(248px, 1fr)); gap: 14px;
+}
+.pundit-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--pundit, var(--blue-br));
+  border-radius: var(--radius);
+  padding: 14px 16px 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.pundit-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.pundit-name {
+  font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .02em;
+  font-weight: 700; font-size: 1.08rem; color: #fff;
+}
+.pundit-tone {
+  font-size: .58rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  color: #fff; background: var(--pundit, var(--blue-br));
+  padding: 3px 7px; border-radius: 3px; opacity: .92;
+}
+.pundit-take { font-size: .9rem; line-height: 1.5; color: #d7dbe2; }
+.pundit-card::before {
+  content: "\201C"; position: absolute; top: 4px; right: 12px;
+  font-family: Georgia, serif; font-size: 2.4rem; line-height: 1; color: var(--line); opacity: .8;
+}
+.roundtable-warming {
+  border: 1px dashed var(--line); border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--surface), var(--bg-soft));
+  padding: 26px 22px; text-align: center; color: var(--muted); font-size: .95rem;
+}
+
 /* ---------------- CONTENT BLOCKS ---------------- */
 .block { margin: 0 0 34px; }
 .block-head {

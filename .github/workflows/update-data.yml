@@ -36,11 +36,16 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           python scripts/build.py --fetch --season "${{ github.event.inputs.season || '2026' }}"
+      - name: Generate pundit commentary
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python generate_commentary.py --model gpt-4o --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
       - name: Commit refreshed data if changed
         run: |
           git config user.name  "wc-challenge-bot"
           git config user.email "actions@github.com"
-          git add site/data/*.json
+          git add site/data/*.json commentary.json
           if git diff --staged --quiet; then
             echo "No standings changes."
           else
