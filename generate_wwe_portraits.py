@@ -28,9 +28,11 @@ REF_DIR = os.path.join(HERE, "assets", "reference")
 OUT_DIR = os.path.join(HERE, "assets", "portraits", "wwe")
 MODEL = "gemini-2.5-flash-image"
 
-_LIKENESS = ("Preserve his real face, facial features, hair, skin tone, and body "
-             "build from the reference photo(s) so he is unmistakably recognizable as "
-             "the same man. ")
+_LIKENESS = ("CRITICAL: keep the EXACT same face as the reference photo(s) — same eyes, "
+             "nose, mouth, jawline, eyebrows, face shape, hairline, skin tone and overall "
+             "likeness — so he is immediately recognizable as that specific man. Do NOT "
+             "invent a generic face or substitute a stock model; this is a portrait of "
+             "THIS exact person in costume, only the wardrobe and setting change. ")
 
 # Shared WWE.com hero-image art direction (The Rock / Cena / Cody Rhodes / Lesnar).
 _WWE = ("Full-body cinematic pro-wrestling promotional portrait in the style of a "
@@ -45,13 +47,14 @@ OWNERS = {
         "persona": "Hulk Hogan",
         "refs": ["zach_ref_pink.jpg"],
         "base": (_WWE + "Render the man from the reference photo(s) as a Hulk Hogan-"
-                 "style wrestling icon: bright yellow tank top mid-tear-away (ripping "
-                 "it off his chest), a yellow bandana tied around his head, a big bushy "
-                 "blonde handlebar horseshoe mustache, deeply tanned and muscular. "
+                 "style wrestling icon: a bright yellow tank top with a torn neckline, a "
+                 "yellow bandana tied around his head, a big bushy blonde handlebar "
+                 "horseshoe mustache, deeply tanned and broad-shouldered, fully clothed. "
                  + _LIKENESS),
         "variations": [
             "Cupping one hand to his ear, head cocked toward a roaring crowd, mouth open in a shout.",
-            "Both arms flexed in a double bicep pose, shirt shredded across his chest, defiant stare.",
+            "Both arms raised in a double bicep flex, yellow tank top straining, defiant roaring stare.",
+            "Pointing a finger straight at the camera with a wild grin, gripping the collar of the yellow tank top with the other hand.",
         ],
     },
     "gunner": {
@@ -69,7 +72,7 @@ OWNERS = {
     },
     "gayden": {
         "persona": "Legion of Doom / Road Warrior",
-        "refs": ["gayden_ref.jpg", "gayden_ref2.jpg"],
+        "refs": ["gayden_ref.jpg"],
         "base": (_WWE + "Render the man from the reference photo(s) as a Legion of "
                  "Doom / Road Warrior-style wrestling icon: massive black spiked metal "
                  "shoulder pads, aggressive black-and-silver face paint streaked across "
@@ -78,6 +81,7 @@ OWNERS = {
         "variations": [
             "Fists clenched at his sides, shoulders squared, glaring straight down the lens through the smoke.",
             "One spiked shoulder dropped toward the camera mid-roar, arms flexed, pyro erupting behind him.",
+            "Arms crossed over his chest, chin lowered, a cold menacing stare straight into the camera.",
         ],
     },
     "devin": {
@@ -124,7 +128,12 @@ def load_refs(cfg):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", choices=list(OWNERS), help="generate just one owner")
-    ap.add_argument("--max", type=int, default=2, help="variations per owner")
+    ap.add_argument("--start", type=int, default=1,
+                    help="first output index; use to avoid overwriting existing variations")
+    ap.add_argument("--count", type=int, default=None,
+                    help="how many variations to generate (default: all poses)")
+    ap.add_argument("--no-canonical", action="store_true",
+                    help="do not (re)write <name>_wwe.jpg (lets the user pick later)")
     ap.add_argument("--canonical-only", action="store_true",
                     help="just (re)copy <name>_wwe_1.jpg to <name>_wwe.jpg")
     args = ap.parse_args()
@@ -159,44 +168,48 @@ def main():
             continue
         print(f"[gen ] {mgr} as {cfg['persona']} — {len(refs)} reference photo(s)")
 
-        for i, variation in enumerate(cfg["variations"][: args.max], 1):
+        poses = cfg["variations"]
+        count = args.count if args.count is not None else len(poses)
+        for j in range(count):
+            variation = poses[j % len(poses)]
+            idx = args.start + j  # output filename index <name>_wwe_<idx>.jpg
             prompt = f"{cfg['base']} {variation}"
             contents = [prompt] + refs
             try:
                 resp = client.models.generate_content(model=MODEL, contents=contents)
             except Exception as e:  # noqa: BLE001
-                print(f"   {mgr}_{i}: API error: {e}", file=sys.stderr)
+                print(f"   {mgr}_{idx}: API error: {e}", file=sys.stderr)
                 continue
             cand = (resp.candidates or [None])[0]
             content = getattr(cand, "content", None) if cand else None
             if not content or not getattr(content, "parts", None):
                 reason = getattr(cand, "finish_reason", "unknown") if cand else "no candidates"
-                print(f"   {mgr}_{i}: empty response (finish_reason={reason}); retrying once...",
+                print(f"   {mgr}_{idx}: empty response (finish_reason={reason}); retrying once...",
                       file=sys.stderr)
                 try:
                     resp = client.models.generate_content(model=MODEL, contents=contents)
                     cand = (resp.candidates or [None])[0]
                     content = getattr(cand, "content", None) if cand else None
                 except Exception as e:  # noqa: BLE001
-                    print(f"   {mgr}_{i}: retry API error: {e}", file=sys.stderr)
+                    print(f"   {mgr}_{idx}: retry API error: {e}", file=sys.stderr)
                 if not content or not getattr(content, "parts", None):
-                    print(f"   {mgr}_{i}: still empty, skipping.", file=sys.stderr)
+                    print(f"   {mgr}_{idx}: still empty, skipping.", file=sys.stderr)
                     continue
             saved = False
             for part in content.parts:
                 if getattr(part, "inline_data", None) and part.inline_data.data:
-                    out = os.path.join(OUT_DIR, f"{mgr}_wwe_{i}.jpg")
+                    out = os.path.join(OUT_DIR, f"{mgr}_wwe_{idx}.jpg")
                     with open(out, "wb") as f:
                         f.write(part.inline_data.data)
                     print(f"   wrote {out} ({len(part.inline_data.data)//1024} KB)")
                     made.append(out)
-                    if i == 1:  # canonical default = variation 1
+                    if idx == 1 and not args.no_canonical:  # canonical default = variation 1
                         shutil.copyfile(out, os.path.join(OUT_DIR, f"{mgr}_wwe.jpg"))
                     saved = True
                     break
             if not saved:
                 txt = "".join(getattr(p, "text", "") or "" for p in content.parts)
-                print(f"   {mgr}_{i}: no image returned. {txt[:160]}", file=sys.stderr)
+                print(f"   {mgr}_{idx}: no image returned. {txt[:160]}", file=sys.stderr)
 
     print(f"\nDone. {len(made)} image(s) written to assets/portraits/wwe/.")
     if skipped:
