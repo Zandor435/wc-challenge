@@ -1,0 +1,103 @@
+{
+  "generated": "",
+  "rules_version": "rebalanced_v3",
+  "tournament": "FIFA World Cup 2026",
+  "source": "preseason",
+  "phase": {
+    "current_round": "Preseason",
+    "is_preseason": true,
+    "matchdays_played": 0,
+    "matches_played": 0,
+    "matches_remaining": 104,
+    "matches_total": 104,
+    "eliminated_teams": []
+  },
+  "owners": {
+    "Zach": {
+      "rank": 4,
+      "rank_change_from_prev_day": 0,
+      "total_points": 0,
+      "points_today": 0,
+      "record": {
+        "W": 0,
+        "D": 0,
+        "L": 0
+      },
+      "win_probability": 0.22,
+      "champion_probability": 0.11,
+      "streak": {
+        "type": null,
+        "length": 0,
+        "label": "-"
+      },
+      "best_team": null,
+      "worst_team": null
+    },
+    "Gunner": {
+      "rank": 1,
+      "rank_change_from_prev_day": 0,
+      "total_points": 0,
+      "points_today": 0,
+      "record": {
+        "W": 0,
+        "D": 0,
+        "L": 0
+      },
+      "win_probability": 0.3,
+      "champion_probability": 0.15,
+      "streak": {
+        "type": null,
+        "length": 0,
+        "label": "-"
+      },
+      "best_team": null,
+      "worst_team": null
+    },
+    "Gayden": {
+      "rank": 3,
+      "rank_change_from_prev_day": 0,
+      "total_points": 0,
+      "points_today": 0,
+      "record": {
+        "W": 0,
+        "D": 0,
+        "L": 0
+      },
+      "win_probability": 0.23,
+      "champion_probability": 0.11,
+      "streak": {
+        "type": null,
+        "length": 0,
+        "label": "-"
+      },
+      "best_team": null,
+      "worst_team": null
+    },
+    "Devin": {
+      "rank": 2,
+      "rank_change_from_prev_day": 0,
+      "total_points": 0,
+      "points_today": 0,
+      "record": {
+        "W": 0,
+        "D": 0,
+        "L": 0
+      },
+      "win_probability": 0.25,
+      "champion_probability": 0.16,
+      "streak": {
+        "type": null,
+        "length": 0,
+        "label": "-"
+      },
+      "best_team": null,
+      "worst_team": null
+    }
+  },
+  "head_to_head_matrix": {},
+  "head_to_head_log": [],
+  "notable_events": [],
+  "themes": [],
+  "golden_boot_leader": null,
+  "history": []
+}

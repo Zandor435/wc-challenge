@@ -1,24 +1,35 @@
 #!/usr/bin/env python3
-"""Generate the WC Challenge "Pundit Roundtable" commentary via the OpenAI API.
+"""Generate the WC Challenge commentary via the OpenAI API.
 
 Same pattern as fetch_results.py: stdlib only (urllib), reads the committed
-JSON, calls an HTTP API, writes a JSON output.
+JSON, calls an HTTP API, writes the output.
 
-It reads owner_standings.json + daily_results.json (the scoring outputs), then
-calls GPT-4o four times — once per pundit, using each character bio as the system
-prompt and the standings/results/rosters as the user message — and writes
-commentary.json.
+Two products, both written here:
 
-The site is served from site/, so the file is written BOTH to the repo root
-(per the spec) and to site/data/commentary.json (so the static site can fetch it
-at data/commentary.json). Both are committed by the GitHub Action.
+1. Pundit Roundtable (STATELESS) -> commentary.json
+   Calls GPT four times — once per pundit, each character bio as the system
+   prompt and standings/results/rosters as the user message. Regenerated cold
+   every run. Written to the repo root AND site/data/commentary.json.
+
+2. Jim Rome's tournament column (STATEFUL) -> site/data/tournament_recap.md
+   Reads narrative_state.json (the structured accumulator built upstream by
+   build_narrative_state.py) AND the previous tournament_recap.md, feeds both to
+   GPT alongside today's results, and writes the next installment — overwriting
+   the file. The MEMORY accumulates in narrative_state.json; the recap is always
+   just the latest column, building on the one before it.
+
+Pipeline position: runs AFTER build_narrative_state.py (so the narrative context
+is fresh). Both outputs are committed by the GitHub Action.
 
 Usage:
     OPENAI_API_KEY=sk-... python generate_commentary.py
-    python generate_commentary.py --placeholder    # no API call; writes warming-up takes
+    python generate_commentary.py --placeholder      # no API call; writes stubs
+    python generate_commentary.py --recap-only        # only tournament_recap.md
+    python generate_commentary.py --skip-recap        # only commentary.json
     python generate_commentary.py --model gpt-4o --max-tokens 260
 
-Cost: 4 calls/run. ~120 calls over the tournament — pocket change on GPT-4o.
+Cost: 5 calls/run (4 pundits + 1 column). ~150 calls over the tournament —
+pocket change on GPT-4o.
 """
 from __future__ import annotations
 
@@ -144,6 +155,51 @@ PUNDITS = [
 
 PLACEHOLDER_TAKE = "Pundits are warming up..."
 
+# --------------------------------------------------------------------------- #
+# Stateful narrative: Jim Rome's rolling tournament column.
+#
+# Unlike the pundit takes (regenerated cold each run), this column BUILDS on
+# itself. The accumulating memory lives in narrative_state.json (written by
+# build_narrative_state.py upstream); tournament_recap.md is always just the
+# latest installment, and we feed the previous installment back in as context so
+# the story escalates instead of resetting.
+# --------------------------------------------------------------------------- #
+RECAP_PATH = os.path.join(DATA, "tournament_recap.md")
+NARRATIVE_STATE_PATH = os.path.join(DATA, "narrative_state.json")
+
+JIM_ROME_SYSTEM = (
+    "You are Jim Rome covering the WC Challenge. Here is your previous column. "
+    "Here are today's results, updated standings, and narrative context including "
+    "streaks, themes, and notable events. Write the next installment. Build on "
+    "running themes — escalate what's working, drop what's gone stale. "
+    "Reference specific results. Be opinionated about each owner's trajectory. "
+    "Keep it to 200-300 words."
+)
+
+RECAP_USER_TEMPLATE = """PREVIOUS COLUMN (your last installment):
+{previous}
+
+NARRATIVE CONTEXT (structured state — ranks, records, streaks, win probabilities, \
+head-to-head, notable events, running themes, tournament phase):
+{state}
+
+UPDATED STANDINGS:
+{standings}
+
+TODAY'S RESULTS:
+{today}
+
+ROSTERS:
+{rosters}
+
+Write the next installment of your column now. Build on the running themes above, \
+reference specific results and point totals, and stay opinionated about each \
+manager's trajectory. Output the column body only — no title, no byline."""
+
+PLACEHOLDER_RECAP = (
+    "_Jim Rome's column drops once the next slate of matches is in the books._\n"
+)
+
 
 def load_json(path):
     try:
@@ -183,19 +239,102 @@ def write_outputs(doc):
     print("Wrote commentary.json ->", " and ".join(paths))
 
 
+def read_text(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return ""
+
+
+def latest_day(daily):
+    """The most recent day's match block, or None pre-tournament."""
+    if daily and daily.get("days"):
+        return daily["days"][-1]
+    return None
+
+
+def write_recap(text):
+    """Overwrite tournament_recap.md with the latest installment (site/data only)."""
+    os.makedirs(os.path.dirname(RECAP_PATH), exist_ok=True)
+    with open(RECAP_PATH, "w", encoding="utf-8") as f:
+        f.write(text.rstrip() + "\n")
+    print("Wrote tournament_recap.md ->", RECAP_PATH)
+
+
+def generate_pundits(args, api_key, standings, daily):
+    """The original cold-take roundtable -> list of pundit dicts for commentary.json."""
+    if args.placeholder:
+        return [{"name": p["name"], "take": PLACEHOLDER_TAKE,
+                 "tone": p["tone"], "color": p["color"]} for p in PUNDITS]
+
+    user = USER_TEMPLATE.format(
+        standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
+        results=json.dumps(daily, indent=2) if daily else "(no results yet)",
+        rosters=ROSTERS,
+    )
+    out = []
+    for p in PUNDITS:
+        try:
+            take = call_openai(api_key, args.model, p["system"], user,
+                               args.max_tokens, args.temperature)
+        except urllib.error.HTTPError as e:
+            print(f"  {p['name']}: API error {e.code} — using placeholder", file=sys.stderr)
+            take = PLACEHOLDER_TAKE
+        except Exception as e:  # noqa: BLE001 - keep generating the rest
+            print(f"  {p['name']}: {e} — using placeholder", file=sys.stderr)
+            take = PLACEHOLDER_TAKE
+        out.append({"name": p["name"], "take": take, "tone": p["tone"], "color": p["color"]})
+        print(f"  {p['name']}: {take[:70]}...")
+    return out
+
+
+def generate_recap(args, api_key, standings, daily, narrative, previous):
+    """Jim Rome's next installment, built on the previous column + narrative state."""
+    if args.placeholder:
+        return PLACEHOLDER_RECAP
+
+    today = latest_day(daily)
+    user = RECAP_USER_TEMPLATE.format(
+        previous=previous or "(none yet — this is your preseason preview, written before any matches are played)",
+        state=json.dumps(narrative, indent=2) if narrative else "(no narrative state available)",
+        standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
+        today=json.dumps(today, indent=2) if today else "(no matches played yet — preseason)",
+        rosters=ROSTERS,
+    )
+    try:
+        return call_openai(api_key, args.model, JIM_ROME_SYSTEM, user,
+                           args.recap_max_tokens, args.temperature)
+    except urllib.error.HTTPError as e:
+        print(f"  Jim Rome recap: API error {e.code} — keeping previous column", file=sys.stderr)
+    except Exception as e:  # noqa: BLE001
+        print(f"  Jim Rome recap: {e} — keeping previous column", file=sys.stderr)
+    # On failure, never clobber a good column with a stub: keep what we had.
+    return previous or PLACEHOLDER_RECAP
+
+
 def main():
-    ap = argparse.ArgumentParser(description="Generate Pundit Roundtable commentary")
+    ap = argparse.ArgumentParser(description="Generate Pundit Roundtable + Jim Rome narrative")
     ap.add_argument("--model", default="gpt-4o")
-    ap.add_argument("--max-tokens", type=int, default=260)
+    ap.add_argument("--max-tokens", type=int, default=260, help="max tokens per pundit take")
+    ap.add_argument("--recap-max-tokens", type=int, default=600,
+                    help="max tokens for the Jim Rome rolling column (~200-300 words)")
     ap.add_argument("--temperature", type=float, default=0.9)
     ap.add_argument("--placeholder", action="store_true",
-                    help="write 'warming up' placeholder takes without calling the API")
+                    help="write 'warming up' stubs without calling the API")
+    ap.add_argument("--recap-only", action="store_true",
+                    help="only (re)generate tournament_recap.md; leave commentary.json untouched")
+    ap.add_argument("--skip-recap", action="store_true",
+                    help="only generate the pundit commentary.json; leave tournament_recap.md untouched")
     ap.add_argument("--generated", default=None,
                     help="ISO timestamp for the 'generated' field (CI passes one; avoids nondeterminism)")
     args = ap.parse_args()
 
     standings = load_json(os.path.join(DATA, "owner_standings.json"))
     daily = load_json(os.path.join(DATA, "daily_results.json"))
+    # Stateful context: the structured accumulator + the previous installment.
+    narrative = load_json(NARRATIVE_STATE_PATH)
+    previous_recap = read_text(RECAP_PATH)
 
     # derive a source label from the data (falls back gracefully)
     src = "unknown"
@@ -204,43 +343,30 @@ def main():
     elif standings:
         src = standings.get("source", "unknown")
 
-    pundits_out = []
+    do_pundits = not args.recap_only
+    do_recap = not args.skip_recap
 
-    if args.placeholder:
-        for p in PUNDITS:
-            pundits_out.append({"name": p["name"], "take": PLACEHOLDER_TAKE,
-                                "tone": p["tone"], "color": p["color"]})
-    else:
+    # Only the live (non-placeholder) path needs the API key.
+    api_key = None
+    if not args.placeholder and (do_pundits or do_recap):
         api_key = os.environ.get("OPENAI_API_KEY")
         if not api_key:
-            print("ERROR: OPENAI_API_KEY not set. Use --placeholder to write a stub instead.",
+            print("ERROR: OPENAI_API_KEY not set. Use --placeholder to write stubs instead.",
                   file=sys.stderr)
             sys.exit(1)
-        user = USER_TEMPLATE.format(
-            standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
-            results=json.dumps(daily, indent=2) if daily else "(no results yet)",
-            rosters=ROSTERS,
-        )
-        for p in PUNDITS:
-            try:
-                take = call_openai(api_key, args.model, p["system"], user,
-                                   args.max_tokens, args.temperature)
-            except urllib.error.HTTPError as e:
-                print(f"  {p['name']}: API error {e.code} — using placeholder", file=sys.stderr)
-                take = PLACEHOLDER_TAKE
-            except Exception as e:  # noqa: BLE001 - keep generating the rest
-                print(f"  {p['name']}: {e} — using placeholder", file=sys.stderr)
-                take = PLACEHOLDER_TAKE
-            pundits_out.append({"name": p["name"], "take": take,
-                                "tone": p["tone"], "color": p["color"]})
-            print(f"  {p['name']}: {take[:70]}...")
 
-    doc = {
-        "generated": args.generated or "",
-        "source": src,
-        "pundits": pundits_out,
-    }
-    write_outputs(doc)
+    if do_pundits:
+        pundits_out = generate_pundits(args, api_key, standings, daily)
+        write_outputs({
+            "generated": args.generated or "",
+            "source": src,
+            "pundits": pundits_out,
+        })
+
+    if do_recap:
+        recap = generate_recap(args, api_key, standings, daily, narrative, previous_recap)
+        write_recap(recap)
+        print(f"  Jim Rome: {recap.strip()[:70]}...")
 
 
 if __name__ == "__main__":

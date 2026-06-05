@@ -56,7 +56,16 @@ jobs:
         run: |
           python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --with-goals --out data/_goals_scratch.json
           python player_goals.py --goals data/goals.json --out site/data/player_goals.json
-      - name: Generate pundit commentary
+      - name: Build narrative state
+        # Runs AFTER scoring/win-prob/goals, BEFORE commentary. Distils every data
+        # file into site/data/narrative_state.json (streaks, head-to-heads, notable
+        # events, auto-tagged themes, phase context) — the accumulating memory the
+        # stateful commentary engine reads. Stdlib only; no API key needed.
+        run: |
+          python build_narrative_state.py --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+      - name: Generate pundit commentary + Jim Rome column
+        # Reads narrative_state.json (fresh, above) + the previous tournament_recap.md
+        # and writes the next installment, plus the cold-take commentary.json.
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
@@ -65,7 +74,7 @@ jobs:
         run: |
           git config user.name  "wc-challenge-bot"
           git config user.email "actions@github.com"
-          git add site/data/*.json commentary.json
+          git add site/data/*.json site/data/tournament_recap.md commentary.json
           if git diff --staged --quiet; then
             echo "No standings changes."
           else
