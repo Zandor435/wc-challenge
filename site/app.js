@@ -390,31 +390,6 @@ function renderResults(daily) {
   }).join("");
 }
 
-/* ---------- GOLDEN BOOT ---------- */
-function renderGoldenBoot(doc) {
-  const leaders = (doc && doc.leaders) || [];
-  el("goals-src").textContent = doc && doc.source ? `SOURCE: ${doc.source}` : "";
-  const box = el("player-goals");
-  box.classList.remove("loading");
-  if (!leaders.length) {
-    box.innerHTML = `<div class="news-empty"><p>No goals tracked yet — populates once matches are played.</p></div>`;
-    return;
-  }
-  box.innerHTML = `<div class="boot-list">${leaders.map((r) => {
-    const c = ownerColor(r.owner);
-    const pens = r.penalties ? `<span class="boot-pens">${r.penalties} PEN</span>` : "";
-    return `
-      <div class="boot-row ${r.rank === 1 ? "top" : ""}">
-        <div class="boot-rk">${r.rank}</div>
-        <div class="boot-who">
-          <span class="boot-player">${esc(r.player)}</span>
-          <span class="boot-meta">${flag(r.team)}${esc(r.team)} · <b style="color:${c}">${esc(r.owner)}</b></span>
-        </div>
-        <div class="boot-goals"><span class="ball">⚽</span>${r.goals} ${pens}</div>
-      </div>`;
-  }).join("")}</div>`;
-}
-
 /* ---------- BOOT ---------- */
 async function main() {
   try {
@@ -448,11 +423,6 @@ async function main() {
     loadJSON("data/commentary.json").then(renderPundit).catch(warmingUp);
 
     renderJimRome();
-
-    loadJSON("data/player_goals.json").then(renderGoldenBoot).catch(() => {
-      el("player-goals").classList.remove("loading");
-      el("player-goals").innerHTML = `<div class="news-empty"><p>No goals tracked yet.</p></div>`;
-    });
   } catch (e) {
     console.error(e);
     const sb = el("sidebar-board");
