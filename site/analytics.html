@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WC Challenge — Analytics</title>
+  <meta name="description" content="The numbers behind the WC Challenge: win probability, draft value, rivalries, and how smart the sim was." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23e2231a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='15' font-weight='bold' text-anchor='middle' fill='white'%3EWC%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ TOP NAV ============ -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html" aria-label="WC Challenge home">
+        <span class="brand-mark">WC</span>
+        <span class="brand-word">CHALLENGE</span>
+      </a>
+      <nav class="mainnav" aria-label="Primary">
+        <a href="index.html#standings">STANDINGS</a>
+        <a href="analytics.html#winprob">WIN %</a>
+        <a href="index.html#portfolios">OWNERS</a>
+        <a href="bios.html">BIOS</a>
+        <a href="teams.html">TEAMS</a>
+        <a href="analytics.html" class="active">ANALYTICS</a>
+        <a href="index.html#results">RESULTS</a>
+        <a href="index.html#goldenboot">GOLDEN BOOT</a>
+        <a href="index.html#news">NEWS</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="icon-btn" aria-label="Search">🔍</button>
+        <button class="icon-btn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ LEAGUE BAR ============ -->
+  <div class="leaguebar">
+    <div class="leaguebar-inner">
+      <span class="leaguebar-name">🏆 THE WORLD CUP 2026</span>
+      <span class="leaguebar-meta" id="leaguebar-meta">analytics</span>
+    </div>
+  </div>
+
+  <main class="wrap" style="padding-top:22px">
+
+    <!-- ============ SECTION 1 — THE SCOREBOARD ============ -->
+    <section class="block analytics-section" id="scoreboard">
+      <div class="block-head">
+        <h2>📊 THE SCOREBOARD</h2>
+        <span class="block-more">HOW YOU'RE DOING</span>
+      </div>
+      <blockquote class="rome-quote" id="quote-scoreboard"></blockquote>
+
+      <!-- 1A Win probability -->
+      <div class="subblock" id="winprob">
+        <h3 class="sub-head">📈 Win Probability <span class="sub-meta" id="winprob-meta"></span></h3>
+        <div class="winprob-wrap"><canvas id="winprob-chart"></canvas></div>
+        <p class="winprob-note">Each owner's chance of finishing #1, from a Monte Carlo that locks actual results and simulates the rest. Updates after every scoring cycle.</p>
+      </div>
+
+      <!-- 1B Owner Luck Score -->
+      <div class="subblock">
+        <h3 class="sub-head">🍀 Owner Luck Score</h3>
+        <p class="sub-note">Actual points vs. the sim's projected median (from the latest timeline snapshot). Running hot if you've beaten your 90th-percentile projection; cursed if you're below the 10th.</p>
+        <div class="table-wrap"><div id="luck-table" class="loading">Loading…</div></div>
+      </div>
+
+      <!-- 1C Max Points Remaining -->
+      <div class="subblock">
+        <h3 class="sub-head">🧗 Max Points Remaining</h3>
+        <p class="sub-note">Theoretical ceiling = current points + the most every still-alive team could bank from here. If your ceiling can't reach the leader's <em>current</em> total, it's couch-watch time.</p>
+        <div id="maxpts-list" class="loading">Loading…</div>
+      </div>
+
+      <!-- 1D Elimination Watch -->
+      <div class="subblock">
+        <h3 class="sub-head">💀 Elimination Watch</h3>
+        <p class="sub-note">Teams still alive vs. out, of six. A team is out when it loses a knockout tie or finishes last in a completed group.</p>
+        <div id="elim-grid" class="loading">Loading…</div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 2 — DRAFT REPORT CARD ============ -->
+    <section class="block analytics-section" id="draft">
+      <div class="block-head">
+        <h2>🔥 DRAFT REPORT CARD</h2>
+        <span class="block-more">WAS YOUR DRAFT ANY GOOD</span>
+      </div>
+      <blockquote class="rome-quote" id="quote-draft"></blockquote>
+
+      <!-- 2A Draft Value Index -->
+      <div class="subblock">
+        <h3 class="sub-head">💎 Draft Value Index</h3>
+        <p class="sub-note">Points per tier slot. Green beats the field average for that tier, red trails it. Standouts get tagged.</p>
+        <div class="table-wrap"><div id="dvi-table" class="loading">Loading…</div></div>
+      </div>
+
+      <!-- 2B Points Breakdown by Tier -->
+      <div class="subblock">
+        <h3 class="sub-head">📚 Points Breakdown by Tier</h3>
+        <p class="sub-note">Where each owner's points come from, stacked by the tier slot that earned them.</p>
+        <div class="chart-wrap"><canvas id="tier-chart"></canvas></div>
+      </div>
+
+      <!-- 2C Dependency Index -->
+      <div class="subblock">
+        <h3 class="sub-head">🪢 Dependency Index</h3>
+        <p class="sub-note">Share of an owner's total points coming from their Tier-1 team. High dependency = fragile.</p>
+        <div id="dep-list" class="loading">Loading…</div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 3 — RIVALRIES ============ -->
+    <section class="block analytics-section" id="rivalries">
+      <div class="block-head">
+        <h2>⚔️ RIVALRIES</h2>
+        <span class="block-more">OWNER VS OWNER</span>
+      </div>
+      <blockquote class="rome-quote" id="quote-rivalries"></blockquote>
+
+      <!-- 3A Head-to-Head Point Differential -->
+      <div class="subblock">
+        <h3 class="sub-head">🤼 Head-to-Head Point Differential</h3>
+        <p class="sub-note">When two owners' teams meet, who banked more. Record and aggregate point swing per matchup.</p>
+        <div id="h2h-grid" class="loading">Loading…</div>
+      </div>
+
+      <!-- 3B Schedule Difficulty Remaining -->
+      <div class="subblock">
+        <h3 class="sub-head">🗓️ Schedule Difficulty Remaining</h3>
+        <p class="sub-note">Average strength rating of every still-to-come opponent your alive teams face. Hardest road at the top.</p>
+        <div id="sched-list" class="loading">Loading…</div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 4 — THE MODEL ============ -->
+    <section class="block analytics-section" id="model">
+      <div class="block-head">
+        <h2>🤖 THE MODEL</h2>
+        <span class="block-more">HOW SMART WAS THE SIM</span>
+      </div>
+      <blockquote class="rome-quote" id="quote-model"></blockquote>
+
+      <!-- 4A Prediction Accuracy -->
+      <div class="subblock">
+        <h3 class="sub-head">🎯 Prediction Accuracy</h3>
+        <p class="sub-note">Every pre-match prediction the sim made, scored against the real result. Lower Brier is better.</p>
+        <div id="pred-stats" class="stat-row"></div>
+        <div class="pred-table-wrap"><div id="pred-table" class="loading">Loading…</div></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-foot">
+    <div class="foot-inner">
+      <span class="brand small"><span class="brand-mark">WC</span><span class="brand-word">CHALLENGE</span></span>
+      <span>Rules <b id="foot-rules">rebalanced_v3</b> · static JSON rendered client-side · the site computes nothing the engine didn't already</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <script src="analytics.js"></script>
+</body>
+</html>

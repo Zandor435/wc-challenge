@@ -185,16 +185,27 @@ def owner_streaks(daily, owner_of):
 # ------------------------------------------------------------- head-to-head
 def head_to_head(daily, owner_of):
     matrix = {}  # a -> b -> {W,D,L}  (a's record against b)
+    diff = {}    # a -> b -> aggregate point swing (a's pts minus b's in their meetings)
     log = []
 
     def cell(a, b):
         matrix.setdefault(a, {}).setdefault(b, {"W": 0, "D": 0, "L": 0})
         return matrix[a][b]
 
+    def bump_diff(a, b, delta):
+        diff.setdefault(a, {}).setdefault(b, 0)
+        diff[a][b] = r2(diff[a][b] + delta)
+
     for date, m in iter_matches(daily):
         ho, ao = owner_of.get(m["home"]), owner_of.get(m["away"])
         if not ho or not ao or ho == ao:
             continue  # need two different owners head-to-head
+        # point swing: each owner's points FROM THIS MATCH (match + any upset bonus)
+        pts = m.get("points", {})
+        hp, ap = float(pts.get(ho, 0)), float(pts.get(ao, 0))
+        bump_diff(ho, ao, hp - ap)
+        bump_diff(ao, ho, ap - hp)
+
         w, l = winner_loser(m)
         if w is None:  # draw
             cell(ho, ao)["D"] += 1
@@ -207,7 +218,41 @@ def head_to_head(daily, owner_of):
             cell(lo, wo)["L"] += 1
             log.append({"result": "win", "winner": wo, "loser": lo,
                         "via": f"{w} beat {l}", "match": m["score"], "date": date})
-    return matrix, log
+    return matrix, diff, log
+
+
+def matchday_point_history(history):
+    """Per-matchday points earned by each owner (for streaky-vs-consistent reads).
+
+    Derived from build_history's per-day 'points_today' so it stays consistent
+    with the cumulative standings the rest of the state reports."""
+    out = []
+    for i, h in enumerate(history, 1):
+        out.append({
+            "matchday": i,
+            "date": h["date"],
+            "points": {o: r2(p) for o, p in h["points_today"].items()},
+        })
+    return out
+
+
+def dependency_index(team_table, owners):
+    """Share of each owner's points that come from their Tier-1 team.
+
+    0..1; 0 when the owner has no points yet (or no Tier-1 team on record).
+    High dependency = a fragile case leaning on one star."""
+    by_owner = defaultdict(list)
+    for t in team_table.get("teams", []):
+        if t["owner"] in owners:
+            by_owner[t["owner"]].append(t)
+    dep = {}
+    for o in owners:
+        teams = by_owner.get(o, [])
+        total = sum(float(t.get("points", 0)) for t in teams)
+        t1 = next((t for t in teams if t.get("tier") == 1), None)
+        t1_pts = float(t1.get("points", 0)) if t1 else 0.0
+        dep[o] = r2(t1_pts / total) if total > 0 else 0
+    return dep
 
 
 # ------------------------------------------------------------- notable events
@@ -413,6 +458,9 @@ def build_state(args):
             "owners": owners_block,
             "head_to_head_matrix": {},
             "head_to_head_log": [],
+            "h2h_differential": {},
+            "matchday_point_history": [],
+            "dependency_index": {o: 0 for o in owners},
             "notable_events": [],
             "themes": [],
             "golden_boot_leader": None,
@@ -429,7 +477,7 @@ def build_state(args):
     records = owner_records(team_table, owners)
     streaks = owner_streaks(daily, owner_of)
     best, worst = best_worst_teams(team_table, owners)
-    h2h_matrix, h2h_log = head_to_head(daily, owner_of)
+    h2h_matrix, h2h_diff, h2h_log = head_to_head(daily, owner_of)
 
     # current authoritative rank from owner_standings (fallback to derived history)
     rank_of = {s["owner"]: s["rank"] for s in standings.get("standings", [])}
@@ -471,6 +519,9 @@ def build_state(args):
         "owners": owners_block,
         "head_to_head_matrix": h2h_matrix,
         "head_to_head_log": h2h_log,
+        "h2h_differential": h2h_diff,
+        "matchday_point_history": matchday_point_history(history),
+        "dependency_index": dependency_index(team_table, owners),
         "notable_events": events,
         "themes": themes,
         "golden_boot_leader": _golden_boot_leader(goals),

@@ -59,6 +59,20 @@ async function loadJSON(path) {
 }
 const el = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+/* Trim a numeric value to a clean string: 4.0 -> "4", 2.5 -> "2.5". */
+const fmtNum = (n) => {
+  const v = Math.round(Number(n) * 100) / 100;
+  return Number.isFinite(v) ? (v === Math.trunc(v) ? String(Math.trunc(v)) : String(v)) : "0";
+};
+
+/* Owner -> WWE ring name (matches site/bios.html + generate_commentary.py).
+   Used so the upset banner credits the manager by persona. */
+const WWE_NAMES = {
+  Zach: "Mustard Boy",
+  Gunner: "Bubba G",
+  Gayden: "The Backpass Assassin",
+  Devin: "Ghost Pepper",
+};
 
 function ptsPill(owner, pts) {
   const c = ownerColor(owner);
@@ -259,68 +273,60 @@ function renderSidebar(standingsDoc, timeline) {
   }).join("");
 }
 
-/* ---------- WIN PROBABILITY CHART ---------- */
-let winprobChart = null;
-function winprobEmpty(msg) {
-  const c = el("winprob-chart");
-  if (c && c.parentElement) c.parentElement.innerHTML = `<div class="news-empty"><p>${esc(msg)}</p></div>`;
-}
-function renderWinProb(timeline) {
-  const canvas = el("winprob-chart");
-  if (!canvas) return;
-  const entries = (Array.isArray(timeline) ? [...timeline] : [])
-    .sort((a, b) => String(a.date).localeCompare(String(b.date)) || (a.matchday || 0) - (b.matchday || 0));
-  if (!entries.length) { winprobEmpty("Win probability populates once the engine runs."); return; }
-  if (typeof Chart === "undefined") { winprobEmpty("Chart library unavailable."); return; }
-
-  // owners: canonical color order first, then any extras seen in the data
-  const seen = new Set();
-  entries.forEach((e) => Object.keys(e.win_probability || {}).forEach((o) => seen.add(o)));
-  const owners = [
-    ...Object.keys(OWNER_COLORS).filter((o) => seen.has(o)),
-    ...[...seen].filter((o) => !(o in OWNER_COLORS)),
-  ];
-  const xlabel = (e) => (e.label === "preseason" || e.matchday === 0)
-    ? "Preseason" : (e.date ? e.date.slice(5) : `MD ${e.matchday}`);
-  const labels = entries.map(xlabel);
-  const datasets = owners.map((o) => ({
-    label: o,
-    data: entries.map((e) => (e.win_probability && e.win_probability[o] != null)
-      ? +(e.win_probability[o] * 100).toFixed(1) : null),
-    borderColor: ownerColor(o),
-    backgroundColor: ownerColor(o),
-    borderWidth: 2.5,
-    pointRadius: 4, pointHoverRadius: 6, pointBackgroundColor: ownerColor(o),
-    tension: 0.25, spanGaps: true,
-  }));
-
-  if (el("winprob-meta")) {
-    el("winprob-meta").textContent = entries.length === 1
-      ? "PRESEASON BASELINE" : `THROUGH ${labels[labels.length - 1]}`;
+/* ---------- OWNER MOMENTUM (Rome inline badges) ----------
+   One badge per owner showing points banked on the most recent matchday (the
+   last day block in daily_results). 3+ = 🔥 hot, 0 = ❄️ cold, else ➡️ steady.
+   No matchdays played yet -> everyone steady. */
+function lastMatchdayPoints(daily, owners) {
+  const days = (daily && daily.days) || [];
+  const last = days[days.length - 1];
+  const pts = Object.fromEntries(owners.map((o) => [o, 0]));
+  if (last) {
+    (last.matches || []).forEach((m) => {
+      Object.entries(m.points || {}).forEach(([o, p]) => { if (o in pts) pts[o] += Number(p) || 0; });
+    });
   }
-  if (winprobChart) winprobChart.destroy();
-  winprobChart = new Chart(canvas, {
-    type: "line",
-    data: { labels, datasets },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      interaction: { mode: "index", intersect: false },
-      plugins: {
-        legend: { labels: { color: "#cfd3da", usePointStyle: true, pointStyleWidth: 10,
-                            boxHeight: 7, font: { family: "Inter", weight: "600" } } },
-        tooltip: {
-          backgroundColor: "#101218", borderColor: "#262a34", borderWidth: 1,
-          titleColor: "#fff", bodyColor: "#cfd3da",
-          callbacks: { label: (ctx) => ` ${ctx.dataset.label}: ${ctx.parsed.y}%` },
-        },
-      },
-      scales: {
-        x: { grid: { color: "#1d212a" }, ticks: { color: "#8b919c", font: { family: "Inter" } } },
-        y: { min: 0, suggestedMax: 50, grid: { color: "#1d212a" },
-             ticks: { color: "#8b919c", font: { family: "Inter" }, callback: (v) => v + "%" } },
-      },
-    },
-  });
+  return pts;
+}
+function renderMomentum(daily, standings) {
+  const box = el("owner-momentum");
+  if (!box) return;
+  const owners = ((standings && standings.standings) || []).map((s) => s.owner);
+  const list = owners.length ? owners : Object.keys(OWNER_COLORS);
+  const hasData = ((daily && daily.days) || []).length > 0;
+  const pts = lastMatchdayPoints(daily, list);
+  box.innerHTML = list.map((o) => {
+    const p = pts[o] || 0;
+    let icon = "➡️", cls = "neutral", note = hasData ? `+${fmtNum(p)} last MD` : "no games yet";
+    if (hasData && p >= 3) { icon = "🔥"; cls = "hot"; }
+    else if (hasData && p === 0) { icon = "❄️"; cls = "cold"; note = "0 last MD"; }
+    return `
+      <div class="mom-badge ${cls}" style="--c:${ownerColor(o)}">
+        <span class="mom-icon">${icon}</span>
+        <span class="mom-owner">${esc(o)}</span>
+        <span class="mom-note">${esc(note)}</span>
+      </div>`;
+  }).join("");
+}
+
+/* ---------- UPSET OF THE DAY (Rome inline banner) ----------
+   If a tier-gap upset is logged in narrative_state.notable_events on the most
+   recent matchday, surface the biggest one below Rome's take. Else show nothing. */
+function renderUpset(daily, narrative) {
+  const box = el("upset-of-day");
+  if (!box) return;
+  const days = (daily && daily.days) || [];
+  const lastDate = days.length ? days[days.length - 1].date : null;
+  const events = (narrative && narrative.notable_events) || [];
+  const upsets = events.filter((e) => e.type === "upset" && e.date === lastDate);
+  if (!lastDate || !upsets.length) { box.innerHTML = ""; return; }
+  const u = upsets.slice().sort((a, b) => (b.bonus || 0) - (a.bonus || 0))[0];
+  const persona = WWE_NAMES[u.owner] || u.owner || "the owner";
+  box.innerHTML = `
+    <div class="upset-banner">
+      <span class="upset-tag">🔥 UPSET</span>
+      <span class="upset-text"><b>${esc(u.team)}</b> (+${fmtNum(u.bonus)}) over ${esc(u.beat)} — ${esc(persona)} cashes in.</span>
+    </div>`;
 }
 
 /* ---------- OWNER PORTFOLIOS ---------- */
@@ -421,6 +427,7 @@ async function main() {
     renderPortfolios(standings, teams);
     renderResults(daily);
     renderTicker(flattenMatches(daily));
+    renderMomentum(daily, standings);
 
     const v = standings.rules_version || "rebalanced_v3";
     el("leaguebar-meta").textContent = `scoring · ${v}`;
@@ -428,14 +435,15 @@ async function main() {
     el("foot-src").textContent = standings.source || "—";
 
     // The sidebar shows points (standings) + win probability (latest timeline
-    // entry), and the same timeline feeds the win-probability chart.
-    loadJSON("data/timeline.json").then((timeline) => {
-      renderSidebar(standings, timeline);
-      renderWinProb(timeline);
-    }).catch(() => {
-      renderSidebar(standings, null);
-      winprobEmpty("Win probability populates once the engine runs.");
-    });
+    // entry). The win-probability chart itself now lives on the analytics page.
+    loadJSON("data/timeline.json")
+      .then((timeline) => renderSidebar(standings, timeline))
+      .catch(() => renderSidebar(standings, null));
+
+    // The upset-of-the-day banner reads the rolling narrative state.
+    loadJSON("data/narrative_state.json")
+      .then((narrative) => renderUpset(daily, narrative))
+      .catch(() => renderUpset(daily, null));
 
     loadJSON("data/commentary.json").then(renderPundit).catch(warmingUp);
 

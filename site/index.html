@@ -22,10 +22,11 @@
       </a>
       <nav class="mainnav" aria-label="Primary">
         <a href="#standings" class="active">STANDINGS</a>
-        <a href="#winprob">WIN %</a>
+        <a href="analytics.html#winprob">WIN %</a>
         <a href="#portfolios">OWNERS</a>
         <a href="bios.html">BIOS</a>
         <a href="teams.html">TEAMS</a>
+        <a href="analytics.html">ANALYTICS</a>
         <a href="#results">RESULTS</a>
         <a href="#goldenboot">GOLDEN BOOT</a>
         <a href="#news">NEWS</a>
@@ -71,7 +72,11 @@
           <h2>📻 JIM ROME'S TAKE</h2>
           <span class="block-more">ROLLING COLUMN</span>
         </div>
+        <!-- Owner momentum: points each owner banked on the most recent matchday -->
+        <div id="owner-momentum" class="momentum-row" aria-label="Owner momentum"></div>
         <div id="jim-rome" class="jimrome-card loading">Loading the column…</div>
+        <!-- Upset of the day: tier-gap upset on the most recent matchday (if any) -->
+        <div id="upset-of-day"></div>
       </section>
 
       <!-- ---- TODAY'S PUNDIT (single rotating voice) ---- -->
@@ -90,16 +95,6 @@
           <span class="block-more" id="results-meta"></span>
         </div>
         <div id="results-list" class="loading">Loading results…</div>
-      </section>
-
-      <!-- ---- WIN PROBABILITY ---- -->
-      <section class="block" id="winprob">
-        <div class="block-head">
-          <h2>📈 WIN PROBABILITY</h2>
-          <span class="block-more" id="winprob-meta"></span>
-        </div>
-        <div class="winprob-wrap"><canvas id="winprob-chart"></canvas></div>
-        <p class="winprob-note">Each owner's chance of finishing #1, from a 5,000-run Monte Carlo that locks actual results and simulates the rest. Updates after every scoring cycle.</p>
       </section>
 
       <!-- ---- GOLDEN BOOT ---- -->

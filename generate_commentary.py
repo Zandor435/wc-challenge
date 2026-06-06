@@ -238,6 +238,54 @@ PLACEHOLDER_RECAP = (
     "_Jim Rome's column drops once the next slate of matches is in the books._\n"
 )
 
+# --------------------------------------------------------------------------- #
+# Analytics pull-quotes: four one-liner roasts, one per analytics-page section,
+# written to commentary.json as `rome_analytics_quotes` (ordered:
+# Scoreboard, Draft Report Card, Rivalries, The Model). The analytics page reads
+# this array to fill its Rome callout boxes, falling back to its own hardcoded
+# placeholders when the array is absent. Fed the same narrative state as the
+# recap, including the new matchday_point_history / h2h_differential /
+# dependency_index fields so the roasts can cite real analytics.
+# --------------------------------------------------------------------------- #
+ANALYTICS_SECTIONS = ["The Scoreboard", "Draft Report Card", "Rivalries", "The Model"]
+
+PLACEHOLDER_ANALYTICS_QUOTES = [
+    "The numbers don't lie, but your draft does.",
+    "You spent a first-round pick on THAT? Bold strategy, Cotton.",
+    "Somebody in this pool is getting bullied. Check the tape.",
+    "The sim called it. You're just here for the receipts.",
+]
+
+ANALYTICS_SYSTEM = (
+    "You are Jim Rome writing pull-quotes for the WC Challenge analytics page. "
+    "You are given the structured narrative state (standings, per-matchday point "
+    "history, head-to-head point differentials, Tier-1 dependency, streaks, and "
+    "events). Write exactly FOUR one-liner roasts — one per analytics section — "
+    "each reacting to the single most interesting data point in that section. "
+    "Max 15 words each. Punchy, opinionated, name names. No hashtags, no quotes "
+    "around the lines. Return ONLY a JSON object with keys "
+    '"scoreboard", "draft", "rivalries", "model" mapping to the four strings.'
+)
+
+ANALYTICS_USER_TEMPLATE = """NARRATIVE STATE (structured — standings, matchday_point_history, \
+h2h_differential, dependency_index, streaks, notable events):
+{state}
+
+UPDATED STANDINGS:
+{standings}
+
+ROSTERS:
+{rosters}
+
+The four analytics sections and what each shows:
+- The Scoreboard: win probability, luck vs. projection, max points remaining, who's eliminated.
+- Draft Report Card: points per tier slot, points-by-tier breakdown, Tier-1 dependency.
+- Rivalries: head-to-head point differentials between owners.
+- The Model: how accurate the sim's match predictions were.
+
+Write the four one-liners now (<=15 words each). Return ONLY the JSON object \
+with keys scoreboard, draft, rivalries, model."""
+
 
 def load_json(path):
     try:
@@ -425,6 +473,58 @@ def generate_recap(args, api_key, standings, daily, narrative, previous):
     return previous or PLACEHOLDER_RECAP
 
 
+def _parse_analytics_quotes(raw):
+    """Pull the four ordered strings out of the model's JSON reply.
+
+    Tolerant of code fences and stray prose around the object. Returns a 4-item
+    list (Scoreboard, Draft, Rivalries, Model) or None if it can't be parsed."""
+    keys = ["scoreboard", "draft", "rivalries", "model"]
+    text = (raw or "").strip()
+    if text.startswith("```"):
+        text = text.strip("`")
+        text = text.split("\n", 1)[1] if "\n" in text else text
+    start, end = text.find("{"), text.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        text = text[start:end + 1]
+    try:
+        obj = json.loads(text)
+    except (json.JSONDecodeError, TypeError):
+        return None
+    if not isinstance(obj, dict):
+        return None
+    quotes = [str(obj.get(k, "")).strip() for k in keys]
+    return quotes if all(quotes) else None
+
+
+def generate_analytics_quotes(args, api_key, standings, narrative):
+    """Four one-liner analytics roasts -> ordered list for rome_analytics_quotes."""
+    if args.placeholder:
+        return list(PLACEHOLDER_ANALYTICS_QUOTES)
+
+    user = ANALYTICS_USER_TEMPLATE.format(
+        state=json.dumps(narrative, indent=2) if narrative else "(no narrative state available)",
+        standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
+        rosters=ROSTERS,
+    )
+    try:
+        raw = call_openai(api_key, args.model, ANALYTICS_SYSTEM, user,
+                          args.analytics_max_tokens, args.temperature)
+    except urllib.error.HTTPError as e:
+        print(f"  Analytics quotes: API error {e.code} — using placeholders", file=sys.stderr)
+        return list(PLACEHOLDER_ANALYTICS_QUOTES)
+    except Exception as e:  # noqa: BLE001
+        print(f"  Analytics quotes: {e} — using placeholders", file=sys.stderr)
+        return list(PLACEHOLDER_ANALYTICS_QUOTES)
+
+    quotes = _parse_analytics_quotes(raw)
+    if not quotes:
+        print("  Analytics quotes: unparseable reply — using placeholders", file=sys.stderr)
+        return list(PLACEHOLDER_ANALYTICS_QUOTES)
+    for sec, q in zip(ANALYTICS_SECTIONS, quotes):
+        print(f"  Analytics [{sec}]: {q}")
+    return quotes
+
+
 def main():
     ap = argparse.ArgumentParser(description="Generate Pundit Roundtable + Jim Rome narrative")
     ap.add_argument("--model", default="gpt-4o")
@@ -433,6 +533,8 @@ def main():
                     help="force the pundit's 'today' (YYYY-MM-DD); default derives from the schedule")
     ap.add_argument("--recap-max-tokens", type=int, default=600,
                     help="max tokens for the Jim Rome rolling column (~200-300 words)")
+    ap.add_argument("--analytics-max-tokens", type=int, default=220,
+                    help="max tokens for the four analytics pull-quotes (JSON reply)")
     ap.add_argument("--temperature", type=float, default=0.9)
     ap.add_argument("--placeholder", action="store_true",
                     help="write 'warming up' stubs without calling the API")
@@ -480,12 +582,16 @@ def main():
         print(f"  Today: {today or '(unknown)'} · voice: {pundit['name']} · "
               f"{len(h2h)} head-to-head matchup(s)")
         pundit_out = generate_pundit(args, api_key, standings, pundit, h2h, today, rotation)
+        # Four one-liner analytics roasts for the analytics page's Rome callouts,
+        # fed the same (now richer) narrative state as the rolling column.
+        analytics_quotes = generate_analytics_quotes(args, api_key, standings, narrative)
         write_outputs({
             "generated": args.generated or "",
             "source": src,
             "date": today,
             "rotation": rotation,
             "pundit": pundit_out,
+            "rome_analytics_quotes": analytics_quotes,
         })
 
     if do_recap:
