@@ -3,13 +3,13 @@ name: Update standings from API-Football
 # Fetches live World Cup results, rescoring the pool, and commits the refreshed
 # JSON so the site (GitHub Pages / Netlify) redeploys automatically.
 #
-# Runs twice daily during the tournament window and on demand. Until API-Football
+# Runs once nightly during the tournament window and on demand. Until API-Football
 # populates the 2026 season, the fetch returns 0 matches and nothing is committed —
 # safe to leave running.
 
 on:
   schedule:
-    - cron: "0 6,18 * * *"   # 06:00 & 18:00 UTC daily
+    - cron: "0 5 * * *"   # 05:00 UTC (01:00 ET) — single nightly run, catches all of the prior day's matches incl. latest kickoffs
   workflow_dispatch:
     inputs:
       season:
