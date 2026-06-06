@@ -268,6 +268,74 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   padding: 26px 22px; text-align: center; color: var(--muted); font-size: .95rem;
 }
 
+/* single rotating pundit — one full-width card instead of the four-up grid */
+.pundit-card.solo {
+  border-left-width: 6px;
+  padding: 20px 22px 22px;
+}
+.pundit-card.solo .pundit-name { font-size: 1.32rem; }
+.pundit-card.solo .pundit-take { font-size: 1rem; line-height: 1.6; }
+.pundit-card.solo::before { font-size: 3rem; top: 6px; right: 16px; }
+
+/* ---------------- LAYOUT: main column + standings sidebar ---------------- */
+.layout {
+  max-width: var(--maxw); margin: 0 auto; padding: 22px 16px 0;
+  display: flex; align-items: flex-start; gap: 20px;
+}
+.main-col { flex: 1 1 auto; min-width: 0; }            /* ~780px on a 1080 layout */
+.sidebar { flex: 0 0 280px; position: sticky; top: 72px; }
+
+.sidebar-card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); overflow: hidden;
+}
+.sidebar-head {
+  position: relative;
+  font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .04em;
+  font-size: .85rem; font-weight: 700; color: #fff;
+  padding: 11px 14px; background: var(--surface-2);
+  border-bottom: 1px solid var(--line);
+}
+.sidebar-head::after {
+  content: ""; position: absolute; left: 14px; bottom: -1px;
+  width: 46px; height: 2px; background: var(--red);
+}
+.sb-row {
+  display: grid; grid-template-columns: 18px 40px 1fr auto; align-items: center;
+  gap: 10px; padding: 11px 14px; border-bottom: 1px solid var(--line-soft);
+}
+.sb-row:last-child { border-bottom: 0; }
+.sb-row.first { background: linear-gradient(90deg, rgba(244,196,48,.07), transparent 70%); }
+.sb-rk { font-family: "Oswald", sans-serif; font-weight: 700; color: var(--muted); text-align: center; font-size: 1rem; }
+.sb-row.first .sb-rk { color: var(--gold); }
+.sb-id { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.sb-name { font-weight: 700; font-size: .92rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sb-prob { font-size: .66rem; color: var(--muted); font-weight: 600; letter-spacing: .02em; }
+.sb-pts { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+
+/* 40px circular portrait variant of .owner-avatar (used in the sidebar) */
+.owner-avatar.sm { width: 40px; height: 40px; border-width: 2px; }
+.owner-avatar.sm::after { font-size: 1rem; }
+
+/* mobile: sidebar collapses to a compact, non-sticky horizontal bar at the top */
+@media (max-width: 768px) {
+  .layout { flex-direction: column; padding-top: 0; gap: 0; }
+  .sidebar { order: -1; position: static; flex: none; width: 100%; top: auto; margin: 0 0 18px; }
+  .sidebar-card { border-radius: 0; border-left: 0; border-right: 0; }
+  .sidebar-head { display: none; }
+  #sidebar-board { display: flex; }
+  .sb-row {
+    flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
+    padding: 9px 6px; text-align: center;
+    border-bottom: 0; border-right: 1px solid var(--line-soft);
+  }
+  .sb-row:last-child { border-right: 0; }
+  .sb-row.first { background: rgba(244,196,48,.06); }
+  .sb-row .sb-rk, .sb-row .owner-avatar, .sb-row .sb-prob { display: none; }
+  .sb-name { font-size: .82rem; }
+  .sb-pts { font-size: 1.15rem; }
+}
+
 /* ---------------- CONTENT BLOCKS ---------------- */
 .block { margin: 0 0 34px; }
 .block-head {

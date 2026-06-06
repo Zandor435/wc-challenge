@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WC Challenge — Drafted Teams</title>
+  <meta name="description" content="Every drafted team in the WC Challenge fantasy pool — owner, tier, record, and points." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23e2231a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='15' font-weight='bold' text-anchor='middle' fill='white'%3EWC%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ TOP NAV ============ -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html" aria-label="WC Challenge home">
+        <span class="brand-mark">WC</span>
+        <span class="brand-word">CHALLENGE</span>
+      </a>
+      <nav class="mainnav" aria-label="Primary">
+        <a href="index.html#standings">STANDINGS</a>
+        <a href="index.html#winprob">WIN %</a>
+        <a href="index.html#portfolios">OWNERS</a>
+        <a href="bios.html">BIOS</a>
+        <a href="teams.html" class="active">TEAMS</a>
+        <a href="index.html#results">RESULTS</a>
+        <a href="index.html#goldenboot">GOLDEN BOOT</a>
+        <a href="index.html#news">NEWS</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="icon-btn" aria-label="Search">🔍</button>
+        <button class="icon-btn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ LEAGUE BAR ============ -->
+  <div class="leaguebar">
+    <div class="leaguebar-inner">
+      <span class="leaguebar-name">🏆 THE WORLD CUP 2026</span>
+      <span class="leaguebar-meta">drafted teams</span>
+    </div>
+  </div>
+
+  <main class="wrap" style="padding-top:22px">
+    <section class="block" id="teams">
+      <div class="block-head">
+        <h2>DRAFTED TEAMS</h2>
+        <span class="block-more" id="teams-count"></span>
+      </div>
+      <div class="table-wrap"><div id="team-table" class="loading">Loading teams…</div></div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="foot-inner">
+      <span class="brand small"><span class="brand-mark">WC</span><span class="brand-word">CHALLENGE</span></span>
+      <span>Rules <b id="foot-rules">rebalanced_v3</b> · static JSON rendered client-side · the site computes nothing</span>
+    </div>
+  </footer>
+
+  <script>
+    /* Standalone teams page — self-contained so it does not depend on app.js's
+       boot sequence. Mirrors the flag rendering, owner colors, and table markup
+       used on the home page. */
+    const OWNER_COLORS = { Zach: "#f4c430", Gunner: "#2f6dff", Gayden: "#28c060", Devin: "#f0743a" };
+    const ownerColor = (o) => OWNER_COLORS[o] || "#8b919c";
+    const esc = (s) => String(s).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+
+    const TEAM_FLAGS = {
+      Argentina: "ar", Brazil: "br", France: "fr", Spain: "es", Portugal: "pt",
+      Germany: "de", Netherlands: "nl", Belgium: "be", Uruguay: "uy",
+      Colombia: "co", Croatia: "hr", Morocco: "ma", Japan: "jp",
+      Switzerland: "ch", Austria: "at", Norway: "no", Sweden: "se",
+      Senegal: "sn", "Ivory Coast": "ci", Mexico: "mx", USA: "us", Ecuador: "ec",
+      Turkey: "tr", Czechia: "cz", Bosnia: "ba", Egypt: "eg", Tunisia: "tn",
+      Algeria: "dz", "South Africa": "za", Ghana: "gh", Australia: "au",
+      "Korea Republic": "kr", Canada: "ca", Paraguay: "py", "Cape Verde": "cv",
+      "DR Congo": "cd", Iran: "ir", Uzbekistan: "uz", Jordan: "jo", Qatar: "qa",
+      "Saudi Arabia": "sa", Iraq: "iq", "New Zealand": "nz", Panama: "pa",
+      Haiti: "ht", Curacao: "cw",
+      England: "gb-eng", Scotland: "gb-sct", Wales: "gb-wls",
+    };
+    function flag(team) {
+      const code = TEAM_FLAGS[team];
+      if (!code) return "";
+      return `<img class="flag" src="https://flagcdn.com/24x18/${code}.png" ` +
+             `srcset="https://flagcdn.com/48x36/${code}.png 2x" ` +
+             `width="24" height="18" alt="" loading="lazy" />`;
+    }
+
+    const el = (id) => document.getElementById(id);
+
+    function renderTeams(doc) {
+      const teams = [...(doc.teams || [])].sort(
+        (a, b) => b.points - a.points || b.W - a.W || (a.tier || 9) - (b.tier || 9) || a.team.localeCompare(b.team)
+      );
+      el("teams-count").textContent = `${teams.length} TEAMS`;
+      const rows = teams.map((t, i) => {
+        const c = ownerColor(t.owner);
+        return `
+          <tr>
+            <td class="rk-col">${i + 1}</td>
+            <td class="team-name">${flag(t.team)}${esc(t.team)}</td>
+            <td><span class="owner-pill"><span class="owner-dot" style="background:${c}"></span><span style="color:${c}">${esc(t.owner)}</span></span></td>
+            <td><span class="tier tier-${t.tier}">T${t.tier}</span></td>
+            <td class="num">${t.W}</td>
+            <td class="num">${t.D}</td>
+            <td class="num">${t.L}</td>
+            <td class="num pts-strong">${t.points}</td>
+          </tr>`;
+      }).join("");
+      el("team-table").outerHTML = `
+        <table id="team-table">
+          <thead><tr>
+            <th class="rk-col">#</th><th>Team</th><th>Owner</th><th>Tier</th>
+            <th class="num">W</th><th class="num">D</th><th class="num">L</th><th class="num">Pts</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+    }
+
+    (async function () {
+      try {
+        const res = await fetch("data/team_table.json?v=" + Date.now());
+        if (!res.ok) throw new Error(`team_table.json: ${res.status}`);
+        const doc = await res.json();
+        renderTeams(doc);
+        if (doc.rules_version) el("foot-rules").textContent = doc.rules_version;
+      } catch (e) {
+        console.error(e);
+        el("team-table").innerHTML = `<div class="loading">Failed to load teams: ${esc(e.message)}</div>`;
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -6,10 +6,13 @@ JSON, calls an HTTP API, writes the output.
 
 Two products, both written here:
 
-1. Pundit Roundtable (STATELESS) -> commentary.json
-   Calls GPT four times — once per pundit, each character bio as the system
-   prompt and standings/results/rosters as the user message. Regenerated cold
-   every run. Written to the repo root AND site/data/commentary.json.
+1. Today's Pundit (STATELESS) -> commentary.json
+   ONE take per run from the day's rotating voice (Wynalda -> Donovan -> Dempsey
+   -> Lalas -> repeat, indexed by the matchday). The character bio is the system
+   prompt; the user message carries today's head-to-head matchups (drafted teams
+   that face each other, cross-referenced from data/matches.csv), the standings,
+   and the owner WWE personas. Regenerated cold every run. Written to the repo
+   root AND site/data/commentary.json as {"pundit": {...}}.
 
 2. Jim Rome's tournament column (STATEFUL) -> site/data/tournament_recap.md
    Reads narrative_state.json (the structured accumulator built upstream by
@@ -26,14 +29,16 @@ Usage:
     python generate_commentary.py --placeholder      # no API call; writes stubs
     python generate_commentary.py --recap-only        # only tournament_recap.md
     python generate_commentary.py --skip-recap        # only commentary.json
-    python generate_commentary.py --model gpt-4o --max-tokens 260
+    python generate_commentary.py --date 2026-06-13   # force the pundit's "today"
+    python generate_commentary.py --model gpt-4o --max-tokens 500
 
-Cost: 5 calls/run (4 pundits + 1 column). ~150 calls over the tournament —
+Cost: 2 calls/run (1 pundit + 1 column). ~150 calls over the tournament —
 pocket change on GPT-4o.
 """
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import sys
@@ -42,7 +47,17 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "site", "data")
+MATCHES_CSV = os.path.join(HERE, "data", "matches.csv")
 OPENAI_URL = "https://api.openai.com/v1/chat/completions"
+
+# Owner -> WWE ring name (matches site/bios.html). Used so the pundit trash-talks
+# managers by their persona but cites stats under their real names.
+WWE_NAMES = {
+    "Zach": "Mustard Boy",
+    "Gunner": "Bubba G",
+    "Gayden": "The Backpass Assassin",
+    "Devin": "Ghost Pepper",
+}
 
 # Fixed draft board, pasted into every prompt (matches data/draft_board.json).
 ROSTERS = """- Zach: Brazil (T1) | Switzerland, Austria (T2) | Ghana, Czechia (T3) | Saudi Arabia (T4)
@@ -50,23 +65,46 @@ ROSTERS = """- Zach: Brazil (T1) | Switzerland, Austria (T2) | Ghana, Czechia (T
 - Gayden: England (T1) | Japan, Ivory Coast (T2) | Korea Republic, Turkey (T3) | Jordan (T4)
 - Devin: Spain (T1) | USA, Norway (T2) | South Africa, Bosnia (T3) | Haiti (T4)"""
 
-USER_TEMPLATE = """Here are the current WC Challenge fantasy pool standings and recent results.
+SINGLE_PUNDIT_USER = """You are writing TODAY'S single pundit column for the WC Challenge fantasy World Cup pool.
 
-STANDINGS:
+TODAY: {date}  (rotation #{rotation})
+THE VOICE TODAY IS YOU: {pundit_name} — personality: {personality}
+
+THE FOUR MANAGERS — use their WWE ring names when trash-talking, real names for stats:
+- Zach — "Mustard Boy"
+- Gunner — "Bubba G"
+- Gayden — "The Backpass Assassin"
+- Devin — "Ghost Pepper"
+
+CURRENT STANDINGS:
 {standings}
 
-RECENT RESULTS:
-{results}
-
-ROSTERS:
+ROSTERS (each manager drafted 6 national teams across 4 tiers):
 {rosters}
 
-Give your hot take on the current state of this fantasy pool. These four managers \
-are personally responsible for their results — blame THEM, not the players or luck. \
-Make up specific, funny reasons why their draft picks were bad decisions (didn't do \
-research, picked based on jersey colors, panicked, got emotional, watched one YouTube \
-highlight, etc.). Roast at least two managers by name. Reference specific teams, point \
-totals, and upcoming matches. Stay in character."""
+{matchup_block}
+
+{task}
+
+TONE RULES:
+- 80% roast, 20% real context. One sentence of actual team form/context as setup, then the knife.
+- State every prediction with absurd, unearned confidence.
+- Trash-talk managers by their WWE ring names; use real first names when citing stats or standings.
+- Stay fully in character as {pundit_name} ({personality}).
+- Write ONE flowing take. Lead with your single hardest-hitting sentence (it becomes the bolded headline). \
+No title, no byline, no bullet points — just the column body."""
+
+# task lines swapped in depending on whether any owner-vs-owner games are on today
+TASK_H2H = (
+    "For EACH head-to-head matchup above, write 3-4 sentences: one line of real team "
+    "form/context as setup, then the roast connecting it to that manager's draft logic and "
+    "persona, then a prediction stated with absurd confidence."
+)
+TASK_TEMP = (
+    "There are no head-to-head matchups today, so deliver a LEAGUE TEMPERATURE CHECK instead: "
+    "who's rising, who's cooked, who should be worried. Roast at least two managers by name and "
+    "reference real standings and point totals."
+)
 
 # Shared rules prepended to every pundit's system prompt (from the spec).
 SHARED_RULES = """ALL PUNDITS FOLLOW THESE RULES:
@@ -262,31 +300,105 @@ def write_recap(text):
     print("Wrote tournament_recap.md ->", RECAP_PATH)
 
 
-def generate_pundits(args, api_key, standings, daily):
-    """The original cold-take roundtable -> list of pundit dicts for commentary.json."""
-    if args.placeholder:
-        return [{"name": p["name"], "take": PLACEHOLDER_TAKE,
-                 "tone": p["tone"], "color": p["color"]} for p in PUNDITS]
+def load_matches():
+    """Read data/matches.csv -> list of row dicts (empty list if missing)."""
+    try:
+        with open(MATCHES_CSV, encoding="utf-8") as f:
+            return [{k: (v or "").strip() for k, v in row.items()} for row in csv.DictReader(f)]
+    except FileNotFoundError:
+        return []
 
-    user = USER_TEMPLATE.format(
-        standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
-        results=json.dumps(daily, indent=2) if daily else "(no results yet)",
-        rosters=ROSTERS,
-    )
+
+def fixture_dates(rows):
+    """Sorted unique fixture dates (ISO strings sort lexicographically)."""
+    return sorted({r["date"] for r in rows if r.get("date")})
+
+
+def resolve_today(args, daily, dates):
+    """The date the pundit is speaking on.
+
+    --date wins. Otherwise preview the next unplayed fixture date (the day after
+    the latest scored results); pre-tournament, preview opening day; if the
+    schedule is exhausted, fall back to the last results day."""
+    if args.date:
+        return args.date
+    last_result = daily["days"][-1]["date"] if daily and daily.get("days") else None
+    if last_result:
+        upcoming = [d for d in dates if d > last_result]
+        return upcoming[0] if upcoming else last_result
+    if dates:
+        return dates[0]
+    return (args.generated or "")[:10]
+
+
+def rotation_index(today, dates):
+    """How far into the schedule 'today' is — drives the daily pundit rotation."""
+    if today in dates:
+        return dates.index(today)
+    return sum(1 for d in dates if d < today)   # still advances on non-fixture days
+
+
+def todays_h2h(rows, today):
+    """Owner-vs-owner fixtures on 'today' (both sides drafted by a manager)."""
     out = []
-    for p in PUNDITS:
-        try:
-            take = call_openai(api_key, args.model, p["system"], user,
-                               args.max_tokens, args.temperature)
-        except urllib.error.HTTPError as e:
-            print(f"  {p['name']}: API error {e.code} — using placeholder", file=sys.stderr)
-            take = PLACEHOLDER_TAKE
-        except Exception as e:  # noqa: BLE001 - keep generating the rest
-            print(f"  {p['name']}: {e} — using placeholder", file=sys.stderr)
-            take = PLACEHOLDER_TAKE
-        out.append({"name": p["name"], "take": take, "tone": p["tone"], "color": p["color"]})
-        print(f"  {p['name']}: {take[:70]}...")
+    for r in rows:
+        if r.get("date") != today:
+            continue
+        o1, o2 = r.get("team1_owner"), r.get("team2_owner")
+        if o1 and o2:
+            out.append(r)
     return out
+
+
+def format_h2h(h2h):
+    """One bullet per owner-vs-owner game, with WWE personas and real context."""
+    lines = []
+    for r in h2h:
+        o1, o2 = r["team1_owner"], r["team2_owner"]
+        w1 = WWE_NAMES.get(o1, o1)
+        w2 = WWE_NAMES.get(o2, o2)
+        loc = " · ".join(x for x in [r.get("group") and f"Group {r['group']}", r.get("venue")] if x)
+        lines.append(f'- {r["team1"]} ({o1} / "{w1}") vs {r["team2"]} ({o2} / "{w2}")'
+                     + (f"  [{loc}]" if loc else ""))
+    return "\n".join(lines)
+
+
+def generate_pundit(args, api_key, standings, pundit, h2h, today, rotation):
+    """One take from the day's rotating voice -> pundit dict for commentary.json."""
+    base = {"name": pundit["name"], "tone": pundit["tone"], "color": pundit["color"]}
+    if args.placeholder:
+        return {**base, "take": PLACEHOLDER_TAKE}
+
+    if h2h:
+        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS (two managers' drafted teams "
+                         "facing each other):\n" + format_h2h(h2h))
+        task = TASK_H2H
+    else:
+        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS: none — no two managers' teams "
+                         "play each other today.")
+        task = TASK_TEMP
+
+    user = SINGLE_PUNDIT_USER.format(
+        date=today or "(date unknown)",
+        rotation=rotation + 1,
+        pundit_name=pundit["name"],
+        personality=pundit["tone"],
+        standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
+        rosters=ROSTERS,
+        matchup_block=matchup_block,
+        task=task,
+    )
+    try:
+        take = call_openai(api_key, args.model, pundit["system"], user,
+                           args.max_tokens, args.temperature)
+    except urllib.error.HTTPError as e:
+        print(f"  {pundit['name']}: API error {e.code} — using placeholder", file=sys.stderr)
+        take = PLACEHOLDER_TAKE
+    except Exception as e:  # noqa: BLE001
+        print(f"  {pundit['name']}: {e} — using placeholder", file=sys.stderr)
+        take = PLACEHOLDER_TAKE
+    print(f"  {pundit['name']} (rotation #{rotation + 1}): {take[:70]}...")
+    return {**base, "take": take}
 
 
 def generate_recap(args, api_key, standings, daily, narrative, previous):
@@ -316,7 +428,9 @@ def generate_recap(args, api_key, standings, daily, narrative, previous):
 def main():
     ap = argparse.ArgumentParser(description="Generate Pundit Roundtable + Jim Rome narrative")
     ap.add_argument("--model", default="gpt-4o")
-    ap.add_argument("--max-tokens", type=int, default=260, help="max tokens per pundit take")
+    ap.add_argument("--max-tokens", type=int, default=500, help="max tokens for the pundit take")
+    ap.add_argument("--date", default=None,
+                    help="force the pundit's 'today' (YYYY-MM-DD); default derives from the schedule")
     ap.add_argument("--recap-max-tokens", type=int, default=600,
                     help="max tokens for the Jim Rome rolling column (~200-300 words)")
     ap.add_argument("--temperature", type=float, default=0.9)
@@ -356,11 +470,22 @@ def main():
             sys.exit(1)
 
     if do_pundits:
-        pundits_out = generate_pundits(args, api_key, standings, daily)
+        # Identify today, the day's rotating voice, and any owner-vs-owner games.
+        rows = load_matches()
+        dates = fixture_dates(rows)
+        today = resolve_today(args, daily, dates)
+        rotation = rotation_index(today, dates)
+        pundit = PUNDITS[rotation % len(PUNDITS)]
+        h2h = todays_h2h(rows, today)
+        print(f"  Today: {today or '(unknown)'} · voice: {pundit['name']} · "
+              f"{len(h2h)} head-to-head matchup(s)")
+        pundit_out = generate_pundit(args, api_key, standings, pundit, h2h, today, rotation)
         write_outputs({
             "generated": args.generated or "",
             "source": src,
-            "pundits": pundits_out,
+            "date": today,
+            "rotation": rotation,
+            "pundit": pundit_out,
         })
 
     if do_recap:

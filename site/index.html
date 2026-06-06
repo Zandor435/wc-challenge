@@ -23,10 +23,9 @@
       <nav class="mainnav" aria-label="Primary">
         <a href="#standings" class="active">STANDINGS</a>
         <a href="#winprob">WIN %</a>
-        <a href="#roundtable">ROUNDTABLE</a>
         <a href="#portfolios">OWNERS</a>
         <a href="bios.html">BIOS</a>
-        <a href="#teams">TEAMS</a>
+        <a href="teams.html">TEAMS</a>
         <a href="#results">RESULTS</a>
         <a href="#goldenboot">GOLDEN BOOT</a>
         <a href="#news">NEWS</a>
@@ -52,83 +51,77 @@
     </div>
   </div>
 
-  <main class="wrap">
+  <div class="layout">
 
-    <!-- ============ HERO: STANDINGS (Power Rankings style) ============ -->
-    <section class="hero" id="standings">
-      <div class="hero-art">
-        <div class="hero-kicker">FANTASY POOL · WEEK 1</div>
-        <h1 class="hero-title">POWER<br/>RANKINGS</h1>
-        <div class="hero-leader" id="hero-leader"></div>
+    <!-- ============ MAIN CONTENT COLUMN ============ -->
+    <main class="main-col">
+
+      <!-- ---- OWNER PORTFOLIOS ---- -->
+      <section class="block" id="portfolios">
+        <div class="block-head">
+          <h2>OWNER PORTFOLIOS</h2>
+          <span class="block-more">4 MANAGERS</span>
+        </div>
+        <div id="owner-portfolios" class="loading">Loading portfolios…</div>
+      </section>
+
+      <!-- ---- JIM ROME'S TAKE (rolling narrative) ---- -->
+      <section class="block" id="news">
+        <div class="block-head">
+          <h2>📻 JIM ROME'S TAKE</h2>
+          <span class="block-more">ROLLING COLUMN</span>
+        </div>
+        <div id="jim-rome" class="jimrome-card loading">Loading the column…</div>
+      </section>
+
+      <!-- ---- TODAY'S PUNDIT (single rotating voice) ---- -->
+      <section class="block" id="pundit">
+        <div class="block-head">
+          <h2>🎙️ TODAY'S PUNDIT</h2>
+          <span class="block-more" id="pundit-meta"></span>
+        </div>
+        <div id="pundit-card" class="loading">Loading today's take…</div>
+      </section>
+
+      <!-- ---- LATEST RESULTS ---- -->
+      <section class="block" id="results">
+        <div class="block-head">
+          <h2>LATEST RESULTS</h2>
+          <span class="block-more" id="results-meta"></span>
+        </div>
+        <div id="results-list" class="loading">Loading results…</div>
+      </section>
+
+      <!-- ---- WIN PROBABILITY ---- -->
+      <section class="block" id="winprob">
+        <div class="block-head">
+          <h2>📈 WIN PROBABILITY</h2>
+          <span class="block-more" id="winprob-meta"></span>
+        </div>
+        <div class="winprob-wrap"><canvas id="winprob-chart"></canvas></div>
+        <p class="winprob-note">Each owner's chance of finishing #1, from a 5,000-run Monte Carlo that locks actual results and simulates the rest. Updates after every scoring cycle.</p>
+      </section>
+
+      <!-- ---- GOLDEN BOOT ---- -->
+      <section class="block" id="goldenboot">
+        <div class="block-head">
+          <h2>⚽ GOLDEN BOOT</h2>
+          <span class="block-more" id="goals-src"></span>
+        </div>
+        <div id="player-goals" class="loading">Loading scorers…</div>
+      </section>
+
+    </main>
+
+    <!-- ============ STANDINGS SIDEBAR ============ -->
+    <aside class="sidebar" id="standings" aria-label="Standings">
+      <div class="sidebar-card">
+        <div class="sidebar-head">STANDINGS</div>
+        <div id="sidebar-board" class="loading">Loading standings…</div>
       </div>
-      <div class="hero-board" id="hero-board"><div class="loading">Loading standings…</div></div>
-    </section>
+    </aside>
 
-    <!-- ============ WIN PROBABILITY ============ -->
-    <section class="block" id="winprob">
-      <div class="block-head">
-        <h2>📈 WIN PROBABILITY</h2>
-        <span class="block-more" id="winprob-meta"></span>
-      </div>
-      <div class="winprob-wrap"><canvas id="winprob-chart"></canvas></div>
-      <p class="winprob-note">Each owner's chance of finishing #1, from a 5,000-run Monte Carlo that locks actual results and simulates the rest. Updates after every scoring cycle.</p>
-    </section>
-
-    <!-- ============ OWNER PORTFOLIOS ============ -->
-    <section class="block" id="portfolios">
-      <div class="block-head">
-        <h2>OWNER PORTFOLIOS</h2>
-        <span class="block-more">4 MANAGERS</span>
-      </div>
-      <div id="owner-portfolios" class="loading">Loading portfolios…</div>
-    </section>
-
-    <!-- ============ JIM ROME'S TAKE (rolling narrative) ============ -->
-    <section class="block" id="news">
-      <div class="block-head">
-        <h2>📻 JIM ROME'S TAKE</h2>
-        <span class="block-more">ROLLING COLUMN</span>
-      </div>
-      <div id="jim-rome" class="jimrome-card loading">Loading the column…</div>
-    </section>
-
-    <!-- ============ PUNDIT ROUNDTABLE ============ -->
-    <section class="block" id="roundtable">
-      <div class="block-head">
-        <h2>🎙️ PUNDIT ROUNDTABLE</h2>
-        <span class="block-more" id="roundtable-meta"></span>
-      </div>
-      <div id="roundtable-cards" class="loading">Loading takes…</div>
-    </section>
-
-    <!-- ============ DRAFTED TEAMS ============ -->
-    <section class="block" id="teams">
-      <div class="block-head">
-        <h2>DRAFTED TEAMS</h2>
-        <span class="block-more" id="teams-count"></span>
-      </div>
-      <div class="table-wrap"><div id="team-table" class="loading">Loading teams…</div></div>
-    </section>
-
-    <!-- ============ LATEST RESULTS ============ -->
-    <section class="block" id="results">
-      <div class="block-head">
-        <h2>LATEST RESULTS</h2>
-        <span class="block-more" id="results-meta"></span>
-      </div>
-      <div id="results-list" class="loading">Loading results…</div>
-    </section>
-
-    <!-- ============ GOLDEN BOOT ============ -->
-    <section class="block" id="goldenboot">
-      <div class="block-head">
-        <h2>⚽ GOLDEN BOOT</h2>
-        <span class="block-more" id="goals-src"></span>
-      </div>
-      <div id="player-goals" class="loading">Loading scorers…</div>
-    </section>
-
-  </main>
+  </div>
 
   <footer class="site-foot">
     <div class="foot-inner">

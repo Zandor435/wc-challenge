@@ -105,16 +105,22 @@ function renderTicker(matches) {
   }).join("");
 }
 
-/* ---------- PUNDIT ROUNDTABLE ---------- */
+/* ---------- TODAY'S PUNDIT (single rotating voice) ---------- */
 const PUNDIT_FALLBACK_COLORS = {
   "Eric Wynalda": "#e2231a",
   "Landon Donovan": "#2f6dff",
   "Clint Dempsey": "#28c060",
   "Alexi Lalas": "#f4a423",
 };
+// daily rotation order, used only as a fallback when an older (four-up)
+// commentary.json is encountered so the page still shows one voice.
+const PUNDIT_ROTATION = ["Eric Wynalda", "Landon Donovan", "Clint Dempsey", "Alexi Lalas"];
+const TONE_BADGE = { arrogant: "ARROGANT", hedging: "HEDGING", chill: "CHILL", bombastic: "BOMBASTIC" };
 function warmingUp() {
-  el("roundtable-cards").classList.remove("loading");
-  el("roundtable-cards").innerHTML = `<div class="roundtable-warming">Pundits are warming up…</div>`;
+  const box = el("pundit-card");
+  if (!box) return;
+  box.classList.remove("loading");
+  box.innerHTML = `<div class="roundtable-warming">Today's pundit is warming up…</div>`;
 }
 
 /* Format a take: bold the opening sentence (the hot take) so the eye catches it
@@ -138,34 +144,50 @@ function formatTake(raw) {
   };
 }
 
-function renderRoundtable(doc) {
-  const box = el("roundtable-cards");
-  box.classList.remove("loading");
-  const pundits = (doc && doc.pundits) || [];
-  const live = pundits.filter((p) => p.take && p.take.trim() && p.take.trim() !== "Pundits are warming up...");
-  if (!live.length) { warmingUp(); return; }
-  if (doc.source) el("roundtable-meta").textContent = `SOURCE: ${doc.source}`;
-  box.innerHTML = `<div class="roundtable-grid">${pundits.map((p) => {
-    const color = p.color || PUNDIT_FALLBACK_COLORS[p.name] || "#2f6dff";
-    const t = formatTake(p.take);
-    const takeBody = t.truncated
-      ? `<p class="pundit-take">
-           <span class="take-preview">${t.preview}</span>
-           <span class="take-full" hidden>${t.full}</span>
-         </p>
-         <button class="take-toggle" type="button" aria-expanded="false">READ MORE ▼</button>`
-      : `<p class="pundit-take">${t.full}</p>`;
-    return `
-      <div class="pundit-card" style="--pundit:${color}">
-        <div class="pundit-head">
-          <span class="pundit-name">${esc(p.name)}</span>
-          ${p.tone ? `<span class="pundit-tone">${esc(p.tone)}</span>` : ""}
-        </div>
-        ${takeBody}
-      </div>`;
-  }).join("")}</div>`;
+/* Pick the single pundit to render. New format is a single {pundit} object;
+   if we hit a legacy {pundits:[...]} file, rotate by day so one voice still shows. */
+function pickPundit(doc) {
+  if (!doc) return null;
+  if (doc.pundit) return doc.pundit;
+  if (Array.isArray(doc.pundits) && doc.pundits.length) {
+    const day = Math.floor(Date.now() / 86400000);          // days since epoch
+    const name = PUNDIT_ROTATION[day % PUNDIT_ROTATION.length];
+    return doc.pundits.find((p) => p.name === name) || doc.pundits[0];
+  }
+  return null;
+}
 
-  box.querySelectorAll(".take-toggle").forEach((btn) => {
+function renderPundit(doc) {
+  const box = el("pundit-card");
+  if (!box) return;
+  box.classList.remove("loading");
+  const p = pickPundit(doc);
+  if (!p || !p.take || !p.take.trim() || p.take.trim() === "Pundits are warming up...") {
+    warmingUp();
+    return;
+  }
+  if (doc.source && el("pundit-meta")) el("pundit-meta").textContent = `SOURCE: ${doc.source}`;
+  const color = p.color || PUNDIT_FALLBACK_COLORS[p.name] || "#2f6dff";
+  const badge = p.tone ? (TONE_BADGE[String(p.tone).toLowerCase()] || p.tone) : "";
+  const t = formatTake(p.take);
+  const takeBody = t.truncated
+    ? `<p class="pundit-take">
+         <span class="take-preview">${t.preview}</span>
+         <span class="take-full" hidden>${t.full}</span>
+       </p>
+       <button class="take-toggle" type="button" aria-expanded="false">READ MORE ▼</button>`
+    : `<p class="pundit-take">${t.full}</p>`;
+  box.innerHTML = `
+    <div class="pundit-card solo" style="--pundit:${color}">
+      <div class="pundit-head">
+        <span class="pundit-name">${esc(p.name)}</span>
+        ${badge ? `<span class="pundit-tone">${esc(badge)}</span>` : ""}
+      </div>
+      ${takeBody}
+    </div>`;
+
+  const btn = box.querySelector(".take-toggle");
+  if (btn) {
     btn.addEventListener("click", () => {
       const card = btn.closest(".pundit-card");
       const prev = card.querySelector(".take-preview");
@@ -176,7 +198,7 @@ function renderRoundtable(doc) {
       btn.setAttribute("aria-expanded", String(!open));
       btn.textContent = open ? "READ MORE ▼" : "READ LESS ▲";
     });
-  });
+  }
 }
 
 /* ---------- JIM ROME'S TAKE (rolling narrative from tournament_recap.md) ---------- */
@@ -207,43 +229,32 @@ async function renderJimRome() {
   }
 }
 
-/* ---------- HERO + STANDINGS BOARD ---------- */
-function renderStandings(doc) {
-  const s = doc.standings || [];
-  const leader = s[0];
-  if (leader) {
-    el("hero-leader").innerHTML = `
-      <span class="crown">👑</span>
-      <span>
-        <span class="who" style="color:${ownerColor(leader.owner)}">${esc(leader.owner)}</span>
-        <span class="lead-pts">${leader.total_points} PTS</span><br/>
-        <span class="lead-cap">leads the pool</span>
-      </span>`;
-  }
-  const avg = s.length ? s.reduce((a, r) => a + r.total_points, 0) / s.length : 0;
-  el("hero-board").innerHTML = s.map((r) => {
+/* ---------- STANDINGS SIDEBAR ---------- */
+/* The latest timeline entry holds each owner's current win probability. */
+function latestWinProb(timeline) {
+  const entries = (Array.isArray(timeline) ? [...timeline] : [])
+    .sort((a, b) => String(a.date).localeCompare(String(b.date)) || (a.matchday || 0) - (b.matchday || 0));
+  const last = entries[entries.length - 1];
+  return (last && last.win_probability) || {};
+}
+function renderSidebar(standingsDoc, timeline) {
+  const box = el("sidebar-board");
+  if (!box) return;
+  box.classList.remove("loading");
+  const s = (standingsDoc && standingsDoc.standings) || [];
+  const wp = latestWinProb(timeline);
+  box.innerHTML = s.map((r) => {
     const c = ownerColor(r.owner);
-    const trend = r.total_points > avg ? "up" : r.total_points < avg ? "down" : "flat";
-    const arrow = trend === "up" ? "▲" : trend === "down" ? "▼" : "—";
-    const b = r.breakdown || {};
-    const sub = [
-      b.match ? `${b.match} match` : null,
-      b.upset ? `${b.upset} upset` : null,
-      b.advancement ? `${b.advancement} adv` : null,
-    ].filter(Boolean).join(" · ") || "no points yet";
+    const prob = wp[r.owner] != null ? `${(wp[r.owner] * 100).toFixed(0)}% to win` : "—";
     return `
-      <div class="rank-row ${r.rank === 1 ? "first" : ""}">
-        <div class="rk">${r.rank}</div>
-        <div class="arrow ${trend}">${arrow}</div>
-        ${avatar(r.owner)}
-        <div class="owner-cell">
-          <span class="owner-name" style="color:${c}">${esc(r.owner)}</span>
-          <span class="owner-sub">${esc(sub)}</span>
+      <div class="sb-row ${r.rank === 1 ? "first" : ""}">
+        <div class="sb-rk">${r.rank}</div>
+        ${avatar(r.owner, "sm")}
+        <div class="sb-id">
+          <span class="sb-name" style="color:${c}">${esc(r.owner)}</span>
+          <span class="sb-prob">${prob}</span>
         </div>
-        <div style="display:flex;align-items:center;gap:10px">
-          <span class="owner-pts">${r.total_points}</span>
-          <span class="bar-tab" style="background:${c}"></span>
-        </div>
+        <div class="sb-pts">${r.total_points}</div>
       </div>`;
   }).join("");
 }
@@ -344,36 +355,6 @@ function renderPortfolios(standings, teamTable) {
   }).join("")}</div>`;
 }
 
-/* ---------- DRAFTED TEAMS TABLE ---------- */
-function renderTeams(doc) {
-  const teams = [...(doc.teams || [])].sort(
-    (a, b) => b.points - a.points || b.W - a.W || (a.tier || 9) - (b.tier || 9) || a.team.localeCompare(b.team)
-  );
-  el("teams-count").textContent = `${teams.length} TEAMS`;
-  const rows = teams.map((t, i) => {
-    const c = ownerColor(t.owner);
-    return `
-      <tr>
-        <td class="rk-col">${i + 1}</td>
-        <td class="team-name">${flag(t.team)}${esc(t.team)}</td>
-        <td><span class="owner-pill"><span class="owner-dot" style="background:${c}"></span><span style="color:${c}">${esc(t.owner)}</span></span></td>
-        <td><span class="tier tier-${t.tier}">T${t.tier}</span></td>
-        <td class="num">${t.W}</td>
-        <td class="num">${t.D}</td>
-        <td class="num">${t.L}</td>
-        <td class="num pts-strong">${t.points}</td>
-      </tr>`;
-  }).join("");
-  el("team-table").outerHTML = `
-    <table id="team-table">
-      <thead><tr>
-        <th class="rk-col">#</th><th>Team</th><th>Owner</th><th>Tier</th>
-        <th class="num">W</th><th class="num">D</th><th class="num">L</th><th class="num">Pts</th>
-      </tr></thead>
-      <tbody>${rows}</tbody>
-    </table>`;
-}
-
 /* ---------- LATEST RESULTS ---------- */
 function renderResults(daily) {
   const days = [...(daily.days || [])].reverse();
@@ -437,9 +418,7 @@ async function main() {
       loadJSON("data/daily_results.json"),
     ]);
 
-    renderStandings(standings);
     renderPortfolios(standings, teams);
-    renderTeams(teams);
     renderResults(daily);
     renderTicker(flattenMatches(daily));
 
@@ -448,10 +427,17 @@ async function main() {
     el("foot-rules").textContent = v;
     el("foot-src").textContent = standings.source || "—";
 
-    loadJSON("data/timeline.json").then(renderWinProb)
-      .catch(() => winprobEmpty("Win probability populates once the engine runs."));
+    // The sidebar shows points (standings) + win probability (latest timeline
+    // entry), and the same timeline feeds the win-probability chart.
+    loadJSON("data/timeline.json").then((timeline) => {
+      renderSidebar(standings, timeline);
+      renderWinProb(timeline);
+    }).catch(() => {
+      renderSidebar(standings, null);
+      winprobEmpty("Win probability populates once the engine runs.");
+    });
 
-    loadJSON("data/commentary.json").then(renderRoundtable).catch(warmingUp);
+    loadJSON("data/commentary.json").then(renderPundit).catch(warmingUp);
 
     renderJimRome();
 
@@ -461,7 +447,8 @@ async function main() {
     });
   } catch (e) {
     console.error(e);
-    el("hero-board").innerHTML = `<div class="loading">Failed to load data: ${esc(e.message)}</div>`;
+    const sb = el("sidebar-board");
+    if (sb) sb.innerHTML = `<div class="loading">Failed to load data: ${esc(e.message)}</div>`;
   }
 }
 main();
