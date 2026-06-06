@@ -18,31 +18,7 @@
        ============================================================ */
     body { background: #060607; }
 
-    /* ---- top brand bar (slim, reuses .topbar look) ---- */
-    .biobar { position: sticky; top: 0; z-index: 60; background: #000; border-bottom: 1px solid #1a1a1c; }
-    .biobar-inner {
-      max-width: 1200px; margin: 0 auto; height: 56px; padding: 0 18px;
-      display: flex; align-items: center; gap: 18px;
-    }
-    .biobar .back {
-      display: inline-flex; align-items: center; gap: 7px; color: #cfd3da;
-      font-size: .8rem; font-weight: 600; transition: color .15s;
-    }
-    .biobar .back:hover { color: #fff; }
-    .biobar .back .arrow { color: var(--red); font-size: 1rem; }
-
-    /* ---- sticky owner jump nav ---- */
-    .bionav { display: flex; gap: 6px; margin-left: auto; flex-wrap: wrap; }
-    .bionav a {
-      --c: #8b919c;
-      display: inline-flex; align-items: center; gap: 7px;
-      font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .04em;
-      font-size: .76rem; font-weight: 600; color: #aeb3bc;
-      padding: 6px 11px; border: 1px solid #23262f; border-radius: 999px;
-      transition: color .15s, border-color .15s, background .15s;
-    }
-    .bionav a::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c); box-shadow: 0 0 8px var(--c); }
-    .bionav a:hover, .bionav a.active { color: #fff; border-color: var(--c); background: rgba(255,255,255,.03); }
+    /* the shared topbar/.mainnav styling comes from style.css */
 
     /* ---- page intro ---- */
     .bios-hero {
@@ -252,8 +228,6 @@
       .bio-portrait, .bio:nth-child(even) .bio-portrait { order: 1; }
       .bio-main, .bio:nth-child(even) .bio-main { order: 2; }
       .bio-portrait img { max-width: 420px; margin: 0 auto; }
-      .bionav { width: 100%; margin: 0; justify-content: center; }
-      .biobar-inner { height: auto; flex-wrap: wrap; padding: 10px 14px; gap: 10px; }
     }
     @media (max-width: 460px) {
       .bio-stats { grid-template-columns: 1fr 1fr; }
@@ -264,11 +238,23 @@
 </head>
 <body>
 
-  <!-- ============ TOP BAR ============ -->
-  <header class="biobar">
-    <div class="biobar-inner">
-      <a class="back" href="index.html#portfolios"><span class="arrow">←</span> <span class="brand"><span class="brand-mark">WC</span><span class="brand-word">CHALLENGE</span></span></a>
-      <nav class="bionav" id="bionav" aria-label="Owners"></nav>
+  <!-- ============ TOP NAV ============ -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html" aria-label="WC Challenge home">
+        <span class="brand-mark">WC</span>
+        <span class="brand-word">CHALLENGE</span>
+      </a>
+      <nav class="mainnav" aria-label="Primary">
+        <a href="index.html">HOME</a>
+        <a href="bios.html" class="active">MGR BIOS</a>
+        <a href="analytics.html">ANALYTICS</a>
+        <a href="teams.html">TEAMS</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="icon-btn" aria-label="Search">🔍</button>
+        <button class="icon-btn" aria-label="Menu">☰</button>
+      </div>
     </div>
   </header>
 
@@ -286,6 +272,7 @@
     <p>Live stats pulled from the pool · <a href="index.html">Back to the leaderboard →</a></p>
   </footer>
 
+  <script src="nav.js"></script>
   <script>
   /* ---------- owner profiles (ring personas, rosters, moves, bios) ----------
      Numbers (record / points / win %) are pulled live from the JSON below.
@@ -460,11 +447,6 @@
       </section>`;
   }
 
-  function navHTML() {
-    return PROFILES.map((p) =>
-      `<a href="#${p.id}" style="--c:${p.color}" data-id="${p.id}">${esc(p.owner)}</a>`).join("");
-  }
-
   async function main() {
     const [standings, teams, timeline] = await Promise.all([
       loadJSON("data/owner_standings.json"),
@@ -501,22 +483,8 @@
       };
     };
 
-    document.getElementById("bionav").innerHTML = navHTML();
     document.getElementById("bios").innerHTML =
       PROFILES.map((p, i) => sectionHTML(p, i, statsFor(p.owner))).join("");
-
-    // scroll-spy: highlight the owner currently in view
-    const links = [...document.querySelectorAll(".bionav a")];
-    const byId = Object.fromEntries(links.map((a) => [a.dataset.id, a]));
-    const obs = new IntersectionObserver((entries) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) {
-          links.forEach((a) => a.classList.remove("active"));
-          byId[e.target.id]?.classList.add("active");
-        }
-      });
-    }, { rootMargin: "-45% 0px -45% 0px" });
-    document.querySelectorAll(".bio").forEach((s) => obs.observe(s));
   }
   main();
   </script>
