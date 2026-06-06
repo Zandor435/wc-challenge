@@ -94,6 +94,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   font-size: 1rem; padding: 6px; border-radius: 4px;
 }
 .icon-btn:hover { background: #1c1c1f; color: #fff; }
+/* The ☰ menu button is the mobile affordance for .mainnav; on desktop the full
+   nav is visible inline, so hide the button there (shown again <=760px). */
+.icon-btn[aria-label="Menu"] { display: none; }
 
 /* ---------------- SCORES TICKER ---------------- */
 .ticker {
@@ -465,8 +468,42 @@ td.rk-col { color: var(--muted); font-family: "Oswald", sans-serif; font-weight:
   .hero { grid-template-columns: 1fr; }
   .hero-art { border-right: 0; border-bottom: 1px solid var(--line); }
   .hero-title { font-size: 2.8rem; }
-  .mainnav { display: none; }
   .leaguebar-meta { display: none; }
+
+  /* Reveal the hamburger; it toggles .open on .mainnav (see nav.js). */
+  .icon-btn[aria-label="Menu"] { display: inline-flex; }
+
+  /* Collapsed by default; .open drops the full link list as a full-width
+     panel beneath the sticky topbar. .topbar is position:sticky, so the
+     absolute panel anchors to it (top = the 56px topbar-inner height). */
+  .mainnav { display: none; }
+  .mainnav.open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    height: auto;
+    position: absolute;
+    top: 56px; left: 0; right: 0;
+    background: #000;
+    border-bottom: 1px solid #1a1a1c;
+    padding: 4px 0;
+    z-index: 60;
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .5);
+  }
+  .mainnav.open a {
+    height: auto;
+    padding: 13px 18px;
+    border-bottom: 1px solid #141416;
+    border-left: 3px solid transparent;
+  }
+  /* Stacked items: move the active indicator from the bottom edge to the left. */
+  .mainnav.open a.active {
+    border-bottom-color: #141416;
+    border-left-color: var(--blue-br);
+  }
 }
 
 /* ---------------- WIN PROBABILITY CHART ---------------- */
