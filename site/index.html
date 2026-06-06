@@ -25,6 +25,7 @@
         <a href="#winprob">WIN %</a>
         <a href="#roundtable">ROUNDTABLE</a>
         <a href="#portfolios">OWNERS</a>
+        <a href="bios.html">BIOS</a>
         <a href="#teams">TEAMS</a>
         <a href="#results">RESULTS</a>
         <a href="#goldenboot">GOLDEN BOOT</a>
@@ -73,15 +74,6 @@
       <p class="winprob-note">Each owner's chance of finishing #1, from a 5,000-run Monte Carlo that locks actual results and simulates the rest. Updates after every scoring cycle.</p>
     </section>
 
-    <!-- ============ PUNDIT ROUNDTABLE ============ -->
-    <section class="block" id="roundtable">
-      <div class="block-head">
-        <h2>🎙️ PUNDIT ROUNDTABLE</h2>
-        <span class="block-more" id="roundtable-meta"></span>
-      </div>
-      <div id="roundtable-cards" class="loading">Loading takes…</div>
-    </section>
-
     <!-- ============ OWNER PORTFOLIOS ============ -->
     <section class="block" id="portfolios">
       <div class="block-head">
@@ -89,6 +81,24 @@
         <span class="block-more">4 MANAGERS</span>
       </div>
       <div id="owner-portfolios" class="loading">Loading portfolios…</div>
+    </section>
+
+    <!-- ============ JIM ROME'S TAKE (rolling narrative) ============ -->
+    <section class="block" id="news">
+      <div class="block-head">
+        <h2>📻 JIM ROME'S TAKE</h2>
+        <span class="block-more">ROLLING COLUMN</span>
+      </div>
+      <div id="jim-rome" class="jimrome-card loading">Loading the column…</div>
+    </section>
+
+    <!-- ============ PUNDIT ROUNDTABLE ============ -->
+    <section class="block" id="roundtable">
+      <div class="block-head">
+        <h2>🎙️ PUNDIT ROUNDTABLE</h2>
+        <span class="block-more" id="roundtable-meta"></span>
+      </div>
+      <div id="roundtable-cards" class="loading">Loading takes…</div>
     </section>
 
     <!-- ============ DRAFTED TEAMS ============ -->
@@ -118,18 +128,6 @@
       <div id="player-goals" class="loading">Loading scorers…</div>
     </section>
 
-    <!-- ============ NEWS (placeholder) ============ -->
-    <section class="block" id="news">
-      <div class="block-head">
-        <h2>NEWS FEED</h2>
-        <span class="block-more">MORE →</span>
-      </div>
-      <div class="news-empty">
-        <div class="news-empty-badge">COMING SOON</div>
-        <p>Jim Rome–style match recaps, generated from each day’s results, will run here.</p>
-      </div>
-    </section>
-
   </main>
 
   <footer class="site-foot">
@@ -140,6 +138,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

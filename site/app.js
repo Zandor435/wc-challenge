@@ -116,6 +116,28 @@ function warmingUp() {
   el("roundtable-cards").classList.remove("loading");
   el("roundtable-cards").innerHTML = `<div class="roundtable-warming">Pundits are warming up…</div>`;
 }
+
+/* Format a take: bold the opening sentence (the hot take) so the eye catches it
+   even when collapsed, and truncate long takes to ~80 words behind READ MORE. */
+const TAKE_WORD_LIMIT = 80;
+function formatTake(raw) {
+  const text = String(raw || "").trim().replace(/\s+/g, " ");
+  const fm = text.match(/^(.*?[.!?])(?=\s|$)/);     // first sentence
+  const first = fm ? fm[1] : "";
+  const emph = (s) => {                               // bold the first-sentence portion of s
+    if (first && s.startsWith(first)) return `<strong>${esc(first)}</strong>${esc(s.slice(first.length))}`;
+    if (first && first.startsWith(s)) return `<strong>${esc(s)}</strong>`;
+    return esc(s);
+  };
+  const words = text.split(" ");
+  if (words.length <= TAKE_WORD_LIMIT) return { truncated: false, full: emph(text) };
+  return {
+    truncated: true,
+    preview: emph(words.slice(0, TAKE_WORD_LIMIT).join(" ")) + "…",
+    full: emph(text),
+  };
+}
+
 function renderRoundtable(doc) {
   const box = el("roundtable-cards");
   box.classList.remove("loading");
@@ -125,15 +147,64 @@ function renderRoundtable(doc) {
   if (doc.source) el("roundtable-meta").textContent = `SOURCE: ${doc.source}`;
   box.innerHTML = `<div class="roundtable-grid">${pundits.map((p) => {
     const color = p.color || PUNDIT_FALLBACK_COLORS[p.name] || "#2f6dff";
+    const t = formatTake(p.take);
+    const takeBody = t.truncated
+      ? `<p class="pundit-take">
+           <span class="take-preview">${t.preview}</span>
+           <span class="take-full" hidden>${t.full}</span>
+         </p>
+         <button class="take-toggle" type="button" aria-expanded="false">READ MORE ▼</button>`
+      : `<p class="pundit-take">${t.full}</p>`;
     return `
       <div class="pundit-card" style="--pundit:${color}">
         <div class="pundit-head">
           <span class="pundit-name">${esc(p.name)}</span>
           ${p.tone ? `<span class="pundit-tone">${esc(p.tone)}</span>` : ""}
         </div>
-        <p class="pundit-take">${esc(p.take)}</p>
+        ${takeBody}
       </div>`;
   }).join("")}</div>`;
+
+  box.querySelectorAll(".take-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const card = btn.closest(".pundit-card");
+      const prev = card.querySelector(".take-preview");
+      const full = card.querySelector(".take-full");
+      const open = btn.getAttribute("aria-expanded") === "true";
+      prev.hidden = !open;
+      full.hidden = open;
+      btn.setAttribute("aria-expanded", String(!open));
+      btn.textContent = open ? "READ MORE ▼" : "READ LESS ▲";
+    });
+  });
+}
+
+/* ---------- JIM ROME'S TAKE (rolling narrative from tournament_recap.md) ---------- */
+const RECAP_PLACEHOLDER_RE = /column drops once the next slate/i;
+function jimRomePre(box) {
+  box.classList.remove("loading");
+  box.classList.remove("jimrome-card");
+  box.innerHTML = `<div class="news-empty">
+      <div class="news-empty-badge">📻 JIM ROME</div>
+      <p>Jim Rome's tournament coverage begins June 11.</p>
+    </div>`;
+}
+async function renderJimRome() {
+  const box = el("jim-rome");
+  if (!box) return;
+  try {
+    const res = await fetch("data/tournament_recap.md?v=" + Date.now());
+    if (!res.ok) throw new Error(`recap: ${res.status}`);
+    const md = (await res.text()).trim();
+    if (!md || RECAP_PLACEHOLDER_RE.test(md)) { jimRomePre(box); return; }
+    box.classList.remove("loading");
+    const html = (typeof marked !== "undefined")
+      ? marked.parse(md)
+      : "<p>" + esc(md).replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br/>") + "</p>";
+    box.innerHTML = `<div class="jimrome-body">${html}</div>`;
+  } catch (e) {
+    jimRomePre(box);
+  }
 }
 
 /* ---------- HERO + STANDINGS BOARD ---------- */
@@ -381,6 +452,8 @@ async function main() {
       .catch(() => winprobEmpty("Win probability populates once the engine runs."));
 
     loadJSON("data/commentary.json").then(renderRoundtable).catch(warmingUp);
+
+    renderJimRome();
 
     loadJSON("data/player_goals.json").then(renderGoldenBoot).catch(() => {
       el("player-goals").classList.remove("loading");
