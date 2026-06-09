@@ -97,6 +97,28 @@ OWNERS = {
             "Gripping and shaking the ring ropes, war-painted face contorted in a feral wide-eyed roar.",
         ],
     },
+    # Rafe has no reference photo on disk: he is a text-only ("faceless") character,
+    # a scrappy swamp kid rather than a likeness of a real person.
+    "rafe": {
+        "persona": "Jake 'The Snake' Roberts",
+        "refs": [],
+        "faceless": True,
+        "base": (_WWE + "Render a skinny, wiry, scrappy 15-year-old teenage boy as a "
+                 "Jake 'The Snake' Roberts-style wrestling icon. He is lean and sinewy — "
+                 "NOT muscular, jacked, or adult; a scrappy lightweight kid. He has a "
+                 "shaggy 1980s mullet and a large live snake (a thick python/boa) draped "
+                 "heavily around his neck and shoulders. His expression is unhinged, "
+                 "fearless confidence with zero fear in his eyes — the look of a swamp kid "
+                 "who catches wild lizards and snakes with his bare hands and has just "
+                 "strolled into a league he knows nothing about and isn't the least bit "
+                 "worried about it. Simple dark wrestling attire. "
+                 "Render a generic teenage boy's face (do NOT use any reference photo). "),
+        "variations": [
+            "Holding the snake's head up toward the camera with a calm, dead-eyed unhinged stare, the snake's body coiled across his shoulders.",
+            "Lifting the snake overhead with both hands, head tilted back, wild fearless grin, smoke and sparks behind him.",
+            "Snake draped around his neck, arms loose at his sides, fearless thousand-yard stare straight down the lens through the smoke.",
+        ],
+    },
 }
 
 
@@ -161,12 +183,13 @@ def main():
     for mgr in targets:
         cfg = OWNERS[mgr]
         refs = load_refs(cfg)
-        if not refs:
+        if not refs and not cfg.get("faceless"):
             print(f"[skip] {mgr}: no reference photo in assets/reference/ "
                   f"(expected one of {cfg['refs']})")
             skipped.append(mgr)
             continue
-        print(f"[gen ] {mgr} as {cfg['persona']} — {len(refs)} reference photo(s)")
+        ref_note = f"{len(refs)} reference photo(s)" if refs else "faceless (no reference)"
+        print(f"[gen ] {mgr} as {cfg['persona']} — {ref_note}")
 
         poses = cfg["variations"]
         count = args.count if args.count is not None else len(poses)
