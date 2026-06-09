@@ -13,3 +13,6 @@ foxsports-reference.png
 
 # personal reference photos (do not publish to public repo)
 assets/reference/
+
+# Playwright MCP automation output (screenshots, console logs, snapshots)
+.playwright-mcp/

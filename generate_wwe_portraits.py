@@ -97,22 +97,62 @@ OWNERS = {
             "Gripping and shaking the ring ropes, war-painted face contorted in a feral wide-eyed roar.",
         ],
     },
-    # Rafe has no reference photo on disk: he is a text-only ("faceless") character,
-    # a scrappy swamp kid rather than a likeness of a real person.
+    # Ron is a PRIVATE joke character (cousin), deliberately NOT shown anywhere on the
+    # league site. The whole gag: an "elite cyclist" who is ALL legs and noodle arms — a
+    # deep troll of the bit that cyclists are better athletes than NBA players.
+    "ron": {
+        "persona": "Lance 'Strongarm' — cyclist wrestler, monster quads, tiny arms",
+        "refs": ["ron.jpeg"],
+        "base": (_WWE + "Render the man from the reference photo(s) as a pro-wrestling "
+                 "superstar with a road-cyclist gimmick named 'Lance Strongarm'. "
+                 "THE CENTRAL JOKE, which must be EXTREME, CARICATURED and impossible to "
+                 "miss: his LEGS are absurdly ENORMOUS — gigantic, hugely over-muscled, "
+                 "vascular, world-champion-bodybuilder tree-trunk quads and calves so big "
+                 "they look like they could leg-press a truck — while his ARMS are "
+                 "ridiculously, cartoonishly TINY: skeletal twig-thin little T-rex arms, "
+                 "no thicker than broomsticks, with pathetic shriveled non-existent "
+                 "biceps. Even when he flexes the arms with maximum effort, the biceps are "
+                 "tiny useless little pebbles. The arms must look SHOCKINGLY too small and "
+                 "wrong for his huge body and massive legs — like a different, much "
+                 "skinnier person's arms were photoshopped onto a powerlifter's body. "
+                 "Exaggerate this disproportion as far as possible. He wears a "
+                 "skin-tight bright YELLOW cycling jersey (Tour de France maillot-jaune "
+                 "style) and tight black-and-yellow lycra cycling bib shorts, with a "
+                 "sleek aerodynamic cycling helmet and wrap-around sport sunglasses pushed "
+                 "up on the helmet. Keep his distinctive thick mustache. " + _LIKENESS +
+                 "His eyes are hidden behind sunglasses in the reference, so render "
+                 "natural confident eyes while keeping the mustache, face shape and "
+                 "likeness exact."),
+        "variations": [
+            "Striking a double-bicep flex pose, straining with all his might, but his "
+            "biceps are hilariously tiny pebbles while his colossal quads dominate the "
+            "frame; smug confident grin like he thinks he looks jacked.",
+            "Mid-stride powering forward in a heroic hero pose, enormous legs churning, "
+            "tiny arms held up in dainty little fists, yellow jersey glowing under the pyro.",
+            "Standing triumphant with hands on his massive hips, chest puffed out, the "
+            "scrawny little arms looking comically out of place, polka-dot smoke behind him.",
+        ],
+    },
+    # Rafe is a likeness of a real 15-year-old: use his actual reference photos so the
+    # WWE portrait is recognizably him (the snake/mullet/attire are styling on top).
     "rafe": {
         "persona": "Jake 'The Snake' Roberts",
-        "refs": [],
-        "faceless": True,
-        "base": (_WWE + "Render a skinny, wiry, scrappy 15-year-old teenage boy as a "
-                 "Jake 'The Snake' Roberts-style wrestling icon. He is lean and sinewy — "
-                 "NOT muscular, jacked, or adult; a scrappy lightweight kid. He has a "
-                 "shaggy 1980s mullet and a large live snake (a thick python/boa) draped "
-                 "heavily around his neck and shoulders. His expression is unhinged, "
-                 "fearless confidence with zero fear in his eyes — the look of a swamp kid "
-                 "who catches wild lizards and snakes with his bare hands and has just "
-                 "strolled into a league he knows nothing about and isn't the least bit "
-                 "worried about it. Simple dark wrestling attire. "
-                 "Render a generic teenage boy's face (do NOT use any reference photo). "),
+        "refs": ["rafe_ref.jpg", "rafe2_ref.jpg", "rafe3_ref.jpg"],
+        "base": (_WWE + "Render the skinny, wiry teenage boy from the reference photo(s) "
+                 "as a Jake 'The Snake' Roberts-style wrestling icon. He is lean and "
+                 "sinewy — NOT muscular, jacked, or adult; a scrappy lightweight swamp "
+                 "kid. A large live snake (a thick python/boa) is draped heavily around "
+                 "his neck and shoulders. His expression is unhinged, fearless confidence "
+                 "with zero fear in his eyes — the look of a kid who catches wild lizards "
+                 "and snakes with his bare hands and has just strolled into a league he "
+                 "knows nothing about without a flicker of worry. Simple dark wrestling "
+                 "attire. " + _LIKENESS +
+                 "The ONLY change to his appearance is his hair: restyle it into a shaggy "
+                 "1980s mullet (short and tousled on top, long at the back), but keep his "
+                 "exact face, facial features and likeness from the reference photos. "
+                 "If — and only if — clean legible text rendering is reliable, you may add "
+                 "a stylized ring-name nameplate reading 'THE NOISEMAKER' along the bottom "
+                 "edge; if the text would be garbled or misspelled, omit all text entirely."),
         "variations": [
             "Holding the snake's head up toward the camera with a calm, dead-eyed unhinged stare, the snake's body coiled across his shoulders.",
             "Lifting the snake overhead with both hands, head tilted back, wild fearless grin, smoke and sparks behind him.",

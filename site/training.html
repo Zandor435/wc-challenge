@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WC Challenge — Managers in Training</title>
+  <meta name="description" content="The development squad. One man. One bicep. A dream. Meet Ron 'Strongarm', the Yellow Jersey Juggernaut." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23e2231a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='15' font-weight='bold' text-anchor='middle' fill='white'%3EWC%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* ============================================================
+       MANAGERS IN TRAINING — Ron "Strongarm", on the WC dark theme.
+       Reuses the shared topbar/flags from style.css; --c is his
+       cycling yellow, echoing the bios page's owner-color system.
+       ============================================================ */
+    body { background: #060607; }
+    :root { --c: #ffd400; }
+
+    /* ---- page intro ---- */
+    .train-hero { max-width: 1200px; margin: 0 auto; padding: 54px 18px 8px; text-align: center; }
+    .train-hero .kicker {
+      font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .35em;
+      font-size: .8rem; color: var(--c); font-weight: 600;
+    }
+    .train-hero h1 {
+      font-family: "Anton", "Oswald", sans-serif; font-weight: 400;
+      font-size: clamp(2.6rem, 8vw, 5.5rem); line-height: .92; margin: .12em 0 .15em;
+      letter-spacing: .01em; text-transform: uppercase;
+      background: linear-gradient(180deg, #fff 35%, #9aa0ab); -webkit-background-clip: text;
+      background-clip: text; color: transparent;
+    }
+    .train-hero p { color: var(--muted); max-width: 600px; margin: 0 auto; font-size: .95rem; }
+    .train-hero .dev-badge {
+      display: inline-block; margin-top: 14px; font-family: "Oswald", sans-serif;
+      text-transform: uppercase; letter-spacing: .14em; font-size: .68rem; font-weight: 700;
+      color: #0a0a0b; background: var(--c); padding: 5px 12px; border-radius: 999px;
+    }
+
+    /* ============ BIO SECTION (mirrors bios.html) ============ */
+    .bio {
+      position: relative; display: flex; align-items: center;
+      padding: 56px 0 40px; overflow: hidden;
+      border-top: 1px solid #14161c; scroll-margin-top: 56px;
+    }
+    .bio::before {
+      content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(120% 90% at 22% 50%, color-mix(in srgb, var(--c) 22%, transparent) 0%, transparent 55%),
+        radial-gradient(140% 120% at 50% 120%, rgba(0,0,0,.6), transparent 60%);
+    }
+    .bio::after {
+      content: "RON"; position: absolute; z-index: 0; pointer-events: none;
+      right: 2%; bottom: -8%; font-family: "Anton", sans-serif;
+      font-size: clamp(10rem, 28vw, 28rem); line-height: .7;
+      color: color-mix(in srgb, var(--c) 8%, transparent);
+      -webkit-text-stroke: 1px color-mix(in srgb, var(--c) 13%, transparent);
+    }
+    .bio-inner {
+      position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 0 18px; width: 100%;
+      display: grid; grid-template-columns: minmax(280px, 0.95fr) 1.05fr;
+      gap: clamp(24px, 5vw, 72px); align-items: start;
+    }
+    .bio-portrait { position: relative; }
+    .bio-portrait .glow {
+      position: absolute; inset: -6% -4%; z-index: 0; border-radius: 24px;
+      background: radial-gradient(60% 60% at 50% 40%, color-mix(in srgb, var(--c) 50%, transparent), transparent 70%);
+      filter: blur(38px); opacity: .5;
+    }
+    .bio-portrait img {
+      position: relative; z-index: 1; width: 100%; display: block; border-radius: 16px;
+      aspect-ratio: 3 / 4; object-fit: cover; object-position: top center;
+      box-shadow: 0 30px 70px rgba(0,0,0,.65), 0 0 0 1px color-mix(in srgb, var(--c) 35%, #000);
+    }
+    .pose-band {
+      position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; padding: 12px;
+      display: flex; gap: 9px; justify-content: center; align-items: center;
+      background: linear-gradient(0deg, rgba(0,0,0,.85), transparent); border-radius: 0 0 16px 16px;
+    }
+    .pose-band button {
+      width: 30px; height: 30px; border-radius: 50%; cursor: pointer; font-size: 14px; line-height: 1;
+      background: rgba(8,9,12,.7); border: 1px solid color-mix(in srgb, var(--c) 40%, #000); color: var(--text);
+    }
+    .pose-band button:hover { border-color: var(--c); color: var(--c); }
+    .pose-band .dot { width: 7px; height: 7px; border-radius: 50%; background: #2c2f3a; }
+    .pose-band .dot.on { background: var(--c); }
+    .tier1-badge {
+      position: absolute; z-index: 2; left: 14px; top: 14px;
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(8,9,12,.82); backdrop-filter: blur(6px);
+      border: 1px solid color-mix(in srgb, var(--c) 45%, #000);
+      padding: 7px 12px; border-radius: 999px; font-size: .78rem; font-weight: 700;
+    }
+    .tier1-badge .lbl { color: var(--c); font-family: "Oswald",sans-serif; letter-spacing: .05em; }
+
+    .bio-main { min-width: 0; }
+    .bio-persona {
+      display: inline-block; font-family: "Oswald", sans-serif; text-transform: uppercase;
+      letter-spacing: .22em; font-size: .8rem; font-weight: 600; color: var(--c); padding-bottom: 10px;
+    }
+    .bio-ringname {
+      font-family: "Anton", "Oswald", sans-serif; font-weight: 400; text-transform: uppercase;
+      font-size: clamp(2.7rem, 7.5vw, 6rem); line-height: .9; margin: 0; letter-spacing: .005em;
+      background: linear-gradient(180deg, #ffffff 30%, color-mix(in srgb, var(--c) 70%, #6b7079));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      text-shadow: 0 0 40px color-mix(in srgb, var(--c) 25%, transparent);
+    }
+    .bio-ringname em { font-style: normal; -webkit-text-fill-color: var(--c); }
+    .bio-realname { display: block; margin-top: 10px; color: var(--muted); font-size: 1rem; font-weight: 500; }
+    .bio-realname b { color: var(--text); font-weight: 700; }
+
+    .bio-stats {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 26px 0 0;
+      background: #1a1d25; border: 1px solid #1a1d25; border-radius: 10px; overflow: hidden;
+    }
+    .stat { background: var(--surface); padding: 13px 14px; }
+    .stat .k { font-size: .66rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted-2); font-weight: 700; }
+    .stat .v { font-family: "Oswald", sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--text); line-height: 1.1; margin-top: 3px; }
+    .stat .v small { font-size: .8rem; color: var(--muted); font-weight: 500; }
+    .stat.accent .v { color: var(--c); }
+
+    .bio-moves { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+    .move { border: 1px solid var(--line); border-left: 3px solid var(--c); border-radius: 8px; padding: 12px 14px; background: var(--surface); }
+    .move .k { font-size: .66rem; text-transform: uppercase; letter-spacing: .12em; color: var(--c); font-weight: 700; }
+    .move .v { font-family: "Oswald", sans-serif; font-size: 1.12rem; font-weight: 600; color: var(--text); margin-top: 4px; line-height: 1.15; }
+
+    .bio-content { margin-top: 24px; }
+    .bio-content b { color: var(--c); font-weight: 800; }
+    .bio-lead { margin: 0 0 16px; color: #e8eaee; font-size: 1.02rem; line-height: 1.62; border-left: 3px solid var(--c); padding-left: 16px; }
+    .bio-lead + .bio-lead { border-left-color: color-mix(in srgb, var(--c) 40%, var(--line)); }
+
+    .bio-ratings { margin-top: 4px; padding: 16px 18px; background: linear-gradient(180deg, color-mix(in srgb, var(--c) 9%, var(--surface)), var(--surface)); border: 1px solid color-mix(in srgb, var(--c) 30%, var(--line)); border-radius: 10px; }
+    .ratings-label { display: block; font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .2em; font-size: .74rem; font-weight: 700; color: var(--c); margin-bottom: 12px; }
+    .ratings-grid { display: grid; gap: 9px; }
+    .rating { display: grid; grid-template-columns: 110px 1fr 26px; align-items: center; gap: 12px; }
+    .r-name { font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .04em; font-size: .8rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+    .r-bar { height: 9px; border-radius: 999px; background: #0c0d11; box-shadow: inset 0 0 0 1px var(--line); overflow: hidden; }
+    .r-fill { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, color-mix(in srgb, var(--c) 55%, #000), var(--c)); box-shadow: 0 0 10px color-mix(in srgb, var(--c) 60%, transparent); }
+    .r-val { font-family: "Oswald", sans-serif; font-weight: 700; font-size: .95rem; color: var(--text); text-align: right; }
+
+    .bio-bullets { list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+    .bio-bullets li { position: relative; padding-left: 22px; color: #c7ccd4; font-size: .92rem; line-height: 1.5; }
+    .bio-bullets li::before { content: "›"; position: absolute; left: 4px; top: -1px; color: var(--c); font-weight: 800; font-size: 1.05rem; }
+    .bio-bullets b { color: var(--c); font-weight: 800; }
+
+    /* the cousin's catchphrase — featured pull quote */
+    .grape-quote {
+      margin-top: 22px; padding: 18px 20px; border-radius: 12px;
+      background: color-mix(in srgb, var(--c) 8%, var(--surface));
+      border: 1px solid color-mix(in srgb, var(--c) 28%, var(--line)); border-left: 4px solid var(--c);
+    }
+    .grape-quote .q { font-family: "Oswald", sans-serif; font-size: clamp(1.15rem, 2.6vw, 1.6rem); font-weight: 700; font-style: italic; color: #fff; line-height: 1.25; }
+    .grape-quote .by { margin-top: 8px; color: var(--muted); font-size: .82rem; text-transform: uppercase; letter-spacing: .12em; }
+
+    /* ============ WORKSHOP (interactive widgets) ============ */
+    .workshop { border-top: 1px solid #14161c; padding: 48px 0 20px; }
+    .workshop-head { max-width: 1200px; margin: 0 auto 22px; padding: 0 18px; }
+    .workshop-head .kicker { font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .3em; font-size: .72rem; color: var(--c); font-weight: 700; }
+    .workshop-head h2 { font-family: "Anton", sans-serif; font-weight: 400; text-transform: uppercase; font-size: clamp(1.8rem, 5vw, 3rem); line-height: .95; margin: 6px 0 4px; color: #fff; }
+    .workshop-head p { color: var(--muted); font-size: .92rem; max-width: 620px; }
+
+    .toys { max-width: 1200px; margin: 0 auto; padding: 0 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .toy { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px; position: relative; overflow: hidden; }
+    .toy h3 { font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .06em; font-size: 1rem; font-weight: 700; color: var(--text); margin: 0 0 4px; }
+    .toy h3 .em { color: var(--c); }
+    .toy .hint { color: var(--muted); font-size: .86rem; margin-bottom: 16px; }
+    .toy.wide { grid-column: 1 / -1; }
+
+    .btn { background: var(--c); color: #1a1400; border: none; font-family: "Oswald", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; padding: 11px 18px; border-radius: 8px; cursor: pointer; font-size: .86rem; transition: transform .05s, filter .15s; }
+    .btn:hover { filter: brightness(1.08); } .btn:active { transform: translateY(1px); }
+    .btn.ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+    .btn.ghost:hover { border-color: var(--c); color: var(--c); }
+    .btnrow { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+
+    /* caliper */
+    .meter-num { font-family: "Oswald", sans-serif; font-size: 2.8rem; font-weight: 700; letter-spacing: -1px; line-height: 1; color: #fff; }
+    .meter-num .unit { font-size: 1.05rem; color: var(--muted); font-weight: 600; margin-left: 6px; }
+    .armviz { height: 50px; margin: 14px 0; display: flex; align-items: center; }
+    .armviz .forearm { height: 13px; background: #caa37a; border-radius: 7px 0 0 7px; width: 86px; flex: none; }
+    .armviz .bicep { background: #d8b088; border-radius: 0 22px 22px 0; transition: width .12s, height .12s; }
+    input[type=range] { width: 100%; accent-color: var(--c); height: 26px; cursor: pointer; }
+    .verdict { margin-top: 12px; font-weight: 700; min-height: 44px; font-size: .95rem; }
+    .verdict.bad { color: #ff6a5e; } .verdict.ok { color: var(--c); }
+
+    /* gauge */
+    .gauge { width: 220px; height: 120px; margin: 6px auto 4px; }
+    .needle { transform-origin: 110px 110px; transition: transform .9s cubic-bezier(.2,1.4,.4,1); }
+    .readout { text-align: center; font-family: "Oswald", sans-serif; font-size: 1.9rem; font-weight: 700; color: #fff; }
+    .readout small { display: block; font-size: .7rem; letter-spacing: .18em; color: var(--muted); text-transform: uppercase; font-weight: 700; }
+    .gauge-wrap .btnrow { justify-content: center; }
+
+    /* grape */
+    .grape-stage { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .grape { font-size: 3.4rem; line-height: 1; transition: transform .15s; transform-origin: center; }
+    .grape.squeeze { animation: nope .5s ease; }
+    @keyframes nope { 0%,100% { transform: scale(1) rotate(0); } 30% { transform: scale(1.06) rotate(-4deg); } 60% { transform: scale(1.02) rotate(3deg); } }
+    .grape-verdict { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.05rem; color: var(--c); flex: 1; min-width: 200px; }
+
+    /* doping */
+    .stamp { display: inline-block; margin-top: 12px; border: 3px solid #ff6a5e; color: #ff6a5e; font-family: "Oswald", sans-serif; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: 6px 14px; border-radius: 6px; transform: rotate(-7deg); opacity: 0; transition: opacity .2s; }
+    .stamp.show { opacity: 1; } .stamp.clean { border-color: #39d353; color: #39d353; }
+
+    /* promo */
+    .promo { text-align: center; background: radial-gradient(800px 200px at 50% -40%, color-mix(in srgb, var(--c) 16%, transparent), transparent), var(--surface); }
+    .promo .mic { font-family: "Oswald", sans-serif; font-size: clamp(1.15rem, 3vw, 1.8rem); font-weight: 600; font-style: italic; color: #fff; min-height: 76px; display: flex; align-items: center; justify-content: center; transition: opacity .12s; }
+    .promo .mic::before { content: "“"; color: var(--c); } .promo .mic::after { content: "”"; color: var(--c); }
+    .promo .btn { margin-top: 6px; }
+
+    .train-foot { text-align: center; color: var(--muted-2); font-size: .8rem; padding: 40px 18px 60px; border-top: 1px solid #14161c; }
+    .train-foot a { color: var(--muted); } .train-foot a:hover { color: #fff; }
+
+    @media (min-width: 861px) { .bio-portrait { position: sticky; top: 72px; } }
+    @media (max-width: 860px) {
+      .bio-inner { grid-template-columns: 1fr; gap: 26px; }
+      .bio-portrait img { max-width: 420px; margin: 0 auto; }
+      .toys { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 460px) { .bio-stats { grid-template-columns: 1fr 1fr; } .bio-moves { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- ============ TOP NAV ============ -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html" aria-label="WC Challenge home">
+        <span class="brand-mark">WC</span>
+        <span class="brand-word">CHALLENGE</span>
+      </a>
+      <nav class="mainnav" aria-label="Primary">
+        <a href="index.html">HOME</a>
+        <a href="bios.html">MGR BIOS</a>
+        <a href="analytics.html">ANALYTICS</a>
+        <a href="teams.html">TEAMS</a>
+        <a href="training.html" class="active">IN TRAINING</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="icon-btn" aria-label="Search">🔍</button>
+        <button class="icon-btn" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ INTRO ============ -->
+  <div class="train-hero">
+    <div class="kicker">WC Challenge · Development Squad</div>
+    <h1>Managers in Training</h1>
+    <p>Not every legend makes the starting roster. Some are still in the lab — all engine, no roster, working their way up from the cul-de-sac to the big leagues.</p>
+    <span class="dev-badge">★ Prospect #1 ★</span>
+  </div>
+
+  <!-- ============ RON'S BIO ============ -->
+  <section class="bio" id="ron">
+    <div class="bio-inner">
+      <div class="bio-portrait">
+        <span class="glow"></span>
+        <img id="portrait" src="assets/portraits/wwe/ron_wwe_4.jpg" alt="Ron as Ron 'Strongarm', WWE-style cyclist wrestler" />
+        <span class="tier1-badge"><span class="lbl">FTP</span> 388 W</span>
+        <div class="pose-band">
+          <button id="prev" title="Previous pose">‹</button>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot on"></span><span class="dot"></span><span class="dot"></span>
+          <button id="next" title="Next pose">›</button>
+        </div>
+      </div>
+
+      <div class="bio-main">
+        <span class="bio-persona">The Yellow Jersey Juggernaut · Cardio Division</span>
+        <h2 class="bio-ringname">RON <em>"STRONGARM"</em></h2>
+        <span class="bio-realname">Also answers to &nbsp;<b>Lance</b> &nbsp;— he gets the reference, and he loves it</span>
+
+        <div class="bio-stats">
+          <div class="stat"><div class="k">Quadriceps</div><div class="v">31.5<small>" ea.</small></div></div>
+          <div class="stat accent"><div class="k">Biceps</div><div class="v">9.1<small>" flexed</small></div></div>
+          <div class="stat accent"><div class="k">Resting HR</div><div class="v">38<small> bpm</small></div></div>
+        </div>
+
+        <div class="bio-moves">
+          <div class="move"><div class="k">Signature Move</div><div class="v">The King of the Mountains — grinds up your spine giving unsolicited cadence advice</div></div>
+          <div class="move"><div class="k">Finishing Move</div><div class="v">The Doping Scandal — a leg submission nobody can explain his fast recovery from</div></div>
+        </div>
+
+        <div class="bio-content">
+          <p class="bio-lead"><b>RON.</b> The most aerobically gifted man in this entire family, and he will not let you forget it. They call him <b>Lance "Strongarm"</b> — the Yellow Jersey Juggernaut — because somewhere out there an NBA player dunked a basketball and Ron decided that was <b>nothing</b> compared to a Strava KOM. He clips into the bottom rope, lectures the crowd about <b>watts per kilogram</b>, and genuinely believes a road cyclist is a superior athlete to any player in the NBA.</p>
+          <p class="bio-lead">His legs? <b>World-historic.</b> Carved from marble by an Italian. His arms? The official program lists Ron's biceps as <b>"present."</b> When Ron hits a double-bicep pose, the jumbotron operator is contractually required to zoom <i>out</i>. His sworn rival — a certain retired cyclist with shockingly large biceps and a fondness for press conferences — shall remain unnamed for legal reasons, but Ron dedicates every match to proving that guy's arms were <b>the only honest thing about him.</b></p>
+
+          <div class="bio-ratings">
+            <span class="ratings-label">Athlete Rating · per Ron</span>
+            <div class="ratings-grid" id="ratings"></div>
+          </div>
+
+          <ul class="bio-bullets">
+            <li>Once held a wheel for 90 miles in a crosswind and brings it up at <b>every</b> family dinner. "An NBA player runs maybe 2.5 miles a game, Ron." He knows. He counted.</li>
+            <li>Weighs 171 pounds, of which approximately <b>170 is legs.</b> He calls this "efficiency." The doctor calls it "unusual."</li>
+            <li>Has perfectly normal, fine biceps in real life. The <b>elite cyclists</b> he worships do not. That, Ron, is the entire joke — and we made a whole website about it.</li>
+          </ul>
+
+          <div class="grape-quote">
+            <div class="q">"Those biceps could crush a grape!"</div>
+            <div class="by">— his cousin, every single time, for years</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORKSHOP ============ -->
+  <div class="workshop">
+    <div class="workshop-head">
+      <div class="kicker">★ Interactive · Mess With Ron ★</div>
+      <h2>The Strongarm Workshop</h2>
+      <p>Everything you need to torment Ron at the next family gathering. Drag, press, and roast. He gets every Lance reference — that's the point.</p>
+    </div>
+
+    <div class="toys">
+      <!-- Bicep caliper -->
+      <div class="toy">
+        <h3>The Official <span class="em">Bicep Caliper</span></h3>
+        <div class="hint">Drag to "measure" Ron's bicep. Good luck finding it.</div>
+        <div class="meter-num"><span id="bicepVal">9.1</span><span class="unit">inches</span></div>
+        <div class="armviz"><div class="forearm"></div><div class="bicep" id="bicepViz" style="width:54px;height:34px"></div></div>
+        <input type="range" id="bicepSlider" min="0" max="100" value="40" />
+        <div class="verdict bad" id="bicepVerdict">Suspiciously small for an "elite athlete."</div>
+      </div>
+
+      <!-- Flex / Watt gauge -->
+      <div class="toy gauge-wrap">
+        <h3>The <span class="em">Flex-O-Meter</span> 9000</h3>
+        <div class="hint">Hit a pose. Measures raw, undeniable power.</div>
+        <div class="gauge">
+          <svg viewBox="0 0 220 120" width="220" height="120">
+            <path d="M15 110 A95 95 0 0 1 205 110" fill="none" stroke="#262a34" stroke-width="14" stroke-linecap="round"/>
+            <path d="M15 110 A95 95 0 0 1 110 15" fill="none" stroke="#39d353" stroke-width="14" stroke-linecap="round" opacity=".45"/>
+            <path d="M110 15 A95 95 0 0 1 205 110" fill="none" stroke="#ff6a5e" stroke-width="14" stroke-linecap="round" opacity=".45"/>
+            <line class="needle" id="needle" x1="110" y1="110" x2="110" y2="28" stroke="#ffd400" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="110" cy="110" r="8" fill="#ffd400"/>
+          </svg>
+        </div>
+        <div class="readout"><span id="wattVal">—</span><small id="wattLbl">awaiting a pose</small></div>
+        <div class="btnrow"><button class="btn" id="flexLegs">Flex Legs</button><button class="btn ghost" id="flexArms">Flex Arms</button></div>
+      </div>
+
+      <!-- Grape test (the cousin's catchphrase) -->
+      <div class="toy wide">
+        <h3>The <span class="em">Grape Test</span></h3>
+        <div class="hint">The family's oldest experiment. Can Ron's bicep crush a single grape? Settle it once and for all.</div>
+        <div class="grape-stage">
+          <div class="grape" id="grape">🍇</div>
+          <div class="grape-verdict" id="grapeVerdict">Place grape. Apply Ron. Await disappointment.</div>
+          <button class="btn" id="grapeBtn">Crush The Grape</button>
+        </div>
+      </div>
+
+      <!-- Doping test -->
+      <div class="toy">
+        <h3>Surprise <span class="em">Doping Control</span></h3>
+        <div class="hint">A formality. Ron is <i>definitely</i> clean. Probably.</div>
+        <p style="color:var(--muted);font-size:.86rem;margin:0">Sample collected at 6:04 AM after a "casual" 4-hour ride.</p>
+        <div class="btnrow"><button class="btn" id="dopeBtn">Run The Test</button></div>
+        <div id="dopeResult" style="margin-top:6px"></div>
+      </div>
+
+      <!-- Stat generator -->
+      <div class="toy">
+        <h3>Strava <span class="em">Stat Generator</span></h3>
+        <div class="hint">Generate a brand-new humblebrag for Ron to mention. Unprompted.</div>
+        <div id="statLine" style="font-family:'Oswald',sans-serif;font-weight:600;min-height:52px;color:var(--c);font-size:1rem">Press the button to begin the suffering.</div>
+        <div class="btnrow"><button class="btn" id="statBtn">New Stat</button></div>
+      </div>
+
+      <!-- Promo -->
+      <div class="toy wide promo">
+        <div class="kicker" style="font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;color:var(--c);font-weight:700">Cut A Promo</div>
+        <div class="mic" id="promo">I am a better athlete than every player in the NBA, and I have the resting heart rate to prove it.</div>
+        <button class="btn" id="promoBtn">Hand Ron The Mic 🎤</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="train-foot">
+    <p>Yellow Jersey Wrestling — a fictional promotion. Ron "Strongarm" is a parody. Ron's real biceps are perfectly fine; the elite cyclists' are not. <a href="bios.html">← Back to the real managers</a></p>
+  </footer>
+
+  <script src="nav.js"></script>
+  <script>
+    /* ---------- Athlete rating bars ---------- */
+    const RATINGS = { "VO2 Max": 10, "Cardio": 10, "Leg Day": 10, "Arm Day": 1, "Humility": 2, "Delusion": 9 };
+    document.getElementById('ratings').innerHTML = Object.entries(RATINGS).map(([k,v]) =>
+      `<div class="rating"><span class="r-name">${k}</span><span class="r-bar"><span class="r-fill" style="width:${v*10}%"></span></span><span class="r-val">${v}</span></div>`
+    ).join('');
+
+    /* ---------- Portrait swapper ---------- */
+    const poses = [1,2,3,4,5,6];
+    let pi = 3;
+    const img = document.getElementById('portrait');
+    const dots = [...document.querySelectorAll('.pose-band .dot')];
+    function renderPose(){ img.src = 'assets/portraits/wwe/ron_wwe_' + poses[pi] + '.jpg'; dots.forEach((d,i)=>d.classList.toggle('on', i===pi)); }
+    document.getElementById('next').onclick = ()=>{ pi=(pi+1)%poses.length; renderPose(); };
+    document.getElementById('prev').onclick = ()=>{ pi=(pi+poses.length-1)%poses.length; renderPose(); };
+
+    /* ---------- Bicep caliper ---------- */
+    const slider = document.getElementById('bicepSlider');
+    const bicepVal = document.getElementById('bicepVal');
+    const bicepViz = document.getElementById('bicepViz');
+    const bicepVerdict = document.getElementById('bicepVerdict');
+    function bicepVerdictText(v){
+      if(v < 5)  return {t:"That's not an arm. That's a grape stem.", c:'bad'};
+      if(v < 8)  return {t:"Suspiciously small for an \"elite athlete.\"", c:'bad'};
+      if(v < 11) return {t:"Ron's actual size. We are being generous.", c:'bad'};
+      if(v < 15) return {t:"Now you're just lying for him.", c:'ok'};
+      return {t:"Impossible. The caliper is broken. Recall it.", c:'ok'};
+    }
+    function updateBicep(){
+      const pct = +slider.value;
+      const inches = (2 + pct*0.16).toFixed(1);
+      bicepVal.textContent = inches;
+      bicepViz.style.width = (30 + pct*0.9) + 'px';
+      bicepViz.style.height = (18 + pct*0.7) + 'px';
+      const verd = bicepVerdictText(+inches);
+      bicepVerdict.textContent = verd.t; bicepVerdict.className = 'verdict ' + verd.c;
+    }
+    slider.addEventListener('input', updateBicep); updateBicep();
+
+    /* ---------- Flex-O-Meter ---------- */
+    const needle = document.getElementById('needle');
+    const wattVal = document.getElementById('wattVal');
+    const wattLbl = document.getElementById('wattLbl');
+    const point = (deg)=> needle.style.transform = 'rotate(' + deg + 'deg)';
+    document.getElementById('flexLegs').onclick = ()=>{ point(78); wattVal.textContent = (1900 + Math.floor(Math.random()*900)) + ' W'; wattLbl.textContent = 'LEG DAY — UNFATHOMABLE'; };
+    document.getElementById('flexArms').onclick = ()=>{ point(-82 + Math.random()*6); wattVal.textContent = (Math.floor(Math.random()*4)+1) + ' W'; wattLbl.textContent = 'ARM DAY — please stop'; };
+    point(-86);
+
+    /* ---------- Grape Test ---------- */
+    const grape = document.getElementById('grape');
+    const grapeVerdict = document.getElementById('grapeVerdict');
+    const grapeLines = [
+      "The grape is fine. The grape was never in danger.",
+      "Ron flexed. The grape filed a noise complaint.",
+      "Result: grape 1, Ron 0. As it has always been.",
+      "The grape didn't even notice. It's still a grape.",
+      "Bicep engaged. Grape: structurally unbothered.",
+      "Ron's legs could crush the whole vineyard. His arms? Not this grape.",
+    ];
+    let gi = -1;
+    document.getElementById('grapeBtn').onclick = ()=>{
+      grape.classList.remove('squeeze'); void grape.offsetWidth; grape.classList.add('squeeze');
+      let n; do { n = Math.floor(Math.random()*grapeLines.length); } while(n===gi); gi=n;
+      grapeVerdict.textContent = grapeLines[n];
+    };
+
+    /* ---------- Doping control ---------- */
+    const dopeResult = document.getElementById('dopeResult');
+    const dopeOutcomes = [
+      {txt:'INCONCLUSIVE', clean:false, note:'Sample was "lost." Again.'},
+      {txt:'NEEDS RETEST', clean:false, note:'Hematocrit described by the lab as "rude."'},
+      {txt:'SOMEHOW CLEAN', clean:true,  note:'Suspiciously, immaculately clean.'},
+      {txt:'INCONCLUSIVE', clean:false, note:'B-sample ate the A-sample.'},
+      {txt:'PENDING APPEAL', clean:false, note:'Ron has retained 4 lawyers and a saddle.'},
+    ];
+    document.getElementById('dopeBtn').onclick = ()=>{
+      const o = dopeOutcomes[Math.floor(Math.random()*dopeOutcomes.length)];
+      dopeResult.innerHTML = '<span class="stamp ' + (o.clean?'clean':'') + '">' + o.txt + '</span>' +
+        '<div style="color:var(--muted);font-size:.84rem;margin-top:8px">' + o.note + '</div>';
+      const stamp = dopeResult.querySelector('.stamp'); requestAnimationFrame(()=>stamp.classList.add('show'));
+    };
+
+    /* ---------- Strava stat generator ---------- */
+    const statLine = document.getElementById('statLine');
+    const stats = [
+      'Ron would like you to know his resting heart rate is 38. An NBA point guard\'s is, what, 60? Pathetic.',
+      'Climbed 11,400 feet this morning. Before coffee. What did LeBron do before his coffee?',
+      'Ron\'s functional threshold power is 388 watts. Do you even know what a watt is? He thought not.',
+      'Held a wheel for 90 miles in a crosswind. A basketball player runs maybe 2.5 miles a game.',
+      'Ron weighs 171 pounds and 170 of it is legs. That is called efficiency.',
+      'Took a KOM today off a 19-year-old. The kid cried. The watts don\'t lie.',
+      'Ron\'s VO2 max is 71. The average dunk contestant? Couldn\'t tell you, they were busy being weak.',
+      'Negative-split a century ride. Name one NBA player who has negative-split anything.',
+    ];
+    let li = -1;
+    document.getElementById('statBtn').onclick = ()=>{ let n; do { n = Math.floor(Math.random()*stats.length); } while(n===li); li=n; statLine.textContent = stats[n]; };
+
+    /* ---------- Promo / trash talk ---------- */
+    const promo = document.getElementById('promo');
+    const promos = [
+      'I am a better athlete than every player in the NBA, and I have the resting heart rate to prove it.',
+      'You want to talk about a vertical leap? I climbed an actual mountain. On a bicycle. Twice.',
+      'They gave me a polka-dot jersey because I am the King of the Mountains. They gave you a participation dunk.',
+      'My legs are insured for more than your contract. My arms are insured for "sentimental value."',
+      'Watts per kilogram. Say it with me. Watts. Per. Kilogram. The only stat that matters, and I have all of them.',
+      'A certain cyclist had giant biceps and a giant secret. I have neither. I am the honest king of cardio.',
+      'You play 48 minutes with timeouts. I suffer for 5 hours with no brakes and no friends. Respect it.',
+      'Go ahead, tell me again my biceps could crush a grape. The grape is fine. My FTP is not your business.',
+    ];
+    let mi = 0;
+    document.getElementById('promoBtn').onclick = ()=>{ let n; do { n = Math.floor(Math.random()*promos.length); } while(n===mi); mi=n; promo.style.opacity = 0; setTimeout(()=>{ promo.textContent = promos[n]; promo.style.opacity = 1; }, 120); };
+  </script>
+</body>
+</html>
