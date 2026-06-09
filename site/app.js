@@ -17,6 +17,7 @@ const OWNER_PORTRAITS = {
   Devin:  "assets/portraits/devin_1.jpg",  // Ted Lasso
   Gunner: "assets/portraits/gunner_1.jpg", // Jesse Marsch
   Gayden: "assets/portraits/gayden_1.jpg", // Pep Guardiola
+  Rafe:   "assets/portraits/fox/rafe_fox.jpg",
 };
 function avatar(owner, cls = "") {
   const c = ownerColor(owner);
