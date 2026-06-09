@@ -13,7 +13,7 @@
    when present, else a hardcoded placeholder. */
 
 /* ---------- shared constants / helpers (mirrors app.js) ---------- */
-const OWNER_COLORS = { Zach: "#f4c430", Gunner: "#2f6dff", Gayden: "#28c060", Devin: "#f0743a" };
+const OWNER_COLORS = { Zach: "#f4c430", Gunner: "#2f6dff", Gayden: "#28c060", Devin: "#f0743a", Rafe: "#a855f7" };
 const OWNER_ORDER = Object.keys(OWNER_COLORS);
 const ownerColor = (o) => OWNER_COLORS[o] || "#8b919c";
 const TIER_COLORS = { 1: "#6f42c1", 2: "#1f6feb", 3: "#2d8a5a", 4: "#5a626d" };

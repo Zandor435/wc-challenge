@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WC Challenge — Manager Bios</title>
-  <meta name="description" content="Four owners. Four larger-than-life ring personas. The WC Challenge manager bios." />
+  <meta name="description" content="Five owners. Five larger-than-life ring personas. The WC Challenge manager bios." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23e2231a'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='15' font-weight='bold' text-anchor='middle' fill='white'%3EWC%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -262,7 +262,7 @@
   <div class="bios-hero">
     <div class="kicker">WC Challenge · 2026</div>
     <h1>Meet the Managers</h1>
-    <p>Four owners. Four larger-than-life ring personas. Tale of the tape, live from the World Cup pool.</p>
+    <p>Five owners. Five larger-than-life ring personas. Tale of the tape, live from the World Cup pool.</p>
   </div>
 
   <!-- ============ OWNER SECTIONS (rendered by script) ============ -->
@@ -278,7 +278,7 @@
      Numbers (record / points / win %) are pulled live from the JSON below.
      Bio lead/bullets allow inline <b>…</b> for emphasis (authored, trusted HTML);
      ratings are on a 0–10 scale and render as owner-color stat bars. */
-  const OWNER_COLORS = { Zach: "#f4c430", Gunner: "#2f6dff", Gayden: "#28c060", Devin: "#f0743a" };
+  const OWNER_COLORS = { Zach: "#f4c430", Gunner: "#2f6dff", Gayden: "#28c060", Devin: "#f0743a", Rafe: "#a855f7" };
 
   const PROFILES = [
     {
@@ -353,6 +353,24 @@
         rival: `The concept of research — they've never met.`,
       },
     },
+    {
+      id: "rafe", owner: "Rafe", color: OWNER_COLORS.Rafe,
+      ringName: "THE NOISEMAKER", realName: "Rafe", persona: "The Wild Card · Last In, Loudest Out",
+      portrait: "assets/portraits/wwe/rafe_wwe.jpg",
+      tiers: { 1: ["Germany"], 2: ["Ecuador", "Mexico"], 3: ["Tunisia", "Scotland"], 4: ["Uzbekistan"] },
+      signature: "The Noise — drowns out every counter-argument by simply getting louder",
+      finisher: "The Late Entry — shows up after the bracket's set and acts like he was here the whole time",
+      bio: {
+        lead: `The fifth man. The one nobody saw coming until the bell had already rung. <b>THE NOISEMAKER</b> walked into a four-owner league, looked at the bracket, and announced he was running it. He drafted <b>Germany at the top</b> and dared anyone to say a word. The other four went quiet. He did not. <b>He has not been quiet since.</b>`,
+        ratings: { Research: 6, Confidence: 10, Vibes: 9, "Trash Talk": 10, Delusion: 7 },
+        bullets: [
+          `Joined a league that was already balanced for four and detonated the whole spreadsheet. <b>Three other threads had to be rebuilt.</b>`,
+          `Drafted Germany, Ecuador, and Mexico — a continent-hopping roster assembled purely to maximize the number of time zones he can celebrate in.`,
+          `Calls Uzbekistan a "sleeper." Everyone else calls it a Tier 4. <b>He will not be told.</b>`,
+        ],
+        rival: `All four of them — he's the variable nobody calibrated for.`,
+      },
+    },
   ];
 
   /* ---------- flags (teams used on this page) ---------- */
@@ -361,6 +379,7 @@
     France:"fr", Senegal:"sn", Morocco:"ma", Egypt:"eg", Canada:"ca", "DR Congo":"cd",
     England:"gb-eng", Japan:"jp", "Ivory Coast":"ci", "Korea Republic":"kr", Turkey:"tr", Jordan:"jo",
     Spain:"es", USA:"us", Norway:"no", "South Africa":"za", Bosnia:"ba", Haiti:"ht",
+    Germany:"de", Ecuador:"ec", Mexico:"mx", Tunisia:"tn", Scotland:"gb-sct", Uzbekistan:"uz",
   };
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
   function flag(team) {

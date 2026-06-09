@@ -6,6 +6,7 @@ const OWNER_COLORS = {
   Gunner: "#2f6dff",
   Gayden: "#28c060",
   Devin:  "#f0743a",
+  Rafe:   "#a855f7",
 };
 const ownerColor = (o) => OWNER_COLORS[o] || "#8b919c";
 
@@ -72,6 +73,7 @@ const WWE_NAMES = {
   Gunner: "Bubba G",
   Gayden: "The Backpass Assassin",
   Devin: "Ghost Pepper",
+  Rafe: "The Noisemaker",
 };
 
 function ptsPill(owner, pts) {

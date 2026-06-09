@@ -15,7 +15,7 @@ Usage:
 Outputs (into --out-dir):
     owner_standings.json   leaderboard: owners ranked by total points, with breakdown
     daily_results.json     every match, the points it generated, and the math
-    team_table.json        all 24 drafted teams: owner, tier, W/D/L, points
+    team_table.json        every drafted team: owner, tier, W/D/L, points
 
 Scoring summary (read from config, shown here for reference):
   GROUP   win=3 draw=1 loss=0; upset bonus = 2 * (winner_tier - loser_tier) when a

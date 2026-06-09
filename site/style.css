@@ -526,7 +526,7 @@ td.rk-col { color: var(--muted); font-family: "Oswald", sans-serif; font-weight:
 }
 
 /* ---------------- OWNER MOMENTUM (Rome inline badges) ---------------- */
-.momentum-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0 0 14px; }
+.momentum-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(108px, 1fr)); gap: 8px; margin: 0 0 14px; }
 .mom-badge {
   display: flex; align-items: center; gap: 8px; min-width: 0;
   background: var(--surface); border: 1px solid var(--line);
