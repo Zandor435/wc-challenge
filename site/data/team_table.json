@@ -24,6 +24,12 @@
     { "team": "Austria", "owner": "Zach", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
     { "team": "Ghana", "owner": "Zach", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
     { "team": "Czechia", "owner": "Zach", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Saudi Arabia", "owner": "Zach", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 }
+    { "team": "Saudi Arabia", "owner": "Zach", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 },
+    { "team": "Germany", "owner": "Rafe", "tier": 1, "W": 0, "D": 0, "L": 0, "points": 0 },
+    { "team": "Ecuador", "owner": "Rafe", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
+    { "team": "Mexico", "owner": "Rafe", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
+    { "team": "Tunisia", "owner": "Rafe", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
+    { "team": "Scotland", "owner": "Rafe", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
+    { "team": "Uzbekistan", "owner": "Rafe", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 }
   ]
 }
