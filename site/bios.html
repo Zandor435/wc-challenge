@@ -94,9 +94,14 @@
 
     /* ---- text/content side ---- */
     .bio-main { min-width: 0; }
-    /* subtle "back to home" link above each bio */
+    /* subtle "back to home" link above each bio.
+       Full-width first row of the bio-inner grid so it stays pinned to the
+       content's left edge on EVERY section — the even/odd layout swaps the
+       portrait/text columns, but grid-column 1/-1 + justify-self:start keeps
+       this anchored left regardless of which side the portrait is on. */
     .bio-back {
-      display: block; width: max-content; margin-bottom: 14px;
+      grid-column: 1 / -1; justify-self: start;
+      margin-bottom: -8px; /* sit just above the persona/name row */
       font-family: "Oswald", sans-serif; text-transform: uppercase;
       letter-spacing: .12em; font-size: .72rem; font-weight: 600;
       color: var(--muted-2); text-decoration: none; transition: color .15s;
@@ -445,6 +450,7 @@
     return `
       <section class="bio" id="${p.id}" data-idx="${idx + 1}" style="--c:${p.color}">
         <div class="bio-inner">
+          <a class="bio-back" href="index.html">← Back to Home</a>
           <div class="bio-portrait">
             <span class="glow"></span>
             <img src="${p.portrait}" alt="${esc(p.owner)} as ${esc(p.ringName)}" loading="lazy"
@@ -452,7 +458,6 @@
             ${t1 ? `<span class="tier1-badge"><span class="lbl">T1</span> ${flag(t1)}${esc(t1)}</span>` : ""}
           </div>
           <div class="bio-main">
-            <a class="bio-back" href="index.html">← Back to Home</a>
             <span class="bio-persona">${esc(p.persona)}</span>
             <h2 class="bio-ringname">${esc(p.ringName)}</h2>
             <span class="bio-realname">Real name &nbsp;<b>${esc(p.realName)}</b></span>
@@ -514,6 +519,23 @@
 
     document.getElementById("bios").innerHTML =
       PROFILES.map((p, i) => sectionHTML(p, i, statsFor(p.owner))).join("");
+
+    // Deep-link fix: sections are built here, AFTER the async fetch above, so the
+    // browser's initial jump to #owner fired before the target existed and missed
+    // (landing on Zach at the top). Re-run the scroll now that the section exists.
+    // Force instant scroll (override the page's smooth scroll-behavior) so a deep
+    // link lands immediately instead of animating down the whole page.
+    if (location.hash.length > 1) {
+      requestAnimationFrame(() => {
+        const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (!target) return;
+        const root = document.documentElement;
+        const prev = root.style.scrollBehavior;
+        root.style.scrollBehavior = "auto";
+        target.scrollIntoView({ block: "start" });
+        root.style.scrollBehavior = prev;
+      });
+    }
   }
   main();
   </script>
