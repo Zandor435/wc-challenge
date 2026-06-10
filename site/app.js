@@ -129,6 +129,14 @@ const PUNDIT_FALLBACK_COLORS = {
   "Clint Dempsey": "#28c060",
   "Alexi Lalas": "#f4a423",
 };
+// circular headshots shown next to the pundit name (default variant of each;
+// more variants live alongside in assets/portraits/pundits/<slug>/ for rotation).
+const PUNDIT_AVATARS = {
+  "Eric Wynalda":   "assets/portraits/pundits/wynalda/wynalda.png",
+  "Landon Donovan": "assets/portraits/pundits/donovan/donovan.png",
+  "Clint Dempsey":  "assets/portraits/pundits/dempsey/dempsey.png",
+  "Alexi Lalas":    "assets/portraits/pundits/lalas/lalas.png",
+};
 // daily rotation order, used only as a fallback when an older (four-up)
 // commentary.json is encountered so the page still shows one voice.
 const PUNDIT_ROTATION = ["Eric Wynalda", "Landon Donovan", "Clint Dempsey", "Alexi Lalas"];
@@ -185,6 +193,10 @@ function renderPundit(doc) {
   }
   if (doc.source && el("pundit-meta")) el("pundit-meta").textContent = `SOURCE: ${doc.source}`;
   const color = p.color || PUNDIT_FALLBACK_COLORS[p.name] || "#2f6dff";
+  const avSrc = p.avatar || PUNDIT_AVATARS[p.name] || "";
+  const av = avSrc
+    ? `<img class="pundit-avatar" src="${esc(avSrc)}" alt="" width="44" height="44" loading="lazy" />`
+    : "";
   const badge = p.tone ? (TONE_BADGE[String(p.tone).toLowerCase()] || p.tone) : "";
   const t = formatTake(p.take);
   const takeBody = t.truncated
@@ -197,6 +209,7 @@ function renderPundit(doc) {
   box.innerHTML = `
     <div class="pundit-card solo" style="--pundit:${color}">
       <div class="pundit-head">
+        ${av}
         <span class="pundit-name">${esc(p.name)}</span>
         ${badge ? `<span class="pundit-tone">${esc(badge)}</span>` : ""}
       </div>
