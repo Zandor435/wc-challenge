@@ -94,6 +94,14 @@
 
     /* ---- text/content side ---- */
     .bio-main { min-width: 0; }
+    /* subtle "back to home" link above each bio */
+    .bio-back {
+      display: block; width: max-content; margin-bottom: 14px;
+      font-family: "Oswald", sans-serif; text-transform: uppercase;
+      letter-spacing: .12em; font-size: .72rem; font-weight: 600;
+      color: var(--muted-2); text-decoration: none; transition: color .15s;
+    }
+    .bio-back:hover { color: var(--text); }
     .bio-persona {
       display: inline-block; font-family: "Oswald", sans-serif; text-transform: uppercase;
       letter-spacing: .22em; font-size: .8rem; font-weight: 600; color: var(--c);
@@ -444,6 +452,7 @@
             ${t1 ? `<span class="tier1-badge"><span class="lbl">T1</span> ${flag(t1)}${esc(t1)}</span>` : ""}
           </div>
           <div class="bio-main">
+            <a class="bio-back" href="index.html">← Back to Home</a>
             <span class="bio-persona">${esc(p.persona)}</span>
             <h2 class="bio-ringname">${esc(p.ringName)}</h2>
             <span class="bio-realname">Real name &nbsp;<b>${esc(p.realName)}</b></span>
