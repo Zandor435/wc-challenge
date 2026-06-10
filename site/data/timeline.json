@@ -3,20 +3,21 @@
     "date": "2026-06-10",
     "matchday": 0,
     "win_probability": {
-      "Devin": 0.2524,
-      "Gayden": 0.2279,
-      "Gunner": 0.3038,
-      "Zach": 0.2159
+      "Devin": 0.2094,
+      "Gayden": 0.1863,
+      "Gunner": 0.2597,
+      "Rafe": 0.1578,
+      "Zach": 0.1867
     },
     "projected_points": {
       "Devin": {
         "p10": 29,
-        "median": 56,
-        "p90": 118
+        "median": 55,
+        "p90": 116
       },
       "Gayden": {
         "p10": 31,
-        "median": 55,
+        "median": 56,
         "p90": 112
       },
       "Gunner": {
@@ -24,17 +25,23 @@
         "median": 64,
         "p90": 124
       },
+      "Rafe": {
+        "p10": 31,
+        "median": 53,
+        "p90": 105
+      },
       "Zach": {
         "p10": 30,
         "median": 54,
-        "p90": 112
+        "p90": 113
       }
     },
     "champion_probability": {
-      "Devin": 0.1638,
-      "Gayden": 0.1072,
-      "Gunner": 0.1502,
-      "Zach": 0.114
+      "Devin": 0.1546,
+      "Gayden": 0.109,
+      "Gunner": 0.1532,
+      "Rafe": 0.0879,
+      "Zach": 0.1222
     },
     "label": "preseason"
   }

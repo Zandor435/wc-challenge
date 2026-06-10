@@ -14,7 +14,7 @@
   },
   "owners": {
     "Zach": {
-      "rank": 4,
+      "rank": 3,
       "rank_change_from_prev_day": 0,
       "total_points": 0,
       "points_today": 0,
@@ -23,8 +23,8 @@
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.22,
-      "champion_probability": 0.11,
+      "win_probability": 0.19,
+      "champion_probability": 0.12,
       "streak": {
         "type": null,
         "length": 0,
@@ -43,7 +43,7 @@
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.3,
+      "win_probability": 0.26,
       "champion_probability": 0.15,
       "streak": {
         "type": null,
@@ -54,7 +54,7 @@
       "worst_team": null
     },
     "Gayden": {
-      "rank": 3,
+      "rank": 4,
       "rank_change_from_prev_day": 0,
       "total_points": 0,
       "points_today": 0,
@@ -63,7 +63,7 @@
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.23,
+      "win_probability": 0.19,
       "champion_probability": 0.11,
       "streak": {
         "type": null,
@@ -83,8 +83,28 @@
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.25,
-      "champion_probability": 0.16,
+      "win_probability": 0.21,
+      "champion_probability": 0.15,
+      "streak": {
+        "type": null,
+        "length": 0,
+        "label": "-"
+      },
+      "best_team": null,
+      "worst_team": null
+    },
+    "Rafe": {
+      "rank": 5,
+      "rank_change_from_prev_day": 0,
+      "total_points": 0,
+      "points_today": 0,
+      "record": {
+        "W": 0,
+        "D": 0,
+        "L": 0
+      },
+      "win_probability": 0.16,
+      "champion_probability": 0.09,
       "streak": {
         "type": null,
         "length": 0,
@@ -96,6 +116,15 @@
   },
   "head_to_head_matrix": {},
   "head_to_head_log": [],
+  "h2h_differential": {},
+  "matchday_point_history": [],
+  "dependency_index": {
+    "Zach": 0,
+    "Gunner": 0,
+    "Gayden": 0,
+    "Devin": 0,
+    "Rafe": 0
+  },
   "notable_events": [],
   "themes": [],
   "golden_boot_leader": null,
