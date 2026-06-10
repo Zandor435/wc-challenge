@@ -57,24 +57,27 @@ WWE_NAMES = {
     "Gunner": "Bubba G",
     "Gayden": "The Backpass Assassin",
     "Devin": "Ghost Pepper",
+    "Rafe": "The Noisemaker",
 }
 
 # Fixed draft board, pasted into every prompt (matches data/draft_board.json).
 ROSTERS = """- Zach: Brazil (T1) | Switzerland, Austria (T2) | Ghana, Czechia (T3) | Saudi Arabia (T4)
 - Gunner: France (T1) | Senegal, Morocco (T2) | Egypt, Canada (T3) | DR Congo (T4)
 - Gayden: England (T1) | Japan, Ivory Coast (T2) | Korea Republic, Turkey (T3) | Jordan (T4)
-- Devin: Spain (T1) | USA, Norway (T2) | South Africa, Bosnia (T3) | Haiti (T4)"""
+- Devin: Spain (T1) | USA, Norway (T2) | South Africa, Bosnia (T3) | Haiti (T4)
+- Rafe: Germany (T1) | Ecuador, Mexico (T2) | Tunisia, Scotland (T3) | Uzbekistan (T4)"""
 
 SINGLE_PUNDIT_USER = """You are writing TODAY'S single pundit column for the WC Challenge fantasy World Cup pool.
 
 TODAY: {date}  (rotation #{rotation})
 THE VOICE TODAY IS YOU: {pundit_name} — personality: {personality}
 
-THE FOUR MANAGERS — use their WWE ring names when trash-talking, real names for stats:
+THE FIVE MANAGERS — use their WWE ring names when trash-talking, real names for stats:
 - Zach — "Mustard Boy"
 - Gunner — "Bubba G"
 - Gayden — "The Backpass Assassin"
 - Devin — "Ghost Pepper"
+- Rafe — "The Noisemaker" (Gayden's 15-year-old son; knows nothing about soccer, pure chaos — his first three draft picks didn't even qualify)
 
 CURRENT STANDINGS:
 {standings}
@@ -108,7 +111,7 @@ TASK_TEMP = (
 
 # Shared rules prepended to every pundit's system prompt (from the spec).
 SHARED_RULES = """ALL PUNDITS FOLLOW THESE RULES:
-- The four owners (Zach, Gunner, Gayden, Devin) are referred to as "managers." They are personally responsible for everything — good and bad.
+- The five owners (Zach, Gunner, Gayden, Devin, Rafe) are referred to as "managers." They are personally responsible for everything — good and bad.
 - When a team loses or underperforms, it is ALWAYS the manager's fault. Never bad luck, never the players. The manager made a terrible pick, didn't do their homework, got emotional on draft night, panicked, or is simply not smart enough.
 - Invent specific reasons for the blame (e.g. "Zach clearly didn't watch a single Ghana qualifier," "Devin picked Bosnia because he liked the jersey").
 - Insult the managers directly and personally. Question their intelligence, preparation, commitment, soccer knowledge, and decision-making.
@@ -123,10 +126,10 @@ PUNDITS = [
         "tone": "arrogant",
         "color": "#e2231a",
         "system": (
-            "You are Eric Wynalda providing commentary on a fantasy World Cup pool between four "
-            "managers: Zach, Gunner, Gayden, and Devin. Each drafted 6 national teams across 4 tiers.\n\n"
+            "You are Eric Wynalda providing commentary on a fantasy World Cup pool between five "
+            "managers: Zach, Gunner, Gayden, Devin, and Rafe. Each drafted 6 national teams across 4 tiers.\n\n"
             "Your voice: You are the most arrogant man in American soccer. You played in a World Cup. "
-            "You've been in locker rooms. These four managers have not. You frame every opinion as a "
+            "You've been in locker rooms. These five managers have not. You frame every opinion as a "
             "verdict. You reference your own career to prove why you'd have drafted better. You use short, "
             "blunt dismissals (\"You're wrong.\" \"That's not how this works.\" \"This is a joke.\") followed "
             "by sweeping conclusions. Pick ONE manager to crown as the only competent one and treat the rest "
@@ -141,8 +144,8 @@ PUNDITS = [
         "tone": "hedging",
         "color": "#2f6dff",
         "system": (
-            "You are Landon Donovan providing commentary on a fantasy World Cup pool between four managers: "
-            "Zach, Gunner, Gayden, and Devin. Each drafted 6 national teams across 4 tiers.\n\n"
+            "You are Landon Donovan providing commentary on a fantasy World Cup pool between five managers: "
+            "Zach, Gunner, Gayden, Devin, and Rafe. Each drafted 6 national teams across 4 tiers.\n\n"
             "Your voice: Painfully measured, conflict-averse, but somehow still devastating. You start with "
             "\"I think\" or \"Look, I get why people say...\" and then deliver a backhanded insult wrapped in "
             "empathy. You defend the losing manager but in a way that makes them sound even more pathetic — "
@@ -159,8 +162,8 @@ PUNDITS = [
         "tone": "chill",
         "color": "#28c060",
         "system": (
-            "You are Clint Dempsey providing commentary on a fantasy World Cup pool between four managers: "
-            "Zach, Gunner, Gayden, and Devin. Each drafted 6 national teams across 4 tiers.\n\n"
+            "You are Clint Dempsey providing commentary on a fantasy World Cup pool between five managers: "
+            "Zach, Gunner, Gayden, Devin, and Rafe. Each drafted 6 national teams across 4 tiers.\n\n"
             "Your voice: Laid-back Texas drawl. You talk like you're still in the locker room roasting your "
             "boys. Drop your g's — \"gonna,\" \"tryin',\" \"puttin'.\" Use player slang: \"grind,\" \"put in "
             "work,\" \"gettin' cooked,\" \"back yourself,\" \"that's tough.\" You clown the losing managers "
@@ -176,8 +179,8 @@ PUNDITS = [
         "tone": "bombastic",
         "color": "#f4a423",
         "system": (
-            "You are Alexi Lalas providing commentary on a fantasy World Cup pool between four managers: "
-            "Zach, Gunner, Gayden, and Devin. Each drafted 6 national teams across 4 tiers.\n\n"
+            "You are Alexi Lalas providing commentary on a fantasy World Cup pool between five managers: "
+            "Zach, Gunner, Gayden, Devin, and Rafe. Each drafted 6 national teams across 4 tiers.\n\n"
             "Your voice: The loudest, most bombastic man in American soccer media. Every take is a "
             "declaration about what these managers' failures SAY ABOUT THEM AS PEOPLE. You scold managers "
             "directly by name — \"Devin, look at me. LOOK AT ME. You drafted Bosnia.\" You question their "
@@ -205,17 +208,117 @@ PLACEHOLDER_TAKE = "Pundits are warming up..."
 RECAP_PATH = os.path.join(DATA, "tournament_recap.md")
 NARRATIVE_STATE_PATH = os.path.join(DATA, "narrative_state.json")
 
+# --------------------------------------------------------------------------- #
+# Standing rivalries + season storylines fed to the stateful Rome voices (the
+# rolling column AND the analytics pull-quotes). The FRAMING is authored and
+# season-long; the NUMBERS are not. Every percentage/rank is pulled live from
+# narrative_state.json at generation time (build_storylines below) so the threads
+# never cite a stale projection — the win/champ odds move every run and the prose
+# moves with them. Update the framing when the cast or the storylines change
+# (e.g. when the 5th owner Rafe arrived); the numbers take care of themselves.
+# --------------------------------------------------------------------------- #
+RIVALRIES = """STANDING RIVALRIES (weave these in; the marquee one is brand new):
+- Gayden ("The Backpass Assassin") vs. Rafe ("The Noisemaker") — FATHER vs. SON.
+  This is THE marquee storyline. Rafe is Gayden's own 15-year-old kid, who walked
+  straight into his father's league and is gunning for him. Thanksgiving-dinner
+  implications. The Backpass Assassin built a monster in his own house and now has to
+  share a table with it all summer. Hammer this constantly."""
+
+
+def _pct(x):
+    """Format a 0..1 probability as 'NN.N%', or '—' if missing/unparseable."""
+    try:
+        return f"{float(x) * 100:.1f}%"
+    except (TypeError, ValueError):
+        return "—"
+
+
+def _ordinal(n):
+    """1 -> '1st', 2 -> '2nd', ... (or '—' if not an int)."""
+    try:
+        n = int(n)
+    except (TypeError, ValueError):
+        return "—"
+    suffix = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suffix}"
+
+
+# Used verbatim when narrative_state.json is missing/empty (no live numbers to read).
+STORYLINES_FALLBACK = """SEASON STORYLINES (the threads to draw from and escalate):
+- Rafe is the youngest owner (15), knows nothing about soccer, yet the sim still has him
+  competitive. The chaos agent refuses to be a punchline.
+- Rafe's draft-disaster origin is evergreen comedy: his first three picks — Nigeria,
+  Poland, Jamaica — NONE qualified for the World Cup. He got told, shrugged, drafted six more.
+- Gayden now fights a TWO-FRONT war: his existing rivalries AND his own son inside his
+  own league.
+- Gunner ("Bubba G") slipped from runaway favorite the instant Rafe crashed the league —
+  the favorite got less favorite, and a teenager who can't name a single player did it to him.
+- Devin ("Ghost Pepper") carries heavy champion odds despite trailing on win probability —
+  he might own the trophy but lose the league."""
+
+
+def build_storylines(narrative):
+    """Render the season storylines with LIVE numbers from narrative_state.json.
+
+    The beats are authored; every percentage and rank is read from the current
+    state at generation time so Rome never cites a stale projection. The 'best
+    champion %' beat is guarded against the state file's 2-dp rounding by checking
+    Devin against the actual max in state (a co-leader still satisfies 'best').
+    Falls back to the authored, number-free copy if the state is unavailable."""
+    owners = (narrative or {}).get("owners", {})
+    if not owners:
+        return STORYLINES_FALLBACK
+
+    rafe = owners.get("Rafe", {})
+    gunner = owners.get("Gunner", {})
+    devin = owners.get("Devin", {})
+
+    rafe_win, rafe_champ = _pct(rafe.get("win_probability")), _pct(rafe.get("champion_probability"))
+    gunner_win = _pct(gunner.get("win_probability"))
+    devin_champ = _pct(devin.get("champion_probability"))
+
+    # "2nd in win %" is about the projection, not points — rank owners by win prob.
+    win_order = sorted(owners, key=lambda o: -(owners[o].get("win_probability") or 0))
+    devin_win_rank = _ordinal(win_order.index("Devin") + 1) if "Devin" in win_order else "—"
+
+    # Guard the superlative against 2-dp ties: Devin need only match the max champ odds.
+    champ_vals = [b.get("champion_probability") for b in owners.values()
+                  if b.get("champion_probability") is not None]
+    dc = devin.get("champion_probability")
+    devin_best = bool(champ_vals) and dc is not None and dc == max(champ_vals)
+    devin_phrase = "owns the best champion odds" if devin_best else "carries heavy champion odds"
+
+    return f"""SEASON STORYLINES (the threads to draw from and escalate; the numbers below are LIVE from the current model state):
+- Rafe is the youngest owner (15), knows nothing about soccer, and the sim STILL has him
+  competitive at {rafe_win} win / {rafe_champ} champion. The chaos agent refuses to be a punchline.
+- Rafe's draft-disaster origin is evergreen comedy: his first three picks — Nigeria,
+  Poland, Jamaica — NONE qualified for the World Cup. He got told, shrugged, drafted six more.
+- Gayden now fights a TWO-FRONT war: his existing rivalries AND his own son inside his
+  own league.
+- Gunner ("Bubba G") is the model's favorite at {gunner_win} to win it all — but he slipped
+  the instant Rafe crashed the league. The favorite got less favorite, and a teenager who
+  can't name a single player did it to him.
+- Devin ("Ghost Pepper") {devin_phrase} ({devin_champ}) despite sitting {devin_win_rank} in
+  win probability — he might own the trophy but lose the league."""
+
 JIM_ROME_SYSTEM = (
     "You are Jim Rome covering the WC Challenge. Here is your previous column. "
     "Here are today's results, updated standings, and narrative context including "
     "streaks, themes, and notable events. Write the next installment. Build on "
     "running themes — escalate what's working, drop what's gone stale. "
+    "You are ALSO given a set of standing rivalries and season storylines — weave them "
+    "in and escalate them, above all the father-vs-son blood feud between Gayden and his "
+    "15-year-old son Rafe. "
     "Reference specific results. Be opinionated about each owner's trajectory. "
     "Keep it to 200-300 words."
 )
 
 RECAP_USER_TEMPLATE = """PREVIOUS COLUMN (your last installment):
 {previous}
+
+{rivalries}
+
+{storylines}
 
 NARRATIVE CONTEXT (structured state — ranks, records, streaks, win probabilities, \
 head-to-head, notable events, running themes, tournament phase):
@@ -267,7 +370,11 @@ ANALYTICS_SYSTEM = (
     '"scoreboard", "draft", "rivalries", "model" mapping to the four strings.'
 )
 
-ANALYTICS_USER_TEMPLATE = """NARRATIVE STATE (structured — standings, matchday_point_history, \
+ANALYTICS_USER_TEMPLATE = """{rivalries}
+
+{storylines}
+
+NARRATIVE STATE (structured — standings, matchday_point_history, \
 h2h_differential, dependency_index, streaks, notable events):
 {state}
 
@@ -457,6 +564,8 @@ def generate_recap(args, api_key, standings, daily, narrative, previous):
     today = latest_day(daily)
     user = RECAP_USER_TEMPLATE.format(
         previous=previous or "(none yet — this is your preseason preview, written before any matches are played)",
+        rivalries=RIVALRIES,
+        storylines=build_storylines(narrative),
         state=json.dumps(narrative, indent=2) if narrative else "(no narrative state available)",
         standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
         today=json.dumps(today, indent=2) if today else "(no matches played yet — preseason)",
@@ -502,6 +611,8 @@ def generate_analytics_quotes(args, api_key, standings, narrative):
         return list(PLACEHOLDER_ANALYTICS_QUOTES)
 
     user = ANALYTICS_USER_TEMPLATE.format(
+        rivalries=RIVALRIES,
+        storylines=build_storylines(narrative),
         state=json.dumps(narrative, indent=2) if narrative else "(no narrative state available)",
         standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
         rosters=ROSTERS,
