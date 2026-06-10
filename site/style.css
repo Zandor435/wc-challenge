@@ -286,6 +286,56 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .pundit-card.solo .pundit-take { font-size: 1rem; line-height: 1.6; }
 .pundit-card.solo::before { font-size: 3rem; top: 6px; right: 16px; }
 
+/* ---------------- PUNDIT TAKES (Babylon Bee–style satirical wire) ----------------
+   Stacked deadpan one-liners: headline + knife-twist subtitle + tiny byline.
+   No body, no read-more — the headline is the whole unit. */
+.pundit-takes { display: flex; flex-direction: column; gap: 9px; }
+.take-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--pundit, var(--blue-br));
+  border-radius: var(--radius);
+  padding: 13px 16px 11px;
+  transition: background .15s ease, border-color .15s ease;
+}
+.take-card:hover { background: var(--surface-2); border-color: var(--surface-3); }
+.take-headline {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 1.16rem;
+  line-height: 1.18;
+  letter-spacing: .01em;
+  color: #fff;
+  text-wrap: balance;
+}
+.take-subtitle {
+  margin: 5px 0 0;
+  font-size: .88rem;
+  line-height: 1.4;
+  font-style: italic;
+  color: var(--muted);
+}
+.take-byline {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 11px;
+}
+.take-avatar {
+  width: 34px; height: 34px; flex: none; border-radius: 50%;
+  object-fit: cover; object-position: top center;
+  border: 2px solid var(--pundit, var(--blue-br)); background: #11141a;
+}
+.take-pundit {
+  font-family: "Oswald", sans-serif; text-transform: uppercase;
+  letter-spacing: .04em; font-weight: 600; font-size: .74rem; color: #dfe3ea;
+}
+.take-meta {
+  margin-left: auto;
+  font-size: .64rem; letter-spacing: .05em; text-transform: uppercase;
+  color: var(--muted-2); font-variant-numeric: tabular-nums;
+}
+
 /* ---------------- LAYOUT: main column + standings sidebar ---------------- */
 .layout {
   max-width: var(--maxw); margin: 0 auto; padding: 22px 16px 0;

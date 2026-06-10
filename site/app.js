@@ -137,6 +137,14 @@ const PUNDIT_AVATARS = {
   "Clint Dempsey":  "assets/portraits/pundits/dempsey/dempsey.png",
   "Alexi Lalas":    "assets/portraits/pundits/lalas/lalas.png",
 };
+// pundit_takes entries identify a pundit by slug; map slug -> display name +
+// accent so the Pundit Takes strip can show the right byline, color, and avatar.
+const PUNDIT_SLUGS = {
+  wynalda:  { name: "Eric Wynalda",   color: "#e2231a" },
+  donovan:  { name: "Landon Donovan", color: "#2f6dff" },
+  dempsey:  { name: "Clint Dempsey",  color: "#28c060" },
+  lalas:    { name: "Alexi Lalas",    color: "#f4a423" },
+};
 // daily rotation order, used only as a fallback when an older (four-up)
 // commentary.json is encountered so the page still shows one voice.
 const PUNDIT_ROTATION = ["Eric Wynalda", "Landon Donovan", "Clint Dempsey", "Alexi Lalas"];
@@ -180,6 +188,44 @@ function pickPundit(doc) {
     return doc.pundits.find((p) => p.name === name) || doc.pundits[0];
   }
   return null;
+}
+
+/* ---------- PUNDIT TAKES (satirical news-ticker strip) ----------
+   Reads doc.pundit_takes: deadpan headline + subtitle + byline, no body.
+   Each take names its pundit by slug (wynalda/donovan/dempsey/lalas). */
+function renderPunditTakes(doc) {
+  const box = el("pundit-takes");
+  if (!box) return;
+  box.classList.remove("loading");
+  const takes = (doc && Array.isArray(doc.pundit_takes)) ? doc.pundit_takes : [];
+  if (!takes.length) {
+    box.innerHTML = `<div class="news-empty">
+        <div class="news-empty-badge">🗞️ THE WIRE</div>
+        <p>The pundits go live once the slate begins.</p>
+      </div>`;
+    return;
+  }
+  box.innerHTML = takes.map((t) => {
+    const slug = String(t.pundit || "").toLowerCase();
+    const info = PUNDIT_SLUGS[slug] || {};
+    const name = info.name || t.pundit || "";
+    const color = info.color || "#2f6dff";
+    const avSrc = `assets/portraits/pundits/${slug}/${slug}.png`;
+    const av = slug
+      ? `<img class="take-avatar" src="${esc(avSrc)}" alt="" width="34" height="34" loading="lazy" onerror="this.style.display='none'" />`
+      : "";
+    const meta = [t.match, t.date].filter(Boolean).join(" · ");
+    return `
+      <article class="take-card" style="--pundit:${color}">
+        <h3 class="take-headline">${esc(t.headline || "")}</h3>
+        ${t.subtitle ? `<p class="take-subtitle">${esc(t.subtitle)}</p>` : ""}
+        <div class="take-byline">
+          ${av}
+          <span class="take-pundit">${esc(name)}</span>
+          ${meta ? `<span class="take-meta">${esc(meta)}</span>` : ""}
+        </div>
+      </article>`;
+  }).join("");
 }
 
 function renderPundit(doc) {
@@ -436,7 +482,9 @@ async function main() {
       .then((narrative) => renderUpset(daily, narrative))
       .catch(() => renderUpset(daily, null));
 
-    loadJSON("data/commentary.json").then(renderPundit).catch(warmingUp);
+    loadJSON("data/commentary.json")
+      .then((doc) => { renderPunditTakes(doc); renderPundit(doc); })
+      .catch(() => { renderPunditTakes(null); warmingUp(); });
 
     renderJimRome();
   } catch (e) {

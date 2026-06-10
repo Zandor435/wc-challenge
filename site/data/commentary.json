@@ -1,5 +1,35 @@
 {
   "generated": null,
   "source": "preseason",
-  "pundits": []
+  "pundits": [],
+  "pundit_takes": [
+    {
+      "pundit": "wynalda",
+      "headline": "Mustard Boy's Switzerland Somehow Draws Paraguay, Claims Moral Victory",
+      "subtitle": "'A point is a point,' says man whose portfolio is 40% draws",
+      "match": "Switzerland vs Paraguay",
+      "date": "2026-06-13"
+    },
+    {
+      "pundit": "donovan",
+      "headline": "Bubba G Insists His Group of Death Was 'Actually a Great Draw'",
+      "subtitle": "Three of his four teams already statistically eliminated, models confirm",
+      "match": "Group F Preview",
+      "date": "2026-06-13"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Ghost Pepper Starts Entire Roster, Calls Having No Bench 'The Plan'",
+      "subtitle": "Full-squad strategy pays off in precisely zero simulated scenarios",
+      "match": "USA vs Wales",
+      "date": "2026-06-12"
+    },
+    {
+      "pundit": "lalas",
+      "headline": "Backpass Assassin's Defenders Post Tournament-Low Goal Total",
+      "subtitle": "'We're parking the bus,' explains owner currently sitting in last place",
+      "match": "Italy vs Norway",
+      "date": "2026-06-12"
+    }
+  ]
 }
