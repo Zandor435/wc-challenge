@@ -197,6 +197,75 @@ PUNDITS = [
 PLACEHOLDER_TAKE = "Pundits are warming up..."
 
 # --------------------------------------------------------------------------- #
+# Pundit Takes (Babylon Bee-style satirical news strip) -> commentary.json
+# `pundit_takes`. ONE deadpan take per pundit per day: a declarative fake-news
+# headline + a one-line knife-twist subtitle. Distinct from the single rotating
+# "Featured Analysis" card (`pundit`, generated above): this is the four-up news
+# ticker the home page renders via renderPunditTakes(). The site identifies each
+# pundit by SLUG, so we emit slugs (not display names) and add the date downstream.
+# --------------------------------------------------------------------------- #
+PUNDIT_TAKE_SLUGS = ["wynalda", "donovan", "dempsey", "lalas"]
+
+PUNDIT_TAKES_SYSTEM = (
+    "You are the satirical sports desk for the WC Challenge — a fantasy World Cup pool between "
+    "five managers: Zach (\"Mustard Boy\"), Gunner (\"Bubba G\"), Gayden (\"The Backpass Assassin\"), "
+    "Devin (\"Ghost Pepper\"), and Rafe (\"The Noisemaker\"). You write Babylon Bee-style fake-news "
+    "headlines. Produce exactly ONE take from each of four pundits — Eric Wynalda (wynalda), Landon "
+    "Donovan (donovan), Clint Dempsey (dempsey), Alexi Lalas (lalas) — in that order.\n\n"
+    "HEADLINE — Babylon Bee deadpan:\n"
+    "- Declarative and straight-faced. It must read like a REAL news headline; the joke is that it is "
+    "played completely straight.\n"
+    "- NO exclamation marks. No ALL-CAPS words. No emoji. No obvious puns or wordplay. 8-12 words.\n"
+    "- 80% roast / 20% real context: the joke must ride on ONE true detail (a draft pick, a team, a "
+    "standing, a win probability) so it reads as plausible news.\n"
+    "SUBTITLE — one line, the knife twist: a dry fake quote or a deadpan stat that lands the joke.\n\n"
+    "Always blame the MANAGER, never the players or bad luck. Use real first names or ring names. "
+    "Each pundit keeps their attitude (Wynalda arrogant, Donovan backhanded, Dempsey laid-back, Lalas "
+    "bombastic) but the FORMAT is uniform deadpan news — no first-person rants, just the headline.\n\n"
+    "Return ONLY a JSON object of this exact shape (no prose, no code fence):\n"
+    '{"pundit_takes": [{"pundit": "wynalda", "headline": "...", "subtitle": "...", '
+    '"match": "Team A vs Team B"}, {"pundit": "donovan", ...}, {"pundit": "dempsey", ...}, '
+    '{"pundit": "lalas", ...}]}\n'
+    "Do NOT include a date field; it is added downstream."
+)
+
+PUNDIT_TAKES_USER_TEMPLATE = """TODAY: {date}
+
+THE FIVE MANAGERS (roast these by name / ring name — never the players):
+- Zach "Mustard Boy" · Gunner "Bubba G" · Gayden "The Backpass Assassin" · Devin "Ghost Pepper"
+- Rafe "The Noisemaker" — Gayden's 15-year-old son; knows nothing about soccer, drafted three teams that didn't even qualify
+
+CURRENT STANDINGS:
+{standings}
+
+ROSTERS (each manager drafted 6 national teams across 4 tiers):
+{rosters}
+
+{matchup_block}
+
+Write exactly FOUR takes — one each from wynalda, donovan, dempsey, lalas, IN THAT ORDER. Each is a \
+deadpan Babylon Bee-style news headline (declarative, no exclamation marks, 8-12 words, reads like real \
+news) plus a one-line subtitle that twists the knife. 80% roast / 20% real context — the roast must ride \
+on one true detail from the standings, rosters, or today's matchups. Set "match" to the relevant fixture \
+("Team A vs Team B") or a short topic (e.g. "Group F Preview"). Return ONLY the JSON object described."""
+
+# Deadpan stand-ins for --placeholder / API-failure (date is stamped in at runtime).
+PLACEHOLDER_PUNDIT_TAKES = [
+    {"pundit": "wynalda", "match": "League Preview",
+     "headline": "Analyst Declares Draft Already Over Before Opening Whistle",
+     "subtitle": "'I have seen enough,' says man who has watched zero qualifiers"},
+    {"pundit": "donovan", "match": "League Preview",
+     "headline": "Manager Commended For Bold Plan Of Hoping His Teams Score",
+     "subtitle": "Sources confirm no contingency exists beyond that"},
+    {"pundit": "dempsey", "match": "League Preview",
+     "headline": "Owner Insists Last-Place Projection Is Exactly Where He Wants To Be",
+     "subtitle": "Model gives the strategy a four percent chance of working"},
+    {"pundit": "lalas", "match": "League Preview",
+     "headline": "Pundit Demands All Five Managers Explain Themselves To His Face",
+     "subtitle": "Reportedly, not one of them can"},
+]
+
+# --------------------------------------------------------------------------- #
 # Stateful narrative: Jim Rome's rolling tournament column.
 #
 # Unlike the pundit takes (regenerated cold each run), this column BUILDS on
@@ -556,6 +625,91 @@ def generate_pundit(args, api_key, standings, pundit, h2h, today, rotation):
     return {**base, "take": take}
 
 
+def _placeholder_takes(today):
+    """The four deadpan stand-ins, stamped with today's date."""
+    return [{**t, "date": today or ""} for t in PLACEHOLDER_PUNDIT_TAKES]
+
+
+def _parse_pundit_takes(raw, today):
+    """Pull the four takes out of the model's JSON reply.
+
+    Tolerant of code fences and stray prose. Accepts either {"pundit_takes": [...]}
+    or a bare array. Keeps only entries with a known pundit slug and a headline,
+    normalizes the fields, and stamps the date. Returns a list or None if nothing
+    usable parsed."""
+    text = (raw or "").strip()
+    if text.startswith("```"):
+        text = text.strip("`")
+        text = text.split("\n", 1)[1] if "\n" in text else text
+    start, end = text.find("{"), text.rfind("}")
+    if start != -1 and end > start:
+        text = text[start:end + 1]
+    try:
+        obj = json.loads(text)
+    except (json.JSONDecodeError, TypeError):
+        return None
+    arr = obj.get("pundit_takes") if isinstance(obj, dict) else obj
+    if not isinstance(arr, list):
+        return None
+
+    out = []
+    for t in arr:
+        if not isinstance(t, dict):
+            continue
+        slug = str(t.get("pundit", "")).strip().lower()
+        headline = str(t.get("headline", "")).strip()
+        if slug not in PUNDIT_TAKE_SLUGS or not headline:
+            continue
+        out.append({
+            "pundit": slug,
+            "headline": headline,
+            "subtitle": str(t.get("subtitle", "")).strip(),
+            "match": str(t.get("match", "")).strip(),
+            "date": today or "",
+        })
+    return out or None
+
+
+def generate_pundit_takes(args, api_key, standings, h2h, today):
+    """Four Babylon Bee-style deadpan takes (one per pundit) -> pundit_takes array.
+
+    ONE API call returns all four; on any failure or unparseable reply we fall back
+    to the deadpan placeholders so the home-page strip always has something to show."""
+    if args.placeholder:
+        return _placeholder_takes(today)
+
+    if h2h:
+        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS (two managers' drafted teams "
+                         "facing each other):\n" + format_h2h(h2h))
+    else:
+        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS: none — lean on the standings, "
+                         "rosters, and each manager's draft logic instead.")
+
+    user = PUNDIT_TAKES_USER_TEMPLATE.format(
+        date=today or "(date unknown)",
+        standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
+        rosters=ROSTERS,
+        matchup_block=matchup_block,
+    )
+    try:
+        raw = call_openai(api_key, args.model, PUNDIT_TAKES_SYSTEM, user,
+                          args.takes_max_tokens, args.temperature)
+    except urllib.error.HTTPError as e:
+        print(f"  Pundit takes: API error {e.code} — using placeholders", file=sys.stderr)
+        return _placeholder_takes(today)
+    except Exception as e:  # noqa: BLE001
+        print(f"  Pundit takes: {e} — using placeholders", file=sys.stderr)
+        return _placeholder_takes(today)
+
+    takes = _parse_pundit_takes(raw, today)
+    if not takes:
+        print("  Pundit takes: unparseable reply — using placeholders", file=sys.stderr)
+        return _placeholder_takes(today)
+    for t in takes:
+        print(f"  Take [{t['pundit']}]: {t['headline']}")
+    return takes
+
+
 def generate_recap(args, api_key, standings, daily, narrative, previous):
     """Jim Rome's next installment, built on the previous column + narrative state."""
     if args.placeholder:
@@ -640,6 +794,8 @@ def main():
     ap = argparse.ArgumentParser(description="Generate Pundit Roundtable + Jim Rome narrative")
     ap.add_argument("--model", default="gpt-4o")
     ap.add_argument("--max-tokens", type=int, default=500, help="max tokens for the pundit take")
+    ap.add_argument("--takes-max-tokens", type=int, default=450,
+                    help="max tokens for the four Babylon Bee-style pundit takes (JSON reply)")
     ap.add_argument("--date", default=None,
                     help="force the pundit's 'today' (YYYY-MM-DD); default derives from the schedule")
     ap.add_argument("--recap-max-tokens", type=int, default=600,
@@ -693,6 +849,9 @@ def main():
         print(f"  Today: {today or '(unknown)'} · voice: {pundit['name']} · "
               f"{len(h2h)} head-to-head matchup(s)")
         pundit_out = generate_pundit(args, api_key, standings, pundit, h2h, today, rotation)
+        # Four Babylon Bee-style deadpan takes (one per pundit) for the home-page
+        # "Pundit Takes / The Wire" strip, rendered by renderPunditTakes().
+        pundit_takes = generate_pundit_takes(args, api_key, standings, h2h, today)
         # Four one-liner analytics roasts for the analytics page's Rome callouts,
         # fed the same (now richer) narrative state as the rolling column.
         analytics_quotes = generate_analytics_quotes(args, api_key, standings, narrative)
@@ -702,6 +861,7 @@ def main():
             "date": today,
             "rotation": rotation,
             "pundit": pundit_out,
+            "pundit_takes": pundit_takes,
             "rome_analytics_quotes": analytics_quotes,
         })
 
