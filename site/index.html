@@ -53,16 +53,7 @@
     <!-- ============ MAIN CONTENT COLUMN ============ -->
     <main class="main-col">
 
-      <!-- ---- OWNER PORTFOLIOS ---- -->
-      <section class="block" id="portfolios">
-        <div class="block-head">
-          <h2>OWNER PORTFOLIOS</h2>
-          <span class="block-more">5 MANAGERS</span>
-        </div>
-        <div id="owner-portfolios" class="loading">Loading portfolios…</div>
-      </section>
-
-      <!-- ---- JIM ROME'S TAKE (rolling narrative) ---- -->
+      <!-- ---- JIM ROME'S TAKE (rolling narrative) — the headline ---- -->
       <section class="block" id="news">
         <div class="block-head">
           <h2>📻 JIM ROME'S TAKE</h2>
@@ -75,15 +66,6 @@
         <div id="upset-of-day"></div>
       </section>
 
-      <!-- ---- PUNDIT TAKES (satirical news-ticker strip) ---- -->
-      <section class="block" id="pundit-takes-block">
-        <div class="block-head">
-          <h2>🗞️ PUNDIT TAKES</h2>
-          <span class="block-more">THE WIRE</span>
-        </div>
-        <div id="pundit-takes" class="pundit-takes loading">Loading the wire…</div>
-      </section>
-
       <!-- ---- TODAY'S PUNDIT (single rotating voice — featured analysis) ---- -->
       <section class="block" id="pundit">
         <div class="block-head">
@@ -91,6 +73,15 @@
           <span class="block-more" id="pundit-meta"></span>
         </div>
         <div id="pundit-card" class="loading">Loading today's take…</div>
+      </section>
+
+      <!-- ---- OWNER PORTFOLIOS ---- -->
+      <section class="block" id="portfolios">
+        <div class="block-head">
+          <h2>OWNER PORTFOLIOS</h2>
+          <span class="block-more">5 MANAGERS</span>
+        </div>
+        <div id="owner-portfolios" class="loading">Loading portfolios…</div>
       </section>
 
       <!-- ---- LATEST RESULTS ---- -->
@@ -104,8 +95,16 @@
 
     </main>
 
-    <!-- ============ STANDINGS SIDEBAR ============ -->
-    <aside class="sidebar" id="standings" aria-label="Standings">
+    <!-- ============ SIDEBAR: pundit takes + standings ============ -->
+    <aside class="sidebar" id="standings" aria-label="Pundit takes and standings">
+
+      <!-- ---- PUNDIT TAKES (satirical news-ticker strip) — first in sidebar ---- -->
+      <div class="sidebar-card" id="pundit-takes-block">
+        <div class="sidebar-head">🗞️ PUNDIT TAKES</div>
+        <div id="pundit-takes" class="pundit-takes loading">Loading the wire…</div>
+      </div>
+
+      <!-- ---- STANDINGS LEADERBOARD ---- -->
       <div class="sidebar-card">
         <div class="sidebar-head">STANDINGS</div>
         <div id="sidebar-board" class="loading">Loading standings…</div>

@@ -336,6 +336,19 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   color: var(--muted-2); font-variant-numeric: tabular-nums;
 }
 
+/* Pundit Takes living in the narrow sidebar: full-width tiny cards, stacked.
+   Tighter padding + smaller type + 28px headshots so they fit the 280px rail. */
+#pundit-takes-block { margin-bottom: 16px; }
+#pundit-takes-block .pundit-takes { padding: 12px; gap: 10px; }
+#pundit-takes-block .pundit-takes.loading { padding: 16px 14px; }
+#pundit-takes-block .take-card { padding: 11px 13px 10px; border-left-width: 3px; }
+#pundit-takes-block .take-headline { font-size: 1rem; line-height: 1.2; }
+#pundit-takes-block .take-subtitle { font-size: .8rem; margin-top: 4px; }
+#pundit-takes-block .take-byline { margin-top: 9px; gap: 7px; }
+#pundit-takes-block .take-avatar { width: 28px; height: 28px; border-width: 2px; }
+#pundit-takes-block .take-pundit { font-size: .68rem; }
+#pundit-takes-block .take-meta { font-size: .58rem; }
+
 /* ---------------- LAYOUT: main column + standings sidebar ---------------- */
 .layout {
   max-width: var(--maxw); margin: 0 auto; padding: 22px 16px 0;
@@ -382,6 +395,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   .sidebar { order: -1; position: static; flex: none; width: 100%; top: auto; margin: 0 0 18px; }
   .sidebar-card { border-radius: 0; border-left: 0; border-right: 0; }
   .sidebar-head { display: none; }
+  /* keep the Pundit Takes wire as a normal stacked card on mobile (head visible) */
+  #pundit-takes-block { margin-bottom: 18px; }
+  #pundit-takes-block .sidebar-head { display: block; }
   #sidebar-board { display: flex; }
   .sb-row {
     flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
