@@ -122,6 +122,224 @@ function renderTicker(matches) {
   }).join("");
 }
 
+/* ============================================================
+   TODAY'S MATCHES (schedule hero) — the page's lead.
+   Fixtures + times come from data/matches.csv; ownership from
+   team_table.json (the site-served draft mapping); tiers from
+   team_tiers.json; scored results from daily_results.json.
+   All point math here is DISPLAY-ONLY — the values are hardcoded
+   to the rebalanced_v3 rules, not imported from scoring.py.
+   ============================================================ */
+
+// Tiers loaded at boot from team_tiers.json (1 strongest … 4 weakest).
+let TEAM_TIERS = {};
+
+// Group-stage scoring (rebalanced_v3): Win 3 / Draw 1 / Loss 0, plus an upset
+// bonus of +2 per tier gap when a lower-tier team beats a higher-tier one.
+const GROUP_WIN = 3, GROUP_DRAW = 1, UPSET_PER_TIER = 2;
+// Knockout advancement bonus by round.
+const ADV_BONUS = { round_of_32: 2, round_of_16: 2, quarterfinal: 5, semifinal: 10, final: 18, third_place: 0 };
+const ADV_LABEL = { round_of_32: "R32", round_of_16: "R16", quarterfinal: "QF", semifinal: "SF", final: "Final", third_place: "3rd" };
+const KO_GROUP_LABEL = { round_of_32: "Round of 32", round_of_16: "Round of 16", quarterfinal: "Quarterfinal", semifinal: "Semifinal", final: "Final", third_place: "Third Place" };
+
+/* Minimal CSV parser: handles quoted fields containing commas (venues like
+   "Zapopan, Mexico"). Returns an array of row objects keyed by the header. */
+function parseCSV(text) {
+  const rows = [];
+  let row = [], field = "", inQ = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQ) {
+      if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else inQ = false; }
+      else field += c;
+    } else if (c === '"') { inQ = true; }
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      if (field.length || row.length) { row.push(field); rows.push(row); row = []; field = ""; }
+    } else field += c;
+  }
+  if (field.length || row.length) { row.push(field); rows.push(row); }
+  const header = (rows.shift() || []).map((h) => h.trim());
+  return rows.map((r) => Object.fromEntries(header.map((h, i) => [h, (r[i] ?? "").trim()])));
+}
+
+/* Local calendar date as YYYY-MM-DD, matching the CSV's `date` column. */
+function todayLocalISO() {
+  const d = new Date();
+  const p = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+function prettyDate(iso) {
+  const [y, m, d] = String(iso).split("-").map(Number);
+  if (!y) return iso;
+  return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
+}
+
+// team -> owner, from team_table.json (the served draft board).
+function buildOwnerIndex(teamTable) {
+  const idx = {};
+  (teamTable.teams || []).forEach((t) => { idx[t.team] = t.owner; });
+  return idx;
+}
+// tier lookup: team_tiers.json first, team_table as fallback for drafted sides.
+function makeTierLookup(teamTable) {
+  const tbl = {};
+  (teamTable.teams || []).forEach((t) => { if (t.tier != null) tbl[t.team] = t.tier; });
+  return (team) => (TEAM_TIERS[team] != null ? TEAM_TIERS[team] : (tbl[team] != null ? tbl[team] : null));
+}
+// scored match lookup keyed by date + unordered team pair.
+function buildResultIndex(daily) {
+  const idx = {};
+  (daily.days || []).forEach((day) => (day.matches || []).forEach((m) => {
+    idx[`${m.date}|${[m.home, m.away].sort().join("~")}`] = m;
+  }));
+  return idx;
+}
+
+// Points an owner banks for a win, given their team's tier vs the opponent's.
+// Upset bonus only applies in the group stage (per the display rules).
+function winPoints(myTier, oppTier, isGroup) {
+  let bonus = 0;
+  if (isGroup && myTier != null && oppTier != null && myTier > oppTier) {
+    bonus = UPSET_PER_TIER * (myTier - oppTier);
+  }
+  return { win: GROUP_WIN + bonus, bonus };
+}
+
+// Owner tag: ring name + draft color accent. `none` => undrafted, dimmed.
+function tmOwnerTag(owner) {
+  if (!owner) return `<span class="tm-owner none">Undrafted</span>`;
+  const ring = WWE_NAMES[owner] || owner;
+  return `<span class="tm-owner" style="--c:${ownerColor(owner)}">` +
+         `<span class="tm-owner-dot"></span>${esc(owner)} · ${esc(ring)}</span>`;
+}
+
+// One stakes line per drafted owner in the match.
+function tmStakes(t1, o1, tier1, t2, o2, tier2, isGroup, phase) {
+  const adv = !isGroup ? ADV_BONUS[phase] : null;
+  const line = (owner, myTier, oppTier) => {
+    if (!owner) return null;
+    const ring = WWE_NAMES[owner] || owner;
+    const { win, bonus } = winPoints(myTier, oppTier, isGroup);
+    let s = `<b>${esc(ring)}</b>: W = ${win}`;
+    if (bonus > 0) s += ` <span class="tm-bonus">(includes +${bonus} upset bonus)</span>`;
+    if (isGroup) s += ` · D = 1`;
+    if (adv) s += `<span class="tm-adv">Advance = +${adv} pts</span>`;
+    return `<div class="tm-stake" style="--c:${ownerColor(owner)}">${s}</div>`;
+  };
+  const a = line(o1, tier1, tier2), b = line(o2, tier2, tier1);
+  if (!a && !b) return `<div class="tm-stake none">No fantasy points at stake</div>`;
+  return [a, b].filter(Boolean).join("");
+}
+
+// Render one fixture card. `result` is the scored daily_results match if final.
+function tmCard(fx, ownerIdx, tierOf, result) {
+  const t1 = fx.team1, t2 = fx.team2;
+  const o1 = ownerIdx[t1] || "", o2 = ownerIdx[t2] || "";
+  const tier1 = tierOf(t1), tier2 = tierOf(t2);
+  const isGroup = fx.phase === "group";
+  const undrafted = !o1 && !o2;
+
+  // OWNER CLASH — two different owners' teams meet (highest drama).
+  const clash = o1 && o2 && o1 !== o2;
+  const clashBanner = clash
+    ? `<div class="tm-clash"><span class="swords">⚔️</span>` +
+      `${esc((WWE_NAMES[o1] || o1).toUpperCase())} vs ${esc((WWE_NAMES[o2] || o2).toUpperCase())}</div>`
+    : "";
+
+  // Upset Watch — both drafted, different tiers (underdog tier shown first).
+  const upset = o1 && o2 && tier1 != null && tier2 != null && tier1 !== tier2;
+  const upsetChip = upset
+    ? `<span class="tm-upset">Upset Watch: T${Math.max(tier1, tier2)} vs T${Math.min(tier1, tier2)}</span>`
+    : "";
+
+  // State: scored => FINAL w/ score + points; else the kickoff time.
+  const final = !!result;
+  let s1 = "", s2 = "", w1 = false, w2 = false, ptsHTML = "";
+  if (final) {
+    s1 = result.home === t1 ? result.home_score : result.away_score;
+    s2 = result.home === t1 ? result.away_score : result.home_score;
+    w1 = s1 > s2; w2 = s2 > s1;
+    const pts = Object.entries(result.points || {});
+    ptsHTML = pts.length
+      ? `<div class="tm-result-pts">${pts.map(([o, p]) => ptsPill(o, p)).join("")}</div>`
+      : "";
+  }
+  const stateHTML = final
+    ? `<span class="tm-state final">FINAL</span>`
+    : `<span class="tm-state upcoming">${esc(fx.time_et || "TBD")}</span>`;
+
+  const groupLabel = isGroup
+    ? `Group ${esc(fx.group || "—")}`
+    : esc(KO_GROUP_LABEL[fx.phase] || fx.phase || "Knockout");
+
+  const teamRow = (team, owner, score, win) => `
+    <div class="tm-team ${win ? "win" : ""} ${owner ? "" : "undrafted"}">
+      ${flag(team)}
+      <span class="tm-name">${esc(team)}</span>
+      ${tmOwnerTag(owner)}
+      ${final ? `<span class="tm-score">${score}</span>` : ""}
+    </div>`;
+
+  return `
+    <article class="tm-card ${undrafted ? "muted" : ""} ${clash ? "clash" : ""}">
+      ${clashBanner}
+      <div class="tm-body">
+        <div class="tm-teams">
+          ${teamRow(t1, o1, s1, w1)}
+          ${teamRow(t2, o2, s2, w2)}
+        </div>
+        <div class="tm-info">
+          <span class="tm-group">${groupLabel}</span>
+          <span class="sep">·</span>
+          ${stateHTML}
+        </div>
+        ${upsetChip}
+        <div class="tm-stakes">
+          ${tmStakes(t1, o1, tier1, t2, o2, tier2, isGroup, fx.phase)}
+          ${ptsHTML}
+        </div>
+      </div>
+    </article>`;
+}
+
+function renderTodaysMatches(rows, ownerIdx, tierOf, resultIdx) {
+  const box = el("todays-matches");
+  if (!box) return;
+  box.classList.remove("loading");
+  const today = todayLocalISO();
+  let fixtures = rows.filter((r) => r.date === today);
+  let targetDate = today, isToday = true;
+
+  if (!fixtures.length) {
+    // No slate today — preview the next date that has fixtures.
+    const future = rows.filter((r) => r.date > today).map((r) => r.date).sort();
+    targetDate = future[0];
+    isToday = false;
+    if (!targetDate) {
+      el("tm-title").textContent = "⚽ MATCHES";
+      el("tm-meta").textContent = "";
+      box.innerHTML = `<div class="news-empty"><div class="news-empty-badge">⚽ SCHEDULE</div>
+        <p>The tournament schedule is complete.</p></div>`;
+      return;
+    }
+    fixtures = rows.filter((r) => r.date === targetDate);
+  }
+
+  el("tm-title").textContent = isToday ? "⚽ TODAY'S MATCHES" : "⚽ NEXT MATCH DAY";
+  const n = fixtures.length;
+  el("tm-meta").textContent = `${prettyDate(targetDate).toUpperCase()} · ${n} ${n === 1 ? "MATCH" : "MATCHES"}`;
+
+  const intro = isToday ? "" :
+    `<p class="tm-next-note">No matches today — next up <b>${esc(prettyDate(targetDate))}</b>.</p>`;
+  const cards = fixtures.map((fx) => {
+    const result = isToday ? resultIdx[`${fx.date}|${[fx.team1, fx.team2].sort().join("~")}`] : null;
+    return tmCard(fx, ownerIdx, tierOf, result);
+  }).join("");
+  box.innerHTML = intro + `<div class="tm-cards">${cards}</div>`;
+}
+
 /* ---------- TODAY'S PUNDIT (single rotating voice) ---------- */
 const PUNDIT_FALLBACK_COLORS = {
   "Eric Wynalda": "#e2231a",
@@ -287,6 +505,12 @@ function jimRomePre(box) {
       <p>Jim Rome's tournament coverage begins June 11.</p>
     </div>`;
 }
+/* First N sentences of a plain-text blob — used for the collapsed teaser. */
+function firstSentences(text, n) {
+  const clean = String(text).replace(/\s+/g, " ").trim();
+  const m = clean.match(/[^.!?]+[.!?]+(?:["')\]]+)?/g);
+  return m ? m.slice(0, n).join(" ").trim() : clean;
+}
 async function renderJimRome() {
   const box = el("jim-rome");
   if (!box) return;
@@ -296,10 +520,33 @@ async function renderJimRome() {
     const md = (await res.text()).trim();
     if (!md || RECAP_PLACEHOLDER_RE.test(md)) { jimRomePre(box); return; }
     box.classList.remove("loading");
-    const html = (typeof marked !== "undefined")
+    const fullHTML = (typeof marked !== "undefined")
       ? marked.parse(md)
       : "<p>" + esc(md).replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br/>") + "</p>";
-    box.innerHTML = `<div class="jimrome-body">${html}</div>`;
+    // Lead with the first 2–3 sentences; the rest expands in place (READ MORE)
+    // so the column is present but doesn't crowd out the match cards above it.
+    const tmp = document.createElement("div");
+    tmp.innerHTML = fullHTML;
+    const plain = (tmp.textContent || "").trim();
+    const preview = firstSentences(plain, 3);
+    if (!preview || preview.length >= plain.length - 1) {
+      box.innerHTML = `<div class="jimrome-body">${fullHTML}</div>`;
+      return;
+    }
+    box.innerHTML = `
+      <div class="jimrome-body">
+        <p class="jimrome-preview">${esc(preview)}</p>
+        <div class="jimrome-full" hidden>${fullHTML}</div>
+        <button class="take-toggle jimrome-toggle" type="button" aria-expanded="false">READ MORE ▾</button>
+      </div>`;
+    const btn = box.querySelector(".jimrome-toggle");
+    btn.addEventListener("click", () => {
+      const open = btn.getAttribute("aria-expanded") === "true";
+      box.querySelector(".jimrome-preview").hidden = !open;
+      box.querySelector(".jimrome-full").hidden = open;
+      btn.setAttribute("aria-expanded", String(!open));
+      btn.textContent = open ? "READ MORE ▾" : "READ LESS ▴";
+    });
   } catch (e) {
     jimRomePre(box);
   }
@@ -465,6 +712,21 @@ async function main() {
     renderResults(daily);
     renderTicker(flattenMatches(daily));
     renderMomentum(daily, standings);
+
+    // Today's Matches hero: schedule (matches.csv) + ownership (team_table) +
+    // tiers (team_tiers.json) + scored results (daily). Failure is non-fatal —
+    // the rest of the page still renders.
+    Promise.all([
+      fetch("data/matches.csv?v=" + Date.now()).then((r) => r.ok ? r.text() : Promise.reject(new Error("matches.csv " + r.status))),
+      loadJSON("data/team_tiers.json").catch(() => ({})),
+    ]).then(([csvText, tiers]) => {
+      TEAM_TIERS = tiers || {};
+      renderTodaysMatches(parseCSV(csvText), buildOwnerIndex(teams), makeTierLookup(teams), buildResultIndex(daily));
+    }).catch((e) => {
+      console.error(e);
+      const b = el("todays-matches");
+      if (b) { b.classList.remove("loading"); b.innerHTML = `<div class="loading">Schedule unavailable.</div>`; }
+    });
 
     const v = standings.rules_version || "rebalanced_v3";
     el("leaguebar-meta").textContent = `scoring · ${v}`;

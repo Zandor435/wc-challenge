@@ -141,6 +141,104 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .leaguebar-name { font-size: .95rem; font-weight: 700; color: #fff; }
 .leaguebar-meta { font-size: .74rem; color: #cdd8f5; font-weight: 600; }
 
+/* ---------------- TODAY'S MATCHES (schedule hero) ---------------- */
+.tm-grid { display: block; }                /* wrapper; .tm-cards holds the grid */
+.tm-next-note { margin: 0 0 12px; font-size: .85rem; color: var(--muted); }
+.tm-next-note b { color: #fff; }
+.tm-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+.tm-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.tm-card.muted { opacity: .5; }
+.tm-card.clash {
+  border-color: rgba(244, 196, 48, .55);
+  box-shadow: inset 0 0 0 1px rgba(244, 196, 48, .16), 0 0 18px rgba(244, 196, 48, .06);
+}
+
+/* OWNER CLASH banner — gold, the highest-drama flag, always card-top (mobile too) */
+.tm-clash {
+  display: flex; align-items: center; gap: 8px;
+  background: linear-gradient(90deg, var(--gold), #f7d873);
+  color: #1a1206;
+  font-family: "Oswald", sans-serif; font-weight: 700; letter-spacing: .03em;
+  font-size: .82rem; text-transform: uppercase; line-height: 1.2;
+  padding: 7px 13px;
+}
+.tm-clash .swords { font-size: .98rem; }
+
+.tm-body { padding: 13px 15px 14px; display: flex; flex-direction: column; gap: 10px; }
+
+.tm-teams { display: flex; flex-direction: column; gap: 9px; }
+.tm-team { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.tm-team .flag { width: 30px; height: 22px; margin: 0; }
+.tm-name {
+  font-family: "Oswald", sans-serif; text-transform: uppercase; letter-spacing: .01em;
+  font-weight: 700; font-size: 1.14rem; color: #fff;
+}
+.tm-team.undrafted .tm-name { color: var(--muted); }
+.tm-team.win .tm-name { color: var(--gold); }
+.tm-score {
+  margin-left: auto;
+  font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.35rem;
+  font-variant-numeric: tabular-nums; color: #fff;
+}
+
+/* owner tag — ring name + draft-color accent */
+.tm-owner {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: .67rem; font-weight: 700; letter-spacing: .02em;
+  color: #dfe3ea; background: var(--surface-3);
+  border: 1px solid var(--line); border-left: 3px solid var(--c, var(--blue-br));
+  border-radius: 4px; padding: 2px 7px; white-space: nowrap;
+}
+.tm-owner.none { color: var(--muted-2); background: transparent; border-left-color: var(--muted-2); }
+.tm-owner-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--c, var(--blue-br)); flex: 0 0 auto; }
+
+/* time + group, one line below team names */
+.tm-info {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  font-size: .72rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--muted);
+}
+.tm-info .tm-group { color: #cfd3da; }
+.tm-info .sep { color: var(--muted-2); }
+.tm-info .tm-state.final { color: var(--green); }
+.tm-info .tm-state.upcoming { color: var(--blue-br); }
+
+/* upset watch chip */
+.tm-upset {
+  display: inline-flex; align-items: center; align-self: flex-start;
+  font-family: "Oswald", sans-serif; font-weight: 700; letter-spacing: .04em;
+  font-size: .68rem; text-transform: uppercase;
+  color: #ffd1a6; background: rgba(240, 116, 58, .15);
+  border: 1px solid rgba(240, 116, 58, .5); border-radius: 999px; padding: 3px 10px;
+}
+
+/* stakes block */
+.tm-stakes { display: flex; flex-direction: column; gap: 6px; padding-top: 10px; border-top: 1px solid var(--line-soft); }
+.tm-stake {
+  font-size: .8rem; color: #cdd2da; line-height: 1.4;
+  padding-left: 9px; border-left: 3px solid var(--c, var(--blue-br));
+}
+.tm-stake b { color: #fff; font-weight: 700; }
+.tm-stake .tm-bonus { color: var(--gold); font-weight: 700; }
+.tm-stake .tm-adv { display: block; font-size: .72rem; color: var(--muted); margin-top: 1px; }
+.tm-stake.none { border-left-color: var(--muted-2); color: var(--muted); font-style: italic; }
+.tm-result-pts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+
+@media (max-width: 640px) {
+  .tm-cards { grid-template-columns: 1fr; }
+}
+
 /* ---------------- HERO / POWER RANKINGS ---------------- */
 .hero {
   display: grid; grid-template-columns: 1.05fr 1fr; gap: 0;
@@ -525,6 +623,9 @@ td.rk-col { color: var(--muted); font-family: "Oswald", sans-serif; font-weight:
 }
 .jimrome-body a { color: var(--blue-br); text-decoration: underline; }
 .jimrome-body ul, .jimrome-body ol { margin: 0 0 13px; padding-left: 20px; }
+/* collapsed teaser + READ MORE toggle (column sits below the match cards) */
+.jimrome-preview { margin: 0; color: #d7dbe2; font-size: .98rem; line-height: 1.6; }
+.jimrome-toggle { color: var(--red); margin-top: 10px; }
 
 /* ---------------- FOOTER ---------------- */
 .site-foot { border-top: 1px solid var(--line); margin-top: 20px; background: #000; }
