@@ -184,6 +184,123 @@ def build_rome(commentary, recap_md):
     return {"headline": headline, "short": first_sentences(recap_md, n=4)}
 
 
+# ---------------------------------------------------------------- subject line
+def _winner_team(m):
+    """Winning team of a played match (penalties break level scores); None for a
+    genuine draw or an unplayed match. Mirrors build_narrative_state.winner_loser."""
+    hs, as_ = m.get("home_score"), m.get("away_score")
+    if hs is None or as_ is None:
+        return None
+    if hs == as_:
+        pw = (m.get("pen_home", 0) or 0) - (m.get("pen_away", 0) or 0)
+        if pw == 0:
+            return None
+        return m.get("home") if pw > 0 else m.get("away")
+    return m.get("home") if hs > as_ else m.get("away")
+
+
+def _champion_team(results):
+    """The team that won the Final, or None if no Final has been played yet."""
+    for day in (results or {}).get("days", []):
+        for m in day.get("matches", []):
+            if str(m.get("stage", "group")).lower().startswith("group"):
+                continue
+            if str(m.get("round", "")).upper() == "FINAL":
+                return _winner_team(m)
+    return None
+
+
+def _cap(subject, limit=80):
+    """Subject lines never exceed `limit` chars; over-length truncates with an ellipsis."""
+    subject = subject.strip()
+    if len(subject) > limit:
+        subject = subject[: limit - 1].rstrip() + "…"
+    return subject
+
+
+def build_subject(day_label, matchdays, is_preseason, narrative, recap_md, draft, results):
+    """Priority-based inbox bait: the single most dramatic thing that happened on the
+    latest scored matchday drives the subject. First match wins down the ladder
+    (elimination > lead change > upset > biggest mover > rivalry > Rome tease); ties at
+    the same priority break toward the highest-ranked owner (most at stake). Preseason
+    and the Final are special-cased. Always <=80 chars. Uses ring names, never real
+    names. All signals come from narrative_state.json (the deterministic accumulator);
+    only the champion is read from daily_results.json, which narrative_state omits."""
+    owner_of = {team: o for o, teams in (draft or {}).items() for team in teams}
+    owners_state = (narrative or {}).get("owners") or {}
+    phase = (narrative or {}).get("phase") or {}
+
+    def rank_of(o):
+        r = (owners_state.get(o) or {}).get("rank")
+        return r if isinstance(r, int) else 999
+
+    def ring(o):
+        return RING_NAMES.get(o, o or "")
+
+    def rome_tease():
+        return first_sentence(recap_md, 50) or "The pool is heating up"
+
+    # --- Final: the tournament is over -> crown the champion --------------------
+    if phase.get("current_round") == "Final" and (phase.get("matches_remaining") or 0) == 0:
+        champ = _champion_team(results)
+        if champ:
+            r = ring(owner_of.get(champ)) if owner_of.get(champ) else ""
+            crown = f"{champ}'s {r} takes the crown." if r else f"{champ} takes the crown."
+            return _cap(f"WC Challenge: It's over. {crown}")
+
+    # --- Preseason / Day 0: nothing has happened -> tease Rome -----------------
+    if is_preseason or matchdays == 0:
+        return _cap(f"WC Challenge Preseason: {rome_tease()}")
+
+    prefix = f"WC Challenge {day_label}: "
+
+    # Everything below keys off the LATEST scored matchday only.
+    history = (narrative or {}).get("history") or []
+    event_date = history[-1].get("date") if history else None
+    events = [e for e in ((narrative or {}).get("notable_events") or [])
+              if event_date and e.get("date") == event_date]
+
+    # 1) Elimination — a drafted team is knocked out of the tournament
+    elims = [e for e in events if e.get("type") == "elimination" and e.get("owner")]
+    if elims:
+        e = min(elims, key=lambda e: rank_of(e.get("owner")))
+        return _cap(f"{prefix}{e['team']} is dead. {ring(e['owner'])} loses a soldier.")
+
+    # 2) Lead change — a different owner moved into #1 on this matchday
+    leader = next((o for o, s in owners_state.items() if s.get("rank") == 1), None)
+    if leader and (owners_state[leader].get("rank_change_from_prev_day") or 0) > 0:
+        return _cap(f"{prefix}New leader. {ring(leader)} takes the throne.")
+
+    # 3) Upset — an upset bonus fired
+    upsets = [e for e in events if e.get("type") == "upset" and e.get("owner")]
+    if upsets:
+        e = min(upsets, key=lambda e: rank_of(e.get("owner")))
+        return _cap(f"{prefix}UPSET. {e['team']} stuns {e['beat']}. "
+                    f"+{fmtnum(e['bonus'])} for {ring(e['owner'])}.")
+
+    # 4) Biggest mover — most points banked today
+    movers = [(o, (s.get("points_today") or 0)) for o, s in owners_state.items()]
+    if movers:
+        o, pts = max(movers, key=lambda x: (x[1], -rank_of(x[0])))
+        if pts > 0:
+            return _cap(f"{prefix}{ring(o)} surges — {fmtnum(pts)} pts in one day.")
+
+    # 5) Rivalry clash — two owners' teams met head-to-head today
+    def clash_owners(c):
+        if c.get("result") == "draw":
+            return [o for o in (c.get("owners") or []) if o]
+        return [o for o in (c.get("winner"), c.get("loser")) if o]
+    clashes = [c for c in ((narrative or {}).get("head_to_head_log") or [])
+               if c.get("date") == event_date and len(set(clash_owners(c))) == 2]
+    if clashes:
+        c = min(clashes, key=lambda c: min(rank_of(o) for o in clash_owners(c)))
+        a, b = sorted(set(clash_owners(c)), key=rank_of)[:2]
+        return _cap(f"{prefix}{ring(a)} vs {ring(b)}. It got personal.")
+
+    # 6) Default — nothing dramatic -> tease Rome
+    return _cap(f"{prefix}{rome_tease()}")
+
+
 def build_standings(standings_doc, prev_owners):
     """Compact leaderboard: rank, owner (ring name), points, movement since last email."""
     rows = (standings_doc or {}).get("standings") or []
@@ -274,6 +391,8 @@ def main():
     ap.add_argument("--recap", default=os.path.join(SITE_DATA, "tournament_recap.md"))
     ap.add_argument("--narrative", default=os.path.join(SITE_DATA, "narrative_state.json"))
     ap.add_argument("--standings", default=os.path.join(SITE_DATA, "owner_standings.json"))
+    ap.add_argument("--results", default=os.path.join(SITE_DATA, "daily_results.json"),
+                    help="day's match results (used only to crown the Final's champion)")
     ap.add_argument("--draft", default=os.path.join(DATA, "draft_board.json"))
     ap.add_argument("--matches", default=os.path.join(DATA, "matches.csv"))
     ap.add_argument("--config", default=os.path.join(HERE, "config.json"))
@@ -288,6 +407,7 @@ def main():
     recap_md = read_text(args.recap)
     narrative = load_json(args.narrative, {})
     standings_doc = load_json(args.standings, {})
+    results = load_json(args.results, {})
     draft = (load_json(args.draft, {}) or {}).get("owners", {})
     rows = load_matches(args.matches)
     config = load_json(args.config, {})
@@ -302,7 +422,7 @@ def main():
     day_label = "Preseason" if (is_preseason or matchdays == 0) else f"Day {matchdays}"
 
     rome = build_rome(commentary, recap_md)
-    subject = f"WC Challenge {day_label}: {rome['headline']}"
+    subject = build_subject(day_label, matchdays, is_preseason, narrative, recap_md, draft, results)
 
     # The hero image WILL deploy here (generate_hero_image.py writes day_{N}.png and,
     # on success, keeps this URL; on failure it nulls it so the template hides it).
