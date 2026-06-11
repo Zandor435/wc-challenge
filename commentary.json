@@ -1,5 +1,48 @@
 {
-  "generated": null,
+  "generated": "2026-06-11T06:32:03Z",
   "source": "preseason",
-  "pundits": []
+  "date": "2026-06-11",
+  "rotation": 0,
+  "pundit": {
+    "name": "Eric Wynalda",
+    "tone": "arrogant",
+    "color": "#e2231a",
+    "take": "Mustard Boy must have picked his teams by throwing darts at a map after a few too many drinks—it's almost painful to watch. Korea Republic, led by Gayden’s Backpass Assassin, is a team hungry for recognition, always on the lookout for a chance to punch above its weight. But Zach, with Czechia at his disposal, seems blissfully unaware that you can't advance in a World Cup with sheer cluelessness. Clearly, Zach never laced up boots in a World Cup like I did; otherwise, he'd know that Ghana and Saudi Arabia won't exactly strike fear in their Group rivals. Korea will run circles around Czechia, easily taking the three points, and Zach will be left wondering if his teams have any maps to help them find the goal."
+  },
+  "pundit_takes": [
+    {
+      "pundit": "wynalda",
+      "headline": "Mustard Boy Relies on Czechia to Deliver World Cup Glory",
+      "subtitle": "Zach confident his T3 pick will outshine his T1 Brazil.",
+      "match": "Korea Republic vs Czechia",
+      "date": "2026-06-11"
+    },
+    {
+      "pundit": "donovan",
+      "headline": "Backpass Assassin Secrets Revealed: Bank on Korea Over England",
+      "subtitle": "Gayden's cautious strategy baffled by his own top-tier pick.",
+      "match": "Korea Republic vs Czechia",
+      "date": "2026-06-11"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Mustard Boy's World Cup Plan Hinges on Czechia Miracle",
+      "subtitle": "Zach believes slow and steady like Czechia wins the race.",
+      "match": "Korea Republic vs Czechia",
+      "date": "2026-06-11"
+    },
+    {
+      "pundit": "lalas",
+      "headline": "Rafe's World Cup Strategy Rivals NASA in Complexity and Precision",
+      "subtitle": "Convinced Uzbekistan will surprise everyone by not qualifying again.",
+      "match": "Group F Preview",
+      "date": "2026-06-11"
+    }
+  ],
+  "rome_analytics_quotes": [
+    "Rafe, a 15-year-old, is turning the WC Challenge into a family feud.",
+    "Rafe's draft trio: Nigeria, Poland, Jamaica—none qualified, but who's laughing now?",
+    "Gayden vs. Rafe: Who needs enemies when you have kids hijacking your league?",
+    "Gunner slips as Rafe joins; the model can't handle teenage chaos agents!"
+  ]
 }
