@@ -94,8 +94,13 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   font-size: 1rem; padding: 6px; border-radius: 4px;
 }
 .icon-btn:hover { background: #1c1c1f; color: #fff; }
-/* The ☰ menu button is the mobile affordance for .mainnav; on desktop the full
-   nav is visible inline, so hide the button there (shown again <=760px). */
+/* MENU is the mobile affordance for .mainnav; on desktop the full nav is visible
+   inline, so hide the button there (shown again <=760px). Typographic, not an icon. */
+.menu-btn {
+  font-family: "Oswald", sans-serif; font-weight: 700; font-size: .78rem;
+  letter-spacing: .08em; text-transform: uppercase; padding: 7px 12px;
+  border: 1px solid #2a2a2e; border-radius: 4px;
+}
 .icon-btn[aria-label="Menu"] { display: none; }
 
 /* ---------------- SCORES TICKER ---------------- */
@@ -105,6 +110,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   display: flex; align-items: stretch;
   /* full-bleed: scores span the entire page width, edge to edge (Fox-style) */
   padding-inline: 0;
+  /* the glance layer stays put under the sticky topbar as the page scrolls */
+  position: sticky; top: 56px; z-index: 40;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .28);
 }
 .ticker-label {
   background: var(--surface-2);
@@ -121,16 +129,25 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .ticker-track::-webkit-scrollbar { height: 6px; }
 .ticker-track::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 3px; }
 .tick {
-  flex: 0 0 auto; min-width: 168px;
-  padding: 9px 16px; border-right: 1px solid var(--line);
-  display: flex; flex-direction: column; gap: 4px;
+  flex: 0 0 auto; min-width: 150px;
+  padding: 8px 16px; border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; gap: 3px;
 }
-.tick-status { font-size: .62rem; font-weight: 700; letter-spacing: .06em; color: var(--muted-2); text-transform: uppercase; }
-.tick-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: .84rem; }
-.tick-row.win .tick-team { color: #fff; font-weight: 700; }
+/* owner-clash cells get a subtle gold wash */
+.tick.clash { background: linear-gradient(180deg, rgba(244,196,48,.12), rgba(244,196,48,.03)); }
+.tick-grp { font-size: .58rem; font-weight: 700; letter-spacing: .07em; color: var(--muted-2); text-transform: uppercase; }
+.tick-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: .86rem; }
+.tick-row.win .tick-code { color: #fff; }
 .tick-team { color: var(--muted); display: flex; align-items: center; gap: 7px; white-space: nowrap; }
-.tick-score { font-weight: 700; font-variant-numeric: tabular-nums; }
-.tick-pts { margin-top: 2px; display: flex; gap: 4px; flex-wrap: wrap; }
+.tick-team .flag { width: 22px; height: 16px; margin: 0; }
+.tick-code { font-family: "Oswald", sans-serif; font-weight: 600; letter-spacing: .03em; color: #cfd3da; }
+.tick-row.win .tick-code { font-weight: 700; }
+.tick-val { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1rem; font-variant-numeric: tabular-nums; min-width: 12px; text-align: right; }
+/* thin owner-color accent bar under a drafted team (transparent if undrafted) */
+.tick-bar { height: 2px; border-radius: 2px; margin: 1px 0 2px; }
+.tick-foot { margin-top: 1px; font-size: .62rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.tick-foot .tf-time { color: var(--blue-br); }
+.tick-foot .tf-final { color: var(--green); }
 
 /* ---------------- LEAGUE BAR ---------------- */
 .leaguebar { background: var(--blue); }
@@ -162,6 +179,17 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .tm-card.clash {
   border-color: rgba(244, 196, 48, .55);
   box-shadow: inset 0 0 0 1px rgba(244, 196, 48, .16), 0 0 18px rgba(244, 196, 48, .06);
+}
+
+/* COVER ART — match-cover (16:9) or clash banner (3:1) as a card-top image header.
+   For a clash, the gold OWNER CLASH badge overlays the banner's lower edge. */
+.tm-cover { position: relative; line-height: 0; background: #0c0e14; border-bottom: 1px solid var(--line); }
+.tm-cover-img { display: block; width: 100%; height: auto; }
+.tm-cover-badge {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(90deg, var(--gold), #f7d873);
+  color: #1a1206; font-family: "Oswald", sans-serif; font-weight: 700; letter-spacing: .03em;
+  font-size: .8rem; line-height: 1.2; text-transform: uppercase; padding: 6px 13px;
 }
 
 /* OWNER CLASH banner — gold, the highest-drama flag, always card-top (mobile too) */
@@ -237,6 +265,45 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 
 @media (max-width: 640px) {
   .tm-cards { grid-template-columns: 1fr; }
+}
+
+/* ---------------- YESTERDAY'S RESULTS (compact recap) ---------------- */
+.yr-list { display: flex; flex-direction: column; gap: 8px; }
+.yr-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 10px 15px;
+}
+.yr-row.clash { border-color: rgba(244, 196, 48, .5); box-shadow: inset 0 0 0 1px rgba(244, 196, 48, .12); }
+.yr-fixture { display: flex; align-items: center; gap: 11px; min-width: 0; flex: 1 1 auto; }
+.yr-team { display: flex; align-items: center; gap: 7px; min-width: 0; }
+.yr-team .flag { width: 24px; height: 18px; margin: 0; }
+.yr-name { font-family: "Oswald", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .01em; font-size: 1rem; color: #e8eaf0; white-space: nowrap; }
+.yr-team.win .yr-name { color: var(--gold); }
+.yr-team.undrafted .yr-name { color: var(--muted); }
+.yr-owner {
+  font-size: .58rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
+  color: #dfe3ea; background: var(--surface-3);
+  border-left: 3px solid var(--c, var(--blue-br)); border-radius: 3px; padding: 1px 6px; white-space: nowrap;
+}
+.yr-score { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.2rem; font-variant-numeric: tabular-nums; color: #fff; padding: 0 2px; flex: 0 0 auto; }
+.yr-pts { display: flex; gap: 10px; flex-wrap: wrap; }
+.yr-pt { font-size: .78rem; color: #cdd2da; border-left: 3px solid var(--c, var(--blue-br)); padding-left: 8px; white-space: nowrap; }
+.yr-pt b { color: #fff; font-weight: 700; }
+.yr-reason { color: var(--muted); }
+.yr-pts.none { color: var(--muted-2); font-style: italic; font-size: .78rem; }
+.yr-clash {
+  display: flex; align-items: center; gap: 8px;
+  font-family: "Oswald", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
+  font-size: .76rem; color: var(--muted);
+}
+.yr-clash-side { color: #fff; padding-bottom: 1px; border-bottom: 2px solid var(--c, var(--blue-br)); }
+.yr-clash-side.won { color: var(--gold); }
+.yr-clash-side.lost { color: var(--muted-2); opacity: .6; }
+.yr-vs { color: var(--muted-2); font-weight: 600; }
+@media (max-width: 560px) {
+  .yr-row { gap: 8px; }
+  .yr-fixture { flex-basis: 100%; }
 }
 
 /* ---------------- HERO / POWER RANKINGS ---------------- */
@@ -453,7 +520,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   display: flex; align-items: flex-start; gap: 20px;
 }
 .main-col { flex: 1 1 auto; min-width: 0; }            /* ~780px on a 1080 layout */
-.sidebar { flex: 0 0 280px; position: sticky; top: 72px; }
+/* stick below BOTH the sticky topbar (56px) and the sticky scores ticker (~112px)
+   so the standings rail never slides under the glance layer */
+.sidebar { flex: 0 0 280px; position: sticky; top: 176px; }
 
 .sidebar-card {
   background: var(--surface); border: 1px solid var(--line);
@@ -706,7 +775,10 @@ td.rk-col { color: var(--muted); font-family: "Oswald", sans-serif; font-weight:
   border-left: 4px solid var(--c, var(--blue-br)); border-radius: var(--radius);
   padding: 8px 11px;
 }
-.mom-icon { font-size: 1.05rem; line-height: 1; flex: 0 0 auto; }
+.mom-pts {
+  font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.1rem; line-height: 1;
+  font-variant-numeric: tabular-nums; color: var(--muted); flex: 0 0 auto; min-width: 26px;
+}
 .mom-owner {
   font-family: "Oswald", sans-serif; text-transform: uppercase; font-weight: 700;
   font-size: .92rem; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
@@ -716,8 +788,8 @@ td.rk-col { color: var(--muted); font-family: "Oswald", sans-serif; font-weight:
   text-transform: uppercase; color: var(--muted); white-space: nowrap;
 }
 .mom-badge.hot { border-left-color: var(--red); }
-.mom-badge.hot .mom-note { color: var(--red); }
-.mom-badge.cold .mom-note { color: var(--blue-br); }
+.mom-badge.hot .mom-pts, .mom-badge.hot .mom-note { color: var(--red); }
+.mom-badge.cold .mom-pts, .mom-badge.cold .mom-note { color: var(--blue-br); }
 @media (max-width: 640px) { .momentum-row { grid-template-columns: repeat(2, 1fr); } }
 
 /* Upset of the day — highlighted one-liner below Rome's take */

@@ -1,5 +1,5 @@
 /* Mobile nav toggle for the shared topbar (index / analytics / teams).
-   The ☰ button is hidden on desktop (CSS) and, on viewports <= 760px, reveals
+   The MENU button is hidden on desktop (CSS) and, on viewports <= 760px, reveals
    .mainnav as a full-width dropdown panel below the sticky topbar. Lives in its
    own file because the topbar is shared across pages that each load a different
    page script (app.js / analytics.js / inline), so the toggle can't live in any

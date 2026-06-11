@@ -95,6 +95,18 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python generate_commentary.py --model gpt-4o --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+      - name: Generate match covers
+        # Per-fixture cover art for the homepage "Today's Matches" cards (Nano Banana).
+        # Inside the kickoff gate; continue-on-error + the script's own per-match
+        # graceful fallback so a quota/flaky-API hiccup never blocks the data commit.
+        # Owner-clash fixtures are skipped here (the frontend uses the pre-generated
+        # clash banners); skip-if-exists means each cover is paid for at most once.
+        if: steps.kickoff.outputs.run == 'true'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python generate_match_covers.py --date "$(date -u +%F)"
       - name: Build email payload
         # Resolves every email variable into email/payload.json from the freshly
         # written commentary/narrative/standings JSON. Stdlib only; never fails the
@@ -141,7 +153,7 @@ jobs:
         run: |
           git config user.name  "wc-challenge-bot"
           git config user.email "actions@github.com"
-          git add site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email
+          git add site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers
           if git diff --staged --quiet; then
             echo "No standings/image changes."
           else

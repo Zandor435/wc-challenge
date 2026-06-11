@@ -28,22 +28,21 @@
         <a href="training.html">IN TRAINING</a>
       </nav>
       <div class="topbar-actions">
-        <button class="icon-btn" aria-label="Search">🔍</button>
-        <button class="icon-btn" aria-label="Menu">☰</button>
+        <button class="icon-btn menu-btn" aria-label="Menu">MENU</button>
       </div>
     </div>
   </header>
 
-  <!-- ============ SCORES TICKER ============ -->
+  <!-- ============ SCORES TICKER (today's glance layer) ============ -->
   <div class="ticker" id="top">
-    <div class="ticker-label">RESULTS</div>
+    <div class="ticker-label" id="ticker-label">TODAY</div>
     <div class="ticker-track" id="ticker-track"><div class="ticker-loading">Loading scores…</div></div>
   </div>
 
   <!-- ============ LEAGUE BAR ============ -->
   <div class="leaguebar">
     <div class="leaguebar-inner">
-      <span class="leaguebar-name">🏆 THE WORLD CUP 2026</span>
+      <span class="leaguebar-name">THE WORLD CUP 2026</span>
       <span class="leaguebar-meta" id="leaguebar-meta">scoring · rebalanced_v3</span>
     </div>
   </div>
@@ -53,10 +52,19 @@
     <!-- ============ MAIN CONTENT COLUMN ============ -->
     <main class="main-col">
 
+      <!-- ---- YESTERDAY'S RESULTS (most recent scored day; hidden until data) ---- -->
+      <section class="block" id="yesterday" hidden>
+        <div class="block-head">
+          <h2 id="yr-title">YESTERDAY'S RESULTS</h2>
+          <span class="block-more" id="yr-meta"></span>
+        </div>
+        <div id="yesterday-results"></div>
+      </section>
+
       <!-- ---- TODAY'S MATCHES (schedule hero — leads the page) ---- -->
       <section class="block" id="matches">
         <div class="block-head">
-          <h2 id="tm-title">⚽ TODAY'S MATCHES</h2>
+          <h2 id="tm-title">TODAY'S MATCHES</h2>
           <span class="block-more" id="tm-meta"></span>
         </div>
         <div id="todays-matches" class="tm-grid loading">Loading the slate…</div>
@@ -65,7 +73,7 @@
       <!-- ---- THE COLUMN · JIM ROME (rolling narrative, collapsed) ---- -->
       <section class="block" id="news">
         <div class="block-head">
-          <h2>📻 THE COLUMN · JIM ROME</h2>
+          <h2>THE COLUMN · JIM ROME</h2>
           <span class="block-more">ROLLING COLUMN</span>
         </div>
         <!-- Owner momentum: points each owner banked on the most recent matchday -->
@@ -78,7 +86,7 @@
       <!-- ---- TODAY'S PUNDIT (single rotating voice — featured analysis) ---- -->
       <section class="block" id="pundit">
         <div class="block-head">
-          <h2>🎙️ FEATURED ANALYSIS</h2>
+          <h2>FEATURED ANALYSIS</h2>
           <span class="block-more" id="pundit-meta"></span>
         </div>
         <div id="pundit-card" class="loading">Loading today's take…</div>
@@ -109,7 +117,7 @@
 
       <!-- ---- PUNDIT TAKES (satirical news-ticker strip) — first in sidebar ---- -->
       <div class="sidebar-card" id="pundit-takes-block">
-        <div class="sidebar-head">🗞️ PUNDIT TAKES</div>
+        <div class="sidebar-head">PUNDIT TAKES</div>
         <div id="pundit-takes" class="pundit-takes loading">Loading the wire…</div>
       </div>
 

@@ -54,6 +54,24 @@ function flag(team) {
          `width="24" height="18" alt="" loading="lazy" />`;
 }
 
+/* ---------- 3-LETTER TEAM CODES (FIFA-style) ----------
+   For the compact scores ticker. An unmapped name falls back to the first three
+   uppercase letters of the team name. */
+const TEAM_CODES = {
+  Algeria: "ALG", Argentina: "ARG", Australia: "AUS", Austria: "AUT", Belgium: "BEL",
+  Bosnia: "BIH", Brazil: "BRA", Canada: "CAN", "Cape Verde": "CPV", Colombia: "COL",
+  Croatia: "CRO", Curacao: "CUW", Czechia: "CZE", "DR Congo": "COD", Ecuador: "ECU",
+  Egypt: "EGY", England: "ENG", France: "FRA", Germany: "GER", Ghana: "GHA",
+  Haiti: "HAI", Iran: "IRN", Iraq: "IRQ", "Ivory Coast": "CIV", Japan: "JPN",
+  Jordan: "JOR", "Korea Republic": "KOR", Mexico: "MEX", Morocco: "MAR",
+  Netherlands: "NED", "New Zealand": "NZL", Norway: "NOR", Panama: "PAN",
+  Paraguay: "PAR", Portugal: "POR", Qatar: "QAT", "Saudi Arabia": "KSA",
+  Scotland: "SCO", Senegal: "SEN", "South Africa": "RSA", Spain: "ESP", Sweden: "SWE",
+  Switzerland: "SUI", Tunisia: "TUN", Turkey: "TUR", USA: "USA", Uruguay: "URU",
+  Uzbekistan: "UZB", TBD: "TBD",
+};
+const teamCode = (t) => TEAM_CODES[t] || String(t || "").replace(/[^A-Za-z]/g, "").slice(0, 3).toUpperCase() || "TBD";
+
 async function loadJSON(path) {
   const res = await fetch(path + "?v=" + Date.now());
   if (!res.ok) throw new Error(`${path}: ${res.status}`);
@@ -82,42 +100,51 @@ function ptsPill(owner, pts) {
   return `<span class="pts-pill"><span class="pd" style="background:${c}"></span>${esc(owner)} ${pts > 0 ? "+" : ""}${pts}</span>`;
 }
 
-/* ---------- flatten daily_results into match objects (newest first) ---------- */
-function flattenMatches(daily) {
-  const out = [];
-  (daily.days || []).forEach((day) => {
-    (day.matches || []).forEach((m) => {
-      const winner = m.home_score > m.away_score ? "home"
-                   : m.away_score > m.home_score ? "away" : "draw";
-      out.push({ ...m, winner });
-    });
-  });
-  return out.reverse(); // newest day/match first for the ticker
+/* ---------- SCORES TICKER (today's glance layer) ----------
+   One compact cell per fixture today: group label, both teams (flag + 3-letter
+   code), and either the kickoff time (upcoming) or the final score. A thin accent
+   bar in the owner's color sits under any drafted team; owner-clash cells get a
+   subtle gold tint. Falls back to the next match day if nothing is on today. */
+function tickTeamRow(team, owner, score, win, showScore) {
+  const accent = owner ? ownerColor(owner) : "transparent";
+  return `
+    <div class="tick-row ${win ? "win" : ""}">
+      <span class="tick-team">${flag(team)}<span class="tick-code">${esc(teamCode(team))}</span></span>
+      <span class="tick-val">${showScore ? score : ""}</span>
+    </div>
+    <div class="tick-bar" style="background:${accent}"></div>`;
 }
-
-/* ---------- SCORES TICKER ---------- */
-function renderTicker(matches) {
+function renderScoreStrip(fixtures, ownerIdx, resultIdx, isToday) {
   const box = el("ticker-track");
-  if (!matches.length) { box.innerHTML = `<div class="ticker-loading">No matches yet.</div>`; return; }
-  box.innerHTML = matches.map((m) => {
-    const homeWin = m.winner === "home", awayWin = m.winner === "away";
-    const pts = Object.entries(m.points || {});
-    const ptsHTML = pts.length
-      ? `<div class="tick-pts">${pts.map(([o, p]) => ptsPill(o, p)).join("")}</div>`
-      : "";
-    const status = m.round ? String(m.round).toUpperCase() : "FINAL";
+  const label = el("ticker-label");
+  if (!box) return;
+  if (!fixtures.length) {
+    if (label) label.textContent = "SCORES";
+    box.innerHTML = `<div class="ticker-loading">No matches scheduled.</div>`;
+    return;
+  }
+  if (label) label.textContent = isToday ? "TODAY" : "NEXT UP";
+  box.innerHTML = fixtures.map((fx) => {
+    const t1 = fx.team1, t2 = fx.team2;
+    const o1 = ownerIdx[t1] || "", o2 = ownerIdx[t2] || "";
+    const clash = o1 && o2 && o1 !== o2;
+    const result = resultIdx[`${fx.date}|${[t1, t2].sort().join("~")}`];
+    const final = !!result;
+    let s1 = "", s2 = "", w1 = false, w2 = false;
+    if (final) {
+      s1 = result.home === t1 ? result.home_score : result.away_score;
+      s2 = result.home === t1 ? result.away_score : result.home_score;
+      w1 = s1 > s2; w2 = s2 > s1;
+    }
+    const grp = fx.phase === "group" ? `Group ${esc(fx.group || "—")}`
+              : esc(KO_GROUP_LABEL[fx.phase] || fx.phase || "Knockout");
+    const foot = final ? `<span class="tf-final">FINAL</span>` : `<span class="tf-time">${esc(fx.time_et || "TBD")}</span>`;
     return `
-      <div class="tick">
-        <div class="tick-status">${esc(status)} · ${esc(m.date.slice(5))}</div>
-        <div class="tick-row ${homeWin ? "win" : ""}">
-          <span class="tick-team">${flag(m.home)}${esc(m.home)}</span>
-          <span class="tick-score">${m.home_score}</span>
-        </div>
-        <div class="tick-row ${awayWin ? "win" : ""}">
-          <span class="tick-team">${flag(m.away)}${esc(m.away)}</span>
-          <span class="tick-score">${m.away_score}</span>
-        </div>
-        ${ptsHTML}
+      <div class="tick ${clash ? "clash" : ""}">
+        <div class="tick-grp">${grp}</div>
+        ${tickTeamRow(t1, o1, s1, w1, final)}
+        ${tickTeamRow(t2, o2, s2, w2, final)}
+        <div class="tick-foot">${foot}</div>
       </div>`;
   }).join("");
 }
@@ -175,6 +202,14 @@ function prettyDate(iso) {
   if (!y) return iso;
   return new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
 }
+/* Shift an ISO date by N calendar days, returning YYYY-MM-DD (local). */
+function addDaysISO(iso, days) {
+  const [y, m, d] = String(iso).split("-").map(Number);
+  if (!y) return iso;
+  const dt = new Date(y, m - 1, d + days);
+  const p = (n) => String(n).padStart(2, "0");
+  return `${dt.getFullYear()}-${p(dt.getMonth() + 1)}-${p(dt.getDate())}`;
+}
 
 // team -> owner, from team_table.json (the served draft board).
 function buildOwnerIndex(teamTable) {
@@ -207,12 +242,12 @@ function winPoints(myTier, oppTier, isGroup) {
   return { win: GROUP_WIN + bonus, bonus };
 }
 
-// Owner tag: ring name + draft color accent. `none` => undrafted, dimmed.
+// Owner tag: real first name + draft color accent. `none` => undrafted, dimmed.
+// (Design rule: match cards use real first names; ring names live on bios/Rome only.)
 function tmOwnerTag(owner) {
   if (!owner) return `<span class="tm-owner none">Undrafted</span>`;
-  const ring = WWE_NAMES[owner] || owner;
   return `<span class="tm-owner" style="--c:${ownerColor(owner)}">` +
-         `<span class="tm-owner-dot"></span>${esc(owner)} · ${esc(ring)}</span>`;
+         `<span class="tm-owner-dot"></span>${esc(owner)}</span>`;
 }
 
 // One stakes line per drafted owner in the match.
@@ -220,9 +255,8 @@ function tmStakes(t1, o1, tier1, t2, o2, tier2, isGroup, phase) {
   const adv = !isGroup ? ADV_BONUS[phase] : null;
   const line = (owner, myTier, oppTier) => {
     if (!owner) return null;
-    const ring = WWE_NAMES[owner] || owner;
     const { win, bonus } = winPoints(myTier, oppTier, isGroup);
-    let s = `<b>${esc(ring)}</b>: W = ${win}`;
+    let s = `<b>${esc(owner)}</b>: W = ${win}`;
     if (bonus > 0) s += ` <span class="tm-bonus">(includes +${bonus} upset bonus)</span>`;
     if (isGroup) s += ` · D = 1`;
     if (adv) s += `<span class="tm-adv">Advance = +${adv} pts</span>`;
@@ -233,8 +267,32 @@ function tmStakes(t1, o1, tier1, t2, o2, tier2, isGroup, phase) {
   return [a, b].filter(Boolean).join("");
 }
 
-// Render one fixture card. `result` is the scored daily_results match if final.
-function tmCard(fx, ownerIdx, tierOf, result) {
+/* Cover-art paths. Owner clashes use the pre-generated banner; everyone else uses
+   the nightly per-match cover keyed by matchday N + match index M. */
+const clashBannerPath = (a, b) => {
+  const [x, y] = [a, b].map((s) => s.toLowerCase()).sort();
+  return `assets/clash-banners/${x}-vs-${y}.png`;
+};
+const matchCoverPath = (n, m) => `assets/match-covers/day_${n}_match_${m}.png`;
+
+// The image header for a card: clash banner (with overlaid OWNER CLASH badge) for a
+// clash, otherwise the match cover. onerror strips the band so a missing cover just
+// leaves the card image-less (graceful — covers don't exist until generated).
+function tmCover(clash, clashLabel, coverSrc) {
+  if (!coverSrc) return "";
+  const badge = clash
+    ? `<div class="tm-cover-badge">OWNER CLASH — ${esc(clashLabel)}</div>` : "";
+  return `
+    <div class="tm-cover ${clash ? "is-clash" : ""}">
+      <img class="tm-cover-img" src="${esc(coverSrc)}" alt="" loading="lazy"
+           onerror="this.closest('.tm-cover').remove()">
+      ${badge}
+    </div>`;
+}
+
+// Render one fixture card. `result` is the scored daily_results match if final;
+// `cover` is {n, m} (this fixture's matchday number + index) for cover-art lookup.
+function tmCard(fx, ownerIdx, tierOf, result, cover) {
   const t1 = fx.team1, t2 = fx.team2;
   const o1 = ownerIdx[t1] || "", o2 = ownerIdx[t2] || "";
   const tier1 = tierOf(t1), tier2 = tierOf(t2);
@@ -243,15 +301,18 @@ function tmCard(fx, ownerIdx, tierOf, result) {
 
   // OWNER CLASH — two different owners' teams meet (highest drama).
   const clash = o1 && o2 && o1 !== o2;
-  const clashBanner = clash
-    ? `<div class="tm-clash"><span class="swords">⚔️</span>` +
-      `${esc((WWE_NAMES[o1] || o1).toUpperCase())} vs ${esc((WWE_NAMES[o2] || o2).toUpperCase())}</div>`
-    : "";
+  const clashLabel = clash ? `${o1.toUpperCase()} vs ${o2.toUpperCase()}` : "";
+  const coverSrc = clash ? clashBannerPath(o1, o2)
+                 : (cover ? matchCoverPath(cover.n, cover.m) : "");
+  const coverHTML = tmCover(clash, clashLabel, coverSrc);
+  // Standalone gold clash banner only when there's no cover image to overlay onto.
+  const clashStrip = (clash && !coverSrc)
+    ? `<div class="tm-clash">OWNER CLASH — ${esc(clashLabel)}</div>` : "";
 
   // Upset Watch — both drafted, different tiers (underdog tier shown first).
   const upset = o1 && o2 && tier1 != null && tier2 != null && tier1 !== tier2;
   const upsetChip = upset
-    ? `<span class="tm-upset">Upset Watch: T${Math.max(tier1, tier2)} vs T${Math.min(tier1, tier2)}</span>`
+    ? `<span class="tm-upset">Upset Watch · T${Math.max(tier1, tier2)} vs T${Math.min(tier1, tier2)}</span>`
     : "";
 
   // State: scored => FINAL w/ score + points; else the kickoff time.
@@ -284,7 +345,8 @@ function tmCard(fx, ownerIdx, tierOf, result) {
 
   return `
     <article class="tm-card ${undrafted ? "muted" : ""} ${clash ? "clash" : ""}">
-      ${clashBanner}
+      ${coverHTML}
+      ${clashStrip}
       <div class="tm-body">
         <div class="tm-teams">
           ${teamRow(t1, o1, s1, w1)}
@@ -304,6 +366,12 @@ function tmCard(fx, ownerIdx, tierOf, result) {
     </article>`;
 }
 
+/* Sorted list of every distinct fixture date — the matchday spine. The 1-based
+   position of a date here is its matchday number N (matches generate_match_covers.py). */
+function distinctDates(rows) {
+  return [...new Set(rows.filter((r) => r.date).map((r) => r.date))].sort();
+}
+
 function renderTodaysMatches(rows, ownerIdx, tierOf, resultIdx) {
   const box = el("todays-matches");
   if (!box) return;
@@ -318,26 +386,107 @@ function renderTodaysMatches(rows, ownerIdx, tierOf, resultIdx) {
     targetDate = future[0];
     isToday = false;
     if (!targetDate) {
-      el("tm-title").textContent = "⚽ MATCHES";
+      el("tm-title").textContent = "MATCHES";
       el("tm-meta").textContent = "";
-      box.innerHTML = `<div class="news-empty"><div class="news-empty-badge">⚽ SCHEDULE</div>
+      box.innerHTML = `<div class="news-empty"><div class="news-empty-badge">SCHEDULE</div>
         <p>The tournament schedule is complete.</p></div>`;
       return;
     }
     fixtures = rows.filter((r) => r.date === targetDate);
   }
 
-  el("tm-title").textContent = isToday ? "⚽ TODAY'S MATCHES" : "⚽ NEXT MATCH DAY";
+  el("tm-title").textContent = isToday ? "TODAY'S MATCHES" : "NEXT MATCH DAY";
   const n = fixtures.length;
   el("tm-meta").textContent = `${prettyDate(targetDate).toUpperCase()} · ${n} ${n === 1 ? "MATCH" : "MATCHES"}`;
 
+  // Matchday number N for cover-art filenames; M is the fixture's index within the day.
+  const matchdayN = distinctDates(rows).indexOf(targetDate) + 1;
+
   const intro = isToday ? "" :
     `<p class="tm-next-note">No matches today — next up <b>${esc(prettyDate(targetDate))}</b>.</p>`;
-  const cards = fixtures.map((fx) => {
+  const cards = fixtures.map((fx, i) => {
     const result = isToday ? resultIdx[`${fx.date}|${[fx.team1, fx.team2].sort().join("~")}`] : null;
-    return tmCard(fx, ownerIdx, tierOf, result);
+    return tmCard(fx, ownerIdx, tierOf, result, { n: matchdayN, m: i + 1 });
   }).join("");
   box.innerHTML = intro + `<div class="tm-cards">${cards}</div>`;
+}
+
+/* ---------- YESTERDAY'S RESULTS (most recent scored day) ----------
+   Compact one-row-per-match recap of the latest day in daily_results: score, owner
+   color tags, points each owner banked, and an OWNER CLASH verdict when two owners'
+   teams met. Hidden entirely until there is at least one scored day. */
+function ownerResultLine(team, owner, m) {
+  const isHome = m.home === team;
+  const my = isHome ? m.home_score : m.away_score;
+  const opp = isHome ? m.away_score : m.home_score;
+  const pts = (m.points && m.points[owner]) || 0;
+  let reason;
+  if (my > opp) {
+    const bonus = pts - 3;                       // group/KO win base = 3
+    reason = bonus > 0 ? `win + ${fmtNum(bonus)} bonus` : "win";
+  } else if (my === opp) { reason = "draw"; }
+  else { reason = "loss"; }
+  return { owner, pts, reason };
+}
+function renderYesterday(daily, ownerIdx) {
+  const section = el("yesterday");
+  const box = el("yesterday-results");
+  if (!section || !box) return;
+  const days = (daily && daily.days) || [];
+  if (!days.length) { section.hidden = true; return; }
+  const day = days[days.length - 1];
+  const matches = day.matches || [];
+  if (!matches.length) { section.hidden = true; return; }
+
+  section.hidden = false;
+  const isYesterday = day.date === addDaysISO(todayLocalISO(), -1);
+  el("yr-title").textContent = isYesterday ? "YESTERDAY'S RESULTS" : "LATEST RESULTS";
+  el("yr-meta").textContent = prettyDate(day.date).toUpperCase();
+
+  box.innerHTML = `<div class="yr-list">${matches.map((m) => {
+    const oh = ownerIdx[m.home] || "", oa = ownerIdx[m.away] || "";
+    const hw = m.home_score > m.away_score, aw = m.away_score > m.home_score;
+    const clash = oh && oa && oh !== oa;
+
+    const teamCell = (team, owner, win) => `
+      <span class="yr-team ${win ? "win" : ""} ${owner ? "" : "undrafted"}">
+        ${flag(team)}<span class="yr-name">${esc(team)}</span>
+        ${owner ? `<span class="yr-owner" style="--c:${ownerColor(owner)}">${esc(owner)}</span>` : ""}
+      </span>`;
+
+    // Per-owner points banked, or a clash verdict when two owners met.
+    let ledger;
+    if (clash) {
+      const winOwner = hw ? oh : aw ? oa : null;
+      const tag = (o) => `<span class="yr-clash-side ${winOwner === o ? "won" : winOwner ? "lost" : ""}"
+        style="--c:${ownerColor(o)}">${esc(o)}</span>`;
+      ledger = `<div class="yr-clash">OWNER CLASH ${tag(oh)}<span class="yr-vs">vs</span>${tag(oa)}</div>`;
+    } else if (oh && oh === oa) {
+      // one owner drafted BOTH sides — a single net line (no win/loss, since both).
+      const pts = (m.points && m.points[oh]) || 0;
+      ledger = `<div class="yr-pts"><span class="yr-pt" style="--c:${ownerColor(oh)}">` +
+        `<b>${esc(oh)}</b> ${pts > 0 ? "+" : ""}${fmtNum(pts)} <span class="yr-reason">(both sides)</span></span></div>`;
+    } else {
+      const lines = [];
+      if (oh) lines.push(ownerResultLine(m.home, oh, m));
+      if (oa) lines.push(ownerResultLine(m.away, oa, m));
+      ledger = lines.length
+        ? `<div class="yr-pts">${lines.map((l) =>
+            `<span class="yr-pt" style="--c:${ownerColor(l.owner)}"><b>${esc(l.owner)}</b> ${l.pts > 0 ? "+" : ""}${fmtNum(l.pts)} <span class="yr-reason">(${l.reason})</span></span>`
+          ).join("")}</div>`
+        : `<div class="yr-pts none">No fantasy points</div>`;
+    }
+
+    return `
+      <div class="yr-row ${clash ? "clash" : ""}">
+        <div class="yr-fixture">
+          ${teamCell(m.home, oh, hw)}
+          <span class="yr-score">${m.home_score} – ${m.away_score}</span>
+          ${teamCell(m.away, oa, aw)}
+        </div>
+        ${ledger}
+      </div>`;
+  }).join("")}</div>`;
 }
 
 /* ---------- TODAY'S PUNDIT (single rotating voice) ---------- */
@@ -418,7 +567,7 @@ function renderPunditTakes(doc) {
   const takes = (doc && Array.isArray(doc.pundit_takes)) ? doc.pundit_takes : [];
   if (!takes.length) {
     box.innerHTML = `<div class="news-empty">
-        <div class="news-empty-badge">🗞️ THE WIRE</div>
+        <div class="news-empty-badge">THE WIRE</div>
         <p>The pundits go live once the slate begins.</p>
       </div>`;
     return;
@@ -468,7 +617,7 @@ function renderPundit(doc) {
          <span class="take-preview">${t.preview}</span>
          <span class="take-full" hidden>${t.full}</span>
        </p>
-       <button class="take-toggle" type="button" aria-expanded="false">READ MORE ▼</button>`
+       <button class="take-toggle" type="button" aria-expanded="false">READ MORE</button>`
     : `<p class="pundit-take">${t.full}</p>`;
   box.innerHTML = `
     <div class="pundit-card solo" style="--pundit:${color}">
@@ -490,7 +639,7 @@ function renderPundit(doc) {
       prev.hidden = !open;
       full.hidden = open;
       btn.setAttribute("aria-expanded", String(!open));
-      btn.textContent = open ? "READ MORE ▼" : "READ LESS ▲";
+      btn.textContent = open ? "READ MORE" : "READ LESS";
     });
   }
 }
@@ -501,7 +650,7 @@ function jimRomePre(box) {
   box.classList.remove("loading");
   box.classList.remove("jimrome-card");
   box.innerHTML = `<div class="news-empty">
-      <div class="news-empty-badge">📻 JIM ROME</div>
+      <div class="news-empty-badge">JIM ROME</div>
       <p>Jim Rome's tournament coverage begins June 11.</p>
     </div>`;
 }
@@ -537,7 +686,7 @@ async function renderJimRome() {
       <div class="jimrome-body">
         <p class="jimrome-preview">${esc(preview)}</p>
         <div class="jimrome-full" hidden>${fullHTML}</div>
-        <button class="take-toggle jimrome-toggle" type="button" aria-expanded="false">READ MORE ▾</button>
+        <button class="take-toggle jimrome-toggle" type="button" aria-expanded="false">READ MORE</button>
       </div>`;
     const btn = box.querySelector(".jimrome-toggle");
     btn.addEventListener("click", () => {
@@ -545,7 +694,7 @@ async function renderJimRome() {
       box.querySelector(".jimrome-preview").hidden = !open;
       box.querySelector(".jimrome-full").hidden = open;
       btn.setAttribute("aria-expanded", String(!open));
-      btn.textContent = open ? "READ MORE ▾" : "READ LESS ▴";
+      btn.textContent = open ? "READ MORE" : "READ LESS";
     });
   } catch (e) {
     jimRomePre(box);
@@ -584,7 +733,7 @@ function renderSidebar(standingsDoc, timeline) {
 
 /* ---------- OWNER MOMENTUM (Rome inline badges) ----------
    One badge per owner showing points banked on the most recent matchday (the
-   last day block in daily_results). 3+ = 🔥 hot, 0 = ❄️ cold, else ➡️ steady.
+   last day block in daily_results). 3+ = hot, 0 = cold, else steady.
    No matchdays played yet -> everyone steady. */
 function lastMatchdayPoints(daily, owners) {
   const days = (daily && daily.days) || [];
@@ -606,12 +755,14 @@ function renderMomentum(daily, standings) {
   const pts = lastMatchdayPoints(daily, list);
   box.innerHTML = list.map((o) => {
     const p = pts[o] || 0;
-    let icon = "➡️", cls = "neutral", note = hasData ? `+${fmtNum(p)} last MD` : "no games yet";
-    if (hasData && p >= 3) { icon = "🔥"; cls = "hot"; }
-    else if (hasData && p === 0) { icon = "❄️"; cls = "cold"; note = "0 last MD"; }
+    // Typographic momentum: the points number leads, color-coded hot/cold/steady.
+    let cls = "neutral", note = hasData ? "last matchday" : "no games yet";
+    if (hasData && p >= 3) { cls = "hot"; }
+    else if (hasData && p === 0) { cls = "cold"; }
+    const lead = hasData ? `${p > 0 ? "+" : ""}${fmtNum(p)}` : "—";
     return `
       <div class="mom-badge ${cls}" style="--c:${ownerColor(o)}">
-        <span class="mom-icon">${icon}</span>
+        <span class="mom-pts">${esc(lead)}</span>
         <span class="mom-owner">${esc(o)}</span>
         <span class="mom-note">${esc(note)}</span>
       </div>`;
@@ -633,7 +784,7 @@ function renderUpset(daily, narrative) {
   const persona = WWE_NAMES[u.owner] || u.owner || "the owner";
   box.innerHTML = `
     <div class="upset-banner">
-      <span class="upset-tag">🔥 UPSET</span>
+      <span class="upset-tag">UPSET</span>
       <span class="upset-text"><b>${esc(u.team)}</b> (+${fmtNum(u.bonus)}) over ${esc(u.beat)} — ${esc(persona)} cashes in.</span>
     </div>`;
 }
@@ -663,7 +814,7 @@ function renderPortfolios(standings, teamTable) {
             <span class="pf-name" style="color:${c}">${esc(r.owner)}</span>
             <span class="pf-sub">Rank #${r.rank} · ${r.total_points} pts</span>
           </div>
-          <span class="pf-biolink">BIO →</span>
+          <span class="pf-biolink">BIO</span>
         </div>
         <div class="pf-teams">${rows}</div>
       </a>`;
@@ -708,24 +859,37 @@ async function main() {
       loadJSON("data/daily_results.json"),
     ]);
 
+    const ownerIdx = buildOwnerIndex(teams);
     renderPortfolios(standings, teams);
     renderResults(daily);
-    renderTicker(flattenMatches(daily));
+    renderYesterday(daily, ownerIdx);
     renderMomentum(daily, standings);
 
-    // Today's Matches hero: schedule (matches.csv) + ownership (team_table) +
-    // tiers (team_tiers.json) + scored results (daily). Failure is non-fatal —
-    // the rest of the page still renders.
+    // Today's Matches hero + scores ticker: schedule (matches.csv) + ownership
+    // (team_table) + tiers (team_tiers.json) + scored results (daily). Failure is
+    // non-fatal — the rest of the page still renders.
     Promise.all([
       fetch("data/matches.csv?v=" + Date.now()).then((r) => r.ok ? r.text() : Promise.reject(new Error("matches.csv " + r.status))),
       loadJSON("data/team_tiers.json").catch(() => ({})),
     ]).then(([csvText, tiers]) => {
       TEAM_TIERS = tiers || {};
-      renderTodaysMatches(parseCSV(csvText), buildOwnerIndex(teams), makeTierLookup(teams), buildResultIndex(daily));
+      const rows = parseCSV(csvText);
+      const resultIdx = buildResultIndex(daily);
+      renderTodaysMatches(rows, ownerIdx, makeTierLookup(teams), resultIdx);
+      // Scores ticker: today's fixtures (or the next match day if none today).
+      const today = todayLocalISO();
+      let tickFixtures = rows.filter((r) => r.date === today), tickIsToday = true;
+      if (!tickFixtures.length) {
+        const next = rows.filter((r) => r.date > today).map((r) => r.date).sort()[0];
+        if (next) { tickFixtures = rows.filter((r) => r.date === next); tickIsToday = false; }
+      }
+      renderScoreStrip(tickFixtures, ownerIdx, resultIdx, tickIsToday);
     }).catch((e) => {
       console.error(e);
       const b = el("todays-matches");
       if (b) { b.classList.remove("loading"); b.innerHTML = `<div class="loading">Schedule unavailable.</div>`; }
+      const t = el("ticker-track");
+      if (t) t.innerHTML = `<div class="ticker-loading">Scores unavailable.</div>`;
     });
 
     const v = standings.rules_version || "rebalanced_v3";
