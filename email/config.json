@@ -1,6 +1,11 @@
 {
   "from": "WC Challenge <recap@mustardboy.xyz>",
-  "reply_to": null,
+  "reply_to": [
+    "zacharykmorgan@gmail.com",
+    "gayden4@yahoo.com",
+    "gpotts03@yahoo.com",
+    "devinbowman123@gmail.com"
+  ],
   "recipients": [
     "zacharykmorgan@gmail.com",
     "gayden4@yahoo.com",
