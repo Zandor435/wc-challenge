@@ -32,7 +32,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install Python deps
-        run: pip install numpy   # win_probability.py's Monte Carlo engine needs numpy
+        # numpy: win_probability.py's Monte Carlo engine. resend + jinja2: the email send.
+        # google-genai + pillow: the hero-image step (generate_hero_image.py).
+        run: pip install numpy resend jinja2 google-genai pillow
       - name: Fetch + score
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -93,14 +95,98 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python generate_commentary.py --model gpt-4o --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-      - name: Commit refreshed data if changed
+      - name: Build email payload
+        # Resolves every email variable into email/payload.json from the freshly
+        # written commentary/narrative/standings JSON. Stdlib only; never fails the
+        # build (continue-on-error) so a malformed input can't block the data commit.
+        if: steps.kickoff.outputs.run == 'true'
+        continue-on-error: true
+        run: |
+          python email/build_email_payload.py --date "$(date -u +%F)" \
+            --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+      - name: Email send gate
+        # One place decides whether today actually sends: past kickoff AND a payload
+        # exists AND today is a configured send date. The hero-image generation, the
+        # Pages-deploy wait, and the send itself all key off this single output — so we
+        # never spend a (paid) Gemini call generating art on a night we won't email.
+        id: sendgate
+        if: steps.kickoff.outputs.run == 'true'
+        run: |
+          TODAY=$(date -u +%F)
+          if [ -f email/payload.json ] && python -c "import json,sys; cfg=json.load(open('email/config.json')); sys.exit(0 if '$TODAY' in cfg['send_dates'] else 1)"; then
+            echo "send=true"  >> "$GITHUB_OUTPUT"
+            echo "$TODAY is a send date and a payload exists — will send."
+          else
+            echo "send=false" >> "$GITHUB_OUTPUT"
+            echo "$TODAY is not a send date (or no payload) — no email today."
+          fi
+      - name: Generate hero image
+        # Runs ONLY on send nights, AFTER the payload is built and BEFORE the commit
+        # below (so the image deploys with the data push, before the email references
+        # it). continue-on-error + the script's own graceful fallback: on any failure
+        # it nulls payload.hero_image_url and the email simply sends image-less.
+        if: steps.sendgate.outputs.send == 'true'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python email/generate_hero_image.py
+      - name: Commit refreshed data + hero image
+        # MOVED AHEAD OF THE SEND (was the final step): the hero image must be committed
+        # + pushed so GitHub Pages serves it BEFORE the email goes out, or the image URL
+        # 404s in inboxes. Stages site/assets/email so the day's hero deploys with the
+        # nightly data. Runs every night (not just send nights) to keep committing data
+        # changes. The delta baseline (last_sent_state.json) is committed separately
+        # AFTER the send, below.
         run: |
           git config user.name  "wc-challenge-bot"
           git config user.email "actions@github.com"
-          git add site/data/*.json site/data/tournament_recap.md commentary.json
+          git add site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email
           if git diff --staged --quiet; then
-            echo "No standings changes."
+            echo "No standings/image changes."
           else
             git commit -m "Auto-update standings ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi
+      - name: Wait for hero image to deploy
+        # The push above triggers a Pages rebuild; give it time to serve the new image
+        # before the email references it. Polls the actual image URL (up to ~5 min) and
+        # proceeds the moment it returns 200. continue-on-error so a slow/failed deploy
+        # never blocks the send — a still-cold URL just means the email hides the hero.
+        if: steps.sendgate.outputs.send == 'true'
+        continue-on-error: true
+        run: |
+          URL=$(python -c "import json;print(json.load(open('email/payload.json')).get('hero_image_url') or '')")
+          if [ -z "$URL" ]; then echo "No hero image URL in payload — nothing to wait for."; exit 0; fi
+          echo "Waiting for $URL ..."
+          for i in $(seq 1 30); do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$URL" || echo "000")
+            if [ "$code" = "200" ]; then echo "Hero image live (HTTP 200) after ~$((i*10))s."; exit 0; fi
+            echo "  not yet (HTTP $code) — retry $i/30"; sleep 10
+          done
+          echo "Hero image not live after wait — sending anyway (template hides a missing hero)."
+      - name: Send daily email
+        # Fires only when the send gate said so. On a successful send, send_email.py
+        # snapshots narrative_state.json -> email/last_sent_state.json (the rank-delta
+        # baseline), which the commit step below stages. continue-on-error: a Resend
+        # hiccup never blocks the baseline commit.
+        if: steps.sendgate.outputs.send == 'true'
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          python email/send_email.py
+      - name: Commit email delta baseline
+        # AFTER the send: persist last_sent_state.json (refreshed only on a successful
+        # send) so the next email's rank movement is measured "since this email."
+        if: steps.sendgate.outputs.send == 'true'
+        run: |
+          git config user.name  "wc-challenge-bot"
+          git config user.email "actions@github.com"
+          if [ -f email/last_sent_state.json ]; then git add email/last_sent_state.json; fi
+          if git diff --staged --quiet; then
+            echo "No email baseline change."
+          else
+            git commit -m "Refresh email delta baseline ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
           fi
