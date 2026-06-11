@@ -1,0 +1,4 @@
+# Keeps site/assets/email/ in the repo so the workflow's `git add site/assets/email`
+# always matches, even on nights when no hero image was generated.
+# Daily hero images (day_{N}.png) are written here by email/generate_hero_image.py
+# and served over GitHub Pages; the email references them by absolute URL.
