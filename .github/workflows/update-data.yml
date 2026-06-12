@@ -147,6 +147,27 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python generate_match_covers.py --date "$(date -u +%F)"
+      - name: Generate editorial illustrations
+        # The DYNAMIC half of the banner rotation pool (Nano Banana): 1-2 match-day
+        # banners tied to the day's storylines (father-son result, upset, elimination,
+        # owner clash, lead change, kayfabe callback...). Inside the kickoff gate, AFTER
+        # the commentary/recap are written (it reads narrative_state.json + tournament_recap.md)
+        # and BEFORE the email steps. continue-on-error + the script's own graceful fallback,
+        # so a quota/flaky-API hiccup never blocks the data commit. Skip-if-exists: each
+        # day's art is paid for at most once.
+        if: steps.kickoff.outputs.run == 'true'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python generate_editorial_illustrations.py
+      - name: Rebuild banner manifest
+        # Rescan site/assets/banners/{static,dynamic} into site/data/banner_manifest.json so
+        # any new dynamic banner joins the homepage rotation the same night. Stdlib only,
+        # ungated (the static pool should rotate even pre-kickoff); a no-change rebuild just
+        # produces no diff and nothing is committed.
+        run: |
+          python build_banner_manifest.py
       - name: Build email payload
         # Resolves every email variable into email/payload.json from the freshly
         # written commentary/narrative/standings JSON. Stdlib only; never fails the
@@ -198,7 +219,9 @@ jobs:
           # continue-on-error and skips owner-clash-only days, so
           # site/assets/match-covers may never be created — a bare `git add`
           # on that missing pathspec aborts with exit 128 and kills the push.
-          for p in site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers; do
+          # Same guard covers site/assets/banners/dynamic (only created once a
+          # dynamic banner is generated).
+          for p in site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers site/assets/banners/dynamic; do
             [ -e "$p" ] && git add "$p"
           done
           if git diff --staged --quiet; then
