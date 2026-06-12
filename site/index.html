@@ -33,6 +33,11 @@
     </div>
   </header>
 
+  <!-- ============ ROTATING BANNER (random decoration: static + dynamic pool) ============ -->
+  <!-- app.js renderBanner() injects one random <img> from banner_manifest.json. Pure visual
+       decoration, no text overlay. Stays empty (collapsed) until/unless a banner loads. -->
+  <div class="hero-banner" id="hero-banner" aria-hidden="true"></div>
+
   <!-- ============ SCORES TICKER (today's glance layer) ============ -->
   <div class="ticker" id="top">
     <div class="ticker-label" id="ticker-label">TODAY</div>

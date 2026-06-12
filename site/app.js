@@ -872,6 +872,33 @@ function renderResults(daily) {
 }
 
 /* ---------- BOOT ---------- */
+/* ---------- ROTATING BANNER (decoration; static + dynamic pool) ----------
+   Reads site/data/banner_manifest.json — a flat array of image paths the nightly
+   pipeline regenerates (static furniture + the match-day editorial illustrations) —
+   and drops ONE random banner above the ticker. Pure decoration: no text overlay, no
+   controls, a fresh pick each visit, and the pool grows on its own as dynamic banners
+   are deployed. A missing/empty manifest or a bad image path collapses the strip. */
+async function renderBanner() {
+  const host = el("hero-banner");
+  if (!host) return;
+  try {
+    const list = await loadJSON("data/banner_manifest.json");
+    const banners = Array.isArray(list) ? list : (list && list.banners) || [];
+    if (!banners.length) { host.remove(); return; }   // nothing to show
+    const pick = banners[Math.floor(Math.random() * banners.length)];
+    const img = new Image();
+    img.className = "hero-banner-img";
+    img.alt = "";
+    img.decoding = "async";
+    img.onload = () => img.classList.add("loaded");    // fade in once decoded
+    img.onerror = () => host.remove();                 // bad path -> drop the strip
+    img.src = pick;                                     // let the browser cache banners
+    host.appendChild(img);
+  } catch (e) {
+    host.remove();   // no manifest yet (e.g. before the first nightly run) -> hide
+  }
+}
+
 async function main() {
   try {
     const [standings, teams, daily] = await Promise.all([
@@ -940,4 +967,5 @@ async function main() {
     if (sb) sb.innerHTML = `<div class="loading">Failed to load data: ${esc(e.message)}</div>`;
   }
 }
+renderBanner();   // independent of main()'s data — isolated so a banner hiccup never affects the page
 main();

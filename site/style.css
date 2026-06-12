@@ -103,6 +103,24 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 }
 .icon-btn[aria-label="Menu"] { display: none; }
 
+/* ---------------- ROTATING BANNER ----------------
+   Full-width decoration strip below the nav, above the ticker. Caps at the banner's
+   native 1400px so it never upscales past source resolution; 4:1 letterbox, the image
+   covers it. Collapses to nothing when empty (no manifest / failed load). */
+.hero-banner {
+  width: 100%; max-width: 1400px; margin: 0 auto;
+  background: #0c0e14;
+  border-bottom: 1px solid var(--line);
+  line-height: 0;            /* kill descender gap under the inline-replaced img */
+}
+.hero-banner:empty { display: none; border: 0; }
+.hero-banner-img {
+  display: block; width: 100%; aspect-ratio: 1400 / 350;
+  object-fit: cover; background: #0c0e14;
+  opacity: 0; transition: opacity .6s ease;
+}
+.hero-banner-img.loaded { opacity: 1; }
+
 /* ---------------- SCORES TICKER ---------------- */
 .ticker {
   background: var(--bg-soft);
