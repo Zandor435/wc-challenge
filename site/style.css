@@ -114,13 +114,14 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .hero-banner {
   position: relative;
   width: 100%; max-width: 1400px; margin: 0 auto;
-  height: 120px;
+  height: 120px !important;
+  max-height: 120px !important;
   background-size: cover;
   background-position: center 15%;   /* bias toward the top, where the faces are */
   background-repeat: no-repeat;
   background-color: #0c0e14;         /* fallback before/without an image */
   border-bottom: 1px solid var(--line);
-  overflow: hidden;
+  overflow: hidden !important;
   opacity: 0; transition: opacity .6s ease;
 }
 .hero-banner.loaded { opacity: 1; }
@@ -144,7 +145,7 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   text-shadow: 0 1px 4px rgba(0, 0, 0, .8);
 }
 @media (max-width: 640px) {
-  .hero-banner { height: 80px; }
+  .hero-banner { height: 80px !important; max-height: 80px !important; }
   .hero-banner-kicker { top: 7px; left: 12px; font-size: 9px; }
   .hero-banner-feature { bottom: 8px; font-size: 13px; }
 }

@@ -977,7 +977,6 @@ async function main() {
     });
 
     const v = standings.rules_version || "rebalanced_v3";
-    el("leaguebar-meta").textContent = `scoring · ${v}`;
     el("foot-rules").textContent = v;
     el("foot-src").textContent = standings.source || "—";
 
