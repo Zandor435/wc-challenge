@@ -1,29 +1,49 @@
 #!/usr/bin/env python3
-"""Fetch World Cup fixtures from API-Football and emit results JSON for scoring.py.
+"""Fetch World Cup fixtures and emit results JSON for scoring.py.
 
-Reads the API key from the API_FOOTBALL_KEY env var (falls back to the challenge
-key). Pulls finished fixtures for a league+season, maps API team names through
-data/team_aliases.json, classifies each fixture's stage/round, and writes a
-results file in the schema scoring.py expects.
+Two interchangeable sources, selected with --source:
+
+  worldcup26ir  (DEFAULT) — the free https://worldcup26.ir/get/games feed. No auth,
+                no API key, returns the live 2026 World Cup. This is what the live
+                pipeline uses.
+  api-football  — the original paid v3.football.api-sports.io path. Kept intact as a
+                fallback; reads the key from API_FOOTBALL_KEY (falls back to the
+                challenge key).
+
+Both paths map their source through data/team_aliases.json and write the SAME
+normalized schema scoring.py expects:
+
+    {"source", "fetched_finished", "matches": [
+        {"fixture_id", "date" (YYYY-MM-DD), "stage" ("group"|"knockout"),
+         "home", "away", "home_score" (int), "away_score" (int),
+         "round"? ("R32".."FINAL"), "pen_home"?, "pen_away"?, "decided_by"?}
+    ]}
+
+Only finished matches are emitted (they're the ones that score points).
 
 Usage:
-    # 2026 World Cup (once API-Football populates it):
-    python fetch_results.py --season 2026 --out data/live_results.json
-    # 2022 proxy (data exists today), only finished matches:
-    python fetch_results.py --season 2022 --out data/proxy_2022_results.json
+    # 2026 World Cup from the free feed (default source):
+    python fetch_results.py --out data/live_results.json
+    # explicit:
+    python fetch_results.py --source worldcup26ir --out data/live_results.json
+    # original API-Football path (e.g. the 2022 proxy):
+    python fetch_results.py --source api-football --season 2022 --out data/proxy_2022_results.json
 
 Then:
     python scoring.py --results data/live_results.json --out-dir site/data
 
-Goal-scorer note: API-Football exposes goal events at /fixtures/events?fixture=ID
-(player name, team, minute, detail). --with-goals attaches them so a later
-player-tracking feature can read data/goals.json.
+Goal-scorer note: --with-goals attaches scorers to data/goals.json (schema:
+{fixture_id, date, team, player, minute, detail}) for the Golden Boot pipeline.
+  - api-football pulls goal events from /fixtures/events?fixture=ID (1 req/fixture).
+  - worldcup26ir parses the inline home_scorers/away_scorers strings (free, no extra
+    request) — these are messy mixed-quote strings, so parsing is best-effort.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import os
+import re
 import tempfile
 import time
 import urllib.request
@@ -34,6 +54,7 @@ DATA = os.path.join(HERE, "data")
 BASE = "https://v3.football.api-sports.io"
 KEY = os.environ.get("API_FOOTBALL_KEY", "fa4a83828c1f8b553acba91e321faabb")
 WORLD_CUP_LEAGUE_ID = 1
+WC26_URL = "https://worldcup26.ir/get/games"
 
 # Count every HTTP request we make this run so the budget logger (end of main)
 # can report usage and keep a cumulative daily tally against the free-tier cap.
@@ -79,22 +100,162 @@ def classify_round(api_round: str):
     return "group", None  # default safe
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--season", type=int, default=2026)
-    ap.add_argument("--league", type=int, default=WORLD_CUP_LEAGUE_ID)
-    ap.add_argument("--out", default=os.path.join(DATA, "live_results.json"))
-    ap.add_argument("--with-goals", action="store_true",
-                    help="also fetch goal-scorer events -> data/goals.json (uses 1 req/fixture)")
-    ap.add_argument("--max-goal-fixtures", type=int, default=0,
-                    help="cap how many fixtures to pull goal events for (0 = no cap). Protects the free-tier quota.")
-    args = ap.parse_args()
+# ---------------------------------------------------------------------------
+# worldcup26.ir source
+# ---------------------------------------------------------------------------
 
-    aliases = json.load(open(os.path.join(DATA, "team_aliases.json"), encoding="utf-8"))["aliases"]
+# worldcup26.ir's `type` field is already a clean stage code, so we map it
+# directly instead of string-sniffing a human round label.
+WC26_TYPE_MAP = {
+    "group": ("group", None),
+    "r32": ("knockout", "R32"),
+    "r16": ("knockout", "R16"),
+    "qf": ("knockout", "QF"),
+    "sf": ("knockout", "SF"),
+    "third": ("knockout", "3RD"),
+    "final": ("knockout", "FINAL"),
+}
 
-    def canon(n):
-        return aliases.get((n or "").strip(), (n or "").strip())
+# Scorer strings mix straight and curly quotes, e.g.
+#   {"I.B. Hwang 67'","H.G. Oh 80'"}   and   {“J. Quiñones 9'”,”R. Jiménez 67'”}
+# Pull each quoted token regardless of which quote style wraps it.
+_SCORER_TOKEN = re.compile(r"[\"“”„‟]([^\"“”„‟]+)[\"“”„‟]")
+_MINUTE = re.compile(r"(\d+(?:\+\d+)?)\s*'")
+_GOAL_MARKER = re.compile(r"\s*\((?:p|pen|pk|og)\)\s*$", re.I)
 
+
+def http_get_json(url, timeout=30):
+    """Plain GET -> parsed JSON. No auth (worldcup26.ir needs none)."""
+    req = urllib.request.Request(url, headers={"User-Agent": "wc-challenge-fetch/1.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.load(r)
+
+
+def wc26_date(local_date: str) -> str:
+    """'MM/DD/YYYY HH:MM' -> 'YYYY-MM-DD'. Returns '' if unparseable."""
+    head = (local_date or "").strip().split(" ")[0]
+    try:
+        mm, dd, yyyy = head.split("/")
+        return f"{int(yyyy):04d}-{int(mm):02d}-{int(dd):02d}"
+    except (ValueError, AttributeError):
+        return ""
+
+
+def parse_scorers(raw, team, fixture_id, date):
+    """Best-effort parse of a worldcup26.ir scorers blob into goal events.
+
+    `raw` looks like {"Name 12'","Name 45+2'"} (mixed quote styles) or the literal
+    string "null" when there were no goals. We extract player + minute and tag a
+    coarse detail (Penalty / Own Goal / Normal Goal) for the Golden Boot pipeline.
+    Anything we can't parse is skipped silently — goals are continue-on-error.
+    """
+    out = []
+    s = (raw or "").strip()
+    if not s or s.strip("\"'{}").lower() == "null":
+        return out
+    for tok in _SCORER_TOKEN.findall(s):
+        tok = tok.strip()
+        if not tok or tok.lower() == "null":
+            continue
+        low = tok.lower()
+        if "(og)" in low or "own goal" in low:
+            detail = "Own Goal"
+        elif "(p)" in low or "(pen" in low or "(pk)" in low or "penalty" in low:
+            detail = "Penalty"
+        else:
+            detail = "Normal Goal"
+        minute = None
+        m = _MINUTE.search(tok)
+        if m:
+            name = tok[:m.start()].strip()
+            minute = int(m.group(1).split("+")[0])
+        else:
+            name = tok
+        name = _GOAL_MARKER.sub("", name).strip().rstrip(",;").strip()
+        if not name:
+            continue
+        out.append({"fixture_id": fixture_id, "date": date, "team": team,
+                    "player": name, "minute": minute, "detail": detail})
+    return out
+
+
+def run_worldcup26ir(args, canon):
+    """Fetch the free worldcup26.ir feed and write live_results.json (+ goals)."""
+    source = "worldcup26.ir live games"
+    raw = http_get_json(WC26_URL)
+    games = raw.get("games", [])
+    print(f"worldcup26.ir returned {len(games)} games")
+
+    matches, goals = [], []
+    for game in games:
+        # Gate strictly on finished == "TRUE". Unplayed matches also report
+        # "0" - "0", so the score alone can't distinguish a real 0-0 from a
+        # fixture that hasn't kicked off — only `finished` can.
+        if str(game.get("finished", "")).strip().upper() != "TRUE":
+            continue
+        stage, rnd = WC26_TYPE_MAP.get((game.get("type") or "").strip().lower(),
+                                       ("group", None))
+        date = wc26_date(game.get("local_date"))
+        try:
+            fixture_id = int(game.get("id"))
+        except (TypeError, ValueError):
+            fixture_id = game.get("id")
+        home = canon((game.get("home_team_name_en") or "").strip())
+        away = canon((game.get("away_team_name_en") or "").strip())
+        try:
+            hs = int(game.get("home_score") or 0)
+            as_ = int(game.get("away_score") or 0)
+        except (TypeError, ValueError):
+            print(f"  skipping {home} v {away}: non-numeric score "
+                  f"{game.get('home_score')!r}-{game.get('away_score')!r}")
+            continue
+        rec = {
+            "fixture_id": fixture_id,
+            "date": date,
+            "stage": stage,
+            "home": home,
+            "away": away,
+            "home_score": hs,
+            "away_score": as_,
+        }
+        if rnd:
+            rec["round"] = rnd
+        # NOTE: this feed exposes no penalty-shootout aggregate, so a knockout
+        # that ends level (decided_by/pen_home/pen_away) can't be resolved here.
+        # No finished knockouts exist this early; revisit if the feed adds them.
+        matches.append(rec)
+
+        if args.with_goals:
+            goals += parse_scorers(game.get("home_scorers"), home, fixture_id, date)
+            goals += parse_scorers(game.get("away_scorers"), away, fixture_id, date)
+
+    matches.sort(key=lambda m: (m["date"],
+                                m["fixture_id"] if isinstance(m["fixture_id"], int) else 0))
+
+    out = {"source": source, "fetched_finished": len(matches), "matches": matches}
+    with open(args.out, "w", encoding="utf-8") as fh:
+        json.dump(out, fh, indent=2, ensure_ascii=False)
+    print(f"Wrote {len(matches)} finished matches -> {args.out}")
+
+    if args.with_goals:
+        # Overwrite-by-default: scorers are inline in the same response, so we
+        # rebuild goals.json fully each run (no incremental request budget to
+        # protect, unlike the api-football path).
+        goals_path = os.path.join(DATA, "goals.json")
+        fixtures_with_events = sorted({m["fixture_id"] for m in matches
+                                       if isinstance(m["fixture_id"], int)})
+        with open(goals_path, "w", encoding="utf-8") as fh:
+            json.dump({"source": source,
+                       "fixtures_with_events": fixtures_with_events,
+                       "goals": goals}, fh, indent=2, ensure_ascii=False)
+        print(f"Wrote {len(goals)} goal events (parsed inline) -> {goals_path}")
+
+
+# ---------------------------------------------------------------------------
+# api-football source (original path, kept intact as a fallback)
+# ---------------------------------------------------------------------------
+
+def run_api_football(args, canon):
     source = f"api-football league {args.league} season {args.season}"
 
     # Incremental goals: only fetch goal events for fixtures we have NOT already
@@ -187,6 +348,34 @@ def main():
               f"({len(new_goals)} new from {goal_fixtures_done} fixtures) -> {goals_path}")
 
     log_api_budget()
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source", choices=["worldcup26ir", "api-football"],
+                    default="worldcup26ir",
+                    help="results provider (default: worldcup26ir, the free live feed)")
+    ap.add_argument("--season", type=int, default=2026,
+                    help="api-football only; ignored by worldcup26ir")
+    ap.add_argument("--league", type=int, default=WORLD_CUP_LEAGUE_ID,
+                    help="api-football only")
+    ap.add_argument("--out", default=os.path.join(DATA, "live_results.json"))
+    ap.add_argument("--with-goals", action="store_true",
+                    help="also collect goal scorers -> data/goals.json")
+    ap.add_argument("--max-goal-fixtures", type=int, default=0,
+                    help="api-football only: cap fixtures to pull goal events for "
+                         "(0 = no cap). Protects the free-tier quota.")
+    args = ap.parse_args()
+
+    aliases = json.load(open(os.path.join(DATA, "team_aliases.json"), encoding="utf-8"))["aliases"]
+
+    def canon(n):
+        return aliases.get((n or "").strip(), (n or "").strip())
+
+    if args.source == "worldcup26ir":
+        run_worldcup26ir(args, canon)
+    else:
+        run_api_football(args, canon)
 
 
 def log_api_budget():
