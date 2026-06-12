@@ -74,7 +74,10 @@ jobs:
       - name: Install Python deps
         # numpy: win_probability.py's Monte Carlo engine. resend + jinja2: the email send.
         # google-genai + pillow: the hero-image step (generate_hero_image.py).
-        run: pip install numpy resend jinja2 google-genai pillow
+        # opencv-python-headless: the face-aware 7:1 banner crop (generate_editorial_illustrations
+        # -> generate_site_banners.to_banner_png). Falls back gracefully if absent, but CI
+        # installs it so dynamic banners crop on the faces like the static pool.
+        run: pip install numpy resend jinja2 google-genai pillow opencv-python-headless
       - name: Fetch + score
         # Fixtures now come from the free worldcup26.ir feed (no auth) — the default
         # source in fetch_results.py. API_FOOTBALL_KEY is intentionally NOT wired in:

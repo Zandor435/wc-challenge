@@ -10,7 +10,7 @@ actual portraits with Pillow/numpy. Less painterly, but the faces are guaranteed
 Approach (no API, deterministic, idempotent):
   * Head-and-shoulders crop of each owner's WWE portrait (the portraits are full-body on
     near-black backgrounds with spark/smoke FX; we keep the face + chest).
-  * Left owner anchored to the LEFT half, right owner to the RIGHT half of a 1200x400
+  * Left owner anchored to the LEFT half, right owner to the RIGHT half of a 1400x200
     canvas, blended across a soft central seam.
   * Each half washed in that owner's draft colour via a SCREEN-blended colour gradient —
     because the backgrounds are near-black, screen lights the background/FX in the owner's
@@ -21,7 +21,7 @@ Approach (no API, deterministic, idempotent):
 Inputs:
     site/assets/portraits/wwe/<owner>_wwe.jpg
 
-Output pattern: OVERWRITE by default (idempotent; rerun safely). Wide 1200x400 banners:
+Output pattern: OVERWRITE by default (idempotent; rerun safely). Wide 1400x200 banners:
     site/assets/clash-banners/<a>-vs-<b>.png   (owners alphabetical, lowercase)
 
 No API key required — this is pure local image compositing.
@@ -45,8 +45,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))  # repo root (this script live
 WWE_DIR = os.path.join(ROOT, "site", "assets", "portraits", "wwe")
 OUT_DIR = os.path.join(ROOT, "site", "assets", "clash-banners")
 
-BANNER_W, BANNER_H = 1200, 400   # wide fight-poster banner
-HALF_W = 640                     # each fighter's image width (overlaps the seam)
+BANNER_W, BANNER_H = 1400, 200   # the EXACT banner-slot display size (7:1 cinematic strip)
+HALF_W = 740                     # each fighter's image width (overlaps the seam)
 SEAM_X = BANNER_W // 2           # central collision line
 OVERLAP = (2 * HALF_W) - BANNER_W  # = 80px feathered blend zone at the seam
 
@@ -78,7 +78,7 @@ def head_band(key):
     cfg = OWNERS[key]
     img = Image.open(portrait_path(key)).convert("RGB")
     w, h = img.size
-    aspect = HALF_W / BANNER_H                 # 1.6 : 1 band
+    aspect = HALF_W / BANNER_H                 # 3.7 : 1 band (wide 7:1 strip, two halves)
 
     # Widest band of the target aspect that fits, centred horizontally.
     bw = w
@@ -153,7 +153,7 @@ def build_banner(a, b):
     md = ImageDraw.Draw(mask)
     for x in range(OVERLAP):
         md.line([(x, 0), (x, BANNER_H)], fill=int(255 * (x / OVERLAP)))
-    canvas.paste(right_img, (BANNER_W - HALF_W, 0), mask)   # right fills x[560..1200]
+    canvas.paste(right_img, (BANNER_W - HALF_W, 0), mask)   # right fills x[660..1400]
 
     arr = np.asarray(canvas, dtype=np.float32)
 

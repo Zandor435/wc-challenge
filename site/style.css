@@ -105,23 +105,23 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 
 /* ---------------- HERO BANNER ----------------
    Fox-style fixed-height header below the nav, above the ticker. A random illustration
-   is set as a background-image (via app.js renderBanner) and clipped by the container
-   — background-size: cover + a fixed height means the image keeps its natural
-   proportions and the box just shows a slice, so faces never warp regardless of source
-   aspect. background-position biases toward the upper face zone. A bottom-up dark
-   gradient keeps the overlaid text legible over any banner. Collapses (removed) only if
-   it can't render at all. */
+   is set as a background-image (via app.js renderBanner). The image IS the container:
+   banners are produced at the EXACT display size (1400x200, a 7:1 cinematic letterbox) —
+   the generator face-crops each one to 7:1 so the faces are already framed — so the CSS
+   just stretches it to fill the box perfectly: background-size: 100% 100%, NO object-fit,
+   NO background-position, NO crop at the CSS layer (the box and the image share the 7:1
+   ratio, so the stretch is a no-op at full width and only a gentle scale on narrower /
+   mobile viewports). A bottom-up dark gradient keeps the overlaid text legible over any
+   banner. Collapses (removed) only if it can't render at all. */
 .hero-banner {
   position: relative;
   width: 100%; max-width: 1400px; margin: 0 auto;
-  height: 120px !important;
-  max-height: 120px !important;
-  background-size: cover;
-  background-position: center 15%;   /* bias toward the top, where the faces are */
+  height: 200px;
+  background-size: 100% 100%;        /* stretch the made-to-fit image exactly, no crop */
   background-repeat: no-repeat;
   background-color: #0c0e14;         /* fallback before/without an image */
   border-bottom: 1px solid var(--line);
-  overflow: hidden !important;
+  overflow: hidden;
   opacity: 0; transition: opacity .6s ease;
 }
 .hero-banner.loaded { opacity: 1; }
@@ -145,7 +145,7 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   text-shadow: 0 1px 4px rgba(0, 0, 0, .8);
 }
 @media (max-width: 640px) {
-  .hero-banner { height: 80px !important; max-height: 80px !important; }
+  .hero-banner { height: 140px; }   /* same image, scaled down to the mobile slot */
   .hero-banner-kicker { top: 7px; left: 12px; font-size: 9px; }
   .hero-banner-feature { bottom: 8px; font-size: 13px; }
 }

@@ -9,7 +9,7 @@ an owner-vs-owner clash, a coronation, whatever fired highest on the ladder. The
 into the SAME rotation pool as the static banners, so the collection grows through the
 tournament.
 
-One engine, not a fork: the Gemini call, the 4:1 post-crop, the owner persona/colour
+One engine, not a fork: the Gemini call, the 7:1 1400x200 normalisation, the persona/colour
 table and the five style lanes are all imported from generate_site_banners.py. This
 script only adds the trigger detection and the per-trigger scene prompts.
 
@@ -30,7 +30,7 @@ Trigger ladder (first match wins; at most 2 illustrations a day):
 Style: each day's illustrations rotate through the five lanes by matchday index, so the
 pool stays visually varied across the tournament.
 
-Output: site/assets/banners/dynamic/day_{N}_{trigger}.png   (1400x350, no baked-in text)
+Output: site/assets/banners/dynamic/day_{N}_{trigger}.png   (1400x200, no baked-in text)
 Output pattern: SKIP-IF-EXISTS by default (a day's result never changes; don't re-pay).
 Pass --force to regenerate.
 
@@ -61,7 +61,7 @@ STATIC_DIR = os.path.join(HERE, "site", "assets", "banners", "static")
 # One engine: reuse the static generator's Gemini plumbing, art direction and owner table.
 from generate_site_banners import (  # noqa: E402
     OWNERS, LANES, _BASE, _LIKENESS, _FACE_SAFE,
-    load_env_key, generate_one, to_banner_png, ref_path, MODEL,
+    load_env_key, generate_one, to_banner_png, ref_path, MODEL, wide_config,
 )
 
 # Lane rotation order for the day-by-day variety (keys into LANES).
@@ -422,7 +422,7 @@ def main():
             print(f"   [warn] {trig['slug']}: missing ref(s) {missing}", file=sys.stderr)
         print(f"[gen ] day_{n}_{trig['slug']}.png  [{lane}]  refs: {', '.join(trig['refs'])}")
         try:
-            data = generate_one(client, [build_prompt(trig, lane)] + refs)
+            data = generate_one(client, [build_prompt(trig, lane)] + refs, config=wide_config())
             if not data:
                 print(f"   {trig['slug']}: no image returned, skipping.", file=sys.stderr)
                 failed += 1

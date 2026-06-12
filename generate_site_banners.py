@@ -23,7 +23,7 @@ Each banner is pinned to one of five STYLE LANES (cinematic-realistic, fight-pos
 painted-editorial, stylized-composite, illustrated) baked into its prompt, so the pool
 has deliberate visual variety. No text is baked in — the frontend overlays any labels.
 
-Output: site/assets/banners/static/<file>.png   (1400x350, dark #0c0e14 aesthetic)
+Output: site/assets/banners/static/<file>.png   (1400x200, dark #0c0e14 aesthetic)
 Output pattern: SKIP-IF-EXISTS by default (a static banner never changes once made; we
 don't pay for it twice). Pass --force to regenerate, --only <id> for one, --list to plan.
 
@@ -48,11 +48,15 @@ WWE_DIR = os.path.join(ROOT, "site", "assets", "portraits", "wwe")
 REF_DIR = os.path.join(ROOT, "assets", "reference")
 OUT_DIR = os.path.join(ROOT, "site", "assets", "banners", "static")
 MODEL = "gemini-2.5-flash-image"
-BANNER_W, BANNER_H = 1400, 350  # wide 4:1 site banner
-# When the model returns a tall/portrait frame we crop to 4:1 by trimming top+bottom.
-# Faces sit HIGH in most of these compositions, so bias the crop window UPWARD (keep more
-# of the top) rather than dead-centre — a centred crop guillotined heads on the first pass.
-CROP_TOP_BIAS = 0.33  # 0.0 = keep the very top, 0.5 = centred (the old, head-chopping behaviour)
+BANNER_W, BANNER_H = 1400, 200  # the EXACT display size — a 7:1 cinematic letterbox
+# The image model cannot natively paint a 7:1 frame; its widest output is 21:9 (~2.3:1).
+# So we GENERATE at 21:9 (a wide head-and-shoulders composition) and FACE-AWARE crop a
+# 7:1 slice centred on the detected faces — never a blind centre/stretch that squashes or
+# guillotines heads. The prompt asks for breathing room above the heads so the slice keeps
+# every whole face. Face detection is optional (OpenCV); without it we fall back to a
+# top-biased crop so the nightly run never breaks.
+ASPECT = "21:9"                 # the model's widest native frame (≈2.33:1)
+FALLBACK_FACE_Y = 0.42          # crop centre (fraction of height) when no face is detected
 
 # --------------------------------------------------------------------------- art direction
 # Likeness clause — the whole point. These owners ARE specific people with specific WWE
@@ -67,21 +71,29 @@ _LIKENESS = (
     "reference shows face paint, reproduce that exact face paint. "
 )
 
-# Appended to banners whose faces sit high or fill the frame (the first-pass crop ate them).
-# Forces the model to compose with sacrificial headroom the 4:1 letterbox can safely crop.
+# Appended to banners that are mostly faces. The displayed banner is a 7:1 slice cut from
+# the CENTRE of this wide frame, so heads must have breathing room above them or the slice
+# clips their crowns. Keep faces large but centred, hair/hats fully inside, shoulders below.
 _FACE_SAFE = (
-    "CRITICAL FRAMING — this is a WIDE 4:1 strip and the top and bottom of the image WILL "
-    "be cropped away. Place every face in the EXACT VERTICAL CENTRE of the frame. Leave "
-    "generous EMPTY headroom above the heads and empty space below the chests as "
-    "sacrificial margin. NO head may touch or sit near the top edge — keep all faces well "
-    "inside the central horizontal band. "
+    "CRITICAL FRAMING — the website shows a thin 7:1 strip cut from the VERTICAL CENTRE of "
+    "this frame, so leave clear BREATHING ROOM of empty dark space ABOVE every head: do NOT "
+    "jam heads, hair, hats or mohawks against the top edge. Place all faces in the central "
+    "band, large and head-and-shoulders, every whole head (hair and all) plus the shoulders "
+    "sitting comfortably inside the middle of the frame so the centre slice keeps each face "
+    "WHOLE and uncut. "
 )
 
-# Shared baseline for EVERY banner: format, no-text rule, dark base. Style lane added per-banner.
+# Shared baseline for EVERY banner: format, no-text rule, dark base. Style lane added
+# per-banner. The model paints a WIDE 21:9 head-and-shoulders frame; the site displays the
+# central 7:1 slice of it, so everything important must live in the central horizontal band.
 _BASE = (
-    "WIDE PANORAMIC BANNER, 4:1 letterbox aspect ratio (1400x350), a long horizontal "
-    "strip. Compose for that wide frame: keep all faces and key subjects within the "
-    "central horizontal band so nothing important is lost if the edges are cropped. "
+    "WIDE CINEMATIC BANNER, an extremely wide horizontal composition. The website displays "
+    "an extremely WIDE 7:1 letterbox strip taken from the CENTRE of this frame, so compose "
+    "for that: HEAD-AND-SHOULDERS framing only — NO full bodies, NO wasted space — with "
+    "every face LARGE and in the CENTRAL horizontal band. Leave a little breathing room of "
+    "empty dark space above the heads (do NOT push heads against the very top edge) and keep "
+    "the shoulders toward the lower middle, so the centre slice contains every face WHOLE, "
+    "none cut off. Every face, flag and bit of drama belongs in that central band. "
     "Dark, moody aesthetic on a near-black (#0c0e14) base so it sits seamlessly on a "
     "dark website. ABSOLUTELY NO TEXT, NO LETTERING, NO WORDS, NO LOGOS, NO SCORELINES "
     "baked into the image — the website overlays all labels. "
@@ -117,16 +129,16 @@ LANES = {
     ),
 }
 
-# Appended to the 5-owner ENSEMBLE banners. The first pass stacked some owners in a back
-# row that the 4:1 crop then ate; this forces a single same-height row so all five faces
-# survive and read clearly.
+# Appended to the 5-owner ENSEMBLE banners. The 7:1 centre slice only reads if the five
+# faces are a single same-height row in the central band — no stacked back row, breathing
+# room above the heads so none lose their crown to the crop.
 _ENSEMBLE_ROW = (
     "ALL FIVE owners must be FULLY VISIBLE and clearly recognizable, arranged in a SINGLE "
     "HORIZONTAL ROW with every head on the SAME horizontal plane at the SAME height — NO "
     "front row and back row, nobody standing behind anyone, no face hidden, overlapped or "
     "cut off. Shoulders may overlap slightly for depth, but every face stays unobscured and "
-    "LARGE: the heads fill at least 60% of the banner height. Five equal-billing faces in a "
-    "clean line, left to right. "
+    "LARGE. Five equal-billing faces in a clean line, left to right, spanning the full width "
+    "of the wide strip, sitting in the central band with clear empty space above the heads. "
 )
 
 # Per-owner persona descriptors — help the model anchor each reference to the right look,
@@ -306,31 +318,80 @@ def build_prompt(spec):
     return "\n\n".join(parts)
 
 
+def _detect_face_band(img):
+    """Return (top_px, bot_px) of the band spanning every detected face (with a little
+    margin for hair + shoulders), or None if OpenCV is missing or no face is found.
+    Robust to the wide 21:9 ensemble shots: we union ALL face boxes so a five-owner row
+    is kept whole, not centred on one face."""
+    try:
+        import cv2
+        import numpy as np
+    except ImportError:
+        return None
+    try:
+        arr = np.asarray(img)
+        gray = cv2.cvtColor(arr, cv2.COLOR_RGB2GRAY)
+        cascade = cv2.CascadeClassifier(
+            cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+        faces = cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(40, 40))
+        if len(faces) == 0:
+            return None
+        fh = float(np.mean([h for (_x, _y, _w, h) in faces]))
+        top = min(y for (_x, y, _w, _h) in faces) - 0.55 * fh   # headroom: hair / hats / mohawks
+        bot = max(y + h for (_x, _y, _w, h) in faces) + 0.50 * fh  # shoulders
+        return top, bot
+    except Exception:  # noqa: BLE001 — any cv2 hiccup -> heuristic fallback
+        return None
+
+
 def to_banner_png(raw_bytes):
-    """Cover-crop the model output to 4:1 and resize to BANNER_W x BANNER_H; PNG bytes."""
+    """Normalise the wide model output to EXACTLY BANNER_W x BANNER_H (7:1).
+
+    The model paints a 21:9 head-and-shoulders frame; we take a 7:1 horizontal slice
+    centred on the FACES (via OpenCV face detection) so every head stays whole — no
+    squashing (the old stretch flattened faces) and no blind centre crop (that cut heads
+    at the eyes). If no face is found / OpenCV is absent, fall back to a top-biased crop
+    (faces sit high in these compositions). Returns PNG bytes."""
     from PIL import Image
     img = Image.open(io.BytesIO(raw_bytes)).convert("RGB")
     w, h = img.size
     target = BANNER_W / BANNER_H
-    if w / h > target:                      # too wide -> trim sides
-        new_w = int(h * target)
+
+    if w / h > target:                      # already wider than 7:1 -> trim sides, centred
+        new_w = int(round(h * target))
         left = (w - new_w) // 2
         img = img.crop((left, 0, left + new_w, h))
-    else:                                   # too tall -> trim top/bottom (bias UP so high faces survive)
-        new_h = int(w / target)
-        top = int(round((h - new_h) * CROP_TOP_BIAS))
+    else:                                   # too tall -> take a 7:1 band centred on the faces
+        new_h = min(h, int(round(w / target)))
+        band = _detect_face_band(img)
+        cy = (band[0] + band[1]) / 2 if band else h * FALLBACK_FACE_Y
+        top = int(round(cy - new_h / 2))
+        top = max(0, min(top, h - new_h))   # clamp inside the image
         img = img.crop((0, top, w, top + new_h))
+
     img = img.resize((BANNER_W, BANNER_H), Image.LANCZOS)
     out = io.BytesIO()
     img.save(out, format="PNG")
     return out.getvalue()
 
 
-def generate_one(client, contents):
-    """Call the model with one retry on an empty response. Return raw image bytes or None."""
+def wide_config():
+    """The GenerateContentConfig that forces the model's widest native frame (21:9), or
+    None if the SDK/types aren't importable (then the model returns its default ~1:1 and
+    to_banner_png still crops to 7:1 — just from a squarer source)."""
+    try:
+        from google.genai import types
+        return types.GenerateContentConfig(image_config=types.ImageConfig(aspect_ratio=ASPECT))
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def generate_one(client, contents, config=None):
+    """Call the model with one retry on an empty response. Return raw image bytes or None.
+    `config` (e.g. wide_config()) pins the output aspect ratio when supplied."""
     for attempt in (1, 2):
         try:
-            resp = client.models.generate_content(model=MODEL, contents=contents)
+            resp = client.models.generate_content(model=MODEL, contents=contents, config=config)
         except Exception as e:  # noqa: BLE001
             print(f"      API error (attempt {attempt}): {e}", file=sys.stderr)
             continue
@@ -408,7 +469,7 @@ def main():
         print(f"[gen ] {b['id']:26s} [{b['lane']:12s}] {len(refs)} ref(s): {', '.join(b['refs'])}")
         prompt = build_prompt(b)
         try:
-            data = generate_one(client, [prompt] + refs)
+            data = generate_one(client, [prompt] + refs, config=wide_config())
             if not data:
                 print(f"   {b['id']}: no image returned, skipping.", file=sys.stderr)
                 failed.append(b["id"])
