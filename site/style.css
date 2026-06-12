@@ -116,7 +116,7 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   width: 100%; max-width: 1400px; margin: 0 auto;
   height: 120px;
   background-size: cover;
-  background-position: center 20%;   /* bias toward faces */
+  background-position: center 15%;   /* bias toward the top, where the faces are */
   background-repeat: no-repeat;
   background-color: #0c0e14;         /* fallback before/without an image */
   border-bottom: 1px solid var(--line);
