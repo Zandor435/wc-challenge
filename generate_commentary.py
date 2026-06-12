@@ -85,6 +85,8 @@ CURRENT STANDINGS:
 ROSTERS (each manager drafted 6 national teams across 4 tiers):
 {rosters}
 
+{finished_block}
+
 {matchup_block}
 
 {task}
@@ -92,6 +94,9 @@ ROSTERS (each manager drafted 6 national teams across 4 tiers):
 TONE RULES:
 - 80% roast, 20% real context. One sentence of actual team form/context as setup, then the knife.
 - State every prediction with absurd, unearned confidence.
+- NEVER report a result for a match that has not been played. The head-to-head matchups above are \
+UPCOMING — predict them, do not narrate them as finished. Only the FINISHED RESULTS block carries real \
+scores; never invent any others.
 - Trash-talk managers by their WWE ring names; use real first names when citing stats or standings.
 - Stay fully in character as {pundit_name} ({personality}).
 - Write ONE flowing take. Lead with your single hardest-hitting sentence (it becomes the bolded headline). \
@@ -222,6 +227,13 @@ PUNDIT_TAKES_SYSTEM = (
     "Always blame the MANAGER, never the players or bad luck. Use real first names or ring names. "
     "Each pundit keeps their attitude (Wynalda arrogant, Donovan backhanded, Dempsey laid-back, Lalas "
     "bombastic) but the FORMAT is uniform deadpan news — no first-person rants, just the headline.\n\n"
+    "CRITICAL — NEVER FABRICATE RESULTS:\n"
+    "- For FINISHED matches (listed under YESTERDAY'S RESULTS): write declarative headlines using the "
+    "REAL scores provided. Do not invent any other finished match.\n"
+    "- For UPCOMING matches (listed under TODAY'S UPCOMING): write PREDICTIONS as bold forecasts. Use "
+    "future tense — \"will\", \"set to\", \"poised to\". NEVER past tense. NEVER invent a score.\n"
+    "- If a team has NOT played yet, do NOT say they won or lost. You can reference their draft "
+    "position, tier, or owner's standing — but NOT a match result that doesn't exist.\n\n"
     "Return ONLY a JSON object of this exact shape (no prose, no code fence):\n"
     '{"pundit_takes": [{"pundit": "wynalda", "headline": "...", "subtitle": "...", '
     '"match": "Team A vs Team B"}, {"pundit": "donovan", ...}, {"pundit": "dempsey", ...}, '
@@ -241,7 +253,9 @@ CURRENT STANDINGS:
 ROSTERS (each manager drafted 6 national teams across 4 tiers):
 {rosters}
 
-{matchup_block}
+{finished_block}
+
+{upcoming_block}
 
 Write exactly FOUR takes — one each from wynalda, donovan, dempsey, lalas, IN THAT ORDER. Each is a \
 deadpan Babylon Bee-style news headline (declarative, no exclamation marks, 8-12 words, reads like real \
@@ -587,15 +601,80 @@ def format_h2h(h2h):
     return "\n".join(lines)
 
 
-def generate_pundit(args, api_key, standings, pundit, h2h, today, rotation):
+def format_finished_results(daily):
+    """The latest scored day's matches as 'Team A X-Y Team B [owners]' lines.
+
+    Returns (date, block) or None pre-tournament. These are the ONLY real scores
+    the pundits ever see — the source of truth that stops them inventing outcomes."""
+    day = latest_day(daily)
+    if not day or not day.get("matches"):
+        return None
+    lines = []
+    for m in day["matches"]:
+        score = m.get("score") or (
+            f'{m.get("home")} {m.get("home_score")}-{m.get("away_score")} {m.get("away")}')
+        pts = m.get("points") or {}
+        tag = ", ".join(f"{o} {p:+g}" for o, p in pts.items())
+        lines.append(f"- {score}" + (f"  [{tag} pts]" if tag else ""))
+    return day["date"], "\n".join(lines)
+
+
+def todays_fixtures(rows, today):
+    """All matches scheduled on 'today' — owner-vs-owner or not (unplayed)."""
+    return [r for r in rows if r.get("date") == today]
+
+
+def format_fixtures(fixtures):
+    """One line per upcoming match, with owner/persona where a side is drafted."""
+    def side(team, owner):
+        if owner:
+            return f'{team} ({owner} / "{WWE_NAMES.get(owner, owner)}")'
+        return f"{team} (undrafted)"
+    lines = []
+    for r in fixtures:
+        loc = " · ".join(x for x in [
+            r.get("group") and f"Group {r['group']}", r.get("venue"), r.get("time_et")] if x)
+        lines.append(f'- {side(r["team1"], r.get("team1_owner"))} '
+                     f'vs {side(r["team2"], r.get("team2_owner"))}'
+                     + (f"  [{loc}]" if loc else ""))
+    return "\n".join(lines)
+
+
+def context_blocks(daily, rows, today):
+    """The finished-results + upcoming-fixtures blocks shared by both pundit prompts.
+
+    Labels explicitly what has been PLAYED (real scores) vs what is UPCOMING (predict
+    only) so the model never reports an outcome for a match that hasn't happened."""
+    finished = format_finished_results(daily)
+    if finished:
+        fdate, fblock = finished
+        finished_block = (f"YESTERDAY'S RESULTS (FINISHED — {fdate}, real scores; use these, "
+                          f"do NOT invent any others):\n{fblock}")
+    else:
+        finished_block = ("YESTERDAY'S RESULTS (FINISHED): none yet — the tournament hasn't "
+                          "kicked off. Do NOT report any match outcomes.")
+
+    fixtures = todays_fixtures(rows, today)
+    if fixtures:
+        upcoming_block = (f"TODAY'S UPCOMING MATCHES (NOT PLAYED — {today}; do NOT report "
+                          f"outcomes or scores, predictions only):\n{format_fixtures(fixtures)}")
+    else:
+        upcoming_block = (f"TODAY'S UPCOMING MATCHES ({today}): none scheduled — lean on the "
+                          "standings, rosters, and each manager's draft logic instead.")
+    return finished_block, upcoming_block
+
+
+def generate_pundit(args, api_key, standings, pundit, h2h, today, rotation, daily, rows):
     """One take from the day's rotating voice -> pundit dict for commentary.json."""
     base = {"name": pundit["name"], "tone": pundit["tone"], "color": pundit["color"]}
     if args.placeholder:
         return {**base, "take": PLACEHOLDER_TAKE}
 
+    finished_block, _ = context_blocks(daily, rows, today)
+
     if h2h:
-        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS (two managers' drafted teams "
-                         "facing each other):\n" + format_h2h(h2h))
+        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS (UPCOMING — not played; predict, "
+                         "do not report outcomes):\n" + format_h2h(h2h))
         task = TASK_H2H
     else:
         matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS: none — no two managers' teams "
@@ -609,6 +688,7 @@ def generate_pundit(args, api_key, standings, pundit, h2h, today, rotation):
         personality=pundit["tone"],
         standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
         rosters=ROSTERS,
+        finished_block=finished_block,
         matchup_block=matchup_block,
         task=task,
     )
@@ -670,26 +750,26 @@ def _parse_pundit_takes(raw, today):
     return out or None
 
 
-def generate_pundit_takes(args, api_key, standings, h2h, today):
+def generate_pundit_takes(args, api_key, standings, today, daily, rows):
     """Four Babylon Bee-style deadpan takes (one per pundit) -> pundit_takes array.
 
     ONE API call returns all four; on any failure or unparseable reply we fall back
-    to the deadpan placeholders so the home-page strip always has something to show."""
+    to the deadpan placeholders so the home-page strip always has something to show.
+
+    Fed FINISHED results (real scores) and UPCOMING fixtures as separate, clearly
+    labeled blocks so the model writes results for played matches and predictions
+    for unplayed ones — never inventing an outcome that hasn't happened."""
     if args.placeholder:
         return _placeholder_takes(today)
 
-    if h2h:
-        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS (two managers' drafted teams "
-                         "facing each other):\n" + format_h2h(h2h))
-    else:
-        matchup_block = ("TODAY'S HEAD-TO-HEAD MATCHUPS: none — lean on the standings, "
-                         "rosters, and each manager's draft logic instead.")
+    finished_block, upcoming_block = context_blocks(daily, rows, today)
 
     user = PUNDIT_TAKES_USER_TEMPLATE.format(
         date=today or "(date unknown)",
         standings=json.dumps(standings, indent=2) if standings else "(no standings yet)",
         rosters=ROSTERS,
-        matchup_block=matchup_block,
+        finished_block=finished_block,
+        upcoming_block=upcoming_block,
     )
     try:
         raw = call_openai(api_key, args.model, PUNDIT_TAKES_SYSTEM, user,
@@ -848,10 +928,11 @@ def main():
         h2h = todays_h2h(rows, today)
         print(f"  Today: {today or '(unknown)'} · voice: {pundit['name']} · "
               f"{len(h2h)} head-to-head matchup(s)")
-        pundit_out = generate_pundit(args, api_key, standings, pundit, h2h, today, rotation)
+        pundit_out = generate_pundit(args, api_key, standings, pundit, h2h, today,
+                                     rotation, daily, rows)
         # Four Babylon Bee-style deadpan takes (one per pundit) for the home-page
         # "Pundit Takes / The Wire" strip, rendered by renderPunditTakes().
-        pundit_takes = generate_pundit_takes(args, api_key, standings, h2h, today)
+        pundit_takes = generate_pundit_takes(args, api_key, standings, today, daily, rows)
         # Four one-liner analytics roasts for the analytics page's Rome callouts,
         # fed the same (now richer) narrative state as the rolling column.
         analytics_quotes = generate_analytics_quotes(args, api_key, standings, narrative)
