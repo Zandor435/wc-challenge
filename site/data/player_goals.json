@@ -1,5 +1,46 @@
 {
-  "source": "api-football league 1 season 2026",
+  "source": "worldcup26.ir live games",
   "note": "Goals by players on drafted teams only. Penalties counted in the total.",
-  "leaders": []
+  "leaders": [
+    {
+      "player": "H.G. Oh",
+      "team": "Korea Republic",
+      "owner": "Gayden",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 1
+    },
+    {
+      "player": "I.B. Hwang",
+      "team": "Korea Republic",
+      "owner": "Gayden",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 2
+    },
+    {
+      "player": "J. Quiñones",
+      "team": "Mexico",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 3
+    },
+    {
+      "player": "L. Krejčí",
+      "team": "Czechia",
+      "owner": "Zach",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 4
+    },
+    {
+      "player": "R. Jiménez",
+      "team": "Mexico",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 5
+    }
+  ]
 }

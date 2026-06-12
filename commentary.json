@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-12T18:01:48Z",
-  "source": "preseason",
-  "date": "2026-06-11",
-  "rotation": 0,
+  "generated": "2026-06-12T18:06:54Z",
+  "source": "daily_results_2026-06-11",
+  "date": "2026-06-12",
+  "rotation": 1,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "Mustard Boy and The Backpass Assassin both look like they drafted their teams based on a FIFA video game than any actual understanding of the sport. **You'd think Mustard Boy Zach was choosing condiments over countries with his choice of Czechia—what's their plan, drown Korea Republic in borscht?** Korea Republic, on the other hand, is Paper Tiger FC, a team that always promises but rarely delivers on the big stage. It's a joke that Zach thinks Czechia will bail him out when Brazil flops; they're practically allergic to goal scoring. But hey, even blind squirrels find nuts sometimes. With his roster, Gayden's network of underwhelming nations would barely compete in a rec league, but the Korea Republic will edge this out just because Zach's teams couldn't score in an empty net. Expect a 1-0 victory for Korea Republic, and that's not even saying much."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "**I feel for Devin, I really do, but when you draft Haiti in the fourth round, I mean... what conversation were you having with yourself?** Look, I get why people say \"Ghost Pepper\" had a plan, but it's not like Bosnia is going to scare a team like Canada, particularly when playing in Toronto. \"Bubba G\" might be in fourth place right now, but picking Canada as a Tier 3 team actually made some sense. Meanwhile, Devin's in third and hasn't got any points on the board, bless his heart. Now, I think it's safe to say that Gunner will take this one comfortably, given that Devin's line-up looks more like a dartboard guess than a strategic draft. My prediction? Canada's going to make Bosnia look like they're playing an entirely different sport."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Strategic Genius: Czechia Prepares for Brazil Showdown",
-      "subtitle": "Zach eyes top spot with bold move of ignoring Korea.",
-      "match": "Korea Republic vs Czechia",
-      "date": "2026-06-11"
+      "headline": "Bubba G's Canada Ties Ghost Pepper's Bosnia, Still Scores Zero",
+      "subtitle": "Gunner wonders if all matches have penalties for scoring.",
+      "match": "Canada vs Bosnia",
+      "date": "2026-06-12"
     },
     {
       "pundit": "donovan",
-      "headline": "Backpass Assassin Enjoys Tactical Masterclass With Korea's Match Against Czechia",
-      "subtitle": "Gayden's choice to focus on team spirit shows questionable wisdom.",
-      "match": "Korea Republic vs Czechia",
-      "date": "2026-06-11"
+      "headline": "The Backpass Assassin Tops Standings Despite Drafting Jordan",
+      "subtitle": "Gayden claims strategic advantage in losing more efficiently.",
+      "match": "Group B Overview",
+      "date": "2026-06-12"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's Preseason Success Unaffected by Zero-Point Standing",
-      "subtitle": "Devin's teams remain undefeated with innovative strategy to avoid play.",
-      "match": "Group A Preview",
-      "date": "2026-06-11"
+      "headline": "Ghost Pepper's Spain Selection Yet To Spice Up Victory Column",
+      "subtitle": "Devin reconsiders chili contest as training for managing.",
+      "match": "Group B Overview",
+      "date": "2026-06-12"
     },
     {
       "pundit": "lalas",
-      "headline": "The Noisemaker's Bold Draft: Three Non-Qualifiers Set to Dominate",
-      "subtitle": "Rafe remains confident as Germany leads his tactical masterstroke.",
-      "match": "Group A Preview",
-      "date": "2026-06-11"
+      "headline": "Mustard Boy's Brazil Pick Fizzles In Fantasy Flop",
+      "subtitle": "Zach blames condiment-inspired team spirit for zero points.",
+      "match": "Group B Overview",
+      "date": "2026-06-12"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's 16% win chance makes chaos a family business. Watch out, Gayden.",
-    "Rafe's drafting horror show: Three non-qualifiers, six more prayers.",
-    "Gayden's worst enemy is his offspring. Thanksgiving dinner will never be the same.",
-    "Even the sim's scared of Rafe: 16% win chance without knowing soccer!"
+    "Gunner, the favorite, already feeling heat from teenage chaos agent Rafe.",
+    "Rafe's draft blunders could fill a blooper reel, but he still ranks second.",
+    "Rafe took Devin to school with Mexico trouncing South Africa 2-0.",
+    "Sim underestimated Rafe's rookie upset; even chaos agents reject the script."
   ]
 }

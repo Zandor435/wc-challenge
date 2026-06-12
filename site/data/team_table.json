@@ -1,35 +1,275 @@
 {
   "rules_version": "rebalanced_v3",
   "teams": [
-    { "team": "Spain", "owner": "Devin", "tier": 1, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "USA", "owner": "Devin", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Norway", "owner": "Devin", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "South Africa", "owner": "Devin", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Bosnia", "owner": "Devin", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Haiti", "owner": "Devin", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "England", "owner": "Gayden", "tier": 1, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Japan", "owner": "Gayden", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Ivory Coast", "owner": "Gayden", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Korea Republic", "owner": "Gayden", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Turkey", "owner": "Gayden", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Jordan", "owner": "Gayden", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "France", "owner": "Gunner", "tier": 1, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Morocco", "owner": "Gunner", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Senegal", "owner": "Gunner", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Egypt", "owner": "Gunner", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Canada", "owner": "Gunner", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "DR Congo", "owner": "Gunner", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Brazil", "owner": "Zach", "tier": 1, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Switzerland", "owner": "Zach", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Austria", "owner": "Zach", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Ghana", "owner": "Zach", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Czechia", "owner": "Zach", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Saudi Arabia", "owner": "Zach", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Germany", "owner": "Rafe", "tier": 1, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Ecuador", "owner": "Rafe", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Mexico", "owner": "Rafe", "tier": 2, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Tunisia", "owner": "Rafe", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Scotland", "owner": "Rafe", "tier": 3, "W": 0, "D": 0, "L": 0, "points": 0 },
-    { "team": "Uzbekistan", "owner": "Rafe", "tier": 4, "W": 0, "D": 0, "L": 0, "points": 0 }
+    {
+      "team": "Spain",
+      "owner": "Devin",
+      "tier": 1,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "USA",
+      "owner": "Devin",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Norway",
+      "owner": "Devin",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "South Africa",
+      "owner": "Devin",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 1,
+      "points": 0.0
+    },
+    {
+      "team": "Bosnia",
+      "owner": "Devin",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Haiti",
+      "owner": "Devin",
+      "tier": 4,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "England",
+      "owner": "Gayden",
+      "tier": 1,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Japan",
+      "owner": "Gayden",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Ivory Coast",
+      "owner": "Gayden",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Korea Republic",
+      "owner": "Gayden",
+      "tier": 3,
+      "W": 1,
+      "D": 0,
+      "L": 0,
+      "points": 3.0
+    },
+    {
+      "team": "Turkey",
+      "owner": "Gayden",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Jordan",
+      "owner": "Gayden",
+      "tier": 4,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "France",
+      "owner": "Gunner",
+      "tier": 1,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Senegal",
+      "owner": "Gunner",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Morocco",
+      "owner": "Gunner",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Egypt",
+      "owner": "Gunner",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Canada",
+      "owner": "Gunner",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "DR Congo",
+      "owner": "Gunner",
+      "tier": 4,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Germany",
+      "owner": "Rafe",
+      "tier": 1,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Mexico",
+      "owner": "Rafe",
+      "tier": 2,
+      "W": 1,
+      "D": 0,
+      "L": 0,
+      "points": 3.0
+    },
+    {
+      "team": "Ecuador",
+      "owner": "Rafe",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Tunisia",
+      "owner": "Rafe",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Scotland",
+      "owner": "Rafe",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Uzbekistan",
+      "owner": "Rafe",
+      "tier": 4,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Brazil",
+      "owner": "Zach",
+      "tier": 1,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Switzerland",
+      "owner": "Zach",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Austria",
+      "owner": "Zach",
+      "tier": 2,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Ghana",
+      "owner": "Zach",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    },
+    {
+      "team": "Czechia",
+      "owner": "Zach",
+      "tier": 3,
+      "W": 0,
+      "D": 0,
+      "L": 1,
+      "points": 0.0
+    },
+    {
+      "team": "Saudi Arabia",
+      "owner": "Zach",
+      "tier": 4,
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "points": 0
+    }
   ]
 }
