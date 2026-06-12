@@ -63,12 +63,27 @@
           {% if p.rome.short %}
           <tr>
             <td style="padding:14px 28px 0 28px;">
-              <div style="font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:700; letter-spacing:2px; color:#e2231a; text-transform:uppercase; margin-bottom:8px;">
-                Jim Rome &middot; The Open
-              </div>
-              <div style="font-family:Georgia,'Times New Roman',serif; font-size:17px; line-height:1.65; color:#d7dbe2;">
-                {{ p.rome.short }}
-              </div>
+              <!-- Rome byline: circular avatar + "The Open" eyebrow + the hook. Same
+                   circular treatment as the featured-pundit card avatar (56px, 2px ring).
+                   onerror hides a failed image so the text cell keeps the layout intact. -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td width="72" valign="top" style="padding:2px 16px 0 0;">
+                    <img src="https://zandor435.github.io/wc-challenge/assets/portraits/pundits/rome/rome.png"
+                         width="56" height="56" alt="Jim Rome"
+                         onerror="this.style.display='none';"
+                         style="display:block; width:56px; height:56px; border-radius:28px; border:2px solid #e2231a;" />
+                  </td>
+                  <td valign="top">
+                    <div style="font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:700; letter-spacing:2px; color:#e2231a; text-transform:uppercase; margin-bottom:8px;">
+                      Jim Rome &middot; The Open
+                    </div>
+                    <div style="font-family:Georgia,'Times New Roman',serif; font-size:17px; line-height:1.65; color:#d7dbe2;">
+                      {{ p.rome.short }}
+                    </div>
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
           {% endif %}
