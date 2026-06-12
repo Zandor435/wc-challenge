@@ -1,11 +1,11 @@
-Clones, welcome back to the World Cup jungle, where the preseason posturing is at an all-time high. Matches have yet to be played, but the drama is already unfolding in the owner ranks.
+Clones, the World Cup stage may still be setting up, but the owner drama is already simmering hotter than a midfield tackle from Vinnie Jones.
 
-Devin ("Ghost Pepper") is sitting pretty at the top of the standings without a single point on the board. The model's in love with his Spain pick, but he's praying Haiti somehow becomes the Cinderella story of the century. Risky strategy, but that's why he's number one — for now.
+Devin "Ghost Pepper" leapfrogs to numero uno. No games played, yet the algorithm adores Spain and that spicy New World USA flair. Can his low-key gamble on Haiti as a Cinderella story pay off? Not a chance, but gotta respect the audacity.
 
-Gayden, our very own "Backpass Assassin," moves up in the ranks, but he's got more to worry about than the Three Lions crushing his dreams. Enter Rafe, his teenage progeny, who's turning this league into a real-world Shakespearean play. Gayden's got the World Cup equivalent of Thanksgiving dinner drama — keeping Rafe at bay will be his fiercest rivalry yet.
+The Backpass Assassin, aka Gayden, is tightening the screws on the second spot, hell-bent on showing who's boss in this familial face-off. England's as reliable as afternoon tea, but Gayden's antics are overshadowed by the lurking family feud — enter Rafe, The Noisemaker, dead last but not done. The kid's German ace is no joke, adding layers to this Shakespearean saga. Gayden's at risk of becoming a footnote in his own legacy. Thanksgiving arguments are gonna be lit.
 
-Gunner ("Bubba G"), once the favorite, has slipped to third. France is supposed to be his ace in the hole, but the uncertainty of his supporting cast is glaring. Morocco and Canada are intriguing yet volatile — not exactly a recipe for Gunner’s world domination dreams.
+Gunner takes a nosedive to third—fueled by the worry that France might be the weakest 'favorite' pick since the Titanic was called unsinkable. Morocco and Canada are his ticking time bombs. The favorite slipping to third this early? Yo, Gunner, better have a plan B before Rafe starts gunning for you.
 
-Zach remains the wildcard, holding steady in fourth. Brazil is his golden ticket, but without them playing, his rank remains speculative. He's riding the Brazil train as if Ronaldinho himself were leading it. We’ll see how long that gamble lasts.
+Zach holds onto fourth, Brazil still the crown jewel in his hypothetical heist. Zero matches played means zero judgment—yet. But hey, if Brazil perform like their glorious past suggests, Zach might soon bulldoze his way up. Big "if," though.
 
-And Rafe, oh Rafe. Dead last in the standings, but don’t let the rank fool you. His drafting chaos is oddly charming, and that Germany pick keeps him in the conversation. Take note, Gayden — "The Noisemaker" has arrived, and he's playing a different game altogether.
+Rafe, our 15-year-old chaos engine, closes out the ranks. Three teams that never made the tournament almost derailed him before the train left the station. Yet Germany's presence keeps his shot alive. His mere existence in this league sends Gayden's blood pressure soaring and throws Gunner's plans out the window. Kid's not even supposed to be in this league, but man, is he shaking things up.
