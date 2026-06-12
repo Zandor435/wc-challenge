@@ -118,6 +118,7 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   width: 100%; max-width: 1400px; margin: 0 auto;
   height: 200px;
   background-size: cover;            /* 7:1 image in a 7:1 box: negligible side-trim, no stretch */
+  background-position: center;       /* centre the side-trim (mobile/narrow): keep the middle faces, not the left edge */
   background-repeat: no-repeat;
   background-color: #0c0e14;         /* fallback before/without an image */
   border-bottom: 1px solid var(--line);
