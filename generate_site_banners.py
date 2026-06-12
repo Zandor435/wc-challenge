@@ -117,6 +117,18 @@ LANES = {
     ),
 }
 
+# Appended to the 5-owner ENSEMBLE banners. The first pass stacked some owners in a back
+# row that the 4:1 crop then ate; this forces a single same-height row so all five faces
+# survive and read clearly.
+_ENSEMBLE_ROW = (
+    "ALL FIVE owners must be FULLY VISIBLE and clearly recognizable, arranged in a SINGLE "
+    "HORIZONTAL ROW with every head on the SAME horizontal plane at the SAME height — NO "
+    "front row and back row, nobody standing behind anyone, no face hidden, overlapped or "
+    "cut off. Shoulders may overlap slightly for depth, but every face stays unobscured and "
+    "LARGE: the heads fill at least 60% of the banner height. Five equal-billing faces in a "
+    "clean line, left to right. "
+)
+
 # Per-owner persona descriptors — help the model anchor each reference to the right look,
 # and the team colour the brief assigns each owner.
 OWNERS = {
@@ -155,17 +167,16 @@ def _lineup_scene(keys):
     return ("All five pool owners standing shoulder to shoulder in a row, arms crossed, "
             "staring dead at the camera — a team-photo power shot. Each man lit from his "
             "side in his own team colour so the row reads as a band of five coloured "
-            "spotlights (Zach gold, Gunner blue, Gayden green, Devin orange, Rafe purple). "
-            "Equal billing, all five faces clearly visible across the wide strip.\n"
-            + _owner_roster(keys))
+            "spotlights (Zach gold, Gunner blue, Gayden green, Devin orange, Rafe purple).\n"
+            + _ENSEMBLE_ROW + "\n" + _owner_roster(keys))
 
 
 ALL5 = ["zach", "gunner", "gayden", "devin", "rafe"]
 
 BANNERS = [
-    {"id": "b_lineup_realistic", "lane": "cinematic", "refs": ALL5,
+    {"id": "b_lineup_realistic", "lane": "cinematic", "refs": ALL5, "face_safe": True,
      "scene": _lineup_scene(ALL5)},
-    {"id": "b2_lineup_illustrated", "lane": "illustrated", "refs": ALL5,
+    {"id": "b2_lineup_illustrated", "lane": "illustrated", "refs": ALL5, "face_safe": True,
      "scene": _lineup_scene(ALL5) + "\nRender it with bold exaggerated comic energy."},
     {"id": "c_trophy_painted", "lane": "painted", "refs": ALL5,
      "scene": ("All five pool owners reaching in from different angles toward a single "
@@ -173,16 +184,18 @@ BANNERS = [
                "converging, but the composition makes clear only ONE hand will actually "
                "lift it. Tension, desire, destiny. Faces ringed around the glowing "
                "trophy.\n" + _owner_roster(ALL5))},
-    {"id": "c2_trophy_composite", "lane": "composite", "refs": ALL5,
-     "scene": ("The five owners' real portraits cut out and arranged in an arc around a "
-               "glowing golden World Cup trophy at centre, national-flag textures blended "
-               "into the dark background behind them, broadcast glows and graphic energy.\n"
-               + _owner_roster(ALL5))},
-    {"id": "d_collage", "lane": "composite", "refs": ALL5,
-     "scene": ("A dynamic power-rankings collage: the five owners' faces overlapping at "
-               "different scales across the wide strip, team flags woven through the dark "
-               "background, sports-media 'who's on top' energy. Layered, textured, "
-               "dramatic colour grade.\n" + _owner_roster(ALL5))},
+    {"id": "c2_trophy_composite", "lane": "composite", "refs": ALL5, "face_safe": True,
+     "scene": ("The five owners' real portraits cut out and arranged in a SINGLE ROW across "
+               "the wide strip, a glowing golden World Cup trophy rising small at the centre "
+               "BEHIND and between them (never covering a face), national-flag textures "
+               "blended into the dark background, broadcast glows and graphic energy.\n"
+               + _ENSEMBLE_ROW + "\n" + _owner_roster(ALL5))},
+    {"id": "d_collage", "lane": "composite", "refs": ALL5, "face_safe": True,
+     "scene": ("A power-rankings hero graphic: the five owners' faces side by side in one "
+               "clean row across the wide strip, team flags woven through the dark "
+               "background behind them, sports-media 'who's on top' energy, layered "
+               "textures and a dramatic colour grade.\n"
+               + _ENSEMBLE_ROW + "\n" + _owner_roster(ALL5))},
     {"id": "e_father_son_realistic", "lane": "fight_poster", "refs": ["gayden", "rafe"],
      "scene": ("Gayden and Rafe NOSE TO NOSE in an intense face-to-face staredown filling "
                "the frame. Hard split lighting: green (#28c060) raking across Gayden on "
