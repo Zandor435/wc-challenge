@@ -1,13 +1,11 @@
-Clones, strap in—this is like watching NASCAR with the cars revving but not yet racing. Preseason standings are set, and the main event is about to enter turn one.
+Clones, the engines are rumbling, but we're still in the pit lane. The standings took a slight shuffle with Devin's "Ghost Pepper" squad inching its way to the front — like a cautious chef tasting his own spicy creation. Spain and the USA are his sous-chefs, not to mention Haiti, an underdog more than ready to bite.
 
-Devin's "Ghost Pepper" squad spices up the top with Spain and the USA making him look like a zen master. It's risky business gambling on Haiti as Cinderellas, but hey, the algorithm loves drama more than an Argentine telenovela.
+The Backpass Assassin, Gayden, finds himself in silver position, trailing close behind. England is his stalwart, but the real plotline is his kitchen-table rivalry with young Rafe, who's become the league's loose cannon. Rafe sits in last place, but don’t be fooled. Germany, Mexico, and Ecuador make the kid a live wire ready to spark. Picture this: a 15-year-old with the audacity of a World Cup novice, threatening to cut his own dad’s standings down to size.
 
-The Backpass Assassin, Gayden, slithers into second. England can be counted on like fish and chips before a rainstorm, but let's not forget—he's fighting off a mutiny from his own son. Rafe, The Noisemaker, is lurking at dead-last, but make no mistake, the kid's a landmine with Germany in his arsenal. One small slip from Gayden, and Thanksgiving becomes a hostile takeover.
+Gunner, once the golden boy, now stares at bronze. France and Senegal are capable hands, but the Rafe ripple effect is shaking his sturdy foundation. DR Congo won’t save him if chaos erupts.
 
-Gunner, the previous golden boy, falters to third. France feels like a ticking time bomb at best. DR Congo won't be lighting up any stat sheets. Rafe in the mix scrambled the once-firm footing—bring on the chaos!
+Zach is riding the samba wave with Brazil, but his supporting cast feels more like a quiet yodel in the Alps. He's got ambitions to samba his way to the top, yet one misstep, and he’s in the valley yodeling help.
 
-Zach holds steady at fourth, his fate in the samba rhythm of Brazil. The rest of his lineup is either bland or forgotten at best. Switzerland's clockspace precision won't save a lackluster start. If Brazil fires as expected, he might disrupt the leaderboard like a samba through a quiet Swiss village.
+And Rafe, dear Rafe. A draft disaster turned into a fiesta of unpredictability. His chaotic strategy is a ticking time bomb in Gayden's basement—just the kind of entertainment this league craves.
 
-And Rafe—our young disruptor. The kid's teams look like a bad joke at a soccer convention, but with Germany at the helm, he's essentially a chaotic wildcard. That alone keeps any owner with sense wary. Kid might be dead last, but his shadow looms large, especially over dear old Dad's dinner table.
-
-Get ready, this season's more loaded than a Messi free-kick.
+Stay tuned, clones. This ride's just gaining speed and will be unpredictable as a Maradona in full flight.
