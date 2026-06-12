@@ -103,23 +103,51 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 }
 .icon-btn[aria-label="Menu"] { display: none; }
 
-/* ---------------- ROTATING BANNER ----------------
-   Full-width decoration strip below the nav, above the ticker. Caps at the banner's
-   native 1400px so it never upscales past source resolution; 4:1 letterbox, the image
-   covers it. Collapses to nothing when empty (no manifest / failed load). */
+/* ---------------- HERO BANNER ----------------
+   Fox-style fixed-height header below the nav, above the ticker. A random illustration
+   is set as a background-image (via app.js renderBanner) and clipped by the container
+   — background-size: cover + a fixed height means the image keeps its natural
+   proportions and the box just shows a slice, so faces never warp regardless of source
+   aspect. background-position biases toward the upper face zone. A bottom-up dark
+   gradient keeps the overlaid text legible over any banner. Collapses (removed) only if
+   it can't render at all. */
 .hero-banner {
+  position: relative;
   width: 100%; max-width: 1400px; margin: 0 auto;
-  background: #0c0e14;
+  height: 120px;
+  background-size: cover;
+  background-position: center 20%;   /* bias toward faces */
+  background-repeat: no-repeat;
+  background-color: #0c0e14;         /* fallback before/without an image */
   border-bottom: 1px solid var(--line);
-  line-height: 0;            /* kill descender gap under the inline-replaced img */
-}
-.hero-banner:empty { display: none; border: 0; }
-.hero-banner-img {
-  display: block; width: 100%; aspect-ratio: 1400 / 350;
-  object-fit: cover; background: #0c0e14;
+  overflow: hidden;
   opacity: 0; transition: opacity .6s ease;
 }
-.hero-banner-img.loaded { opacity: 1; }
+.hero-banner.loaded { opacity: 1; }
+.hero-banner:empty { display: none; border: 0; }
+/* Subtle dark gradient at the bottom so white text always reads clean. */
+.hero-banner::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(transparent 40%, rgba(0, 0, 0, 0.6));
+}
+.hero-banner-kicker {
+  position: absolute; top: 10px; left: 16px; z-index: 1;
+  font-size: 11px; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .7);
+}
+.hero-banner-feature {
+  position: absolute; left: 0; right: 0; bottom: 12px; z-index: 1;
+  text-align: center; padding: 0 14px;
+  font-size: 19px; font-weight: 800; letter-spacing: .04em;
+  text-transform: uppercase; color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+}
+@media (max-width: 640px) {
+  .hero-banner { height: 80px; }
+  .hero-banner-kicker { top: 7px; left: 12px; font-size: 9px; }
+  .hero-banner-feature { bottom: 8px; font-size: 13px; }
+}
 
 /* ---------------- SCORES TICKER ---------------- */
 .ticker {

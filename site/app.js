@@ -872,30 +872,66 @@ function renderResults(daily) {
 }
 
 /* ---------- BOOT ---------- */
-/* ---------- ROTATING BANNER (decoration; static + dynamic pool) ----------
-   Reads site/data/banner_manifest.json — a flat array of image paths the nightly
-   pipeline regenerates (static furniture + the match-day editorial illustrations) —
-   and drops ONE random banner above the ticker. Pure decoration: no text overlay, no
-   controls, a fresh pick each visit, and the pool grows on its own as dynamic banners
-   are deployed. A missing/empty manifest or a bad image path collapses the strip. */
+/* ---------- HERO BANNER (Fox-style image header + text overlay) ----------
+   A random illustration from site/data/banner_manifest.json (a flat array the nightly
+   pipeline regenerates) is set as the banner's CSS background-image — the container
+   clips it (background-size: cover) so faces never warp. Over it sit two absolutely
+   positioned text layers: a "WC CHALLENGE 2026" kicker top-left, and the day's featured
+   match centred. The feature prefers an owner clash on today's slate (the highest-drama
+   fixture) and falls back to the day's first match; if there's no slate today it previews
+   the next match day. The overlay text is best-effort — a missing matches.csv still leaves
+   the kicker, and a missing/empty manifest just leaves text on the dark fallback. */
+function bannerFeatureHTML(rows) {
+  const today = todayLocalISO();
+  let day = rows.filter((r) => r.date === today), isToday = true;
+  if (!day.length) {
+    const next = rows.filter((r) => r.date > today).map((r) => r.date).sort()[0];
+    if (!next) return "";
+    day = rows.filter((r) => r.date === next); isToday = false;
+  }
+  // Prefer an owner clash (both sides drafted, different owners); else the first fixture.
+  const clash = day.find((r) => r.team1_owner && r.team2_owner && r.team1_owner !== r.team2_owner);
+  const fx = clash || day[0];
+  if (!fx || !fx.team1 || !fx.team2) return "";
+  let when = "TODAY";
+  if (!isToday) {
+    const [y, m, d] = fx.date.split("-").map(Number);
+    when = new Date(y, m - 1, d).toLocaleDateString(undefined, { weekday: "short" }).toUpperCase();
+  }
+  const time = (fx.time_et || "").toUpperCase();
+  const teams = `${fx.team1.toUpperCase()} vs ${fx.team2.toUpperCase()}`;
+  return `<div class="hero-banner-feature">${esc(when)} · ${esc(teams)}${time ? " · " + esc(time) : ""}</div>`;
+}
+
 async function renderBanner() {
   const host = el("hero-banner");
   if (!host) return;
+
+  // Text overlay (independent of the image): kicker + the day's featured match.
+  let featureHTML = "";
+  try {
+    const text = await fetch("data/matches.csv?v=" + Date.now())
+      .then((r) => (r.ok ? r.text() : Promise.reject(new Error("matches.csv " + r.status))));
+    featureHTML = bannerFeatureHTML(parseCSV(text));
+  } catch (e) { /* no featured match — the kicker still shows */ }
+  host.innerHTML = `<div class="hero-banner-kicker">WC Challenge 2026</div>${featureHTML}`;
+
+  // Random background image — the container clips it Fox-style, so no warping.
   try {
     const list = await loadJSON("data/banner_manifest.json");
     const banners = Array.isArray(list) ? list : (list && list.banners) || [];
-    if (!banners.length) { host.remove(); return; }   // nothing to show
+    if (!banners.length) { host.classList.add("loaded"); return; }   // text on dark fallback
     const pick = banners[Math.floor(Math.random() * banners.length)];
-    const img = new Image();
-    img.className = "hero-banner-img";
-    img.alt = "";
+    const img = new Image();                              // preload so we fade in cleanly
     img.decoding = "async";
-    img.onload = () => img.classList.add("loaded");    // fade in once decoded
-    img.onerror = () => host.remove();                 // bad path -> drop the strip
-    img.src = pick;                                     // let the browser cache banners
-    host.appendChild(img);
+    img.onload = () => {                                  // set bg + reveal once decoded
+      host.style.backgroundImage = `url("${pick}")`;
+      host.classList.add("loaded");
+    };
+    img.onerror = () => host.classList.add("loaded");    // bad path -> keep text on fallback
+    img.src = pick;                                       // let the browser cache banners
   } catch (e) {
-    host.remove();   // no manifest yet (e.g. before the first nightly run) -> hide
+    host.classList.add("loaded");   // no manifest yet -> text on the dark fallback
   }
 }
 
