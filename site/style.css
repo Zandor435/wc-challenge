@@ -142,7 +142,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .tick-team .flag { width: 22px; height: 16px; margin: 0; }
 .tick-code { font-family: "Oswald", sans-serif; font-weight: 600; letter-spacing: .03em; color: #cfd3da; }
 .tick-row.win .tick-code { font-weight: 700; }
-.tick-val { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1rem; font-variant-numeric: tabular-nums; min-width: 12px; text-align: right; }
+/* score value: loser dimmer, winner bold + white so the result reads at a glance */
+.tick-val { font-family: "Oswald", sans-serif; font-weight: 600; font-size: 1rem; font-variant-numeric: tabular-nums; min-width: 12px; text-align: right; color: var(--muted); }
+.tick-row.win .tick-val { font-weight: 800; color: #fff; }
 /* thin owner-color accent bar under a drafted team (transparent if undrafted) */
 .tick-bar { height: 2px; border-radius: 2px; margin: 1px 0 2px; }
 .tick-foot { margin-top: 1px; font-size: .62rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
@@ -589,6 +591,13 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   content: ""; position: absolute; left: 0; bottom: -2px; width: 64px; height: 2px; background: var(--red);
 }
 .block-head h2 { margin: 0; font-size: 1.4rem; font-weight: 700; color: #fff; }
+/* Jim Rome's circular avatar beside THE COLUMN header (pundit-avatar treatment) */
+.block-head-title { display: flex; align-items: center; gap: 10px; }
+.column-avatar {
+  width: 34px; height: 34px; flex: none; border-radius: 50%;
+  object-fit: cover; object-position: top center;
+  border: 2px solid var(--red); background: #11141a;
+}
 .block-more { font-size: .72rem; font-weight: 700; color: var(--blue-br); letter-spacing: .05em; }
 
 /* ---------------- TABLES ---------------- */

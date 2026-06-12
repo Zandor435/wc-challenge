@@ -515,6 +515,22 @@ const PUNDIT_SLUGS = {
 // daily rotation order, used only as a fallback when an older (four-up)
 // commentary.json is encountered so the page still shows one voice.
 const PUNDIT_ROTATION = ["Eric Wynalda", "Landon Donovan", "Clint Dempsey", "Alexi Lalas"];
+// display name -> portrait-folder slug (for picking a rotated avatar variant).
+const PUNDIT_NAME_SLUG = {
+  "Eric Wynalda": "wynalda", "Landon Donovan": "donovan",
+  "Clint Dempsey": "dempsey", "Alexi Lalas": "lalas",
+};
+/* Pick a pundit's avatar variant for the matchday. Each pundit has five looks —
+   the base (<slug>.png) plus _v2.._v5 — and the site rotates through them by matchday
+   so the same guy shows up looking a little different each day. rotation % 5:
+   0 -> base, 1 -> _v2, 2 -> _v3, 3 -> _v4, 4 -> _v5. (commentary.json carries the
+   matchday `rotation` counter.) */
+function punditAvatar(slug, rotation) {
+  if (!slug) return "";
+  const v = (((Number(rotation) || 0) % 5) + 5) % 5;   // 0..4, safe for negatives
+  const suffix = v === 0 ? "" : `_v${v + 1}`;
+  return `assets/portraits/pundits/${slug}/${slug}${suffix}.png`;
+}
 const TONE_BADGE = { arrogant: "ARROGANT", hedging: "HEDGING", chill: "CHILL", bombastic: "BOMBASTIC" };
 function warmingUp() {
   const box = el("pundit-card");
@@ -572,12 +588,13 @@ function renderPunditTakes(doc) {
       </div>`;
     return;
   }
+  const rot = doc ? doc.rotation : 0;
   box.innerHTML = takes.map((t) => {
     const slug = String(t.pundit || "").toLowerCase();
     const info = PUNDIT_SLUGS[slug] || {};
     const name = info.name || t.pundit || "";
     const color = info.color || "#2f6dff";
-    const avSrc = `assets/portraits/pundits/${slug}/${slug}.png`;
+    const avSrc = punditAvatar(slug, rot);
     const av = slug
       ? `<img class="take-avatar" src="${esc(avSrc)}" alt="" width="34" height="34" loading="lazy" onerror="this.style.display='none'" />`
       : "";
@@ -606,7 +623,7 @@ function renderPundit(doc) {
   }
   if (doc.source && el("pundit-meta")) el("pundit-meta").textContent = `SOURCE: ${doc.source}`;
   const color = p.color || PUNDIT_FALLBACK_COLORS[p.name] || "#2f6dff";
-  const avSrc = p.avatar || PUNDIT_AVATARS[p.name] || "";
+  const avSrc = p.avatar || punditAvatar(PUNDIT_NAME_SLUG[p.name], doc.rotation) || PUNDIT_AVATARS[p.name] || "";
   const av = avSrc
     ? `<img class="pundit-avatar" src="${esc(avSrc)}" alt="" width="44" height="44" loading="lazy" />`
     : "";
@@ -752,14 +769,18 @@ function renderMomentum(daily, standings) {
   const owners = ((standings && standings.standings) || []).map((s) => s.owner);
   const list = owners.length ? owners : Object.keys(OWNER_COLORS);
   const hasData = ((daily && daily.days) || []).length > 0;
+  // Momentum = points banked on the MOST RECENT matchday (recent form), distinct from
+  // the cumulative STANDINGS. Preseason there's nothing to show, so hide the whole strip
+  // rather than print a wall of placeholder "— no games yet" badges.
+  if (!hasData) { box.innerHTML = ""; return; }
   const pts = lastMatchdayPoints(daily, list);
   box.innerHTML = list.map((o) => {
     const p = pts[o] || 0;
     // Typographic momentum: the points number leads, color-coded hot/cold/steady.
-    let cls = "neutral", note = hasData ? "last matchday" : "no games yet";
-    if (hasData && p >= 3) { cls = "hot"; }
-    else if (hasData && p === 0) { cls = "cold"; }
-    const lead = hasData ? `${p > 0 ? "+" : ""}${fmtNum(p)}` : "—";
+    let cls = "neutral", note = "last matchday";
+    if (p >= 3) { cls = "hot"; }
+    else if (p === 0) { cls = "cold"; }
+    const lead = `${p > 0 ? "+" : ""}${fmtNum(p)}`;
     return `
       <div class="mom-badge ${cls}" style="--c:${ownerColor(o)}">
         <span class="mom-pts">${esc(lead)}</span>

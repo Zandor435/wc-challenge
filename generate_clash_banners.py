@@ -1,158 +1,177 @@
 #!/usr/bin/env python3
-"""Generate the 10 OWNER CLASH banners with Nano Banana (Gemini 2.5 Flash Image).
+"""Generate the 10 OWNER CLASH banners by COMPOSITING the real WWE portraits.
 
-Sibling to ../generate_pundit_avatars.py and ../email/generate_hero_image.py — same
-SDK and call pattern — but this is a ONE-TIME batch, not part of the nightly cron.
+Earlier this script asked Gemini (Nano Banana) to *paint* a fight poster from the two
+owners' WWE photos as references. That route kept inventing generic faces — the output
+was unmistakably "AI poster", not "these two guys". The hard requirement here is that the
+banner is recognizably the two owners, so we drop generation entirely and COMPOSITE their
+actual portraits with Pillow/numpy. Less painterly, but the faces are guaranteed correct.
 
-Five owners -> ten unique pairings. For each pairing we render a WWE pay-per-view /
-boxing-promo "fight poster": both owners' WWE portraits facing each other in a split
-composition, each half tinted with that owner's draft colour. NO text is baked into the
-image — the frontend overlays the match details (teams, time, group) on top.
+Approach (no API, deterministic, idempotent):
+  * Head-and-shoulders crop of each owner's WWE portrait (the portraits are full-body on
+    near-black backgrounds with spark/smoke FX; we keep the face + chest).
+  * Left owner anchored to the LEFT half, right owner to the RIGHT half of a 1200x400
+    canvas, blended across a soft central seam.
+  * Each half washed in that owner's draft colour via a SCREEN-blended colour gradient —
+    because the backgrounds are near-black, screen lights the background/FX in the owner's
+    hue while leaving the bright faces readable (so the tint never muddies the likeness).
+  * A bright collision flare down the centre seam, plus a vignette. NO text is baked in —
+    the frontend overlays teams/time/group on top.
 
-Inputs (reference images, likeness ONLY — the output is a generated poster, not an edit):
+Inputs:
     site/assets/portraits/wwe/<owner>_wwe.jpg
 
 Output pattern: OVERWRITE by default (idempotent; rerun safely). Wide 1200x400 banners:
     site/assets/clash-banners/<a>-vs-<b>.png   (owners alphabetical, lowercase)
 
-Needs GEMINI_API_KEY in the environment (or in ~/.env).
+No API key required — this is pure local image compositing.
 
 Usage:
-    GEMINI_API_KEY=... python generate_clash_banners.py        # all 10 pairings
-    python generate_clash_banners.py --only devin-vs-zach      # one pairing
-    python generate_clash_banners.py --dry-run                 # print prompts, no API
+    python generate_clash_banners.py                      # all 10 pairings
+    python generate_clash_banners.py --only devin-vs-zach # one pairing
+    python generate_clash_banners.py --list               # list pairings and exit
 """
 from __future__ import annotations
 
 import argparse
-import io
 import itertools
 import os
 import sys
 
+import numpy as np
+from PIL import Image, ImageDraw, ImageFilter
+
 ROOT = os.path.dirname(os.path.abspath(__file__))  # repo root (this script lives here)
 WWE_DIR = os.path.join(ROOT, "site", "assets", "portraits", "wwe")
 OUT_DIR = os.path.join(ROOT, "site", "assets", "clash-banners")
-MODEL = "gemini-2.5-flash-image"
-BANNER_W, BANNER_H = 1200, 400  # wide fight-poster banner
 
-# The five owners: draft colour + WWE persona (persona only flavours the prompt; no
-# text is rendered). Portrait file is <key>_wwe.jpg under WWE_DIR.
+BANNER_W, BANNER_H = 1200, 400   # wide fight-poster banner
+HALF_W = 640                     # each fighter's image width (overlaps the seam)
+SEAM_X = BANNER_W // 2           # central collision line
+OVERLAP = (2 * HALF_W) - BANNER_W  # = 80px feathered blend zone at the seam
+
+# The five owners. `color` is the draft colour the half is washed in. `face` is the
+# vertical centre of the head as a fraction of portrait height; `band` is where that
+# face should sit within the cropped head-and-shoulders band (0 = top, 1 = bottom).
+# Tuned by eye against each portrait so the face lands in the upper-middle of the half.
 OWNERS = {
-    "zach":   {"name": "Zach",   "color": "#f4c430", "persona": "Mustard Boy"},
-    "gunner": {"name": "Gunner", "color": "#2f6dff", "persona": "Bubba G"},
-    "gayden": {"name": "Gayden", "color": "#28c060", "persona": "The Backpass Assassin"},
-    "devin":  {"name": "Devin",  "color": "#f0743a", "persona": "Ghost Pepper"},
-    "rafe":   {"name": "Rafe",   "color": "#a855f7", "persona": "The Noisemaker"},
+    "zach":   {"name": "Zach",   "color": "#f4c430", "face": 0.14, "band": 0.40},
+    "gunner": {"name": "Gunner", "color": "#2f6dff", "face": 0.17, "band": 0.40},
+    "gayden": {"name": "Gayden", "color": "#28c060", "face": 0.26, "band": 0.52},
+    "devin":  {"name": "Devin",  "color": "#f0743a", "face": 0.15, "band": 0.42},
+    "rafe":   {"name": "Rafe",   "color": "#a855f7", "face": 0.16, "band": 0.40},
 }
 
-# Shared art direction for every clash banner. A confrontational split fight poster —
-# the two portraits driven to the edges, a charged seam down the middle, colour-coded
-# halves. Deliberately leaves headroom/centre clear so the frontend can overlay text.
-_STYLE = (
-    "WIDE 3:1 landscape FIGHT POSTER, the visual language of a WWE pay-per-view promo "
-    "crossed with a championship boxing fight card. SPLIT COMPOSITION down a dramatic "
-    "central seam: ONE fighter anchored to the LEFT half, the OTHER fighter anchored to "
-    "the RIGHT half, the two squared off and facing each other across the centre line, "
-    "jaws set, confrontational, trash-talk energy. "
-    "CRUCIAL FRAMING — read carefully: frame each fighter TIGHTLY from the upper chest UP "
-    "only. Their HEADS ARE LARGE and fill the upper half of the banner, faces sharp, "
-    "recognizable and prominent, eyes glaring across the seam at each other. This is a "
-    "HEAD-AND-SHOULDERS face-off. Do NOT render full bodies, do NOT show legs, waist, "
-    "abs or a bare torso/six-pack — if you show a body you have failed; lead with the "
-    "FACES the way a real fight-card poster does. "
-    "High-contrast cinematic spotlighting, smoke and arena haze, sparks and lens flare "
-    "along the centre seam where the two colours collide. Bold, saturated, poster-like "
-    "and instantly readable. Photographic/illustrative hybrid like a real promo poster, "
-    "NOT a cartoon. ABSOLUTELY NO TEXT, NO LETTERING, NO WORDS, NO LOGOS, NO NUMBERS "
-    "anywhere in the image — the frontend overlays all text later. Keep the central seam "
-    "and the lower edge relatively uncluttered so overlaid text stays legible. "
-)
 
-_LIKENESS = (
-    "CRITICAL: render each fighter as the SAME recognizable man as his reference photo — "
-    "same face, build, hair and skin tone — so each is identifiable. Do NOT invent generic "
-    "stock faces or swap in different people. "
-)
-
-
-def load_env_key():
-    key = os.environ.get("GEMINI_API_KEY")
-    if key:
-        return key
-    home_env = os.path.join(os.path.expanduser("~"), ".env")
-    if os.path.exists(home_env):
-        with open(home_env, encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith("GEMINI_API_KEY="):
-                    return line.split("=", 1)[1].strip().strip('"').strip("'")
-    return None
+def hex_rgb(h):
+    h = h.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
 
 
 def portrait_path(key):
     return os.path.join(WWE_DIR, f"{key}_wwe.jpg")
 
 
-def build_prompt(a, b):
-    """a, b are owner keys (a is the LEFT/alphabetically-first half)."""
-    A, B = OWNERS[a], OWNERS[b]
-    return "\n\n".join([
-        _STYLE,
-        (f"LEFT FIGHTER: {A['name']} (wrestling persona \"{A['persona']}\"), his entire "
-         f"half of the poster bathed and tinted in his signature colour {A['color']} — "
-         f"colored spotlights, smoke and rim-lighting in that hue. He is the FIRST "
-         f"reference image."),
-        (f"RIGHT FIGHTER: {B['name']} (wrestling persona \"{B['persona']}\"), his entire "
-         f"half of the poster bathed and tinted in his signature colour {B['color']} — "
-         f"colored spotlights, smoke and rim-lighting in that hue. He is the SECOND "
-         f"reference image."),
-        (f"The two colours ({A['color']} on the left, {B['color']} on the right) clash "
-         f"violently down the central seam. Make it a want-to-watch grudge-match poster."),
-        _LIKENESS,
-    ])
-
-
-def to_banner_png(raw_bytes):
-    """Center-crop the model output to 3:1 and resize to BANNER_W x BANNER_H; PNG bytes."""
-    from PIL import Image
-    img = Image.open(io.BytesIO(raw_bytes)).convert("RGB")
+def head_band(key):
+    """Crop a head-and-shoulders band from an owner's portrait and return it as a
+    HALF_W x BANNER_H RGB image (the face placed per the owner's `band` fraction)."""
+    cfg = OWNERS[key]
+    img = Image.open(portrait_path(key)).convert("RGB")
     w, h = img.size
-    target = BANNER_W / BANNER_H
-    if w / h > target:                      # too wide -> trim sides
-        new_w = int(h * target)
-        left = (w - new_w) // 2
-        img = img.crop((left, 0, left + new_w, h))
-    else:                                   # too tall -> keep the TOP (faces live up
-        new_h = int(w / target)             # there); trim mostly from the bottom, with
-        top = int((h - new_h) * 0.12)       # a small margin so the very top edge isn't
-        img = img.crop((0, top, w, top + new_h))  # clipped.
-    img = img.resize((BANNER_W, BANNER_H), Image.LANCZOS)
-    out = io.BytesIO()
-    img.save(out, format="PNG")
-    return out.getvalue()
+    aspect = HALF_W / BANNER_H                 # 1.6 : 1 band
+
+    # Widest band of the target aspect that fits, centred horizontally.
+    bw = w
+    bh = bw / aspect
+    if bh > h:                                 # portrait too short -> limit by height
+        bh = h
+        bw = bh * aspect
+    bw, bh = int(round(bw)), int(round(bh))
+    left = (w - bw) // 2
+
+    face_y = cfg["face"] * h
+    top = int(round(face_y - cfg["band"] * bh))
+    top = max(0, min(top, h - bh))             # clamp inside the image
+
+    band = img.crop((left, top, left + bw, top + bh))
+    return band.resize((HALF_W, BANNER_H), Image.LANCZOS)
 
 
-def generate_one(client, contents):
-    """Call the model with one retry on an empty response. Return raw image bytes or None."""
-    for attempt in (1, 2):
-        try:
-            resp = client.models.generate_content(model=MODEL, contents=contents)
-        except Exception as e:  # noqa: BLE001
-            print(f"      API error (attempt {attempt}): {e}", file=sys.stderr)
-            continue
-        cand = (resp.candidates or [None])[0]
-        content = getattr(cand, "content", None) if cand else None
-        if content and getattr(content, "parts", None):
-            for part in content.parts:
-                if getattr(part, "inline_data", None) and part.inline_data.data:
-                    return part.inline_data.data
-            txt = "".join(getattr(p, "text", "") or "" for p in content.parts)
-            print(f"      no image in response: {txt[:160]}", file=sys.stderr)
-        else:
-            reason = getattr(cand, "finish_reason", "unknown") if cand else "no candidates"
-            print(f"      empty response (finish_reason={reason})", file=sys.stderr)
-    return None
+def colour_wash(base, rgb, side):
+    """SCREEN-blend a colour gradient onto `base` (a HxWx3 float array, 0-255).
+    `side` is 'left' or 'right'; the wash is strongest at the OUTER edge and fades to
+    nothing at the centre seam, so the faces near centre stay clean. Returns a new array."""
+    h, w, _ = base.shape
+    xs = np.linspace(0.0, 1.0, w)             # 0 at left edge, 1 at right edge
+    if side == "left":
+        g = np.clip(1.0 - xs / 0.52, 0.0, 1.0)   # strong far-left -> 0 near centre
+    else:
+        g = np.clip((xs - 0.48) / 0.52, 0.0, 1.0)  # 0 near centre -> strong far-right
+    g = (g ** 1.25)[None, :, None]            # ease the falloff; broadcast to HxWx1
+    colour = np.array(rgb, dtype=np.float32)[None, None, :]
+    layer = colour * g                        # colour scaled by per-column strength
+    # screen: 255 - (255-base)(255-layer)/255
+    return 255.0 - (255.0 - base) * (255.0 - layer) / 255.0
+
+
+def vignette(size, strength=0.45):
+    """Return an 'L' mask that's bright in the centre and dark at the edges/corners."""
+    w, h = size
+    yy, xx = np.mgrid[0:h, 0:w].astype(np.float32)
+    cx, cy = w / 2.0, h / 2.0
+    d = np.sqrt(((xx - cx) / cx) ** 2 + ((yy - cy) / cy) ** 2)  # 0 centre -> ~1.4 corner
+    m = np.clip(1.0 - strength * (d ** 2.2), 0.0, 1.0)
+    return Image.fromarray((m * 255).astype(np.uint8), "L")
+
+
+def seam_flare():
+    """A bright vertical collision flare centred on the seam, as an RGB array to screen on."""
+    yy, xx = np.mgrid[0:BANNER_H, 0:BANNER_W].astype(np.float32)
+    dx = np.abs(xx - SEAM_X)
+    core = np.exp(-(dx ** 2) / (2 * 34.0 ** 2)) * 0.85   # hot core (softened)
+    glow = np.exp(-(dx ** 2) / (2 * 110.0 ** 2)) * 0.45  # wider soft glow
+    # fade the flare toward the very top/bottom so it reads as a beam, not a bar
+    vy = np.sin(np.clip(yy / BANNER_H, 0, 1) * np.pi) ** 0.5
+    inten = np.clip((core + glow) * vy, 0.0, 1.0)[:, :, None]
+    warm = np.array([255, 245, 225], dtype=np.float32)[None, None, :]
+    return inten * warm
+
+
+def build_banner(a, b):
+    """Composite the a-vs-b banner (a = left, b = right). Returns a PIL RGB image."""
+    A, B = OWNERS[a], OWNERS[b]
+
+    # --- 1. lay the two head-and-shoulders crops onto the canvas, feathered at the seam.
+    canvas = Image.new("RGB", (BANNER_W, BANNER_H), (8, 8, 12))
+    left_img = head_band(a)
+    right_img = head_band(b)
+
+    canvas.paste(left_img, (0, 0))            # left fills x[0..640]
+
+    # feather the right image's inner (left) edge across the overlap so the two blend.
+    mask = Image.new("L", (HALF_W, BANNER_H), 255)
+    md = ImageDraw.Draw(mask)
+    for x in range(OVERLAP):
+        md.line([(x, 0), (x, BANNER_H)], fill=int(255 * (x / OVERLAP)))
+    canvas.paste(right_img, (BANNER_W - HALF_W, 0), mask)   # right fills x[560..1200]
+
+    arr = np.asarray(canvas, dtype=np.float32)
+
+    # --- 2. colour-wash each half (screen blend, strongest at the outer edges).
+    arr = colour_wash(arr, hex_rgb(A["color"]), "left")
+    arr = colour_wash(arr, hex_rgb(B["color"]), "right")
+
+    # --- 3. collision flare down the seam (screen blend).
+    flare = seam_flare()
+    arr = 255.0 - (255.0 - arr) * (255.0 - flare) / 255.0
+
+    out = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGB")
+
+    # --- 4. vignette (multiply by the centre-bright mask) + a touch of contrast pop.
+    vmask = vignette((BANNER_W, BANNER_H)).filter(ImageFilter.GaussianBlur(40))
+    varr = np.asarray(out, dtype=np.float32) * (np.asarray(vmask, dtype=np.float32)[:, :, None] / 255.0)
+    out = Image.fromarray(np.clip(varr, 0, 255).astype(np.uint8), "RGB")
+    return out
 
 
 def all_pairings():
@@ -163,27 +182,16 @@ def all_pairings():
 def main():
     pairings = all_pairings()
     slugs = [f"{a}-vs-{b}" for a, b in pairings]
-    ap = argparse.ArgumentParser(description="Generate the 10 owner-clash fight banners")
+    ap = argparse.ArgumentParser(description="Composite the 10 owner-clash fight banners")
     ap.add_argument("--only", choices=slugs, help="generate just one pairing, e.g. devin-vs-zach")
-    ap.add_argument("--dry-run", action="store_true",
-                    help="print prompts and exit; do not call Gemini or touch files")
+    ap.add_argument("--list", action="store_true", help="list pairings and exit")
     args = ap.parse_args()
 
-    targets = [tuple(args.only.split("-vs-"))] if args.only else pairings
-
-    if args.dry_run:
-        for a, b in targets:
-            print(f"\n===== {a}-vs-{b} =====\n{build_prompt(a, b)}")
+    if args.list:
+        print("\n".join(slugs))
         return
 
-    key = load_env_key()
-    if not key:
-        print("ERROR: GEMINI_API_KEY not set (env or ~/.env).", file=sys.stderr)
-        sys.exit(1)
-
-    from google import genai
-    from PIL import Image
-    client = genai.Client(api_key=key)
+    targets = [tuple(args.only.split("-vs-"))] if args.only else pairings
     os.makedirs(OUT_DIR, exist_ok=True)
 
     made, failed = [], []
@@ -191,23 +199,16 @@ def main():
         slug = f"{a}-vs-{b}"
         pa, pb = portrait_path(a), portrait_path(b)
         if not os.path.exists(pa) or not os.path.exists(pb):
-            print(f"[skip] {slug}: missing portrait ({pa if not os.path.exists(pa) else pb})",
-                  file=sys.stderr)
+            miss = pa if not os.path.exists(pa) else pb
+            print(f"[skip] {slug}: missing portrait ({miss})", file=sys.stderr)
             failed.append(slug)
             continue
-        refs = [Image.open(pa), Image.open(pb)]
         print(f"[gen ] {slug}  ({OWNERS[a]['name']} {OWNERS[a]['color']} vs "
               f"{OWNERS[b]['name']} {OWNERS[b]['color']})")
-        data = generate_one(client, [build_prompt(a, b)] + refs)
-        if not data:
-            print(f"   {slug}: failed, skipping.", file=sys.stderr)
-            failed.append(slug)
-            continue
-        png = to_banner_png(data)
+        img = build_banner(a, b)
         out = os.path.join(OUT_DIR, f"{slug}.png")
-        with open(out, "wb") as f:
-            f.write(png)
-        print(f"   wrote {out} ({len(png)//1024} KB)")
+        img.save(out, format="PNG")
+        print(f"   wrote {out} ({os.path.getsize(out)//1024} KB)")
         made.append(slug)
 
     print(f"\nDone. {len(made)}/{len(targets)} banner(s) written under site/assets/clash-banners/.")
