@@ -3,15 +3,15 @@
   "note": "Goals by players on drafted teams only. Penalties counted in the total.",
   "leaders": [
     {
-      "player": "H.G. Oh",
-      "team": "Korea Republic",
-      "owner": "Gayden",
+      "player": "C. Larin",
+      "team": "Canada",
+      "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
       "rank": 1
     },
     {
-      "player": "I.B. Hwang",
+      "player": "H.G. Oh",
       "team": "Korea Republic",
       "owner": "Gayden",
       "goals": 1,
@@ -19,12 +19,28 @@
       "rank": 2
     },
     {
+      "player": "I.B. Hwang",
+      "team": "Korea Republic",
+      "owner": "Gayden",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 3
+    },
+    {
       "player": "J. Quiñones",
       "team": "Mexico",
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "player": "Jovo Lukić",
+      "team": "Bosnia",
+      "owner": "Devin",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 5
     },
     {
       "player": "L. Krejčí",
@@ -32,7 +48,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 4
+      "rank": 6
     },
     {
       "player": "R. Jiménez",
@@ -40,7 +56,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 5
+      "rank": 7
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
-  "generated": "2026-06-12T20:14:28Z",
+  "generated": "2026-06-12T21:37:20Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Group Stage",
     "is_preseason": false,
-    "matchdays_played": 1,
-    "matches_played": 2,
-    "matches_remaining": 102,
+    "matchdays_played": 2,
+    "matches_played": 3,
+    "matches_remaining": 101,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
       "rank": 5,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 0,
       "points_today": 0,
       "record": {
@@ -53,35 +53,53 @@
     },
     "Gunner": {
       "rank": 4,
-      "rank_change_from_prev_day": -3,
-      "total_points": 0,
-      "points_today": 0,
+      "rank_change_from_prev_day": 0,
+      "total_points": 1,
+      "points_today": 1,
       "record": {
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 0
       },
-      "win_probability": 0.27,
-      "champion_probability": 0.16,
+      "win_probability": 0.25,
+      "champion_probability": 0.15,
       "streak": {
-        "type": null,
-        "length": 0,
-        "label": "-"
+        "type": "D",
+        "length": 1,
+        "label": "D1"
       },
-      "best_team": null,
-      "worst_team": null
+      "best_team": {
+        "team": "Canada",
+        "tier": 3,
+        "points": 1,
+        "record": {
+          "W": 0,
+          "D": 1,
+          "L": 0
+        }
+      },
+      "worst_team": {
+        "team": "Canada",
+        "tier": 3,
+        "points": 1,
+        "record": {
+          "W": 0,
+          "D": 1,
+          "L": 0
+        }
+      }
     },
     "Gayden": {
       "rank": 1,
-      "rank_change_from_prev_day": 1,
+      "rank_change_from_prev_day": 0,
       "total_points": 3,
-      "points_today": 3,
+      "points_today": 0,
       "record": {
         "W": 1,
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.2,
+      "win_probability": 0.19,
       "champion_probability": 0.11,
       "streak": {
         "type": "W",
@@ -112,28 +130,28 @@
     "Devin": {
       "rank": 3,
       "rank_change_from_prev_day": 0,
-      "total_points": 0,
-      "points_today": 0,
+      "total_points": 1,
+      "points_today": 1,
       "record": {
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 1
       },
-      "win_probability": 0.2,
-      "champion_probability": 0.15,
+      "win_probability": 0.21,
+      "champion_probability": 0.17,
       "streak": {
-        "type": "L",
+        "type": "D",
         "length": 1,
-        "label": "L1"
+        "label": "D1"
       },
       "best_team": {
-        "team": "South Africa",
+        "team": "Bosnia",
         "tier": 3,
-        "points": 0,
+        "points": 1,
         "record": {
           "W": 0,
-          "D": 0,
-          "L": 1
+          "D": 1,
+          "L": 0
         }
       },
       "worst_team": {
@@ -149,16 +167,16 @@
     },
     "Rafe": {
       "rank": 2,
-      "rank_change_from_prev_day": 3,
+      "rank_change_from_prev_day": 0,
       "total_points": 3,
-      "points_today": 3,
+      "points_today": 0,
       "record": {
         "W": 1,
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.16,
-      "champion_probability": 0.09,
+      "win_probability": 0.18,
+      "champion_probability": 0.1,
       "streak": {
         "type": "W",
         "length": 1,
@@ -199,6 +217,11 @@
         "W": 0,
         "D": 0,
         "L": 1
+      },
+      "Gunner": {
+        "W": 0,
+        "D": 1,
+        "L": 0
       }
     },
     "Gayden": {
@@ -213,6 +236,13 @@
         "W": 0,
         "D": 0,
         "L": 1
+      }
+    },
+    "Gunner": {
+      "Devin": {
+        "W": 0,
+        "D": 1,
+        "L": 0
       }
     }
   },
@@ -232,6 +262,15 @@
       "via": "Korea Republic beat Czechia",
       "match": "Korea Republic 2-1 Czechia",
       "date": "2026-06-11"
+    },
+    {
+      "result": "draw",
+      "owners": [
+        "Devin",
+        "Gunner"
+      ],
+      "match": "Canada 1-1 Bosnia",
+      "date": "2026-06-12"
     }
   ],
   "h2h_differential": {
@@ -239,13 +278,17 @@
       "Devin": 3
     },
     "Devin": {
-      "Rafe": -3
+      "Rafe": -3,
+      "Gunner": 0
     },
     "Gayden": {
       "Zach": 3
     },
     "Zach": {
       "Gayden": -3
+    },
+    "Gunner": {
+      "Devin": 0
     }
   },
   "matchday_point_history": [
@@ -258,6 +301,17 @@
         "Gayden": 3,
         "Devin": 0,
         "Rafe": 3
+      }
+    },
+    {
+      "matchday": 2,
+      "date": "2026-06-12",
+      "points": {
+        "Zach": 0,
+        "Gunner": 1,
+        "Gayden": 0,
+        "Devin": 1,
+        "Rafe": 0
       }
     }
   ],
@@ -277,24 +331,11 @@
       "description": "Gayden banked 3 pts on 2026-06-11 -- the biggest single-day haul so far"
     }
   ],
-  "themes": [
-    {
-      "tag": "Gunner slide",
-      "owner": "Gunner",
-      "kind": "slide",
-      "description": "Gunner dropped 3 spots in the standings on the latest matchday."
-    },
-    {
-      "tag": "Rafe surge",
-      "owner": "Rafe",
-      "kind": "surge",
-      "description": "Rafe jumped 3 spots in the standings on the latest matchday."
-    }
-  ],
+  "themes": [],
   "golden_boot_leader": {
-    "player": "H.G. Oh",
-    "team": "Korea Republic",
-    "owner": "Gayden",
+    "player": "C. Larin",
+    "team": "Canada",
+    "owner": "Gunner",
     "goals": 1
   },
   "history": [
@@ -322,11 +363,42 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -1,
+        "Zach": 0,
         "Gunner": -3,
-        "Gayden": 1,
-        "Devin": 0,
+        "Gayden": 2,
+        "Devin": -1,
+        "Rafe": 2
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "points": {
+        "Zach": 0,
+        "Gunner": 1,
+        "Gayden": 3,
+        "Devin": 1,
         "Rafe": 3
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 1,
+        "Gayden": 0,
+        "Devin": 1,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gayden": 1,
+        "Rafe": 2,
+        "Devin": 3,
+        "Gunner": 4,
+        "Zach": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
       }
     }
   ]

@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-12T20:14:28Z",
-  "source": "daily_results_2026-06-11",
-  "date": "2026-06-12",
-  "rotation": 1,
+  "generated": "2026-06-12T21:37:20Z",
+  "source": "daily_results_2026-06-12",
+  "date": "2026-06-13",
+  "rotation": 2,
   "pundit": {
-    "name": "Landon Donovan",
-    "tone": "hedging",
-    "color": "#2f6dff",
-    "take": "Look, I get why people say Gayden's \"Backpass Assassin\" strategy isn't exactly daring, but hey, at least he didn't draft teams that aren't even in the tournament like Rafe, bless his heart. Gayden's Korea Republic has already notched a win against Zach's unfortunate Czechia—an outcome that backs up his cautious drafting strategy. On the flip side, we have Devin's \"Ghost Pepper\" squad, whose choice of Haiti in the fourth round suggests a level of optimism bordering on delusion. Now, moving on to the upcoming Canada vs. Bosnia clash: these teams are currently not standout performers on the world stage, but if you draft strategically, at least there's potential. Gunner's \"Bubba G\" might not have points yet, but his Canadian team could surprise us, especially when pitted against Bosnia's well-intentioned but underachieving resilience. In an event where \"Bubba G\" comes out on top, it might finally prove that there's some method to his madness. But really, I think both managers could benefit from some introspection, don't you?"
+    "name": "Clint Dempsey",
+    "tone": "chill",
+    "color": "#28c060",
+    "take": "**Zach's dreams of Brazilian samba are dancin' right out the door.** Mustard Boy thought pickin' Brazil guaranteed him samba football and smooth passes, but he's been watchin' too much telenovela, forgettin' this ain't a novela, it's a grind. Meanwhile, Bubba G over here is backin' Morocco like his fortune teller whispered sweet nothings about North African flair into his ear. Brazil's got history, sure, but Morocco ain't just showin' up to be a practice squad. In East Rutherford, with Zach's luck, the only thing Brazil's dancin' with is defeat. Morocco's gonna play surprise party crashers, and Mustard Boy's left gettin' cooked like a Texas summer BBQ. Watch out, 'cause Bubba G's crew is ready to flip the script, leavin' Zach scratchin' his head and wonderin' why he didn't back that oil money for more than goals."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's Canada Set to Play, But Victory Just a Dream",
-      "subtitle": "Bubba G hopes for upset despite 4th place standings.",
-      "match": "Canada vs Bosnia",
-      "date": "2026-06-12"
+      "headline": "Zach's Brazil and Switzerland Teams Poised for Underwhelming Performances",
+      "subtitle": "Mustard Boy banking on Swiss precision after Brazil's shaky drafts.",
+      "match": "Brazil vs Morocco",
+      "date": "2026-06-13"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin's USA Faces Undrafted Paraguay Tonight, Result Could Be Shocking",
-      "subtitle": "Ghost Pepper needs points to escape 3rd place rut.",
-      "match": "USA vs Paraguay",
-      "date": "2026-06-12"
+      "headline": "Gunner Bets on Tier 3 Canada as France Faces Draft Doubts",
+      "subtitle": "Bubba G confident despite Canada's draw; France feeling the pressure.",
+      "match": "Canada 1-1 Bosnia",
+      "date": "2026-06-13"
     },
     {
       "pundit": "dempsey",
-      "headline": "Gayden's Early Lead Eases Backpass Concerns, England Yet to Play",
-      "subtitle": "The Backpass Assassin glides into 1st without England lifting a foot.",
-      "match": "Group F Preview",
-      "date": "2026-06-12"
+      "headline": "Devin's Low-Profile Haiti Hopes to Shine Against Undrafted Scotland",
+      "subtitle": "Ghost Pepper's strategy: surprise upsets, trusting the power of anonymity.",
+      "match": "Haiti vs Scotland",
+      "date": "2026-06-13"
     },
     {
       "pundit": "lalas",
-      "headline": "Mustard Boy's Brazil Hype Dims as Zach Holds Last Place",
-      "subtitle": "Zero points and counting, Zach eagerly awaits Tier 1 saviors.",
-      "match": "Group F Preview",
-      "date": "2026-06-12"
+      "headline": "Gayden's Top-Ranked Management Style Relies on Turkey's Unexpected Strengths",
+      "subtitle": "The Backpass Assassin rides the wave of a tier 3 powerhouse.",
+      "match": "Australia vs Turkey",
+      "date": "2026-06-13"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's chaos surge has Gunner slipping faster than a greased pig at the fair.",
-    "Zach picked Czechia as both best and worst—because Czechia can't differentiate wins from losses.",
-    "Rafe beats Devin with Mexico—next, he'll take his lunch money too.",
-    "Sim overlooked Rafe's teenage chaos and Mexico's 2-0 smackdown over South Africa."
+    "Zach's still ziplocked at zero points, the Czeching account needs a boost.",
+    "Rafe's draft decisions make a wrecking ball look like a precision tool.",
+    "Devin's -3 against Rafe — the kid's sending him back to math class.",
+    "Sim's got Rafe competitive; is there a glitch in the Matrix?"
   ]
 }
