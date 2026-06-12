@@ -23,6 +23,13 @@ on:
 permissions:
   contents: write
 
+# GitHub is forcing JavaScript actions onto the Node.js 24 runtime (June 2026).
+# This shim runs any still-Node20 action under Node 24 so the migration can't
+# hard-fail the job mid-tournament. Belt-and-suspenders alongside the
+# Node24-native action versions pinned below.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: update-data
   cancel-in-progress: false
@@ -37,7 +44,7 @@ jobs:
     outputs:
       run: ${{ steps.check.outputs.run }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - id: check
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -60,8 +67,8 @@ jobs:
     if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install Python deps
@@ -187,11 +194,20 @@ jobs:
         run: |
           git config user.name  "wc-challenge-bot"
           git config user.email "actions@github.com"
-          git add site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers
+          # Add each path only if it exists. generate_match_covers.py is
+          # continue-on-error and skips owner-clash-only days, so
+          # site/assets/match-covers may never be created — a bare `git add`
+          # on that missing pathspec aborts with exit 128 and kills the push.
+          for p in site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers; do
+            [ -e "$p" ] && git add "$p"
+          done
           if git diff --staged --quiet; then
             echo "No standings/image changes."
           else
             git commit -m "Auto-update standings ($(date -u +%Y-%m-%dT%H:%MZ))"
+            # Rebase onto anything pushed since checkout (a prior every-3h run or a
+            # manual push) so the push can't be rejected as a non-fast-forward.
+            git pull --rebase origin main
             git push
           fi
       - name: Wait for hero image to deploy
@@ -237,5 +253,6 @@ jobs:
             echo "No email baseline change."
           else
             git commit -m "Refresh email delta baseline ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git pull --rebase origin main
             git push
           fi

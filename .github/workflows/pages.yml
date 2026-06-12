@@ -14,6 +14,11 @@ permissions:
   pages: write
   id-token: write
 
+# Run any still-Node20 JavaScript actions under the Node.js 24 runtime that
+# GitHub is forcing in June 2026, so the migration can't hard-fail the deploy.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -25,7 +30,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
