@@ -107,17 +107,17 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
    Fox-style fixed-height header below the nav, above the ticker. A random illustration
    is set as a background-image (via app.js renderBanner). The image IS the container:
    banners are produced at the EXACT display size (1400x200, a 7:1 cinematic letterbox) —
-   the generator face-crops each one to 7:1 so the faces are already framed — so the CSS
-   just stretches it to fill the box perfectly: background-size: 100% 100%, NO object-fit,
-   NO background-position, NO crop at the CSS layer (the box and the image share the 7:1
-   ratio, so the stretch is a no-op at full width and only a gentle scale on narrower /
-   mobile viewports). A bottom-up dark gradient keeps the overlaid text legible over any
-   banner. Collapses (removed) only if it can't render at all. */
+   the generator face-crops each one to 7:1 so the faces are already framed. background-size:
+   cover fills the box keeping the image's own proportions: because the box and the image
+   share the 7:1 ratio, there's no vertical guillotine and no horizontal stretch — only a
+   negligible side-trim when the viewport is narrower than 1400px. A bottom-up dark gradient
+   keeps the overlaid text legible over any banner. Collapses (removed) only if it can't
+   render at all. */
 .hero-banner {
   position: relative;
   width: 100%; max-width: 1400px; margin: 0 auto;
   height: 200px;
-  background-size: 100% 100%;        /* stretch the made-to-fit image exactly, no crop */
+  background-size: cover;            /* 7:1 image in a 7:1 box: negligible side-trim, no stretch */
   background-repeat: no-repeat;
   background-color: #0c0e14;         /* fallback before/without an image */
   border-bottom: 1px solid var(--line);
