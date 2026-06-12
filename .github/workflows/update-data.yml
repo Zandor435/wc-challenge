@@ -1,4 +1,4 @@
-name: Update standings from API-Football
+name: Update standings
 
 # Fetches live World Cup results, rescoring the pool, and commits the refreshed
 # JSON so the site (GitHub Pages / Netlify) redeploys automatically.
