@@ -60,8 +60,17 @@ pipeline + site, and apply the ones that fit.
 
 - **Branch for big layout changes.** Large structural moves go on a branch, not straight
   to main.
-- **One CC thread per set of overlapping files.** Don't run parallel threads that edit the
-  same files — serialize overlapping work into a single thread.
+- **One CC thread per set of overlapping files — and never two threads in one working
+  tree.** Don't run parallel threads that edit the same files; serialize overlapping work
+  into a single thread. This is not theoretical: during the banner build, a second thread
+  shared this checkout and, mid-task, kept writing files, committing, switching branches,
+  and finally merging `banners` into `main` — all under the first thread's feet. In a
+  *shared* working tree the damage modes are concrete: a `git switch` by one thread flips
+  the other's branch (you commit to the wrong one); concurrent commits race; a file being
+  written gets clobbered (one `Write` was blocked for exactly this reason). It only ended
+  clean because the merge happened to reconcile correctly — luck, not design. If you must
+  parallelize, give each thread its **own git worktree** (or its own clone), never the same
+  directory.
 - **Sync the repo before every build**, and **always name the "do not touch" files in the
   prompt.** Explicit guardrails prevent an agent from helpfully rewriting something stable.
 
