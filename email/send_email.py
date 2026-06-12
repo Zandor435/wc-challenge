@@ -21,6 +21,7 @@ import json
 import os
 import shutil
 import sys
+from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -49,6 +50,7 @@ def main():
     ap.add_argument("--config", default=os.path.join(HERE, "config.json"))
     ap.add_argument("--narrative", default=os.path.join(SITE_DATA, "narrative_state.json"))
     ap.add_argument("--state-out", default=os.path.join(HERE, "last_sent_state.json"))
+    ap.add_argument("--date-out", default=os.path.join(HERE, "last_send_date.txt"))
     ap.add_argument("--dry-run", action="store_true",
                     help="render + validate but do not call Resend or snapshot state")
     ap.add_argument("--to", action="append", metavar="EMAIL",
@@ -121,6 +123,12 @@ def main():
         print("  test send (--to) — not snapshotting the delta baseline.")
     else:
         snapshot_state(args.narrative, args.state_out)
+        # Stamp the send date so should_send.py won't fire a second email today,
+        # even if more matches finish later this UTC day.
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        with open(args.date_out, "w", encoding="utf-8") as f:
+            f.write(today + "\n")
+        print(f"  stamped send date: {today} -> {args.date_out}")
 
 
 if __name__ == "__main__":

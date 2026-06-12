@@ -3,13 +3,17 @@ name: Update standings from API-Football
 # Fetches live World Cup results, rescoring the pool, and commits the refreshed
 # JSON so the site (GitHub Pages / Netlify) redeploys automatically.
 #
-# Runs once nightly during the tournament window and on demand. Until API-Football
-# populates the 2026 season, the fetch returns 0 matches and nothing is committed —
-# safe to leave running.
+# Runs every 3 hours during the tournament window and on demand. A rest-day gate
+# (the `gate` job) skips the whole run when neither today nor yesterday has any
+# match in data/matches.csv, so off days cost nothing. Within a match day the
+# every-3h cadence catches results within ~3h of any final whistle; the email,
+# however, still sends at most once per UTC day (see the send gate). Until
+# API-Football populates the 2026 season, the fetch returns 0 matches and nothing
+# is committed — safe to leave running.
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # 05:00 UTC (01:00 ET) — single nightly run, catches all of the prior day's matches incl. latest kickoffs
+    - cron: "0 */3 * * *"   # every 3 hours UTC — catches results within ~3h of any final whistle (rest days are skipped by the gate job)
   workflow_dispatch:
     inputs:
       season:
@@ -24,7 +28,36 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Rest-day gate: with the every-3h cron, most fires land on days with no soccer.
+  # Skip the entire run unless today OR yesterday has a match in data/matches.csv
+  # (yesterday covers late finals that cross midnight UTC). Manual dispatch always
+  # runs. This is the single switch that keeps off-day runs free.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual dispatch — running regardless of schedule."
+            exit 0
+          fi
+          TODAY=$(date -u +%F)
+          YDAY=$(date -u -d 'yesterday' +%F)
+          if grep -q "^$TODAY," data/matches.csv || grep -q "^$YDAY," data/matches.csv; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Match today ($TODAY) or yesterday ($YDAY) — running the pipeline."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "No match today ($TODAY) or yesterday ($YDAY) — rest day, skipping the run."
+          fi
+
   update:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -117,20 +150,21 @@ jobs:
           python email/build_email_payload.py --date "$(date -u +%F)" \
             --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
       - name: Email send gate
-        # One place decides whether today actually sends: past kickoff AND a payload
-        # exists AND today is a configured send date. The hero-image generation, the
-        # Pages-deploy wait, and the send itself all key off this single output — so we
-        # never spend a (paid) Gemini call generating art on a night we won't email.
+        # One place decides whether THIS run actually sends. With the every-3h cron the
+        # gate is no longer just "today is a send date" — email/should_send.py also
+        # requires: at/after 05:00 UTC, NEW scored results since the last email
+        # (narrative_state vs last_sent_state), AND not already emailed today
+        # (last_send_date.txt). So exactly one email goes out per UTC day, promptly
+        # after the evening's finals land. The hero-image generation, the Pages-deploy
+        # wait, and the send itself all key off this single output — so we never spend a
+        # (paid) Gemini call generating art on a run we won't email.
         id: sendgate
         if: steps.kickoff.outputs.run == 'true'
         run: |
-          TODAY=$(date -u +%F)
-          if [ -f email/payload.json ] && python -c "import json,sys; cfg=json.load(open('email/config.json')); sys.exit(0 if '$TODAY' in cfg['send_dates'] else 1)"; then
+          if python email/should_send.py; then
             echo "send=true"  >> "$GITHUB_OUTPUT"
-            echo "$TODAY is a send date and a payload exists — will send."
           else
             echo "send=false" >> "$GITHUB_OUTPUT"
-            echo "$TODAY is not a send date (or no payload) — no email today."
           fi
       - name: Generate hero image
         # Runs ONLY on send nights, AFTER the payload is built and BEFORE the commit
@@ -189,13 +223,16 @@ jobs:
         run: |
           python email/send_email.py
       - name: Commit email delta baseline
-        # AFTER the send: persist last_sent_state.json (refreshed only on a successful
-        # send) so the next email's rank movement is measured "since this email."
+        # AFTER the send: persist last_sent_state.json (the rank-delta baseline) and
+        # last_send_date.txt (the once-per-day send marker). Both are refreshed only on
+        # a successful send, so the next run sees "already emailed today" and the next
+        # email measures movement "since this email."
         if: steps.sendgate.outputs.send == 'true'
         run: |
           git config user.name  "wc-challenge-bot"
           git config user.email "actions@github.com"
           if [ -f email/last_sent_state.json ]; then git add email/last_sent_state.json; fi
+          if [ -f email/last_send_date.txt ]; then git add email/last_send_date.txt; fi
           if git diff --staged --quiet; then
             echo "No email baseline change."
           else
