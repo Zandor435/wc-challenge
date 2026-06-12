@@ -232,7 +232,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 }
 
 /* COVER ART — match-cover (16:9) or clash banner (3:1) as a card-top image header.
-   For a clash, the gold OWNER CLASH badge overlays the banner's lower edge. */
+   For a clash, the gold OWNER CLASH badge overlays the banner's lower edge. Both display
+   at their natural aspect (the clash banner's two owners sit on the left/right halves, so
+   the card shows the whole banner — no crop — and both faces read clearly). */
 .tm-cover { position: relative; line-height: 0; background: #0c0e14; border-bottom: 1px solid var(--line); }
 .tm-cover-img { display: block; width: 100%; height: auto; }
 .tm-cover-badge {
