@@ -63,6 +63,23 @@
             "DRAW: Canada (Gunner) +1 (draw)",
             "DRAW: Bosnia (Devin) +1 (draw)"
           ]
+        },
+        {
+          "date": "2026-06-12",
+          "stage": "group",
+          "round": null,
+          "home": "USA",
+          "away": "Paraguay",
+          "home_score": 4,
+          "away_score": 1,
+          "score": "USA 4-1 Paraguay",
+          "points": {
+            "Devin": 3.0
+          },
+          "math": [
+            "WIN: USA (Devin, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Paraguay (T3) undrafted, no points"
+          ]
         }
       ]
     }

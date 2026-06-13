@@ -4,17 +4,17 @@
   "source": "worldcup26.ir live games",
   "standings": [
     {
-      "owner": "Gayden",
-      "total_points": 3,
+      "owner": "Devin",
+      "total_points": 4,
       "breakdown": {
-        "match": 3.0,
+        "match": 4.0,
         "upset": 0,
         "advancement": 0
       },
       "rank": 1
     },
     {
-      "owner": "Rafe",
+      "owner": "Gayden",
       "total_points": 3,
       "breakdown": {
         "match": 3.0,
@@ -24,10 +24,10 @@
       "rank": 2
     },
     {
-      "owner": "Devin",
-      "total_points": 1,
+      "owner": "Rafe",
+      "total_points": 3,
       "breakdown": {
-        "match": 1.0,
+        "match": 3.0,
         "upset": 0,
         "advancement": 0
       },
