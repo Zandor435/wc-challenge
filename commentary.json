@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-13T18:34:28Z",
-  "source": "daily_results_2026-06-12",
-  "date": "2026-06-13",
-  "rotation": 2,
+  "generated": "2026-06-13T21:31:44Z",
+  "source": "daily_results_2026-06-13",
+  "date": "2026-06-14",
+  "rotation": 3,
   "pundit": {
-    "name": "Clint Dempsey",
-    "tone": "chill",
-    "color": "#28c060",
-    "take": "**Mustard Boy Zach's Saudi Arabia pick is puttin' him on a rollercoaster to rock bottom.** Now he's bankin' on Brazil to save him against Morocco. Zach thought oil money meant goals, but he's been watchin' too many telenovelas. Brazil’s recent form has been solid, but let’s be real, watching Zach’s fantasy team is like watchin’ a squirrel try to solve a Rubik’s cube. Meanwhile, Bubba G Gunner’s puttin’ his faith in Morocco like he’s got some secret camel training regimen we don’t know about. But hey, with Gunner’s knack for draftin' DR Congo, I wouldn’t be surprised if Morocco shows up with sombreros. I'm backin' Brazil to dribble their way to a clean 3-0 stompin'. Mustard Boy's gonna need more than ketchup to catch up."
+    "name": "Alexi Lalas",
+    "tone": "bombastic",
+    "color": "#f4a423",
+    "take": "**Let me tell you something, \"The Noisemaker,\" you've got all the chaos of a teenager who picked three teams that didn't even qualify, yet you're tied for third—what does that say about the rest of you?!** Devin, look at me. LOOK AT ME. You're sitting pretty in first place with a whopping total of 4 points, thanks to your selection of Bosnia, who might as well be an imaginary team for all the good they’ve done you. How you snagged that top spot is more a comment on the abysmal performances of the other so-called \"managers\" than any brilliant strategy on your part. Gayden, \"The Backpass Assassin,\" your cunning play of England and Japan has kept you afloat with Gayden-style calmness, but you're still not stepping up to the plate, buddy! And Gunner, \"Bubba G,\" what happened to your French flair? A measly point in the standings is a crime against the fantasy World Cup gods! Oh, and \"Mustard Boy\" Zach, your midfield selections are a weak condiment on the hotdog of global soccer, my friend. Switzerland's draw with Qatar was your sole savior, barely inching you into the realm of relevancy with one sad little point. The standings right now are a reflection of the grit and toughness of 1994 U.S. soccer, and believe me, boys, most of you fall very short. The moral of the story? When you aim for the stars, at least don’t trip over the curb."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach confident as Switzerland set to face undrafted Qatar",
-      "subtitle": "Hopes this is finally the match that earns him points.",
+      "headline": "Zach's Brazil Pick Remains Spectator as Switzerland Settles for Draw",
+      "subtitle": "Mustard Boy's strategy is as tangy as it is effective.",
       "match": "Qatar vs Switzerland",
-      "date": "2026-06-13"
+      "date": "2026-06-14"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy banking on Brazil to boost zero-point campaign",
-      "subtitle": "Even a loss could arguably be an improvement.",
-      "match": "Brazil vs Morocco",
-      "date": "2026-06-13"
+      "headline": "Backpass Assassin's Japan Poised for Showdown with Dutch Masters",
+      "subtitle": "Gayden hopes Japanese precision can handle the Oranje creativity.",
+      "match": "Netherlands vs Japan",
+      "date": "2026-06-14"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper leads standings with points from USA victory",
-      "subtitle": "Devin's strategy: Draft home team, watch it thrive.",
-      "match": "USA vs Paraguay",
-      "date": "2026-06-13"
+      "headline": "Rafe's Undrafted Masters Set to Embarrass Ivory Coast and Backpass",
+      "subtitle": "The Noisemaker banks on Ecuador making Gayden's day quieter.",
+      "match": "Ivory Coast vs Ecuador",
+      "date": "2026-06-14"
     },
     {
       "pundit": "lalas",
-      "headline": "Backpass Assassin set to gamble on Turkey against Australia",
-      "subtitle": "Gayden's cunning tactic of drafting obscure teams put to test.",
-      "match": "Australia vs Turkey",
-      "date": "2026-06-13"
+      "headline": "Bubba G Clings to Hope as DR Congo Lurks at the Bottom",
+      "subtitle": "Gunner still waiting for his tier four miracle.",
+      "match": "Group F Preview",
+      "date": "2026-06-14"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach living rent-free at the basement, win rate at a staggering zero percent.",
-    "Rafe's Tier-1 pick Germany is his only lifeline in a sea of chaos.",
-    "Rafe gave Devin a -3 reality check, courtesy of little experience, big results.",
-    "Sim had Gunner as favorite; Rafe's teenage chaos magic called its bluff."
+    "Gayden's Korea Republic is his best and worst team? Guess it's all or nothing.",
+    "Rafe's Tier-1 Germany is his only lifeline; way to draft in the dark.",
+    "Rafe smacks down Devin's South Africa with a 3-point swing. Rookie's got moves!",
+    "The sim's as shaky as Gunner's chances; favorite until a kid showed up."
   ]
 }

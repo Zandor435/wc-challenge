@@ -82,6 +82,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-13",
+      "matches": [
+        {
+          "date": "2026-06-13",
+          "stage": "group",
+          "round": null,
+          "home": "Qatar",
+          "away": "Switzerland",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Qatar 1-1 Switzerland",
+          "points": {
+            "Zach": 1.0
+          },
+          "math": [
+            "DRAW: Qatar undrafted, no points",
+            "DRAW: Switzerland (Zach) +1 (draw)"
+          ]
+        }
+      ]
     }
   ]
 }

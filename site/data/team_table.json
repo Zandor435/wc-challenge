@@ -231,9 +231,9 @@
       "owner": "Zach",
       "tier": 2,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 0,
-      "points": 0
+      "points": 1.0
     },
     {
       "team": "Austria",

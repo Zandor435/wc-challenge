@@ -1,14 +1,14 @@
 {
-  "generated": "2026-06-13T18:34:28Z",
+  "generated": "2026-06-13T21:31:44Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Group Stage",
     "is_preseason": false,
-    "matchdays_played": 2,
-    "matches_played": 4,
-    "matches_remaining": 100,
+    "matchdays_played": 3,
+    "matches_played": 5,
+    "matches_remaining": 99,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -16,28 +16,28 @@
     "Zach": {
       "rank": 5,
       "rank_change_from_prev_day": 0,
-      "total_points": 0,
-      "points_today": 0,
+      "total_points": 1,
+      "points_today": 1,
       "record": {
         "W": 0,
-        "D": 0,
+        "D": 1,
         "L": 1
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.12,
+      "win_probability": 0.17,
+      "champion_probability": 0.11,
       "streak": {
-        "type": "L",
+        "type": "D",
         "length": 1,
-        "label": "L1"
+        "label": "D1"
       },
       "best_team": {
-        "team": "Czechia",
-        "tier": 3,
-        "points": 0,
+        "team": "Switzerland",
+        "tier": 2,
+        "points": 1,
         "record": {
           "W": 0,
-          "D": 0,
-          "L": 1
+          "D": 1,
+          "L": 0
         }
       },
       "worst_team": {
@@ -55,13 +55,13 @@
       "rank": 4,
       "rank_change_from_prev_day": 0,
       "total_points": 1,
-      "points_today": 1,
+      "points_today": 0,
       "record": {
         "W": 0,
         "D": 1,
         "L": 0
       },
-      "win_probability": 0.25,
+      "win_probability": 0.26,
       "champion_probability": 0.15,
       "streak": {
         "type": "D",
@@ -91,7 +91,7 @@
     },
     "Gayden": {
       "rank": 2,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 3,
       "points_today": 0,
       "record": {
@@ -99,7 +99,7 @@
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.19,
+      "win_probability": 0.2,
       "champion_probability": 0.12,
       "streak": {
         "type": "W",
@@ -129,9 +129,9 @@
     },
     "Devin": {
       "rank": 1,
-      "rank_change_from_prev_day": 2,
+      "rank_change_from_prev_day": 0,
       "total_points": 4,
-      "points_today": 4,
+      "points_today": 0,
       "record": {
         "W": 1,
         "D": 1,
@@ -167,7 +167,7 @@
     },
     "Rafe": {
       "rank": 3,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 3,
       "points_today": 0,
       "record": {
@@ -176,7 +176,7 @@
         "L": 0
       },
       "win_probability": 0.17,
-      "champion_probability": 0.09,
+      "champion_probability": 0.1,
       "streak": {
         "type": "W",
         "length": 1,
@@ -313,6 +313,17 @@
         "Devin": 4,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 3,
+      "date": "2026-06-13",
+      "points": {
+        "Zach": 1,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
@@ -333,10 +344,16 @@
   ],
   "themes": [
     {
-      "tag": "Devin surge",
-      "owner": "Devin",
-      "kind": "surge",
-      "description": "Devin jumped 2 spots in the standings on the latest matchday."
+      "tag": "Zach drought",
+      "owner": "Zach",
+      "kind": "drought",
+      "description": "Zach still has zero team wins after 3 matchdays."
+    },
+    {
+      "tag": "Gunner drought",
+      "owner": "Gunner",
+      "kind": "drought",
+      "description": "Gunner still has zero team wins after 3 matchdays."
     }
   ],
   "golden_boot_leader": {
@@ -370,11 +387,11 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -1,
+        "Zach": 0,
         "Gunner": -3,
         "Gayden": 2,
         "Devin": -1,
-        "Rafe": 3
+        "Rafe": 2
       }
     },
     {
@@ -406,6 +423,37 @@
         "Gayden": -1,
         "Devin": 2,
         "Rafe": -1
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "points": {
+        "Zach": 1,
+        "Gunner": 1,
+        "Gayden": 3,
+        "Devin": 4,
+        "Rafe": 3
+      },
+      "points_today": {
+        "Zach": 1,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Devin": 1,
+        "Gayden": 2,
+        "Rafe": 3,
+        "Gunner": 4,
+        "Zach": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
       }
     }
   ]

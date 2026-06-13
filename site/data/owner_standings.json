@@ -45,9 +45,9 @@
     },
     {
       "owner": "Zach",
-      "total_points": 0,
+      "total_points": 1,
       "breakdown": {
-        "match": 0.0,
+        "match": 1.0,
         "upset": 0,
         "advancement": 0
       },

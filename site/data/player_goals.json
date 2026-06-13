@@ -11,12 +11,20 @@
       "rank": 1
     },
     {
+      "player": "Breel Embolo",
+      "team": "Switzerland",
+      "owner": "Zach",
+      "goals": 1,
+      "penalties": 1,
+      "rank": 2
+    },
+    {
       "player": "C. Larin",
       "team": "Canada",
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 2
+      "rank": 3
     },
     {
       "player": "G. Reyna",
@@ -24,7 +32,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 3
+      "rank": 4
     },
     {
       "player": "H.G. Oh",
@@ -32,7 +40,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 4
+      "rank": 5
     },
     {
       "player": "I.B. Hwang",
@@ -40,7 +48,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 5
+      "rank": 6
     },
     {
       "player": "J. Quiñones",
@@ -48,7 +56,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 6
+      "rank": 7
     },
     {
       "player": "Jovo Lukić",
@@ -56,7 +64,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "player": "L. Krejčí",
@@ -64,7 +72,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "player": "R. Jiménez",
@@ -72,7 +80,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 9
+      "rank": 10
     }
   ]
 }
