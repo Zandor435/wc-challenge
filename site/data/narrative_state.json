@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T01:00:32Z",
+  "generated": "2026-06-14T04:35:09Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 3,
-    "matches_played": 6,
-    "matches_remaining": 98,
+    "matches_played": 7,
+    "matches_remaining": 97,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -24,7 +24,7 @@
         "L": 1
       },
       "win_probability": 0.17,
-      "champion_probability": 0.12,
+      "champion_probability": 0.13,
       "streak": {
         "type": "D",
         "length": 2,
@@ -61,7 +61,7 @@
         "D": 2,
         "L": 0
       },
-      "win_probability": 0.25,
+      "win_probability": 0.26,
       "champion_probability": 0.16,
       "streak": {
         "type": "D",
@@ -90,8 +90,8 @@
       }
     },
     "Gayden": {
-      "rank": 2,
-      "rank_change_from_prev_day": 0,
+      "rank": 3,
+      "rank_change_from_prev_day": -1,
       "total_points": 3,
       "points_today": 0,
       "record": {
@@ -100,7 +100,7 @@
         "L": 0
       },
       "win_probability": 0.2,
-      "champion_probability": 0.12,
+      "champion_probability": 0.11,
       "streak": {
         "type": "W",
         "length": 1,
@@ -128,21 +128,21 @@
       }
     },
     "Devin": {
-      "rank": 1,
-      "rank_change_from_prev_day": 0,
+      "rank": 2,
+      "rank_change_from_prev_day": -1,
       "total_points": 4,
       "points_today": 0,
       "record": {
         "W": 1,
         "D": 1,
-        "L": 1
+        "L": 2
       },
       "win_probability": 0.21,
-      "champion_probability": 0.15,
+      "champion_probability": 0.16,
       "streak": {
-        "type": "W",
+        "type": "L",
         "length": 1,
-        "label": "W1"
+        "label": "L1"
       },
       "best_team": {
         "team": "USA",
@@ -166,12 +166,12 @@
       }
     },
     "Rafe": {
-      "rank": 3,
-      "rank_change_from_prev_day": 0,
-      "total_points": 3,
-      "points_today": 0,
+      "rank": 1,
+      "rank_change_from_prev_day": 2,
+      "total_points": 6,
+      "points_today": 3,
       "record": {
-        "W": 1,
+        "W": 2,
         "D": 0,
         "L": 0
       },
@@ -179,8 +179,8 @@
       "champion_probability": 0.09,
       "streak": {
         "type": "W",
-        "length": 1,
-        "label": "W1"
+        "length": 2,
+        "label": "W2"
       },
       "best_team": {
         "team": "Mexico",
@@ -207,7 +207,7 @@
   "head_to_head_matrix": {
     "Rafe": {
       "Devin": {
-        "W": 1,
+        "W": 2,
         "D": 0,
         "L": 0
       }
@@ -216,7 +216,7 @@
       "Rafe": {
         "W": 0,
         "D": 0,
-        "L": 1
+        "L": 2
       },
       "Gunner": {
         "W": 0,
@@ -283,6 +283,14 @@
       "date": "2026-06-12"
     },
     {
+      "result": "win",
+      "winner": "Rafe",
+      "loser": "Devin",
+      "via": "Scotland beat Haiti",
+      "match": "Haiti 0-1 Scotland",
+      "date": "2026-06-13"
+    },
+    {
       "result": "draw",
       "owners": [
         "Gunner",
@@ -294,10 +302,10 @@
   ],
   "h2h_differential": {
     "Rafe": {
-      "Devin": 3
+      "Devin": 6
     },
     "Devin": {
-      "Rafe": -3,
+      "Rafe": -6,
       "Gunner": 0
     },
     "Gayden": {
@@ -343,7 +351,7 @@
         "Gunner": 1,
         "Gayden": 0,
         "Devin": 0,
-        "Rafe": 0
+        "Rafe": 3
       }
     }
   ],
@@ -375,6 +383,12 @@
       "owner": "Gunner",
       "kind": "drought",
       "description": "Gunner still has zero team wins after 3 matchdays."
+    },
+    {
+      "tag": "Rafe surge",
+      "owner": "Rafe",
+      "kind": "surge",
+      "description": "Rafe jumped 2 spots in the standings on the latest matchday."
     }
   ],
   "golden_boot_leader": {
@@ -408,11 +422,11 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": 0,
+        "Zach": -1,
         "Gunner": -3,
         "Gayden": 2,
         "Devin": -1,
-        "Rafe": 2
+        "Rafe": 3
       }
     },
     {
@@ -453,28 +467,28 @@
         "Gunner": 2,
         "Gayden": 3,
         "Devin": 4,
-        "Rafe": 3
+        "Rafe": 6
       },
       "points_today": {
         "Zach": 2,
         "Gunner": 1,
         "Gayden": 0,
         "Devin": 0,
-        "Rafe": 0
+        "Rafe": 3
       },
       "ranks": {
-        "Devin": 1,
-        "Gayden": 2,
-        "Rafe": 3,
+        "Rafe": 1,
+        "Devin": 2,
+        "Gayden": 3,
         "Gunner": 4,
         "Zach": 5
       },
       "rank_change": {
         "Zach": 0,
         "Gunner": 0,
-        "Gayden": 0,
-        "Devin": 0,
-        "Rafe": 0
+        "Gayden": -1,
+        "Devin": -1,
+        "Rafe": 2
       }
     }
   ]

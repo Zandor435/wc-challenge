@@ -90,6 +90,24 @@
           "date": "2026-06-13",
           "stage": "group",
           "round": null,
+          "home": "Haiti",
+          "away": "Scotland",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "Haiti 0-1 Scotland",
+          "points": {
+            "Rafe": 3.0,
+            "Devin": 0.0
+          },
+          "math": [
+            "WIN: Scotland (Rafe, T3) +3 (win) (no upset: favorite won)",
+            "LOSS: Haiti (Devin, T4) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-13",
+          "stage": "group",
+          "round": null,
           "home": "Brazil",
           "away": "Morocco",
           "home_score": 1,

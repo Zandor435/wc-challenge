@@ -52,8 +52,8 @@
       "tier": 4,
       "W": 0,
       "D": 0,
-      "L": 0,
-      "points": 0
+      "L": 1,
+      "points": 0.0
     },
     {
       "team": "England",
@@ -191,16 +191,16 @@
       "points": 0
     },
     {
-      "team": "Tunisia",
+      "team": "Scotland",
       "owner": "Rafe",
       "tier": 3,
-      "W": 0,
+      "W": 1,
       "D": 0,
       "L": 0,
-      "points": 0
+      "points": 3.0
     },
     {
-      "team": "Scotland",
+      "team": "Tunisia",
       "owner": "Rafe",
       "tier": 3,
       "W": 0,
