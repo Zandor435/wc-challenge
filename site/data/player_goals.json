@@ -43,12 +43,20 @@
       "rank": 5
     },
     {
+      "player": "I. Saibari",
+      "team": "Morocco",
+      "owner": "Gunner",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 6
+    },
+    {
       "player": "I.B. Hwang",
       "team": "Korea Republic",
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 6
+      "rank": 7
     },
     {
       "player": "J. Quiñones",
@@ -56,7 +64,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "player": "Jovo Lukić",
@@ -64,7 +72,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "player": "L. Krejčí",
@@ -72,7 +80,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "player": "R. Jiménez",
@@ -80,7 +88,15 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 10
+      "rank": 11
+    },
+    {
+      "player": "V. Júnior",
+      "team": "Brazil",
+      "owner": "Zach",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 12
     }
   ]
 }

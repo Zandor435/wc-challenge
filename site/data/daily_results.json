@@ -90,6 +90,24 @@
           "date": "2026-06-13",
           "stage": "group",
           "round": null,
+          "home": "Brazil",
+          "away": "Morocco",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Brazil 1-1 Morocco",
+          "points": {
+            "Zach": 1.0,
+            "Gunner": 1.0
+          },
+          "math": [
+            "DRAW: Brazil (Zach) +1 (draw)",
+            "DRAW: Morocco (Gunner) +1 (draw)"
+          ]
+        },
+        {
+          "date": "2026-06-13",
+          "stage": "group",
+          "round": null,
           "home": "Qatar",
           "away": "Switzerland",
           "home_score": 1,

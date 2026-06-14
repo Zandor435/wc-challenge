@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T21:31:44Z",
+  "generated": "2026-06-14T01:00:32Z",
   "source": "daily_results_2026-06-13",
   "date": "2026-06-14",
   "rotation": 3,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "**Let me tell you something, \"The Noisemaker,\" you've got all the chaos of a teenager who picked three teams that didn't even qualify, yet you're tied for third—what does that say about the rest of you?!** Devin, look at me. LOOK AT ME. You're sitting pretty in first place with a whopping total of 4 points, thanks to your selection of Bosnia, who might as well be an imaginary team for all the good they’ve done you. How you snagged that top spot is more a comment on the abysmal performances of the other so-called \"managers\" than any brilliant strategy on your part. Gayden, \"The Backpass Assassin,\" your cunning play of England and Japan has kept you afloat with Gayden-style calmness, but you're still not stepping up to the plate, buddy! And Gunner, \"Bubba G,\" what happened to your French flair? A measly point in the standings is a crime against the fantasy World Cup gods! Oh, and \"Mustard Boy\" Zach, your midfield selections are a weak condiment on the hotdog of global soccer, my friend. Switzerland's draw with Qatar was your sole savior, barely inching you into the realm of relevancy with one sad little point. The standings right now are a reflection of the grit and toughness of 1994 U.S. soccer, and believe me, boys, most of you fall very short. The moral of the story? When you aim for the stars, at least don’t trip over the curb."
+    "take": "**Gunner, you drafted like a man who forgot the World Cup doesn't feature club teams — what, PSG wasn't available?** Devin, you may be leading this circus with a measly 4 points, but let me tell you something, you're the dullest blade in the drawer. Your pick of Bosnia over, say, ANYONE of actual consequence is what happens when the Ghost Pepper lacks punch. Let's shift our attention to \"Bubba G\" Gunner, who thought drafting DR Congo would unleash some secret weapon — you might as well have picked the Harlem Globetrotters! As for Zach, \"Mustard Boy,\" are you feeling giddy about a tie between Brazil and Morocco? Sure, it gave you a point, but let me remind you, this is the World Cup, not a Sunday league. Watch out for Gayden, the \"Backpass Assassin,\" holding steady with 3 points — he's lurking like a quiet predator. Rafe, \"The Noisemaker,\" you’re somehow in third because chaos has a way of sticking around. But heed this, my little soccer rascals, it’s not about how you start, it’s how you flame out spectacularly. So tighten those cleats, because for most of you, this fantasy pool is already a sinking ship."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach's Brazil Pick Remains Spectator as Switzerland Settles for Draw",
-      "subtitle": "Mustard Boy's strategy is as tangy as it is effective.",
-      "match": "Qatar vs Switzerland",
+      "headline": "Zach's Brazil Fails to Win, Sinks to Last Place",
+      "subtitle": "Mustard Boy must learn draws don't add flavor to standings.",
+      "match": "Brazil vs Morocco",
       "date": "2026-06-14"
     },
     {
       "pundit": "donovan",
-      "headline": "Backpass Assassin's Japan Poised for Showdown with Dutch Masters",
-      "subtitle": "Gayden hopes Japanese precision can handle the Oranje creativity.",
+      "headline": "Gayden Poised for a Tactical Triumph Against Netherlands Today",
+      "subtitle": "The Backpass Assassin plans lethal sideways passes to secure second.",
       "match": "Netherlands vs Japan",
       "date": "2026-06-14"
     },
     {
       "pundit": "dempsey",
-      "headline": "Rafe's Undrafted Masters Set to Embarrass Ivory Coast and Backpass",
-      "subtitle": "The Noisemaker banks on Ecuador making Gayden's day quieter.",
-      "match": "Ivory Coast vs Ecuador",
+      "headline": "Gunner's Morocco Holds Brazil, But Still Trails in Standings",
+      "subtitle": "Bubba G's strategy: pick strong ties, sleep on the rest.",
+      "match": "Brazil vs Morocco",
       "date": "2026-06-14"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G Clings to Hope as DR Congo Lurks at the Bottom",
-      "subtitle": "Gunner still waiting for his tier four miracle.",
+      "headline": "Devin Leads Standings Despite Ghost Pepper's Flaccid Draws",
+      "subtitle": "With a lineup as spicy as boiled potatoes, still on top.",
       "match": "Group F Preview",
       "date": "2026-06-14"
     }
   ],
   "rome_analytics_quotes": [
-    "Gayden's Korea Republic is his best and worst team? Guess it's all or nothing.",
-    "Rafe's Tier-1 Germany is his only lifeline; way to draft in the dark.",
-    "Rafe smacks down Devin's South Africa with a 3-point swing. Rookie's got moves!",
-    "The sim's as shaky as Gunner's chances; favorite until a kid showed up."
+    "Rafe, 15 and clueless, still outshines Zach's veteran standings. Who's teaching who?",
+    "Zach, you depend on Brazil, who only got you 1 point so far. Ouch.",
+    "Rafe humbling Devin already? The kid's showing he's no pushover in family duels.",
+    "The sim still can't predict a 15-year-old blind-drafting underdog. Step up, tech."
   ]
 }

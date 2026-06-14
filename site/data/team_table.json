@@ -119,16 +119,16 @@
       "points": 0
     },
     {
-      "team": "Senegal",
+      "team": "Morocco",
       "owner": "Gunner",
       "tier": 2,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 0,
-      "points": 0
+      "points": 1.0
     },
     {
-      "team": "Morocco",
+      "team": "Senegal",
       "owner": "Gunner",
       "tier": 2,
       "W": 0,
@@ -222,9 +222,9 @@
       "owner": "Zach",
       "tier": 1,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 0,
-      "points": 0
+      "points": 1.0
     },
     {
       "team": "Switzerland",

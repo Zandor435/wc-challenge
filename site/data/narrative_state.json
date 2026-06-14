@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T21:31:44Z",
+  "generated": "2026-06-14T01:00:32Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 3,
-    "matches_played": 5,
-    "matches_remaining": 99,
+    "matches_played": 6,
+    "matches_remaining": 98,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -16,23 +16,23 @@
     "Zach": {
       "rank": 5,
       "rank_change_from_prev_day": 0,
-      "total_points": 1,
-      "points_today": 1,
+      "total_points": 2,
+      "points_today": 2,
       "record": {
         "W": 0,
-        "D": 1,
+        "D": 2,
         "L": 1
       },
       "win_probability": 0.17,
-      "champion_probability": 0.11,
+      "champion_probability": 0.12,
       "streak": {
         "type": "D",
-        "length": 1,
-        "label": "D1"
+        "length": 2,
+        "label": "D2"
       },
       "best_team": {
-        "team": "Switzerland",
-        "tier": 2,
+        "team": "Brazil",
+        "tier": 1,
         "points": 1,
         "record": {
           "W": 0,
@@ -54,23 +54,23 @@
     "Gunner": {
       "rank": 4,
       "rank_change_from_prev_day": 0,
-      "total_points": 1,
-      "points_today": 0,
+      "total_points": 2,
+      "points_today": 1,
       "record": {
         "W": 0,
-        "D": 1,
+        "D": 2,
         "L": 0
       },
-      "win_probability": 0.26,
-      "champion_probability": 0.15,
+      "win_probability": 0.25,
+      "champion_probability": 0.16,
       "streak": {
         "type": "D",
-        "length": 1,
-        "label": "D1"
+        "length": 2,
+        "label": "D2"
       },
       "best_team": {
-        "team": "Canada",
-        "tier": 3,
+        "team": "Morocco",
+        "tier": 2,
         "points": 1,
         "record": {
           "W": 0,
@@ -79,8 +79,8 @@
         }
       },
       "worst_team": {
-        "team": "Canada",
-        "tier": 3,
+        "team": "Morocco",
+        "tier": 2,
         "points": 1,
         "record": {
           "W": 0,
@@ -138,7 +138,7 @@
         "L": 1
       },
       "win_probability": 0.21,
-      "champion_probability": 0.16,
+      "champion_probability": 0.15,
       "streak": {
         "type": "W",
         "length": 1,
@@ -176,7 +176,7 @@
         "L": 0
       },
       "win_probability": 0.17,
-      "champion_probability": 0.1,
+      "champion_probability": 0.09,
       "streak": {
         "type": "W",
         "length": 1,
@@ -236,10 +236,20 @@
         "W": 0,
         "D": 0,
         "L": 1
+      },
+      "Gunner": {
+        "W": 0,
+        "D": 1,
+        "L": 0
       }
     },
     "Gunner": {
       "Devin": {
+        "W": 0,
+        "D": 1,
+        "L": 0
+      },
+      "Zach": {
         "W": 0,
         "D": 1,
         "L": 0
@@ -271,6 +281,15 @@
       ],
       "match": "Canada 1-1 Bosnia",
       "date": "2026-06-12"
+    },
+    {
+      "result": "draw",
+      "owners": [
+        "Gunner",
+        "Zach"
+      ],
+      "match": "Brazil 1-1 Morocco",
+      "date": "2026-06-13"
     }
   ],
   "h2h_differential": {
@@ -285,10 +304,12 @@
       "Zach": 3
     },
     "Zach": {
-      "Gayden": -3
+      "Gayden": -3,
+      "Gunner": 0
     },
     "Gunner": {
-      "Devin": 0
+      "Devin": 0,
+      "Zach": 0
     }
   },
   "matchday_point_history": [
@@ -318,8 +339,8 @@
       "matchday": 3,
       "date": "2026-06-13",
       "points": {
-        "Zach": 1,
-        "Gunner": 0,
+        "Zach": 2,
+        "Gunner": 1,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
@@ -327,7 +348,7 @@
     }
   ],
   "dependency_index": {
-    "Zach": 0,
+    "Zach": 0.5,
     "Gunner": 0,
     "Gayden": 0,
     "Devin": 0,
@@ -428,15 +449,15 @@
     {
       "date": "2026-06-13",
       "points": {
-        "Zach": 1,
-        "Gunner": 1,
+        "Zach": 2,
+        "Gunner": 2,
         "Gayden": 3,
         "Devin": 4,
         "Rafe": 3
       },
       "points_today": {
-        "Zach": 1,
-        "Gunner": 0,
+        "Zach": 2,
+        "Gunner": 1,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
