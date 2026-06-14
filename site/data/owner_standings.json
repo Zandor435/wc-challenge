@@ -5,9 +5,9 @@
   "standings": [
     {
       "owner": "Rafe",
-      "total_points": 6,
+      "total_points": 9,
       "breakdown": {
-        "match": 6.0,
+        "match": 9.0,
         "upset": 0,
         "advancement": 0
       },

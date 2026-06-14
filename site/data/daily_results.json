@@ -157,6 +157,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-14",
+      "matches": [
+        {
+          "date": "2026-06-14",
+          "stage": "group",
+          "round": null,
+          "home": "Germany",
+          "away": "Curacao",
+          "home_score": 7,
+          "away_score": 1,
+          "score": "Germany 7-1 Curacao",
+          "points": {
+            "Rafe": 3.0
+          },
+          "math": [
+            "WIN: Germany (Rafe, T1) +3 (win) (no upset: favorite won)",
+            "LOSS: Curacao (T4) undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }

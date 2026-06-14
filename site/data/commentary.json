@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-14T18:35:30Z",
-  "source": "daily_results_2026-06-13",
-  "date": "2026-06-14",
-  "rotation": 3,
+  "generated": "2026-06-14T21:32:13Z",
+  "source": "daily_results_2026-06-14",
+  "date": "2026-06-15",
+  "rotation": 4,
   "pundit": {
-    "name": "Alexi Lalas",
-    "tone": "bombastic",
-    "color": "#f4a423",
-    "take": "**Rafe the Noisemaker leads the pack while grown men flounder in his chaotic wake.**\n\nLet me tell you something, Devin, LOOK AT ME. You drafted Bosnia. This is a travesty! Meanwhile, The Noisemaker, a mere 15-year-old chaos merchant with more guts than the rest of you combined, is leading with teams that shouldn’t be anywhere near the top. That’s right, 6 points for Rafe and zilch from your Haiti picnic. Gayden, you're the Backpass Assassin, but currently you're stabbing yourself in the back! Sitting pretty in third with a monumental 3 points — you might as well hand out juice boxes and orange slices. Bubba G, Gunner, you’ve got France and managed only 2 points? What’s the matter? Did you mistake a fantasy pool for a relaxing day hike? And Mustard Boy, Zach, my man, you're burning brightly in dead last. Brazil can only take you so far when you’re dragging Saudi Arabia around like an anchor. Let’s face it, gentlemen — and I use that term loosely — the World Cup is no place for softness or excuses. This isn’t 1994, where making it to the knockout rounds was our American Dream, no sir — this is about grit, glory, and owning this challenge like a man. You’re all being outshone by a kid, and that, my friends, is the ultimate shame. Rafe, keep causing that beautiful chaos — you've got all these pretenders on their heels."
+    "name": "Eric Wynalda",
+    "tone": "arrogant",
+    "color": "#e2231a",
+    "take": "**Frankly, if I were as clueless as these managers, I'd hang up my boots.** Look, Germany's demolition of Curacao was child's play, but it vaults \"The Noisemaker\" Rafe to the top of the standings as if he's the second coming of Rinus Michels. It's almost laughable that this 15-year-old chaos merchant is outperforming everyone; it looks like Zach, a.k.a. \"Mustard Boy,\" might have thought he was selecting teams from FIFA video games rather than doing actual research. I mean, Saudi Arabia? Seriously? Did you even try? Devin, or \"Ghost Pepper,\" stands as the only competent one in this mess, holding firm with a well-rounded squad. As for \"Bubba G\" Gunner and his baffling picks—I'm just as confused as when I had to explain the offside rule to a referee. And let's not even get started on \"The Backpass Assassin\" Gayden, who seems to have drafted like he plans on parking the bus every game. This is a joke — a few of these managers should be worried more about booking a flight home than lifting a trophy."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Rafe's Streak Continues as Noisemaker Leads WC Challenge Standings",
-      "subtitle": "Teenager credits his ignorance for success, baffling more experienced managers.",
-      "match": "Group E Preview",
-      "date": "2026-06-14"
+      "headline": "Spain set to dominate Cape Verde as Devin plans victory dance",
+      "subtitle": "Ghost Pepper confident as he relies on Spain's top-tier strength.",
+      "match": "Spain vs Cape Verde",
+      "date": "2026-06-15"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden's Tier Two Turmoil: Japan Set to Face Netherlands",
-      "subtitle": "The Backpass Assassin's draft strategies questioned as Japan faces tough test.",
-      "match": "Netherlands vs Japan",
-      "date": "2026-06-14"
+      "headline": "Bubba G's Egypt poised for upset against Belgium",
+      "subtitle": "\"If anyone can do it, it's got to be someone,\" says Gunner.",
+      "match": "Belgium vs Egypt",
+      "date": "2026-06-15"
     },
     {
       "pundit": "dempsey",
-      "headline": "Mustard Boy Struggles After Switzerland Draw, Drops to Last Place",
-      "subtitle": "Zach's laid-back approach hits a snag with one point gains.",
-      "match": "Qatar vs Switzerland",
-      "date": "2026-06-14"
+      "headline": "Mustard Boy hopes for miracle as Saudi Arabia faces Uruguay",
+      "subtitle": "Zach's strategy: pray and hope for the best, plan C remains balsamic.",
+      "match": "Saudi Arabia vs Uruguay",
+      "date": "2026-06-15"
     },
     {
       "pundit": "lalas",
-      "headline": "Ghost Pepper's Risky Strategy Questioned as Haiti Falls to Scotland",
-      "subtitle": "Devin's bold picks fail to ignite, leaving him trailing at second place.",
-      "match": "Haiti vs Scotland",
-      "date": "2026-06-14"
+      "headline": "Rafe's Germany victory raises questions about experienced managers' competence",
+      "subtitle": "Noisemaker leads pool with zero soccer knowledge, sets new benchmark.",
+      "match": "Germany 7-1 Curacao",
+      "date": "2026-06-15"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe, the 15-year-old, tops the board. Left the adults chasing shadows.",
-    "Zach's Brazil is Tier-1, but can't win a match. Yellow jersey, yellow belly.",
-    "Rafe owns Devin 6-0. It's like watching a teen dismantle a weekend warrior.",
-    "Sim called Rafe competitive; the rest look like they're playing tic-tac-toe."
+    "Rafe's youth revolt: 15 years old, and now he's top of the leaderboard.",
+    "Rafe's Tier-3 teams outscoring Tier-1? Gayden's son drafted chaos and it worked.",
+    "Devin, stop losing to Rafe; kid already owns you with a 6-point gap.",
+    "Gunner was the favorite until Rafe gate-crashed; model can't predict teenage chaos."
   ]
 }

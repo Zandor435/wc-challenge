@@ -11,12 +11,20 @@
       "rank": 1
     },
     {
+      "player": "K. Havertz",
+      "team": "Germany",
+      "owner": "Rafe",
+      "goals": 2,
+      "penalties": 1,
+      "rank": 2
+    },
+    {
       "player": "Breel Embolo",
       "team": "Switzerland",
       "owner": "Zach",
       "goals": 1,
       "penalties": 1,
-      "rank": 2
+      "rank": 3
     },
     {
       "player": "C. Larin",
@@ -24,7 +32,23 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "player": "D. Undav",
+      "team": "Germany",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 5
+    },
+    {
+      "player": "Felix Nmecha",
+      "team": "Germany",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 6
     },
     {
       "player": "G. Reyna",
@@ -32,7 +56,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 4
+      "rank": 7
     },
     {
       "player": "H.G. Oh",
@@ -40,7 +64,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 5
+      "rank": 8
     },
     {
       "player": "I. Saibari",
@@ -48,7 +72,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 6
+      "rank": 9
     },
     {
       "player": "I.B. Hwang",
@@ -56,7 +80,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 7
+      "rank": 10
     },
     {
       "player": "J. McGinn",
@@ -64,7 +88,15 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 8
+      "rank": 11
+    },
+    {
+      "player": "J. Musiala",
+      "team": "Germany",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 12
     },
     {
       "player": "J. Quiñones",
@@ -72,7 +104,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 9
+      "rank": 13
     },
     {
       "player": "Jovo Lukić",
@@ -80,7 +112,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 10
+      "rank": 14
     },
     {
       "player": "L. Krejčí",
@@ -88,7 +120,23 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 11
+      "rank": 15
+    },
+    {
+      "player": "N. Brown",
+      "team": "Germany",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 16
+    },
+    {
+      "player": "N. Schlotterbeck",
+      "team": "Germany",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 17
     },
     {
       "player": "R. Jiménez",
@@ -96,7 +144,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 12
+      "rank": 18
     },
     {
       "player": "V. Júnior",
@@ -104,7 +152,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 13
+      "rank": 19
     }
   ]
 }
