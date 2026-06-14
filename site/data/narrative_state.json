@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T04:35:09Z",
+  "generated": "2026-06-14T07:42:16Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 3,
-    "matches_played": 7,
-    "matches_remaining": 97,
+    "matches_played": 8,
+    "matches_remaining": 96,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -24,7 +24,7 @@
         "L": 1
       },
       "win_probability": 0.17,
-      "champion_probability": 0.13,
+      "champion_probability": 0.12,
       "streak": {
         "type": "D",
         "length": 2,
@@ -62,7 +62,7 @@
         "L": 0
       },
       "win_probability": 0.26,
-      "champion_probability": 0.16,
+      "champion_probability": 0.15,
       "streak": {
         "type": "D",
         "length": 2,
@@ -97,14 +97,14 @@
       "record": {
         "W": 1,
         "D": 0,
-        "L": 0
+        "L": 1
       },
-      "win_probability": 0.2,
+      "win_probability": 0.18,
       "champion_probability": 0.11,
       "streak": {
-        "type": "W",
+        "type": "L",
         "length": 1,
-        "label": "W1"
+        "label": "L1"
       },
       "best_team": {
         "team": "Korea Republic",
@@ -117,13 +117,13 @@
         }
       },
       "worst_team": {
-        "team": "Korea Republic",
+        "team": "Turkey",
         "tier": 3,
-        "points": 3,
+        "points": 0,
         "record": {
-          "W": 1,
+          "W": 0,
           "D": 0,
-          "L": 0
+          "L": 1
         }
       }
     },
@@ -175,7 +175,7 @@
         "D": 0,
         "L": 0
       },
-      "win_probability": 0.17,
+      "win_probability": 0.18,
       "champion_probability": 0.09,
       "streak": {
         "type": "W",
@@ -422,11 +422,11 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -1,
+        "Zach": 0,
         "Gunner": -3,
-        "Gayden": 2,
+        "Gayden": 3,
         "Devin": -1,
-        "Rafe": 3
+        "Rafe": 1
       }
     },
     {
