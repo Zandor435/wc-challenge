@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T08:09:00Z",
+  "generated": "2026-06-15T11:09:36Z",
   "source": "daily_results_2026-06-14",
   "date": "2026-06-15",
   "rotation": 4,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Rafe, \"The Noisemaker\", leads the table, proving chaos knows no soccer logic.**\n\nRafe's sheer luck has him sitting pretty at the top with 9 points, thanks to Germany's thrashing of Curacao. But let's be honest, his first three picks didn't even qualify, so this kid couldn't spot talent if it dribbled past him with a neon sign. Gayden, or \"The Backpass Assassin,\" is foolishly proud of his meager 7 points, probably thinking that a draw with Japan is worth a trophy. Get real, mate. Meanwhile, poor Devin, with only 4 points, remains lost in the abyss, collecting teams like rare stamps — Bosnia and Haiti? Really? \"Mustard Boy\" Zach and \"Bubba G\" Gunner, scraping the bottom with 2 points each, are a joke. Zach's Brazil should have been a no-brainer ticket to the top, but pairing it with Saudi Arabia shows the insight of someone who drafts on FIFA autopilot. As for Gunner, he collects teams like DR Congo as if he's on a charity mission. Here's the verdict: Gayden's the only faint glimmer of competence in this circus, albeit just barely. The rest of you are touring the kiddie league of fantasy soccer — and from where I'm standing, that’s not how winning works, folks."
+    "take": "**\"The Noisemaker\" is leading the pack, proving that pure chaos sometimes beats out supposed 'strategy.'** Rafe, the 15-year-old wunderkind, sits atop the standings with a laughable but effective collection of nations. Meanwhile, \"Mustard Boy\" Zach is clinging to the bottom of the barrel with his two measly points. Selecting Brazil was a no-brainer, even for someone who clearly made picks based on name recognition from FIFA video games. But Switzerland, Austria, and Saudi Arabia? That's not how this works, kid. Over in Gayden's corner, \"The Backpass Assassin\" might have nicked a win with Ivory Coast, but relying on Japan to shake things up against Europe’s elite? That's rich. Devin — or \"Ghost Pepper\" — is just a step above the clueless, hanging onto his overpriced Spain pick like a safety blanket. Does anyone here know how to draft except Rafe? If I were these amateur managers, I'd spend less time tinkering with fantasy and more time learning the game — if they even watch it."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Rafe Tops WC Challenge Standings Despite Drafting Non-Qualifying Teams",
-      "subtitle": "15-year-old sets new strategy: ignorance over expertise in soccer pools.",
-      "match": "Group F Preview",
+      "headline": "Gayden's Ivory Coast Victory Secures Second Place, Family Bonding Time",
+      "subtitle": "The Backpass Assassin defies odds by explaining soccer to his son.",
+      "match": "Ivory Coast vs Ecuador",
       "date": "2026-06-15"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin's Spain Set to Thrive Against Undrafted Cape Verde",
-      "subtitle": "Ghost Pepper hopes to spice up his standings from third place.",
+      "headline": "Devin Confident Spain Will Triumph Despite Recent Georgia Tourism Focus",
+      "subtitle": "Ghost Pepper values Spanish flair over Atlanta's burgeoning hospitality industry.",
       "match": "Spain vs Cape Verde",
       "date": "2026-06-15"
     },
     {
       "pundit": "dempsey",
-      "headline": "Gunner's Egypt Poised for Tough Challenge Against Undrafted Belgium",
-      "subtitle": "Bubba G’s strategy relies on miracles over meticulous planning.",
+      "headline": "Gunner Optimistic As Egypt Set To Face Belgian Waffles",
+      "subtitle": "Bubba G trusts in Egypt's ability to digest a tough fixture.",
       "match": "Belgium vs Egypt",
       "date": "2026-06-15"
     },
     {
       "pundit": "lalas",
-      "headline": "Mustard Boy Counts on Saudi Arabia for Unlikely Upset Over Uruguay",
-      "subtitle": "Zach trusts in condiments over competition for soccer success.",
+      "headline": "Zach Bets on Mustard Boy Power in Miami Showdown",
+      "subtitle": "Saudi Arabia's mustard strategy questioned as Uruguay looms large.",
       "match": "Saudi Arabia vs Uruguay",
       "date": "2026-06-15"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's rookie chaos rises to the top, leaving seasoned vets scrambling for relevance.",
-    "Rafe's Tier-1 Germany saves his draft disaster with consistent Tier-3 backups.",
-    "Gayden schools his son Rafe, winning the father-son smackdown showdown by a tight 3 points.",
-    "Gunner's favorites stumble as the sim's crystal ball gets a reality check from Rafe."
+    "Rafe's chaos reigns supreme at the top, leaving veterans scrambling.",
+    "Zach's T1 savior Brazil has been a bigger bust than a piñata.",
+    "Devin's rivalry with Rafe looks like a big brother bullying match.",
+    "Sim pegged Rafe at 16%, now he's running the table like a prodigy."
   ]
 }
