@@ -251,6 +251,23 @@
             "DRAW: Spain (Devin) +1 (draw)",
             "DRAW: Cape Verde undrafted, no points"
           ]
+        },
+        {
+          "date": "2026-06-15",
+          "stage": "group",
+          "round": null,
+          "home": "Belgium",
+          "away": "Egypt",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Belgium 1-1 Egypt",
+          "points": {
+            "Gunner": 1.0
+          },
+          "math": [
+            "DRAW: Belgium undrafted, no points",
+            "DRAW: Egypt (Gunner) +1 (draw)"
+          ]
         }
       ]
     }
