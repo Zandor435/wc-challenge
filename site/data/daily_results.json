@@ -165,6 +165,24 @@
           "date": "2026-06-14",
           "stage": "group",
           "round": null,
+          "home": "Ivory Coast",
+          "away": "Ecuador",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "Ivory Coast 1-0 Ecuador",
+          "points": {
+            "Gayden": 3.0,
+            "Rafe": 0.0
+          },
+          "math": [
+            "WIN: Ivory Coast (Gayden, T2) +3 (win) (no upset: equal tier)",
+            "LOSS: Ecuador (Rafe, T2) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-14",
+          "stage": "group",
+          "round": null,
           "home": "Germany",
           "away": "Curacao",
           "home_score": 7,
@@ -176,6 +194,40 @@
           "math": [
             "WIN: Germany (Rafe, T1) +3 (win) (no upset: favorite won)",
             "LOSS: Curacao (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-14",
+          "stage": "group",
+          "round": null,
+          "home": "Netherlands",
+          "away": "Japan",
+          "home_score": 2,
+          "away_score": 2,
+          "score": "Netherlands 2-2 Japan",
+          "points": {
+            "Gayden": 1.0
+          },
+          "math": [
+            "DRAW: Netherlands undrafted, no points",
+            "DRAW: Japan (Gayden) +1 (draw)"
+          ]
+        },
+        {
+          "date": "2026-06-14",
+          "stage": "group",
+          "round": null,
+          "home": "Sweden",
+          "away": "Tunisia",
+          "home_score": 5,
+          "away_score": 1,
+          "score": "Sweden 5-1 Tunisia",
+          "points": {
+            "Rafe": 0.0
+          },
+          "math": [
+            "WIN: Sweden (T2) undrafted, no points",
+            "LOSS: Tunisia (Rafe, T3) +0 (loss)"
           ]
         }
       ]

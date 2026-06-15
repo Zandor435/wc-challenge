@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T21:32:13Z",
+  "generated": "2026-06-15T04:36:41Z",
   "source": "daily_results_2026-06-14",
   "date": "2026-06-15",
   "rotation": 4,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Frankly, if I were as clueless as these managers, I'd hang up my boots.** Look, Germany's demolition of Curacao was child's play, but it vaults \"The Noisemaker\" Rafe to the top of the standings as if he's the second coming of Rinus Michels. It's almost laughable that this 15-year-old chaos merchant is outperforming everyone; it looks like Zach, a.k.a. \"Mustard Boy,\" might have thought he was selecting teams from FIFA video games rather than doing actual research. I mean, Saudi Arabia? Seriously? Did you even try? Devin, or \"Ghost Pepper,\" stands as the only competent one in this mess, holding firm with a well-rounded squad. As for \"Bubba G\" Gunner and his baffling picks—I'm just as confused as when I had to explain the offside rule to a referee. And let's not even get started on \"The Backpass Assassin\" Gayden, who seems to have drafted like he plans on parking the bus every game. This is a joke — a few of these managers should be worried more about booking a flight home than lifting a trophy."
+    "take": "**The Noisemaker Rafe is leading because the rest of you draft like you’re playing FIFA on beginner mode.** Look, when a 15-year-old kid picks Germany, Mexico, and Scotland and sits atop the standings with 9 points, it’s either sheer luck or a case of you clowns playing checkers while he’s playing chess. The Backpass Assassin, aka Gayden, is at least hanging around the top with his England and Japan choices, but let's be real: he's just playing not to lose. Ghost Pepper Devin, on the other hand, must believe Spain alone can carry his hodgepodge to glory because with 4 points, he’s as hot as a cool breeze in November. As for Mustard Boy Zach and Bubba G Gunner, sitting pretty with a whopping 2 points each, it’s almost like they glanced at the FIFA rankings and picked teams by preference of jersey color. Bubba G, what were you thinking with DR Congo? Do you even watch soccer, or do you just enjoy saying the names out loud? Zach, anyone drafting Austria without a time machine to 1978 is clearly out of their depth. Enjoy the view from the bottom, lads—because that’s where you’ll stay."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Spain set to dominate Cape Verde as Devin plans victory dance",
-      "subtitle": "Ghost Pepper confident as he relies on Spain's top-tier strength.",
-      "match": "Spain vs Cape Verde",
-      "date": "2026-06-15"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Bubba G's Egypt poised for upset against Belgium",
-      "subtitle": "\"If anyone can do it, it's got to be someone,\" says Gunner.",
-      "match": "Belgium vs Egypt",
-      "date": "2026-06-15"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Mustard Boy hopes for miracle as Saudi Arabia faces Uruguay",
-      "subtitle": "Zach's strategy: pray and hope for the best, plan C remains balsamic.",
+      "headline": "Mustard Boy Poised to Lose Another as Saudi Arabia Faces Uruguay",
+      "subtitle": "Zach's T4 team hopes for a miracle against undrafted opponents.",
       "match": "Saudi Arabia vs Uruguay",
       "date": "2026-06-15"
     },
     {
+      "pundit": "donovan",
+      "headline": "Backpass Assassin Secures Top Two Standing with Japan's Stalemate",
+      "subtitle": "Gayden gains strategic points despite Rafe's meteoric rise.",
+      "match": "Netherlands vs Japan",
+      "date": "2026-06-15"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Ghost Pepper Confident Spain Will Burn Cape Verde in Atlanta",
+      "subtitle": "Devin's T1 pick set to heat up Group H.",
+      "match": "Spain vs Cape Verde",
+      "date": "2026-06-15"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Rafe's Germany victory raises questions about experienced managers' competence",
-      "subtitle": "Noisemaker leads pool with zero soccer knowledge, sets new benchmark.",
-      "match": "Germany 7-1 Curacao",
+      "headline": "Bubba G Hopes to Leapfrog Standings as Egypt Faces Belgium",
+      "subtitle": "Gunner's T3 team aims for a much-needed win in Seattle.",
+      "match": "Belgium vs Egypt",
       "date": "2026-06-15"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's youth revolt: 15 years old, and now he's top of the leaderboard.",
-    "Rafe's Tier-3 teams outscoring Tier-1? Gayden's son drafted chaos and it worked.",
-    "Devin, stop losing to Rafe; kid already owns you with a 6-point gap.",
-    "Gunner was the favorite until Rafe gate-crashed; model can't predict teenage chaos."
+    "Zach and Gunner: the kings of stalemates with no wins after 4 matchdays!",
+    "Rafe's draft disaster turned him into a league leader. Beginner's luck or pure chaos?",
+    "Rafe is Devin's kryptonite, crushing him 6-0 on points. Ouch!",
+    "Gunner liked being the favorite until Rafe showed up, now he's just a draw machine."
   ]
 }
