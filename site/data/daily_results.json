@@ -231,6 +231,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-15",
+      "matches": [
+        {
+          "date": "2026-06-15",
+          "stage": "group",
+          "round": null,
+          "home": "Spain",
+          "away": "Cape Verde",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "Spain 0-0 Cape Verde",
+          "points": {
+            "Devin": 1.0
+          },
+          "math": [
+            "DRAW: Spain (Devin) +1 (draw)",
+            "DRAW: Cape Verde undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }

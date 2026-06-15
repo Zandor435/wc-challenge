@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-15T14:13:34Z",
-  "source": "daily_results_2026-06-14",
-  "date": "2026-06-15",
-  "rotation": 4,
+  "generated": "2026-06-15T19:24:36Z",
+  "source": "daily_results_2026-06-15",
+  "date": "2026-06-16",
+  "rotation": 5,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "**Rafe, \"The Noisemaker,\" is running this circus, and it's clear most of you are trying to juggle with no balls.** Look, it's comical that Rafe's topping the standings with 9 points because three of his first picks didn't even qualify, yet he's leading this clown show. Meanwhile, Zach — or \"Mustard Boy\" — is stuck at the bottom with 2 points. This guy drafted Brazil and somehow still managed to screw up royally with teams like Saudi Arabia and Austria. You'd think he'd gone shopping in a bargain bin of outdated FIFA video game rosters. Then there's Gunner, or \"Bubba G\", trailing with an equally pathetic 2 points, despite having a powerhouse like France. Even with Senegal and Morocco, it's as if he's determined to show us he's clueless about World Cup performances. You know, back when I played, we had this thing called understanding the game. Maybe some of these managers could give that a whirl. Gayden, \"The Backpass Assassin,\" with 7 points, at least has England and Ivory Coast carrying some weight — but let's not book the victory parade just yet. Devin's choices have him marooned in mediocrity with 4 points, saved only by Spain's reputation. Seriously, the only one who's not a total disaster is Rafe, and he's practically throwing darts blindfolded."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "**I get why people think soccer might be \"The Noisemaker's\" next big thing, but let's be honest, Rafe is an accidental tourist in the beautiful game.** Somehow, he leads the pack with a team that includes three squads that didn't even qualify for the World Cup, which says a lot about luck playing favorites when you know nothing about soccer. Meanwhile, poor Gayden, \"The Backpass Assassin,\" drafted with his head high on strategy, yet he's predictably second, chasing a mirage of a first-place finish he probably envisioned over a nice warm-up jog. As Austria, Zach's \"Mustard Boy\" brainchild, goes toe-to-toe with Jordan, it's hard not to feel for Zach, too. I mean, he's the kind of manager that picks Ghana thinking they're a sure bet in T3 but stumbles down to last place. Look, it could be a close match, but I'm confident Austria will prevail, given Jordan's lackluster performance on the world stage. Predicting a draw in the France vs. Senegal match feels like a safe bet; Gunner's \"Bubba G\" can enjoy watching both his sides unable to outshine each other. Perhaps one day they’ll reflect on this and realize drafting DR Congo was a questionable call at best."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Ghost Pepper Devin hopes Spain will spice up his score",
-      "subtitle": "Devin banking on Tier 1 team with zero upsets so far.",
-      "match": "Spain vs Cape Verde",
-      "date": "2026-06-15"
+      "headline": "Rafe tops WC Challenge standings, proving ignorance is strategic advantage",
+      "subtitle": "'The Noisemaker' leads with a team that didn't even qualify",
+      "match": "Group I Preview",
+      "date": "2026-06-16"
     },
     {
       "pundit": "donovan",
-      "headline": "Bubba G's Egypt poised for a rare score against Belgium",
-      "subtitle": "Gunner's excitement might melt like an iceberg in Seattle.",
-      "match": "Belgium vs Egypt",
-      "date": "2026-06-15"
+      "headline": "Mustard Boy's Austrian squad set to face Jordan in battle of drafts",
+      "subtitle": "Zach was heard asking if Austria is the capital of Australia",
+      "match": "Austria vs Jordan",
+      "date": "2026-06-16"
     },
     {
       "pundit": "dempsey",
-      "headline": "Mustard Boy Zach betting on Saudi Arabia's unlikely miracle",
-      "subtitle": "Zach dreams of Saudi Arabia's Tier 4 breakthrough in Miami.",
-      "match": "Saudi Arabia vs Uruguay",
-      "date": "2026-06-15"
+      "headline": "Bubba G to face himself as France takes on Senegal",
+      "subtitle": "Wonder if Gunner gets two remotes to watch this one",
+      "match": "France vs Senegal",
+      "date": "2026-06-16"
     },
     {
       "pundit": "lalas",
-      "headline": "The Noisemaker Rafe tops standings despite Tunisia's loud stumble",
-      "subtitle": "Rafe's teams score big except when they don't.",
-      "match": "Sweden vs Tunisia",
-      "date": "2026-06-15"
+      "headline": "Ghost Pepper's Norway poised to tackle undrafted Iraq in Foxborough",
+      "subtitle": "Devin's burning ambition now relies on Scandinavian cool",
+      "match": "Iraq vs Norway",
+      "date": "2026-06-16"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe at number one? The kid's luckier than a leprechaun on St. Paddy's.",
-    "Zach's Tier-1 Brazil can't even win a match, talk about a dud draft.",
-    "Devin's losing streak to Rafe is worse than a horror movie sequel marathon.",
-    "The sim pegged Gunner as favorite, but Rafe's chaos shattered its crystal ball."
+    "Gunner, once the favorite, is now watching a teen take the top spot.",
+    "Rafe's draft picks are more comedy show than World Cup roster.",
+    "Rafe vs. Devin: 6-0. Hey Devin, how's it feel losing to a rookie?",
+    "The sim's crystal ball needs cleaning; Rafe still stuns everyone at 15."
   ]
 }
