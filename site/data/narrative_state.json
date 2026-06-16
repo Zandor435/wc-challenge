@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T01:07:44Z",
+  "generated": "2026-06-16T04:38:00Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 5,
-    "matches_played": 15,
-    "matches_remaining": 89,
+    "matches_played": 16,
+    "matches_remaining": 88,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -24,7 +24,7 @@
         "L": 1
       },
       "win_probability": 0.17,
-      "champion_probability": 0.12,
+      "champion_probability": 0.13,
       "streak": {
         "type": "D",
         "length": 3,
@@ -99,8 +99,8 @@
         "D": 1,
         "L": 1
       },
-      "win_probability": 0.2,
-      "champion_probability": 0.12,
+      "win_probability": 0.18,
+      "champion_probability": 0.1,
       "streak": {
         "type": "D",
         "length": 1,
@@ -175,7 +175,7 @@
         "D": 0,
         "L": 2
       },
-      "win_probability": 0.16,
+      "win_probability": 0.18,
       "champion_probability": 0.1,
       "streak": {
         "type": "L",
@@ -458,11 +458,11 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -1,
+        "Zach": 0,
         "Gunner": -3,
         "Gayden": 2,
         "Devin": -1,
-        "Rafe": 3
+        "Rafe": 2
       }
     },
     {

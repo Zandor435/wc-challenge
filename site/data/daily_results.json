@@ -239,6 +239,21 @@
           "date": "2026-06-15",
           "stage": "group",
           "round": null,
+          "home": "Iran",
+          "away": "New Zealand",
+          "home_score": 2,
+          "away_score": 2,
+          "score": "Iran 2-2 New Zealand",
+          "points": {},
+          "math": [
+            "DRAW: Iran undrafted, no points",
+            "DRAW: New Zealand undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-15",
+          "stage": "group",
+          "round": null,
           "home": "Spain",
           "away": "Cape Verde",
           "home_score": 0,

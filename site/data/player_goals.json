@@ -59,12 +59,20 @@
       "rank": 7
     },
     {
+      "player": "Emam Ashour",
+      "team": "Egypt",
+      "owner": "Gunner",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 8
+    },
+    {
       "player": "Felix Nmecha",
       "team": "Germany",
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "player": "G. Reyna",
@@ -72,7 +80,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "player": "H.G. Oh",
@@ -80,7 +88,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 10
+      "rank": 11
     },
     {
       "player": "I. Saibari",
@@ -88,7 +96,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "player": "I.B. Hwang",
@@ -96,7 +104,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "player": "J. McGinn",
@@ -104,7 +112,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 13
+      "rank": 14
     },
     {
       "player": "J. Musiala",
@@ -112,7 +120,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 14
+      "rank": 15
     },
     {
       "player": "J. Quiñones",
@@ -120,7 +128,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 15
+      "rank": 16
     },
     {
       "player": "Jovo Lukić",
@@ -128,7 +136,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 16
+      "rank": 17
     },
     {
       "player": "K. Nakamura",
@@ -136,7 +144,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 17
+      "rank": 18
     },
     {
       "player": "K. Ogawa",
@@ -144,7 +152,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 18
+      "rank": 19
     },
     {
       "player": "L. Krejčí",
@@ -152,7 +160,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 19
+      "rank": 20
     },
     {
       "player": "N. Brown",
@@ -160,7 +168,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 20
+      "rank": 21
     },
     {
       "player": "N. Schlotterbeck",
@@ -168,7 +176,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 21
+      "rank": 22
     },
     {
       "player": "O. Rekik",
@@ -176,7 +184,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 22
+      "rank": 23
     },
     {
       "player": "R. Jiménez",
@@ -184,20 +192,12 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 23
+      "rank": 24
     },
     {
       "player": "V. Júnior",
       "team": "Brazil",
       "owner": "Zach",
-      "goals": 1,
-      "penalties": 0,
-      "rank": 24
-    },
-    {
-      "player": "امام آشور",
-      "team": "Egypt",
-      "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
       "rank": 25
