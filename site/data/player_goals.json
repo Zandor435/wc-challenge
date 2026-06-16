@@ -27,12 +27,20 @@
       "rank": 3
     },
     {
+      "player": "Abdallh Alamri",
+      "team": "Saudi Arabia",
+      "owner": "Zach",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 4
+    },
+    {
       "player": "Breel Embolo",
       "team": "Switzerland",
       "owner": "Zach",
       "goals": 1,
       "penalties": 1,
-      "rank": 4
+      "rank": 5
     },
     {
       "player": "C. Larin",
@@ -40,7 +48,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 5
+      "rank": 6
     },
     {
       "player": "D. Undav",
@@ -48,7 +56,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 6
+      "rank": 7
     },
     {
       "player": "Felix Nmecha",
@@ -56,7 +64,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 7
+      "rank": 8
     },
     {
       "player": "G. Reyna",
@@ -64,7 +72,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "player": "H.G. Oh",
@@ -72,7 +80,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "player": "I. Saibari",
@@ -80,7 +88,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 10
+      "rank": 11
     },
     {
       "player": "I.B. Hwang",
@@ -88,7 +96,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "player": "J. McGinn",
@@ -96,7 +104,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "player": "J. Musiala",
@@ -104,7 +112,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 13
+      "rank": 14
     },
     {
       "player": "J. Quiñones",
@@ -112,7 +120,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 14
+      "rank": 15
     },
     {
       "player": "Jovo Lukić",
@@ -120,7 +128,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 15
+      "rank": 16
     },
     {
       "player": "K. Nakamura",
@@ -128,7 +136,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 16
+      "rank": 17
     },
     {
       "player": "K. Ogawa",
@@ -136,7 +144,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 17
+      "rank": 18
     },
     {
       "player": "L. Krejčí",
@@ -144,7 +152,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 18
+      "rank": 19
     },
     {
       "player": "N. Brown",
@@ -152,7 +160,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 19
+      "rank": 20
     },
     {
       "player": "N. Schlotterbeck",
@@ -160,7 +168,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 20
+      "rank": 21
     },
     {
       "player": "O. Rekik",
@@ -168,7 +176,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 21
+      "rank": 22
     },
     {
       "player": "R. Jiménez",
@@ -176,7 +184,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 22
+      "rank": 23
     },
     {
       "player": "V. Júnior",
@@ -184,7 +192,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 23
+      "rank": 24
     },
     {
       "player": "امام آشور",
@@ -192,7 +200,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 24
+      "rank": 25
     }
   ]
 }

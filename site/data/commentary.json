@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T21:54:37Z",
+  "generated": "2026-06-16T01:07:44Z",
   "source": "daily_results_2026-06-15",
   "date": "2026-06-16",
   "rotation": 5,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why people say Rafe, or \"The Noisemaker,\" has been surprisingly competent, but his reign at the top of the standings is more like finding a twenty-dollar bill on the ground than any actual draft mastery.** You have to feel for Devin, bless his heart, with Spain only managing a 0-0 with Cape Verde, one really has to start asking what the strategy was when Haiti came into the picture — perhaps a bit of wishful thinking? Meanwhile, Gunner, known in these circles as \"Bubba G,\" appears to be having an internal conflict in the matchup between his own France and Senegal, and honestly, it’s like watching someone play chess against themselves and still somehow end up in check. My firm prediction? France will outclass Senegal, but it’ll be like watching a man with two left feet trying to win a dance contest. Now, Zach, or \"Mustard Boy,\" really has his work cut out for him as his beloved Austria faces off against Jordan. I feel for him, truly, but drafting Saudi Arabia as your T4 and expecting miracles is like bringing a mustard packet to a steakhouse and hoping to make a meal of it. In what will be a show of unanticipated mediocrity, Austria will surely overpower Jordan, and in exhilarating fashion, barely scrape by."
+    "take": "**Look, I get why people say Rafe's leading, but when your three draft picks didn't even qualify, calling it skill is kind of like calling lottery winners financial planners.** The Noisemaker is making some serious noise in this pool, leading the standings with 9 points, which might make one question the strategic acumen of the other veterans involved. I feel for Zach, I really do, but when you're relying on Saudi Arabia to eke out a draw with Uruguay, one has to wonder if you've confused persistence with a lack of foresight. Austria facing off against Jordan might seem like a gimme, but bless Mustard Boy's heart if he genuinely believes this matchup will secure his place off the bottom. Gayden, the Backpass Assassin, would like to think Jordan's plucky style can overcome Austria, but the only thing getting assassinated here might be his fantasy ambitions. Meanwhile, Bubba G has the rare pleasure of being both the winner and loser as France takes on Senegal, but hey, at least he won't be dropping any points. Gunner's dual-team selection practically guarantees he'll come away with something to brag about, but in all fairness, it takes a special kind of boldness to feel confident predicting your own tie game as a masterstroke."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Faces Identity Crisis with France vs Senegal Showdown",
-      "subtitle": "Determined to win either way, Bubba G orders two shirts.",
-      "match": "France vs Senegal",
+      "headline": "Rafe Leads Standings Despite Picking Three Non-Qualifying Teams",
+      "subtitle": "\"The secret is in the chaos,\" Rafe insists from the top.",
+      "match": "Group F Preview",
       "date": "2026-06-16"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin Ready for Iraq Test to Climb WC Pool Rankings",
-      "subtitle": "Ghost Pepper confident despite Norway's knack for dizzying strategy changes.",
-      "match": "Iraq vs Norway",
-      "date": "2026-06-16"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Gayden Looks to Extend Lead with Jordan's Match Against Austria",
-      "subtitle": "Backpass Assassin believes unpredictable tactics are better than none.",
+      "headline": "Gayden's Jordan and Austria Battle For Mid-Tier Supremacy",
+      "subtitle": "Backpass Assassin seeks glory by process of elimination.",
       "match": "Austria vs Jordan",
       "date": "2026-06-16"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Devin's Norway Poised To Shine Against Unpicked Iraq",
+      "subtitle": "Ghost Pepper expects solid points from Tier 2 calm.",
+      "match": "Iraq vs Norway",
+      "date": "2026-06-16"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Rafe Maintains WC Pool Lead Despite Absence of Soccer Knowledge",
-      "subtitle": "The Noisemaker's draft strategy praised as 'unintentionally effective'.",
-      "match": "Group F Preview",
+      "headline": "Gunner Sets New Fantasy Record With Self-Competing Teams",
+      "subtitle": "Bubba G's strategy is all about maximizing control.",
+      "match": "France vs Senegal",
       "date": "2026-06-16"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's teenage dream sits atop while Zach's fantasy crashes to rock bottom.",
-    "Gunner relies on Morocco; good luck with finding that on a map!",
-    "Gayden crushed son Rafe, proving family dinners are the real battleground.",
-    "Model crowned Gunner favorite, but Devin still owning the sim's heart."
+    "Zach and Gunner: the dynamic duo of not winning anything, sharing the bottom at 3 points.",
+    "Rafe drafted ghost teams, but the real joke's on Gunner relying totally on Morocco.",
+    "Devin's getting manhandled by a 15-year-old; he can't outscore Rafe's 6-point drubbing.",
+    "The sim said Devin would win, yet Rafe's chaos broke everyone's model faith."
   ]
 }

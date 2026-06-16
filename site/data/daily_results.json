@@ -268,6 +268,23 @@
             "DRAW: Belgium undrafted, no points",
             "DRAW: Egypt (Gunner) +1 (draw)"
           ]
+        },
+        {
+          "date": "2026-06-15",
+          "stage": "group",
+          "round": null,
+          "home": "Saudi Arabia",
+          "away": "Uruguay",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Saudi Arabia 1-1 Uruguay",
+          "points": {
+            "Zach": 1.0
+          },
+          "math": [
+            "DRAW: Saudi Arabia (Zach) +1 (draw)",
+            "DRAW: Uruguay undrafted, no points"
+          ]
         }
       ]
     }
