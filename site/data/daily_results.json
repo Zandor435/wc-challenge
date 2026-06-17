@@ -302,6 +302,45 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-16",
+      "matches": [
+        {
+          "date": "2026-06-16",
+          "stage": "group",
+          "round": null,
+          "home": "France",
+          "away": "Senegal",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "France 3-1 Senegal",
+          "points": {
+            "Gunner": 3.0
+          },
+          "math": [
+            "WIN: France (Gunner, T1) +3 (win) (no upset: favorite won)",
+            "LOSS: Senegal (Gunner, T2) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-16",
+          "stage": "group",
+          "round": null,
+          "home": "Iraq",
+          "away": "Norway",
+          "home_score": 1,
+          "away_score": 4,
+          "score": "Iraq 1-4 Norway",
+          "points": {
+            "Devin": 3.0
+          },
+          "math": [
+            "WIN: Norway (Devin, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Iraq (T4) undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }

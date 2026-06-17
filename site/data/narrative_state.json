@@ -1,14 +1,14 @@
 {
-  "generated": "2026-06-16T19:17:42Z",
+  "generated": "2026-06-17T01:01:44Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Group Stage",
     "is_preseason": false,
-    "matchdays_played": 5,
-    "matches_played": 16,
-    "matches_remaining": 88,
+    "matchdays_played": 6,
+    "matches_played": 18,
+    "matches_remaining": 86,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -17,14 +17,14 @@
       "rank": 5,
       "rank_change_from_prev_day": 0,
       "total_points": 3,
-      "points_today": 1,
+      "points_today": 0,
       "record": {
         "W": 0,
         "D": 3,
         "L": 1
       },
       "win_probability": 0.17,
-      "champion_probability": 0.13,
+      "champion_probability": 0.11,
       "streak": {
         "type": "D",
         "length": 3,
@@ -54,44 +54,44 @@
     "Gunner": {
       "rank": 4,
       "rank_change_from_prev_day": 0,
-      "total_points": 3,
-      "points_today": 1,
+      "total_points": 6,
+      "points_today": 3,
       "record": {
-        "W": 0,
+        "W": 1,
         "D": 3,
-        "L": 0
+        "L": 1
       },
       "win_probability": 0.26,
       "champion_probability": 0.15,
       "streak": {
-        "type": "D",
-        "length": 3,
-        "label": "D3"
+        "type": "L",
+        "length": 1,
+        "label": "L1"
       },
       "best_team": {
-        "team": "Morocco",
-        "tier": 2,
-        "points": 1,
+        "team": "France",
+        "tier": 1,
+        "points": 3,
         "record": {
-          "W": 0,
-          "D": 1,
+          "W": 1,
+          "D": 0,
           "L": 0
         }
       },
       "worst_team": {
-        "team": "Morocco",
+        "team": "Senegal",
         "tier": 2,
-        "points": 1,
+        "points": 0,
         "record": {
           "W": 0,
-          "D": 1,
-          "L": 0
+          "D": 0,
+          "L": 1
         }
       }
     },
     "Gayden": {
-      "rank": 2,
-      "rank_change_from_prev_day": 0,
+      "rank": 3,
+      "rank_change_from_prev_day": -1,
       "total_points": 7,
       "points_today": 0,
       "record": {
@@ -99,8 +99,8 @@
         "D": 1,
         "L": 1
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.1,
+      "win_probability": 0.19,
+      "champion_probability": 0.11,
       "streak": {
         "type": "D",
         "length": 1,
@@ -128,21 +128,21 @@
       }
     },
     "Devin": {
-      "rank": 3,
-      "rank_change_from_prev_day": 0,
-      "total_points": 5,
-      "points_today": 1,
+      "rank": 2,
+      "rank_change_from_prev_day": 1,
+      "total_points": 8,
+      "points_today": 3,
       "record": {
-        "W": 1,
+        "W": 2,
         "D": 2,
         "L": 2
       },
-      "win_probability": 0.21,
+      "win_probability": 0.22,
       "champion_probability": 0.16,
       "streak": {
-        "type": "D",
+        "type": "W",
         "length": 1,
-        "label": "D1"
+        "label": "W1"
       },
       "best_team": {
         "team": "USA",
@@ -175,8 +175,8 @@
         "D": 0,
         "L": 2
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.1,
+      "win_probability": 0.16,
+      "champion_probability": 0.09,
       "streak": {
         "type": "L",
         "length": 1,
@@ -395,13 +395,24 @@
         "Devin": 1,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 6,
+      "date": "2026-06-16",
+      "points": {
+        "Zach": 0,
+        "Gunner": 3,
+        "Gayden": 0,
+        "Devin": 3,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.33,
-    "Gunner": 0,
+    "Gunner": 0.5,
     "Gayden": 0,
-    "Devin": 0.2,
+    "Devin": 0.12,
     "Rafe": 0.33
   },
   "notable_events": [
@@ -418,18 +429,12 @@
       "tag": "Zach drought",
       "owner": "Zach",
       "kind": "drought",
-      "description": "Zach still has zero team wins after 5 matchdays."
-    },
-    {
-      "tag": "Gunner drought",
-      "owner": "Gunner",
-      "kind": "drought",
-      "description": "Gunner still has zero team wins after 5 matchdays."
+      "description": "Zach still has zero team wins after 6 matchdays."
     }
   ],
   "golden_boot_leader": {
-    "player": "F. Balogun",
-    "team": "USA",
+    "player": "Arling Halnd",
+    "team": "Norway",
     "owner": "Devin",
     "goals": 2
   },
@@ -458,11 +463,11 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": 0,
+        "Zach": -1,
         "Gunner": -3,
         "Gayden": 2,
         "Devin": -1,
-        "Rafe": 2
+        "Rafe": 3
       }
     },
     {
@@ -586,6 +591,37 @@
         "Gunner": 0,
         "Gayden": 0,
         "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "points": {
+        "Zach": 3,
+        "Gunner": 6,
+        "Gayden": 7,
+        "Devin": 8,
+        "Rafe": 9
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 3,
+        "Gayden": 0,
+        "Devin": 3,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Rafe": 1,
+        "Devin": 2,
+        "Gayden": 3,
+        "Gunner": 4,
+        "Zach": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": -1,
+        "Devin": 1,
         "Rafe": 0
       }
     }

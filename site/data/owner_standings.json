@@ -14,6 +14,16 @@
       "rank": 1
     },
     {
+      "owner": "Devin",
+      "total_points": 8,
+      "breakdown": {
+        "match": 8.0,
+        "upset": 0,
+        "advancement": 0
+      },
+      "rank": 2
+    },
+    {
       "owner": "Gayden",
       "total_points": 7,
       "breakdown": {
@@ -21,23 +31,13 @@
         "upset": 0,
         "advancement": 0
       },
-      "rank": 2
-    },
-    {
-      "owner": "Devin",
-      "total_points": 5,
-      "breakdown": {
-        "match": 5.0,
-        "upset": 0,
-        "advancement": 0
-      },
       "rank": 3
     },
     {
       "owner": "Gunner",
-      "total_points": 3,
+      "total_points": 6,
       "breakdown": {
-        "match": 3.0,
+        "match": 6.0,
         "upset": 0,
         "advancement": 0
       },

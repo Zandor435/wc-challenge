@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-16T19:17:42Z",
-  "source": "daily_results_2026-06-15",
-  "date": "2026-06-16",
-  "rotation": 5,
+  "generated": "2026-06-17T01:01:44Z",
+  "source": "daily_results_2026-06-16",
+  "date": "2026-06-17",
+  "rotation": 6,
   "pundit": {
-    "name": "Landon Donovan",
-    "tone": "hedging",
-    "color": "#2f6dff",
-    "take": "**I think it's safe to say, Rafe — \"The Noisemaker\" — is living in a dream world where ignorance is truly bliss, sitting atop the standings with teams that barely made it to the tournament.** Look, I get why people say a blind squirrel finds a nut every now and then, especially when Rafe's \"strategy\" has somehow put him ahead of seasoned managers like Gayden and Devin. His squad is more of a geographical tour than a competitive roster, yet somehow Germany and the likes of Uzbekistan are propelling him to the top. Bless his heart, it’s almost endearing how little he knows.\n\nNow, onto the grand intra-squad duel with \"Bubba G,\" otherwise known as Gunner, pitting France against Senegal. I feel for Gunner, really, I do. But when you draft two teams that face off against each other, it’s like rearranging deck chairs on the Titanic. Both teams are strong, sure, but they can only cannibalize each other’s points. I'd say this is a classic case of overthinking draft strategy, which is why I confidently predict this match will leave Gunner questioning his life choices rather than celebrating a windfall of points.\n\nAs for \"Mustard Boy,\" Zach is hoping Austria can bring a little zesty flavor into his dreary points tally, as they face Gayden's Jordan. Austria might be the better side on paper, and yes, they've had their moments in qualifying, but Gayden has a knack for turning the mundane into something surprisingly efficient. I suspect this matchup will likely highlight the difference between Zach's ambitions and reality. Watch for Jordan to pull an upset that will leave Zach scrambling for excuses yet again. Mark my words, Zach, sometimes even mustard can't spice up what is essentially a bland draft strategy."
+    "name": "Clint Dempsey",
+    "tone": "chill",
+    "color": "#28c060",
+    "take": "**Mustard Boy Zach's pickin' Saudi Arabia must be thinkin' their oil money gonna turn into goals, but all he got was 3 points and a world of hurt.** Meanwhile, Devin's Ghost Pepper is heatin' up with that Norway win over Iraq, sittin' pretty at 8 points — not bad, son, not bad. Rafe's The Noisemaker ain't even old enough to vote, yet this kid's atop the leaderboard like he's got cheat codes — Germany and Mexico out here puttin' in work for his 9 points. The Backpass Assassin, Gayden, tryin' to stay sneaky with 7 points, but it's more like he's passin' water than passin' through to the high ranks. And don't get me started on Bubba G Gunner. DR Congo in Tier 4? What, you got insider info from a fortune cookie? France saving your bacon with a 3-point haul, but you ain't lookin' crown-worthy. Zach, time to leave the mustard at the concession stand and put some ketchup on them scoreboards, brother."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Rafe Tops Standings Despite Drafting Teams That Failed To Qualify",
-      "subtitle": "Sources confirm his son-like strategy of strategic ignorance is working.",
+      "headline": "Rafe the Noisemaker Maintains Top Spot Despite Drafting Non-Qualifiers",
+      "subtitle": "Beginners' luck reaches unprecedented levels in World Cup pool history.",
       "match": "Group F Preview",
-      "date": "2026-06-16"
+      "date": "2026-06-17"
     },
     {
       "pundit": "donovan",
-      "headline": "Bubba G Prepares For Tactical Masterclass Against Himself",
-      "subtitle": "Gunner's France-Senegal face-off expected to be an uninspiring draw.",
-      "match": "France vs Senegal",
-      "date": "2026-06-16"
+      "headline": "Devin Ghost Pepper Poised to Narrowly Miss First Place Again",
+      "subtitle": "Spain and Norway combine to leave him perpetually in second.",
+      "match": "Norway vs Iraq",
+      "date": "2026-06-17"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper Awaits Redemption As Norway Faces Undrafted Iraq",
-      "subtitle": "Devin confident in Norway's ability to pick points from thin air.",
-      "match": "Iraq vs Norway",
-      "date": "2026-06-16"
+      "headline": "Gunner Bubba G Relies on DR Congo for Unlikely Upset",
+      "subtitle": "Portugal matchup might test Gunner's optimism more than he planned.",
+      "match": "Portugal vs DR Congo",
+      "date": "2026-06-17"
     },
     {
       "pundit": "lalas",
-      "headline": "Mustard Boy And Backpass Assassin Clash In Battle Of The Bottom",
-      "subtitle": "Zach and Gayden's Austria-Jordan to decide who wants it less.",
-      "match": "Austria vs Jordan",
-      "date": "2026-06-16"
+      "headline": "Mustard Boy Aims for Redemption as Ghana Faces Panama",
+      "subtitle": "After a rough start, Zach needs a miracle to climb standings.",
+      "match": "Ghana vs Panama",
+      "date": "2026-06-17"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner, you're the favorite? Hilarious. Rafe's presence makes your odds evaporate.",
-    "Rafe's draft picks scream 'random selection', yet he's leading the pack.",
-    "Devin, -6 against a rookie? Rafe's making you his personal punching bag.",
-    "Rafe defying logic, makes the sim look dumber with each unexpected win."
+    "Rafe is first with a shaky 16% win probability. Youthful chaos reigns supreme!",
+    "Rafe's Tier-3 teams outperforming Tier-1? Rookie madness or genius luck?",
+    "Gayden leads Rafe 3 points despite being outdone by his own son. Awkward.",
+    "Sim accuracy tanked the minute Rafe joined. Prediction game: officially broken."
   ]
 }
