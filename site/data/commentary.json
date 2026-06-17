@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T01:01:44Z",
+  "generated": "2026-06-17T04:35:29Z",
   "source": "daily_results_2026-06-16",
   "date": "2026-06-17",
   "rotation": 6,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Mustard Boy Zach's pickin' Saudi Arabia must be thinkin' their oil money gonna turn into goals, but all he got was 3 points and a world of hurt.** Meanwhile, Devin's Ghost Pepper is heatin' up with that Norway win over Iraq, sittin' pretty at 8 points — not bad, son, not bad. Rafe's The Noisemaker ain't even old enough to vote, yet this kid's atop the leaderboard like he's got cheat codes — Germany and Mexico out here puttin' in work for his 9 points. The Backpass Assassin, Gayden, tryin' to stay sneaky with 7 points, but it's more like he's passin' water than passin' through to the high ranks. And don't get me started on Bubba G Gunner. DR Congo in Tier 4? What, you got insider info from a fortune cookie? France saving your bacon with a 3-point haul, but you ain't lookin' crown-worthy. Zach, time to leave the mustard at the concession stand and put some ketchup on them scoreboards, brother."
+    "take": "**Rafe, The Noisemaker, is somehow on top — beginner's luck or secret genius?** Man, Rafe's sittin' pretty at the top of the table with 9 points, and I can't tell if that's beginner's luck or if the kid's pullin' some sorcery with his science class predictions. Devin's right on his heels, just one point shy—it's like Ghost Pepper's tryin' to sneak into Rafe's lead like he’s slidin’ into the DM’s. Meanwhile, Gayden \"The Backpass Assassin\" needs to quit passin' the buck and start backin’ himself more than he's backpassin'. He's got England, and lettin' Zach's \"Mustard Boy\" get cooked down at 3 points is not the move. Poor Zach's out here with Brazil but still actin' like Saudi oil's gonna buy him goals — bruh, the fantasy World Cup ain't got transfer windows. As for Gunner, aka \"Bubba G,\" not even DR Congo's divine intervention can save him from sittin' fourth, just puttin’ in work with that one match win over Senegal like it’s his latest mixtape. The standings might shake up soon, but you know how the game goes — it's all about who brings the grind every day."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Rafe the Noisemaker Maintains Top Spot Despite Drafting Non-Qualifiers",
-      "subtitle": "Beginners' luck reaches unprecedented levels in World Cup pool history.",
-      "match": "Group F Preview",
+      "headline": "Rafe's Non-Qualifying Picks Inspire New FIFA Rules Committee",
+      "subtitle": "Impressive leadership from the kid who drafted the invisible team.",
+      "match": "Group K Preview",
       "date": "2026-06-17"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin Ghost Pepper Poised to Narrowly Miss First Place Again",
-      "subtitle": "Spain and Norway combine to leave him perpetually in second.",
-      "match": "Norway vs Iraq",
-      "date": "2026-06-17"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Gunner Bubba G Relies on DR Congo for Unlikely Upset",
-      "subtitle": "Portugal matchup might test Gunner's optimism more than he planned.",
+      "headline": "Bubba G's DR Congo Poised for Portugal Showdown",
+      "subtitle": "'They'll give it 110 percent,’ says Gunner, against heavy odds.",
       "match": "Portugal vs DR Congo",
       "date": "2026-06-17"
     },
     {
-      "pundit": "lalas",
-      "headline": "Mustard Boy Aims for Redemption as Ghana Faces Panama",
-      "subtitle": "After a rough start, Zach needs a miracle to climb standings.",
+      "pundit": "dempsey",
+      "headline": "Mustard Boy's Ghana Prepared for Panama Match",
+      "subtitle": "Zach confident as he eyes a chance to escape the basement.",
       "match": "Ghana vs Panama",
+      "date": "2026-06-17"
+    },
+    {
+      "pundit": "lalas",
+      "headline": "Gayden Braces For England's Test Against Croatia",
+      "subtitle": "Backpass Assassin hopes for a goal or two this time.",
+      "match": "England vs Croatia",
       "date": "2026-06-17"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe is first with a shaky 16% win probability. Youthful chaos reigns supreme!",
-    "Rafe's Tier-3 teams outperforming Tier-1? Rookie madness or genius luck?",
-    "Gayden leads Rafe 3 points despite being outdone by his own son. Awkward.",
-    "Sim accuracy tanked the minute Rafe joined. Prediction game: officially broken."
+    "Zach's still on a winning drought—there's more action in his trophy cabinet.",
+    "Rafe's Tier-1 Germany saves him from his draft-day disasterpiece.",
+    "Gayden schools Rafe—grounded at the dinner table with a -3 differential.",
+    "The sim missed big: 15-year-old Rafe's winning while Gunner bleeds favorite status."
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T01:01:44Z",
+  "generated": "2026-06-17T04:35:28Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 6,
-    "matches_played": 18,
-    "matches_remaining": 86,
+    "matches_played": 19,
+    "matches_remaining": 85,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -24,7 +24,7 @@
         "L": 1
       },
       "win_probability": 0.17,
-      "champion_probability": 0.11,
+      "champion_probability": 0.12,
       "streak": {
         "type": "D",
         "length": 3,
@@ -100,7 +100,7 @@
         "L": 1
       },
       "win_probability": 0.19,
-      "champion_probability": 0.11,
+      "champion_probability": 0.1,
       "streak": {
         "type": "D",
         "length": 1,
@@ -175,7 +175,7 @@
         "D": 0,
         "L": 2
       },
-      "win_probability": 0.16,
+      "win_probability": 0.15,
       "champion_probability": 0.09,
       "streak": {
         "type": "L",
