@@ -354,6 +354,24 @@
             "WIN: Argentina (T1) undrafted, no points",
             "LOSS: Algeria (T3) undrafted, no points"
           ]
+        },
+        {
+          "date": "2026-06-16",
+          "stage": "group",
+          "round": null,
+          "home": "Austria",
+          "away": "Jordan",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "Austria 3-1 Jordan",
+          "points": {
+            "Zach": 3.0,
+            "Gayden": 0.0
+          },
+          "math": [
+            "WIN: Austria (Zach, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Jordan (Gayden, T4) +0 (loss)"
+          ]
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T04:35:28Z",
+  "generated": "2026-06-17T07:58:49Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 6,
-    "matches_played": 19,
-    "matches_remaining": 85,
+    "matches_played": 20,
+    "matches_remaining": 84,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -16,27 +16,27 @@
     "Zach": {
       "rank": 5,
       "rank_change_from_prev_day": 0,
-      "total_points": 3,
-      "points_today": 0,
+      "total_points": 6,
+      "points_today": 3,
       "record": {
-        "W": 0,
+        "W": 1,
         "D": 3,
         "L": 1
       },
       "win_probability": 0.17,
       "champion_probability": 0.12,
       "streak": {
-        "type": "D",
-        "length": 3,
-        "label": "D3"
+        "type": "W",
+        "length": 1,
+        "label": "W1"
       },
       "best_team": {
-        "team": "Brazil",
-        "tier": 1,
-        "points": 1,
+        "team": "Austria",
+        "tier": 2,
+        "points": 3,
         "record": {
-          "W": 0,
-          "D": 1,
+          "W": 1,
+          "D": 0,
           "L": 0
         }
       },
@@ -62,7 +62,7 @@
         "L": 1
       },
       "win_probability": 0.26,
-      "champion_probability": 0.15,
+      "champion_probability": 0.16,
       "streak": {
         "type": "L",
         "length": 1,
@@ -97,14 +97,14 @@
       "record": {
         "W": 2,
         "D": 1,
-        "L": 1
+        "L": 2
       },
-      "win_probability": 0.19,
-      "champion_probability": 0.1,
+      "win_probability": 0.18,
+      "champion_probability": 0.12,
       "streak": {
-        "type": "D",
+        "type": "L",
         "length": 1,
-        "label": "D1"
+        "label": "L1"
       },
       "best_team": {
         "team": "Ivory Coast",
@@ -138,7 +138,7 @@
         "L": 2
       },
       "win_probability": 0.22,
-      "champion_probability": 0.16,
+      "champion_probability": 0.15,
       "streak": {
         "type": "W",
         "length": 1,
@@ -175,8 +175,8 @@
         "D": 0,
         "L": 2
       },
-      "win_probability": 0.15,
-      "champion_probability": 0.09,
+      "win_probability": 0.17,
+      "champion_probability": 0.1,
       "streak": {
         "type": "L",
         "length": 1,
@@ -233,7 +233,7 @@
       "Zach": {
         "W": 1,
         "D": 0,
-        "L": 0
+        "L": 1
       },
       "Rafe": {
         "W": 1,
@@ -243,7 +243,7 @@
     },
     "Zach": {
       "Gayden": {
-        "W": 0,
+        "W": 1,
         "D": 0,
         "L": 1
       },
@@ -316,6 +316,14 @@
       "via": "Ivory Coast beat Ecuador",
       "match": "Ivory Coast 1-0 Ecuador",
       "date": "2026-06-14"
+    },
+    {
+      "result": "win",
+      "winner": "Zach",
+      "loser": "Gayden",
+      "via": "Austria beat Jordan",
+      "match": "Austria 3-1 Jordan",
+      "date": "2026-06-16"
     }
   ],
   "h2h_differential": {
@@ -328,11 +336,11 @@
       "Gunner": 0
     },
     "Gayden": {
-      "Zach": 3,
+      "Zach": 0,
       "Rafe": 3
     },
     "Zach": {
-      "Gayden": -3,
+      "Gayden": 0,
       "Gunner": 0
     },
     "Gunner": {
@@ -400,7 +408,7 @@
       "matchday": 6,
       "date": "2026-06-16",
       "points": {
-        "Zach": 0,
+        "Zach": 3,
         "Gunner": 3,
         "Gayden": 0,
         "Devin": 3,
@@ -409,7 +417,7 @@
     }
   ],
   "dependency_index": {
-    "Zach": 0.33,
+    "Zach": 0.17,
     "Gunner": 0.5,
     "Gayden": 0,
     "Devin": 0.12,
@@ -424,16 +432,9 @@
       "description": "Devin banked 4 pts on 2026-06-12 -- the biggest single-day haul so far"
     }
   ],
-  "themes": [
-    {
-      "tag": "Zach drought",
-      "owner": "Zach",
-      "kind": "drought",
-      "description": "Zach still has zero team wins after 6 matchdays."
-    }
-  ],
+  "themes": [],
   "golden_boot_leader": {
-    "player": "Arling Halnd",
+    "player": "Erling Haaland",
     "team": "Norway",
     "owner": "Devin",
     "goals": 2
@@ -597,14 +598,14 @@
     {
       "date": "2026-06-16",
       "points": {
-        "Zach": 3,
+        "Zach": 6,
         "Gunner": 6,
         "Gayden": 7,
         "Devin": 8,
         "Rafe": 9
       },
       "points_today": {
-        "Zach": 0,
+        "Zach": 3,
         "Gunner": 3,
         "Gayden": 0,
         "Devin": 3,
