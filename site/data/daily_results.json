@@ -374,6 +374,77 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-17",
+      "matches": [
+        {
+          "date": "2026-06-17",
+          "stage": "group",
+          "round": null,
+          "home": "Portugal",
+          "away": "Democratic Republic of the Congo",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Portugal 1-1 Democratic Republic of the Congo",
+          "points": {},
+          "math": [
+            "DRAW: Portugal undrafted, no points",
+            "DRAW: Democratic Republic of the Congo undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "stage": "group",
+          "round": null,
+          "home": "England",
+          "away": "Croatia",
+          "home_score": 4,
+          "away_score": 2,
+          "score": "England 4-2 Croatia",
+          "points": {
+            "Gayden": 3.0
+          },
+          "math": [
+            "WIN: England (Gayden, T1) +3 (win) (no upset: equal tier)",
+            "LOSS: Croatia (T1) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "stage": "group",
+          "round": null,
+          "home": "Uzbekistan",
+          "away": "Colombia",
+          "home_score": 1,
+          "away_score": 3,
+          "score": "Uzbekistan 1-3 Colombia",
+          "points": {
+            "Rafe": 0.0
+          },
+          "math": [
+            "WIN: Colombia (T1) undrafted, no points",
+            "LOSS: Uzbekistan (Rafe, T4) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-17",
+          "stage": "group",
+          "round": null,
+          "home": "Ghana",
+          "away": "Panama",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "Ghana 1-0 Panama",
+          "points": {
+            "Zach": 3.0
+          },
+          "math": [
+            "WIN: Ghana (Zach, T3) +3 (win) (no upset: favorite won)",
+            "LOSS: Panama (T4) undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }

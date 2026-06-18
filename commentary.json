@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-17T16:19:45Z",
-  "source": "daily_results_2026-06-16",
-  "date": "2026-06-17",
-  "rotation": 6,
+  "generated": "2026-06-18T04:35:12Z",
+  "source": "daily_results_2026-06-17",
+  "date": "2026-06-18",
+  "rotation": 7,
   "pundit": {
-    "name": "Clint Dempsey",
-    "tone": "chill",
-    "color": "#28c060",
-    "take": "Rafe's playin' this pool like he's guessin' on a pop quiz, and somehow, he's top of the class. Look, I don't know if \"The Noisemaker\" just threw a dart at a map or what, but Germany, Ecuador, and Mexico are doin' work and keepin' him in first with 9 points. Meanwhile, \"Mustard Boy\" thought Brazil and oil-rich Saudi Arabia would carry him — guess he forgot you gotta actually score goals, not just pump oil. Zach's sittin' dead last, tied at 6 points, wonderin' how he even ended up here. And then there's \"Bubba G.\" Gunner's out here actin' like DR Congo's his secret weapon, but France had to bail him out with that win over Senegal, just enough to keep him above Mustard Boy. Devin, aka \"Ghost Pepper,\" might've spiced it up with Spain and the USA, but he's sittin' pretty in second at 8 points, waitin' to see if Rafe's house of cards is gonna tumble. If he doesn't watch out, \"The Backpass Assassin\" might sneak up with England and ambush him, Gayden's sittin' just a point back with 7. Buckle up, boys, it ain't over till it's over."
+    "name": "Alexi Lalas",
+    "tone": "bombastic",
+    "color": "#f4a423",
+    "take": "**Mustard Boy, Ghost Pepper: You two are the soccer equivalent of a grilled cheese sandwich and a ghost pepper challenge, but let's talk about this Czechia vs. South Africa showdown!** Look, Czechia is running on the fumes of their generally tight European style, taking on an unpredictable South Africa who's as hot-and-cold as a bad air conditioning unit. Zach, \"Mustard Boy,\" you think drafting Czechia was a safe pick, when in reality, it screams, \"I’m terrified of risk!\" Devin, aka \"Ghost Pepper,\" your South Africa choice is as volatile as a fireworks warehouse. Mark my words, Czechia is going to grind this one out, and the only ghost here will be your chances of moving up in this table.\n\nAnd for the grand theater of Switzerland vs. Bosnia, Devin, look at me. LOOK AT ME. You drafted Bosnia thinking they were a secret weapon; let me tell you something — Bosnia is no World Cup warrior. Zach's Switzerland is going to showcase the precision and discipline you only wish you had when picking teams. Just like a Swiss watch, they'll be ticking along to a victory while Bosnia remains a fantasy footnote. If you think different, Devin, then you're more delusional than I was making that beard a signature."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "DR Congo set to redefine underdog status against Portugal",
-      "subtitle": "Bubba G's bold drafting strategy faces its toughest test yet.",
-      "match": "Portugal vs DR Congo",
-      "date": "2026-06-17"
+      "headline": "Ghost Pepper Devin set to melt against Mustard Boy Zach",
+      "subtitle": "Czechia and Switzerland expected to reduce Bosnia and South Africa to ashes.",
+      "match": "Czechia vs South Africa",
+      "date": "2026-06-18"
     },
     {
       "pundit": "donovan",
-      "headline": "England poised to charm Croatia with Gayden's tactical wizardry",
-      "subtitle": "The Backpass Assassin bets it all on Harry Kane's left foot.",
-      "match": "England vs Croatia",
-      "date": "2026-06-17"
+      "headline": "Bubba G's Canada predicted to make the most of Qatar's absence",
+      "subtitle": "Canada hopes home advantage will boost Gunner's last-place standings.",
+      "match": "Canada vs Qatar",
+      "date": "2026-06-18"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghana primed to outshine Panama in late-night showdown",
-      "subtitle": "Mustard Boy confident despite spending more time on condiment pairings.",
-      "match": "Ghana vs Panama",
-      "date": "2026-06-17"
+      "headline": "The Backpass Assassin Gayden will try not to fumble against Mexico",
+      "subtitle": "Korea Republic looks to lift Gayden's lead at the top, if he stays present.",
+      "match": "Mexico vs Korea Republic",
+      "date": "2026-06-18"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe maintains surprising lead in pool despite cognitive distractions",
-      "subtitle": "'The Noisemaker' proves that knowing nothing can still mean everything.",
-      "match": "Group K Preview",
-      "date": "2026-06-17"
+      "headline": "Mustard Boy Zach relying on more than condiments to catch son Rafe",
+      "subtitle": "Zach's dual fixtures could shake up standings with strategic seasoning.",
+      "match": "Czechia vs South Africa",
+      "date": "2026-06-18"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe leads; The Backpass Assassin's pride took a hit from his own prodigy.",
-    "Rafe's Tier-1 dependency is non-existent, unlike Gunner who leans on France harder.",
-    "Rafe crushes Devin, yet his own dad Gayden remains his nemesis.",
-    "Devin's big day proves the sim can't predict the chaos a Golden Boot brings."
+    "Gunner, the model's favorite, is slipping faster than a greased-up slip-n-slide.",
+    "Rafe's draft picks were a joke, but he's still laughing at the leaderboard.",
+    "Rafe owns Devin like a landlord collecting rent; 6-0 head-to-head. Brutal.",
+    "Rafe's chaos crashed the sim—teenagers 1, spreadsheets 0."
   ]
 }
