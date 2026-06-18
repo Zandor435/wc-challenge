@@ -43,7 +43,7 @@
       "tier": 3,
       "W": 0,
       "D": 1,
-      "L": 0,
+      "L": 1,
       "points": 1.0
     },
     {
@@ -227,6 +227,15 @@
       "points": 1.0
     },
     {
+      "team": "Switzerland",
+      "owner": "Zach",
+      "tier": 2,
+      "W": 1,
+      "D": 1,
+      "L": 0,
+      "points": 4.0
+    },
+    {
       "team": "Austria",
       "owner": "Zach",
       "tier": 2,
@@ -234,15 +243,6 @@
       "D": 0,
       "L": 0,
       "points": 3.0
-    },
-    {
-      "team": "Switzerland",
-      "owner": "Zach",
-      "tier": 2,
-      "W": 0,
-      "D": 1,
-      "L": 0,
-      "points": 1.0
     },
     {
       "team": "Ghana",

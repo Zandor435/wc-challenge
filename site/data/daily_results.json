@@ -453,6 +453,24 @@
           "date": "2026-06-18",
           "stage": "group",
           "round": null,
+          "home": "Switzerland",
+          "away": "Bosnia",
+          "home_score": 4,
+          "away_score": 1,
+          "score": "Switzerland 4-1 Bosnia",
+          "points": {
+            "Zach": 3.0,
+            "Devin": 0.0
+          },
+          "math": [
+            "WIN: Switzerland (Zach, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Bosnia (Devin, T3) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "stage": "group",
+          "round": null,
           "home": "Czechia",
           "away": "South Africa",
           "home_score": 1,
