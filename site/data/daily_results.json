@@ -445,6 +445,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-18",
+      "matches": [
+        {
+          "date": "2026-06-18",
+          "stage": "group",
+          "round": null,
+          "home": "Czechia",
+          "away": "South Africa",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Czechia 1-1 South Africa",
+          "points": {
+            "Zach": 1.0,
+            "Devin": 1.0
+          },
+          "math": [
+            "DRAW: Czechia (Zach) +1 (draw)",
+            "DRAW: South Africa (Devin) +1 (draw)"
+          ]
+        }
+      ]
     }
   ]
 }

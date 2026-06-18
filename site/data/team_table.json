@@ -29,6 +29,15 @@
       "points": 3.0
     },
     {
+      "team": "South Africa",
+      "owner": "Devin",
+      "tier": 3,
+      "W": 0,
+      "D": 1,
+      "L": 1,
+      "points": 1.0
+    },
+    {
       "team": "Bosnia",
       "owner": "Devin",
       "tier": 3,
@@ -36,15 +45,6 @@
       "D": 1,
       "L": 0,
       "points": 1.0
-    },
-    {
-      "team": "South Africa",
-      "owner": "Devin",
-      "tier": 3,
-      "W": 0,
-      "D": 0,
-      "L": 1,
-      "points": 0.0
     },
     {
       "team": "Haiti",
@@ -258,9 +258,9 @@
       "owner": "Zach",
       "tier": 3,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 1,
-      "points": 0.0
+      "points": 1.0
     },
     {
       "team": "Saudi Arabia",

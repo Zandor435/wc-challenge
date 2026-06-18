@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-18T16:13:32Z",
-  "source": "daily_results_2026-06-17",
-  "date": "2026-06-18",
-  "rotation": 7,
+  "generated": "2026-06-18T18:53:26Z",
+  "source": "daily_results_2026-06-18",
+  "date": "2026-06-19",
+  "rotation": 8,
   "pundit": {
-    "name": "Alexi Lalas",
-    "tone": "bombastic",
-    "color": "#f4a423",
-    "take": "**Devin, look at me. LOOK AT ME. YOU DRAFTED BOSNIA, and you're about to swallow the bitter pill from Zach's 'Mustard Boy' squad.** In Atlanta, Czechia may not be the powerhouse of yesteryear, but there is more fight in them than you have courage in your lineup decisions. You chose Bosnia, a team that is lost and out of its depth; not even the grit of the 1994 U.S. squad could save them. I'm calling it now: Zach's Czechia is marching through South Africa like it's a Sunday stroll. Now, let's really dive into 'Mustard Boy' Zach versus the reckless 'Ghost Pepper' Devin—Zach's Switzerland has the precision of a fine Swiss watch, ready to dismantle your misstep of Bosnia in Inglewood. This one ain't close; prepare for a showcase of European elegance that you should've seen coming from miles away. If you can't respect the game, then turn in your cleats, Devin. And as for 'Bubba G' Gunner, sitting flat in last place? Frankly, it's embarrassing—it's like watching a fish try to climb a tree. You all better tighten your bootstraps, because if you think crawling through this pool is tough, just wait until you try facing the real heat of the World Cup pitch. Mic-drop: If you can't take the heat, gentlemen, stay out of the World Cup kitchen."
+    "name": "Eric Wynalda",
+    "tone": "arrogant",
+    "color": "#e2231a",
+    "take": "**Mustard Boy and Ghost Pepper are playing a game, but only one knows what he's doing, and surprise, it's not Mustard Boy.** Brazil cannot lose to Haiti; you don’t need me or my World Cup experience to tell you that. But let’s talk about Zach, aka \"Mustard Boy,\" who seems to think his Brazil pick is some kind of masterstroke. News flash, Zach: picking Brazil is like betting the sun will rise tomorrow. It's not clever; it's the obvious safety net for someone out of depth. Meanwhile, Devin, or \"Ghost Pepper,\" took a shot on Spain and got the USA as a backup — at least he was thinking with a hint of strategy rather than a preschooler's love for bright colors. The outcome here? Brazil will trounce Haiti, securing Zach temporary bragging rights — but make no mistake, his drafting was no savvy magic trick. \"Mustard Boy\" will enjoy the win, but we all know it's like being proud of pouring water from a glass: impossible to mess up, but no one’s giving you a medal."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach's Czechia Poised to Test Devin's South Africa in Atlanta",
-      "subtitle": "Mustard Boy aims for double points amidst his tier 3 gamble.",
-      "match": "Czechia vs South Africa",
-      "date": "2026-06-18"
+      "headline": "Gayden strategizes for Turkey by scouting Paraguay's best cricket team",
+      "subtitle": "Insider reports suggest 'The Backpass Assassin' confused sports again.",
+      "match": "Turkey vs Paraguay",
+      "date": "2026-06-19"
     },
     {
       "pundit": "donovan",
-      "headline": "Switzerland and Bosnia Clash to Influence Mid-Table Fantasy Standings",
-      "subtitle": "Ghost Pepper's hopes pinned on Bosnia, currently in 4th place.",
-      "match": "Switzerland vs Bosnia",
-      "date": "2026-06-18"
+      "headline": "Mustard Boy to rely on Brazil's flair while ignoring Haiti's spice",
+      "subtitle": "\"Zach bets on Brazil's dance moves over Ghost Pepper's heat levels.\"",
+      "match": "Brazil vs Haiti",
+      "date": "2026-06-19"
     },
     {
       "pundit": "dempsey",
-      "headline": "Gunner's Canada Set to Face Qatar in Vancouver Showdown",
-      "subtitle": "Bubba G looks for points to close the gap from last place.",
-      "match": "Canada vs Qatar",
-      "date": "2026-06-18"
+      "headline": "Bubba G counting on Morocco magic as Scotland takes a nap",
+      "subtitle": "Gunner believes Scottish fans won't wake up until halftime.",
+      "match": "Scotland vs Morocco",
+      "date": "2026-06-19"
     },
     {
       "pundit": "lalas",
-      "headline": "Gayden's Korea Republic Set to Challenge Mexico in Zapopan",
-      "subtitle": "The Backpass Assassin defends his top spot with tactical prowess.",
-      "match": "Mexico vs Korea Republic",
-      "date": "2026-06-18"
+      "headline": "Ghost Pepper seeks redemption in Seattle showdown against kangaroo curse",
+      "subtitle": "Devin confident USA will avoid getting jumpy against Australia.",
+      "match": "USA vs Australia",
+      "date": "2026-06-19"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's 24% to win it all but barely ahead of the teenager, Rafe!",
-    "Rafe drafted three teams not even in the World Cup — still rank 2!",
-    "Devin might want to call in reinforcements, losing 6 points to newbie Rafe!",
-    "Sim crashes harder than Gunner after Rafe's teenage chaos agent invasion."
+    "Rafe's L2 streak proves the chaos agent isn't immune to reality checks.",
+    "Rafe's Tier-1 disaster is a masterclass in drafting World Cup no-shows.",
+    "Rafe's -3 against Dad Gayden: The Noisemaker gets silenced at the family table.",
+    "Gunner's 25% win chance slipping proves teenagers really are agents of chaos."
   ]
 }
