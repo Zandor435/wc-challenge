@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T04:36:23Z",
+  "generated": "2026-06-19T07:59:01Z",
   "source": "daily_results_2026-06-18",
   "date": "2026-06-19",
   "rotation": 8,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Rafe has outsmarted these amateurs with his chaos strategy, while Mustard Boy and Ghost Pepper flounder in fantasy delusions.** Look, when you draft a team, you should at least ensure they're in the tournament. The fact that The Noisemaker, young Rafe, is sitting in second with a team as unpredictable as Mexico while picking teams that didn't even qualify is pure chaos genius — something these so-called seasoned managers can learn from. Mustard Boy, Zach's over-reliance on Brazil is like playing Russian roulette with a banana; it's not even a gamble. Brazil will obliterate Haiti in Philadelphia, continuing Zach's charmed run in the standings. Meanwhile, Ghost Pepper, Devin, picking the USA and Norway in Tier 2 is like putting ketchup on a gourmet steak—an amateur move. You're all outclassed by a kid who—let's be honest—probably thinks FIFA is just a video game but still managed to edge past everyone else. This is a joke."
+    "take": "**Mustard Boy Zach's dominance is as inevitable as Brazil stomping Ghost Pepper Devin's fantasy hopes into oblivion.** Let's be honest: Devin must've drafted with a randomizer or picked countries he recognized from his FIFA video game days. Spain may have been a decent first-round pick, but expecting Haiti to do anything against Brazil is laughable. Meanwhile, Zach sits comfortably at the top, and when you draft Brazil, it's not a question of winning — it's a question of how many. Look, the kid Rafe, also known as \"The Noisemaker,\" is hot on Zach's heels with a bit of luck and chaos, but even he stands a better chance than Devin's misguided strategy. Brazil versus Haiti is not just a match; it's a massacre waiting to happen. There's no defense, Devin — your roster is a joke, and Mustard Boy will show you how easily you fold."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach's Switzerland Dominates Bosnia to Maintain Top Spot",
-      "subtitle": "Mustard Boy's secret weapon: drafting teams that can actually score.",
-      "match": "Switzerland vs Bosnia",
+      "headline": "Bubba G's Canada Delivers Humbling 6-0 Defeat to Qatar",
+      "subtitle": "Gunner claims it was all part of his underdog strategy.",
+      "match": "Canada 6-0 Qatar",
       "date": "2026-06-19"
     },
     {
       "pundit": "donovan",
-      "headline": "Rafe's Mexico Victory Keeps Him Suspiciously Close to First",
-      "subtitle": "The Noisemaker outplaying seasoned managers with teams that qualified.",
-      "match": "Mexico vs Korea Republic",
-      "date": "2026-06-19"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Devin Hopes USA Can Score Against Unpicked Opponent Australia",
-      "subtitle": "Ghost Pepper banking on spicy local support in Seattle.",
+      "headline": "Ghost Pepper's USA Set to Challenge Undrafted Australia for Redemption",
+      "subtitle": "Devin hopes USA can match Canada's massive win against Qatar.",
       "match": "USA vs Australia",
       "date": "2026-06-19"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Mustard Boy Faces Off Against Ghost Pepper in Brazil vs Haiti",
+      "subtitle": "Zach confident Brazil won't get lost in Devin's spicy roster.",
+      "match": "Brazil vs Haiti",
+      "date": "2026-06-19"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Gunner's Morocco Squad Set to Silence Undrafted Scotland",
-      "subtitle": "Bubba G's persistence proving futile but entertaining.",
-      "match": "Scotland vs Morocco",
+      "headline": "Backpass Assassin Looks to Redeem After Korea Loss to Mexico",
+      "subtitle": "Gayden trusts Turkey to avoid becoming another tactical misfire.",
+      "match": "Turkey vs Paraguay",
       "date": "2026-06-19"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach's surge is an optical illusion; win probability at a measly 19%.",
-    "Gunner's France pick is doing heavy lifting, but Senegal's zero points? Embarrassing.",
-    "Devin can't buy a win against Rafe, crushed by a 6-point differential.",
-    "Rafe's teenage chaos outsmarting the sim; they never saw this wildcard coming."
+    "Zach sits on top, but his 19% win chance is as fragile as glass.",
+    "Gunner's Tier-2 lineup isn't delivering: Senegal got zero points, that's brutal.",
+    "Devin should be Rafe's punching bag with that -6 point differential nightmare.",
+    "The sim backed Gunner, but Rafe's chaos crashed their party, what a shock!"
   ]
 }
