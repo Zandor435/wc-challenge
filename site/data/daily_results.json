@@ -471,6 +471,23 @@
           "date": "2026-06-18",
           "stage": "group",
           "round": null,
+          "home": "Canada",
+          "away": "Qatar",
+          "home_score": 6,
+          "away_score": 0,
+          "score": "Canada 6-0 Qatar",
+          "points": {
+            "Gunner": 3.0
+          },
+          "math": [
+            "WIN: Canada (Gunner, T3) +3 (win) (no upset: favorite won)",
+            "LOSS: Qatar (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "stage": "group",
+          "round": null,
           "home": "Czechia",
           "away": "South Africa",
           "home_score": 1,

@@ -34,7 +34,7 @@
       "rank": 3
     },
     {
-      "owner": "Rafe",
+      "owner": "Gunner",
       "total_points": 9,
       "breakdown": {
         "match": 9.0,
@@ -44,10 +44,10 @@
       "rank": 4
     },
     {
-      "owner": "Gunner",
-      "total_points": 6,
+      "owner": "Rafe",
+      "total_points": 9,
       "breakdown": {
-        "match": 6.0,
+        "match": 9.0,
         "upset": 0,
         "advancement": 0
       },

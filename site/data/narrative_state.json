@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T21:45:15Z",
+  "generated": "2026-06-19T01:06:11Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 8,
-    "matches_played": 26,
-    "matches_remaining": 78,
+    "matches_played": 27,
+    "matches_remaining": 77,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -24,7 +24,7 @@
         "L": 1
       },
       "win_probability": 0.19,
-      "champion_probability": 0.12,
+      "champion_probability": 0.13,
       "streak": {
         "type": "D",
         "length": 1,
@@ -52,29 +52,29 @@
       }
     },
     "Gunner": {
-      "rank": 5,
-      "rank_change_from_prev_day": 0,
-      "total_points": 6,
-      "points_today": 0,
+      "rank": 4,
+      "rank_change_from_prev_day": 1,
+      "total_points": 9,
+      "points_today": 3,
       "record": {
-        "W": 1,
+        "W": 2,
         "D": 3,
         "L": 1
       },
-      "win_probability": 0.26,
+      "win_probability": 0.27,
       "champion_probability": 0.15,
       "streak": {
-        "type": "L",
+        "type": "W",
         "length": 1,
-        "label": "L1"
+        "label": "W1"
       },
       "best_team": {
-        "team": "France",
-        "tier": 1,
-        "points": 3,
+        "team": "Canada",
+        "tier": 3,
+        "points": 4,
         "record": {
           "W": 1,
-          "D": 0,
+          "D": 1,
           "L": 0
         }
       },
@@ -99,8 +99,8 @@
         "D": 1,
         "L": 2
       },
-      "win_probability": 0.2,
-      "champion_probability": 0.12,
+      "win_probability": 0.19,
+      "champion_probability": 0.11,
       "streak": {
         "type": "W",
         "length": 1,
@@ -166,8 +166,8 @@
       }
     },
     "Rafe": {
-      "rank": 4,
-      "rank_change_from_prev_day": -2,
+      "rank": 5,
+      "rank_change_from_prev_day": -3,
       "total_points": 9,
       "points_today": 0,
       "record": {
@@ -460,7 +460,7 @@
       "date": "2026-06-18",
       "points": {
         "Zach": 4,
-        "Gunner": 0,
+        "Gunner": 3,
         "Gayden": 0,
         "Devin": 1,
         "Rafe": 0
@@ -469,7 +469,7 @@
   ],
   "dependency_index": {
     "Zach": 0.08,
-    "Gunner": 0.5,
+    "Gunner": 0.33,
     "Gayden": 0.3,
     "Devin": 0.11,
     "Rafe": 0.33
@@ -494,14 +494,14 @@
       "tag": "Rafe slide",
       "owner": "Rafe",
       "kind": "slide",
-      "description": "Rafe dropped 2 spots in the standings on the latest matchday."
+      "description": "Rafe dropped 3 spots in the standings on the latest matchday."
     }
   ],
   "golden_boot_leader": {
-    "player": "Erling Haaland",
-    "team": "Norway",
-    "owner": "Devin",
-    "goals": 2
+    "player": "Jonathan David",
+    "team": "Canada",
+    "owner": "Gunner",
+    "goals": 3
   },
   "history": [
     {
@@ -528,10 +528,10 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -1,
+        "Zach": -2,
         "Gunner": -3,
-        "Gayden": 1,
-        "Devin": 0,
+        "Gayden": 3,
+        "Devin": -1,
         "Rafe": 3
       }
     },
@@ -725,14 +725,14 @@
       "date": "2026-06-18",
       "points": {
         "Zach": 13,
-        "Gunner": 6,
+        "Gunner": 9,
         "Gayden": 10,
         "Devin": 9,
         "Rafe": 9
       },
       "points_today": {
         "Zach": 4,
-        "Gunner": 0,
+        "Gunner": 3,
         "Gayden": 0,
         "Devin": 1,
         "Rafe": 0
@@ -741,15 +741,15 @@
         "Zach": 1,
         "Gayden": 2,
         "Devin": 3,
-        "Rafe": 4,
-        "Gunner": 5
+        "Gunner": 4,
+        "Rafe": 5
       },
       "rank_change": {
         "Zach": 2,
-        "Gunner": 0,
+        "Gunner": 1,
         "Gayden": -1,
         "Devin": 1,
-        "Rafe": -2
+        "Rafe": -3
       }
     }
   ]
