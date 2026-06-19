@@ -521,6 +521,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-19",
+      "matches": [
+        {
+          "date": "2026-06-19",
+          "stage": "group",
+          "round": null,
+          "home": "USA",
+          "away": "Australia",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "USA 2-0 Australia",
+          "points": {
+            "Devin": 3.0
+          },
+          "math": [
+            "WIN: USA (Devin, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Australia (T3) undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }

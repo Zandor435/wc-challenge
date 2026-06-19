@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-19T18:42:15Z",
-  "source": "daily_results_2026-06-18",
-  "date": "2026-06-19",
-  "rotation": 8,
+  "generated": "2026-06-19T21:29:28Z",
+  "source": "daily_results_2026-06-19",
+  "date": "2026-06-20",
+  "rotation": 9,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "**Zach outmaneuvered amateurs like Gunner and Devin; now he toys with Ghost Pepper's doomed squad.** Look, when you’ve played in a World Cup as I have, you can sniff out the talent, and let me tell you, Mustard Boy, aka Zach, has done his homework with Brazil. With the Selecao’s recent form, they’re set to obliterate Devin's hapless Haiti, leaving Ghost Pepper to wonder if he picked his teams based on FIFA video game ratings instead of real-world football. It’s almost laughable that Devin thought Haiti had a shot in this group; this is a joke. Brazil will coast past Devin's ragtag bunch as easily as I coasted by defenders in my day. Rafe, or \"The Noisemaker,\" might be trailing only by a point, but picking three teams that didn’t even qualify shows he’s just here for the chaos. While Zach's leading with 13 points, Gayden, \"The Backpass Assassin,\" needs to remember backward thinking doesn't win tournaments. Meanwhile, Gunner, languishing in last place, picked DR Congo, which is about as clueless as you can get. This is not how fantasy works, Bubba G; you need teams that actually perform. Zach remains the only manager in this wreck of a pool who grasps the beautiful game — everyone else should call it quits."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "**Look, I get why people think Rafe's ignorance is a strategy, but it’s really just ignorance in a different outfit.** I feel for Devin, I really do, because his USA team just delivered a solid 2-0 win against Australia, sneaking him up to joint second with 12 points. However, when you draft Haiti in the fourth round, bless his heart, you have to wonder what conversation he was having with himself. Zach, or \"Mustard Boy,\" is sitting pretty at the top with 13 points, but let's not pretend he didn't simply stumble into the luck of Brazil doing Brazil things. Meanwhile, \"The Backpass Assassin,\" Gayden, is proving there's a price to pay for loyalty to the Three Lions, who are yet to translate talent into dominance for his team. And poor \"Bubba G\" Gunner, sitting in last place with 9 points—France might bail him out eventually, but relying on DR Congo as a dark horse feels like an experiment in futility. As for Rafe, he’s tied with Devin, and honestly, at this point, he’s just throwing darts at a dart board and somehow hitting the triple 20s. I mean, you’ve got to admire the sheer audacity of cluelessness winning out."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach Set to Solidify Lead Against Devin in All-Mustard Showdown",
-      "subtitle": "Mustard Boy to face Ghost Pepper; condiment supremacy at stake.",
-      "match": "Brazil vs Haiti",
-      "date": "2026-06-19"
+      "headline": "Rafe's Soccer Knowledge Exposed as Germany Faces Unpicked Ivory Coast",
+      "subtitle": "Germany set to showcase strategic draft planning by default.",
+      "match": "Germany vs Ivory Coast",
+      "date": "2026-06-20"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden's Strategy Meets Question as Mexico Topples Korea Republic",
-      "subtitle": "The Backpass Assassin questioned for losing to manager's teenage son.",
-      "match": "Mexico vs Korea Republic",
-      "date": "2026-06-19"
+      "headline": "Gayden Hopes for Redemption with Japan's Upcoming Match Against Tunisia",
+      "subtitle": "Drafting a Tier 2 team is no joke, despite appearances.",
+      "match": "Tunisia vs Japan",
+      "date": "2026-06-20"
     },
     {
       "pundit": "dempsey",
-      "headline": "Gunner Poised for Redemption with Morocco Facing Untested Scotland",
-      "subtitle": "Bubba G banking on Tier 2 to climb from the basement.",
-      "match": "Scotland vs Morocco",
-      "date": "2026-06-19"
+      "headline": "Ghost Pepper Sprinkles Heat as USA Triumphs with Easy Victory",
+      "subtitle": "Devin's strategic roster pays off with a win over Australia.",
+      "match": "USA 2-0 Australia",
+      "date": "2026-06-20"
     },
     {
       "pundit": "lalas",
-      "headline": "USA's Ghost Pepper Ready to Sizzle Against Undrafted Australia",
-      "subtitle": "Devin's spicy roster needs points to catch Mustard Boy's Brazil.",
-      "match": "USA vs Australia",
-      "date": "2026-06-19"
+      "headline": "Netherlands vs Sweden: The Undrafted Showdown That Means Nothing to Bubba G",
+      "subtitle": "Gunner focuses on the art of missing unnoticed opportunities.",
+      "match": "Netherlands vs Sweden",
+      "date": "2026-06-20"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach vaults to the top, roasting Gayden's hopes like last year's turkey.",
-    "Rafe drafted three countries that didn't qualify, yet he's ranked second. Draft day genius.",
-    "Devin's getting smoked by a teenager—two losses to Rafe already, that's brutal.",
-    "Sim's MVP is chaos agent Rafe, making algorithms sweat while knowing zilch."
+    "Gunner slides to 5th! Teen chaos agent disrupts the favorite's groove.",
+    "Rafe's Tier-1 blunder barely matters; chaos kid drafts his way into contention.",
+    "Rafe splits with Dad Gayden — Thanksgiving dinner's gonna be extra awkward this year!",
+    "Sim doesn't see chaos coming; Gunner's 27% win chance tanks after teen terrorizes league."
   ]
 }
