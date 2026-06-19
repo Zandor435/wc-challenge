@@ -291,12 +291,20 @@
       "rank": 36
     },
     {
+      "player": "Luis Romo",
+      "team": "Mexico",
+      "owner": "Rafe",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 37
+    },
+    {
       "player": "M. Rashford",
       "team": "England",
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 37
+      "rank": 38
     },
     {
       "player": "Mohamed Almnai",
@@ -304,7 +312,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 38
+      "rank": 39
     },
     {
       "player": "N. Brown",
@@ -312,7 +320,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 39
+      "rank": 40
     },
     {
       "player": "N. Schlotterbeck",
@@ -320,7 +328,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 40
+      "rank": 41
     },
     {
       "player": "Nathan Saliba",
@@ -328,7 +336,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 41
+      "rank": 42
     },
     {
       "player": "O. Rekik",
@@ -336,7 +344,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 42
+      "rank": 43
     },
     {
       "player": "R. Jiménez",
@@ -344,7 +352,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 43
+      "rank": 44
     },
     {
       "player": "Rvbn Vargas",
@@ -352,7 +360,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 44
+      "rank": 45
     },
     {
       "player": "Rvmanv Ashmid",
@@ -360,7 +368,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 45
+      "rank": 46
     },
     {
       "player": "V. Júnior",
@@ -368,7 +376,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 46
+      "rank": 47
     },
     {
       "player": "‫mikhal Sadilk",
@@ -376,7 +384,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 47
+      "rank": 48
     }
   ]
 }

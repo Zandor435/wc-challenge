@@ -453,6 +453,24 @@
           "date": "2026-06-18",
           "stage": "group",
           "round": null,
+          "home": "Mexico",
+          "away": "Korea Republic",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "Mexico 1-0 Korea Republic",
+          "points": {
+            "Rafe": 3.0,
+            "Gayden": 0.0
+          },
+          "math": [
+            "WIN: Mexico (Rafe, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Korea Republic (Gayden, T3) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-18",
+          "stage": "group",
+          "round": null,
           "home": "Switzerland",
           "away": "Bosnia",
           "home_score": 4,
