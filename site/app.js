@@ -114,16 +114,19 @@ function tickTeamRow(team, owner, score, win, showScore) {
     </div>
     <div class="tick-bar" style="background:${accent}"></div>`;
 }
-function renderScoreStrip(fixtures, ownerIdx, resultIdx, isToday) {
-  const box = el("ticker-track");
-  const label = el("ticker-label");
+/* Renders one half of the merged ticker. `opts` targets the track/label DOM and
+   supplies the label text: {trackId, labelId, label, emptyMsg}. The cell markup is
+   identical for both halves (yesterday finals + today fixtures) so the two sides
+   read as one unified strip — final scores show when a fixture's result exists. */
+function renderScoreStrip(fixtures, ownerIdx, resultIdx, opts = {}) {
+  const box = el(opts.trackId || "ticker-track");
+  const label = el(opts.labelId || "ticker-label");
   if (!box) return;
+  if (label && opts.label) label.textContent = opts.label;
   if (!fixtures.length) {
-    if (label) label.textContent = "SCORES";
-    box.innerHTML = `<div class="ticker-loading">No matches scheduled.</div>`;
+    box.innerHTML = `<div class="ticker-loading">${esc(opts.emptyMsg || "No matches scheduled.")}</div>`;
     return;
   }
-  if (label) label.textContent = isToday ? "TODAY" : "NEXT UP";
   box.innerHTML = fixtures.map((fx) => {
     const t1 = fx.team1, t2 = fx.team2;
     const o1 = ownerIdx[t1] || "", o2 = ownerIdx[t2] || "";
@@ -439,8 +442,9 @@ function renderYesterday(daily, ownerIdx) {
   if (!matches.length) { section.hidden = true; return; }
 
   section.hidden = false;
-  const isYesterday = day.date === addDaysISO(todayLocalISO(), -1);
-  el("yr-title").textContent = isYesterday ? "YESTERDAY'S RESULTS" : "LATEST RESULTS";
+  // The ticker is the glanceable summary; this section is the detail view. Title is
+  // a steady "SCORECARD"; the date (yesterday/latest) carries in the meta line.
+  el("yr-title").textContent = "SCORECARD";
   el("yr-meta").textContent = prettyDate(day.date).toUpperCase();
 
   box.innerHTML = `<div class="yr-list">${matches.map((m) => {
@@ -960,20 +964,38 @@ async function main() {
       const rows = parseCSV(csvText);
       const resultIdx = buildResultIndex(daily);
       renderTodaysMatches(rows, ownerIdx, makeTierLookup(teams), resultIdx);
-      // Scores ticker: today's fixtures (or the next match day if none today).
+
+      // Merged ticker — RIGHT half: today's fixtures (or the next match day if none today).
       const today = todayLocalISO();
       let tickFixtures = rows.filter((r) => r.date === today), tickIsToday = true;
       if (!tickFixtures.length) {
         const next = rows.filter((r) => r.date > today).map((r) => r.date).sort()[0];
         if (next) { tickFixtures = rows.filter((r) => r.date === next); tickIsToday = false; }
       }
-      renderScoreStrip(tickFixtures, ownerIdx, resultIdx, tickIsToday);
+      renderScoreStrip(tickFixtures, ownerIdx, resultIdx, {
+        label: tickIsToday ? "TODAY" : "NEXT UP",
+        emptyMsg: "No matches scheduled.",
+      });
+
+      // Merged ticker — LEFT half: final scores from the most recent scored day
+      // (same day the Scorecard details below the ticker show).
+      const days = (daily && daily.days) || [];
+      const lastDay = days.length ? days[days.length - 1] : null;
+      const yFixtures = lastDay ? rows.filter((r) => r.date === lastDay.date) : [];
+      renderScoreStrip(yFixtures, ownerIdx, resultIdx, {
+        trackId: "ticker-track-yesterday",
+        labelId: "ticker-label-yesterday",
+        label: lastDay && lastDay.date === addDaysISO(today, -1) ? "YESTERDAY" : "LATEST",
+        emptyMsg: "No recent results.",
+      });
     }).catch((e) => {
       console.error(e);
       const b = el("todays-matches");
       if (b) { b.classList.remove("loading"); b.innerHTML = `<div class="loading">Schedule unavailable.</div>`; }
-      const t = el("ticker-track");
-      if (t) t.innerHTML = `<div class="ticker-loading">Scores unavailable.</div>`;
+      ["ticker-track", "ticker-track-yesterday"].forEach((id) => {
+        const t = el(id);
+        if (t) t.innerHTML = `<div class="ticker-loading">Scores unavailable.</div>`;
+      });
     });
 
     const v = standings.rules_version || "rebalanced_v3";

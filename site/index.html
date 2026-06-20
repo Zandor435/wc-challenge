@@ -39,16 +39,19 @@
        2026" kicker + the day's featured match. Stays empty (collapsed) until it renders. -->
   <div class="hero-banner" id="hero-banner"></div>
 
-  <!-- ============ SCORES TICKER (today's glance layer) ============ -->
+  <!-- ============ SCORES TICKER (glance layer) ============ -->
+  <!-- One horizontal band, two halves side by side: YESTERDAY's finals (left) and
+       TODAY's upcoming fixtures (right), split by a subtle vertical divider. Each
+       half scrolls horizontally on overflow. Both are rendered by renderScoreStrip()
+       in app.js — same cell format so the strip reads as one unified ticker. -->
   <div class="ticker" id="top">
-    <div class="ticker-label" id="ticker-label">TODAY</div>
-    <div class="ticker-track" id="ticker-track"><div class="ticker-loading">Loading scores…</div></div>
-  </div>
-
-  <!-- ============ LEAGUE BAR ============ -->
-  <div class="leaguebar">
-    <div class="leaguebar-inner">
-      <span class="leaguebar-name">THE WORLD CUP 2026</span>
+    <div class="ticker-section">
+      <div class="ticker-label" id="ticker-label-yesterday">YESTERDAY</div>
+      <div class="ticker-track" id="ticker-track-yesterday"><div class="ticker-loading">Loading…</div></div>
+    </div>
+    <div class="ticker-section ticker-section--today">
+      <div class="ticker-label" id="ticker-label">TODAY</div>
+      <div class="ticker-track" id="ticker-track"><div class="ticker-loading">Loading scores…</div></div>
     </div>
   </div>
 
@@ -57,10 +60,12 @@
     <!-- ============ MAIN CONTENT COLUMN ============ -->
     <main class="main-col">
 
-      <!-- ---- YESTERDAY'S RESULTS (most recent scored day; hidden until data) ---- -->
+      <!-- ---- SCORECARD (detailed cards for the most recent scored day — owner
+           clashes, point breakdowns, win/loss tags; the ticker is the glanceable
+           summary, these are the detail view. Hidden until data) ---- -->
       <section class="block" id="yesterday" hidden>
         <div class="block-head">
-          <h2 id="yr-title">YESTERDAY'S RESULTS</h2>
+          <h2 id="yr-title">SCORECARD</h2>
           <span class="block-more" id="yr-meta"></span>
         </div>
         <div id="yesterday-results"></div>

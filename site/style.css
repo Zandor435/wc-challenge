@@ -152,6 +152,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 }
 
 /* ---------------- SCORES TICKER ---------------- */
+/* One horizontal band split into two halves side by side: YESTERDAY (left) and
+   TODAY (right), divided by a subtle vertical rule. Each half is label + a track
+   that scrolls horizontally on overflow, independently of the other. */
 .ticker {
   background: var(--bg-soft);
   border-bottom: 1px solid var(--line);
@@ -162,6 +165,11 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   position: sticky; top: 56px; z-index: 40;
   box-shadow: 0 6px 14px rgba(0, 0, 0, .28);
 }
+/* each half claims an equal share; min-width:0 lets the track scroll instead of
+   forcing the band wider than the viewport */
+.ticker-section { display: flex; align-items: stretch; flex: 1 1 50%; min-width: 0; }
+/* the vertical divider between the two halves — subtle, 2px */
+.ticker-section--today { border-left: 2px solid #1c2030; }
 .ticker-label {
   background: var(--surface-2);
   color: var(--muted);
@@ -172,7 +180,9 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 }
 .ticker-track {
   display: flex; gap: 0; overflow-x: auto; scrollbar-width: thin;
-  flex: 1;
+  /* min-width:0 lets the track shrink below its content so overflow-x scrolls
+     instead of forcing the section (and the page) wider than the viewport */
+  flex: 1; min-width: 0;
 }
 .ticker-track::-webkit-scrollbar { height: 6px; }
 .ticker-track::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 3px; }
@@ -198,15 +208,6 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
 .tick-foot { margin-top: 1px; font-size: .62rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 .tick-foot .tf-time { color: var(--blue-br); }
 .tick-foot .tf-final { color: var(--green); }
-
-/* ---------------- LEAGUE BAR ---------------- */
-.leaguebar { background: var(--blue); }
-.leaguebar-inner {
-  max-width: var(--maxw); margin: 0 auto; padding: 8px 16px;
-  display: flex; align-items: center; justify-content: space-between; gap: 12px;
-}
-.leaguebar-name { font-size: .95rem; font-weight: 700; color: #fff; }
-.leaguebar-meta { font-size: .74rem; color: #cdd8f5; font-weight: 600; }
 
 /* ---------------- TODAY'S MATCHES (schedule hero) ---------------- */
 .tm-grid { display: block; }                /* wrapper; .tm-cards holds the grid */
@@ -769,7 +770,6 @@ td.rk-col { color: var(--muted); font-family: "Oswald", sans-serif; font-weight:
   .hero { grid-template-columns: 1fr; }
   .hero-art { border-right: 0; border-bottom: 1px solid var(--line); }
   .hero-title { font-size: 2.8rem; }
-  .leaguebar-meta { display: none; }
 
   /* Reveal the hamburger; it toggles .open on .mainnav (see nav.js). */
   .icon-btn[aria-label="Menu"] { display: inline-flex; }
