@@ -529,6 +529,24 @@
           "date": "2026-06-19",
           "stage": "group",
           "round": null,
+          "home": "Scotland",
+          "away": "Morocco",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "Scotland 0-1 Morocco",
+          "points": {
+            "Gunner": 3.0,
+            "Rafe": 0.0
+          },
+          "math": [
+            "WIN: Morocco (Gunner, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Scotland (Rafe, T3) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-19",
+          "stage": "group",
+          "round": null,
           "home": "USA",
           "away": "Australia",
           "home_score": 2,

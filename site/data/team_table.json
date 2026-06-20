@@ -122,10 +122,10 @@
       "team": "Morocco",
       "owner": "Gunner",
       "tier": 2,
-      "W": 0,
+      "W": 1,
       "D": 1,
       "L": 0,
-      "points": 1.0
+      "points": 4.0
     },
     {
       "team": "Senegal",
@@ -196,7 +196,7 @@
       "tier": 3,
       "W": 1,
       "D": 0,
-      "L": 0,
+      "L": 1,
       "points": 3.0
     },
     {
