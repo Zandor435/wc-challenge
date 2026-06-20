@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:56:04Z",
+  "generated": "2026-06-20T04:33:08Z",
   "source": "daily_results_2026-06-19",
   "date": "2026-06-20",
   "rotation": 9,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why people say the World Cup is unpredictable, but when you draft three teams that didn’t even qualify, bless your heart, you might want to rethink your strategy, Noisemaker.** Rafe finds himself in a respectable fourth place, tied with both Bubba G and Ghost Pepper, but let's be real, he's stumbled into this position thanks to his teams' good work rather than any masterminding on his part. Meanwhile, \"Ghost Pepper\" Devin is clinging desperately to second place, but that fourth-round pick of Haiti is a decision that had me scratching my head even though I feel for him in his quest for the underdog story. I mean, what conversation was he having with himself? His recent win with the USA isn't a saving grace; it's a temporary band-aid on a self-inflicted wound. As for \"Mustard Boy\" Zach, currently leading with the slimmest of margins at the top, it's probably a case of being in the right place at the right time with teams like Brazil doing much of the heavy lifting. Meanwhile, \"The Backpass Assassin\" Gayden, sitting in the lonely bottom with 10 points, might want to reassess his whole tactical approach unless his dream is to be lauded for participation."
+    "take": "**Look, I get why people say \"The Noisemaker\" is just making noise, but he's somehow tied with Gunner and Devin despite picking three teams that didn’t even qualify.** I think it speaks volumes about the state of this league. Rafe, bless his heart, probably thinks a \"hat trick\" involves wearing multiple hats, yet here he is, sharing second place with Devin and Gunner. Poor \"Ghost Pepper\" Devin might be riding Spain's coattails, but taking Haiti in the fourth round seems like he was trying to spice up his draft board by making it a culinary disaster. Meanwhile, \"Mustard Boy\" Zach, sitting pretty at the top with 16 points, has Brazil carrying his entire fantasy hopes, making light work of Devin’s Haiti with a 3-0 triumph. I mean, it's almost like he stumbled into this success, isn't it? Gayden, or \"The Backpass Assassin,\" is clearly struggling to pass the ball forward in this competition, resting wearily with a meager 10 points. It's funny how the standings reflect more on the managers’ questionable choices than the actual teams playing, isn't it?"
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach Holds Top Spot, Credits Saudi Arabia Draft Strategy",
-      "subtitle": "Mustard Boy's Saudi gamble pays zero dividends, but he's happy.",
-      "match": "Group F Preview",
+      "headline": "Mustard Boy Zach Tops Fantasy Standings with Brazil's Win",
+      "subtitle": "\"Turns out picking Brazil wasn't a mustard-induced hallucination,\" Zach comments.",
+      "match": "Brazil vs Haiti",
       "date": "2026-06-20"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden's Draft Tactics Questioned After Dropping to Last Place",
-      "subtitle": "The Backpass Assassin's teams yet to perform any forward passes.",
-      "match": "Group F Preview",
-      "date": "2026-06-20"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Rafe Expected to Lose Ground as Germany Faces Ivory Coast",
-      "subtitle": "The Noisemaker confident his draft of non-qualifiers remains solid.",
+      "headline": "Backpass Assassin Gayden Poised for Tactical Masterstroke Against Germany",
+      "subtitle": "\"He plans to backpass his way to a 0-0 draw,\" insiders reveal.",
       "match": "Germany vs Ivory Coast",
       "date": "2026-06-20"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Ghost Pepper Devin Relies on USA to Add More Spice",
+      "subtitle": "\"Always knew picking my home country would do me right,\" Devin muses.",
+      "match": "USA vs Australia",
+      "date": "2026-06-20"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Gunner and Devin in Fierce Battle for Second Place Supremacy",
-      "subtitle": "Bubba G congratulates Ghost Pepper on scoring easier group points.",
-      "match": "Group F Preview",
+      "headline": "Rookie Noisemaker Rafe Holding Steady Despite Drafting Three Non-Qualifiers",
+      "subtitle": "\"12 points and he's not heard the whistle yet,\" observers note.",
+      "match": "Group E Preview",
       "date": "2026-06-20"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach's the king with no points today. Leadership on autopilot, luck or skill?",
-    "Rafe's Tier-1 Germany can't save his Tier-2 dumpster fire picks.",
-    "Rafe owns Devin like Ghost Pepper owns a winning streak: not at all.",
-    "The sim's 15-year-old chaos agent is jamming up Gunner's top-dog predictions."
+    "Rafe, carrying 0 points today, is really gunning to inherit last place.",
+    "Rafe's Nigeria, Poland, Jamaica draft flops harder than a fish out of water.",
+    "Rafe's +6 against Devin screams more than his old man ever could.",
+    "Gunner, favorite status gone the second Rafe waltzed into the league. Ouch, kid."
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T00:56:04Z",
+  "generated": "2026-06-20T04:33:08Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 9,
-    "matches_played": 30,
-    "matches_remaining": 74,
+    "matches_played": 31,
+    "matches_remaining": 73,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -16,23 +16,23 @@
     "Zach": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 13,
-      "points_today": 0,
+      "total_points": 16,
+      "points_today": 3,
       "record": {
-        "W": 3,
+        "W": 4,
         "D": 4,
         "L": 1
       },
-      "win_probability": 0.2,
+      "win_probability": 0.19,
       "champion_probability": 0.12,
       "streak": {
-        "type": "D",
+        "type": "W",
         "length": 1,
-        "label": "D1"
+        "label": "W1"
       },
       "best_team": {
-        "team": "Switzerland",
-        "tier": 2,
+        "team": "Brazil",
+        "tier": 1,
         "points": 4,
         "record": {
           "W": 1,
@@ -61,8 +61,8 @@
         "D": 3,
         "L": 1
       },
-      "win_probability": 0.28,
-      "champion_probability": 0.16,
+      "win_probability": 0.27,
+      "champion_probability": 0.15,
       "streak": {
         "type": "W",
         "length": 2,
@@ -99,8 +99,8 @@
         "D": 1,
         "L": 3
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.1,
+      "win_probability": 0.18,
+      "champion_probability": 0.12,
       "streak": {
         "type": "L",
         "length": 1,
@@ -135,10 +135,10 @@
       "record": {
         "W": 3,
         "D": 3,
-        "L": 3
+        "L": 4
       },
-      "win_probability": 0.21,
-      "champion_probability": 0.15,
+      "win_probability": 0.22,
+      "champion_probability": 0.16,
       "streak": {
         "type": "W",
         "length": 1,
@@ -161,7 +161,7 @@
         "record": {
           "W": 0,
           "D": 0,
-          "L": 1
+          "L": 2
         }
       }
     },
@@ -176,7 +176,7 @@
         "L": 4
       },
       "win_probability": 0.13,
-      "champion_probability": 0.09,
+      "champion_probability": 0.08,
       "streak": {
         "type": "L",
         "length": 1,
@@ -236,7 +236,7 @@
       "Zach": {
         "W": 0,
         "D": 1,
-        "L": 1
+        "L": 2
       }
     },
     "Gayden": {
@@ -263,7 +263,7 @@
         "L": 0
       },
       "Devin": {
-        "W": 1,
+        "W": 2,
         "D": 1,
         "L": 0
       }
@@ -372,6 +372,14 @@
     },
     {
       "result": "win",
+      "winner": "Zach",
+      "loser": "Devin",
+      "via": "Brazil beat Haiti",
+      "match": "Brazil 3-0 Haiti",
+      "date": "2026-06-19"
+    },
+    {
+      "result": "win",
       "winner": "Gunner",
       "loser": "Rafe",
       "via": "Morocco beat Scotland",
@@ -388,7 +396,7 @@
     "Devin": {
       "Rafe": -6,
       "Gunner": 0,
-      "Zach": -3
+      "Zach": -6
     },
     "Gayden": {
       "Zach": 0,
@@ -397,7 +405,7 @@
     "Zach": {
       "Gayden": 0,
       "Gunner": 0,
-      "Devin": 3
+      "Devin": 6
     },
     "Gunner": {
       "Devin": 0,
@@ -498,7 +506,7 @@
       "matchday": 9,
       "date": "2026-06-19",
       "points": {
-        "Zach": 0,
+        "Zach": 3,
         "Gunner": 3,
         "Gayden": 0,
         "Devin": 3,
@@ -507,7 +515,7 @@
     }
   ],
   "dependency_index": {
-    "Zach": 0.08,
+    "Zach": 0.25,
     "Gunner": 0.25,
     "Gayden": 0.3,
     "Devin": 0.08,
@@ -806,14 +814,14 @@
     {
       "date": "2026-06-19",
       "points": {
-        "Zach": 13,
+        "Zach": 16,
         "Gunner": 12,
         "Gayden": 10,
         "Devin": 12,
         "Rafe": 12
       },
       "points_today": {
-        "Zach": 0,
+        "Zach": 3,
         "Gunner": 3,
         "Gayden": 0,
         "Devin": 3,
