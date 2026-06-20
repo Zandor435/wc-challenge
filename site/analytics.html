@@ -58,6 +58,7 @@
     }
     .dash .span3 { grid-column: span 3; }
     .dash .span5 { grid-column: span 5; }
+    .dash .span10 { grid-column: span 10; }
 
     /* ---- headers ---- */
     .dash .tile-head {
@@ -156,9 +157,51 @@
     .dash .stat3 .s-num { color: var(--d-num); font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
     .dash .stat3 .s-lbl { color: var(--d-label); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
 
+    /* ---- win probability hero (scoreboard numbers, bars secondary) ---- */
+    .dash .wp-board { display: flex; flex-direction: column; gap: 1px; }
+    .dash .wp-row {
+      display: flex; align-items: baseline; gap: 10px;
+      padding: 7px 0; border-left: 3px solid var(--c, #5a6070); padding-left: 11px;
+    }
+    .dash .wp-row .dot.lg { width: 9px; height: 9px; margin-right: 0; vertical-align: 0; align-self: center; }
+    .dash .wp-name { color: #c7ccd8; font-size: 14px; font-weight: 600; flex: 1; min-width: 0; }
+    .dash .wp-pct  { color: var(--d-num); font-size: 30px; font-weight: 700; line-height: 1; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
+    .dash .wp-bars { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--d-gap); }
+    .dash .wp-bars .t-cap { margin-bottom: 6px; }
+
+    /* ---- max points remaining (number stack) ---- */
+    .dash .mp { display: flex; flex-direction: column; gap: 1px; }
+    .dash .mp-row {
+      display: flex; align-items: baseline; gap: 10px;
+      padding: 7px 0 7px 11px; border-left: 3px solid var(--c, #5a6070);
+    }
+    .dash .mp-name { color: #c7ccd8; font-size: 13px; font-weight: 600; flex: 1; min-width: 0; }
+    .dash .mp-num  { color: var(--d-num); font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .dash .mp-delta { color: var(--d-label); font-size: 11px; font-variant-numeric: tabular-nums; }
+
+    /* ---- points breakdown (base vs bonus) ---- */
+    .dash .pb { display: flex; flex-direction: column; gap: 9px; margin-top: 2px; }
+    .dash .pb-row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-size: 13px; }
+    .dash .pb-row .pb-k { color: var(--d-label); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+    .dash .pb-row .pb-v { color: var(--d-num); font-weight: 700; font-variant-numeric: tabular-nums; }
+    .dash .pb-up { color: var(--d-label2); font-size: 12px; font-variant-numeric: tabular-nums; margin-top: 4px; padding-top: 8px; border-top: 1px solid var(--d-gap); }
+
+    /* ---- portfolio performance (team contribution per owner) ---- */
+    .dash .pf { display: flex; flex-direction: column; gap: 6px; margin-top: 4px; }
+    .dash .pf-row { display: flex; align-items: center; gap: 7px; font-size: 12.5px; }
+    .dash .pf-row .nm { color: #c7ccd8; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .dash .pf-row .g  { color: var(--d-num); font-weight: 700; font-variant-numeric: tabular-nums; }
+    .dash .tier-tag {
+      display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.03em;
+      padding: 1px 4px; border-radius: 3px; color: var(--tc, #5a6070);
+      background: color-mix(in srgb, var(--tc, #5a6070) 18%, transparent);
+      font-variant-numeric: tabular-nums; min-width: 18px; text-align: center;
+    }
+
     /* ---- chart wraps ---- */
     .dash .chart-sm  { position: relative; height: 150px; margin-top: 4px; }
     .dash .chart-xs  { position: relative; height: 100px; margin-top: 4px; }
+    .dash .chart-bars { position: relative; height: 90px; margin-top: 4px; }
 
     /* ---- trend legend ---- */
     .dash .legend { display: flex; flex-wrap: wrap; gap: 14px; }
@@ -180,7 +223,8 @@
     @media (max-width: 640px) {
       .dash .g-race { grid-template-columns: repeat(6, 1fr); }
       .dash .g-race .span3 { grid-column: span 2; }   /* 3 KPI per row -> 3 + 2 */
-      .dash .g-race .span5 { grid-column: span 6; }   /* winprob / gap / mover full width */
+      .dash .g-race .span5,
+      .dash .g-race .span10 { grid-column: span 6; }  /* winprob / gap full width */
       .dash .g5 { grid-template-columns: repeat(6, 1fr); }
       .dash .g5 > .tile:not(.tile-head) { grid-column: span 2; } /* 3 + 2 */
       .dash .g4 { grid-template-columns: repeat(2, 1fr); }
@@ -189,6 +233,7 @@
       .dash .g-race,
       .dash .g-race .span3,
       .dash .g-race .span5,
+      .dash .g-race .span10,
       .dash .g5,
       .dash .g5 > .tile:not(.tile-head),
       .dash .g4 { grid-template-columns: 1fr; grid-column: auto; }
@@ -234,16 +279,11 @@
     <section class="grid g4"     id="sec-draft"></section>
     <section class="grid g4"     id="sec-rivalries"></section>
     <p class="rome" id="rome-2" hidden></p>
+    <section class="grid g5"     id="sec-breakdown"></section>
+    <section class="grid g5"     id="sec-portfolio"></section>
     <section class="grid g4"     id="sec-deep"></section>
     <section class="grid g1"     id="sec-trend"></section>
   </main>
-
-  <footer class="site-foot">
-    <div class="foot-inner">
-      <span class="brand small"><span class="brand-mark">WC</span><span class="brand-word">CHALLENGE</span></span>
-      <span>Rules <b id="foot-rules">rebalanced_v3</b> · static JSON rendered client-side · the site computes nothing the engine didn't already</span>
-    </div>
-  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
   <script src="analytics.js"></script>
