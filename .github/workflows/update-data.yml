@@ -283,3 +283,45 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+  # Deploy the freshly-committed site to GitHub Pages from INSIDE this workflow.
+  # pages.yml (on: push) never fires on the commit the `update` job pushes above:
+  # pushes made with the default GITHUB_TOKEN do not trigger other workflows
+  # (GitHub's anti-recursion rule), so Pages would otherwise only redeploy on a
+  # human push and drift stale between manual commits. Running the deploy here —
+  # gated on `update` — keeps github.io in lockstep with every cron data commit.
+  # pages.yml is left intact for manual pushes.
+  #
+  # `needs: update` also means rest days are free: when the gate skips `update`,
+  # this job is skipped too (a skipped dependency skips its dependents).
+  deploy-pages:
+    needs: update
+    runs-on: ubuntu-latest
+    # Job-scoped permissions for the Pages deploy (overrides the workflow-level
+    # `contents: write`, which the deploy doesn't need).
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    # Same concurrency group as pages.yml so a manual-push deploy and this cron
+    # deploy can't race on the single github-pages environment.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Check out main's HEAD (ref: main), NOT the SHA that triggered this run:
+      # the `update` job pushed a new commit with the refreshed site/data/*.json,
+      # and we must publish THAT tree, not the pre-commit checkout the event SHA
+      # points at.
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+      - id: deployment
+        uses: actions/deploy-pages@v4
