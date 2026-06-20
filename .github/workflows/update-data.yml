@@ -78,13 +78,37 @@ jobs:
         # -> generate_site_banners.to_banner_png). Falls back gracefully if absent, but CI
         # installs it so dynamic banners crop on the faces like the static pool.
         run: pip install numpy resend jinja2 google-genai pillow opencv-python-headless
-      - name: Fetch + score
+      # Split out of the old single "Fetch + score" (scripts/build.py --fetch) into
+      # fetch -> validate -> score, so the name-validation gate sits BETWEEN the two
+      # and an unmapped team blocks scoring entirely. These three steps reproduce
+      # build.py --fetch exactly (same fetch_results.py + scoring.py calls, same
+      # 0-match clobber guard), just with the gate inserted.
+      - name: Fetch live results
         # Fixtures now come from the free worldcup26.ir feed (no auth) — the default
         # source in fetch_results.py. API_FOOTBALL_KEY is intentionally NOT wired in:
         # the fetch must not depend on the paid key. The secret stays in the repo so
         # `--source api-football` remains available as a manual fallback.
         run: |
-          python scripts/build.py --fetch --season "${{ github.event.inputs.season || '2026' }}"
+          python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --out data/live_results.json
+      - name: Validate team names (fail on unmapped)
+        # BETWEEN fetch and score: every fetched team must resolve (via
+        # data/team_aliases.json) to a canonical team in data/tiers.json. An
+        # unmapped name (a new feed spelling) fails the run here — naming the team —
+        # instead of scoring.py silently treating it as "undrafted" and dropping that
+        # team's points (the DR Congo bug). Pure name check, no side effects.
+        run: |
+          python validate_team_names.py --results data/live_results.json
+      - name: Score
+        # 0-match clobber guard mirrors scripts/build.py: a fetch that returns 0
+        # finished matches (e.g. pre-kickoff) must NOT overwrite the committed
+        # standings with zeros — skip scoring and leave site/data untouched.
+        run: |
+          n=$(python -c "import json; print(len(json.load(open('data/live_results.json')).get('matches', [])))")
+          if [ "$n" -eq 0 ]; then
+            echo "Fetch returned 0 finished matches — leaving existing site/data untouched (no clobber)."
+            exit 0
+          fi
+          python scoring.py --results data/live_results.json --out-dir site/data
       - name: Update win probability timeline
         # Runs AFTER scoring. Locks the results scoring.py just consumed and
         # simulates the remaining matches forward (5,000 sims). --skip-if-empty
