@@ -291,6 +291,35 @@ PLACEHOLDER_PUNDIT_TAKES = [
 RECAP_PATH = os.path.join(DATA, "tournament_recap.md")
 NARRATIVE_STATE_PATH = os.path.join(DATA, "narrative_state.json")
 
+# The Rome column's output structure is specified in rome_column_template.md at the
+# repo root — that file is canonical, so editing it changes Rome's format without
+# touching this script. We load it at generation time and inject it into the system
+# prompt; the embedded fallback below keeps the column from silently reverting to
+# free-form prose if the file is ever missing.
+ROME_TEMPLATE_PATH = os.path.join(HERE, "rome_column_template.md")
+ROME_FORMAT_FALLBACK = """# Jim Rome Column — Output Template
+
+## Structure
+- One section per owner, sorted by CURRENT RANK (1st -> last).
+- Header per owner: `OWNER NAME — [pts] pts · [rank] · [one-line verdict/hot take]`
+- Body: 2-3 sentences of Rome-voice color commentary per owner. Max 4 sentences.
+- Bold any personal attacks, roasts, or direct shots at the manager. Ring names
+  encouraged in the bolded lines; real first names in unbolded body text.
+- Optional cross-owner narrative section with its own named header (e.g. THE
+  FATHER-SON SAGA), only when a storyline genuinely spans multiple owners.
+
+## Rules
+- Jim Rome energy — confident, opinionated, sports-talk-radio.
+- No emoji, no icon fonts. Skimmable — readers find their owner in 2 seconds.
+- Ring names: Mustard Boy (Zach), Bubba G (Gunner), The Backpass Assassin (Gayden),
+  Ghost Pepper (Devin), The Noisemaker (Rafe)."""
+
+
+def load_rome_template():
+    """The Rome column format spec. rome_column_template.md is the source of truth;
+    fall back to the embedded copy if the file is missing."""
+    return read_text(ROME_TEMPLATE_PATH) or ROME_FORMAT_FALLBACK
+
 # --------------------------------------------------------------------------- #
 # Standing rivalries + season storylines fed to the stateful Rome voices (the
 # rolling column AND the analytics pull-quotes). The FRAMING is authored and
@@ -384,17 +413,47 @@ def build_storylines(narrative):
 - Devin ("Ghost Pepper") {devin_phrase} ({devin_champ}) despite sitting {devin_win_rank} in
   win probability — he might own the trophy but lose the league."""
 
-JIM_ROME_SYSTEM = (
-    "You are Jim Rome covering the WC Challenge. Here is your previous column. "
-    "Here are today's results, updated standings, and narrative context including "
-    "streaks, themes, and notable events. Write the next installment. Build on "
-    "running themes — escalate what's working, drop what's gone stale. "
-    "You are ALSO given a set of standing rivalries and season storylines — weave them "
-    "in and escalate them, above all the father-vs-son blood feud between Gayden and his "
-    "15-year-old son Rafe. "
-    "Reference specific results. Be opinionated about each owner's trajectory. "
-    "Keep it to 200-300 words."
+# Voice + behavior. The OUTPUT STRUCTURE is appended at call time from
+# rome_column_template.md (see rome_system_prompt) so the format stays canonical.
+JIM_ROME_VOICE = (
+    "You are Jim Rome covering the WC Challenge fantasy World Cup pool. You are given "
+    "your previous column, today's results, updated standings, and structured narrative "
+    "context (streaks, themes, notable events, win probabilities). Write the next "
+    "installment. Build on running themes — escalate what's working, drop what's gone "
+    "stale. You are ALSO given standing rivalries and season storylines — weave them in "
+    "and escalate them, above all the father-vs-son blood feud between Gayden and his "
+    "15-year-old son Rafe. Reference specific results and point totals. Be opinionated "
+    "about each owner's trajectory."
 )
+
+# Concrete markdown rules layered on top of the template so the output renders
+# correctly on the site (which parses the recap as GitHub-flavored markdown).
+ROME_FORMAT_NOTES = (
+    "- Output GitHub-flavored markdown, the column body only — no title, no byline, no preamble.\n"
+    "- One section per owner. SORT the sections by current rank, 1st place first down to last.\n"
+    "- Render each owner header as a markdown H3 in this exact shape, using the REAL points "
+    "and rank from the standings:\n"
+    "  `### OWNER NAME — N pts · 1st · one-line verdict`\n"
+    "- Under each header, write 2-4 sentences of Rome-voice commentary. Wrap any personal "
+    "attack, roast, or direct shot at the manager in markdown bold (**like this**); ring names "
+    "belong in the bolded shots, real first names in the plain body text.\n"
+    "- Include a cross-owner narrative section ONLY when a storyline genuinely spans multiple "
+    "owners (e.g. the father-vs-son saga); give it its own `###` header.\n"
+    "- No emoji, no icon fonts."
+)
+
+
+def rome_system_prompt():
+    """Assemble Rome's system prompt: voice + the canonical output template
+    (rome_column_template.md) + concrete markdown rules. Built per run so edits to
+    the template file flow straight through without touching this script."""
+    return (
+        JIM_ROME_VOICE
+        + "\n\nFOLLOW THIS OUTPUT TEMPLATE EXACTLY:\n\n"
+        + load_rome_template()
+        + "\n\nFORMATTING NOTES:\n"
+        + ROME_FORMAT_NOTES
+    )
 
 RECAP_USER_TEMPLATE = """PREVIOUS COLUMN (your last installment):
 {previous}
@@ -416,9 +475,13 @@ TODAY'S RESULTS:
 ROSTERS:
 {rosters}
 
-Write the next installment of your column now. Build on the running themes above, \
-reference specific results and point totals, and stay opinionated about each \
-manager's trajectory. Output the column body only — no title, no byline."""
+Write the next installment of your column now, following the OUTPUT TEMPLATE from your \
+instructions: one section per owner sorted by current rank (1st to last), an \
+`### OWNER NAME — N pts · rank · verdict` header for each (real points and rank from the \
+standings above), 2-4 sentences of commentary under each with personal shots in **bold**, \
+and an optional cross-owner narrative section only if a storyline spans multiple owners. \
+Build on the running themes, reference specific results and point totals, and stay \
+opinionated about each manager's trajectory. Output the column body only — no title, no byline."""
 
 PLACEHOLDER_RECAP = (
     "_Jim Rome's column drops once the next slate of matches is in the books._\n"
@@ -806,7 +869,7 @@ def generate_recap(args, api_key, standings, daily, narrative, previous):
         rosters=ROSTERS,
     )
     try:
-        return call_openai(api_key, args.model, JIM_ROME_SYSTEM, user,
+        return call_openai(api_key, args.model, rome_system_prompt(), user,
                            args.recap_max_tokens, args.temperature)
     except urllib.error.HTTPError as e:
         print(f"  Jim Rome recap: API error {e.code} — keeping previous column", file=sys.stderr)
@@ -878,8 +941,9 @@ def main():
                     help="max tokens for the four Babylon Bee-style pundit takes (JSON reply)")
     ap.add_argument("--date", default=None,
                     help="force the pundit's 'today' (YYYY-MM-DD); default derives from the schedule")
-    ap.add_argument("--recap-max-tokens", type=int, default=600,
-                    help="max tokens for the Jim Rome rolling column (~200-300 words)")
+    ap.add_argument("--recap-max-tokens", type=int, default=900,
+                    help="max tokens for the Jim Rome rolling column (per-owner sections + "
+                         "optional cross-owner narrative; headroom to avoid mid-section truncation)")
     ap.add_argument("--analytics-max-tokens", type=int, default=220,
                     help="max tokens for the four analytics pull-quotes (JSON reply)")
     ap.add_argument("--temperature", type=float, default=0.9)
