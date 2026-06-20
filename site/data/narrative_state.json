@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T04:33:08Z",
+  "generated": "2026-06-20T07:26:08Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 9,
-    "matches_played": 31,
-    "matches_remaining": 73,
+    "matches_played": 32,
+    "matches_remaining": 72,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -23,7 +23,7 @@
         "D": 4,
         "L": 1
       },
-      "win_probability": 0.19,
+      "win_probability": 0.2,
       "champion_probability": 0.12,
       "streak": {
         "type": "W",
@@ -61,7 +61,7 @@
         "D": 3,
         "L": 1
       },
-      "win_probability": 0.27,
+      "win_probability": 0.28,
       "champion_probability": 0.15,
       "streak": {
         "type": "W",
@@ -97,14 +97,14 @@
       "record": {
         "W": 3,
         "D": 1,
-        "L": 3
+        "L": 4
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.12,
+      "win_probability": 0.17,
+      "champion_probability": 0.11,
       "streak": {
         "type": "L",
-        "length": 1,
-        "label": "L1"
+        "length": 2,
+        "label": "L2"
       },
       "best_team": {
         "team": "England",
@@ -123,7 +123,7 @@
         "record": {
           "W": 0,
           "D": 0,
-          "L": 1
+          "L": 2
         }
       }
     },
@@ -137,7 +137,7 @@
         "D": 3,
         "L": 4
       },
-      "win_probability": 0.22,
+      "win_probability": 0.21,
       "champion_probability": 0.16,
       "streak": {
         "type": "W",
@@ -175,8 +175,8 @@
         "D": 0,
         "L": 4
       },
-      "win_probability": 0.13,
-      "champion_probability": 0.08,
+      "win_probability": 0.14,
+      "champion_probability": 0.09,
       "streak": {
         "type": "L",
         "length": 1,

@@ -577,6 +577,23 @@
             "WIN: USA (Devin, T2) +3 (win) (no upset: favorite won)",
             "LOSS: Australia (T3) undrafted, no points"
           ]
+        },
+        {
+          "date": "2026-06-19",
+          "stage": "group",
+          "round": null,
+          "home": "Turkey",
+          "away": "Paraguay",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "Turkey 0-1 Paraguay",
+          "points": {
+            "Gayden": 0.0
+          },
+          "math": [
+            "WIN: Paraguay (T3) undrafted, no points",
+            "LOSS: Turkey (Gayden, T3) +0 (loss)"
+          ]
         }
       ]
     }
