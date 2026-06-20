@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T15:37:40Z",
+  "generated": "2026-06-20T18:21:49Z",
   "source": "daily_results_2026-06-19",
   "date": "2026-06-20",
   "rotation": 9,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**I feel for \"Ghost Pepper,\" I really do, but when your strategy involves drafting Haiti as a key player, it's like trying to win a bike race on a unicycle.** Look, I get why people say Zach, or \"Mustard Boy,\" is leading with 16 points — Brazil's 3-0 romp over Haiti was as predictable as the sunrise. Still, banking all your hopes on a Tier 1 team's performance lacks a certain finesse, don't you think? Meanwhile, Gunner, or \"Bubba G,\" is hot on Zach's trail with 13 points, riding high after Morocco's narrow victory over Scotland. But let's be honest, without any upsets to his name, he's more of a lucky passenger than a brilliant tactician. And then we have \"The Noisemaker,\" Rafe, who at 15 is making a delightful mess with a roster that screams 'beginner's luck.' He's tied with Devin at 12 points, but at least Devin has valiantly endured the heartbreak of Spain's underwhelming performances. Gayden, bless his heart, is languishing at the bottom, and picking England as his anchor is about as safe as investing in a chocolate teapot. With only 10 points on the board, the \"Backpass Assassin\" might need to start planning for 2030."
+    "take": "**Look, I get why people say Zach's leading because he picked Brazil, but sometimes the sun shines on a dog's behind.** It's easy to rack up points when you've got Brazil 3-0ing Haiti, isn't it, Mustard Boy? I think we all saw that one coming a mile away. Meanwhile, I feel for poor Ghost Pepper, Devin — bless his heart — with Spain on his roster, but Haiti? That pick was like jumping headfirst into a pool with no water. And speaking of emotional whirlwinds, you've got to admire the Noisemaker, Rafe, for his sheer chaotic charm; drafting three non-qualifiers is almost an art form in itself. Now, Bubba G, or Gunner, as some call him, is hanging in there, but let's be real — he's clutching onto France like it's the last life raft on a sinking ship. And then there's The Backpass Assassin, Gayden, stuck at the bottom with a fondness for underdogs that borders on the delusional. Zero points from Turkey feels pretty spot-on, doesn't it, buddy? So let's call it as it is: some managers are rising, some are cooked, and some... well, there’s always next year."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach Leads World Cup Pool Thanks to Brazil's Domination",
-      "subtitle": "Mustard Boy remains undefeated in match points, upsetting absolutely nobody.",
-      "match": "Brazil vs Haiti",
+      "headline": "Gayden's Strategic Genius Leads Japan to Tough Test Against Tunisia",
+      "subtitle": "The Backpass Assassin's plan: draft three unqualified teams for variety.",
+      "match": "Tunisia vs Japan",
       "date": "2026-06-20"
     },
     {
       "pundit": "donovan",
-      "headline": "Gunner's Morocco Victory Keeps Him in Second Place Pursuit",
-      "subtitle": "\"Bubba G: Because managing successfully doesn't have to look pretty.\"",
-      "match": "Scotland vs Morocco",
+      "headline": "Mustard Boy's Brazilian Brilliance Keeps Zach Dominating WC Challenge",
+      "subtitle": "\"Picking Brazil was the thing to do,\" Zach announced logically.",
+      "match": "Brazil 3-0 Haiti",
       "date": "2026-06-20"
     },
     {
       "pundit": "dempsey",
-      "headline": "Devin's USA Triumph Fails to Elevate Him Above Third",
-      "subtitle": "Ghost Pepper spice levels unaffected by a routine victory.",
-      "match": "USA vs Australia",
+      "headline": "Ghost Pepper's USA Pick Keeps Devin in the World Cup Heat",
+      "subtitle": "Devin's spicy choice finally pays off with solid performance.",
+      "match": "USA 2-0 Australia",
       "date": "2026-06-20"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's High-Profile Blunders Leave Father Gayden in Last Place",
-      "subtitle": "The Noisemaker drafts a non-competing Germany to new heights of ineffectiveness.",
-      "match": "Germany vs Ivory Coast",
+      "headline": "Bubba G's Moroccan Marvel Moves Gunner Into Second Place",
+      "subtitle": "Morocco's win shows Gunner's masterful tier two team selection.",
+      "match": "Scotland 0-1 Morocco",
       "date": "2026-06-20"
     }
   ],
   "rome_analytics_quotes": [
-    "Gayden, your L2 streak smells like unfinished homework — you're grounded, man.",
-    "Rafe, your Tier-1 dependency matches Gayden's, yet he's your old man!",
-    "Devin, shutout 0-6 by Rafe! That's gotta sting worse than algebra.",
-    "Gunner's odds slip thanks to a clueless teen—maybe it's time to hit the books."
+    "Rafe's 0.14 win probability mocks the experts; pure chaos runs the show.",
+    "Gayden's Turkey gobbles up zero points; nothing but Thanksgiving leftovers here.",
+    "Devin keeps taking L's from Rafe—maybe seek advice from a 15-year-old?",
+    "Rafe's draft blunders undermine any credibility this sim ever had in predicting champs."
   ]
 }

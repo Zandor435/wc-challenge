@@ -1,11 +1,23 @@
-Clones, as the group stage simmers, Zach's Brazilian flair keeps him enthroned at the top with 16 points after a samba-packed 3-0 evisceration of Haiti. Zach runs this league like a finely-tuned orchestra, and it's hard to imagine anyone stopping him.
+### Zach — 16 pts · 1st · Retains the crown with flair
 
-Gunner, "Bubba G," makes it clear he’s not just here to spectate. His Morocco squad continued their surgical precision, edging Scotland 1-0, boosting him to 13 points. Gunner’s teams are clockwork machines, ready to topple this soccer dominion.
+Zach continues to conduct a masterclass, orchestrating his Brazil team to a samba-styled 3-0 demolition of Haiti. At 16 points, he looks down at his competitors from atop a solid gold throne. **Mustard Boy is painting this league yellow and green, and only a fool would bet against him now.** His mix of top-tier talent and cunning strategy keeps him in the driver's seat.
 
-Devin, "Ghost Pepper," remains scorching, slicing through Australia with USA's 2-0 victory. He's leveled at 12 points alongside Rafe, but his champion odds remain tantalizingly high. Devin's strategy: keep the heat on and let others wilt under pressure.
+### Gunner — 13 pts · 2nd · Surge to the summit continues
 
-And then there’s the drama of the decade, the eternal chess match of father vs. son. The Noisemaker's silence today reflects a stumble, as Rafe's Scotland falls, leaving him at 12 points. Yet, he's neck-and-neck with Devin. Meanwhile, Gayden, "The Backpass Assassin," continues down the path of ignominy, unable to stop Turkey's crash against Paraguay. Sitting at 10 points, the patriarch is weaker than a paper towel in a thunderstorm, and Thanksgiving at the Gayden house promises discomfort aplenty.
+**Bubba G** has shaken the league with another triumph, watching Morocco edge Scotland in a 1-0 masterstroke. Gunner sits at 13 points with the league's highest win probability, stamping his name into the championship conversation. The machines are humming, and **Gunner is one tactical genius away from dethroning the current king**.
 
-The duel between Gayden and Rafe is a Shakespearean family saga on ESPN's main stage. Gayden has built a monster that threatens to devour him, and Rafe—armed with wild Draft Day blunders turned miracles—tightens the noose.
+### Devin — 12 pts · 3rd · Heating up, title in sight
 
-Gayden, the league isn’t waiting for you. Shape up, or prepare to find yourself a permanent fixture at the kiddie table—next to the peas.
+Devin's been red-hot, with USA's surgical strike against Australia propelling him into serious contention at 12 points. Despite sitting just third in win probability, **Ghost Pepper** boasts the highest champion odds, hinting at a future that gleams with silverware. He's not just in this to compete; he's in it to win it.
+
+### Rafe — 12 pts · 4th · The wunderkind slips
+
+Rafe's momentum took a hit as Scotland fell to Morocco, leaving him stalled at 12 points. **The Noisemaker** may be down, but don’t count him out — this chaos agent has defied expectations from day one. His middle-of-the-pack rank belies a win probability that whispers potential Cinderella story. **This kid's journey is only getting started.**
+
+### Gayden — 10 pts · 5th · The Assassins' missteps
+
+It’s been a rough patch for Gayden, watching Turkey collapse against Paraguay for a zero-point day. With 10 points, **The Backpass Assassin** is reeling from self-inflicted wounds in his two-front war. He trails his own son, Rafe, by two points — a fact that's sure to make Thanksgiving taste bitter. This slide needs to stop before it hits rock bottom.
+
+### THE FATHER-SON SAGA
+
+In this Shakespearean saga, Rafe—the league's intrepid underdog—continues to outshine his father, **The Backpass Assassin**, by a slim margin. Gayden built a contender but now finds his own flesh and blood outsmarting him. With rivalries old and new, **Gayden faces a chilling reality: his son poised to take his crown, with holiday gatherings serving an extra side of humiliation.** Rafe's unexpected prowess adds a rich layer of drama to this family rivalry, keeping all eyes glued to their turbulent saga.
