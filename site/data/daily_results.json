@@ -383,14 +383,16 @@
           "stage": "group",
           "round": null,
           "home": "Portugal",
-          "away": "Democratic Republic of the Congo",
+          "away": "DR Congo",
           "home_score": 1,
           "away_score": 1,
-          "score": "Portugal 1-1 Democratic Republic of the Congo",
-          "points": {},
+          "score": "Portugal 1-1 DR Congo",
+          "points": {
+            "Gunner": 1.0
+          },
           "math": [
             "DRAW: Portugal undrafted, no points",
-            "DRAW: Democratic Republic of the Congo undrafted, no points"
+            "DRAW: DR Congo (Gunner) +1 (draw)"
           ]
         },
         {

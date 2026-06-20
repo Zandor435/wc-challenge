@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T13:09:13Z",
+  "generated": "2026-06-20T13:38:34Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -23,7 +23,7 @@
         "D": 4,
         "L": 1
       },
-      "win_probability": 0.2,
+      "win_probability": 0.19,
       "champion_probability": 0.12,
       "streak": {
         "type": "W",
@@ -52,17 +52,17 @@
       }
     },
     "Gunner": {
-      "rank": 3,
+      "rank": 2,
       "rank_change_from_prev_day": 2,
-      "total_points": 12,
+      "total_points": 13,
       "points_today": 3,
       "record": {
         "W": 3,
-        "D": 3,
+        "D": 4,
         "L": 1
       },
-      "win_probability": 0.28,
-      "champion_probability": 0.15,
+      "win_probability": 0.29,
+      "champion_probability": 0.16,
       "streak": {
         "type": "W",
         "length": 2,
@@ -99,7 +99,7 @@
         "D": 1,
         "L": 4
       },
-      "win_probability": 0.17,
+      "win_probability": 0.16,
       "champion_probability": 0.11,
       "streak": {
         "type": "L",
@@ -128,7 +128,7 @@
       }
     },
     "Devin": {
-      "rank": 2,
+      "rank": 3,
       "rank_change_from_prev_day": 2,
       "total_points": 12,
       "points_today": 3,
@@ -485,7 +485,7 @@
       "date": "2026-06-17",
       "points": {
         "Zach": 3,
-        "Gunner": 0,
+        "Gunner": 1,
         "Gayden": 3,
         "Devin": 0,
         "Rafe": 0
@@ -516,7 +516,7 @@
   ],
   "dependency_index": {
     "Zach": 0.25,
-    "Gunner": 0.25,
+    "Gunner": 0.23,
     "Gayden": 0.3,
     "Devin": 0.08,
     "Rafe": 0.25
@@ -753,14 +753,14 @@
       "date": "2026-06-17",
       "points": {
         "Zach": 9,
-        "Gunner": 6,
+        "Gunner": 7,
         "Gayden": 10,
         "Devin": 8,
         "Rafe": 9
       },
       "points_today": {
         "Zach": 3,
-        "Gunner": 0,
+        "Gunner": 1,
         "Gayden": 3,
         "Devin": 0,
         "Rafe": 0
@@ -784,7 +784,7 @@
       "date": "2026-06-18",
       "points": {
         "Zach": 13,
-        "Gunner": 9,
+        "Gunner": 10,
         "Gayden": 10,
         "Devin": 9,
         "Rafe": 12
@@ -800,14 +800,14 @@
         "Zach": 1,
         "Rafe": 2,
         "Gayden": 3,
-        "Devin": 4,
-        "Gunner": 5
+        "Gunner": 4,
+        "Devin": 5
       },
       "rank_change": {
         "Zach": 2,
-        "Gunner": 0,
+        "Gunner": 1,
         "Gayden": -2,
-        "Devin": 0,
+        "Devin": -1,
         "Rafe": 0
       }
     },
@@ -815,7 +815,7 @@
       "date": "2026-06-19",
       "points": {
         "Zach": 16,
-        "Gunner": 12,
+        "Gunner": 13,
         "Gayden": 10,
         "Devin": 12,
         "Rafe": 12
@@ -829,8 +829,8 @@
       },
       "ranks": {
         "Zach": 1,
-        "Devin": 2,
-        "Gunner": 3,
+        "Gunner": 2,
+        "Devin": 3,
         "Rafe": 4,
         "Gayden": 5
       },
