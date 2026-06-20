@@ -148,11 +148,10 @@ function section(id, label, sub, tilesHTML) {
 }
 
 /* ======================================================================
-   THE RACE — KPI cards + win prob + gap to leader + biggest mover
+   THE RACE — KPI cards + win prob (hero) + gap to leader
    ====================================================================== */
 function renderRace(owners, standings, timeline, daily, narrative) {
   const std = (standings.standings || []).slice();
-  const byOwner = Object.fromEntries(std.map((s) => [s.owner, s]));
   const ranked = std.slice().sort((a, b) => (a.rank || 99) - (b.rank || 99));
   const { date: lastDate, deltas } = lastDayDeltas(daily);
 
@@ -170,10 +169,31 @@ function renderRace(owners, standings, timeline, daily, narrative) {
     </div>`;
   }).join("");
 
-  /* win probability — horizontal bars (init after innerHTML set) */
-  const winTile = `<div class="tile span5">
+  /* win probability — the hero. Percentages are the primary read (large white
+     scoreboard numbers, sorted high→low); the bar chart underneath is secondary. */
+  const last = latestTimeline(timeline);
+  const wp = (last && last.win_probability) || {};
+  const wpOwners = [...OWNER_ORDER.filter((o) => o in wp), ...Object.keys(wp).filter((o) => !OWNER_ORDER.includes(o))];
+  const wpRanked = wpOwners.slice().sort((a, b) => (wp[b] || 0) - (wp[a] || 0));
+  let winBody;
+  if (!wpRanked.length) {
+    winBody = `<p class="empty-note">Win probability populates once the engine runs.</p>`;
+  } else {
+    const board = wpRanked.map((o) => {
+      const c = ownerColor(o);
+      return `<div class="wp-row" style="--c:${c}">
+        <span class="dot lg" style="--c:${c}"></span>
+        <span class="wp-name">${esc(o)}</span>
+        <span class="wp-pct">${pct(wp[o] || 0, 0)}</span>
+      </div>`;
+    }).join("");
+    winBody = `<div class="wp-board">${board}</div>
+      <div class="wp-bars"><div class="t-cap">Chance of finishing #1</div>
+      <div class="chart-bars"><canvas id="winprob-chart"></canvas></div></div>`;
+  }
+  const winTile = `<div class="tile span10">
     <div class="t-cap">Win probability</div>
-    <div class="chart-sm"><canvas id="winprob-chart"></canvas></div>
+    ${winBody}
   </div>`;
 
   /* gap to leader */
@@ -190,31 +210,7 @@ function renderRace(owners, standings, timeline, daily, narrative) {
     <div class="rows">${gapRows}</div>
   </div>`;
 
-  /* biggest mover + upset of the day */
-  let moverBody;
-  const moverEntries = Object.entries(deltas).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
-  const events = (narrative && Array.isArray(narrative.notable_events)) ? narrative.notable_events : [];
-  const upset = events.filter((e) => e && e.type === "upset")
-    .sort((a, b) => (Number(b.tier_gap || b.gap || 0)) - (Number(a.tier_gap || a.gap || 0)))[0] || null;
-  if (!lastDate && !upset) {
-    moverBody = `<p class="empty-note">No matches played yet — movers appear after the first results day.</p>`;
-  } else {
-    const mv = moverEntries[0];
-    const moverLine = mv
-      ? `<div class="t-mid"><span class="dot" style="--c:${ownerColor(mv[0])}"></span>${esc(mv[0])} <span class="pos">${signed(mv[1])}</span></div>
-         <div class="t-sub">most points banked${lastDate ? ` · ${esc(lastDate.slice(5))}` : ""}</div>`
-      : `<div class="t-sub">No owner gained points on the last day.</div>`;
-    const upsetLine = upset
-      ? `<div class="draft-meta" style="margin-top:11px"><span class="badge good">Upset</span> ${esc(upset.description || upset.summary || upset.team || "")}</div>`
-      : ``;
-    moverBody = moverLine + upsetLine;
-  }
-  const moverTile = `<div class="tile span5">
-    <div class="t-cap">Biggest mover</div>
-    ${moverBody}
-  </div>`;
-
-  section("sec-race", "The race", lead ? `LEADER ${esc(lead.owner)}` : "", kpis + winTile + gapTile + moverTile);
+  section("sec-race", "The race", lead ? `LEADER ${esc(lead.owner)}` : "", kpis + winTile + gapTile);
 
   /* charts after the DOM exists */
   initWinProbBar(timeline);
@@ -444,14 +440,15 @@ function renderRivalries(owners, narrative, standings, byOwner, eliminated, matc
     </div>`;
   }).join("");
 
-  // max points tile = current vs ceiling chart
+  // max points remaining = clean number stack (no bars — ceilings are near-identical
+  // this early, so a chart reads as noise). Each row: owner · max points reachable,
+  // with a small delta of points already lost from the preseason theoretical max.
   const maxTile = `<div class="tile">
     <div class="t-cap">Max points remaining</div>
-    <div class="chart-sm"><canvas id="maxpts-chart"></canvas></div>
+    ${maxPointsStack(owners, standings, byOwner, eliminated, matchesMeta, lastDate)}
   </div>`;
 
   section("sec-rivalries", "Rivalries", "OWNER VS OWNER", h2hTiles + maxTile);
-  initMaxPoints(owners, standings, byOwner, eliminated, matchesMeta, lastDate);
 }
 
 /* ceiling model: group win = 3 + best-case upset bonus per remaining group game;
@@ -466,49 +463,31 @@ function remainingGroupGames(team, matchesMeta, lastDate, played) {
   }
   return Math.max(0, 3 - played);
 }
-let maxptsChart = null;
-function initMaxPoints(owners, standings, byOwner, eliminated, matchesMeta, lastDate) {
-  const canvas = el("maxpts-chart");
-  if (!canvas || typeof Chart === "undefined") { if (canvas) canvas.parentElement.innerHTML = `<p class="empty-note">Chart library unavailable.</p>`; return; }
+function maxPointsStack(owners, standings, byOwner, eliminated, matchesMeta, lastDate) {
   const pointsOf = Object.fromEntries((standings.standings || []).map((s) => [s.owner, Number(s.total_points) || 0]));
   const rows = owners.map((o) => {
     const cur = pointsOf[o] || 0;
-    let ceiling = cur;
+    let ceiling = cur;        // max still reachable from here
+    let theoretical = 0;      // preseason absolute max (every game won, full KO run)
     (byOwner[o] || []).forEach((t) => {
+      theoretical += 3 * maxGroupWin(t.tier) + KO_MAX;   // 3 group games + knockout ceiling
       if (eliminated.has(t.team)) return;
       const played = (t.W || 0) + (t.D || 0) + (t.L || 0);
       const rg = remainingGroupGames(t.team, matchesMeta, lastDate, played);
       ceiling += rg * maxGroupWin(t.tier) + KO_MAX;
     });
-    return { o, cur, ceiling };
+    return { o, ceiling, lost: theoretical - ceiling };
   });
-  const colors = owners.map(ownerColor);
-  if (maxptsChart) maxptsChart.destroy();
-  maxptsChart = new Chart(canvas, {
-    type: "bar",
-    data: {
-      labels: owners,
-      datasets: [
-        { label: "Now", data: rows.map((r) => r.cur), backgroundColor: colors, borderWidth: 0, stack: "s", barThickness: "flex", maxBarThickness: 18 },
-        { label: "Headroom", data: rows.map((r) => Math.max(0, r.ceiling - r.cur)), backgroundColor: C.whiteFaint, borderWidth: 0, stack: "s", barThickness: "flex", maxBarThickness: 18 },
-      ],
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true, maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: C.tip, borderColor: C.tipLine, borderWidth: 1, titleColor: C.num, bodyColor: C.label2,
-          callbacks: { label: (ctx) => ctx.datasetIndex === 0 ? ` now ${fmtNum(rows[ctx.dataIndex].cur)}` : ` ceiling ${fmtNum(rows[ctx.dataIndex].ceiling)}` },
-        },
-      },
-      scales: {
-        x: { stacked: true, beginAtZero: true, grid: { color: C.gridSoft }, ticks: { color: C.label, font: { family: "Inter", size: 10 } } },
-        y: { stacked: true, grid: { display: false }, ticks: { color: C.label2, font: { family: "Inter", size: 11, weight: "600" } } },
-      },
-    },
-  });
+  rows.sort((a, b) => b.ceiling - a.ceiling);
+  const body = rows.map((r) => {
+    const c = ownerColor(r.o);
+    const delta = r.lost > 0 ? ` <span class="mp-delta">· −${fmtNum(r.lost)} from max</span>` : "";
+    return `<div class="mp-row" style="--c:${c}">
+      <span class="mp-name">${esc(r.o)}</span>
+      <span class="mp-num">${fmtNum(r.ceiling)}</span>${delta}
+    </div>`;
+  }).join("");
+  return `<div class="mp">${body}</div>`;
 }
 
 /* ======================================================================
@@ -642,6 +621,69 @@ function renderDeep(owners, standings, timeline, predictions, daily, byOwner, el
 }
 
 /* ======================================================================
+   POINTS BREAKDOWN — base (match) vs bonus (upset) by owner
+   Reads owner_standings.json breakdown; answers "who's grinding match points
+   vs. who's cashing tier-gap upset bonuses." Sorted by total points.
+   ====================================================================== */
+function renderBreakdown(standings) {
+  const std = (standings.standings || []).slice()
+    .sort((a, b) => (Number(b.total_points) || 0) - (Number(a.total_points) || 0));
+  if (!std.length) {
+    section("sec-breakdown", "Points breakdown", "BASE VS BONUS",
+      `<div class="tile" style="grid-column:1/-1"><p class="empty-note">No standings yet.</p></div>`);
+    return;
+  }
+  const tiles = std.map((s) => {
+    const c = ownerColor(s.owner);
+    const bd = s.breakdown || {};
+    const base = Number(bd.match) || 0;
+    const upset = Number(bd.upset) || 0;
+    const total = Number(s.total_points) || 0;
+    const upPct = total > 0 ? upset / total : 0;
+    return `<div class="tile kpi" style="--c:${c}">
+      <div class="t-label"><span class="dot" style="--c:${c}"></span>${esc(s.owner)}</div>
+      <div class="pb">
+        <div class="pb-row"><span class="pb-k">Base</span><span class="pb-v">${fmtNum(base)}</span></div>
+        <div class="pb-row"><span class="pb-k">Upset</span><span class="pb-v">${fmtNum(upset)}</span></div>
+        <div class="pb-up">${pct(upPct, 0)} from upsets</div>
+      </div>
+    </div>`;
+  }).join("");
+  section("sec-breakdown", "Points breakdown", "BASE VS BONUS", tiles);
+}
+
+/* ======================================================================
+   PORTFOLIO PERFORMANCE — team-level contribution per owner
+   Each owner's 6 teams ranked by points contributed, with tier tag.
+   Answers "is your T1 carrying you or is your T4 longshot outperforming?"
+   ====================================================================== */
+function renderPortfolio(owners, byOwner, standings) {
+  const totalOf = Object.fromEntries((standings.standings || []).map((s) => [s.owner, Number(s.total_points) || 0]));
+  const ordered = owners.slice().sort((a, b) => (totalOf[b] || 0) - (totalOf[a] || 0));
+  const tiles = ordered.map((o) => {
+    const c = ownerColor(o);
+    const teams = (byOwner[o] || []).slice()
+      .sort((a, b) => (Number(b.points) || 0) - (Number(a.points) || 0) || (a.tier || 9) - (b.tier || 9));
+    if (!teams.length) {
+      return `<div class="tile" style="--c:${c}"><div class="t-label"><span class="dot" style="--c:${c}"></span>${esc(o)}</div><p class="empty-note">No teams.</p></div>`;
+    }
+    const rows = teams.map((t) => {
+      const tc = TIER_COLORS[t.tier] || "#5a6070";
+      return `<div class="pf-row">
+        <span class="tier-tag" style="--tc:${tc}">T${esc(t.tier)}</span>
+        ${flag(t.team)}<span class="nm">${esc(t.team)}</span>
+        <span class="g">${fmtNum(t.points)}</span>
+      </div>`;
+    }).join("");
+    return `<div class="tile kpi" style="--c:${c}">
+      <div class="t-label"><span class="dot" style="--c:${c}"></span>${esc(o)}</div>
+      <div class="pf">${rows}</div>
+    </div>`;
+  }).join("");
+  section("sec-portfolio", "Portfolio performance", "TEAM CONTRIBUTION", tiles);
+}
+
+/* ======================================================================
    WIN PROB TREND — full-width line chart with accent-dot legend
    ====================================================================== */
 let trendChart = null;
@@ -717,7 +759,7 @@ function renderQuotes(commentary) {
    BOOT
    ====================================================================== */
 function failAll(msg) {
-  ["sec-race", "sec-elim", "sec-draft", "sec-rivalries", "sec-deep", "sec-trend"].forEach((id) => {
+  ["sec-race", "sec-elim", "sec-draft", "sec-rivalries", "sec-breakdown", "sec-portfolio", "sec-deep", "sec-trend"].forEach((id) => {
     const node = el(id);
     if (node) node.innerHTML = headTile("Analytics", "") + `<div class="tile" style="grid-column:1/-1"><p class="empty-note">${esc(msg)}</p></div>`;
   });
@@ -738,7 +780,6 @@ async function main() {
     return;
   }
 
-  if (standings.rules_version && el("foot-rules")) el("foot-rules").textContent = standings.rules_version;
   if (el("leaguebar-meta")) el("leaguebar-meta").textContent = `analytics · ${standings.rules_version || "rebalanced_v3"}`;
 
   const owners = ownersFrom(standings, teamTable);
@@ -761,6 +802,8 @@ async function main() {
   renderElimination(owners, byOwner, eliminated);
   renderDraft(owners, byOwner, narrative);
   renderRivalries(owners, narrative, standings, byOwner, eliminated, matchesMeta, lastDate);
+  renderBreakdown(standings);
+  renderPortfolio(owners, byOwner, standings);
   renderDeep(owners, standings, timeline, predictions, daily, byOwner, eliminated, matchesMeta, lastDate, strengthMap, goalsDoc);
   renderTrend(timeline);
 }
