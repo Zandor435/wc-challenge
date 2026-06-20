@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-20T18:35:57Z",
-  "source": "daily_results_2026-06-19",
-  "date": "2026-06-20",
-  "rotation": 9,
+  "generated": "2026-06-20T21:32:34Z",
+  "source": "daily_results_2026-06-20",
+  "date": "2026-06-21",
+  "rotation": 10,
   "pundit": {
-    "name": "Landon Donovan",
-    "tone": "hedging",
-    "color": "#2f6dff",
-    "take": "**Look, I get why people are high on \"Mustard Boy,\" but when you're leaning on Brazil to carry your fantasy team, it's like betting on the sun to rise—it's not exactly groundbreaking strategy.** Zach is sitting pretty at the top with 16 points, but let's not pretend it's rocket science to pick the five-time world champions. Now, \"Bubba G,\" bless his heart, is clawing his way up with a respectable 13 points on the back of France and Morocco, but really, how much credit can we give him when it's not exactly a surprise? Meanwhile, Devin's \"Ghost Pepper\" approach is hot in name only—sure, he's on the board with points from Spain and the USA, but with Haiti in his lineup, I guess we all know where the heat really fizzled out. Then there’s \"The Noisemaker\" Rafe, who, let’s face it, is more traffic cone than contender with Germany leading his pack of misfit toys. Somehow, though, I actually feel for \"The Backpass Assassin.\" Gayden's at the bottom with just 10 points, but when you invest so deeply in Japan and Jordan, I mean, did you really expect a fireworks display? So yes, Zach, you might be leading, but the rest aren’t exactly trailing giants—they're more like misguided souls, and you just got lucky they couldn't find the map."
+    "name": "Clint Dempsey",
+    "tone": "chill",
+    "color": "#28c060",
+    "take": "**Mustard Boy's Saudi Arabia pick looks about as sensible as wearin' cowboy boots to a swim meet.** Now, Devin's comin' in with Spain, and last time they hit the pitch, they looked like they actually knew what they were doin'. Meanwhile, Zach's bankin' on Saudi Arabia like oil prices are gonna skyrocket on the pitch — but hey, maybe he thinks a gas crisis will disrupt Spain’s tiki-taka tactics. This game is as lopsided as it gets, and I'm telling ya, Spain's gonna run wild and turn Atlanta into a fiesta. Ghost Pepper's got the heat, and Mustard Boy's lookin' like yesterday's condiment."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy Zach Triumphs Again, Solidifies First Place Standing",
-      "subtitle": "Scoring three against Ghost Pepper's Haiti wasn't very saucy.",
-      "match": "Brazil vs Haiti",
-      "date": "2026-06-20"
+      "headline": "Ghost Pepper Struggles as Zach's Saudi Arabia Set to Shine",
+      "subtitle": "Devin's Spain faces stiff competition from Zach's Tier 4 wildcard.",
+      "match": "Spain vs Saudi Arabia",
+      "date": "2026-06-21"
     },
     {
       "pundit": "donovan",
-      "headline": "The Backpass Assassin Gayden Set to Face Undefeated Germany",
-      "subtitle": "Still seeking elusive upset points; will need more than backpasses.",
-      "match": "Germany vs Ivory Coast",
-      "date": "2026-06-20"
+      "headline": "Backpass Assassin's England Position Validated as Netherlands Thrash Sweden",
+      "subtitle": "Gayden's trust in Europe boosted by Dutch display of dominance.",
+      "match": "Netherlands vs Sweden",
+      "date": "2026-06-21"
     },
     {
       "pundit": "dempsey",
-      "headline": "Rafe 'The Noisemaker' Rides Bench with No Points from Scotland",
-      "subtitle": "Silent day for The Noisemaker as Morocco steals the show.",
-      "match": "Scotland vs Morocco",
-      "date": "2026-06-20"
+      "headline": "Bubba G's Egyptian Gamble Expected to Pay Off Against Kiwis",
+      "subtitle": "Gunner banks on Egypt proving their worth in Vancouver encounter.",
+      "match": "New Zealand vs Egypt",
+      "date": "2026-06-21"
     },
     {
       "pundit": "lalas",
-      "headline": "Gayden's Japan Ready to Rock Against Tunisians in Midnight Clash",
-      "subtitle": "Backpass Assassin's last chance to make noise in Group F.",
-      "match": "Tunisia vs Japan",
-      "date": "2026-06-20"
+      "headline": "Mustard Boy Relies on Saudi Arabia to Secure Top Spot",
+      "subtitle": "Zach's precarious lead leans on a Tier 4 underdog in Group H.",
+      "match": "Group H Preview",
+      "date": "2026-06-21"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach's Brazil dragging him to glory while Gayden’s England naps in last place.",
-    "Rafe's Tier-1 Germany still can't outshine Gunner's Tier-3 Canadian miracle worker.",
-    "Rafe's got Devin in a headlock with a 6-point differential chokehold.",
-    "Sim's a crystal ball for Gunner's rise but blindfolded with Devin's nosedive."
+    "Zach sitting pretty in first, but Gayden's L2 streak is killing him.",
+    "Gunner's Tier-2 teams are dragging him down faster than a lead balloon.",
+    "Rafe obliterated Devin with a 6-point swing. Ghost Pepper got ghosted by the rookie.",
+    "Devin's biggest point haul day on 6/12—too bad it's all downhill from there."
   ]
 }

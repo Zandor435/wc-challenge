@@ -598,6 +598,26 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-20",
+      "matches": [
+        {
+          "date": "2026-06-20",
+          "stage": "group",
+          "round": null,
+          "home": "Netherlands",
+          "away": "Sweden",
+          "home_score": 5,
+          "away_score": 1,
+          "score": "Netherlands 5-1 Sweden",
+          "points": {},
+          "math": [
+            "WIN: Netherlands (T1) undrafted, no points",
+            "LOSS: Sweden (T2) undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }
