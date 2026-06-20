@@ -1,0 +1,93 @@
+name: Regenerate commentary
+
+# One-off, manual-only escape hatch for regenerating the pundit commentary +
+# Jim Rome column WITHOUT a live results fetch.
+#
+# Why this exists: update-data.yml gates everything behind a successful
+# "Fetch live results" step (worldcup26.ir). When that upstream feed is down,
+# the whole pipeline aborts before commentary is ever generated — so a template
+# or prompt change to generate_commentary.py can't be applied to the committed
+# tournament_recap.md until the feed recovers. This workflow runs ONLY the
+# commentary generator against the already-committed scored data
+# (site/data/{owner_standings,daily_results,narrative_state}.json), then commits
+# and deploys. No fetch, no scoring, no narrative rebuild — pure regeneration.
+#
+# generate_commentary.py is stdlib-only (urllib), so no pip install is needed.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # Share update-data's commit lock so a manual regen and a cron run can't race.
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Generate pundit commentary + Jim Rome column (no fetch)
+        # Same invocation update-data.yml uses, minus nothing fetch-related — this
+        # script never fetches. Reads the committed site/data/*.json + the previous
+        # tournament_recap.md + rome_column_template.md, writes commentary.json
+        # (root + site/data) and site/data/tournament_recap.md.
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python generate_commentary.py --model gpt-4o \
+            --generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+      - name: Commit regenerated commentary
+        # Stage only the commentary outputs (mirrors update-data.yml's stage list
+        # for these files): the recap, both commentary.json copies. Nothing else
+        # this run could have touched.
+        run: |
+          git config user.name  "wc-challenge-bot"
+          git config user.email "actions@github.com"
+          for p in site/data/tournament_recap.md site/data/commentary.json commentary.json; do
+            [ -e "$p" ] && git add "$p"
+          done
+          if git diff --staged --quiet; then
+            echo "No commentary changes to commit."
+          else
+            git commit -m "Regenerate commentary with current template ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git pull --rebase origin main
+            git push
+          fi
+
+  # Deploy the freshly-committed site to Pages from inside this workflow: the
+  # commit above is pushed with GITHUB_TOKEN, which (anti-recursion) does NOT
+  # trigger pages.yml, so we must deploy here — same pattern as update-data.yml.
+  deploy-pages:
+    needs: regenerate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Check out main's HEAD (the commit the regenerate job just pushed), not the
+      # event SHA, so we publish the regenerated recap.
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+      - id: deployment
+        uses: actions/deploy-pages@v4
