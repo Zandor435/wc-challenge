@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T19:24:58Z",
+  "generated": "2026-06-21T21:33:20Z",
   "source": "daily_results_2026-06-20",
   "date": "2026-06-21",
   "rotation": 10,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "Rafe \"The Noisemaker\" sittin' pretty on top of the standings is like watchin' your buddy who never watched soccer stumble into a poker game and clean house — pure chaos with zero logic. Yesterday, Germany came through for him against Gayden's England fail-safe, and now he's all tied up with Zach \"Mustard Boy.\" Now, Mustard Boy hopes his Saudi Arabia pick can steal somethin' against Devin's Spain, but let's be real, Zach only chose Saudi Arabia 'cause he thought oil money would translate to goals. Meanwhile, Ghost Pepper's Spain is lookin' solid like your favorite pair of boots — reliable, stylish, and ready to stomp. I reckon Spain's about to make Mustard Boy's dreams turn to mustard-colored nightmares. Expect Spain to paint Atlanta red and teach Saudi a soccer lesson they won't forget."
+    "take": "**Bubba G and Mustard Boy battlein' for the bottom while The Noisemaker runs riot on Day 11.**\n\nMan, if you told me Rafe, aka \"The Noisemaker,\" would be runnin' the show with 16 points, I'd have laughed you outta the room, but here we are—kid's puttin' up numbers like he knows somethin' we don't. Zach's hangin' in there with him, but bubba, draftin' Saudi Arabia thinkin' oil money spells goals ain't helpin' your cause. Devin, aka \"Ghost Pepper,\" relies on Spain to flex some tiki-taka today against Zach's Saudi squad; he's hopin' they show up like they know what a World Cup is, not like it's just another siesta in the park. I dunno, though, Spain's been known to ship goals when they should be grindin' out wins. But let's be real: \"Mustard Boy\" ain’t gonna be spreadin’ the love on the pitch today; I got \"Ghost Pepper’s\" Spain fryin’ up those Samis like they’re a side of falafel."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Germany victory secures Rafe's spot at top of standings",
-      "subtitle": "15-year-old leads by science project luck more than skill.",
-      "match": "Germany vs Ivory Coast",
-      "date": "2026-06-21"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Mustard Boy's Brazil overshadowed by underrated Saudi Arabia fixture",
-      "subtitle": "\"Sometimes tier one doesn't mean top performance,\" Zach reportedly sighed.",
+      "headline": "Spain set to expose Mustard Boy's misplaced draft confidence",
+      "subtitle": "Zach to rely on Saudi Arabia's unpredictable defense at noon",
       "match": "Spain vs Saudi Arabia",
       "date": "2026-06-21"
     },
     {
+      "pundit": "donovan",
+      "headline": "Noisemaker Rafe still topping standings despite drafting absent teams",
+      "subtitle": "\"Even a broken clock is right twice a day,\" notes observer",
+      "match": "Group F Preview",
+      "date": "2026-06-21"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's Spain looks to recover against Mustard Boy's underdogs",
-      "subtitle": "Devin hopes to spice things up with Saudi upset.",
+      "headline": "Ghost Pepper banks on Spain while roasting Mustard Boy's pick",
+      "subtitle": "Devin hopes Spain spices up his last-place performance",
       "match": "Spain vs Saudi Arabia",
       "date": "2026-06-21"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G bets big on Egypt as New Zealand showdown looms",
-      "subtitle": "Gunner banking on an Egyptian win to climb the standings ladder.",
+      "headline": "Bubba G's faith in Egypt to face Kiwi kickoff challenge",
+      "subtitle": "Gunner's Egypt set to encounter New Zealand's unheralded defense tonight",
       "match": "New Zealand vs Egypt",
       "date": "2026-06-21"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner, how does it feel to get leapfrogged by a kid who can't draft?",
-    "Rafe's draft strategy: pick the non-qualifiers and still end up first.",
-    "Rafe and Gayden's 0-point head-to-head barnburner: father-son tea party, not a rivalry.",
-    "Devin, the model loves you more than your record does. Ghost Pepper, indeed."
+    "Rafe leads the pack without a single upset point, pure match play magic.",
+    "Rafe's Tier-1 dependency at 38% proves ignorance is his secret weapon.",
+    "Gayden vs. Rafe is dead even; who's buying Thanksgiving dinner after this tie?",
+    "Sim's 13% shot has Rafe king of the hill; chaos reigns supreme."
   ]
 }
