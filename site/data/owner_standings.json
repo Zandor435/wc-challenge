@@ -14,6 +14,16 @@
       "rank": 1
     },
     {
+      "owner": "Rafe",
+      "total_points": 15,
+      "breakdown": {
+        "match": 15.0,
+        "upset": 0,
+        "advancement": 0
+      },
+      "rank": 2
+    },
+    {
       "owner": "Gunner",
       "total_points": 13,
       "breakdown": {
@@ -21,20 +31,10 @@
         "upset": 0,
         "advancement": 0
       },
-      "rank": 2
-    },
-    {
-      "owner": "Devin",
-      "total_points": 12,
-      "breakdown": {
-        "match": 12.0,
-        "upset": 0,
-        "advancement": 0
-      },
       "rank": 3
     },
     {
-      "owner": "Rafe",
+      "owner": "Devin",
       "total_points": 12,
       "breakdown": {
         "match": 12.0,

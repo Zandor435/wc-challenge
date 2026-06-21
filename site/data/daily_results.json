@@ -606,6 +606,24 @@
           "date": "2026-06-20",
           "stage": "group",
           "round": null,
+          "home": "Germany",
+          "away": "Ivory Coast",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "Germany 2-1 Ivory Coast",
+          "points": {
+            "Rafe": 3.0,
+            "Gayden": 0.0
+          },
+          "math": [
+            "WIN: Germany (Rafe, T1) +3 (win) (no upset: favorite won)",
+            "LOSS: Ivory Coast (Gayden, T2) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-20",
+          "stage": "group",
+          "round": null,
           "home": "Netherlands",
           "away": "Sweden",
           "home_score": 5,
