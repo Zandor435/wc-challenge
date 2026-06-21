@@ -1,23 +1,23 @@
-### Rafe — 16 pts · 1st · The Noisemaker's unexpected dynasty
+### Rafe — 16 pts · 1st · The Noisemaker's reign of chaos persists
 
-The **Noisemaker** continues to orchestrate chaos with the touch of a maestro, securing yet another smashing victory with Germany over **The Backpass Assassin's** Ivory Coast. Rafe's fairytale run remains intact, proving yet again that teenage naivety can be a formidable weapon when wielded with reckless abandon. **He's left the old guard scratching their heads and feeling the pressure from a kid who's more interested in TikTok than tactics.**
+The **Noisemaker** continues to dance on the grave of conventional wisdom, marching to the beat of his Germany-led army. With a sweet revenge knockout of his dad's Ivory Coast, Rafe cements his uncanny mastery over the field. **He's making it look all too easy, while the so-called experts can barely keep up with his unexpected flair.**
 
-### Zach — 16 pts · 2nd · Mustard Boy slipping on a banana peel
+### Zach — 16 pts · 2nd · Mustard Boy clinging to relevance
 
-**Mustard Boy** Zach finds himself in a precarious spot, stuck at 16 points with no gains today. His Brazil may be a world-beater, but not when sandwiched between Czechia's European woes and a Saudi Arabia squad still looking for their first win. **Time to reassess and trade in the condiment for some sriracha-level heat, Zach!**
+**Mustard Boy** Zach finds himself in a familiar predicament: strong on paper, slipping in practice. Despite Brazil’s prowess, Zach's squad today was more condiment than consequence. With no points gained, **Zach needs more than just a mustard smear to catch up to the wily teenager above him.**
 
-### Gayden — 13 pts · 3rd · The Assassin's bittersweet reprisal
+### Gayden — 13 pts · 3rd · The Assassin's mixed emotions
 
-**The Backpass Assassin** took care of business with Japan's drubbing of Tunisia, but let's not kid ourselves: watching Rafe's Germany dismantle his own Ivory Coast was a gut punch. **Gayden's caught in his own tactical thunderdome, forced to climb from the basement of his family's rank.** The fight rages on, but breakfast conversations have turned into strategic warfare.
+**The Backpass Assassin** had a rollercoaster of a day, taking a solid win with Japan over Tunisia but watching his son score his own victory dance on the ruins of Ivory Coast. Gayden fights hard on two fronts, battling the field and his progeny. **It's like watching a chess master lose to a 15-year-old prodigy, and it's absolutely compelling.**
 
-### Gunner — 13 pts · 4th · Bubba G's fading favorite
+### Gunner — 13 pts · 4th · Bubba G's underwhelming bark
 
-**Bubba G** Gunner maintains his slide, lacking the firepower despite owning tournament favorites in France. While the model still gives him top win probabilities, results demand more than paper promises. **Gunner, you're the dog with the biggest bark and no bite — when's Morocco gonna step up to the plate?**
+**Bubba G** Gunner continues to look like the favorite on paper but fails to deliver on the pitch. His Morocco squad remains a lifeline, but the model can't play for him. **Gunner, your bark needs to match the bite if you want to escape the slide into mediocrity.**
 
-### Devin — 12 pts · 5th · Ghost Pepper's frozen forecast
+### Devin — 12 pts · 5th · Ghost Pepper's phantom fire
 
-**Ghost Pepper** Devin finds himself languishing at the bottom of the standings, with his USA squad the lone source of consistent points. Despite a roster brimming with potential, Devin's yet to spice up the competition. **You claim the champion odds, yet here you are — the cold ghost of a contender. What's the holdup, Devin?**
+**Ghost Pepper** Devin, still languishing at the bottom, seems to have misplaced that fiery spirit. Another round, another disappointment, with no points to boast today. **The spice is right there in your name, Devin — time to turn up the heat or risk being the ghost of this tournament.**
 
 ### THE FATHER-SON SAGA
 
-The clash of the titans continues as **The Noisemaker** maintains his dominance over **The Backpass Assassin** in their surreal Shakespearean drama. Rafe's relentless rise has Gayden playing second fiddle in a contest he once orchestrated himself. **This isn't just a rivalry; it's the ultimate underdog story, where the apprentice looks ready to start his own masterclass at Thanksgiving.** The family dynamics have shifted, and the stakes are higher than ever.
+The tale of **The Noisemaker** versus **The Backpass Assassin** continues to captivate. Rafe mercilessly added another chapter, securing a decisive win over Gayden’s Ivory Coast. Thanksgiving is shaping up to be a dramatic affair at their house, where Rafe might just carve not only the turkey but his father's legacy as well. **It's more than a game; it's an epic family showdown for the ages.**
