@@ -651,6 +651,24 @@
             "WIN: Netherlands (T1) undrafted, no points",
             "LOSS: Sweden (T2) undrafted, no points"
           ]
+        },
+        {
+          "date": "2026-06-20",
+          "stage": "group",
+          "round": null,
+          "home": "Tunisia",
+          "away": "Japan",
+          "home_score": 0,
+          "away_score": 4,
+          "score": "Tunisia 0-4 Japan",
+          "points": {
+            "Gayden": 3.0,
+            "Rafe": 0.0
+          },
+          "math": [
+            "WIN: Japan (Gayden, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Tunisia (Rafe, T3) +0 (loss)"
+          ]
         }
       ]
     }
