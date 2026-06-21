@@ -1,23 +1,23 @@
-### Rafe — 16 pts · 1st · The Noisemaker's grand encore
+### Rafe — 16 pts · 1st · The Noisemaker dominates dad yet again
 
-The **Noisemaker** strikes again, leading the table with a potent mix of risk and bravado. Rafe's latest coup d'état over his father's Ivory Coast squad was the stuff of headline nightmares for Gayden. This kid's drafting mess is turning into the ultimate haymaker for the veterans. **Rafe's playing 4D chess with pieces he found under the couch cushions.**
+**The Noisemaker** Rafe is back on top and loving every second of it. With Germany's clutch win over his father's Ivory Coast, Rafe adds another chapter to the family saga of dominance. The kid's living rent-free in Gayden's head, and it shows at every family dinner. **Keep shredding expectations, Rafe — you're a meme that refuses to die.**
 
-### Zach — 16 pts · 2nd · Mustard Boy slipping into mediocrity
+### Zach — 16 pts · 2nd · Mustard Boy's flavor is fading
 
-**Mustard Boy** Zach continues his struggle to convert potential into points, with a stagnant day that leaves him clinging to second. His big-name teams like Brazil need to start delivering the goods or his championship hopes might just spoil. **Zach, it's time to shake off the rust and serve up something more than a hot dog topping.**
+**Mustard Boy** Zach finds himself slipping and sliding once again without gaining an inch of ground. Brazil and their underwhelming turn keep him just behind young Rafe in the standings. **Time to bring more than condiments to the pitch, Zach — we need some actual heat.**
 
-### Gayden — 13 pts · 3rd · Backpass Assassin's bittersweet bounce-back
+### Gayden — 13 pts · 3rd · Backpass Assassin need a new playbook
 
-The **Backpass Assassin** bounced back with Japan's demolition job over Tunisia, but the sting of Germany's triumph over his Ivory Coast still lingers. Gayden's playing the long game, but time's running short when your own son keeps handing you L's at the dining table. **Gayden, it's your tournament — not Rafe's playground. Time to show him who really runs this house.**
+The once-feared **Backpass Assassin** Gayden is now mostly getting his passes intercepted by his own son. Despite Japan's stellar success, being outclassed by Germany threw him another L courtesy of Rafe. **Let's be real, Gayden — you can't let the teenager keep scoring like it's a FIFA 26 training session.**
 
-### Gunner — 13 pts · 4th · Bubba G's paper throne crumbling
+### Gunner — 13 pts · 4th · Bubba G coasting on thin ice
 
-**Bubba G** Gunner's grip on glory is slipping as fast as he fell in the standings, losing two spots overnight. Morocco delivered, but it wasn't enough to offset the overall underperformance of his lineup. **You can’t win a title on win probabilities alone, Gunner — you need your squad to actually show up.**
+**Bubba G** Gunner remains entrenched in mediocrity while other managers make moves. The Morocco pick shines, but when your hopes are pinned on stats alone, reality tends to catch up. **Gunner, your roster's like a house of cards, and the wind's starting to blow.**
 
-### Devin — 12 pts · 5th · Ghost Pepper's signature fade
+### Devin — 12 pts · 5th · Ghost Pepper still MIA
 
-**Ghost Pepper** Devin can't seem to ignite, dropping to the basement despite having a squad capable of fireworks. With the best champion odds on paper, he’s a puzzle wrapped in a mystery, obscured by a fog of disappointing results. **Devin, the ghost act needs to end. You're not out of it yet, but the clock is ticking.**
+**Ghost Pepper** Devin can't stop ghosting his way to the bottom of the standings. With a squad that looks dynamic on paper, he's writing a mystery novel in fantasy form. **Devin, eventually you need to show up — the disappearing act won’t win trophies.**
 
 ### THE FATHER-SON SAGA
 
-The clash between **The Noisemaker** and **The Backpass Assassin** is the fantasy league's main event. With Rafe pulling off yet another win over Gayden's Ivory Coast, the dinner table tension is palpable. Thanksgiving might just turn into a showdown as epic as the World Cup itself. **Gayden needs to reclaim his authority in the league — or risk being eclipsed by his teenage progeny.**
+The ongoing clash where Rafe, **The Noisemaker**, routinely bests his dad **The Backpass Assassin** is this league's main card. Another win over Gayden's Ivory Coast proves there's no rest even for family favorites. Rafe's 4-point haul keeps his dad in the rearview mirror while Thanksgiving looms with enough tension to explode. **Time to lock in, Gayden — before your kid steals the turkey along with your pride.**
