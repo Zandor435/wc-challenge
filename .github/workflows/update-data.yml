@@ -88,20 +88,50 @@ jobs:
         # source in fetch_results.py. API_FOOTBALL_KEY is intentionally NOT wired in:
         # the fetch must not depend on the paid key. The secret stays in the repo so
         # `--source api-football` remains available as a manual fallback.
+        #
+        # continue-on-error: a feed outage must NOT take the whole pipeline dark.
+        # worldcup26.ir drops connections for hours at a time; on 2026-06-21 a 6h+
+        # outage failed this step under `bash -e`, which (with no continue-on-error)
+        # both failed the job and skipped every step after it — including commentary
+        # and deploy — so Rome's column went stale despite perfectly good scored data
+        # already committed. With continue-on-error the step's *conclusion* is success
+        # (the job keeps going and `deploy-pages` still runs), while `steps.fetch.outcome`
+        # records the real result. The new-data steps below gate on that outcome; the
+        # narrative/commentary steps do not — they reshape EXISTING data and must run
+        # in both modes. Scoring needs new data; commentary does not.
+        id: fetch
+        continue-on-error: true
         run: |
           python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --out data/live_results.json
+      - name: Note feed-outage bypass
+        # Fires only when the fetch above failed. Makes the bypass explicit in the
+        # Actions log (and as a UI warning) so a green run that skipped scoring reads
+        # as "feed down, commentary refreshed from existing data" rather than silently
+        # proceeding. No side effects — purely a signal.
+        if: steps.fetch.outcome != 'success'
+        run: |
+          echo "::warning title=Feed outage::Feed unavailable — regenerating commentary from existing data (fetch failed; scoring/win-prob/goals skipped, narrative + deploy still run)."
+          echo "Feed unavailable — regenerating commentary from existing data"
       - name: Validate team names (fail on unmapped)
         # BETWEEN fetch and score: every fetched team must resolve (via
         # data/team_aliases.json) to a canonical team in data/tiers.json. An
         # unmapped name (a new feed spelling) fails the run here — naming the team —
         # instead of scoring.py silently treating it as "undrafted" and dropping that
         # team's points (the DR Congo bug). Pure name check, no side effects.
+        #
+        # Gated on a successful fetch: data/live_results.json is NOT committed (it is
+        # regenerated each run), so on a feed outage it may not exist on the fresh
+        # checkout at all. Validation/scoring/win-prob/goals all read it, so they
+        # only run when the fetch actually produced it.
+        if: steps.fetch.outcome == 'success'
         run: |
           python validate_team_names.py --results data/live_results.json
       - name: Score
         # 0-match clobber guard mirrors scripts/build.py: a fetch that returns 0
         # finished matches (e.g. pre-kickoff) must NOT overwrite the committed
         # standings with zeros — skip scoring and leave site/data untouched.
+        # Gated on a successful fetch (see Validate above): scoring needs new data.
+        if: steps.fetch.outcome == 'success'
         run: |
           n=$(python -c "import json; print(len(json.load(open('data/live_results.json')).get('matches', [])))")
           if [ "$n" -eq 0 ]; then
@@ -114,6 +144,8 @@ jobs:
         # simulates the remaining matches forward (5,000 sims). --skip-if-empty
         # means the pre-tournament cron (0 finished matches) leaves timeline.json
         # alone; the committed preseason Day-0 entry stays as the chart's origin.
+        # Gated on a successful fetch (see Validate above): it reads live_results.json.
+        if: steps.fetch.outcome == 'success'
         run: |
           python win_probability.py --results data/live_results.json --skip-if-empty
       - name: Update player goals (Golden Boot)
@@ -122,6 +154,10 @@ jobs:
         # aggregates scorers on drafted teams into site/data/player_goals.json.
         # No API key needed (scorers ship in the same free feed). continue-on-error so
         # a goals-parse hiccup can never block the standings+timeline commit.
+        # Also gated on a successful fetch: this step does its OWN feed fetch
+        # (--with-goals), which is exactly what's down during an outage — no point
+        # re-hitting a dead feed, and it has no fresh scorers to parse anyway.
+        if: steps.fetch.outcome == 'success'
         continue-on-error: true
         run: |
           python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --with-goals --out data/_goals_scratch.json
@@ -158,6 +194,13 @@ jobs:
       - name: Generate pundit commentary + Jim Rome column
         # Reads narrative_state.json (fresh, above) + the previous tournament_recap.md
         # and writes the next installment, plus the cold-take commentary.json.
+        #
+        # Deliberately NOT gated on the fetch outcome — only on the kickoff date gate.
+        # Commentary reshapes EXISTING scored data into narrative; it has no dependency
+        # on a fresh feed. Because the fetch step is continue-on-error, a feed outage
+        # leaves the job's implicit success() intact (the new-data steps merely skip),
+        # so this still runs and refreshes the column from the last good standings.
+        # This is the whole point of the bypass: an outage must never freeze Rome.
         if: steps.kickoff.outputs.run == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
