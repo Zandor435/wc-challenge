@@ -1,23 +1,23 @@
-### Zach — 16 pts · 1st · Unshakable at the summit
+### Rafe — 16 pts · 1st · The Noisemaker takes over
 
-**Mustard Boy** reigns supreme yet again in this cutthroat league. Zach's Brazil squad might be idle, but that hasn't stopped this titan from guarding his throne. With 16 points and a confident grin, Zach is the undeniable king of this jungle. His strategy is the stuff of legend, and it's going to take more than lucky breaks to dethrone him.
+**The Noisemaker** has silenced the doubters and toppled the seasoned veterans. Rafe's Germany squad steamrolled Gayden's Ivory Coast to bag another crucial victory, propelling the teenage titan to the top. **With chaotic draft origins now a forgotten punchline, Rafe sits on the summit, proving that age is just a number — and victory is his playground.** The kid knows nothing about soccer but everything about winning.
 
-### Rafe — 15 pts · 2nd · Teenage titan surges onward
+### Zach — 16 pts · 2nd · Mustard Boy loses his grip
 
-Don't look now, but **The Noisemaker** is making a seismic impact, smashing his way up to second place with his Germany squad's latest triumph. **Rafe, the chaos prodigy with a hodgepodge of underdogs, is a mere point from the top.** Despite knowing little about the sport, this 15-year-old phenom is writing his own rules as he surges above experienced veterans, reminding everyone that he’s not just his father’s son — he’s a force all his own.
+The mighty **Mustard Boy** has finally been unseated, showing the first cracks in his imperious reign. Zach’s lofty position crumbles under a winless day while Rafe’s charge up the board steals his crown. **With Brazil on a break, Zach's fortress looks more like a sandcastle than the impenetrable fortress of old.** Time to regroup and reclaim the top.
 
-### Gunner — 13 pts · 3rd · Bubba G the stalker
+### Gunner — 13 pts · 3rd · Bubba G biding his time
 
-**Bubba G** slipped a rank, but Gunner's patience and watchful eye have kept him a stone's throw from the top. Morocco’s strength is the backbone of his campaign, and the wild card he holds might just tip the scales in his favor. At 13 points and with the model backing him at a 27% win probability, Gunner remains the silent stalker ready to exploit any opening.
+**Bubba G** may have slipped from the top two, but Gunner's patience remains as strong as his Morocco squad’s performances. **With a 28% chance to win it all, this silent predator is lurking just within striking distance.** Gunner might be down a spot, but don't sleep on this master tactician with golden boots in his arsenal.
 
-### Devin — 12 pts · 4th · Ghost Pepper fizzles, but still lurking
+### Devin — 12 pts · 4th · Ghost Pepper needs to reignite
 
-Devin stays on the hunt despite a slow day, as **Ghost Pepper** adjusts his sights on the summit from a fourth-place perch. With the USA's performance in his pocket, Devin’s still in striking distance of the title. **But the spice is wearing thin, and he’s got to bring the heat if he wants to put his name on the trophy.** The flames are dim, but never count out a wild burn.
+**Ghost Pepper** has cooled off, settling into fourth place. Devin's USA team has kept him afloat, but there’s no heat behind the flame if he wants to own the trophy. **It's time for Devin to stir the pot, spice things up and bring back the firepower to his campaign.** The model favors him as a dark horse, but fans are waiting for the fireworks.
 
-### Gayden — 10 pts · 5th · The Assassin's dagger dulls
+### Gayden — 10 pts · 5th · The Assassin gets axed by his own legacy
 
-**The Backpass Assassin** continues his spiral into obscurity, sitting at the bottom of the heap with a crushing zero-point day. Gayden's Ivory Coast let him down, and now his household tension is the talk of the town. **Being bested by your teenage son isn’t just a defeat — it’s a legacy in tatters.** If there were ever a time for a revival, it's now.
+**The Backpass Assassin** is reeling from yet another loss, this time at the hands of his own flesh and blood. Gayden’s dive into the standings is mercilessly punctuated by his son's triumph over Ivory Coast. **Family dinner conversations are probably more punishing than his losing streak — leaving him a legacy in his own household rubble.**
 
 ### THE FATHER-SON SAGA
 
-The animosity in the Gayden household escalates with every winless day Gayden endures at the hands of his son, Rafe. **The Noisemaker's relentless surge sees Rafe overshadowing The Backpass Assassin's once-formidable reputation.** As Rafe inches closer to league domination, family dinners have become arenas of rivalry. This generational clash is more than a competition; it's a full-blown turf war to see who wears the crown at home. Thanksgiving this year? It's going to be a showdown for the ages.
+Now it's official: The **Backpass Assassin** has been usurped by his own creation, with **The Noisemaker** sitting pretty atop the standings. Rafe has done what many seasoned veterans couldn’t — outpace Gayden in his own league, turning the familial feud into an all-out domination. **Their household is no longer just a home — it's a coliseum where the young lion rules.** Thanksgiving can't come soon enough, as this victory lap is bound to be the talk of the table.

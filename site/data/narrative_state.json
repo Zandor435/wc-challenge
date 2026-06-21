@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T01:02:09Z",
+  "generated": "2026-06-21T04:35:23Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,15 +7,15 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 10,
-    "matches_played": 34,
-    "matches_remaining": 70,
+    "matches_played": 35,
+    "matches_remaining": 69,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
-      "rank": 1,
-      "rank_change_from_prev_day": 0,
+      "rank": 2,
+      "rank_change_from_prev_day": -1,
       "total_points": 16,
       "points_today": 0,
       "record": {
@@ -24,7 +24,7 @@
         "L": 1
       },
       "win_probability": 0.2,
-      "champion_probability": 0.13,
+      "champion_probability": 0.12,
       "streak": {
         "type": "W",
         "length": 1,
@@ -61,8 +61,8 @@
         "D": 4,
         "L": 1
       },
-      "win_probability": 0.27,
-      "champion_probability": 0.15,
+      "win_probability": 0.28,
+      "champion_probability": 0.16,
       "streak": {
         "type": "W",
         "length": 2,
@@ -99,8 +99,8 @@
         "D": 1,
         "L": 5
       },
-      "win_probability": 0.15,
-      "champion_probability": 0.11,
+      "win_probability": 0.16,
+      "champion_probability": 0.1,
       "streak": {
         "type": "L",
         "length": 3,
@@ -166,21 +166,21 @@
       }
     },
     "Rafe": {
-      "rank": 2,
-      "rank_change_from_prev_day": 2,
-      "total_points": 15,
-      "points_today": 3,
+      "rank": 1,
+      "rank_change_from_prev_day": 3,
+      "total_points": 16,
+      "points_today": 4,
       "record": {
         "W": 5,
-        "D": 0,
+        "D": 1,
         "L": 4
       },
-      "win_probability": 0.16,
-      "champion_probability": 0.1,
+      "win_probability": 0.14,
+      "champion_probability": 0.09,
       "streak": {
-        "type": "W",
+        "type": "D",
         "length": 1,
-        "label": "W1"
+        "label": "D1"
       },
       "best_team": {
         "team": "Germany",
@@ -193,8 +193,8 @@
         }
       },
       "worst_team": {
-        "team": "Ecuador",
-        "tier": 2,
+        "team": "Tunisia",
+        "tier": 3,
         "points": 0,
         "record": {
           "W": 0,
@@ -529,7 +529,7 @@
         "Gunner": 0,
         "Gayden": 0,
         "Devin": 0,
-        "Rafe": 3
+        "Rafe": 4
       }
     }
   ],
@@ -538,7 +538,7 @@
     "Gunner": 0.23,
     "Gayden": 0.3,
     "Devin": 0.08,
-    "Rafe": 0.4
+    "Rafe": 0.38
   },
   "notable_events": [
     {
@@ -554,7 +554,7 @@
       "tag": "Rafe surge",
       "owner": "Rafe",
       "kind": "surge",
-      "description": "Rafe jumped 2 spots in the standings on the latest matchday."
+      "description": "Rafe jumped 3 spots in the standings on the latest matchday."
     }
   ],
   "golden_boot_leader": {
@@ -590,9 +590,9 @@
       "rank_change": {
         "Zach": -2,
         "Gunner": -3,
-        "Gayden": 4,
+        "Gayden": 3,
         "Devin": -1,
-        "Rafe": 2
+        "Rafe": 3
       }
     },
     {
@@ -850,28 +850,28 @@
         "Gunner": 13,
         "Gayden": 10,
         "Devin": 12,
-        "Rafe": 15
+        "Rafe": 16
       },
       "points_today": {
         "Zach": 0,
         "Gunner": 0,
         "Gayden": 0,
         "Devin": 0,
-        "Rafe": 3
+        "Rafe": 4
       },
       "ranks": {
-        "Zach": 1,
-        "Rafe": 2,
+        "Rafe": 1,
+        "Zach": 2,
         "Gunner": 3,
         "Devin": 4,
         "Gayden": 5
       },
       "rank_change": {
-        "Zach": 0,
+        "Zach": -1,
         "Gunner": -1,
         "Gayden": 0,
         "Devin": -1,
-        "Rafe": 2
+        "Rafe": 3
       }
     }
   ]

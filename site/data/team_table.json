@@ -186,9 +186,9 @@
       "owner": "Rafe",
       "tier": 2,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 1,
-      "points": 0.0
+      "points": 1.0
     },
     {
       "team": "Scotland",
