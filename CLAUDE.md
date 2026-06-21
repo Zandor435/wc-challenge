@@ -74,6 +74,15 @@ pipeline + site, and apply the ones that fit.
 - **Sync the repo before every build**, and **always name the "do not touch" files in the
   prompt.** Explicit guardrails prevent an agent from helpfully rewriting something stable.
 
+## Definition of Done
+
+"Done" means committed, pushed to `origin/main` (or an open PR), and confirmed on the
+remote. Local-only work is not done. Before reporting a task as complete, verify:
+
+1. `git status` — nothing relevant left unstaged
+2. `git log origin/main..HEAD` — empty (everything pushed) or PR is open
+3. If the change affects the live site, confirm the Pages deploy succeeded
+
 ## Testing & launch
 
 - **CI consistency test: assert the calibrator and the live engine produce identical
