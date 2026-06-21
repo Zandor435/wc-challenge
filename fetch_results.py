@@ -44,6 +44,8 @@ import argparse
 import json
 import os
 import re
+import socket
+import ssl
 import tempfile
 import time
 import urllib.request
@@ -124,11 +126,37 @@ _MINUTE = re.compile(r"(\d+(?:\+\d+)?)\s*'")
 _GOAL_MARKER = re.compile(r"\s*\((?:p|pen|pk|og)\)\s*$", re.I)
 
 
-def http_get_json(url, timeout=30):
-    """Plain GET -> parsed JSON. No auth (worldcup26.ir needs none)."""
+def http_get_json(url, timeout=30, retries=3, base_delay=5):
+    """Plain GET -> parsed JSON. No auth (worldcup26.ir needs none).
+
+    worldcup26.ir intermittently drops the connection mid-fetch (SSL EOF, socket
+    reset, DNS timeout). A single failure used to crash the whole cron run, so
+    retry with exponential backoff (5s, 10s, 20s by default). This is a separate
+    code path from api_get's 429 backoff — different failure mode (transient
+    network vs. rate limit), so it gets its own loop rather than sharing one.
+
+    On a *persistent* outage we deliberately re-raise the original exception
+    after the last attempt: the job should fail loud rather than silently score
+    stale elimination data.
+    """
     req = urllib.request.Request(url, headers={"User-Agent": "wc-challenge-fetch/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.load(r)
+    delay = base_delay
+    for attempt in range(1, retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return json.load(r)
+        except (ssl.SSLError, urllib.error.URLError, socket.error,
+                ConnectionResetError, TimeoutError) as e:
+            # socket.error is an alias for OSError, which also covers
+            # ConnectionResetError/TimeoutError — listed explicitly for clarity.
+            if attempt >= retries:
+                print(f"  {url}: network error on attempt {attempt}/{retries} "
+                      f"({e!r}); all retries exhausted, giving up")
+                raise
+            print(f"  {url}: network error on attempt {attempt}/{retries} "
+                  f"({e!r}); retrying in {delay}s…")
+            time.sleep(delay)
+            delay *= 2
 
 
 def wc26_date(local_date: str) -> str:
