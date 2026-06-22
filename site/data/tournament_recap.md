@@ -1,23 +1,23 @@
-### Gunner — 16 pts · 1st · Bubba G stays unstoppable
+### Gunner — 16 pts · 1st · Bubba G's reign tightens
 
-**Bubba G** Gunner is sitting pretty at the top, grabbing three crucial points from Egypt's triumph over New Zealand. Bubba's ride through the rainbows isn't over yet, and with a potential Leonardo DiCaprio-like trophy moment in sight, this narrative could turn from comedy to celebration. As long as Morocco stays sharp and the goals keep coming, **this favorite might finally embrace his destiny**.
+**Bubba G** has capitalized on Egypt's demolition of New Zealand to reclaim the throne. Gunner's strategic play with Morocco and a searing performance from Jonathan David keeps his squad sizzling hot. **The man is on a W3 streak, and it ain't looking like it'll end anytime soon.** While Rafe's chaos may have rattled his cage momentarily, Gunner is proving his mettle as the league's true top dog.
 
-### Rafe — 16 pts · 2nd · The Noisemaker poised for more chaos
+### Rafe — 16 pts · 2nd · The Noisemaker feels the heat
 
-**The Noisemaker** Rafe remains a wild card with 16 points, lurking right behind Gunner and waiting to charge. Germany's powerhouse status gives him leverage, but his unpredictable roster choices make every game a mystery. **This 15-year-old chaos agent won't be silenced anytime soon**, and Gayden better brace for the household's competitive thunderstorm.
+**The Noisemaker** might be sitting at second, but he's got the world on pause. After a day of silence on the scoreboard, Rafe is now neck-in-neck with Gunner, proving once more that unpredictability is his forte. **His dad's worst nightmare wasn't even about soccer — it was about Rafe running the table with a draft-disaster team.** Still, Rafe isn't going quietly; Germany and Mexico might just break the stalemate.
 
-### Zach — 16 pts · 3rd · Mustard Boy stuck in the condiment section
+### Zach — 16 pts · 3rd · Mustard Boy needs a new squeeze
 
-**Mustard Boy** Zach holds steady yet uninspired at 16 points, unable to break free from third place. His Brazil squad is a lone ray of hope in an otherwise vanilla lineup that keeps letting him down. **Pull off a miracle or stay the flavorless center of this league's mediocrity**, Zach — those are your only choices.
+**Mustard Boy** Zach is slipping, and that flavorless streak is starting to taste sour. His Brazil squad might be the jewel in his condiment cabinet, but the rest of his lineup is leaving him dry. **Czechia and Saudi Arabia — the limp lettuce and stale buns of his burger — continue to drag him down.** Zach's got 16 points in the bag, but he's tied with the top dogs, and a little kick is all he needs.
 
-### Devin — 15 pts · 4th · Ghost Pepper refuses to cool off
+### Devin — 15 pts · 4th · Ghost Pepper creeps closer
 
-**Ghost Pepper** Devin set the pitch ablaze with Spain's emphatic win over Saudi Arabia. With the best champion odds of 17.0%, Devin's flair for the dramatic keeps him a thrilling contestant in this World Cup saga. **Don't let the fire fade, Devin — the heat's got to stay turned up if you want the top spot.**
+**Ghost Pepper** Devin is applying the perfect amount of spice, now just a single point shy of the leaders after Spain torched Saudi Arabia. With the best championship odds at 17.0%, Devin is an odds-on favorite to steal the show. **But with a dependency as spicy as his moniker, will the burn last, or will it all go up in smoke?** His USA team is carrying the load, but consistency across the board is paramount.
 
-### Gayden — 13 pts · 5th · Backpass Assassin battles uphill
+### Gayden — 13 pts · 5th · Backpass Assassin still on the ropes
 
-The **Backpass Assassin** Gayden finds himself tumbling down the standings, still feeling the sting of Rafe’s relentless assault. Even with Japan's strong performance, Gayden can't seem to break free from his positioning in the basement. **Rafe's relentless charge is a bitter pill to swallow, especially when it comes with a side of Thanksgiving tension.**
+The **Backpass Assassin** Gayden, relegated to the bottom of the totem pole, took another hit as his son, Rafe, continues to taunt him from above. Gayden's Japan remains a beacon of hope, but his backline is struggling against the tidal wave of adversity. **Two-front wars aren't for the faint-hearted, and right now, Gayden's heart is getting a workout it didn't ask for.** But don't count the veteran out just yet — there's still time for him to flip the script.
 
 ### THE FATHER-SON SAGA
 
-The tension between **The Noisemaker** and **The Backpass Assassin** remains the league's most captivating drama. Rafe's flurry of surprising results stands in stark contrast to Gayden's struggling roster, making their living room as tense as the world stage. **With Rafe's chaos whipping through the standings, it's apparent that this battle is more than just a family affair — it's a full-blown rivalry brewing under their own roof.** Thanksgiving isn't just dinner; it's a proving ground.
+The father-son saga reaches fever pitch as **The Noisemaker** Rafe and **The Backpass Assassin** Gayden dance around each other like prize fighters. Rafe didn't land a punch today, but the four-point spree against Tunisia still echoes through Gayden's hallway. **Thanksgiving's going to be a silent affair if Gayden can't muster a counterattack.** A turn in fortunes could still rewrite the narrative, but for now, Rafe's still up on points — and enjoying every second of it.
