@@ -1,34 +1,34 @@
 {
-  "generated": "2026-06-22T16:36:59Z",
+  "generated": "2026-06-22T19:12:18Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Group Stage",
     "is_preseason": false,
-    "matchdays_played": 11,
-    "matches_played": 40,
-    "matches_remaining": 64,
+    "matchdays_played": 12,
+    "matches_played": 41,
+    "matches_remaining": 63,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
       "rank": 3,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 16,
       "points_today": 0,
       "record": {
         "W": 4,
         "D": 4,
-        "L": 2
+        "L": 3
       },
       "win_probability": 0.18,
       "champion_probability": 0.12,
       "streak": {
         "type": "L",
-        "length": 1,
-        "label": "L1"
+        "length": 2,
+        "label": "L2"
       },
       "best_team": {
         "team": "Brazil",
@@ -53,9 +53,9 @@
     },
     "Gunner": {
       "rank": 1,
-      "rank_change_from_prev_day": 3,
+      "rank_change_from_prev_day": 0,
       "total_points": 16,
-      "points_today": 3,
+      "points_today": 0,
       "record": {
         "W": 4,
         "D": 4,
@@ -91,7 +91,7 @@
     },
     "Gayden": {
       "rank": 5,
-      "rank_change_from_prev_day": -2,
+      "rank_change_from_prev_day": 0,
       "total_points": 13,
       "points_today": 0,
       "record": {
@@ -100,7 +100,7 @@
         "L": 5
       },
       "win_probability": 0.17,
-      "champion_probability": 0.12,
+      "champion_probability": 0.11,
       "streak": {
         "type": "W",
         "length": 1,
@@ -129,9 +129,9 @@
     },
     "Devin": {
       "rank": 4,
-      "rank_change_from_prev_day": 1,
+      "rank_change_from_prev_day": 0,
       "total_points": 15,
-      "points_today": 3,
+      "points_today": 0,
       "record": {
         "W": 4,
         "D": 3,
@@ -167,7 +167,7 @@
     },
     "Rafe": {
       "rank": 2,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 16,
       "points_today": 0,
       "record": {
@@ -558,6 +558,17 @@
         "Devin": 3,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 12,
+      "date": "2026-06-22",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
@@ -576,20 +587,7 @@
       "description": "Devin banked 4 pts on 2026-06-12 -- the biggest single-day haul so far"
     }
   ],
-  "themes": [
-    {
-      "tag": "Gunner surge",
-      "owner": "Gunner",
-      "kind": "surge",
-      "description": "Gunner jumped 3 spots in the standings on the latest matchday."
-    },
-    {
-      "tag": "Gayden slide",
-      "owner": "Gayden",
-      "kind": "slide",
-      "description": "Gayden dropped 2 spots in the standings on the latest matchday."
-    }
-  ],
+  "themes": [],
   "golden_boot_leader": {
     "player": "Jonathan David",
     "team": "Canada",
@@ -936,6 +934,37 @@
         "Gayden": -2,
         "Devin": 1,
         "Rafe": -1
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "points": {
+        "Zach": 16,
+        "Gunner": 16,
+        "Gayden": 13,
+        "Devin": 15,
+        "Rafe": 16
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Rafe": 2,
+        "Zach": 3,
+        "Devin": 4,
+        "Gayden": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
       }
     }
   ]

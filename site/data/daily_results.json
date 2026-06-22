@@ -741,6 +741,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-22",
+      "matches": [
+        {
+          "date": "2026-06-22",
+          "stage": "group",
+          "round": null,
+          "home": "Argentina",
+          "away": "Austria",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "Argentina 2-0 Austria",
+          "points": {
+            "Zach": 0.0
+          },
+          "math": [
+            "WIN: Argentina (T1) undrafted, no points",
+            "LOSS: Austria (Zach, T2) +0 (loss)"
+          ]
+        }
+      ]
     }
   ]
 }

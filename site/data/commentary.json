@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-22T16:36:59Z",
-  "source": "daily_results_2026-06-21",
-  "date": "2026-06-22",
-  "rotation": 11,
+  "generated": "2026-06-22T19:12:18Z",
+  "source": "daily_results_2026-06-22",
+  "date": "2026-06-23",
+  "rotation": 12,
   "pundit": {
-    "name": "Alexi Lalas",
-    "tone": "bombastic",
-    "color": "#f4a423",
-    "take": "**Ghost Pepper Devin, look at me. LOOK AT ME. Drafting Bosnia was like ordering a salad at a steakhouse.** Spain's 4-0 demolition of Mustard Boy Zach's Saudi Arabia should have been your ticket to glory, Devin, but now you're facing Bubba G's Senegal, a team that just defeated Egypt. Let me tell you something, Devin: your only hope lies with Norway, a squad armed with a Viking spirit but not much else. Meanwhile, Bubba G, your strategy of collecting African teams like they're Pokémon might just pay off as Senegal is set to run circles around Devin's bewildered Norwegians. Sure, Gunner, you're tied for first place now, but it doesn’t take a genius to bet on France. I predict Senegal will carve up Norway like a Thanksgiving turkey, taking Gunner closer to the top. Devin, if you lose this one, I'll send you a Bosnia jersey to wear as your scarlet letter of shame! Mic drop, people."
+    "name": "Eric Wynalda",
+    "tone": "arrogant",
+    "color": "#e2231a",
+    "take": "**Mustard Boy and The Backpass Assassin: A Spectacle of Mediocrity**  \n\nLet's get one thing straight: \"Mustard Boy\" Zach's decision to draft Austria was as misguided as thinking mustard is a meal on its own. Yesterday, Austria got steamrolled by Argentina, which should surprise no one with a shred of soccer intelligence. On the other end, we have \"The Backpass Assassin,\" Gayden, who probably selected his lineup by throwing darts at a world map. England may have an impressive squad, but Gayden drafted them like someone who still believes David Beckham is their star player — it's just sad. With England facing Ghana today, I'm confident \"Mustard Boy\" and his Ghanaian dark horses will absolutely teach Gayden a lesson in drafting. Ghana wins. Write it down. Watch and learn."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Austria Faces Tough Test Against Undrafted Argentina",
-      "subtitle": "Zach insists mustard is the secret ingredient for an upset.",
-      "match": "Argentina vs Austria",
-      "date": "2026-06-22"
+      "headline": "Backpass Assassin Primes England for Tactical Chess Against Mustard Boy",
+      "subtitle": "Gayden stakes his top pick against Zach's underdog Ghana today.",
+      "match": "England vs Ghana",
+      "date": "2026-06-23"
     },
     {
       "pundit": "donovan",
-      "headline": "Bubba G's France Set to Dominate Against Iraq in Philadelphia",
-      "subtitle": "Gunner claims he drafted France for their historical prowess, not baguettes.",
-      "match": "France vs Iraq",
-      "date": "2026-06-22"
+      "headline": "Ghost Pepper Scorched by Underperforming Austria Against Hot Argentine Side",
+      "subtitle": "Zach's Austria adds nothing to the spice in Devin's pool.",
+      "match": "Argentina vs Austria",
+      "date": "2026-06-23"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's Norway Poised for Spicy Encounter with Bubba G's Senegal",
-      "subtitle": "Devin says he's just here for the cool jerseys and vibes.",
-      "match": "Norway vs Senegal",
-      "date": "2026-06-22"
+      "headline": "Bubba G Poised to Take DR Congo to New Heights",
+      "subtitle": "Gunner's Tier 4 wildcard aims to surprise against Colombia.",
+      "match": "Colombia vs DR Congo",
+      "date": "2026-06-23"
     },
     {
       "pundit": "lalas",
-      "headline": "Jordan's Chance for Redemption Against Algeria Amid WC Chaos",
-      "subtitle": "Backpass Assassin son Rafe hopes obscure drafting skills pay off.",
-      "match": "Jordan vs Algeria",
-      "date": "2026-06-22"
+      "headline": "Noisemaker Quietly Matches Top Spot Despite Questionable Draft Choices",
+      "subtitle": "Rafe's unconventional team selections surprisingly yield equal points to date.",
+      "match": "Group F Preview",
+      "date": "2026-06-23"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's unbeaten Morocco makes him king of the hill — sorry Dad, you're fifth.",
-    "Rafe's Tier-1 blues with Germany means his 38% dependency equals draft disaster.",
-    "Rafe vs. Devin: a one-sided beatdown with Rafe up 6-0 in points.",
-    "Sim's favorite Gunner is holding up despite Rafe's chaos — hit-and-miss predictions."
+    "Rafe, the 15-year-old wonder, hangs with the big dogs at rank 2.",
+    "Rafe drafted a ghost team, yet schools Gayden in Tier-1 dependency.",
+    "Rafe vs. Gayden: epic father-son clashes ending in a deadlock, zero differential.",
+    "The sim got shook, Rafe's chaos factor rattling favorite Gunner's win probability."
   ]
 }
