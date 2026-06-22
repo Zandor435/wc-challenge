@@ -1,23 +1,23 @@
-### Rafe — 16 pts · 1st · The Noisemaker still getting louder
+### Rafe — 16 pts · 1st · The Noisemaker remains king
 
-**The Noisemaker** Rafe pulls another rabbit out of the hat, adding to his thrilling ascent to the top of the leaderboard. Germany's victory over his dad's Ivory Coast is just another line in this kid's bullish résumé. **Rafe's memoir should be titled "How to Disassemble Your Father's Ego Before You're Old Enough to Drive."** This phenom has turned a botched draft into an art form.
+Rafe, **The Noisemaker**, is still on his throne with zero intention of evacuating the premises. His German team continues to shine, completely overshadowing his draft debacle of picking non-qualifiers. **It's almost like he doesn't know winning and respects chaos instead — and yet that's working for him.** The kid remains the best proof that sometimes ignorance really is bliss.
 
-### Zach — 16 pts · 2nd · Mustard Boy needs more tang
+### Zach — 16 pts · 2nd · Mustard Boy maintains his bland status
 
-**Mustard Boy** Zach sits right behind Rafe, swimming in a sea of mediocrity. Brazil's disappointing run keeps him level at 16 points, but there's no catch-up when your best is stagnating. **Zach, it's past time to spice up this bland dish — condiments aren't enough.** Step it up or watch the Noisemaker sail on by.
+**Mustard Boy** Zach is clinging to Rafe like a piece of lettuce refusing to leave the bun. Thanks to Spain's thrashing of his Saudi Arabia team, he's now playing catch-up. **Zach, your roster is like a bad condiment — you need more heat to compete in this kitchen.** With Brazil as his only hope, he better pray for a miracle vinaigrette.
 
-### Gayden — 13 pts · 3rd · Backpass Assassin fights back
+### Devin — 15 pts · 3rd · Ghost Pepper reignites
 
-The **Backpass Assassin** Gayden rebounds a bit with Japan's thrashing of Tunisia, snapping a small losing streak to his son. Yet, Ivory Coast's fall to Germany keeps the home fires of humiliation burning. **Dragging Japan to a win won't change the fact that Thanksgiving might just be a Rafe appreciation event.** Gayden has steadied the ship, but it's still navigating turbulent waters.
+**Ghost Pepper** Devin finally finds some fire, thanks to Spain's flambee of Saudi Arabia. Having jumped two spots, he's writing a comeback script the league didn't see coming. **Just make sure to keep that momentum alive, Devin, or you'll be back to your smoke-and-mirrors routine.** He's rising in the ranks, but the basement shadows are always nearby.
 
-### Gunner — 13 pts · 4th · Bubba G spins his wheels
+### Gayden — 13 pts · 4th · Backpass Assassin stalled
 
-**Bubba G** Gunner's freefall continues, slipping two spots in the standings. Morocco's strong showing is overshadowed by Senegal's no-show, leaving him with stagnant momentum. **Your roster looks like a Jenga tower on a windy day, Bubba G — and each move could be your last.** With the highest win probability, any day now should be your day—unless you squander it.
+The **Backpass Assassin** Gayden finds himself stuck in the mud of his two-front war, with no points to show today. His Japan squad's recent win was a high note, but Rafe's German blitzkrieg keeps his ego bruised. **Thanksgiving's coming, Gayden, and with Rafe at the helm, you'd better bring dessert because he's already got the entrée covered.** The hope is there, but the execution is missing.
 
-### Devin — 12 pts · 5th · Ghost Pepper fades to black
+### Gunner — 13 pts · 5th · Bubba G stuck in the mud
 
-**Ghost Pepper** Devin's grand illusion as the league's statistical favorite is fading into obscurity. Despite the USA's strength, Haiti is nothing more than a deadweight dragging him deeper into mediocrity. **At some point, Devin, you're going to need more than vanishing tricks to avoid the basement.** When you're expected to win big and end up with a quiet whisper instead, something's got to give.
+**Bubba G** Gunner is sitting at the bottom, unable to capitalize despite being the model's favorite to win it all. His Morocco squad has been solid, but Senegal continues to be a thorn in his side. **Gunner, your potential's being wasted — you're the Leonardo DiCaprio of this league without the Oscar.** Time's running out, Bubba, and Caleb's already sipping that OJ. 
 
 ### THE FATHER-SON SAGA
 
-The epic father-son showdown continues to highlight this league's drama reel. Rafe, **The Noisemaker**, unleashes another tactical onslaught, handing his dad, the **Backpass Assassin**, yet another slice of humble pie with Germany's dominating win over Ivory Coast. With a Thanksgiving dinner on the horizon, stakes are higher than ever. **Rafe's become the nemesis living under Gayden's roof, and the kid shows no sign of easing up — might as well rename the family trophy after him.**
+Rafe vs. Gayden remains the heavyweight bout of the league, and **The Noisemaker** shows no mercy. Germany's emphatic win over Ivory Coast echoes in the ears of the **Backpass Assassin**, who's struggling to contain his protege's rise. **Gayden's worst nightmare is dining next to his own conqueror, and this showdown could turn Thanksgiving into his personal last supper.** The trophy might as well come with Rafe's name engraved.

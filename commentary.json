@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-21T21:33:20Z",
-  "source": "daily_results_2026-06-20",
-  "date": "2026-06-21",
-  "rotation": 10,
+  "generated": "2026-06-22T01:01:27Z",
+  "source": "daily_results_2026-06-21",
+  "date": "2026-06-22",
+  "rotation": 11,
   "pundit": {
-    "name": "Clint Dempsey",
-    "tone": "chill",
-    "color": "#28c060",
-    "take": "**Bubba G and Mustard Boy battlein' for the bottom while The Noisemaker runs riot on Day 11.**\n\nMan, if you told me Rafe, aka \"The Noisemaker,\" would be runnin' the show with 16 points, I'd have laughed you outta the room, but here we are—kid's puttin' up numbers like he knows somethin' we don't. Zach's hangin' in there with him, but bubba, draftin' Saudi Arabia thinkin' oil money spells goals ain't helpin' your cause. Devin, aka \"Ghost Pepper,\" relies on Spain to flex some tiki-taka today against Zach's Saudi squad; he's hopin' they show up like they know what a World Cup is, not like it's just another siesta in the park. I dunno, though, Spain's been known to ship goals when they should be grindin' out wins. But let's be real: \"Mustard Boy\" ain’t gonna be spreadin’ the love on the pitch today; I got \"Ghost Pepper’s\" Spain fryin’ up those Samis like they’re a side of falafel."
+    "name": "Alexi Lalas",
+    "tone": "bombastic",
+    "color": "#f4a423",
+    "take": "**Devin, look at me. LOOK AT ME. You drafted Bosnia.**\n\nListen, \"Ghost Pepper,\" here you are, boasting a Spain team that's tearing apart minnows like Saudi Arabia, but drafting Bosnia — it's like you're trying to make an omelet with eggs that never even made it to the hen house. You're riding the coattails of a Spanish armada while clutching onto the USA and Norway like they're your teddy bears at night. Now, as for your boy Norway facing off against Gunner's Senegal in New Jersey — what do you expect, a snowstorm? Let me tell you something, \"Bubba G,\" your reliance on France isn't fooling anyone; they're your one-trick pony while your dreams ride on the back of DR Congo. This matchup is going to test the mettle of these managers, and I'm betting \"Ghost Pepper\" eats \"Bubba G\" alive — because if we've learned anything from the 1994 World Cup era, it's that smart preparation and raw, undeniable grit always triumphs over sloppy draft picks. Mic drop, gentlemen."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Spain set to expose Mustard Boy's misplaced draft confidence",
-      "subtitle": "Zach to rely on Saudi Arabia's unpredictable defense at noon",
-      "match": "Spain vs Saudi Arabia",
-      "date": "2026-06-21"
+      "headline": "Austria's World Cup Odds Heavily Debated in Arlington Prairies",
+      "subtitle": "Mustard Boy tests mustard theory against undrafted Argentine steak sauce.",
+      "match": "Argentina vs Austria",
+      "date": "2026-06-22"
     },
     {
       "pundit": "donovan",
-      "headline": "Noisemaker Rafe still topping standings despite drafting absent teams",
-      "subtitle": "\"Even a broken clock is right twice a day,\" notes observer",
-      "match": "Group F Preview",
-      "date": "2026-06-21"
+      "headline": "France to Play Iraq, Gunner's Tournament Hopes Doomed in Advance",
+      "subtitle": "Bubba G confused France with guillotine, forgot his own execution.",
+      "match": "France vs Iraq",
+      "date": "2026-06-22"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper banks on Spain while roasting Mustard Boy's pick",
-      "subtitle": "Devin hopes Spain spices up his last-place performance",
-      "match": "Spain vs Saudi Arabia",
-      "date": "2026-06-21"
+      "headline": "Norway and Senegal Set for Clash, Devin and Gunner Unfazed",
+      "subtitle": "Ghost Pepper and Bubba G share a shrug over a Group I showdown.",
+      "match": "Norway vs Senegal",
+      "date": "2026-06-22"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G's faith in Egypt to face Kiwi kickoff challenge",
-      "subtitle": "Gunner's Egypt set to encounter New Zealand's unheralded defense tonight",
-      "match": "New Zealand vs Egypt",
-      "date": "2026-06-21"
+      "headline": "Jordan vs Algeria: The Backpass Assassin's Latest Masterpiece of Mediocrity",
+      "subtitle": "Gayden's tactical genius equals son's supreme drafting finesse — nonexistent.",
+      "match": "Jordan vs Algeria",
+      "date": "2026-06-22"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe leads the pack without a single upset point, pure match play magic.",
-    "Rafe's Tier-1 dependency at 38% proves ignorance is his secret weapon.",
-    "Gayden vs. Rafe is dead even; who's buying Thanksgiving dinner after this tie?",
-    "Sim's 13% shot has Rafe king of the hill; chaos reigns supreme."
+    "Rafe leads, but his 12% win chance screams 'fluke' louder than a vuvuzela.",
+    "Rafe's Tier-1 dependency is at 38%—the kid's living on borrowed time.",
+    "Devin can't even sniff a win against Rafe; 6-point deficit is brutal.",
+    "Sim has Gunner as favorite, but a 15-year-old dethroned him—nice going, tech."
   ]
 }
