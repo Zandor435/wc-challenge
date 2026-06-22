@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T19:12:18Z",
+  "generated": "2026-06-22T21:44:55Z",
   "source": "daily_results_2026-06-22",
   "date": "2026-06-23",
   "rotation": 12,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Mustard Boy and The Backpass Assassin: A Spectacle of Mediocrity**  \n\nLet's get one thing straight: \"Mustard Boy\" Zach's decision to draft Austria was as misguided as thinking mustard is a meal on its own. Yesterday, Austria got steamrolled by Argentina, which should surprise no one with a shred of soccer intelligence. On the other end, we have \"The Backpass Assassin,\" Gayden, who probably selected his lineup by throwing darts at a world map. England may have an impressive squad, but Gayden drafted them like someone who still believes David Beckham is their star player — it's just sad. With England facing Ghana today, I'm confident \"Mustard Boy\" and his Ghanaian dark horses will absolutely teach Gayden a lesson in drafting. Ghana wins. Write it down. Watch and learn."
+    "take": "**Ghana will dismantle England today, and it'll be as embarrassing as \"The Backpass Assassin's\" joke of a draft.** England might have a strong roster, but Gayden passed on nations with real potential, picking with all the precision of a no-look backpass into his own net. Meanwhile, \"Mustard Boy\" Zach, with teams like Brazil and Ghana, at least shows some semblance of footballing knowledge – though even Austria let him down against Argentina yesterday. Prediction: Expect Ghana to capitalize on England's shaky defense, proving once again why Gayden is hopelessly out of his depth, clinging to that last-place spot in the standings with 13 measly points."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Backpass Assassin Primes England for Tactical Chess Against Mustard Boy",
-      "subtitle": "Gayden stakes his top pick against Zach's underdog Ghana today.",
-      "match": "England vs Ghana",
-      "date": "2026-06-23"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Ghost Pepper Scorched by Underperforming Austria Against Hot Argentine Side",
-      "subtitle": "Zach's Austria adds nothing to the spice in Devin's pool.",
+      "headline": "Mustard Boy's Austria Proves As Tangy As Plain Bread",
+      "subtitle": "Zach's Tier 2 squad fails to score, earns zero points.",
       "match": "Argentina vs Austria",
       "date": "2026-06-23"
     },
     {
+      "pundit": "donovan",
+      "headline": "Backpass Assassin Poised to Collide with Mustard Boy's Spicy Ghana",
+      "subtitle": "Gayden's England faces Zach's Ghana; neither manager looks prepared.",
+      "match": "England vs Ghana",
+      "date": "2026-06-23"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Bubba G Poised to Take DR Congo to New Heights",
-      "subtitle": "Gunner's Tier 4 wildcard aims to surprise against Colombia.",
+      "headline": "Colombia Set to Challenge Bubba G's Congo in Late-Night Showdown",
+      "subtitle": "Gunner relies on underdog magic as DR Congo hits the field.",
       "match": "Colombia vs DR Congo",
       "date": "2026-06-23"
     },
     {
       "pundit": "lalas",
-      "headline": "Noisemaker Quietly Matches Top Spot Despite Questionable Draft Choices",
-      "subtitle": "Rafe's unconventional team selections surprisingly yield equal points to date.",
-      "match": "Group F Preview",
+      "headline": "Teen Sensation The Noisemaker Ties for First Without Winning a Game",
+      "subtitle": "Rafe's stunning strategy of drafting non-qualifiers confounds experts.",
+      "match": "Standings Review",
       "date": "2026-06-23"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe, the 15-year-old wonder, hangs with the big dogs at rank 2.",
-    "Rafe drafted a ghost team, yet schools Gayden in Tier-1 dependency.",
-    "Rafe vs. Gayden: epic father-son clashes ending in a deadlock, zero differential.",
-    "The sim got shook, Rafe's chaos factor rattling favorite Gunner's win probability."
+    "Gunner and Rafe tied—no fireworks, just fizzles at the top.",
+    "Rafe's Tier-1 dependency screams the kid’s just coasting on Germany.",
+    "Devin looks like Rafe's personal punching bag with that -6 differential.",
+    "The model's probability predictions couldn't predict Rafe crashing the league."
   ]
 }
