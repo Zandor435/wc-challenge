@@ -137,7 +137,7 @@
       "points": 0.0
     },
     {
-      "team": "Canada",
+      "team": "Egypt",
       "owner": "Gunner",
       "tier": 3,
       "W": 1,
@@ -146,13 +146,13 @@
       "points": 4.0
     },
     {
-      "team": "Egypt",
+      "team": "Canada",
       "owner": "Gunner",
       "tier": 3,
-      "W": 0,
+      "W": 1,
       "D": 1,
       "L": 0,
-      "points": 1.0
+      "points": 4.0
     },
     {
       "team": "DR Congo",

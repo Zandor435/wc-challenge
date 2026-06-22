@@ -1,23 +1,23 @@
-### Rafe — 16 pts · 1st · The Noisemaker remains king
+### Gunner — 16 pts · 1st · Bubba G rises to the top
 
-Rafe, **The Noisemaker**, is still on his throne with zero intention of evacuating the premises. His German team continues to shine, completely overshadowing his draft debacle of picking non-qualifiers. **It's almost like he doesn't know winning and respects chaos instead — and yet that's working for him.** The kid remains the best proof that sometimes ignorance really is bliss.
+**Bubba G** Gunner charged up the standings faster than a kid running for ice cream on a hot day. With Egypt demolishing New Zealand, Gunner finds himself with a taste of first place. **If he can keep this momentum, the league's Leonardo DiCaprio might finally clutch his Oscar.** That 29.0% win probability isn't looking so bad now, is it, Bubba?
 
-### Zach — 16 pts · 2nd · Mustard Boy maintains his bland status
+### Rafe — 16 pts · 2nd · The Noisemaker silenced, but not out
 
-**Mustard Boy** Zach is clinging to Rafe like a piece of lettuce refusing to leave the bun. Thanks to Spain's thrashing of his Saudi Arabia team, he's now playing catch-up. **Zach, your roster is like a bad condiment — you need more heat to compete in this kitchen.** With Brazil as his only hope, he better pray for a miracle vinaigrette.
+**The Noisemaker** Rafe has hit a temporary mute button, slipping down a spot, but don’t count him out just yet. Despite the lack of points today, his Germany squad remains a juggernaut, and he's got a knack for bouncing back. **This kid may not know what's coming, but that's the beauty — he's chaos incarnate.** With Thanksgiving looming, Gayden better prepare, because the noise will return.
 
-### Devin — 15 pts · 3rd · Ghost Pepper reignites
+### Zach — 16 pts · 3rd · Mustard Boy stays mild
 
-**Ghost Pepper** Devin finally finds some fire, thanks to Spain's flambee of Saudi Arabia. Having jumped two spots, he's writing a comeback script the league didn't see coming. **Just make sure to keep that momentum alive, Devin, or you'll be back to your smoke-and-mirrors routine.** He's rising in the ranks, but the basement shadows are always nearby.
+**Mustard Boy** Zach is still blending in with the wallpaper as he takes a hit from Devin's Spain. **Another day, another bland performance, Zach — you're the league's version of vanilla ice cream.** Brazil's still his only shining hope, and as far as miracles go, he’ll need a double scoop of those.
 
-### Gayden — 13 pts · 4th · Backpass Assassin stalled
+### Devin — 15 pts · 4th · Ghost Pepper heats up
 
-The **Backpass Assassin** Gayden finds himself stuck in the mud of his two-front war, with no points to show today. His Japan squad's recent win was a high note, but Rafe's German blitzkrieg keeps his ego bruised. **Thanksgiving's coming, Gayden, and with Rafe at the helm, you'd better bring dessert because he's already got the entrée covered.** The hope is there, but the execution is missing.
+**Ghost Pepper** Devin is turning up the heat, climbing a spot with Spain bringing the fire against Saudi Arabia. Having the best champion odds at 17.0%, he's still the dark horse primed for the win. **Don’t lose your sizzle now, Devin — it's time to bring the heat every single game.** Stay spicy, not silent.
 
-### Gunner — 13 pts · 5th · Bubba G stuck in the mud
+### Gayden — 13 pts · 5th · Backpass Assassin back on the ropes
 
-**Bubba G** Gunner is sitting at the bottom, unable to capitalize despite being the model's favorite to win it all. His Morocco squad has been solid, but Senegal continues to be a thorn in his side. **Gunner, your potential's being wasted — you're the Leonardo DiCaprio of this league without the Oscar.** Time's running out, Bubba, and Caleb's already sipping that OJ. 
+The **Backpass Assassin** Gayden is stuck in the trenches, looking up at the standings like they're Everest. Even with a win from Japan, Rafe’s relentless push keeps him cornered at the table. **Gayden, you’ve raised a wolf in sheep's clothing, and now it's devouring your standings.** Thanksgiving won’t just be a feast — it'll be a reckoning.
 
 ### THE FATHER-SON SAGA
 
-Rafe vs. Gayden remains the heavyweight bout of the league, and **The Noisemaker** shows no mercy. Germany's emphatic win over Ivory Coast echoes in the ears of the **Backpass Assassin**, who's struggling to contain his protege's rise. **Gayden's worst nightmare is dining next to his own conqueror, and this showdown could turn Thanksgiving into his personal last supper.** The trophy might as well come with Rafe's name engraved.
+The rumble between Rafe and Gayden continues to brew like a storm with a vengeance. **The Noisemaker** continues to frustrate his old man, and **The Backpass Assassin** can't seem to catch a break. **Thanksgiving dinner won't be a simple family affair; it'll be a clash of two titans under one roof.** Gayden taught Rafe everything he knows — the irony is, now he wishes he hadn’t.

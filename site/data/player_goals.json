@@ -403,12 +403,36 @@
       "rank": 50
     },
     {
+      "player": "Mahmoud Hassan Trezeguet",
+      "team": "Egypt",
+      "owner": "Gunner",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 51
+    },
+    {
       "player": "Mohamed Almnai",
       "team": "Canada",
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 51
+      "rank": 52
+    },
+    {
+      "player": "Mohamed Salah",
+      "team": "Egypt",
+      "owner": "Gunner",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 53
+    },
+    {
+      "player": "Mostafa Ziko",
+      "team": "Egypt",
+      "owner": "Gunner",
+      "goals": 1,
+      "penalties": 0,
+      "rank": 54
     },
     {
       "player": "N. Brown",
@@ -416,7 +440,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 52
+      "rank": 55
     },
     {
       "player": "N. Schlotterbeck",
@@ -424,7 +448,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 53
+      "rank": 56
     },
     {
       "player": "Nathan Saliba",
@@ -432,7 +456,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 54
+      "rank": 57
     },
     {
       "player": "O. Rekik",
@@ -440,7 +464,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 55
+      "rank": 58
     },
     {
       "player": "R. Jiménez",
@@ -448,7 +472,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 56
+      "rank": 59
     },
     {
       "player": "Rvbn Vargas",
@@ -456,7 +480,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 57
+      "rank": 60
     },
     {
       "player": "Rvmanv Ashmid",
@@ -464,7 +488,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 58
+      "rank": 61
     },
     {
       "player": "V. Júnior",
@@ -472,7 +496,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 59
+      "rank": 62
     },
     {
       "player": "Vinícius Júnior",
@@ -480,7 +504,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 60
+      "rank": 63
     },
     {
       "player": "Y. Wissa",
@@ -488,7 +512,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 61
+      "rank": 64
     },
     {
       "player": "‫mikhal Sadilk",
@@ -496,7 +520,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 62
+      "rank": 65
     }
   ]
 }
