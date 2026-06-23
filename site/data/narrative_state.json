@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T00:52:38Z",
+  "generated": "2026-06-23T04:27:08Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,15 +7,15 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 12,
-    "matches_played": 42,
-    "matches_remaining": 62,
+    "matches_played": 43,
+    "matches_remaining": 61,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
-      "rank": 3,
-      "rank_change_from_prev_day": 0,
+      "rank": 4,
+      "rank_change_from_prev_day": -1,
       "total_points": 16,
       "points_today": 0,
       "record": {
@@ -23,7 +23,7 @@
         "D": 4,
         "L": 3
       },
-      "win_probability": 0.17,
+      "win_probability": 0.18,
       "champion_probability": 0.12,
       "streak": {
         "type": "L",
@@ -59,14 +59,14 @@
       "record": {
         "W": 5,
         "D": 4,
-        "L": 1
+        "L": 2
       },
-      "win_probability": 0.3,
+      "win_probability": 0.28,
       "champion_probability": 0.15,
       "streak": {
-        "type": "W",
-        "length": 4,
-        "label": "W4"
+        "type": "L",
+        "length": 1,
+        "label": "L1"
       },
       "best_team": {
         "team": "France",
@@ -85,7 +85,7 @@
         "record": {
           "W": 0,
           "D": 0,
-          "L": 1
+          "L": 2
         }
       }
     },
@@ -128,21 +128,21 @@
       }
     },
     "Devin": {
-      "rank": 4,
-      "rank_change_from_prev_day": 0,
-      "total_points": 15,
-      "points_today": 0,
+      "rank": 2,
+      "rank_change_from_prev_day": 2,
+      "total_points": 18,
+      "points_today": 3,
       "record": {
-        "W": 4,
+        "W": 5,
         "D": 3,
         "L": 4
       },
-      "win_probability": 0.24,
+      "win_probability": 0.25,
       "champion_probability": 0.17,
       "streak": {
         "type": "W",
-        "length": 2,
-        "label": "W2"
+        "length": 3,
+        "label": "W3"
       },
       "best_team": {
         "team": "USA",
@@ -166,8 +166,8 @@
       }
     },
     "Rafe": {
-      "rank": 2,
-      "rank_change_from_prev_day": 0,
+      "rank": 3,
+      "rank_change_from_prev_day": -1,
       "total_points": 16,
       "points_today": 0,
       "record": {
@@ -175,8 +175,8 @@
         "D": 1,
         "L": 5
       },
-      "win_probability": 0.12,
-      "champion_probability": 0.08,
+      "win_probability": 0.13,
+      "champion_probability": 0.09,
       "streak": {
         "type": "L",
         "length": 1,
@@ -229,7 +229,7 @@
         "L": 2
       },
       "Gunner": {
-        "W": 0,
+        "W": 1,
         "D": 1,
         "L": 0
       },
@@ -272,7 +272,7 @@
       "Devin": {
         "W": 0,
         "D": 1,
-        "L": 0
+        "L": 1
       },
       "Zach": {
         "W": 0,
@@ -409,6 +409,14 @@
       "via": "Spain beat Saudi Arabia",
       "match": "Spain 4-0 Saudi Arabia",
       "date": "2026-06-21"
+    },
+    {
+      "result": "win",
+      "winner": "Devin",
+      "loser": "Gunner",
+      "via": "Norway beat Senegal",
+      "match": "Norway 3-2 Senegal",
+      "date": "2026-06-22"
     }
   ],
   "h2h_differential": {
@@ -419,7 +427,7 @@
     },
     "Devin": {
       "Rafe": -6,
-      "Gunner": 0,
+      "Gunner": 3,
       "Zach": -3
     },
     "Gayden": {
@@ -432,7 +440,7 @@
       "Devin": 3
     },
     "Gunner": {
-      "Devin": 0,
+      "Devin": -3,
       "Zach": 0,
       "Rafe": 3
     }
@@ -566,7 +574,7 @@
         "Zach": 0,
         "Gunner": 3,
         "Gayden": 0,
-        "Devin": 0,
+        "Devin": 3,
         "Rafe": 0
       }
     }
@@ -575,7 +583,7 @@
     "Zach": 0.25,
     "Gunner": 0.32,
     "Gayden": 0.23,
-    "Devin": 0.27,
+    "Devin": 0.22,
     "Rafe": 0.38
   },
   "notable_events": [
@@ -587,12 +595,19 @@
       "description": "Devin banked 4 pts on 2026-06-12 -- the biggest single-day haul so far"
     }
   ],
-  "themes": [],
+  "themes": [
+    {
+      "tag": "Devin surge",
+      "owner": "Devin",
+      "kind": "surge",
+      "description": "Devin jumped 2 spots in the standings on the latest matchday."
+    }
+  ],
   "golden_boot_leader": {
-    "player": "Jonathan David",
-    "team": "Canada",
-    "owner": "Gunner",
-    "goals": 3
+    "player": "Erling Haaland",
+    "team": "Norway",
+    "owner": "Devin",
+    "goals": 4
   },
   "history": [
     {
@@ -942,29 +957,29 @@
         "Zach": 16,
         "Gunner": 19,
         "Gayden": 13,
-        "Devin": 15,
+        "Devin": 18,
         "Rafe": 16
       },
       "points_today": {
         "Zach": 0,
         "Gunner": 3,
         "Gayden": 0,
-        "Devin": 0,
+        "Devin": 3,
         "Rafe": 0
       },
       "ranks": {
         "Gunner": 1,
-        "Rafe": 2,
-        "Zach": 3,
-        "Devin": 4,
+        "Devin": 2,
+        "Rafe": 3,
+        "Zach": 4,
         "Gayden": 5
       },
       "rank_change": {
-        "Zach": 0,
+        "Zach": -1,
         "Gunner": 0,
         "Gayden": 0,
-        "Devin": 0,
-        "Rafe": 0
+        "Devin": 2,
+        "Rafe": -1
       }
     }
   ]

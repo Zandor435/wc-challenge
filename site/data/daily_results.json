@@ -766,6 +766,24 @@
           "date": "2026-06-22",
           "stage": "group",
           "round": null,
+          "home": "Norway",
+          "away": "Senegal",
+          "home_score": 3,
+          "away_score": 2,
+          "score": "Norway 3-2 Senegal",
+          "points": {
+            "Devin": 3.0,
+            "Gunner": 0.0
+          },
+          "math": [
+            "WIN: Norway (Devin, T2) +3 (win) (no upset: equal tier)",
+            "LOSS: Senegal (Gunner, T2) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-22",
+          "stage": "group",
+          "round": null,
           "home": "Argentina",
           "away": "Austria",
           "home_score": 2,

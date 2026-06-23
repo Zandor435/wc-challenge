@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T00:52:38Z",
+  "generated": "2026-06-23T04:27:09Z",
   "source": "daily_results_2026-06-22",
   "date": "2026-06-23",
   "rotation": 12,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "Mustard Boy vs. The Backpass Assassin: A Comedy of Errors with Ghana and England Stealing the Show\n\n**This matchup between England and Ghana is the ultimate clown show, and frankly, Mustard Boy and The Backpass Assassin deserve each other.** Ghana's recent form has been about as stable as Gunner's ego — consistently erratic yet occasionally surprising. Zach, or Mustard Boy as I like to derisively call him, picked Ghana like he picks his mustard — cluelessly, but somehow it works now and then. His roster is a mishmash of guessing games, and today, he bets everything on the disorganized charisma of Ghana. Meanwhile, The Backpass Assassin, or Gayden, probably selected England because it's the one team any non-soccer enthusiast could name — a safe, boring pick that lacks imagination, like most of his decisions. Gayden sits firmly at the bottom of the standings, a place he earned through his FIFA-centric fantasy picks. England will likely try to play its cautious possession game, but I expect Ghana to exploit them just like Mustard Boy's naivety got exploited on draft night. Here's the verdict you can take to the bank: Ghana shocks England, and if Mustard Boy's only hope is Ghana pulling through, then he's as misled as he was on draft night."
+    "take": "**Mustard Boy's draft was a comedy of errors, and handing him Ghana to face England is like giving a toddler the keys to a Ferrari.** Let's be clear: England have form, talent, and a manager who actually understands the basics of team selection. Meanwhile, Mustard Boy, a.k.a. Zach, might have picked his teams based on a FIFA video game's popularity list rather than actual footballing logic. Ghana's going to be exposed under the spotlight, and it's going to be brutal. Gayden—oh, excuse me, \"The Backpass Assassin\"—despite being dead last, will relish this chance to outmaneuver his amateur rival. England takes this one, no question about it—Ghana's toast, and Zach will need more than mustard to cover up this mess."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Rafe Rises to Second Place in Pool While Forgetting Teams",
-      "subtitle": "Astonishing run by manager who drafted three non-qualifiers.",
-      "match": "Group F Preview",
-      "date": "2026-06-23"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Mustard Boy’s Brazil Yet to Save Zach From Third Place",
-      "subtitle": "Despite Brazil, Zach only matches Rafe's three-non-qualifier roster.",
-      "match": "Group F Preview",
-      "date": "2026-06-23"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Gunner's DR Congo Poised to Shine as Group Stage Dark Horse",
-      "subtitle": "Expectations high after France's convincing 3-0 win over Iraq.",
+      "headline": "Gunner's DR Congo Set to Upset Tournament with Tactical Genius",
+      "subtitle": "'Bubba G' channels spirit of underdogs in Group K showdown.",
       "match": "Colombia vs DR Congo",
       "date": "2026-06-23"
     },
     {
-      "pundit": "lalas",
-      "headline": "Gayden's Backpass Strategy Under Fire Ahead of England vs Ghana Clash",
-      "subtitle": "The Backpass Assassin ranks fifth, behind his World Cup rookie son.",
+      "pundit": "donovan",
+      "headline": "Gayden's England to Face Zach's Ghana in Tactical Showpiece",
+      "subtitle": "The Backpass Assassin hopes to move out of last place.",
       "match": "England vs Ghana",
+      "date": "2026-06-23"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Rafe Quietly Climbs Standings with Germany, Proves Drafting is Overrated",
+      "subtitle": "The Noisemaker silently outperforms expectations despite questionable selections.",
+      "match": "Group F Preview",
+      "date": "2026-06-23"
+    },
+    {
+      "pundit": "lalas",
+      "headline": "Devin Inches Closer to Top, Thanks to Norway's Grit Against Senegal",
+      "subtitle": "Ghost Pepper's heat rises with each Nordic triumph in the standings.",
+      "match": "Norway 3-2 Senegal",
       "date": "2026-06-23"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's got 30% win odds, but Rafe's chaos is stealing his thunder.",
-    "Rafe's Tier-1 dependency is 0.38, proving ignorance is competitive bliss.",
-    "Rafe vs. Devin: a 6-point humiliation for the Ghost Pepper.",
-    "Rafe's draft disasters show this model couldn't predict a storm in a teacup."
+    "Zach is on a losing streak, but Devin surged past with a W3 heater.",
+    "Rafe's draft is so bad, it's a miracle he’s not dead last.",
+    "Rafe can't beat Gunner, showing The Backpass Assassin Jr. still needs some training wheels.",
+    "Devin's underdog surge proves the model's predictions need a serious tune-up."
   ]
 }

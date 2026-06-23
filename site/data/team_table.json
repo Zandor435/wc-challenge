@@ -23,10 +23,10 @@
       "team": "Norway",
       "owner": "Devin",
       "tier": 2,
-      "W": 1,
+      "W": 2,
       "D": 0,
       "L": 0,
-      "points": 3.0
+      "points": 6.0
     },
     {
       "team": "South Africa",
@@ -133,7 +133,7 @@
       "tier": 2,
       "W": 0,
       "D": 0,
-      "L": 1,
+      "L": 2,
       "points": 0.0
     },
     {
