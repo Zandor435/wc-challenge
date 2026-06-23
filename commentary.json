@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-23T18:47:34Z",
-  "source": "daily_results_2026-06-22",
-  "date": "2026-06-23",
-  "rotation": 12,
+  "generated": "2026-06-23T21:36:27Z",
+  "source": "daily_results_2026-06-23",
+  "date": "2026-06-24",
+  "rotation": 13,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "**Mustard Boy and The Backpass Assassin go head-to-head: a comedy of errors in managerial ineptitude.** England vs Ghana in Foxborough is really an exhibition in which clueless managing gets exposed. Gayden, also known as \"The Backpass Assassin,\" has somehow managed to draft a team led by England, notorious for their quarter-final write-offs yet he sits in dead last with only 13 points—pathetic. Zach, aka \"Mustard Boy,\" picked the likes of Saudi Arabia from tier 4, demonstrating all the foresight of a goldfish; you wonder if he's just listing names from FIFA video games. If you ever needed proof these guys don't belong in a World Cup pool, this match is it. England has been unpredictable at best, and Ghana is no slouch, especially when their midfield decides to show up. But mark my words, Gayden's gonna bungle this one too—it's an art he's mastered. I'll call it: a tight Ghana win purely out of spite for the managers' battlefield of amateur choices."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "I think Devin means well, but when you look at Haiti squaring off against Morocco, bless his heart, it's like sending a paper airplane into a hurricane. Look, Devin, or \"Ghost Pepper\" as he's known in the ring, sits just one point shy of the top, but I have to wonder what kind of strategy leads to a Tier 4 team like Haiti facing off against the solid North African contenders. \"Bubba G,\" or Gunner, looks poised to capitalize on this, and I'll say it now: Morocco will have too much for Haiti. You'll see \"Ghost Pepper's\" standings slip unless an act of divine intervention occurs—though I'm not holding my breath. \n\nTurning our eyes northwards, Zach, or \"Mustard Boy,\" must be hoping that Canada's hosting vibes will get to them when Switzerland takes the field against the Canadians. The Swiss are solid, organized, and very much the result of Zach's calculated approach to the draft, but you still have to wonder if his matchup selections are more condiment than meat. I think Zach's Switzerland will edge out a win, but let's be honest, the real winner here is the Vancouver tourism board. \n\nThen there's The Backpass Assassin, Gayden, whose unfortunate standing reflects a, shall we say, creative draft choice in the Korean side. As South Africa lines up against them today in Mexico, you have to hand it to him—he's got Korea Republic in action, at least. But I feel like Gayden is relying on hope rather than strategy, a common theme when sitting at the bottom of the table. Devin might see South Africa as a step to advancement, and I suspect they'll face down and outmuscle The Backpass Assassin's squad in this head-to-head."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Tightens Grip on Top Spot with France's Dominant Display",
-      "subtitle": "Sources say Gunner now considering a victory parade for himself.",
-      "match": "France vs Iraq",
-      "date": "2026-06-23"
+      "headline": "Mustard Boy's Brazil Poised for Victory Against Undrafted Scotland",
+      "subtitle": "Zach banking on Brazil to lift him from fourth place.",
+      "match": "Scotland vs Brazil",
+      "date": "2026-06-24"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden's England Poised for Redemption Against Zach's Ghana Squad",
-      "subtitle": "Analysts predict Gayden will be nostalgic for the days of Beckham.",
-      "match": "England vs Ghana",
-      "date": "2026-06-23"
+      "headline": "Bubba G's Morocco Set to Challenge Ghost Pepper's Haiti",
+      "subtitle": "Gunner likely to pad his lead with Morocco as Devin stays close.",
+      "match": "Morocco vs Haiti",
+      "date": "2026-06-24"
     },
     {
       "pundit": "dempsey",
-      "headline": "Devin's Norway Triumphs Over Gunner's Senegal in Goal Bonanza",
-      "subtitle": "Devin reportedly surprised to learn Norway is good at something.",
-      "match": "Norway vs Senegal",
-      "date": "2026-06-23"
+      "headline": "Backpass Assassin's Korea Republic Faces Ghost Pepper's South Africa",
+      "subtitle": "Gayden hopes Korea shines brighter than his draft strategy.",
+      "match": "South Africa vs Korea Republic",
+      "date": "2026-06-24"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Germany Team Brings Hope After Son's Drafting Fiasco",
-      "subtitle": "Rafe allegedly considers replacing son's draft picks with a dartboard.",
-      "match": "Group K Preview",
-      "date": "2026-06-23"
+      "headline": "Rafe's Uzbekistan Falls Short in 5-0 Rout by Portugal",
+      "subtitle": "Noisemaker's missteps continue as Rafe gains zero points from defeat.",
+      "match": "Portugal vs Uzbekistan",
+      "date": "2026-06-24"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach's L2 streak: a masterclass in mediocrity.",
-    "Rafe got ghosted by his non-qualifiers, yet still haunting the leaderboard.",
-    "Rafe's zero-sum game with Dad: four matches, zero net change.",
-    "Sim crashes harder than Gunner's odds after Rafe joined."
+    "Gunner reigns supreme at the top, but Rafe's starter pack still shocks the world.",
+    "Rafe's draft looks like a dartboard—Nigeria, Poland, Jamaica all screamed 'see ya later!'",
+    "Rafe and Gayden: a brutal father-son stalemate. Thanksgiving's gonna be awkward.",
+    "Sim had Gunner on top—then Rafe joined and the chaos ensued."
   ]
 }
