@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T04:27:08Z",
+  "generated": "2026-06-23T07:21:30Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 12,
-    "matches_played": 43,
-    "matches_remaining": 61,
+    "matches_played": 44,
+    "matches_remaining": 60,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -23,7 +23,7 @@
         "D": 4,
         "L": 3
       },
-      "win_probability": 0.18,
+      "win_probability": 0.17,
       "champion_probability": 0.12,
       "streak": {
         "type": "L",
@@ -61,8 +61,8 @@
         "D": 4,
         "L": 2
       },
-      "win_probability": 0.28,
-      "champion_probability": 0.15,
+      "win_probability": 0.29,
+      "champion_probability": 0.16,
       "streak": {
         "type": "L",
         "length": 1,
@@ -97,14 +97,14 @@
       "record": {
         "W": 4,
         "D": 1,
-        "L": 5
+        "L": 6
       },
       "win_probability": 0.16,
       "champion_probability": 0.11,
       "streak": {
-        "type": "W",
+        "type": "L",
         "length": 1,
-        "label": "W1"
+        "label": "L1"
       },
       "best_team": {
         "team": "Japan",
@@ -176,7 +176,7 @@
         "L": 5
       },
       "win_probability": 0.13,
-      "champion_probability": 0.09,
+      "champion_probability": 0.08,
       "streak": {
         "type": "L",
         "length": 1,

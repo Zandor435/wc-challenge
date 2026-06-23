@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T04:27:09Z",
+  "generated": "2026-06-23T07:21:30Z",
   "source": "daily_results_2026-06-22",
   "date": "2026-06-23",
   "rotation": 12,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Mustard Boy's draft was a comedy of errors, and handing him Ghana to face England is like giving a toddler the keys to a Ferrari.** Let's be clear: England have form, talent, and a manager who actually understands the basics of team selection. Meanwhile, Mustard Boy, a.k.a. Zach, might have picked his teams based on a FIFA video game's popularity list rather than actual footballing logic. Ghana's going to be exposed under the spotlight, and it's going to be brutal. Gayden—oh, excuse me, \"The Backpass Assassin\"—despite being dead last, will relish this chance to outmaneuver his amateur rival. England takes this one, no question about it—Ghana's toast, and Zach will need more than mustard to cover up this mess."
+    "take": "**\"Gayden might as well have drafted with a blindfold on, but even that wouldn't explain his obsession with mid-table mediocrity.\"** You've got England taking on Ghana, and if Gayden's draft strategy was any indication, I expect him to backpass his way into yet another disastrous showing. While England is certainly a team of pedigree, as a former World Cup player let me remind you that pedigree doesn’t guarantee performance, just like Gayden's ill-fated choice of Jordan. \"The Backpass Assassin\" seems to have forgotten that Japan's precision pays dividends only in cartoons, not in the World Cup. Meanwhile, Zach \"Mustard Boy\" continues with his FIFA-like strategy of picking big names without understanding team chemistry. His reliance on Brazil to carry him is like wearing golden boots in a mud fight. This clash at Foxborough? England will roll the dice and scrape a win, proving once again that Gayden knows just enough to confuse himself into thinking he's a manager."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's DR Congo Set to Upset Tournament with Tactical Genius",
-      "subtitle": "'Bubba G' channels spirit of underdogs in Group K showdown.",
-      "match": "Colombia vs DR Congo",
-      "date": "2026-06-23"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Gayden's England to Face Zach's Ghana in Tactical Showpiece",
-      "subtitle": "The Backpass Assassin hopes to move out of last place.",
+      "headline": "Gayden's England set to backpass their way past Ghana",
+      "subtitle": "Rumor has it Gayden plans to redefine playing it safe.",
       "match": "England vs Ghana",
       "date": "2026-06-23"
     },
     {
+      "pundit": "donovan",
+      "headline": "Bubba G's DR Congo poised to take a nap vs Colombia",
+      "subtitle": "Gunner's strategic relaxation might cost him his top spot.",
+      "match": "Colombia vs DR Congo",
+      "date": "2026-06-23"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Rafe Quietly Climbs Standings with Germany, Proves Drafting is Overrated",
-      "subtitle": "The Noisemaker silently outperforms expectations despite questionable selections.",
-      "match": "Group F Preview",
+      "headline": "Mustard Boy's Austria quietly exits World Cup unnoticed by fans",
+      "subtitle": "Zach's team clocks in zero points and zero fanfare.",
+      "match": "Argentina vs Austria",
       "date": "2026-06-23"
     },
     {
       "pundit": "lalas",
-      "headline": "Devin Inches Closer to Top, Thanks to Norway's Grit Against Senegal",
-      "subtitle": "Ghost Pepper's heat rises with each Nordic triumph in the standings.",
-      "match": "Norway 3-2 Senegal",
+      "headline": "Rafe's Germany still searching for victory in father's shadow",
+      "subtitle": "The Noisemaker could use a little more noise from his team.",
+      "match": "Group F Preview",
       "date": "2026-06-23"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach is on a losing streak, but Devin surged past with a W3 heater.",
-    "Rafe's draft is so bad, it's a miracle he’s not dead last.",
-    "Rafe can't beat Gunner, showing The Backpass Assassin Jr. still needs some training wheels.",
-    "Devin's underdog surge proves the model's predictions need a serious tune-up."
+    "Zach sits fourth, but Brazil's still waiting to samba; 0 points today!",
+    "Rafe's draft is a comedy special; my grandma could've picked better, son.",
+    "Rafe spanks Devin with a +6 differential; dad must be beaming with pride!",
+    "Gunner's odds are slipping like he just saw a teenager named Rafe."
   ]
 }
