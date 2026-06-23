@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T07:21:30Z",
+  "generated": "2026-06-23T10:18:28Z",
   "source": "daily_results_2026-06-22",
   "date": "2026-06-23",
   "rotation": 12,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**\"Gayden might as well have drafted with a blindfold on, but even that wouldn't explain his obsession with mid-table mediocrity.\"** You've got England taking on Ghana, and if Gayden's draft strategy was any indication, I expect him to backpass his way into yet another disastrous showing. While England is certainly a team of pedigree, as a former World Cup player let me remind you that pedigree doesn’t guarantee performance, just like Gayden's ill-fated choice of Jordan. \"The Backpass Assassin\" seems to have forgotten that Japan's precision pays dividends only in cartoons, not in the World Cup. Meanwhile, Zach \"Mustard Boy\" continues with his FIFA-like strategy of picking big names without understanding team chemistry. His reliance on Brazil to carry him is like wearing golden boots in a mud fight. This clash at Foxborough? England will roll the dice and scrape a win, proving once again that Gayden knows just enough to confuse himself into thinking he's a manager."
+    "take": "***Gunner's the only one with a clue, while the rest of you couldn't spot talent if it kicked you in the face.***\n\nLet's be clear: Gunner, or \"Bubba G,\" is the only one in this pool showing any semblance of strategic thinking. The man picked France, and what do they do? Win 3-0 like it's a walk in the park. Meanwhile, Devin somehow ekes out second place, riding Spain's coattails and crossing his fingers that Norway doesn't muck things up too badly against teams like Senegal. Don't get me started on Rafe, \"The Noisemaker.\" This kid selects teams like he's throwing darts blindfolded — Germany is carrying him, while the rest of his picks are laughable. But the real joke here is Gayden, or should I say \"The Backpass Assassin\"? England vs. Ghana is coming up, and honestly, his choice of Jordan in Tier 4 shows he knows less about soccer than he does about sensible draft picks. I'm convinced he's picking based on FIFA video game ratings rather than, you know, actual global talent. England might have a shot against a team like Ghana, but with Gayden at the helm, they'll probably find a way to choke. Zach, aka \"Mustard Boy,\" has Brazil but barely manages to cling to relevance with the rest of his roster. They'll be lucky if Ghana doesn't put them in their place. Trust me, folks, I played in a World Cup — Gunner's winning this amateur hour, and it's not even close."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gayden's England set to backpass their way past Ghana",
-      "subtitle": "Rumor has it Gayden plans to redefine playing it safe.",
+      "headline": "England vs Ghana showdown set to test Gayden's tactics",
+      "subtitle": "Backpass Assassin accused of relying too heavily on tier one teams.",
       "match": "England vs Ghana",
       "date": "2026-06-23"
     },
     {
       "pundit": "donovan",
-      "headline": "Bubba G's DR Congo poised to take a nap vs Colombia",
-      "subtitle": "Gunner's strategic relaxation might cost him his top spot.",
-      "match": "Colombia vs DR Congo",
+      "headline": "Rafe still leads Zach despite drafting non-qualifying teams",
+      "subtitle": "The Noisemaker casually ranks above Mustard Boy with three ghost picks.",
+      "match": "Group F Preview",
       "date": "2026-06-23"
     },
     {
       "pundit": "dempsey",
-      "headline": "Mustard Boy's Austria quietly exits World Cup unnoticed by fans",
-      "subtitle": "Zach's team clocks in zero points and zero fanfare.",
-      "match": "Argentina vs Austria",
+      "headline": "Gunner's DR Congo expected to struggle against undrafted Colombia",
+      "subtitle": "Bubba G's confidence in tier four selection remains baffling.",
+      "match": "Colombia vs DR Congo",
       "date": "2026-06-23"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Germany still searching for victory in father's shadow",
-      "subtitle": "The Noisemaker could use a little more noise from his team.",
-      "match": "Group F Preview",
+      "headline": "Devin's squads rally after Norway's thrilling win over Senegal",
+      "subtitle": "Ghost Pepper smells sizzling potential despite being one point from the top.",
+      "match": "Norway 3-2 Senegal",
       "date": "2026-06-23"
     }
   ],
   "rome_analytics_quotes": [
-    "Zach sits fourth, but Brazil's still waiting to samba; 0 points today!",
-    "Rafe's draft is a comedy special; my grandma could've picked better, son.",
-    "Rafe spanks Devin with a +6 differential; dad must be beaming with pride!",
-    "Gunner's odds are slipping like he just saw a teenager named Rafe."
+    "Zach's on a lost weekend streak; L2 and sinking faster than Titanic's band.",
+    "Rafe's Tier-1 Germany carries him; his Tier-3 Tunisia is dead weight.",
+    "Rafe's got Devin eating dust with a head-to-head differential of 6-0.",
+    "Gunner stumbled, and the sim never saw Rafe's teenage chaos coming."
   ]
 }

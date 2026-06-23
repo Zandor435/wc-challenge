@@ -1,23 +1,23 @@
-### Gunner — 19 pts · 1st · King Bubba G reigns supreme
+### Gunner — 19 pts · 1st · Bubba G holds strong
 
-**Bubba G** Gunner continues to lord it over this petty kingdom, courtesy of France dispatching Iraq with ease. But let's not pretend it's all sunshine and roses—**Senegal’s stumble against Norway cut him down to size.** Even with Gunner perched at the top, he might soon find himself dodging arrows if he ignores the brewing storm below.
+**King Bubba G** continues to ride high atop the standings after France's triumph over Iraq, giving him the cushion he needs. But let’s be honest here, Senegal dropping to Norway just points out that **Gunner's fortress has a few cracks**. If he wants to keep his throne, **he better pray Gunner doesn't become "Gunner-down"** in the coming matchdays.
 
-### Devin — 18 pts · 2nd · Ghost Pepper rises again
+### Devin — 18 pts · 2nd · Ghost Pepper on fire
 
-The **Ghost Pepper** Devin's fiery touch leaves scorched earth in its wake, and Norway's narrow win over Senegal only throws gasoline on his ascent. A three-game win streak has reignited Devin’s hunger, putting him just one point shy of Gunner’s throne. **Devin’s quiet confidence is deafening, and if you're not listening, you might be the next to burn.**
+**Ghost Pepper** Devin is cooking with gas, with Norway’s narrow escape over Senegal solidifying his second-place standing. He’s only a point behind Gunner, and with Erling Haaland turning defenses into Swiss cheese, **Devin's got firepower hotter than a jalapeño in July**. Devin's trajectory is all red hot and no signs of cooling down anytime soon.
 
-### Rafe — 16 pts · 3rd · The Noisemaker’s signal fades
+### Rafe — 16 pts · 3rd · Noisemaker stays in the fight
 
-**The Noisemaker** Rafe crash-lands to third place, dropping points faster than his dad can fumble strategy. Yet even on a day off, the teen sensation keeps the pressure on. **He’s in the spotlight, and his old man is still scrambling to keep up.** Rafe’s method might seem madness, but there’s method in his chaos—and the standings echo his resolve.
+**The Noisemaker** Rafe might have dropped to third, but this 15-year-old phenom’s got enough tricks up his sleeve to make Houdini envious. The kid doesn’t even blink after missing points today—his squad's inconsistency is his strategy. **If you're underestimating Rafe, you're already footsteps behind the chaos.**
 
-### Zach — 16 pts · 4th · Mustard Boy slips further
+### Zach — 16 pts · 4th · Mustard Boy's mediocrity 
 
-**Mustard Boy** Zach, in silence, waits for a mustard miracle that just won’t come. Austria was outclassed by Argentina, leaving Zach licking his wounds for the second game straight. **Another L, another day in Zach’s mustard-mired reality.** He needs a spark—and fast—or he risks sinking deeper into obscurity.
+**Mustard Boy** Zach finds himself slipping to fourth with another point-less day, courtesy of Austria falling to Argentina. **Zach’s mustard may have turned stale**, with no signs of resurgence. It’s make-or-break time for Zach before any hopes of rising start to dissolve.
 
-### Gayden — 13 pts · 5th · Backpass Assassin stabs his own foot
+### Gayden — 13 pts · 5th · Backpass Assassin falters
 
-The **Backpass Assassin** Gayden finds himself where no assassin wants to be—at the bottom of the food chain, losing to Algeria when Jordan crumbled. **His son's victory over him paints the ultimate humiliation, and he’s now got zero points to offset that stark reality.** If Gayden can’t right the ship soon, he's doomed to live in Rafe’s shadow, even at the family dinner.
+**The Backpass Assassin** Gayden continues skidding in last place, as Jordan fails him once again against Algeria. It's the opposite of the assassin creed—**he’s the prey, not the predator** right now. If **Gayden doesn't regroup**, he's going to find himself permanently entrenched in his son's shadow, both here and at the dinner table.
 
 ### THE FATHER-SON SAGA
 
-The **Backpass Assassin** vs. **The Noisemaker** drama continues to captivate as Rafe holds his ground over Gayden. It's the ultimate game of psychological chess with the stakes higher than any family feud—Rafe’s relentless drive is pushing Gayden into uncomfortable territory. **Every match is a Thanksgiving brawl, and Gayden’s gotta wonder if he’s training his successor or his conqueror.** This turf war's far from over, and familial peace might just be the first casualty.
+As the **Backpass Assassin** flounders, the drama intensifies between him and **The Noisemaker**. Rafe is outplaying and outthinking Dad while having the soccer acumen of a golden retriever, making every family gathering feel like a strategic battleground. **Gayden's personal Waterloo might just be his own kid rewriting the script.** The torch isn’t just being passed—it's being ripped away with gusto.
