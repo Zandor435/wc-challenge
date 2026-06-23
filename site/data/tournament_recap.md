@@ -1,23 +1,23 @@
-### Gunner — 19 pts · 1st · Bubba G stands tall
+### Gunner — 19 pts · 1st · Bubba G's fortress
 
-**Bubba G**, still clutching that top spot like it’s the last slice of pizza at a party, rides high with a 3-0 France victory over Iraq solidifying his lead. But let's not gloss over his glaring Achilles' heel—Senegal is an anchor dragging his ship down. **Gunner better hope his fortress doesn't crumble when it matters most**, because the pack is closing in. If arrogance had a color, it’d be red, white, and blue.
+**Bubba G** maintains his stranglehold on the top spot after another commanding performance by France, steamrolling Iraq 3-0. Yet, let's not ignore the elephant in the room: Senegal’s zero-point nightmare continues. **Gunner better tighten those screws because complacency could be his kryptonite**. Riding high, but one slip and the pack is poised to pounce.
 
-### Devin — 18 pts · 2nd · Ghost Pepper closing in
+### Devin — 18 pts · 2nd · Ghost Pepper on fire
 
-**Ghost Pepper** Devin is bringing the heat, creeping up on Gunner with Norway's exhilarating 3-2 win over Senegal. With Haaland leading the charge, Devin's team is scoring like it's raining goals on a hot day. **Put a glove on that pepper, folks, or you'll get burned**. This man’s trajectory is all gas and no brakes—Championship odds are tilting his way.
+**Ghost Pepper** Devin didn't just keep pace; he matched Gunner stride for stride with a thrilling 3-2 Norway victory over Senegal. Haaland is a walking highlight reel, and Devin’s team rides the coattails of the golden boot leader. **If you haven't gotten burned by the Ghost Pepper yet, watch out**. Devin's rocket-ship trajectory has championship odds firmly in his corner.
 
-### Rafe — 16 pts · 3rd · Noisemaker's silent but deadly
+### Rafe — 16 pts · 3rd · The Noisemaker stumbles
 
-**The Noisemaker** Rafe takes a breather, scoring zero points today, but ignore him at your peril. This 15-year-old wildcard is playing chess while others fumble with checkers, sitting just three points from the top. **Underestimate him, and you’ll be eating his dust before you know it**. Rafe’s chaotic strategy—or lack thereof—is still making waves, and he’s not done yet.
+**The Noisemaker** Rafe hit a snag today, staying silent with zero points as the competition heats up. But count him out at your peril; this young maestro has Germany's full throttle still in play. **Underestimate this kid, and it's a guaranteed facepalm moment later**. Despite the stumble, Rafe's wild card chaos remains a constant threat.
 
-### Zach — 16 pts · 4th · Mustard Boy's losing flavor
+### Zach — 16 pts · 4th · Mustard Boy goes stale
 
-**Mustard Boy** Zach couldn't muster up a single point as Austria crumbled against Argentina. While his roster features a stud like Brazil, his team's inconsistency is the hallmark of a mid-table manager. **Time to check if that mustard's expired, Zach**, because this conundrum of mediocrity isn't cutting it anymore. A two-game losing streak means Zach is flirting with irrelevance.
+**Mustard Boy** Zach watched his Austria squad crumble 2-0 to Argentina. Brazil is his lone bright spot, yet even they haven't been enough to keep him afloat. **The expiration date on this mustard might just be overdue**. Zach’s current two-game losing streak screams mid-table mediocrity and could spell disaster if trends continue.
 
-### Gayden — 13 pts · 5th · Backpass Assassin in freefall
+### Gayden — 13 pts · 5th · Backpass Assassin's misfire
 
-**The Backpass Assassin** Gayden's woes continue as Jordan collapses to Algeria, keeping him rooted at the bottom like an anchor. When you lose to Algeria with a tier-four squad, you know it's panic station time. **Gayden's assassin skills have been replaced by target practice**—daydreaming about rising above his own son's shadow appears more delusional by the matchday.
+**The Backpass Assassin** Gayden slipped once more as Jordan bowed down to Algeria, cementing his bottom-dwelling status. A two-front war against his son and the rest of this cutthroat pack seems too great a burden. **Gayden’s sniper instincts are struggling to find the target**. Stuck in the shadow of his own kid, he's living a nightmare he's not waking up from anytime soon.
 
 ### THE FATHER-SON SAGA
 
-The drama intensifying between **The Backpass Assassin** and **The Noisemaker** is a saga of Shakespearean proportions. Rafe's advantage over his old man is now a well-established narrative: a kid with zero soccer IQ but a knack for embarrassing his father in front of the family. **Gayden's two-front war with rivals and his own blood is becoming a textbook melodrama**, where Rafe, the so-called chaos agent, is rewriting the rules and leaving his dad in the dust. Family dinners? More like pregame trash talk sessions.
+The theatrics between **The Backpass Assassin** and **The Noisemaker** show no signs of cooling down. Rafe’s youthful exuberance stands in stark contrast to Gayden’s flailing efforts to shed his underdog status. **Gayden's shadow-boxing with his teenage progeny adds a juicy subplot to every matchday**. Thanksgiving dinner is shaping up to be an appetizer of trash-talking with an entrée of "remember when I beat you, Dad?" Just as in soccer, sometimes the apple not only falls far from the tree but also rolls uphill.
