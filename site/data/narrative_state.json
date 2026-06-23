@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T21:44:55Z",
+  "generated": "2026-06-23T00:52:38Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 12,
-    "matches_played": 41,
-    "matches_remaining": 63,
+    "matches_played": 42,
+    "matches_remaining": 62,
     "matches_total": 104,
     "eliminated_teams": []
   },
@@ -23,7 +23,7 @@
         "D": 4,
         "L": 3
       },
-      "win_probability": 0.18,
+      "win_probability": 0.17,
       "champion_probability": 0.12,
       "streak": {
         "type": "L",
@@ -54,27 +54,27 @@
     "Gunner": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 16,
-      "points_today": 0,
+      "total_points": 19,
+      "points_today": 3,
       "record": {
-        "W": 4,
+        "W": 5,
         "D": 4,
         "L": 1
       },
-      "win_probability": 0.29,
+      "win_probability": 0.3,
       "champion_probability": 0.15,
       "streak": {
         "type": "W",
-        "length": 3,
-        "label": "W3"
+        "length": 4,
+        "label": "W4"
       },
       "best_team": {
-        "team": "Morocco",
-        "tier": 2,
-        "points": 4,
+        "team": "France",
+        "tier": 1,
+        "points": 6,
         "record": {
-          "W": 1,
-          "D": 1,
+          "W": 2,
+          "D": 0,
           "L": 0
         }
       },
@@ -99,7 +99,7 @@
         "D": 1,
         "L": 5
       },
-      "win_probability": 0.17,
+      "win_probability": 0.16,
       "champion_probability": 0.11,
       "streak": {
         "type": "W",
@@ -175,7 +175,7 @@
         "D": 1,
         "L": 5
       },
-      "win_probability": 0.13,
+      "win_probability": 0.12,
       "champion_probability": 0.08,
       "streak": {
         "type": "L",
@@ -564,7 +564,7 @@
       "date": "2026-06-22",
       "points": {
         "Zach": 0,
-        "Gunner": 0,
+        "Gunner": 3,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
@@ -573,7 +573,7 @@
   ],
   "dependency_index": {
     "Zach": 0.25,
-    "Gunner": 0.19,
+    "Gunner": 0.32,
     "Gayden": 0.23,
     "Devin": 0.27,
     "Rafe": 0.38
@@ -940,14 +940,14 @@
       "date": "2026-06-22",
       "points": {
         "Zach": 16,
-        "Gunner": 16,
+        "Gunner": 19,
         "Gayden": 13,
         "Devin": 15,
         "Rafe": 16
       },
       "points_today": {
         "Zach": 0,
-        "Gunner": 0,
+        "Gunner": 3,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0

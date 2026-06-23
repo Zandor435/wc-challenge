@@ -749,6 +749,23 @@
           "date": "2026-06-22",
           "stage": "group",
           "round": null,
+          "home": "France",
+          "away": "Iraq",
+          "home_score": 3,
+          "away_score": 0,
+          "score": "France 3-0 Iraq",
+          "points": {
+            "Gunner": 3.0
+          },
+          "math": [
+            "WIN: France (Gunner, T1) +3 (win) (no upset: favorite won)",
+            "LOSS: Iraq (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-22",
+          "stage": "group",
+          "round": null,
           "home": "Argentina",
           "away": "Austria",
           "home_score": 2,
