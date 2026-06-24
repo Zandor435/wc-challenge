@@ -1,23 +1,23 @@
-### Gunner — 19 pts · 1st · Bubba G sweating under the lights
+### Gunner — 19 pts · 1st · Bubba G hit the skids
 
-**Bubba G**, sitting at the top spot isn't always as cozy as it seems, is it? France might still have some magic left, but with Senegal vanishing into obscurity, the wheels on your wagon are decidedly rickety. **Gunner, you've got that top dog swagger, but every powerhouse can crumble — will you fade like a shooting star or blaze on to glory?**
+**Bubba G** has hit a rough patch with his second consecutive loss, DR Congo getting humbled by Colombia with nothing to show for it. France is still pulling its weight, but Senegal remains a dead weight. **Gunner, you're the favorite but look more like a house of cards than a champion lately — better steady that ship before the waves swallow you.**
 
-### Devin — 18 pts · 2nd · Ghost Pepper simmering with potential
+### Devin — 18 pts · 2nd · Ghost Pepper cooling off
 
-Devin's got the goods with the USA and Spain in his pocket but today was more ghost than pepper. Even without picking up points, your title hopes remain robust. **Devin, you've got the heat ready to ignite, and a championship could be yours if you just turn up the dial.**
+**Devin**, despite holding the best champion odds, has cooled down significantly. No points today leaves him teetering just behind the leader, waiting for Spain or USA to rekindle the fire. **Ghost Pepper, you're still in this, but you need a spark before you get iced out of relevance.**
 
-### Zach — 17 pts · 3rd · Mustard Boy squeezing out a draw
+### Zach — 17 pts · 3rd · Mustard Boy quietly consistent
 
-**Mustard Boy** Zach may not be making waves, but a gritty draw against Gayden's England keeps him firmly in the mix. Brazil is your anchor, but you need Czechia to wake up if you're going to make serious noise. **Zach, your ship isn't sinking, but without a wind, you're not going anywhere fast.**
+**Mustard Boy** Zach pulled off another quietly consistent move, scoring a point with Ghana’s draw against England. Brazil remains his ace in the hole, but help from the rest of the team wouldn't hurt. **Zach, you're the silent contender — stay sneaky, and you might just squeeze past when they least expect it.**
 
-### Rafe — 16 pts · 4th · The Noisemaker losing decibels 
+### Rafe — 16 pts · 4th · The Noisemaker stumbling
 
-**The Noisemaker** found himself muted today, with Uzbekistan taking a crushing 5-0 loss against Portugal. But Germany still looms large and could rescue you from this nosedive. **Rafe, your chaotic genius got you here, but genius only carries so far — time to crank the volume back up or risk slipping into oblivion.**
+**The Noisemaker** Rafe might have lost some steam, enduring a brutal 5-0 beatdown of Uzbekistan by Portugal. Germany is his knight in shining armor, but it needs backup. **Rafe, the chaos isn't working right now, and without Germany stepping up, you're heading back to the noise of the basement — the Thanksgiving spotlight is looking dimmer.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin still lagging behind
+### Gayden — 14 pts · 5th · Backpass Assassin clinging on
 
-**Backpass Assassin** Gayden is scrambling for a foothold, holding Rafe to a draw but still trailing in the standings. Point by point isn't closing the gap fast enough, and Turkey isn't exactly bringing home the bacon. **Gayden, fighting on two fronts might make you a hero, but right now it’s looking more like a tragedy.**
+**Backpass Assassin** Gayden is still lingering at the bottom after a draw against Zach’s Ghana. England is holding steady, but the rest of your lineup looks like a league of underachievers. **Gayden, it's time to sharpen those beaming blades or watch your son eat your lunch in your own league.**
 
 ### THE FATHER-SON SAGA
 
-The relentless duel between **The Backpass Assassin** and **The Noisemaker** continues to drip with dramatic tension. Gayden's struggle to outrun his son Rafe in the rankings adds another layer to the family feud already serving up a Thanksgiving-sized portion of intrigue. **One ignites with youthful fire, while the other plots his comeback — there's only one winner at the dinner table, and right now, it’s anyone’s guess who’ll be carving the turkey.**
+**The Backpass Assassin** vs. **The Noisemaker** is the gift that keeps on giving. Rafe may have slipped down a rank, trailing 16 points to his father’s 14, but the feud is far from settled. **Gayden and Rafe** are locked in a psychological tug-of-war, each trying to prove their footballing foresight at the family dinner table. **Thanksgiving turkey tastes bitter when your own legacy is on the line, and right now, Gayden, you're cooking under pressure.**

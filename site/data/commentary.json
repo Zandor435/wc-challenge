@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T15:48:42Z",
+  "generated": "2026-06-24T18:43:23Z",
   "source": "daily_results_2026-06-23",
   "date": "2026-06-24",
   "rotation": 13,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**I think we all know Rafe \"The Noisemaker\" is proving that blind luck can keep you above last place, but for how much longer?** Look, Zach \"Mustard Boy\" has Switzerland taking on Bubba G's Canada, and Switzerland's been solid, but I feel like Zach's whole strategy is more about vibes than actual analysis, bless his heart. It's almost endearing how Zach drafts like he's picking a niched cheese platter rather than a competitive roster—still, I see Switzerland edging this one out because, hey, someone’s gotta win. Morocco is set to face Devin \"Ghost Pepper’s\" Haiti, and while Devin's decision to draft Haiti is, let's say, courageous, it's like hoping a jalapeño competes in a ghost pepper eating contest. Morocco should sail through this, adding another notch on Bubba G's belt. But then there's Gayden \"The Backpass Assassin,\" whose choice of Korea Republic could have been tactical genius or just an example of drafting by Google Translate. I have a hunch that South Africa's going to win purely because Devin can't keep losing every game, can he?"
+    "take": "**Look, I get why people say Gunner's leading, but isn't that only because he keeps facing teams like DR Congo and Haiti?**\n\nSo, Switzerland vs. Canada is all about Zach’s \"Mustard Boy\" making a strategic statement against Gunner's \"Bubba G,\" who, let's be honest, probably should send a thank-you note to the scheduling gods for his standings. \"Mustard Boy\" might have a penchant for ketchup stains on his World Cup predictions, but Canada facing Switzerland in Vancouver? Well, I don't see Zach losing the Swiss precision battle here, despite the climate being more hostile than his roster choices. \n\nNext, Morocco taking on Haiti in Atlanta screams \"Ghost Pepper's\" classic meltdown moment while \"Bubba G\" leans back on his casual draft-day genius—except Morocco’s been doing all the heavy lifting. Look, I feel for Devin, I really do, but when you draft Haiti in the fourth round, I mean... what conversation were you having with yourself? Gunner might need to start planning his victory speech unless Haiti pulls out a strategic miracle and not just a spicy footnote.\n\nAnd then there's South Africa versus Korea Republic—it's like Gayden's \"Backpass Assassin\" forgot what forward momentum looks like. \"Ghost Pepper\" Devin is desperately hoping for a South African surprise to shock those standings, but honestly, both of them need a strategic wake-up call more than a victory. I'm calling it: Gayden ekes out a point with a cautious play, proving once again that even a blind backpass can sometimes find the goal line."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's Morocco Poised to Best Devin's Haiti in Group Clash",
-      "subtitle": "Bubba G hopes avoiding advancement points will keep him in first.",
-      "match": "Morocco vs Haiti",
-      "date": "2026-06-24"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Rafe's Germany to Deliver Son's First Soccer Insights on Pitch",
-      "subtitle": "The Noisemaker predicted a win for the German 'sportsball' team.",
-      "match": "Group Preview",
-      "date": "2026-06-24"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Mustard Boy's Switzerland Set to Face Bubba G's Canada Duel",
-      "subtitle": "Zach aims for a draw to maintain strategic pacing in standings.",
+      "headline": "Mustard Boy Poised to Gain on Bubba G With Swiss Vengeance",
+      "subtitle": "Zach's Switzerland predicted to exploit Canada's home-field pressure.",
       "match": "Switzerland vs Canada",
       "date": "2026-06-24"
     },
     {
-      "pundit": "lalas",
-      "headline": "Ghost Pepper's South Africa and Backpass Assassin's Korea Republic Ready to Battle",
-      "subtitle": "Devin and Gayden both pursuing points to escape lower ranks.",
+      "pundit": "donovan",
+      "headline": "Ghost Pepper Predicted to Outshine Backpass Assassin in Tactical Showdown",
+      "subtitle": "Devin's South Africa expected to coolly outplay Gayden's Korea Republic.",
       "match": "South Africa vs Korea Republic",
+      "date": "2026-06-24"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Cultural Appropriation Alert: Czechia and Mexico Set for Mustard Fiesta",
+      "subtitle": "Zach's Czechia to channel salsa energy on Mexico City stage.",
+      "match": "Czechia vs Mexico",
+      "date": "2026-06-24"
+    },
+    {
+      "pundit": "lalas",
+      "headline": "Ghost Pepper's Bosnia to Spice Up Event Against Undrafted Qatar",
+      "subtitle": "Qatar facing a fiery challenge from Devin's determined Bosnia side.",
+      "match": "Bosnia vs Qatar",
       "date": "2026-06-24"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner leads but a 2-game skid says pressure's mounting on Bubba G.",
-    "Rafe's roster is so chaotic, even blindfolded darts couldn't draft worse.",
-    "Rafe dominates Devin by 6, proving youth isn't wasted on the young.",
-    "Sim's accuracy takes a hit as chaos agent Rafe rewrites the script."
+    "Gunner leads but his L2 streak says the wheels are wobbly, Bubba G.",
+    "Rafe's Tier-1 dependency is 38%—heavy reliance for a kid who drafted ghosts.",
+    "Rafe vs. Devin? 6-0. Ghost Pepper got steamrolled by his landlord's offspring.",
+    "Sim had Gunner on lock, yet Rafe's rookie mojo shakes the house."
   ]
 }
