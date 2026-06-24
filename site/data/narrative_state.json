@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T21:36:27Z",
+  "generated": "2026-06-24T00:49:25Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,28 +7,28 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 13,
-    "matches_played": 45,
-    "matches_remaining": 59,
+    "matches_played": 46,
+    "matches_remaining": 58,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
-      "rank": 4,
-      "rank_change_from_prev_day": 0,
-      "total_points": 16,
-      "points_today": 0,
+      "rank": 3,
+      "rank_change_from_prev_day": 1,
+      "total_points": 17,
+      "points_today": 1,
       "record": {
         "W": 4,
-        "D": 4,
+        "D": 5,
         "L": 3
       },
       "win_probability": 0.18,
       "champion_probability": 0.12,
       "streak": {
-        "type": "L",
-        "length": 2,
-        "label": "L2"
+        "type": "D",
+        "length": 1,
+        "label": "D1"
       },
       "best_team": {
         "team": "Brazil",
@@ -61,8 +61,8 @@
         "D": 4,
         "L": 2
       },
-      "win_probability": 0.29,
-      "champion_probability": 0.16,
+      "win_probability": 0.28,
+      "champion_probability": 0.14,
       "streak": {
         "type": "L",
         "length": 1,
@@ -92,23 +92,23 @@
     "Gayden": {
       "rank": 5,
       "rank_change_from_prev_day": 0,
-      "total_points": 13,
-      "points_today": 0,
+      "total_points": 14,
+      "points_today": 1,
       "record": {
         "W": 4,
-        "D": 1,
+        "D": 2,
         "L": 6
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.12,
+      "win_probability": 0.16,
+      "champion_probability": 0.11,
       "streak": {
-        "type": "L",
+        "type": "D",
         "length": 1,
-        "label": "L1"
+        "label": "D1"
       },
       "best_team": {
-        "team": "Japan",
-        "tier": 2,
+        "team": "England",
+        "tier": 1,
         "points": 4,
         "record": {
           "W": 1,
@@ -166,8 +166,8 @@
       }
     },
     "Rafe": {
-      "rank": 3,
-      "rank_change_from_prev_day": 0,
+      "rank": 4,
+      "rank_change_from_prev_day": -1,
       "total_points": 16,
       "points_today": 0,
       "record": {
@@ -175,7 +175,7 @@
         "D": 1,
         "L": 6
       },
-      "win_probability": 0.11,
+      "win_probability": 0.13,
       "champion_probability": 0.08,
       "streak": {
         "type": "L",
@@ -242,7 +242,7 @@
     "Gayden": {
       "Zach": {
         "W": 1,
-        "D": 0,
+        "D": 1,
         "L": 1
       },
       "Rafe": {
@@ -254,7 +254,7 @@
     "Zach": {
       "Gayden": {
         "W": 1,
-        "D": 0,
+        "D": 1,
         "L": 1
       },
       "Gunner": {
@@ -417,6 +417,15 @@
       "via": "Norway beat Senegal",
       "match": "Norway 3-2 Senegal",
       "date": "2026-06-22"
+    },
+    {
+      "result": "draw",
+      "owners": [
+        "Gayden",
+        "Zach"
+      ],
+      "match": "England 0-0 Ghana",
+      "date": "2026-06-23"
     }
   ],
   "h2h_differential": {
@@ -582,18 +591,18 @@
       "matchday": 13,
       "date": "2026-06-23",
       "points": {
-        "Zach": 0,
+        "Zach": 1,
         "Gunner": 0,
-        "Gayden": 0,
+        "Gayden": 1,
         "Devin": 0,
         "Rafe": 0
       }
     }
   ],
   "dependency_index": {
-    "Zach": 0.25,
+    "Zach": 0.24,
     "Gunner": 0.32,
-    "Gayden": 0.23,
+    "Gayden": 0.29,
     "Devin": 0.22,
     "Rafe": 0.38
   },
@@ -989,32 +998,32 @@
     {
       "date": "2026-06-23",
       "points": {
-        "Zach": 16,
+        "Zach": 17,
         "Gunner": 19,
-        "Gayden": 13,
+        "Gayden": 14,
         "Devin": 18,
         "Rafe": 16
       },
       "points_today": {
-        "Zach": 0,
+        "Zach": 1,
         "Gunner": 0,
-        "Gayden": 0,
+        "Gayden": 1,
         "Devin": 0,
         "Rafe": 0
       },
       "ranks": {
         "Gunner": 1,
         "Devin": 2,
-        "Rafe": 3,
-        "Zach": 4,
+        "Zach": 3,
+        "Rafe": 4,
         "Gayden": 5
       },
       "rank_change": {
-        "Zach": 0,
+        "Zach": 1,
         "Gunner": 0,
         "Gayden": 0,
         "Devin": 0,
-        "Rafe": 0
+        "Rafe": -1
       }
     }
   ]

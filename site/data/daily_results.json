@@ -835,6 +835,24 @@
             "WIN: Portugal (T1) undrafted, no points",
             "LOSS: Uzbekistan (Rafe, T4) +0 (loss)"
           ]
+        },
+        {
+          "date": "2026-06-23",
+          "stage": "group",
+          "round": null,
+          "home": "England",
+          "away": "Ghana",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "England 0-0 Ghana",
+          "points": {
+            "Gayden": 1.0,
+            "Zach": 1.0
+          },
+          "math": [
+            "DRAW: England (Gayden) +1 (draw)",
+            "DRAW: Ghana (Zach) +1 (draw)"
+          ]
         }
       ]
     }

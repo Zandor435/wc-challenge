@@ -1,23 +1,23 @@
-### Gunner — 19 pts · 1st · Bubba G's fragile empire
+### Gunner — 19 pts · 1st · Bubba G's leadership on shaky ground
 
-"Bubba G" Gunner might still be the kingpin for now, but the cracks in his empire are starting to show. With a day of zero points, all buoyed by Senegal’s disappearing act, Gunner’s grasp on the throne is feeling more nostalgic than strategic. **Bubba G, with Rafe breathing down your neck, you might want to double-check your rearview mirror**—these standings aren’t getting any friendlier.
+"Bubba G" Gunner holds the top spot, but with zero points today, it's **like watching a rerun where the plot twist is already known**. France is keeping him afloat, but Senegal is dragging his empire down. **Gunner, if you thought sailing this ship was easy, maybe you should check for holes** — because Devin and the crew aren't letting up.
 
-### Devin — 18 pts · 2nd · Ghost Pepper blazing a trail
+### Devin — 18 pts · 2nd · Ghost Pepper's smoldering potential
 
-Devin, aka **Ghost Pepper**, keeps the flame alive just a tick behind the leader. Haaland's hot streak and Spain’s hold on power mean Devin’s only a notch away from searing the top spot. **This burning determination is no temporary flare-up — Devin is blazing a championship trail**. Keep that fire extinguisher close, Gunner; there's heat incoming.
+Devin's **Ghost Pepper** act continues as he remains a flick of the lighter away from scorching the top spot. Although he bagged no points today, his lineup with Spain and Haaland is a powder keg ready to blow. **The competition should be warned: Devin is just biding his time before turning up the heat** — Gunner needs to count his blessings.
 
-### Rafe — 16 pts · 3rd · The Noisemaker's quiet resurgence
+### Zach — 17 pts · 3rd · Mustard Boy's slow squeeze
 
-**The Noisemaker** Rafe is lingering like a shadow, refusing to fade despite a quiet day. Even with Uzbekistan tanking, the kid is still neck and neck with the big dogs. **Rafe’s draft debacle is the stuff of legend, yet he’s turning it into a Cinderella story**. This teenage chaos agent isn't a punchline; he's a pathfinder, and Gayden should be on high alert.
+Mustard Boy Zach crept up with a point today, courtesy of his draw with Gayden. Brazil remains the jewel in his crown, but the rest of his lineup is a mixed bag. **Zach, you're barely edging out Rafe — a kid whose draft was more tragic than funny** — maybe it's time for a condiment shake-up strategy.
 
-### Zach — 16 pts · 4th · Mustard Boy's mustard misfire
+### Rafe — 16 pts · 4th · The Noisemaker’s reality check
 
-Mustard Boy Zach is still stuck at the gates with nothing to show for the latest round. Brazil might be his saving grace, but the surrounding squad is crumbling faster than Zach can pull them together. **Zach, if you're planning to escape the mustard meltdown, you better hope for a Brazil miracle**. The fantasy battlefield is no place for condiments gone cold.
+**The Noisemaker** Rafe got a hard lesson today — **and not the kind of lesson a dad like Gayden planned for**. Uzbekistan's annihilation by Portugal seals a scoreless day, but Germany still keeps him within striking range. **Rafe might not know a midfielder from a milkshake, but he's finding ways to stay relevant** — even as the chaos wanes.
 
-### Gayden — 13 pts · 5th · Backpass Assassin's assault stalled
+### Gayden — 14 pts · 5th · Backpass Assassin caught in neutral
 
-**The Backpass Assassin** Gayden is still trailing the field, his arsenal misfiring yet again. With zero points and Turkey doing its best impression of a leaky boat, Gayden’s tactical wisdom is under siege. **If this saga has taught us anything, it's that teaching Rafe a lesson won't be by leaning on yesterday's successes**. Whether he's the hunter or the hunted, Gayden can’t elude the specter of his own son.
+Gayden, the **Backpass Assassin**, finally netted a point with England's draw, but one step forward doesn't count for the bombardment he's facing. As the father-son saga continues, he's letting the strategic warfare slip through his fingers. **Gayden, while you run your two-front war, your son is taking cues from history's best conquerors** — and you're his crash course.
 
 ### THE FATHER-SON SAGA
 
-The showdown between **The Backpass Assassin** and **The Noisemaker** rages on, a cinematic standoff where reality is stranger than fiction. The father-son rivalry has elevated from friendly jabs to a full-blown general's duel — and frankly, Rafe's raw instinct versus Gayden's game plan is a plot for the ages. **Thanksgiving dinner might need a referee, because Gayden’s house is ground zero for the Challenge's most unpredictable storyline**.
+The rivalry between **The Backpass Assassin** and **The Noisemaker** gains yet another chapter no one saw coming. Rafe's inexperience wasn't today's downfall; it was Gayden's relentless focus on teaching a lesson that backfired. **Thanksgiving dinner's going to be a powder keg with Rafe's fearless attitude clashing against Gayden's battle-worn strategies**. The father-son duel is the reality show every fan never knew they needed.
