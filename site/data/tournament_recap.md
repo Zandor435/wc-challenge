@@ -1,23 +1,23 @@
-### Gunner — 19 pts · 1st · Bubba G's leadership under siege
+### Gunner — 19 pts · 1st · Bubba G's empire on shaky ground
 
-Poor ol' **Bubba G** Gunner is holding onto the top spot by the thinnest thread, thanks to **France being the only reliable ship in his fleet**. Senegal and DR Congo are sinking faster than the Titanic, leaving Gunner with a big goose egg today. **Gunner, your so-called empire's looking more like a sandcastle in high tide** — Devin and Zach have your number.
+**Bubba G** Gunner, still clinging to the top, but it's clear that his hold is as firm as a sandcastle in a thunderstorm. Another scoreless day with DR Congo eating dirt means he's relying on France to keep his head above water. **Gunner, the slip-and-slide to second place is well-lubricated — Devin's breathing down your neck, and he's got a match at the ready.**
 
-### Devin — 18 pts · 2nd · Ghost Pepper heating up
+### Devin — 18 pts · 2nd · Ghost Pepper poised to strike
 
-Devin, the **Ghost Pepper**, stands just a point away from toppling gun-shy Gunner. While today was scoreless, his USA and Spain lineups are still stirring up more than enough heat to threaten any leader. **Anyone sleeping on Devin is setting themselves up for a wake-up call with a side of flash burns** — stay ready, Gunner.  
+Devin's got an obsession with the throne, and with his USA and Spain squads up in arms, he's a single strike away from overthrowing the shaky reign of **Bubba G**. **Ghost Pepper, you're like a shark in the kiddie pool — isn't it time you put Gunner out of his misery?** Winning probability might not favor you, but with talent like Erling Haaland lighting up the scoreboard, anything's possible.
 
-### Zach — 17 pts · 3rd · Mustard Boy's persistent push
+### Zach — 17 pts · 3rd · Mustard Boy still in the race
 
-Mustard Boy Zach is creeping up the ladder one point at a time, because a draw against Gayden is better than the nothing pile Rafe built. **Zach, you're the tortoise in this hare race, somehow outfoxing the hypercompetitive Devin**. If Brazil keeps the faith, **maybe you'll have your day in the sun without needing a total roster makeover**.
+**Mustard Boy's** creeping game is back in business, and he's sitting pretty in third, still very much in it. That one-point draw with Gayden may not be fireworks worthy, but it's kept him in touch with the leaders ahead. **Zach, you're like a persistent shadow on the leader's trail — they can't shake you, no matter how much they want to.**
 
-### Rafe — 16 pts · 4th · The Noisemaker's sophomore slump
+### Rafe — 16 pts · 4th · Noisemaker experiencing growing pains
 
-**The Noisemaker** Rafe just got schooled by Portugal, handing him his second straight scoreless day. Although Germany's been doing the heavy lifting, **Rafe couldn't buy a win right now if they came with a holiday discount**. This should be the kid's fairy tale, but right now it’s more like a how-not-to guide — all eyes on you, Rafe.
+**The Noisemaker** Rafe faces another scoreless day, courtesy of Uzbekistan's thrashing, proving he's not quite the wunderkind just yet. True, Germany's his ace, but this chaos agent's been crashing and burning lately, dropping a rank as standings tighten. **Rafe, even the strongest storms face calm — time to bring the noise again before the grown-ups catch on.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin's elusive footing
+### Gayden — 14 pts · 5th · Backpass Assassin's learning curve
 
-The **Backpass Assassin** Gayden is inching forward with a point, but it's the very definition of too little, too late. The Father-Son showdown is dragging him down as Rafe keeps landing haymakers despite all odds. **Gayden, you might be the teacher, but it's your prodigy son who's rewriting the playbook** — a brutal irony you can't overlook.
+**Backpass Assassin** Gayden, the professor turned pupil, scratching out a meager point against Zach. England's solid but not the powerhouse you need to reclaim dignity from your own flesh and blood. **Gayden, when your protégé's making waves while you flounder, it's hard not to wonder if you taught him too well.**
 
 ### THE FATHER-SON SAGA
 
-In the never-ending epic of **The Backpass Assassin** vs. **The Noisemaker**, today's draw might have taken some wind out of Rafe's sails, but Gayden can't take solace in the small victories. Even with a zero on today's slate, Rafe’s earlier triumphs over his old man loom large. **Thanksgiving banter is already writing itself — a battle of wits and wills, where home turf ain't always the advantage**. The kid's inexperience is a wild card, but Gayden's strategy is missing the mark in every showdown.
+This saga's latest chapter saw **The Backpass Assassin** and **The Noisemaker** staying static, with Rafe stumbling and Gayden barely scoring. It’s the classic story of the pupil outshining the master only to be humbled. **Father vs. Son — like an epic showdown programmed for Thanksgiving dinner drama, but with Rafe on the ropes, can Gayden finally swing the momentum?**
