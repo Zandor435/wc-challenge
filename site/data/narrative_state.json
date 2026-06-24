@@ -1,41 +1,41 @@
 {
-  "generated": "2026-06-24T18:43:23Z",
+  "generated": "2026-06-24T21:33:51Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Group Stage",
     "is_preseason": false,
-    "matchdays_played": 13,
-    "matches_played": 48,
-    "matches_remaining": 56,
+    "matchdays_played": 14,
+    "matches_played": 50,
+    "matches_remaining": 54,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
-      "rank": 3,
+      "rank": 2,
       "rank_change_from_prev_day": 1,
-      "total_points": 17,
-      "points_today": 1,
+      "total_points": 20,
+      "points_today": 3,
       "record": {
-        "W": 4,
+        "W": 5,
         "D": 5,
         "L": 3
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.12,
+      "win_probability": 0.18,
+      "champion_probability": 0.11,
       "streak": {
-        "type": "D",
+        "type": "W",
         "length": 1,
-        "label": "D1"
+        "label": "W1"
       },
       "best_team": {
-        "team": "Brazil",
-        "tier": 1,
-        "points": 4,
+        "team": "Switzerland",
+        "tier": 2,
+        "points": 7,
         "record": {
-          "W": 1,
+          "W": 2,
           "D": 1,
           "L": 0
         }
@@ -52,21 +52,21 @@
       }
     },
     "Gunner": {
-      "rank": 1,
-      "rank_change_from_prev_day": 0,
+      "rank": 3,
+      "rank_change_from_prev_day": -2,
       "total_points": 19,
       "points_today": 0,
       "record": {
         "W": 5,
         "D": 4,
-        "L": 3
+        "L": 4
       },
-      "win_probability": 0.28,
+      "win_probability": 0.27,
       "champion_probability": 0.15,
       "streak": {
         "type": "L",
-        "length": 2,
-        "label": "L2"
+        "length": 3,
+        "label": "L3"
       },
       "best_team": {
         "team": "France",
@@ -93,14 +93,14 @@
       "rank": 5,
       "rank_change_from_prev_day": 0,
       "total_points": 14,
-      "points_today": 1,
+      "points_today": 0,
       "record": {
         "W": 4,
         "D": 2,
         "L": 6
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.12,
+      "win_probability": 0.16,
+      "champion_probability": 0.11,
       "streak": {
         "type": "D",
         "length": 1,
@@ -128,12 +128,12 @@
       }
     },
     "Devin": {
-      "rank": 2,
-      "rank_change_from_prev_day": 0,
-      "total_points": 18,
-      "points_today": 0,
+      "rank": 1,
+      "rank_change_from_prev_day": 1,
+      "total_points": 21,
+      "points_today": 3,
       "record": {
-        "W": 5,
+        "W": 6,
         "D": 3,
         "L": 4
       },
@@ -141,8 +141,8 @@
       "champion_probability": 0.16,
       "streak": {
         "type": "W",
-        "length": 3,
-        "label": "W3"
+        "length": 4,
+        "label": "W4"
       },
       "best_team": {
         "team": "USA",
@@ -167,7 +167,7 @@
     },
     "Rafe": {
       "rank": 4,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 16,
       "points_today": 0,
       "record": {
@@ -176,7 +176,7 @@
         "L": 6
       },
       "win_probability": 0.13,
-      "champion_probability": 0.08,
+      "champion_probability": 0.09,
       "streak": {
         "type": "L",
         "length": 2,
@@ -258,7 +258,7 @@
         "L": 1
       },
       "Gunner": {
-        "W": 0,
+        "W": 1,
         "D": 1,
         "L": 0
       },
@@ -277,7 +277,7 @@
       "Zach": {
         "W": 0,
         "D": 1,
-        "L": 0
+        "L": 1
       },
       "Rafe": {
         "W": 1,
@@ -426,6 +426,14 @@
       ],
       "match": "England 0-0 Ghana",
       "date": "2026-06-23"
+    },
+    {
+      "result": "win",
+      "winner": "Zach",
+      "loser": "Gunner",
+      "via": "Switzerland beat Canada",
+      "match": "Switzerland 2-1 Canada",
+      "date": "2026-06-24"
     }
   ],
   "h2h_differential": {
@@ -445,12 +453,12 @@
     },
     "Zach": {
       "Gayden": 0,
-      "Gunner": 0,
+      "Gunner": 3,
       "Devin": 3
     },
     "Gunner": {
       "Devin": -3,
-      "Zach": 0,
+      "Zach": -3,
       "Rafe": 3
     }
   },
@@ -597,13 +605,24 @@
         "Devin": 0,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 14,
+      "date": "2026-06-24",
+      "points": {
+        "Zach": 3,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 3,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
-    "Zach": 0.24,
+    "Zach": 0.2,
     "Gunner": 0.32,
     "Gayden": 0.29,
-    "Devin": 0.22,
+    "Devin": 0.19,
     "Rafe": 0.38
   },
   "notable_events": [
@@ -615,7 +634,14 @@
       "description": "Devin banked 4 pts on 2026-06-12 -- the biggest single-day haul so far"
     }
   ],
-  "themes": [],
+  "themes": [
+    {
+      "tag": "Gunner slide",
+      "owner": "Gunner",
+      "kind": "slide",
+      "description": "Gunner dropped 2 spots in the standings on the latest matchday."
+    }
+  ],
   "golden_boot_leader": {
     "player": "Erling Haaland",
     "team": "Norway",
@@ -647,9 +673,9 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -1,
+        "Zach": -2,
         "Gunner": -3,
-        "Gayden": 2,
+        "Gayden": 3,
         "Devin": -1,
         "Rafe": 3
       }
@@ -1024,6 +1050,37 @@
         "Gayden": 0,
         "Devin": 0,
         "Rafe": -1
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "points": {
+        "Zach": 20,
+        "Gunner": 19,
+        "Gayden": 14,
+        "Devin": 21,
+        "Rafe": 16
+      },
+      "points_today": {
+        "Zach": 3,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 3,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Devin": 1,
+        "Zach": 2,
+        "Gunner": 3,
+        "Rafe": 4,
+        "Gayden": 5
+      },
+      "rank_change": {
+        "Zach": 1,
+        "Gunner": -2,
+        "Gayden": 0,
+        "Devin": 1,
+        "Rafe": 0
       }
     }
   ]

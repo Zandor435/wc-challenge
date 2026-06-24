@@ -887,6 +887,46 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-24",
+      "matches": [
+        {
+          "date": "2026-06-24",
+          "stage": "group",
+          "round": null,
+          "home": "Bosnia",
+          "away": "Qatar",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "Bosnia 3-1 Qatar",
+          "points": {
+            "Devin": 3.0
+          },
+          "math": [
+            "WIN: Bosnia (Devin, T3) +3 (win) (no upset: favorite won)",
+            "LOSS: Qatar (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "stage": "group",
+          "round": null,
+          "home": "Switzerland",
+          "away": "Canada",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "Switzerland 2-1 Canada",
+          "points": {
+            "Zach": 3.0,
+            "Gunner": 0.0
+          },
+          "math": [
+            "WIN: Switzerland (Zach, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Canada (Gunner, T3) +0 (loss)"
+          ]
+        }
+      ]
     }
   ]
 }

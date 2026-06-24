@@ -4,30 +4,30 @@
   "source": "worldcup26.ir live games",
   "standings": [
     {
-      "owner": "Gunner",
-      "total_points": 19,
+      "owner": "Devin",
+      "total_points": 21,
       "breakdown": {
-        "match": 19.0,
+        "match": 21.0,
         "upset": 0,
         "advancement": 0
       },
       "rank": 1
     },
     {
-      "owner": "Devin",
-      "total_points": 18,
+      "owner": "Zach",
+      "total_points": 20,
       "breakdown": {
-        "match": 18.0,
+        "match": 20.0,
         "upset": 0,
         "advancement": 0
       },
       "rank": 2
     },
     {
-      "owner": "Zach",
-      "total_points": 17,
+      "owner": "Gunner",
+      "total_points": 19,
       "breakdown": {
-        "match": 17.0,
+        "match": 19.0,
         "upset": 0,
         "advancement": 0
       },
