@@ -840,6 +840,38 @@
           "date": "2026-06-23",
           "stage": "group",
           "round": null,
+          "home": "Panama",
+          "away": "Croatia",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "Panama 0-1 Croatia",
+          "points": {},
+          "math": [
+            "WIN: Croatia (T1) undrafted, no points",
+            "LOSS: Panama (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-23",
+          "stage": "group",
+          "round": null,
+          "home": "Colombia",
+          "away": "DR Congo",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "Colombia 1-0 DR Congo",
+          "points": {
+            "Gunner": 0.0
+          },
+          "math": [
+            "WIN: Colombia (T1) undrafted, no points",
+            "LOSS: DR Congo (Gunner, T4) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-23",
+          "stage": "group",
+          "round": null,
           "home": "England",
           "away": "Ghana",
           "home_score": 0,

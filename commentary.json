@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T00:49:25Z",
+  "generated": "2026-06-24T04:29:01Z",
   "source": "daily_results_2026-06-23",
   "date": "2026-06-24",
   "rotation": 13,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why people say \"Bubba G\" has this in the bag, but maybe luck whispers in his ear a bit too sweetly.** Entering the Switzerland versus Canada clash, you have to admire Switzerland's solid tactical discipline, a trait that certainly eluded \"Mustard Boy\" Zach when he decided Austria was a tier-two gem. Given Bubba G's current lead, one wonders if he's relying on more than just strategic genius or if the coin he flipped just happened to land on \"heads\" more often than not. I mean, Canada playing at home is nice and all, but I see Switzerland rooting themselves firmly in Zach's favor—no metaphorical mustard stains here.\n\nNow, Morocco's recent form might suggest they're a well-oiled machine, but I feel for \"Ghost Pepper\" Devin, I really do. Haiti was a bold choice, like a gambler betting on an ice cube staying unmelted in the sun. Sure, Morocco looks the part, but who among us hasn’t secretly hoped for an underdog miracle while knowing it’s a pipe dream? Let's just say my nonexistent hyper-competitive spirit sees Haiti grabbing zero points and Devin's dreams evaporating faster than the ice cube.\n\nAs for South Africa versus Korea Republic, it’s a clash that could either reaffirm Gayden's \"Backpass Assassin\" ways or accentuate his nose-diving fortunes. South Africa brings a mix of grit and resilience, while Korea executes with precision—something Gayden probably wishes he did at the draft. For all his tactical overthinking, the son has yet to rise for Gayden in this tournament, bless his heart. But if I'm a betting man—not that I am—I'd chalk this one up to Korea, with Gayden's hopes wilting under the hot, merciless sun of poise and execution."
+    "take": "Look, I get why people say Bubba G is \"all hat, no cattle,\" but right now he's riding high at the top of the standings even if France is doing all the heavy lifting for him. Switzerland facing Canada is almost poetic, given Mustard Boy's penchant for drafting safe picks like he's ordering the mildest curry on the menu. I'm sure Zach means well, but with Canada playing on home soil, I wouldn't put it past Bubba G to squeeze out another point, bringing that tally up to an almost unintentionally impressive 20. Meanwhile, Ghost Pepper's decision to draft Haiti is as spicy as a snow cone, and I feel for him, I really do. But when you're counting on Haiti to stage an upset against Morocco, you might as well be betting on ice in the desert. With Morocco looking strong, it's hard not to see that as another win for Gunner. And bless his heart, The Backpass Assassin is sliding into last place territory like he misread the match schedule. South Africa versus Korea Republic is the kind of matchup that feels like Devin and Gayden are playing rock-paper-scissors with mittens on, but in the end, Gayden's Japan and Korea combo is bound to pay off eventually. So I'll hedge my bets on Korea finding a way to snatch a result here."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Switzerland and Canada Clash Expected to Cement Gunner's Lead",
-      "subtitle": "Gunner hopes his draft strategy finally pays off with points.",
-      "match": "Switzerland vs Canada",
-      "date": "2026-06-24"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Ghost Pepper's Bosnia Poised to Shine Against Undrafted Qatar",
-      "subtitle": "Devin quietly optimistic about gaining ground without upset points.",
-      "match": "Bosnia vs Qatar",
-      "date": "2026-06-24"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Zach's Brazil Set to Face Scotland in Miami Showdown",
-      "subtitle": "Mustard Boy banks on Tier 1 to spice up his ranking.",
+      "headline": "Mustard Boy Zach's Brazil Set to Overwhelm Scotland in Miami",
+      "subtitle": "Zach praying Scotland's kilts provide more defense than their backline.",
       "match": "Scotland vs Brazil",
       "date": "2026-06-24"
     },
     {
+      "pundit": "donovan",
+      "headline": "Gayden's England Blanked by Ghana in Tactical Masterclass",
+      "subtitle": "Gayden claims first draw is the start of an unbeaten streak.",
+      "match": "England vs Ghana",
+      "date": "2026-06-24"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Ghost Pepper Devin's Bosnia Expected to Sizzle Against Undrafted Qatar",
+      "subtitle": "Devin banking on Bosnia to spice up his standings rank.",
+      "match": "Bosnia vs Qatar",
+      "date": "2026-06-24"
+    },
+    {
       "pundit": "lalas",
-      "headline": "South Africa vs Korea Republic Could Define Backpass Assassin's Fate",
-      "subtitle": "Gayden desperately needs a win to rise from last place.",
-      "match": "South Africa vs Korea Republic",
+      "headline": "Rafe's Uzbekistan Crushed by Portugal, Noisemaker Strategy Falters",
+      "subtitle": "Rafe insists he's saving the best noise for later stages.",
+      "match": "Portugal vs Uzbekistan",
       "date": "2026-06-24"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner leads with no points today; is a choke artist in the making?",
-    "Rafe's Tier-1 dependency hits 38%; still nothing but chaos embodied.",
-    "Devin gets schooled by Rafe, twice; student became the master.",
-    "Rafe defies the sim; 15-year-old showing seasoned vets how it's done."
+    "Gunner leads despite back-to-back losses. How many more Ls can he handle?",
+    "Rafe's Tier-1 dependency screams rookie. Kid rides Germany like it's 1990.",
+    "Rafe and Gayden deadlocked at 0. Turkey dinner won't be harmonious.",
+    "Devin blindsides Gunner. The sim's favorite is allergic to winning predictions."
   ]
 }
