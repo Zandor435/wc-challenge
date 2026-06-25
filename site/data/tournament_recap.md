@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper holds the heat
+### Devin — 24 pts · 1st · Ghost Pepper reigns supreme
 
-**Ghost Pepper** Devin stays scorching at the summit, notching six more points from Bosnia and South Africa. With Erling Haaland tearing up defenses and the USA chipping in, it's no surprise Devin maintains control. **But beware, Devin**, complacency could turn this spicy lead into a charred memory if you start cooling down.
+**Ghost Pepper** Devin maintains his grip on the top spot, lighting up the scoreboard with a blistering six-point performance. Bosnia's win over Qatar and South Africa's edge on Korea Republic sees him holding strong. **Devin, keep basking in this heat, but don't get singed by the flames of overconfidence.**
 
-### Zach — 23 pts · 2nd · Mustard Boy in the mix
+### Zach — 23 pts · 2nd · Mustard Boy packs a punch
 
-**Mustard Boy** Zach stays in the hunt with a clutch six-point performance featuring Brazil and Switzerland. He's showing the kind of staying power that proves he's more than just a sidekick on your plate. **Zach, keep it up or risk finding that your condiment has dried out before the main course is done.**
+**Mustard Boy** Zach moves up to second with a stellar six-point haul, thanks to Brazil flattening Scotland and Switzerland handling Canada. Zach's not just a condiment, but a full-course strategic player. **Zach, savor your success, but remember — in this league, there's always room for spicy surprises.**
 
-### Gunner — 22 pts · 3rd · Bubba G slides
+### Gunner — 22 pts · 3rd · Bubba G steadies the ship
 
-**Bubba G** Gunner felt the slip as he dropped two spots in the standings, despite Morocco's heroic effort against Haiti. As the model's favorite, Gunner's got to wonder what went wrong while the kid from nowhere, **The Noisemaker** Rafe, basks in the shadow of his rise. **Time to pick up the pace, Gunner, or this is going to be one long, slow ride to irrelevance.**
+**Bubba G** Gunner might be feeling the slide after dropping two places, but Morocco's win over Haiti provided a much-needed lifeline. The model still sees you as the favorite, yet **don't underestimate the chaos that a 15-year-old is throwing your way.** Gunner, this isn't over, not by a long shot.
 
-### Rafe — 19 pts · 4th · The Noisemaker's chaotic rhythm
+### Rafe — 19 pts · 4th · The Noisemaker keeps them guessing
 
-**The Noisemaker** Rafe keeps up his unpredictable assault with Mexico putting on a clinic against Czechia. The teen is the league's wild card, and the longer he hangs around, the more he unnerves the so-called veterans. **Keep rattling those cages, Rafe, because the noise is music to your standings.**
+**The Noisemaker** Rafe is the league's wild card, with Mexico showing Czechia how it's done. He's the underdog with teeth, refusing to become a footnote in his father's narrative. **Rafe, keep making that noise — it's music to your father's chagrin.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin hits a wall
+### Gayden — 14 pts · 5th · Backpass Assassin still floundering
 
-**Backpass Assassin** Gayden continues his dismal run, blanked again while Korea Republic folds like a cheap suit against South Africa. His strategic blunders are mounting and **the monster he created, Rafe, is poised to bury him further**. **Gayden, at this rate, you might as well toss that playbook into the ocean along with your championship hopes.**
+**Backpass Assassin** Gayden has hit another roadblock, with his team's lackluster performance against South Africa. The familial feud with Rafe is becoming Shakespearean, but his tragedy looks more like a comedy of errors right now. **Gayden, if this is your master plan, it’s time to start rethinking your legacy.**
 
 ### THE FATHER-SON SAGA
 
-**The Noisemaker** Rafe vs **The Backpass Assassin** Gayden is headline stuff as the young upstart keeps the pressure on his old man. Gayden's attempts to outmaneuver his son have been as feeble as a paper umbrella in a hurricane. **Gayden, accept it — the offspring has learned to strike, and your household hierarchy is under siege.**
+The ongoing battle between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe continues to captivate, with Rafe's latest win further solidifying his position over his father. Gayden's attempts to regain dominance have been futile, leaving him floundering at the bottom. **Gayden, your own creation is not just walking, it's sprinting past you — better grab those running shoes.**
