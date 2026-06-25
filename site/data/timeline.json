@@ -634,45 +634,45 @@
     "date": "2026-06-24",
     "matchday": 14,
     "win_probability": {
-      "Devin": 0.2594,
-      "Gayden": 0.1709,
-      "Gunner": 0.2665,
-      "Rafe": 0.1227,
-      "Zach": 0.1806
+      "Devin": 0.2849,
+      "Gayden": 0.1553,
+      "Gunner": 0.2792,
+      "Rafe": 0.1199,
+      "Zach": 0.1608
     },
     "projected_points": {
       "Devin": {
-        "p10": 37,
-        "median": 63,
-        "p90": 120
+        "p10": 40,
+        "median": 66,
+        "p90": 125
       },
       "Gayden": {
-        "p10": 28,
-        "median": 48,
-        "p90": 106
+        "p10": 26,
+        "median": 46,
+        "p90": 101
       },
       "Gunner": {
-        "p10": 36,
-        "median": 63,
+        "p10": 38,
+        "median": 64,
         "p90": 122
       },
       "Rafe": {
         "p10": 27,
-        "median": 40,
-        "p90": 89
+        "median": 41,
+        "p90": 87
       },
       "Zach": {
-        "p10": 33,
-        "median": 54,
-        "p90": 113
+        "p10": 31,
+        "median": 49,
+        "p90": 111
       }
     },
     "champion_probability": {
-      "Devin": 0.1646,
-      "Gayden": 0.115,
-      "Gunner": 0.1544,
-      "Rafe": 0.0886,
-      "Zach": 0.1178
+      "Devin": 0.1692,
+      "Gayden": 0.0976,
+      "Gunner": 0.1578,
+      "Rafe": 0.0862,
+      "Zach": 0.1152
     }
   }
 ]

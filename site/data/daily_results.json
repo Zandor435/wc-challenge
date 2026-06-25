@@ -931,6 +931,42 @@
           "date": "2026-06-24",
           "stage": "group",
           "round": null,
+          "home": "South Africa",
+          "away": "Korea Republic",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "South Africa 1-0 Korea Republic",
+          "points": {
+            "Devin": 3.0,
+            "Gayden": 0.0
+          },
+          "math": [
+            "WIN: South Africa (Devin, T3) +3 (win) (no upset: equal tier)",
+            "LOSS: Korea Republic (Gayden, T3) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "stage": "group",
+          "round": null,
+          "home": "Czechia",
+          "away": "Mexico",
+          "home_score": 0,
+          "away_score": 3,
+          "score": "Czechia 0-3 Mexico",
+          "points": {
+            "Rafe": 3.0,
+            "Zach": 0.0
+          },
+          "math": [
+            "WIN: Mexico (Rafe, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Czechia (Zach, T3) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "stage": "group",
+          "round": null,
           "home": "Bosnia",
           "away": "Qatar",
           "home_score": 3,

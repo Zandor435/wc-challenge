@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T00:54:00Z",
+  "generated": "2026-06-25T04:28:39Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,28 +7,28 @@
     "current_round": "Group Stage",
     "is_preseason": false,
     "matchdays_played": 14,
-    "matches_played": 52,
-    "matches_remaining": 52,
+    "matches_played": 54,
+    "matches_remaining": 50,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
-      "rank": 1,
-      "rank_change_from_prev_day": 2,
+      "rank": 2,
+      "rank_change_from_prev_day": 1,
       "total_points": 23,
       "points_today": 6,
       "record": {
         "W": 6,
         "D": 5,
-        "L": 3
+        "L": 4
       },
-      "win_probability": 0.18,
+      "win_probability": 0.16,
       "champion_probability": 0.12,
       "streak": {
         "type": "W",
-        "length": 2,
-        "label": "W2"
+        "length": 1,
+        "label": "W1"
       },
       "best_team": {
         "team": "Brazil",
@@ -47,13 +47,13 @@
         "record": {
           "W": 0,
           "D": 1,
-          "L": 1
+          "L": 2
         }
       }
     },
     "Gunner": {
-      "rank": 2,
-      "rank_change_from_prev_day": -1,
+      "rank": 3,
+      "rank_change_from_prev_day": -2,
       "total_points": 22,
       "points_today": 3,
       "record": {
@@ -61,8 +61,8 @@
         "D": 4,
         "L": 4
       },
-      "win_probability": 0.27,
-      "champion_probability": 0.15,
+      "win_probability": 0.28,
+      "champion_probability": 0.16,
       "streak": {
         "type": "L",
         "length": 1,
@@ -97,14 +97,14 @@
       "record": {
         "W": 4,
         "D": 2,
-        "L": 6
+        "L": 7
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.12,
+      "win_probability": 0.16,
+      "champion_probability": 0.1,
       "streak": {
-        "type": "D",
+        "type": "L",
         "length": 1,
-        "label": "D1"
+        "label": "L1"
       },
       "best_team": {
         "team": "England",
@@ -128,21 +128,21 @@
       }
     },
     "Devin": {
-      "rank": 3,
-      "rank_change_from_prev_day": -1,
-      "total_points": 21,
-      "points_today": 3,
+      "rank": 1,
+      "rank_change_from_prev_day": 1,
+      "total_points": 24,
+      "points_today": 6,
       "record": {
-        "W": 6,
+        "W": 7,
         "D": 3,
         "L": 5
       },
-      "win_probability": 0.26,
-      "champion_probability": 0.16,
+      "win_probability": 0.28,
+      "champion_probability": 0.17,
       "streak": {
         "type": "W",
-        "length": 1,
-        "label": "W1"
+        "length": 2,
+        "label": "W2"
       },
       "best_team": {
         "team": "USA",
@@ -168,26 +168,26 @@
     "Rafe": {
       "rank": 4,
       "rank_change_from_prev_day": 0,
-      "total_points": 16,
-      "points_today": 0,
+      "total_points": 19,
+      "points_today": 3,
       "record": {
-        "W": 5,
+        "W": 6,
         "D": 1,
         "L": 7
       },
       "win_probability": 0.12,
       "champion_probability": 0.09,
       "streak": {
-        "type": "L",
-        "length": 3,
-        "label": "L3"
+        "type": "W",
+        "length": 1,
+        "label": "W1"
       },
       "best_team": {
-        "team": "Germany",
-        "tier": 1,
-        "points": 6,
+        "team": "Mexico",
+        "tier": 2,
+        "points": 9,
         "record": {
-          "W": 2,
+          "W": 3,
           "D": 0,
           "L": 0
         }
@@ -222,7 +222,7 @@
         "L": 1
       },
       "Zach": {
-        "W": 0,
+        "W": 1,
         "D": 0,
         "L": 1
       }
@@ -242,6 +242,11 @@
         "W": 1,
         "D": 1,
         "L": 2
+      },
+      "Gayden": {
+        "W": 1,
+        "D": 0,
+        "L": 0
       }
     },
     "Gayden": {
@@ -254,6 +259,11 @@
         "W": 2,
         "D": 0,
         "L": 2
+      },
+      "Devin": {
+        "W": 0,
+        "D": 0,
+        "L": 1
       }
     },
     "Zach": {
@@ -275,7 +285,7 @@
       "Rafe": {
         "W": 1,
         "D": 0,
-        "L": 0
+        "L": 1
       }
     },
     "Gunner": {
@@ -455,6 +465,22 @@
     },
     {
       "result": "win",
+      "winner": "Devin",
+      "loser": "Gayden",
+      "via": "South Africa beat Korea Republic",
+      "match": "South Africa 1-0 Korea Republic",
+      "date": "2026-06-24"
+    },
+    {
+      "result": "win",
+      "winner": "Rafe",
+      "loser": "Zach",
+      "via": "Mexico beat Czechia",
+      "match": "Czechia 0-3 Mexico",
+      "date": "2026-06-24"
+    },
+    {
+      "result": "win",
       "winner": "Zach",
       "loser": "Gunner",
       "via": "Switzerland beat Canada",
@@ -467,22 +493,24 @@
       "Devin": 6,
       "Gayden": 0,
       "Gunner": -3,
-      "Zach": -3
+      "Zach": 0
     },
     "Devin": {
       "Rafe": -6,
       "Gunner": 0,
-      "Zach": -3
+      "Zach": -3,
+      "Gayden": 3
     },
     "Gayden": {
       "Zach": 0,
-      "Rafe": 0
+      "Rafe": 0,
+      "Devin": -3
     },
     "Zach": {
       "Gayden": 0,
       "Gunner": 3,
       "Devin": 3,
-      "Rafe": 3
+      "Rafe": 0
     },
     "Gunner": {
       "Devin": 0,
@@ -641,8 +669,8 @@
         "Zach": 6,
         "Gunner": 3,
         "Gayden": 0,
-        "Devin": 3,
-        "Rafe": 0
+        "Devin": 6,
+        "Rafe": 3
       }
     }
   ],
@@ -650,8 +678,8 @@
     "Zach": 0.3,
     "Gunner": 0.27,
     "Gayden": 0.29,
-    "Devin": 0.19,
-    "Rafe": 0.38
+    "Devin": 0.17,
+    "Rafe": 0.32
   },
   "notable_events": [
     {
@@ -664,10 +692,10 @@
   ],
   "themes": [
     {
-      "tag": "Zach surge",
-      "owner": "Zach",
-      "kind": "surge",
-      "description": "Zach jumped 2 spots in the standings on the latest matchday."
+      "tag": "Gunner slide",
+      "owner": "Gunner",
+      "kind": "slide",
+      "description": "Gunner dropped 2 spots in the standings on the latest matchday."
     }
   ],
   "golden_boot_leader": {
@@ -702,9 +730,9 @@
       },
       "rank_change": {
         "Zach": -2,
-        "Gunner": -3,
+        "Gunner": -2,
         "Gayden": 3,
-        "Devin": -1,
+        "Devin": -2,
         "Rafe": 3
       }
     },
@@ -1086,28 +1114,28 @@
         "Zach": 23,
         "Gunner": 22,
         "Gayden": 14,
-        "Devin": 21,
-        "Rafe": 16
+        "Devin": 24,
+        "Rafe": 19
       },
       "points_today": {
         "Zach": 6,
         "Gunner": 3,
         "Gayden": 0,
-        "Devin": 3,
-        "Rafe": 0
+        "Devin": 6,
+        "Rafe": 3
       },
       "ranks": {
-        "Zach": 1,
-        "Gunner": 2,
-        "Devin": 3,
+        "Devin": 1,
+        "Zach": 2,
+        "Gunner": 3,
         "Rafe": 4,
         "Gayden": 5
       },
       "rank_change": {
-        "Zach": 2,
-        "Gunner": -1,
+        "Zach": 1,
+        "Gunner": -2,
         "Gayden": 0,
-        "Devin": -1,
+        "Devin": 1,
         "Rafe": 0
       }
     }
