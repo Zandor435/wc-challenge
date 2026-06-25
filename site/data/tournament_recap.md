@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper holds his ground
+### Devin — 24 pts · 1st · Ghost Pepper in control
 
-**Ghost Pepper** Devin is still lighting up the leaderboard, matching yesterday's sizzling six-point haul. South Africa and Bosnia came through yet again, keeping him at the top. **Devin, keep piling on the points, or risk getting snuffed out by the hungry pack nipping at your heels.**
+**Ghost Pepper** Devin scorches the competition with another spicy six-point day, leveraging the USA and Bosnia to hold the top spot. With Erling Haaland leading the Golden Boot race, Devin’s flavor is anything but fading. **Stay in the zone, Devin, or this hot streak might burn out before the finish line.**
 
-### Zach — 23 pts · 2nd · Mustard Boy keeps it spicy
+### Zach — 23 pts · 2nd · Mustard Boy spreads the field
 
-**Mustard Boy** Zach isn't letting up, racking up another impressive six-point day. Brazil continues to be his golden ticket while Switzerland chips in too. **Zach, stay focused or you’ll find your spicy mustard turning into a lukewarm condiment.**
+**Mustard Boy** Zach piles on the pressure with yet another six-point day powered by Brazil and Switzerland. This guy is like a condiment you can't resist — always finding a way to complement the main course. **Zach, don't lose your tang, or you'll find yourself sliding back into mediocrity faster than mustard leaves a hot dog.**
 
-### Gunner — 22 pts · 3rd · Bubba G’s not out of gas yet
+### Gunner — 22 pts · 3rd · Bubba G stalls
 
-**Bubba G** Gunner snagged a three-pointer courtesy of Morocco, but his double-drop in the standings must sting. Senegal’s no-show is becoming an albatross. **Gunner, more horsepower and fewer potholes — or this title race will leave you in the dust.**
+**Bubba G** Gunner clings to third after Morocco delivers but not much else clicks for him. The model still loves him, but with a kid named **The Noisemaker** Rafe messing with his trajectory, Gunner's grip on the top becomes increasingly slippery. **Gunner, it's time to hit the gas and ditch that pesky teenager in your rearview mirror.**
 
-### Rafe — 19 pts · 4th · The Noisemaker cranks up the volume
+### Rafe — 19 pts · 4th · The Noisemaker applies pressure
 
-**The Noisemaker** Rafe keeps the tension high, sealing a three-point win with Mexico over Czechia. The teenager’s fearless attitude is shaking things up and haunting his old man. **Rafe, you’re playing with house money, but don’t let the fun end by letting your dad come back from the dead.**
+**The Noisemaker** Rafe continues to defy the odds, racking up three points with Mexico's dominance. The kid plays like he’s got nothing to lose and **it’s driving his old man wild** — the chaos agent is still very much in the title hunt. **Rafe, keep making noise, and soon you might be the one tuning out the doubters entirely.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin in need of a comeback
+### Gayden — 14 pts · 5th · Backpass Assassin on life support
 
-**Backpass Assassin** Gayden is still searching for answers as Korea Republic falls once again. While others gain ground, Gayden finds himself stuck in a self-made quicksand. **Gayden, if you can't stop the bleeding, your son might be the one putting the final nail in your competitive coffin.**
+**Backpass Assassin** Gayden suffers the indignity of being blanked again while the rest of the pack chows down on points. Stumbling with Korea Republic, Gayden's supposed strategic genius just looks like aimless passing after all. **Gayden, if you can’t untangle yourself, you might find Junior throwing the last shovel of dirt on your 2026 plot.**
 
 ### THE FATHER-SON SAGA
 
-The tension at the Thanksgiving dinner table just got thicker. **The Noisemaker** Rafe, with Mexico’s triumph, continues to outpace **Backpass Assassin** Gayden, who’s reeling from yet another setback. **If Gayden doesn’t rally soon, his son might run away with the ultimate family bragging rights, flipping Gayden's world upside down.**
+**The Noisemaker** Rafe's relentless drive keeps not only his father, **Backpass Assassin** Gayden, on edge but reshuffles the entire league. The kid's fearlessness and sheer chaos make him an unpredictable threat to everyone's standings. **Gayden, you've created a monster under your own roof, and you need to decide if you’re going to crush it or be consumed by it.**
