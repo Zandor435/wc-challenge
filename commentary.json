@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T04:28:39Z",
+  "generated": "2026-06-25T07:18:27Z",
   "source": "daily_results_2026-06-24",
   "date": "2026-06-25",
   "rotation": 14,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Gayden's midfield is lookin' shakier than Rafe's soccer knowledge.** We've got Turkey, led by The Backpass Assassin himself, Gayden, goin' up against the USA under Ghost Pepper, Devin. Turkey's been strugglin' to keep opponents out, but Gayden drafted 'em like he's got a secret Turkish recipe for success hidden in his basement or somethin’. Meanwhile, Ghost Pepper's USA knows how to grind out a result — a couple of 'em might even be puttin' in work like Texas BBQ. I reckon the USA's takin' this one easy like a Sunday morning. Sorry, Gayden, but it looks like you’re about to add another loss to that stack — maybe time to back yourself with some teams that actually, y’know, win games."
+    "take": "**The Backpass Assassin ain't ready for Ghost Pepper's heat — bet your boots on it.** Team USA's been puttin' in work over in Inglewood, and Turkey might be lookin' like a turkey on Thanksgiving. Gayden's got this rep for playin' it safe, which is why he picked Turkey thinkin' they’d surprise us like his mom's mystery casserole at dinner. Devin, aka Ghost Pepper, is sittin' at the top 'cause he trusts the Yanks to grind. I got a gut feelin' — and trust me, ain't nobody's gut as reliable as mine — that USA's gonna come in hot and leave The Backpass Assassin's squad singin' the blues. Turkey's gonna find out just how spicy Ghost Pepper's game truly is. Gimme those stars and stripes all day, baby!"
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach Fails to Muster Tactics as Mexico Stomps Czechia",
-      "subtitle": "Loss questions Mustard Boy's strategy, and possibly his condiment choices.",
-      "match": "Czechia vs Mexico",
+      "headline": "Mustard Boy's Brazil Dominates, But Can't Shake Devin's Lead",
+      "subtitle": "Zach claims moral victory despite 1-point deficit in standings.",
+      "match": "Scotland vs Brazil",
       "date": "2026-06-25"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden's Backpass Strategy Under Fire After South Korea Defeat",
-      "subtitle": "Backpass Assassin may need to make forward pass adjustments.",
-      "match": "South Africa vs Korea Republic",
-      "date": "2026-06-25"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Devin Set to Spice Things Up Against Gayden’s Turkey",
-      "subtitle": "Ghost Pepper poised to remind Turkey they aren't Thanksgiving dinner.",
+      "headline": "Ghost Pepper Devin Poised to Roast Backpass Assassin's Turkey",
+      "subtitle": "'I'm just glad I only drafted teams that actually qualify,' Devin might say.",
       "match": "Turkey vs USA",
       "date": "2026-06-25"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Bubba G's Morocco Shines, But Canada Struggles to Impress",
+      "subtitle": "Gunner ponders if Canada should start learning from Egypt's playbook.",
+      "match": "Switzerland vs Canada",
+      "date": "2026-06-25"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Rafe Maintains Distant Fourth as Father Gayden Struggles in Fifth",
-      "subtitle": "The Noisemaker managing to stay ahead of his own father.",
-      "match": "Group F Preview",
+      "headline": "The Noisemaker's Germany Set to Silence Ecuador in East Rutherford",
+      "subtitle": "Rafe confidently predicts a win despite Germany being undrafted.",
+      "match": "Ecuador vs Germany",
       "date": "2026-06-25"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's 28% win probability just ran into a teenage wrecking ball named Rafe.",
-    "Rafe drafting three non-qualifiers is peak comedy—still chilling in 4th.",
-    "Rafe and Gayden locked at 0 differential—this family dinner's gonna need a referee.",
-    "Devin's odds: predicted second, but still holds top spot. Sim's got some 'splaining to do."
+    "Gunner, once the top dog, is now just a slip-n-slide away from fourth.",
+    "Rafe's Tier-1 dependency of 32% sets the bar for overreliance on names alone.",
+    "Devin gets outclassed by a teenager; Rafe stomps him with a differential of 6.",
+    "Model took a beating: Rafe's ragtag draft somehow logs a winning record. Chaos wins."
   ]
 }
