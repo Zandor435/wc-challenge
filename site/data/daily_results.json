@@ -895,6 +895,42 @@
           "date": "2026-06-24",
           "stage": "group",
           "round": null,
+          "home": "Scotland",
+          "away": "Brazil",
+          "home_score": 0,
+          "away_score": 3,
+          "score": "Scotland 0-3 Brazil",
+          "points": {
+            "Zach": 3.0,
+            "Rafe": 0.0
+          },
+          "math": [
+            "WIN: Brazil (Zach, T1) +3 (win) (no upset: favorite won)",
+            "LOSS: Scotland (Rafe, T3) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "stage": "group",
+          "round": null,
+          "home": "Morocco",
+          "away": "Haiti",
+          "home_score": 4,
+          "away_score": 2,
+          "score": "Morocco 4-2 Haiti",
+          "points": {
+            "Gunner": 3.0,
+            "Devin": 0.0
+          },
+          "math": [
+            "WIN: Morocco (Gunner, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Haiti (Devin, T4) +0 (loss)"
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "stage": "group",
+          "round": null,
           "home": "Bosnia",
           "away": "Qatar",
           "home_score": 3,

@@ -1,23 +1,23 @@
-### Devin — 21 pts · 1st · Ghost Pepper burns bright again
+### Zach — 23 pts · 1st · Mustard Boy's day in the sun
 
-**Ghost Pepper** Devin just reminded everyone why he has the best champion odds by roasting Qatar 3-1 with Bosnia. That’s four straight wins, and he's showing no signs of cooling off. **Devin, you're the one to beat right now — keep that flame burning before the others try to douse your championship dreams.**
+**Mustard Boy** Zach is the one bringing the heat, and boy did he deliver with a masterclass performance, topping *both* Scotland and Canada for a sweet six-pointer. The quiet predator has pounced, jumping to the top of the leaderboard with a smile as wide as the Amazon. **Zach, this sun isn't setting anytime soon — savor the beam, while the others keep chasing your shadow.**
 
-### Zach — 20 pts · 2nd · Mustard Boy on the rise
+### Gunner — 22 pts · 2nd · Bubba G back on the hunt
 
-**Mustard Boy** Zach continues his quiet ascension, this time with Switzerland besting Canada 2-1. He’s now just a single point off the lead, showing that consistency can indeed pave the path to victory. **Zach, you're lurking right beneath the radar — the silent hunter ready to pounce when Devin least expects it.**
+**Bubba G** Gunner felt the slight chill of a single loss today but refuses to roll over like some giant sulking toddler. Morocco's blitz against Haiti puts him just a whisker away from reclaiming the top spot. **Gunner, there's no time for a pity party — it's time to grab the reins and show you're the true champ-to-be.**
 
-### Gunner — 19 pts · 3rd · Bubba G's ice-cold streak
+### Devin — 21 pts · 3rd · Ghost Pepper fired up
 
-The **Bubba G** express has completely derailed, dropping from the top with a brutal three-loss streak. His once-mighty fortress feels more like a sandcastle as France holds his hopes while the rest flounder. **Gunner, you might be the model's darling, but the script is flipping faster than you can say au revoir.**
+**Ghost Pepper** Devin kept the heat on, thanks to Bosnia putting Qatar in its place, but Morocco's sting still lingers. Held back by a tough day at the office, he's clinging to the title race faster than jalapeños in a piñata. **Devin, keep the fire stoked — you're too spicy to stay behind the curtain for long.**
 
-### Rafe — 16 pts · 4th · The Noisemaker's quiet spell
+### Rafe — 16 pts · 4th · The Noisemaker falls silent
 
-**The Noisemaker** Rafe, after a promising start, seems to have lost his voice with Germany failing to carry the team alone. The chaos strategy has hit a snag and looks like it’s backfiring just in time for the family showdown. **Rafe, you're the wildcard with wobbly legs — silence isn't golden when you drop the mic this hard.**
+**The Noisemaker** Rafe hasn't hit a note in three straight matches, a painful melody of silence that Brazil amplified further with a 3-0 smothering of Scotland. His initial burst seems like a distant memory, and even the leftover Thanksgiving turkey is more threatening right now. **Rafe, turn up the volume or prepare to face the music at the family dinner table.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin running out of tricks
+### Gayden — 14 pts · 5th · Backpass Assassin in quicksand
 
-**Backpass Assassin** Gayden is still staring up at the rest of the field with all the urgency of a backpass to the keeper. England is doing the heavy lifting, but the rest of the roster is riddled with duds. **Gayden, it's time to shake up the lineup or prepare to be roasted by your son at Thanksgiving.**
+**Backpass Assassin** Gayden is still trapped below sea level, staring up at the rest of the league, and today was no lifeline with another pointless outing. His England squad might have a stiff upper lip, but the rest of his squad’s strategy is crumbling like a dry scone. **Gayden, the only thing more disastrous than your lineup is the Thanksgiving ambush your son has waiting.**
 
 ### THE FATHER-SON SAGA
 
-The **Backpass Assassin** vs. **The Noisemaker** saga rolls on, but this time the stakes are climbing as **Rafe's** lead holds over **Gayden**. With only two points separating them, the father-son showdown is bound to hit fever pitch as the World Cup moves into the latter stages. **Someone's getting an unwanted slice of humble pie this Thanksgiving, and Gayden, you might want to bring your best moves or risk feeling the burn at the dinner table.**
+The **Backpass Assassin** vs. **The Noisemaker** narrative is still on slow burn, but not for long. **Rafe's** lead over **Gayden** is a mere flicker, and both are desperate to douse the embers before the holiday showdown. **Gayden, if you don't start winning, you’ll be chomping on humble pie while your son gives the toast.**
