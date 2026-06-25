@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper at his ghost pepperiest
+### Devin — 24 pts · 1st · Ghost Pepper holds his ground
 
-**Ghost Pepper** Devin reclaims the top spot like a blazing comet, torching the competition with a perfect six-point haul. Bosnia and South Africa were the spicy linchpins that secured his fiery reign at the summit. **Devin, keep this pepper burning and you won’t just be the flavor of the month — you’ll be the ultimate taste of victory.**
+**Ghost Pepper** Devin is still lighting up the leaderboard, matching yesterday's sizzling six-point haul. South Africa and Bosnia came through yet again, keeping him at the top. **Devin, keep piling on the points, or risk getting snuffed out by the hungry pack nipping at your heels.**
 
-### Zach — 23 pts · 2nd · Mustard Boy's roller coaster ride
+### Zach — 23 pts · 2nd · Mustard Boy keeps it spicy
 
-**Mustard Boy** Zach surged today with a record-matching six points, as Brazil steamrolled and Switzerland edged out Canada. That’s quite a bounce back after letting Devin slip past the other day. **Zach, consistency is key if you want to keep the mustard smooth and the competition feeling bland.**
+**Mustard Boy** Zach isn't letting up, racking up another impressive six-point day. Brazil continues to be his golden ticket while Switzerland chips in too. **Zach, stay focused or you’ll find your spicy mustard turning into a lukewarm condiment.**
 
-### Gunner — 22 pts · 3rd · Bubba G hits a snag
+### Gunner — 22 pts · 3rd · Bubba G’s not out of gas yet
 
-**Bubba G** Gunner must be feeling the heat after Devin and Zach leapfrogged back in front. Morocco delivered, but Canada didn't rise to the occasion. **Gunner, your ride's got horsepower, but it'll need more than just Morocco to pull you out of this pit stop.**
+**Bubba G** Gunner snagged a three-pointer courtesy of Morocco, but his double-drop in the standings must sting. Senegal’s no-show is becoming an albatross. **Gunner, more horsepower and fewer potholes — or this title race will leave you in the dust.**
 
-### Rafe — 19 pts · 4th · The Noisemaker banging on the door
+### Rafe — 19 pts · 4th · The Noisemaker cranks up the volume
 
-**The Noisemaker** Rafe is rewriting the playbook, staying competitive with a win from Mexico over Czechia. The young chaos agent is starting to make noise and isn't backing down. **Rafe, keep this up and you'll have the last laugh at your old man's expense this holiday season.**
+**The Noisemaker** Rafe keeps the tension high, sealing a three-point win with Mexico over Czechia. The teenager’s fearless attitude is shaking things up and haunting his old man. **Rafe, you’re playing with house money, but don’t let the fun end by letting your dad come back from the dead.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin flatlined
+### Gayden — 14 pts · 5th · Backpass Assassin in need of a comeback
 
-**Backpass Assassin** Gayden is in dire need of a resurrection, as Korea Republic’s slip handed yet another zero-point day. While Devin’s South Africa twisted the knife, Gayden languishes at the bottom. **Gayden, forget the assassin's creed — it's time for an all-out, leave-nothing-behind assault if you want to salvage any pride.**
+**Backpass Assassin** Gayden is still searching for answers as Korea Republic falls once again. While others gain ground, Gayden finds himself stuck in a self-made quicksand. **Gayden, if you can't stop the bleeding, your son might be the one putting the final nail in your competitive coffin.**
 
 ### THE FATHER-SON SAGA
 
-The pressure cooker that is the **Backpass Assassin** and **The Noisemaker** rivalry just cranked up another notch. **Rafe**'s when his Mexico squad trounced Czechia — a reminder that he’s not just here for participation trophies. Meanwhile, **Gayden** continues to struggle, and the Thanksgiving jokes are starting to write themselves. **If Rafe keeps this form and Gayden doesn't find a pulse, the elder's authority at the family table might just be a relic of the past.**
+The tension at the Thanksgiving dinner table just got thicker. **The Noisemaker** Rafe, with Mexico’s triumph, continues to outpace **Backpass Assassin** Gayden, who’s reeling from yet another setback. **If Gayden doesn’t rally soon, his son might run away with the ultimate family bragging rights, flipping Gayden's world upside down.**
