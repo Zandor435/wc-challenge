@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T12:52:58Z",
+  "generated": "2026-06-25T15:54:07Z",
   "source": "daily_results_2026-06-24",
   "date": "2026-06-25",
   "rotation": 14,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Gayden's backpassin' his way to last place like he's tryin' to set a record.** Both Turkey and the USA have been grindin', but Devin's squad got the edge with experience and a dash of straight-up Ghost Pepper heat. Gayden picked Turkey like he was draftin’ for a kebab competition instead of a World Cup, and it’s showin' in the standings where my man is sittin' pretty at the bottom. Look, I got Devin’s USA team just ghostin’ Turkey on this one — no doubt, it’s gonna be a clean sweep and Gayden will be back to backpassin' again."
+    "take": "**\"Mustard Boy\" Zach couldn't grease his way past Rafe's Germany, but at least Brazil's samba'd his score to second place.** Zach got bold pickin' Saudi Arabia like they were the sleeping giants of the desert; turns out oil money doesn't translate to goals, my man. Now he's sittin' behind Devin, who's playin' it cool with Spain and the USA, puttin' in work like a true Ghost Pepper, steamin' up the leaderboard. Meanwhile, \"The Backpass Assassin\" Gayden is gettin' cooked, dreamin' that England's gonna save his bacon, but Turkey ain't exactly gonna be eatin' turkey legs against Devin's USA tomorrow — USA's rollin' like a freight train through Inglewood, and \"Backpass Assassin's\" gonna be backpassin' his way to more Ls, no doubt. You heard it here first, Devin's takin' this one home, no sweat."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Ghost Pepper Keeps First Place After South Africa's Lone Goal",
-      "subtitle": "Devin maintains lead while Gayden wonders if Korea's bus arrived.",
-      "match": "South Africa 1-0 Korea Republic",
+      "headline": "Gayden Set to Redefine Underdog Status with Ivory Coast vs Curacao",
+      "subtitle": "Backpass Assassin aiming for new record: least expected points from favorites.",
+      "match": "Curacao vs Ivory Coast",
       "date": "2026-06-25"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy Just Misses Top Spot as Brazil Dominates Scotland",
-      "subtitle": "Zach blames world-class flair while eating humble pie.",
-      "match": "Scotland 0-3 Brazil",
-      "date": "2026-06-25"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "The Backpass Assassin Prepares for USA Clash with Turkey",
-      "subtitle": "Gayden hopes for a win and somehow avoids sending it backwards.",
+      "headline": "Devin Poised for Another Tactical Masterclass as USA Faces Turkey",
+      "subtitle": "Ghost Pepper’s fiery strategy includes not relying on ghost points.",
       "match": "Turkey vs USA",
       "date": "2026-06-25"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Zach's Swiss Side Quietly Carries the Load with Win Over Canada",
+      "subtitle": "Mustard Boy ultimately saves his spice for the knockout rounds.",
+      "match": "Switzerland vs Canada",
+      "date": "2026-06-25"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Noisemaker Surprises with Mexico's Shutout of Czechia",
-      "subtitle": "Rafe insists it wasn't a fluke but promises better draft next time.",
-      "match": "Czechia 0-3 Mexico",
+      "headline": "Rafe's Germany Positioned for Victory Against Ecuador, Remains Ineligible for Points",
+      "subtitle": "The Noisemaker drafted like a pro, if drafting non-qualifiers was the goal.",
+      "match": "Ecuador vs Germany",
       "date": "2026-06-25"
     }
   ],
   "rome_analytics_quotes": [
-    "Gayden holds the basement with a sweet-looking 0 total points today.",
-    "Rafe's Tier-1 dependency is the highest at 0.32 and he's laughing.",
-    "Rafe's 6-point h2h dominance over Devin must sting like a ghost pepper.",
-    "Rafe, the chaos agent, wrecks the sim's prediction accuracy from the inside."
+    "Gayden's L1 streak is now as dead as his dinner conversations with Rafe.",
+    "Rafe's Tier-3 mess makes even Gumby look like a draft genius.",
+    "Rafe gives Devin a spanking: 6-point head-to-head beatdown. Take your ball and go.",
+    "Gunner's favorite odds are slipping faster than Haaland's goals against Haiti."
   ]
 }

@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper in control
+### Devin — 24 pts · 1st · Ghost Pepper holds the heat
 
-**Ghost Pepper** Devin scorches the competition with another spicy six-point day, leveraging the USA and Bosnia to hold the top spot. With Erling Haaland leading the Golden Boot race, Devin’s flavor is anything but fading. **Stay in the zone, Devin, or this hot streak might burn out before the finish line.**
+**Ghost Pepper** Devin stays scorching at the summit, notching six more points from Bosnia and South Africa. With Erling Haaland tearing up defenses and the USA chipping in, it's no surprise Devin maintains control. **But beware, Devin**, complacency could turn this spicy lead into a charred memory if you start cooling down.
 
-### Zach — 23 pts · 2nd · Mustard Boy spreads the field
+### Zach — 23 pts · 2nd · Mustard Boy in the mix
 
-**Mustard Boy** Zach piles on the pressure with yet another six-point day powered by Brazil and Switzerland. This guy is like a condiment you can't resist — always finding a way to complement the main course. **Zach, don't lose your tang, or you'll find yourself sliding back into mediocrity faster than mustard leaves a hot dog.**
+**Mustard Boy** Zach stays in the hunt with a clutch six-point performance featuring Brazil and Switzerland. He's showing the kind of staying power that proves he's more than just a sidekick on your plate. **Zach, keep it up or risk finding that your condiment has dried out before the main course is done.**
 
-### Gunner — 22 pts · 3rd · Bubba G stalls
+### Gunner — 22 pts · 3rd · Bubba G slides
 
-**Bubba G** Gunner clings to third after Morocco delivers but not much else clicks for him. The model still loves him, but with a kid named **The Noisemaker** Rafe messing with his trajectory, Gunner's grip on the top becomes increasingly slippery. **Gunner, it's time to hit the gas and ditch that pesky teenager in your rearview mirror.**
+**Bubba G** Gunner felt the slip as he dropped two spots in the standings, despite Morocco's heroic effort against Haiti. As the model's favorite, Gunner's got to wonder what went wrong while the kid from nowhere, **The Noisemaker** Rafe, basks in the shadow of his rise. **Time to pick up the pace, Gunner, or this is going to be one long, slow ride to irrelevance.**
 
-### Rafe — 19 pts · 4th · The Noisemaker applies pressure
+### Rafe — 19 pts · 4th · The Noisemaker's chaotic rhythm
 
-**The Noisemaker** Rafe continues to defy the odds, racking up three points with Mexico's dominance. The kid plays like he’s got nothing to lose and **it’s driving his old man wild** — the chaos agent is still very much in the title hunt. **Rafe, keep making noise, and soon you might be the one tuning out the doubters entirely.**
+**The Noisemaker** Rafe keeps up his unpredictable assault with Mexico putting on a clinic against Czechia. The teen is the league's wild card, and the longer he hangs around, the more he unnerves the so-called veterans. **Keep rattling those cages, Rafe, because the noise is music to your standings.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin on life support
+### Gayden — 14 pts · 5th · Backpass Assassin hits a wall
 
-**Backpass Assassin** Gayden suffers the indignity of being blanked again while the rest of the pack chows down on points. Stumbling with Korea Republic, Gayden's supposed strategic genius just looks like aimless passing after all. **Gayden, if you can’t untangle yourself, you might find Junior throwing the last shovel of dirt on your 2026 plot.**
+**Backpass Assassin** Gayden continues his dismal run, blanked again while Korea Republic folds like a cheap suit against South Africa. His strategic blunders are mounting and **the monster he created, Rafe, is poised to bury him further**. **Gayden, at this rate, you might as well toss that playbook into the ocean along with your championship hopes.**
 
 ### THE FATHER-SON SAGA
 
-**The Noisemaker** Rafe's relentless drive keeps not only his father, **Backpass Assassin** Gayden, on edge but reshuffles the entire league. The kid's fearlessness and sheer chaos make him an unpredictable threat to everyone's standings. **Gayden, you've created a monster under your own roof, and you need to decide if you’re going to crush it or be consumed by it.**
+**The Noisemaker** Rafe vs **The Backpass Assassin** Gayden is headline stuff as the young upstart keeps the pressure on his old man. Gayden's attempts to outmaneuver his son have been as feeble as a paper umbrella in a hurricane. **Gayden, accept it — the offspring has learned to strike, and your household hierarchy is under siege.**
