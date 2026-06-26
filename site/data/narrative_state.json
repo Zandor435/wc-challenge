@@ -1,30 +1,30 @@
 {
-  "generated": "2026-06-25T21:35:52Z",
+  "generated": "2026-06-26T00:55:55Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Group Stage",
     "is_preseason": false,
-    "matchdays_played": 14,
-    "matches_played": 54,
-    "matches_remaining": 50,
+    "matchdays_played": 15,
+    "matches_played": 56,
+    "matches_remaining": 48,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
-      "rank": 2,
-      "rank_change_from_prev_day": 1,
+      "rank": 3,
+      "rank_change_from_prev_day": -1,
       "total_points": 23,
-      "points_today": 6,
+      "points_today": 0,
       "record": {
         "W": 6,
         "D": 5,
         "L": 4
       },
-      "win_probability": 0.16,
-      "champion_probability": 0.12,
+      "win_probability": 0.15,
+      "champion_probability": 0.11,
       "streak": {
         "type": "W",
         "length": 1,
@@ -52,17 +52,17 @@
       }
     },
     "Gunner": {
-      "rank": 3,
-      "rank_change_from_prev_day": -2,
+      "rank": 4,
+      "rank_change_from_prev_day": -1,
       "total_points": 22,
-      "points_today": 3,
+      "points_today": 0,
       "record": {
         "W": 6,
         "D": 4,
         "L": 4
       },
-      "win_probability": 0.28,
-      "champion_probability": 0.16,
+      "win_probability": 0.26,
+      "champion_probability": 0.15,
       "streak": {
         "type": "L",
         "length": 1,
@@ -92,28 +92,28 @@
     "Gayden": {
       "rank": 5,
       "rank_change_from_prev_day": 0,
-      "total_points": 14,
-      "points_today": 0,
+      "total_points": 17,
+      "points_today": 3,
       "record": {
-        "W": 4,
+        "W": 5,
         "D": 2,
         "L": 7
       },
       "win_probability": 0.16,
-      "champion_probability": 0.1,
+      "champion_probability": 0.11,
       "streak": {
-        "type": "L",
+        "type": "W",
         "length": 1,
-        "label": "L1"
+        "label": "W1"
       },
       "best_team": {
-        "team": "England",
-        "tier": 1,
-        "points": 4,
+        "team": "Ivory Coast",
+        "tier": 2,
+        "points": 6,
         "record": {
-          "W": 1,
-          "D": 1,
-          "L": 0
+          "W": 2,
+          "D": 0,
+          "L": 1
         }
       },
       "worst_team": {
@@ -129,16 +129,16 @@
     },
     "Devin": {
       "rank": 1,
-      "rank_change_from_prev_day": 1,
+      "rank_change_from_prev_day": 0,
       "total_points": 24,
-      "points_today": 6,
+      "points_today": 0,
       "record": {
         "W": 7,
         "D": 3,
         "L": 5
       },
       "win_probability": 0.28,
-      "champion_probability": 0.17,
+      "champion_probability": 0.18,
       "streak": {
         "type": "W",
         "length": 2,
@@ -166,21 +166,21 @@
       }
     },
     "Rafe": {
-      "rank": 4,
-      "rank_change_from_prev_day": 0,
-      "total_points": 19,
-      "points_today": 3,
+      "rank": 2,
+      "rank_change_from_prev_day": 2,
+      "total_points": 24,
+      "points_today": 5,
       "record": {
-        "W": 6,
+        "W": 7,
         "D": 1,
-        "L": 7
+        "L": 8
       },
-      "win_probability": 0.12,
+      "win_probability": 0.15,
       "champion_probability": 0.09,
       "streak": {
-        "type": "W",
+        "type": "L",
         "length": 1,
-        "label": "W1"
+        "label": "L1"
       },
       "best_team": {
         "team": "Mexico",
@@ -672,16 +672,36 @@
         "Devin": 6,
         "Rafe": 3
       }
+    },
+    {
+      "matchday": 15,
+      "date": "2026-06-25",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 3,
+        "Devin": 0,
+        "Rafe": 5
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.3,
     "Gunner": 0.27,
-    "Gayden": 0.29,
+    "Gayden": 0.24,
     "Devin": 0.17,
-    "Rafe": 0.32
+    "Rafe": 0.25
   },
   "notable_events": [
+    {
+      "type": "upset",
+      "date": "2026-06-25",
+      "owner": "Rafe",
+      "team": "Ecuador",
+      "beat": "Germany",
+      "bonus": 2,
+      "description": "Ecuador (T2, Rafe) upset Germany (T1) for +2 bonus"
+    },
     {
       "type": "biggest_day",
       "date": "2026-06-24",
@@ -692,10 +712,10 @@
   ],
   "themes": [
     {
-      "tag": "Gunner slide",
-      "owner": "Gunner",
-      "kind": "slide",
-      "description": "Gunner dropped 2 spots in the standings on the latest matchday."
+      "tag": "Rafe surge",
+      "owner": "Rafe",
+      "kind": "surge",
+      "description": "Rafe jumped 2 spots in the standings on the latest matchday."
     }
   ],
   "golden_boot_leader": {
@@ -729,9 +749,9 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -2,
+        "Zach": -1,
         "Gunner": -2,
-        "Gayden": 3,
+        "Gayden": 2,
         "Devin": -2,
         "Rafe": 3
       }
@@ -1137,6 +1157,37 @@
         "Gayden": 0,
         "Devin": 1,
         "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "points": {
+        "Zach": 23,
+        "Gunner": 22,
+        "Gayden": 17,
+        "Devin": 24,
+        "Rafe": 24
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 3,
+        "Devin": 0,
+        "Rafe": 5
+      },
+      "ranks": {
+        "Devin": 1,
+        "Rafe": 2,
+        "Zach": 3,
+        "Gunner": 4,
+        "Gayden": 5
+      },
+      "rank_change": {
+        "Zach": -1,
+        "Gunner": -1,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 2
       }
     }
   ]

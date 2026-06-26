@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper burns bright
+### Devin — 24 pts · 1st · Ghost Pepper feeling the heat
 
-**Ghost Pepper** Devin has claimed the throne like a true fireball, blowing past Bosnia, South Africa, and Qatar. With Erling Haaland lighting up the Golden Boot race, Devin's squad is not just hot — it's scorching. **Devin, keep fueling that flamethrower, but watch out — even the brightest flames can flicker out.**
+**Ghost Pepper** Devin clings to the top of the leaderboard after a scoreless day, but let's be real — the fire is getting lukewarm. With Rafe breathing down his neck, Devin's once-scorching performance is now a simmer. **Devin, you've got the champion odds but remember, the pressure at the top can melt the coolest of cucumbers.**
 
-### Zach — 23 pts · 2nd · Mustard Boy on a roll
+### Rafe — 24 pts · 2nd · The Noisemaker sounds the alarm
 
-**Mustard Boy** Zach is turning up the heat, grabbing wins with Brazil and Switzerland and making it look easy. Scotland and Canada learned the hard way that Zach's game is as sharp as Dijon. **Zach, just remember, even when you're riding high, there's always someone ready to add some extra spice.**
+**The Noisemaker** Rafe rockets up the standings with a stunning upset victory, as Ecuador sends Germany packing. This teenager knows how to make a scene, turning heads with every improbable win. **Rafe, your draft-disaster origin just adds fuel to your legend — the prodigy is putting the old guard on full blast.**
 
-### Gunner — 22 pts · 3rd · Bubba G clings to the edge
+### Zach — 23 pts · 3rd · Mustard Boy gains ground
 
-**Bubba G** Gunner finds himself slipping into third despite Morocco's triumph over Haiti. With Senegal unable to find their footing, Gunner's grip on the title chance is getting a little sketchy. **Gunner, you’re the model’s favorite for a reason — keep it together, or a teenager will have your number.**
+**Mustard Boy** Zach takes a step back with zero points today, yet remains in striking distance of the top. His favorite Brazil continues to be the jewel of his lineup, but with other teams dropping the ball, he’s in a pickle. **Zach, you’re riding the wave, but remember, the tides can change faster than you can say "Dijon."**
 
-### Rafe — 19 pts · 4th · The Noisemaker picking up steam
+### Gunner — 22 pts · 4th · Bubba G feeling the pinch
 
-**The Noisemaker** Rafe is defying expectations again, thanks to Mexico's demolition of Czechia. This kid's fearless underdog story is becoming the stuff of legends, much to Gayden's chagrin. **Rafe, the more noise you make, the harder it is to ignore — keep drowning out the doubters.**
+**Bubba G** Gunner finds himself slipping further after a stagnant day, with dreams of glory waning like the Senegalese sun. The model's darling is showing cracks, unable to convert potential into points. **Gunner, that 26% favorite stat is looking more like wishful thinking — time to step up before you get trampled.**
 
-### Gayden — 14 pts · 5th · Backpass Assassin backs into a corner
+### Gayden — 17 pts · 5th · Backpass Assassin's brief reprieve
 
-**Backpass Assassin** Gayden’s master plan continues to crumble as Korea Republic falls to South Africa. What was once the architect of fantasy glory is now the architect of a family feud. **Gayden, facing off against your own creation is one thing, but getting schooled by him is another — wake up and smell the defeat.**
+**Backpass Assassin** Gayden finally finds a glimmer of hope with Ivory Coast's win over Curacao. It's a small victory on a rough road, but with Rafe's uprising, Gayden is in a savage game of catch-up. **Gayden, the architect of your own demise, unless you ignite a comeback, you’ll be the one back-passing your championship dreams.**
 
 ### THE FATHER-SON SAGA
 
-The blood feud between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe is reaching fever pitch. In a twist that would make Shakespeare blush, Rafe is emerging as the superior tactician, notching another win while Gayden has been left licking his wounds. **Gayden, the prodigy you unleashed is running circles around you — better step up, or get left behind at the family table.**
+The tension between **Backpass Assassin** Gayden and **The Noisemaker** Rafe continues to escalate. While Gayden salvages a win, his son is outshining him with headline-grabbing upsets. **Gayden, face it — the table has turned, and the youth movement led by Rafe is more than just beginner's luck.**

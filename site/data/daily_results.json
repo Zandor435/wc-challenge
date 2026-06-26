@@ -999,6 +999,45 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-25",
+      "matches": [
+        {
+          "date": "2026-06-25",
+          "stage": "group",
+          "round": null,
+          "home": "Curacao",
+          "away": "Ivory Coast",
+          "home_score": 0,
+          "away_score": 2,
+          "score": "Curacao 0-2 Ivory Coast",
+          "points": {
+            "Gayden": 3.0
+          },
+          "math": [
+            "WIN: Ivory Coast (Gayden, T2) +3 (win) (no upset: favorite won)",
+            "LOSS: Curacao (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-25",
+          "stage": "group",
+          "round": null,
+          "home": "Ecuador",
+          "away": "Germany",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "Ecuador 2-1 Germany",
+          "points": {
+            "Rafe": 5.0
+          },
+          "math": [
+            "WIN: Ecuador (Rafe, T2) +3 (win)  +2 UPSET (T2 beat T1, gap 1 x 2)",
+            "LOSS: Germany (Rafe, T1) +0 (loss)"
+          ]
+        }
+      ]
     }
   ]
 }

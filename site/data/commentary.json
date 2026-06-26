@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-25T21:35:52Z",
-  "source": "daily_results_2026-06-24",
-  "date": "2026-06-25",
-  "rotation": 14,
+  "generated": "2026-06-26T00:55:55Z",
+  "source": "daily_results_2026-06-25",
+  "date": "2026-06-26",
+  "rotation": 15,
   "pundit": {
-    "name": "Clint Dempsey",
-    "tone": "chill",
-    "color": "#28c060",
-    "take": "**Ghost Pepper's puttin' The Backpass Assassin on notice — USA ain't playin' no games in Cali.** Turkey looks shaky on defense, and Devin's hopes are ridin' high with USA showin' solid form. Meanwhile, Gayden's roster lookin' like he's draftin' teams based on a FIFA video game cover from 2010. The Backpass Assassin best hope those Turkish defenders don't backpass us any gifts today. I'm callin' it now: USA's takin' this one in style with a big statement, all while Ghost Pepper enjoys his throne at the top of the league."
+    "name": "Alexi Lalas",
+    "tone": "bombastic",
+    "color": "#f4a423",
+    "take": "**Devin, look at me. LOOK AT ME. You drafted Bosnia!** Now, let's get to this steaming pile of World Cup lunacy we call the fantasy pool. We've got Norway, led by \"Ghost Pepper\" Devin, up against the might of France repped by \"Bubba G\" Gunner. Norway's swimming upstream these days, which is exactly what you get when you draft the USA and Haiti expecting World Cup glory. Devin, I don't know if you thought this was a youth soccer tournament in Des Moines, but this is the World Cup! Meanwhile, Gunner, your faith in the DR Congo was almost as heartfelt as your failure to pick up on any advancement points. But let me tell you something, France is going to bulldoze Norway, and it’ll be about as one-sided as the 1994 US team hosting the world. While Devin sits at the top without a single upset — a testament to his pedestrian roster — he’ll learn that holding first place with no strategy is like sitting on a throne of sand. Gunner’s France is going to teach him what real grit is all about, and that's my bombastic prediction. Learn and learn well, Devin: you are not cut out for this."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Brazil Secures Easy Win Over Rafe's Scotland",
-      "subtitle": "Zach credits a tactical masterpiece while Rafe blames jet lag.",
-      "match": "Scotland vs Brazil",
-      "date": "2026-06-25"
+      "headline": "Ghost Pepper Devin Poised for Spicy Showdown Against Bubba G's France",
+      "subtitle": "Devin promises to turn up the heat with Norway's flair.",
+      "match": "Norway vs France",
+      "date": "2026-06-26"
     },
     {
       "pundit": "donovan",
-      "headline": "Backpass Assassin's Losing Streak Continues As Korea Falls To South Africa",
-      "subtitle": "Gayden still hopeful, citing 'more games to backpass in'.",
-      "match": "South Africa vs Korea Republic",
-      "date": "2026-06-25"
+      "headline": "Bubba G Aims for Redemption Following Rafe's Tactical German Misstep",
+      "subtitle": "Gunner hopes Egypt can outperform high school level geography.",
+      "match": "Egypt vs Iran",
+      "date": "2026-06-26"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's South Africa Spices Things Up With Win Over Korea",
-      "subtitle": "Devin relaxes on top while Gayden reflects on strategy.",
-      "match": "South Africa vs Korea Republic",
-      "date": "2026-06-25"
+      "headline": "Mustard Boy Zach Relies on Saudi Arabia to Squeeze Past Cape Verde",
+      "subtitle": "Zach confident in Saudi Arabia, even if nobody else is.",
+      "match": "Cape Verde vs Saudi Arabia",
+      "date": "2026-06-26"
     },
     {
       "pundit": "lalas",
-      "headline": "Ghost Pepper Set For Showdown With Backpass Assassin's Turkey",
-      "subtitle": "Devin aims to burn through Gayden's hopes under California lights.",
-      "match": "Turkey vs USA",
-      "date": "2026-06-25"
+      "headline": "Backpass Assassin Gayden Celebrates as Rafe's Ecuador Outsmarts Germany",
+      "subtitle": "Gayden takes notes as his son triumphs through beginner's luck.",
+      "match": "Ecuador 2-1 Germany",
+      "date": "2026-06-26"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner got punked by a teenager, dropping two spots after Rafe joined the league.",
-    "Rafe's draft debut was a dumpster fire, yet somehow, the kid's still in it.",
-    "Devin can't handle the heat — Rafe has smoked him twice already.",
-    "Model predicted Rafe would be a joke; the kid's flipping the script."
+    "Rafe's chaos reigns at 15, leaving seasoned veterans clutching their spreadsheets in disbelief.",
+    "Rafe drafted three non-qualifiers and still rides second place—draft disaster genius!",
+    "Rafe splits the series with dad, giving Thanksgiving dinner a competitive edge.",
+    "Sim genius can't predict a 15-year-old making Gunner's odds drop—classic underestimation!"
   ]
 }

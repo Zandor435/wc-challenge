@@ -65,6 +65,15 @@
       "points": 4.0
     },
     {
+      "team": "Ivory Coast",
+      "owner": "Gayden",
+      "tier": 2,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "points": 6.0
+    },
+    {
       "team": "Japan",
       "owner": "Gayden",
       "tier": 2,
@@ -72,15 +81,6 @@
       "D": 1,
       "L": 0,
       "points": 4.0
-    },
-    {
-      "team": "Ivory Coast",
-      "owner": "Gayden",
-      "tier": 2,
-      "W": 1,
-      "D": 0,
-      "L": 1,
-      "points": 3.0
     },
     {
       "team": "Korea Republic",
@@ -169,7 +169,7 @@
       "tier": 1,
       "W": 2,
       "D": 0,
-      "L": 0,
+      "L": 1,
       "points": 6.0
     },
     {
@@ -185,10 +185,10 @@
       "team": "Ecuador",
       "owner": "Rafe",
       "tier": 2,
-      "W": 0,
+      "W": 1,
       "D": 1,
       "L": 1,
-      "points": 1.0
+      "points": 6.0
     },
     {
       "team": "Scotland",
