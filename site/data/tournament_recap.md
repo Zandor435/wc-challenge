@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper cooling off
+### Devin — 24 pts · 1st · Ghost Pepper hanging by a thread
 
-**Ghost Pepper** Devin clings to the summit, but the competition is torching him from below. His USA squad got torched by Gayden's Turkey, a blow to his pride and his standings. **Devin, sitting pretty at the top is all well and good, but it's only a matter of time before the heat gets to you — start sweating or start sinking.**
+**Ghost Pepper** Devin might be holding the top spot, but he's hanging on like a cat on a clothesline. The USA going down to Gayden's Turkey is a beating that he's not looking to repeat. **Devin, those numbers might say you're on top, but the ground's getting shaky — better find your footing before it all crumbles.**
 
-### Rafe — 24 pts · 2nd · The Noisemaker rattles the old guard
+### Rafe — 24 pts · 2nd · The Noisemaker playing to the crowd
 
-**The Noisemaker** Rafe, the teenage sensation, isn't just making noise anymore — he's orchestrating symphonies. Ecuador's upset over Germany, a top-tier squad he owns, is the kind of chaos only Rafe can deliver. **Rafe, you're the wild card that keeps on giving, and every upset is a reminder to the veterans that ignorance might just be bliss.**
+**The Noisemaker** Rafe is turning his draft disaster into a blockbuster. Ecuador dismantling Germany was the kind of chaos that has the crowd on their feet. **Rafe, you're the teenage tornado blowing through this league, and every upset is just another curtain call — keep the hits coming, kid.**
 
-### Gayden — 23 pts · 3rd · Backpass Assassin's relentless pursuit
+### Gayden — 23 pts · 3rd · Backpass Assassin's game of thrones
 
-**Backpass Assassin** Gayden comes roaring back with a massive 9-point day, led by Turkey burning the USA. He's proving he's not just a stepping stone for his son Rafe to trample over. **Gayden, the comeback is real, and you're playing chess while others are playing checkers — keep slicing through the competition and reclaim the family throne.**
+**Backpass Assassin** Gayden isn't just back; he's staking his claim with a day for the ages. Turkey's triumph over the USA was a masterstroke, and combined with his other wins, this could be the comeback of the tournament. **Gayden, it's a royal rumble for the ages, and you're making a play for Rafe's crown — the question is, can you keep the pace?**
 
-### Zach — 23 pts · 4th · Mustard Boy slips on his own brand
+### Zach — 23 pts · 4th · Mustard Boy still needs seasoning
 
-**Mustard Boy** Zach took a tumble, dropping two spots. While Brazil shines, his Czechia pick looks more like stale ketchup than a spicy Dijon. **Zach, you're one misstep away from being the garnish instead of the main course — it's time to bring the sauce.**
+**Mustard Boy** Zach continues his descent like a grilled cheese off the griddle. Brazil might be shining bright, but with picks like Czechia, you're slipping into obscurity fast. **Zach, you need some serious flavor revamp if you want to avoid becoming a punchline — time to spice it up before you burn out.**
 
-### Gunner — 22 pts · 5th · Bubba G on a sinking ship
+### Gunner — 22 pts · 5th · Bubba G's analytical ailment
 
-**Bubba G** Gunner, the stats darling, is spiraling after another lackluster day. His touted Senegal squad has been a no-show, and it’s time to question the analytics that crowned him a favorite. **Gunner, praying for the numbers to bail you out isn't strategy — it's desperation.**
+**Bubba G** Gunner's numbers are failing him faster than a faulty calculator. Morocco may be holding the line, but the rest of his roster looks like they belong in the minor leagues. **Gunner, your stats won't save you now — time to read the room, not the spreadsheet, if you still want to dance with the big boys.**
 
 ### THE FATHER-SON SAGA
 
-The battle of the house continues as **Backpass Assassin** Gayden gets a rare taste of victory, yet **The Noisemaker** Rafe remains unbothered. With Rafe's Ecuador delivering gut punches to top teams, his father must now grapple with a rising star feeding off his past dominion. **Gayden, at the dinner table or league table, it's not just a rivalry — it's your living nightmare as Rafe thrives in the spotlight you once owned.**
+The battle between **Backpass Assassin** Gayden and **The Noisemaker** Rafe just keeps escalating. Gayden's monumental day was meant to assert dominance, but Rafe's Ecuador-inspired upset proves he's not backing down. **Gayden, keep your eyes peeled because your own son is dismantling your legacy one stunning result at a time — can you handle the competition within your own household?**
