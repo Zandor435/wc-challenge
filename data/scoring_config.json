@@ -6,7 +6,10 @@
     "loss": 0,
     "upset_mode": "tier_gap",
     "upset_bonus_per_tier_gap": 2,
-    "upset_note": "Upset bonus = 2 x (winner_tier_number - loser_tier_number). Fires only when the winner's tier number is higher (weaker) than the loser's: 1-tier gap = +2, 2-tier gap = +4, 3-tier gap = +6. Tiers come from tiers.json (all 48 teams); points go only to the drafting owner."
+    "upset_note": "Upset bonus = 2 x (winner_tier_number - loser_tier_number). Fires only when the winner's tier number is higher (weaker) than the loser's: 1-tier gap = +2, 2-tier gap = +4, 3-tier gap = +6. Tiers come from tiers.json (all 48 teams), so the bonus fires whether or not the beaten team is drafted; points go only to the drafting owner of the winner.",
+    "draw_upset_mode": "flat",
+    "draw_upset_bonus": 0.5,
+    "draw_upset_note": "Draw-upset bonus: a lower-tier team (higher tier number) that draws a higher-tier team earns +0.5 for its drafting owner, on top of the +1 draw point. flat mode = a flat +0.5 regardless of gap; tier_gap mode = 0.5 x (lower_tier_number - higher_tier_number). Tiers come from tiers.json (all 48 teams), so it fires whether or not the stronger opponent is drafted. Only the lower-tier side earns it; equal-tier draws earn nothing extra."
   },
   "knockout_stage": {
     "match_points_apply": true,

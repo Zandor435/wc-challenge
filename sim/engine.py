@@ -17,7 +17,8 @@ This is the NEW piece (everything else in sim/ is vendored unchanged). It:
 
 The group/knockout point rules are read straight from scoring_config.json and are
 identical to the production scoring.py (win 3 / draw 1 / loss 0; tier-gap upset
-+2 per gap; knockout win 3; advancement R16 2 / QF 5 / SF 10 / Final 18 / WC 30).
++2 per gap; draw-upset +0.5 when a weaker tier draws a stronger one; knockout win 3;
+advancement R16 2 / QF 5 / SF 10 / Final 18 / WC 30).
 A zero-locked run therefore reproduces the preseason 20k baseline within MC noise.
 """
 
@@ -175,6 +176,8 @@ class Context:
     loss_pts: int = 0
     upset_mode: str = "flat"
     upset_coeff: float = 0
+    draw_upset_mode: str = "flat"
+    draw_upset_coeff: float = 0
     ko_match_pts: int = 0
     adv: dict = field(default_factory=dict)
 
@@ -212,6 +215,8 @@ def load_context() -> Context:
         win_pts=gs["win"], draw_pts=gs["draw"], loss_pts=gs["loss"],
         upset_mode=gs.get("upset_mode", "flat"),
         upset_coeff=gs.get("upset_bonus_per_tier_gap", gs.get("upset_bonus", 0)),
+        draw_upset_mode=gs.get("draw_upset_mode", "flat"),
+        draw_upset_coeff=gs.get("draw_upset_bonus", 0),
         ko_match_pts=(ks.get("win", gs["win"]) if ks.get("match_points_apply") else 0),
         adv=ks["advancement_bonuses"],
     )
@@ -261,10 +266,22 @@ def _credit_group(ctx, comp, a, b, ga, gb):
     """Award group base + tier-gap upset points for one (locked or simulated) match."""
     owner_of = ctx.owner_of
     if ga == gb:
+        ta, tb = ctx.tiers.get(a), ctx.tiers.get(b)
+        # draw-upset: lower-tier (higher number) side that holds a higher-tier
+        # opponent earns a bonus, even when the opponent is undrafted.
+        underdog = None
+        if ta is not None and tb is not None and ta != tb:
+            underdog = a if ta > tb else b
         for t in (a, b):
             o = owner_of.get(t)
             if o is not None:
                 comp[o]["group_base"] += ctx.draw_pts
+                if t == underdog and ctx.draw_upset_coeff:
+                    ut, ot = ctx.tiers[t], ctx.tiers[b if t == a else a]
+                    gap = ut - ot
+                    bonus = (ctx.draw_upset_coeff * gap if ctx.draw_upset_mode == "tier_gap"
+                             else ctx.draw_upset_coeff)
+                    comp[o]["group_upset"] += bonus
         return
     winner, loser = (a, b) if ga > gb else (b, a)
     wo = owner_of.get(winner)

@@ -33,7 +33,9 @@ site/                   the static site (Netlify publish dir)
 
 **Group stage:** win 3 / draw 1 / loss 0. Upset bonus = `2 × (winner_tier − loser_tier)`
 when a weaker (higher-number) tier beats a stronger one — so T3→T2 +2, T3→T1 +4, T4→T1 +6.
-Points go only to a team's drafting owner.
+Draw-upset bonus = `+0.5` when a weaker tier draws a stronger one (paid to the weaker side).
+Both tier bonuses read tiers.json (all 48 teams), so they fire whether or not the opponent
+is drafted. Points go only to a team's drafting owner.
 
 **Knockout:** win 3 / loss 0 (a penalty shootout is just a win). Advancement bonus for
 **reaching** a round: R16 +2, QF +5, SF +10, Final +18, Win WC +30. Third-place game

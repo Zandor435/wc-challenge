@@ -20,6 +20,9 @@ Outputs (into --out-dir):
 Scoring summary (read from config, shown here for reference):
   GROUP   win=3 draw=1 loss=0; upset bonus = 2 * (winner_tier - loser_tier) when a
           weaker (higher-number) tier beats a stronger one, paid only to a drafting owner.
+          draw-upset bonus = +0.5 when a weaker tier draws a stronger one, paid to the
+          weaker side's drafting owner. Both tier bonuses use tiers.json (all 48 teams),
+          so they fire whether or not the opponent is drafted.
   KNOCKOUT win=3 loss=0 (penalties = a win); advancement bonus for REACHING a round
           (R16=2, QF=5, SF=10, Final=18, WinWC=30); 3rd-place game = match points only.
   Points are only awarded when the relevant team is drafted by an owner.
@@ -92,6 +95,8 @@ def score_group_match(m, cfg, owner_of, tiers, canon):
     win, draw, loss = gs["win"], gs["draw"], gs["loss"]
     coeff = gs.get("upset_bonus_per_tier_gap", gs.get("upset_bonus", 0))
     mode = gs.get("upset_mode", "flat")
+    draw_coeff = gs.get("draw_upset_bonus", 0)
+    draw_mode = gs.get("draw_upset_mode", "flat")
 
     home, away = canon(m["home"]), canon(m["away"])
     hs, as_ = m["home_score"], m["away_score"]
@@ -101,13 +106,32 @@ def score_group_match(m, cfg, owner_of, tiers, canon):
         return tiers.get(t)
 
     if hs == as_:  # draw
+        ht, at = tier(home), tier(away)
+        # draw-upset: the lower-tier (higher number) side earns a bonus for
+        # holding a higher-tier opponent. Tiers come from tiers.json (all 48
+        # teams), so this fires even when the stronger opponent is undrafted.
+        underdog = None
+        if ht is not None and at is not None and ht != at:
+            underdog = home if ht > at else away
         for t in (home, away):
             o = owner_of.get(t)
+            opp_tier = at if t == home else ht
             if o is not None:
                 events.append({"owner": o, "team": t, "points": draw, "reason": "group draw"})
-                detail.append(f"DRAW: {t} ({o}) +{draw} (draw)")
+                line = f"DRAW: {t} ({o}) +{draw} (draw)"
+                if t == underdog and draw_coeff:
+                    ut = tier(t)
+                    gap = ut - opp_tier
+                    bonus = draw_coeff * gap if draw_mode == "tier_gap" else draw_coeff
+                    events.append({"owner": o, "team": t, "points": bonus,
+                                   "reason": f"upset draw T{ut} held T{opp_tier} (gap {gap})"})
+                    line += f"  +{bonus:g} UPSET DRAW (T{ut} held T{opp_tier}, gap {gap})"
+                detail.append(line)
             else:
-                detail.append(f"DRAW: {t} undrafted, no points")
+                note = ""
+                if t == underdog and draw_coeff:
+                    note = " (would-be upset-draw bonus, but undrafted)"
+                detail.append(f"DRAW: {t} undrafted, no points{note}")
         return events, detail
 
     winner, loser = (home, away) if hs > as_ else (away, home)

@@ -132,11 +132,11 @@
           "score": "Brazil 1-1 Morocco",
           "points": {
             "Zach": 1.0,
-            "Gunner": 1.0
+            "Gunner": 1.5
           },
           "math": [
             "DRAW: Brazil (Zach) +1 (draw)",
-            "DRAW: Morocco (Gunner) +1 (draw)"
+            "DRAW: Morocco (Gunner) +1 (draw)  +0.5 UPSET DRAW (T2 held T1, gap 1)"
           ]
         },
         {
@@ -152,7 +152,7 @@
             "Zach": 1.0
           },
           "math": [
-            "DRAW: Qatar undrafted, no points",
+            "DRAW: Qatar undrafted, no points (would-be upset-draw bonus, but undrafted)",
             "DRAW: Switzerland (Zach) +1 (draw)"
           ]
         }
@@ -206,11 +206,11 @@
           "away_score": 2,
           "score": "Netherlands 2-2 Japan",
           "points": {
-            "Gayden": 1.0
+            "Gayden": 1.5
           },
           "math": [
             "DRAW: Netherlands undrafted, no points",
-            "DRAW: Japan (Gayden) +1 (draw)"
+            "DRAW: Japan (Gayden) +1 (draw)  +0.5 UPSET DRAW (T2 held T1, gap 1)"
           ]
         },
         {
@@ -264,7 +264,7 @@
           },
           "math": [
             "DRAW: Spain (Devin) +1 (draw)",
-            "DRAW: Cape Verde undrafted, no points"
+            "DRAW: Cape Verde undrafted, no points (would-be upset-draw bonus, but undrafted)"
           ]
         },
         {
@@ -277,11 +277,11 @@
           "away_score": 1,
           "score": "Belgium 1-1 Egypt",
           "points": {
-            "Gunner": 1.0
+            "Gunner": 1.5
           },
           "math": [
             "DRAW: Belgium undrafted, no points",
-            "DRAW: Egypt (Gunner) +1 (draw)"
+            "DRAW: Egypt (Gunner) +1 (draw)  +0.5 UPSET DRAW (T3 held T1, gap 2)"
           ]
         },
         {
@@ -294,10 +294,10 @@
           "away_score": 1,
           "score": "Saudi Arabia 1-1 Uruguay",
           "points": {
-            "Zach": 1.0
+            "Zach": 1.5
           },
           "math": [
-            "DRAW: Saudi Arabia (Zach) +1 (draw)",
+            "DRAW: Saudi Arabia (Zach) +1 (draw)  +0.5 UPSET DRAW (T4 held T1, gap 3)",
             "DRAW: Uruguay undrafted, no points"
           ]
         }
@@ -388,11 +388,11 @@
           "away_score": 1,
           "score": "Portugal 1-1 DR Congo",
           "points": {
-            "Gunner": 1.0
+            "Gunner": 1.5
           },
           "math": [
             "DRAW: Portugal undrafted, no points",
-            "DRAW: DR Congo (Gunner) +1 (draw)"
+            "DRAW: DR Congo (Gunner) +1 (draw)  +0.5 UPSET DRAW (T4 held T1, gap 3)"
           ]
         },
         {
@@ -634,7 +634,7 @@
           },
           "math": [
             "DRAW: Ecuador (Rafe) +1 (draw)",
-            "DRAW: Curacao undrafted, no points"
+            "DRAW: Curacao undrafted, no points (would-be upset-draw bonus, but undrafted)"
           ]
         },
         {
@@ -687,7 +687,7 @@
           "points": {},
           "math": [
             "DRAW: Belgium undrafted, no points",
-            "DRAW: Iran undrafted, no points"
+            "DRAW: Iran undrafted, no points (would-be upset-draw bonus, but undrafted)"
           ]
         },
         {
@@ -737,7 +737,7 @@
           "points": {},
           "math": [
             "DRAW: Uruguay undrafted, no points",
-            "DRAW: Cape Verde undrafted, no points"
+            "DRAW: Cape Verde undrafted, no points (would-be upset-draw bonus, but undrafted)"
           ]
         }
       ]
@@ -879,11 +879,11 @@
           "score": "England 0-0 Ghana",
           "points": {
             "Gayden": 1.0,
-            "Zach": 1.0
+            "Zach": 1.5
           },
           "math": [
             "DRAW: England (Gayden) +1 (draw)",
-            "DRAW: Ghana (Zach) +1 (draw)"
+            "DRAW: Ghana (Zach) +1 (draw)  +0.5 UPSET DRAW (T3 held T1, gap 2)"
           ]
         }
       ]

@@ -15,20 +15,20 @@
     },
     {
       "owner": "Zach",
-      "total_points": 23,
+      "total_points": 24.0,
       "breakdown": {
         "match": 23.0,
-        "upset": 0,
+        "upset": 1.0,
         "advancement": 0
       },
       "rank": 2
     },
     {
       "owner": "Gunner",
-      "total_points": 22,
+      "total_points": 23.5,
       "breakdown": {
         "match": 22.0,
-        "upset": 0,
+        "upset": 1.5,
         "advancement": 0
       },
       "rank": 3
@@ -45,10 +45,10 @@
     },
     {
       "owner": "Gayden",
-      "total_points": 14,
+      "total_points": 14.5,
       "breakdown": {
         "match": 14.0,
-        "upset": 0,
+        "upset": 0.5,
         "advancement": 0
       },
       "rank": 5
