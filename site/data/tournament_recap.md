@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper hanging by a thread
+### Devin — 24 pts · 1st · Ghost Pepper's throne is wobbling
 
-**Ghost Pepper** Devin might be holding the top spot, but he's hanging on like a cat on a clothesline. The USA going down to Gayden's Turkey is a beating that he's not looking to repeat. **Devin, those numbers might say you're on top, but the ground's getting shaky — better find your footing before it all crumbles.**
+**Ghost Pepper** Devin clings to the top spot with the ferocity of a caffeine junkie clutching his last cup of joe. That loss to Gayden's Turkey is a blemish, especially when the USA can't help him rally. **Devin, your champion odds might shine, but the cracks in that facade are showing — better repair them quick before the whole thing collapses.**
 
-### Rafe — 24 pts · 2nd · The Noisemaker playing to the crowd
+### Rafe — 24 pts · 2nd · The Noisemaker keeps turning heads
 
-**The Noisemaker** Rafe is turning his draft disaster into a blockbuster. Ecuador dismantling Germany was the kind of chaos that has the crowd on their feet. **Rafe, you're the teenage tornado blowing through this league, and every upset is just another curtain call — keep the hits coming, kid.**
+**The Noisemaker** Rafe just keeps making waves, and his Ecuadorian earthquake against Germany is the latest aftershock. The teenage sensation is making seasoned vets look like amateurs with every upset. **Rafe, your knack for chaos and surprise is turning this league into your personal circus — keep the spotlight and the results rolling, kid.**
 
-### Gayden — 23 pts · 3rd · Backpass Assassin's game of thrones
+### Gayden — 23 pts · 3rd · Backpass Assassin strikes back
 
-**Backpass Assassin** Gayden isn't just back; he's staking his claim with a day for the ages. Turkey's triumph over the USA was a masterstroke, and combined with his other wins, this could be the comeback of the tournament. **Gayden, it's a royal rumble for the ages, and you're making a play for Rafe's crown — the question is, can you keep the pace?**
+**Backpass Assassin** Gayden surged with a monster nine-point haul, flipping the script on Devin's USA with Turkey's triumph. He's made it clear he's not just competing; he's orchestrating a full-blown uprising. **Gayden, you're building a dynasty out of dust — but can you keep your own son from blowing it all to smithereens at the family dinner table?**
 
-### Zach — 23 pts · 4th · Mustard Boy still needs seasoning
+### Zach — 23 pts · 4th · Mustard Boy's flavor still failing
 
-**Mustard Boy** Zach continues his descent like a grilled cheese off the griddle. Brazil might be shining bright, but with picks like Czechia, you're slipping into obscurity fast. **Zach, you need some serious flavor revamp if you want to avoid becoming a punchline — time to spice it up before you burn out.**
+**Mustard Boy** Zach seems frozen on the griddle while others sizzle. His Brazil might be on fire, but his reliance on teams like Czechia has him slipping down the standings. **Zach, you're stuck in a culinary conundrum — fix the recipe or brace for more burnt outcomes.**
 
-### Gunner — 22 pts · 5th · Bubba G's analytical ailment
+### Gunner — 22 pts · 5th · Bubba G's numbers game falters
 
-**Bubba G** Gunner's numbers are failing him faster than a faulty calculator. Morocco may be holding the line, but the rest of his roster looks like they belong in the minor leagues. **Gunner, your stats won't save you now — time to read the room, not the spreadsheet, if you still want to dance with the big boys.**
+**Bubba G** Gunner is seeing his spreadsheet sorcery turn into stat soup. With Senegal striking out, his Morocco play barely keeps him afloat while others sail by. **Gunner, your data-driven dream is proving to be a nightmare — recalibrate if you want to stay afloat in this tumultuous tournament.**
 
 ### THE FATHER-SON SAGA
 
-The battle between **Backpass Assassin** Gayden and **The Noisemaker** Rafe just keeps escalating. Gayden's monumental day was meant to assert dominance, but Rafe's Ecuador-inspired upset proves he's not backing down. **Gayden, keep your eyes peeled because your own son is dismantling your legacy one stunning result at a time — can you handle the competition within your own household?**
+The **Backpass Assassin** Gayden is in a familial frenzy as his son **The Noisemaker** Rafe continues to upstage him. Gayden’s impressive 9-point surge might have rattled the windows, but Rafe’s chaotic charm — highlighted by an Ecuadorian upset and relentless youthful energy — keeps him at his old man's heels. **Gayden, you're playing the long game, but the wild card under your roof knows how to play spoiler — who's gonna rule the Rome house when the dust settles?**
