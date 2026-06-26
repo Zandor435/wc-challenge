@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T15:49:17Z",
+  "generated": "2026-06-26T18:41:56Z",
   "source": "daily_results_2026-06-25",
   "date": "2026-06-26",
   "rotation": 15,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "**Let me tell you something, Ghost Pepper and Bubba G: your fate is sealed like a room-temperature can of soda on a hot summer day.** Norway and France stepping onto the field in Foxborough isn't just a battle of European brawn; it's a clash of managerial disaster classes, embodied by Devin and Gunner's fantasy picks. Devin, look at me. You thought Bosnia was a beacon of World Cup glory — but zero upset points, because Bosnia was a ghost long before Group Play. Gunner, \"Bubba G,\" your Senegalese Lions and Moroccan Atlas Lions should've roared, but here you are, at the bottom like you're searching for Atlantis. \n\nNow, for today’s slugfest prediction: despite all statistical logic, the spirit of '94 compels me to foresee a freewheeling Norwegian triumph over the French. France might have multiple World Cups, but Devin's erratic drafting might just unlock Norway's secret sauce. Bubba G, consider slipping on your red clown shoes, because you're about to juggle another loss into that dustbin of last place mediocrity. Mic dropped."
+    "take": "**Look at me, Ghost Pepper and Bubba G, your fantasy picks are a national tragedy.**\n\nDevin, I can already see you clutching that Ghost Pepper bottle like it’s a tactical manual. But let me tell you something: drafting Bosnia was a surefire sign of an existential crisis. Your USA team just got rolled by Turkey, so struggling against France is a matter of course; it's not even noteworthy, like the sun rising or Rafe making a bad pick. And speaking of Bubba G, look at you, counting on France like it’s 1994 all over again. Your track record shows it, with a mere 22 points. Have you mistaken French flair for American grit? The only thing you and Ghost Pepper are going to accomplish today is determining who can lose a game more spectacularly! Mark my words, neither of you will have a team standing after Norwegians and French finish their business."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Norway Set To Defy Expectations Against France Under Devin's Watch",
-      "subtitle": "Ghost Pepper's spicy tactics may finally give Norway hope.",
-      "match": "Norway vs France",
-      "date": "2026-06-26"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Gunner's Overloaded Roster Faces Dilemma With Senegal-Iraq Matchup",
-      "subtitle": "Bubba G’s faith in Senegal will be tested by undrafted Iraq.",
-      "match": "Senegal vs Iraq",
-      "date": "2026-06-26"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Zach Prepares Saudi Arabia For Nail-Biter Against Cape Verde",
-      "subtitle": "Mustard Boy's draft pick hopes to show some late mustard.",
+      "headline": "Zach Faces Must-Win Saudi Arabia Match to Escape Last Place",
+      "subtitle": "Mustard Boy banks on Kingdom's unpredictability to salvage dignity.",
       "match": "Cape Verde vs Saudi Arabia",
       "date": "2026-06-26"
     },
     {
+      "pundit": "donovan",
+      "headline": "Devin's Winning Strategy in Doubt as Spain Prepares for Uruguay",
+      "subtitle": "Ghost Pepper needs miracle to stay ahead in top spot tie.",
+      "match": "Uruguay vs Spain",
+      "date": "2026-06-26"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Gunner Hopes France Will Outshine Norway to Climb Standings",
+      "subtitle": "'Bubba G' looks to his French squad to boost his rank.",
+      "match": "Norway vs France",
+      "date": "2026-06-26"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Rafe's Bold Strategy Pays Off With Germany Upset By Ecuador",
-      "subtitle": "The Noisemaker’s uncanny knack for drafting non-qualifiers pays in upsets.",
+      "headline": "Teen Manager Rafe Surprises Critics with Second Place Tactics",
+      "subtitle": "The Noisemaker's Germany loss barely dents his high-ranking standing.",
       "match": "Ecuador vs Germany",
       "date": "2026-06-26"
     }
   ],
   "rome_analytics_quotes": [
-    "Biggest loser today? Zach and Gunner, both dropped like stocks in a recession.",
-    "Rafe's Tier-1 dependency is 0.25; even a broken clock wins twice a day.",
-    "Devin got swept by Rafe twice; time to rethink that 'Ghost Pepper' nickname, chief.",
-    "Gunner slips and Rafe rises, proving the model can't predict teenage chaos."
+    "Gunner, your favorite status just got sucker-punched by a teenager with no clue.",
+    "Rafe's Tier-1 team, Germany, got decked by his own Tier-2 pick, Ecuador.",
+    "Devin, Rafe cleaned your clock twice; better hope he’s grounded next matchday.",
+    "Sim's predictions? More like coin flip chaos with Rafe rewriting reality."
   ]
 }
