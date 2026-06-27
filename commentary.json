@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T12:33:16Z",
+  "generated": "2026-06-27T15:30:40Z",
   "source": "daily_results_2026-06-26",
   "date": "2026-06-27",
   "rotation": 16,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Mustard Boy and The Noisemaker: An Embarrassment to the Beautiful Game**\n\nIf \"Mustard Boy\" Zach and \"The Noisemaker\" Rafe had a clue between them, they wouldn't be languishing at the bottom of any table, fantasy or otherwise. Gunner, or \"Bubba G,\" is clearly the only manager with a modicum of sense—leading the pack with 29 points by riding the coattails of powerhouse France and savvy Tier 2 picks like Senegal and Morocco. Meanwhile, Devin, aka \"Ghost Pepper,\" is keeping pace only because Spain's been doing all the heavy lifting. Gayden, \"The Backpass Assassin,\" is exactly what his nicknames suggest—clueless in attack and a disaster in defense, wallowing in last place. Rafe's early picks were as uninspired as a cold Tuesday night in Stoke; he might as well have thrown darts at a map and picked his teams that way. It's clear: Gunner's showing he knows international soccer, while the others are out here making choices that would make my high school team blush."
+    "take": "**\"The Backpass Assassin\" has more in common with FIFA on Xbox than real-life soccer.**\n\nGunner \"Bubba G\" is leading the pack with France and Senegal delivering a masterclass, proving that he has the only clue in this madhouse draft—while Devin's holding on with Spain's narrow win an inch behind. But let's get real here: Gayden, \"The Backpass Assassin,\" picked Jordan as his Tier 4, so I have to wonder if he actually watches soccer or just threw darts at a FIFA menu while blindfolded. This guy is dead last with 23 points, and it's no surprise; you can't win a World Cup pool drafting off brand names. As for Zach \"Mustard Boy,\" clinging to Brazil's coattails while boasting the utterly irrelevant squad of Saudi Arabia screams desperation. You won’t be catching anyone with a Tier 4 team drawing nil-nil with Cape Verde. Rookie mistakes all around, but nothing as laughably clueless as Gayden’s amateur hour."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Bubba G Masterclass: Gunner Secures Top Spot After Dominating Wins",
-      "subtitle": "Gunner's tactical genius questioned as he scores 7 points in a day.",
-      "match": "Senegal vs Iraq",
+      "headline": "Mustard Boy Counts on Ghana to Reverse His Fortune",
+      "subtitle": "Zach's faith in tier-three magic could see him climb from fourth.",
+      "match": "Croatia vs Ghana",
       "date": "2026-06-27"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy's Hope Hangs on Austria Against Tournament Minnow Algeria",
-      "subtitle": "Zach banking on Austria to not let him slip further down.",
-      "match": "Algeria vs Austria",
-      "date": "2026-06-27"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Backpass Assassin Gayden Poised For Redemption With England Against Panama",
-      "subtitle": "Gayden's English hopes rest on picking the right direction this time.",
+      "headline": "Backpass Assassin Looks to England for Redemption Against Panama",
+      "subtitle": "Gayden is optimistic despite sitting in last place overall.",
       "match": "Panama vs England",
       "date": "2026-06-27"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Bubba G's DR Congo Expected to Cruise Against Uzbekistan",
+      "subtitle": "Gunner's top seed strategy pays off in easy matches.",
+      "match": "DR Congo vs Uzbekistan",
+      "date": "2026-06-27"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Ghost Pepper Devin Keeping It Spicy Despite Gunner's Lead",
-      "subtitle": "Devin holds tight in the rankings after Spain's clutch victory.",
-      "match": "Uruguay vs Spain",
+      "headline": "Ghost Pepper Eyes Austria to Turn Up Heat Against Algeria",
+      "subtitle": "Devin's second-place standing under threat as Zach plans upset.",
+      "match": "Algeria vs Austria",
       "date": "2026-06-27"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner soars to first, thanks to Rafe's league-crashing chaos - sorry Bubba G!",
-    "Rafe's Tier-1 Germany debacle brings new meaning to 'draft day disaster.'",
-    "Rafe vs. Gayden: a family feud deadlocked at zero in head-to-head drama.",
-    "Sim's accuracy takes a hit: even chaos agent Rafe isn't a punchline here."
+    "Gunner spikes to the top, leaving Gayden and his son fighting over Dad's old turf.",
+    "Rafe's draft disaster is comedy gold; not even showing up to the party!",
+    "Devin can't catch a break losing twice to Rafe's Mexico and Scotland.",
+    "The sim's got jokes: Rafe's chaos is defying predictions and trolling the whole league."
   ]
 }
