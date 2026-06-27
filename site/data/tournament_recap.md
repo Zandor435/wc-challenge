@@ -1,23 +1,23 @@
-### Gunner — 29 pts · 1st · Bubba G untouchable
+### Gunner — 29 pts · 1st · Bubba G in beast mode
 
-**Bubba G**, Gunner, **you play this game like Mozart plays the piano, only there's no off-key note**. A France masterclass backed up by Senegal buried the opposition as easily as burying treasure at the beach. You may have slipped before, but a seven-point day has you back in the driver’s seat, cruising down championship lane. **The league needs a miracle to kick you off this throne now.**
+**Bubba G**, Gunner, you’re running a coup d'état in the standings. France and Senegal are strumming a victory symphony while the rest of the league struggles to find the beat. **You're like a predator on the hunt, and if the others don’t catch up, you’ll be dining on their tears.**
 
-### Devin — 27 pts · 2nd · Ghost Pepper's haunting consistency
+### Devin — 27 pts · 2nd · Ghost Pepper with a simmering sizzle
 
-**Ghost Pepper** Devin, your Spain stealthily snatched three points, but watching Norway get crushed turned your fire into a flicker. **Devin, your champion odds look like the real deal, but are you the ghost that haunts or the ghost that burns out when it matters?** Consistency is key, but you need more than the occasional flair; it's time to channel those odds into something tangible.
+**Ghost Pepper** Devin, Spain’s narrow escape kept you in the hunt, but Norway got roasted by Gunner’s French juggernaut. **Devin, your champions odds are as spicy as ever, but can you keep the heat on Bubba G?** If you plan on tasting sweet victory, you better crank up that sizzle to searing levels.
 
-### Rafe — 24 pts · 3rd · Noisemaker still shaking
+### Rafe — 24 pts · 3rd · Noisemaker still buzzing but needs a better tune
 
-**The Noisemaker** Rafe, **your loss last night had all the subtlety of a bull in a china shop**, yet you're somehow still hanging in there. Mexico's strong showing had you riding high, but Tunisia's repeated flops are a painful reminder. **Rafe, the chaos move got you this far, now let's see if you can orchestrate the madness into a family-sized trophy.**
+**The Noisemaker** Rafe, **your performance lately has been as silent as a mime in a soundproof booth**. Despite Mexico’s charm, Tunisia’s pitiful showing is dragging you into murky waters. **Rafe, you've made noise before, but to win, you must crank that volume up to eleven and drown out your dad once more.**
 
-### Zach — 24 pts · 4th · Mustard Boy's sluggish squeeze
+### Zach — 24 pts · 4th · Mustard Boy's engine sputtering
 
-**Mustard Boy** Zach, it's like you're running on fumes while everyone else hit the NOS button. Saudi Arabia’s draw added a modest one point, leaving you in the rankings' backseat. **Zach, you need a Brazilian boost or risk becoming the league's dependable, yet unremarkable footnote.** The climb isn't over, but it requires a gear shift, pronto.
+**Mustard Boy** Zach, with each match, it seems like you're losing the spicy zest. Saudi Arabia’s draw left you with a meager point, and now you’re stuck battling for relevance. **Zach, your engine is sputtering, and if you don't find some firepower, the exhaust fumes are going to choke you out of contention.**
 
-### Gayden — 23 pts · 5th · Backpass Assassin at the crossroads
+### Gayden — 23 pts · 5th · Backpass Assassin slinking in the shadows
 
-**Backpass Assassin** Gayden, **today's strategy was about as effective as a screen door on a submarine, consistently letting points slip through**. Despite your previous nine-point bonanza, today you posted a big ol' goose egg. **Gayden, wake up and find your inner killer instinct or prepare to draft from the bottom rung while your son dines at the grown-ups' table.**
+**Backpass Assassin** Gayden, you might as well be an assassin tasked with eliminating shadows — ineffective. **Zero points today is the dish you’ve served, and your son is ready to eat your lunch.** The empire may be crumbling, but it's not over yet; it's time to show why you're the original architect.
 
 ### THE FATHER-SON SAGA
 
-Tensions rise as **The Noisemaker** Rafe keeps pushing **The Backpass Assassin** Gayden into unfamiliar territory — last place. **Rafe is proving that perhaps the best way to bring down an empire is from within**. Gayden, your own blood is gunning for your spot at the family table; you might want to lock up those point secrets before your next meal.
+The tension between **The Noisemaker** Rafe and **The Backpass Assassin** Gayden is only heating up. As Rafe refuses to be the punchline in his father's joke, he finds himself managing to sit at the adult’s table more comfortably. **One slip-up from Gayden, and his son just might end up carving the turkey — and the standings.**

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T09:45:52Z",
+  "generated": "2026-06-27T12:33:16Z",
   "source": "daily_results_2026-06-26",
   "date": "2026-06-27",
   "rotation": 16,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Mustard Boy and The Backpass Assassin are the Laurel and Hardy of this World Cup pool.** Zach, seriously, did you close your eyes and point at a FIFA game screen when drafting? Brazil’s the only team holding your sorry roster together, and yet you’re barely tied with a 15-year-old. As for Gayden, I’m baffled you’re even in this so-called competition; picking Jordan as a Tier 4 team is laughable, and your results reflect it — dead last with 23 points? Disgraceful. Meanwhile, Rafe, The Noisemaker, is outperforming expectations, but let's face it, outperforming Zach and Gayden is like outdribbling traffic cones. Gunner, aka Bubba G, is the only one with a clue here, leading the pack with 29 points thanks to France's dominant performance. I played in a World Cup, I know what winning looks like, and it sure doesn't include being overtaken by the likes of Devin’s chaotic ragtag bunch."
+    "take": "**Mustard Boy and The Noisemaker: An Embarrassment to the Beautiful Game**\n\nIf \"Mustard Boy\" Zach and \"The Noisemaker\" Rafe had a clue between them, they wouldn't be languishing at the bottom of any table, fantasy or otherwise. Gunner, or \"Bubba G,\" is clearly the only manager with a modicum of sense—leading the pack with 29 points by riding the coattails of powerhouse France and savvy Tier 2 picks like Senegal and Morocco. Meanwhile, Devin, aka \"Ghost Pepper,\" is keeping pace only because Spain's been doing all the heavy lifting. Gayden, \"The Backpass Assassin,\" is exactly what his nicknames suggest—clueless in attack and a disaster in defense, wallowing in last place. Rafe's early picks were as uninspired as a cold Tuesday night in Stoke; he might as well have thrown darts at a map and picked his teams that way. It's clear: Gunner's showing he knows international soccer, while the others are out here making choices that would make my high school team blush."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's Teams Dominate While Rest Fumble in World Cup Pool",
-      "subtitle": "Senegal's 5-0 thrashing propels 'Bubba G' to first place.",
+      "headline": "Bubba G Masterclass: Gunner Secures Top Spot After Dominating Wins",
+      "subtitle": "Gunner's tactical genius questioned as he scores 7 points in a day.",
       "match": "Senegal vs Iraq",
       "date": "2026-06-27"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy Hopes Ghana Can Strike Gold Against Croatia",
-      "subtitle": "Zach looks for answers after Saudi Arabia's goalless draw.",
-      "match": "Croatia vs Ghana",
+      "headline": "Mustard Boy's Hope Hangs on Austria Against Tournament Minnow Algeria",
+      "subtitle": "Zach banking on Austria to not let him slip further down.",
+      "match": "Algeria vs Austria",
       "date": "2026-06-27"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper Closes in on Top Spot Thanks to Spain",
-      "subtitle": "Devin stays hot on Gunner's heels after Uruguay win.",
-      "match": "Uruguay vs Spain",
+      "headline": "Backpass Assassin Gayden Poised For Redemption With England Against Panama",
+      "subtitle": "Gayden's English hopes rest on picking the right direction this time.",
+      "match": "Panama vs England",
       "date": "2026-06-27"
     },
     {
       "pundit": "lalas",
-      "headline": "Backpass Assassin Relies on England to Justify Draft Strategy",
-      "subtitle": "Gayden's ranking hinges on England's match against undrafted Panama.",
-      "match": "Panama vs England",
+      "headline": "Ghost Pepper Devin Keeping It Spicy Despite Gunner's Lead",
+      "subtitle": "Devin holds tight in the rankings after Spain's clutch victory.",
+      "match": "Uruguay vs Spain",
       "date": "2026-06-27"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe rides chaos, embarrasses dad, and still ranks higher than Gayden. Thanksgiving'll be spicy!",
-    "Gunner's Tier-1 dependability is all France, like croissants, flaky but strong.",
-    "Rafe obliterates Devin 6-0; kid's got his number like a schoolyard bully.",
-    "Model's odds swing as Gunner surges, proving predictions are as reliable as weather forecasts."
+    "Gunner soars to first, thanks to Rafe's league-crashing chaos - sorry Bubba G!",
+    "Rafe's Tier-1 Germany debacle brings new meaning to 'draft day disaster.'",
+    "Rafe vs. Gayden: a family feud deadlocked at zero in head-to-head drama.",
+    "Sim's accuracy takes a hit: even chaos agent Rafe isn't a punchline here."
   ]
 }
