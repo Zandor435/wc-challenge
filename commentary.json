@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T18:29:28Z",
+  "generated": "2026-06-27T21:26:53Z",
   "source": "daily_results_2026-06-26",
   "date": "2026-06-27",
   "rotation": 16,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Mustard Boy might as well hang up his cleats—this isn't FIFA, Zach, it's the real world.** Look, if you thought drafting Saudi Arabia would win you this pool, you're lost. Maybe see if there's a fantasy camel league you can join instead. Rafe, aka \"The Noisemaker,\" somehow managed to draft three teams that didn't even qualify. It's impressive in a pitying kind of way. And Gayden, \"The Backpass Assassin,\" your squad is slower than molasses in the winter. England's perpetually overrated, and Jordan? Really? Ask yourself if you picked names you recognize from video games, because your strategy screams ignorance. Gunner, or \"Bubba G,\" is the clear top dog here, riding high with France and Senegal. Devin's Spain might challenge Gunner, but the rest of you are just amateur hour. You wouldn't last a minute in a real locker room."
+    "take": "**This is a joke of a fantasy pool, and \"The Noisemaker\" Rafe drafting Germany is the only thing keeping this competition from being a complete farce.** Let's get one thing clear: \"Bubba G\" Gunner may be leading with a fluke 29 points, but drafting France was like taking candy from a baby — no skill involved. Look at \"Mustard Boy\" Zach, languishing at 24 points and praying for a miracle from Brazil while putting his faith in Saudi Arabia to do anything useful. That's not how this works, Zach. And \"The Backpass Assassin\" Gayden? Drafting England screams, \"I know good teams from FIFA video games!\" The only savvy move there was Japan, but his 23 points show it's all talk and no strategy. Meanwhile, \"Ghost Pepper\" Devin hides behind Spain's coattail; he's hardly threatening at 27 points with USA as his second fiddle. Sorry, lads, but Rafe and Germany are the only credible force here — everyone else should be embarrassed."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's Dominance Confirmed as France Dismantles Norway in Group Play",
-      "subtitle": "The strategic brilliance in drafting Tier 1 talent pays off again.",
-      "match": "Norway vs France",
+      "headline": "Gunner Seals Lead as Senegal Smash Iraq 5-0",
+      "subtitle": "Victory leaves Bubba G questioning if he could sub in.",
+      "match": "Senegal vs Iraq",
       "date": "2026-06-27"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy's Austria Poised for Victory Against Undrafted Algeria",
-      "subtitle": "Zach's fourth-place standing suggests he might finally taste success.",
-      "match": "Algeria vs Austria",
-      "date": "2026-06-27"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "The Backpass Assassin Bet on England to Deliver Against Panama",
-      "subtitle": "Gayden's fifth-place rank hangs in the balance with this matchup.",
+      "headline": "Gayden Optimistic as England Set to Crush Panama",
+      "subtitle": "The Backpass Assassin confident until kickoff whistle.",
       "match": "Panama vs England",
       "date": "2026-06-27"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Zach Hoping for Points in Austria's Upcoming Battle with Algeria",
+      "subtitle": "Mustard Boy still searching for that elusive tier two magic.",
+      "match": "Algeria vs Austria",
+      "date": "2026-06-27"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Ghost Pepper Heats Up Standings as Spain Edges Uruguay",
-      "subtitle": "Devin closes the gap, trailing standings leader Gunner by two points.",
-      "match": "Uruguay vs Spain",
+      "headline": "Rafe's Bold Strategy of Drafting Random Teams Proves Surprisingly Effective",
+      "subtitle": "The Noisemaker living proof that youth and inexperience trump logic.",
+      "match": "Group J Preview",
       "date": "2026-06-27"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner skyrockets from 5th to 1st in one matchday. Gunner's world, we're just living in it.",
-    "Rafe drafted three teams that aren't even in the World Cup. Rookie mistakes much?",
-    "Rafe crushes Devin by 6 points, proving chaos agents can cause real damage.",
-    "Sim can't handle a 15-year-old, yet claims Gunner is the top dog. Laughable."
+    "Gunner surges to the top, while Gayden's family feud leaves him rock bottom.",
+    "Rafe is still standing strong after a draft that's a flat-out comedy club act.",
+    "Rafe owns Devin with a six-point differential, making Devin his personal punching bag.",
+    "The sim pegged Gunner as the champ, until a rookie 15-year-old entered the fray."
   ]
 }
