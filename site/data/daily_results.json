@@ -1143,6 +1143,72 @@
             "WIN: France (Gunner, T1) +3 (win) (no upset: favorite won)",
             "LOSS: Norway (Devin, T2) +0 (loss)"
           ]
+        },
+        {
+          "date": "2026-06-26",
+          "stage": "group",
+          "round": null,
+          "home": "Egypt",
+          "away": "Iran",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Egypt 1-1 Iran",
+          "points": {
+            "Gunner": 1.0
+          },
+          "math": [
+            "DRAW: Egypt (Gunner) +1 (draw)",
+            "DRAW: Iran undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-26",
+          "stage": "group",
+          "round": null,
+          "home": "New Zealand",
+          "away": "Belgium",
+          "home_score": 1,
+          "away_score": 5,
+          "score": "New Zealand 1-5 Belgium",
+          "points": {},
+          "math": [
+            "WIN: Belgium (T1) undrafted, no points",
+            "LOSS: New Zealand (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-26",
+          "stage": "group",
+          "round": null,
+          "home": "Cape Verde",
+          "away": "Saudi Arabia",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "Cape Verde 0-0 Saudi Arabia",
+          "points": {
+            "Zach": 1.0
+          },
+          "math": [
+            "DRAW: Cape Verde undrafted, no points",
+            "DRAW: Saudi Arabia (Zach) +1 (draw)"
+          ]
+        },
+        {
+          "date": "2026-06-26",
+          "stage": "group",
+          "round": null,
+          "home": "Uruguay",
+          "away": "Spain",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "Uruguay 0-1 Spain",
+          "points": {
+            "Devin": 3.0
+          },
+          "math": [
+            "WIN: Spain (Devin, T1) +3 (win) (no upset: equal tier)",
+            "LOSS: Uruguay (T1) undrafted, no points"
+          ]
         }
       ]
     }

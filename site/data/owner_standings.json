@@ -5,9 +5,9 @@
   "standings": [
     {
       "owner": "Gunner",
-      "total_points": 28,
+      "total_points": 29,
       "breakdown": {
-        "match": 28.0,
+        "match": 29.0,
         "upset": 0,
         "advancement": 0
       },
@@ -15,9 +15,9 @@
     },
     {
       "owner": "Devin",
-      "total_points": 24,
+      "total_points": 27,
       "breakdown": {
-        "match": 24.0,
+        "match": 27.0,
         "upset": 0,
         "advancement": 0
       },
@@ -34,21 +34,21 @@
       "rank": 3
     },
     {
-      "owner": "Gayden",
-      "total_points": 23,
+      "owner": "Zach",
+      "total_points": 24,
       "breakdown": {
-        "match": 21.0,
-        "upset": 2.0,
+        "match": 24.0,
+        "upset": 0,
         "advancement": 0
       },
       "rank": 4
     },
     {
-      "owner": "Zach",
+      "owner": "Gayden",
       "total_points": 23,
       "breakdown": {
-        "match": 23.0,
-        "upset": 0,
+        "match": 21.0,
+        "upset": 2.0,
         "advancement": 0
       },
       "rank": 5
