@@ -1,23 +1,23 @@
-### Gunner — 29 pts · 1st · Bubba G back on top of the food chain
+### Gunner — 29 pts · 1st · Bubba G breaking barriers
 
-**Bubba G** Gunner, you just redefined dominance with a 7-point haul. France and Senegal didn't just win; they practically hosted a highlight reel. **While the rest appear caught in quicksand, you're sprinting on a treadmill made of victory. The question is, who’s going to stop you?**
+**Bubba G** Gunner, you're cruising at an altitude most can only dream of. Seven points in a single day — that's a full-on blitz! **While the rest of the league flounders like fish out of water, you've become the predator lurking in the deep.** Keep this pace, and they’ll all be eaten alive by your ruthless efficiency. 
 
-### Devin — 27 pts · 2nd · Ghost Pepper turning up the heat
+### Devin — 27 pts · 2nd · Ghost Pepper still simmering
 
-**Ghost Pepper** Devin, your Spain squad just cooked up a big win, and it’s keeping you firmly in the mix. But while Norway got steamrolled by Gunner's France, you can't afford any more slip-ups. **The heat’s rising, but if you can’t maintain it, Bubba G will be the one burning bright at the top.**
+**Ghost Pepper** Devin managed to keep the flame alive with a solid win from Spain. Still, the sting of Norway's collapse to Gunner's France cannot go unmentioned. **You might have the best shot at the trophy, but without consistent heat, you’ll be left with just ashes.** Time for Spain to turn up the heat before Bubba G runs away with the crown.
 
-### Rafe — 24 pts · 3rd · The Noisemaker still buzzing in chaos
+### Rafe — 24 pts · 3rd · The Noisemaker holding his ground
 
-**The Noisemaker** Rafe, **despite a rough streak, you're still hitting the right notes often enough to keep Dad sweating at the dinner table**. With Mexico delivering, you're hanging tough, even if Germany's stumble against Ecuador dented the armor. **Despite knowing zilch about soccer, you're managing a symphony that’s half chaos, half triumph.**
+**The Noisemaker** Rafe, the kid's still in the game, not crumbling under pressure. Nothing today, but **the sheer fact you’re matching Dad punch for punch like Mayweather in the ring is a headline of its own.** Germany and Mexico are still your star attractions — can they deliver the knockout blow?
 
-### Zach — 24 pts · 4th · Mustard Boy in a flavorless funk
+### Zach — 24 pts · 4th · Mustard Boy dressing in mediocrity
 
-**Mustard Boy** Zach, your Saudi squad's draw was just another bland dish served cold. **Zach, right now you'd struggle to spice up a PB&J sandwich, let alone this competition.** Brazil needs to flex, or you’ll continue serving up cold cuts while the competition roasts you out of contention.
+**Mustard Boy** Zach, a single point is like a sip of water when you're lost in the desert. Brazil might be the only condiment with any kick, **but as long as you rely on flavorless results like Saudi Arabia's snoozefest, you’ll continue to be a soft pretzel in a league of hot wings.** It's about time Brazil spices things up.
 
-### Gayden — 23 pts · 5th · Backpass Assassin lurking but losing pace
+### Gayden — 23 pts · 5th · Backpass Assassin in reverse
 
-**Backpass Assassin** Gayden, after your epic 9-point day, you delivered an absolute dud. **Stuck in the shadows, it’s more like you're trying to backpass your way out of playing competitive soccer.** You built this league, yet now you fight a dual war with rivalries all around and a teenage son gunning for your spot.
+**Backpass Assassin** Gayden, you're failing to launch an attack from the backlines. **More backpass bungling and your legacy will be as lost as the angles in your strategy.** With Rafe snapping at your heels, it’s clear the student might outshine the master.
 
 ### THE FATHER-SON SAGA
 
-This **Father-Son Blitz** continues with **The Noisemaker** Rafe holding a slight edge over **The Backpass Assassin** Gayden. Rafe, the chaos agent, is breathing down Dad's neck like a comet ready to burn its path across the holiday table. **Gayden might have built the league, but Rafe's proving to be the unexpected architect of kingdom collapse.** Keep an eye out on this one, folks — who's gonna carve the turkey come Thanksgiving?
+The epic battle between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe rolls on with the kid holding on tighter than ever to his edge. Gayden, you're fighting on two fronts: against the league and your own progeny. **Rafe might know zilch about soccer, but he's got you retreating faster than England post-Brexit.** Thanksgiving looks like it's going to be a battlefield, not a dining table.
