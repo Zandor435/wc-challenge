@@ -1,23 +1,23 @@
-### Gunner — 28 pts · 1st · Bubba G's data-driven comeback
+### Gunner — 28 pts · 1st · Bubba G's model dominance
 
-**Bubba G** Gunner, the comeback king, rides a data tsunami back to the top of the table. France and Senegal are your aces in the hole, and today’s double win proves you're finally getting the returns on those 'broken algorithms.' **Gunner, you've rigged the numbers in your favor and torpedoed the rest with the mathmagic you were supposed to own all along.**
+**Bubba G** Gunner, the numbers never lie, and neither do two consecutive wins. **The scoreboard is your throne, and France and Senegal are providing the royal guard, smashing their opposition into next week.** You've got the confidence of a Vegas oddsmaker, and right now, the rest of this league is just pretending to play your game.
 
-### Devin — 24 pts · 2nd · Ghost Pepper loses the spark
+### Devin — 24 pts · 2nd · Ghost Pepper fizzles again
 
-**Ghost Pepper** Devin, what happened to bringing the heat? Norway's flamethrower got doused by France in a 4-1 dismantling, leaving you stuck at second with no hope of advancement or upsets to pad your lead. **Devin, your fantasy empire's starting to crumble like stale chips, and Gunner just took the salsa and ran.**
+**Ghost Pepper** Devin, the heat’s gone missing as Norway's lifeline was torched by France, leaving you stuck at a fork with no points in sight. Haaland might be gunning for the Golden Boot, but right now that's like holding a gold-plated fork at a feast of famine. **Devin, you're clinging to relevance by a thread — step it up, because Gunner’s not slowing down.**
 
-### Rafe — 24 pts · 3rd · Noisemaker's symphony hits a sour note
+### Rafe — 24 pts · 3rd · Noisemaker's static
 
-**The Noisemaker** Rafe, your chaotic charm is beginning to wear thin, as you hit a roadblock with a two-game losing slip. But hey, an upset over Germany still keeps you in the mix, and the champion probability is not a mirage. **Rafe, keep shaking the tree, but be ready to catch the branches before they hit the ground.**
+**The Noisemaker** Rafe, you might've silenced your father's tactical prowess for a brief moment, but now it looks like you've got more silence than noise. With another goose egg day, you're just one more misstep from fading out entirely. **Rafe, it's time to channel the chaos agent within and stir this pot before it thickens into mediocrity.**
 
-### Gayden — 23 pts · 4th · Backpass Assassin stuck in neutral
+### Gayden — 23 pts · 4th · Backpass Assassin on the brink
 
-**Backpass Assassin** Gayden, you're the master of your domain, but it seems your strategies are deadlocked in a tactical draw against your son. No points today is a danger sign — your cunning moves need to actually move the needle. **Gayden, your son's gunning for you; don't let him turn your wisdom into yesterday's newsprint.**
+**Backpass Assassin** Gayden, the draw throttle continues to clutch your strategy, leaving you dry. Zero points today won't help your cause, with Rafe still breathing down your neck at the table for dinner discussions. **Gayden, your wisdom's only as good as its application. It's time to assassinate that backpass mentality and strike forward.**
 
-### Zach — 23 pts · 5th · Mustard Boy's taste going stale
+### Zach — 23 pts · 5th · Mustard Boy still condiment-bound
 
-**Mustard Boy** Zach, the zest is M.I.A. as you drop to last place with zero points today. Brazil may still be a giant in your corner, but Switzerland and Austria are fading faster than last night's hot dog leftovers. **Zach, get back to the drawing board before you're permanently stuck in the condiment aisle.**
+**Mustard Boy** Zach, sitting in last like an unclaimed packet in the condiment station. Brazil's brilliance is overshadowed by Czechia's continued drag on your prospects. **Zach, do yourself a favor and find the mustard that's gotten lost at the bottom of your hot dog — you need all the flavor you can muster to climb out of this basement.**
 
 ### THE FATHER-SON SAGA
 
-The tension continues to simmer between **Backpass Assassin** Gayden and **The Noisemaker** Rafe, with no decisive advantage for either as the group stages heat up. Rafe's late-game chaos is throwing wrenches into Gayden's well-oiled machine. **Gayden, be careful — Rafe’s unpredictability isn't just rattling the standings, it's near the pressure point at the dinner table.** As the World Cup plays on, this father-son feud remains the true heavyweight bout to watch.
+The simmer between **Backpass Assassin** Gayden and **The Noisemaker** Rafe keeps the tension alive, with Gayden still struggling in the face of Rafe's uncanny beginnings. Rafe's lack of soccer expertise didn't stop him from building a circus around his father's strategies, but the circus tent is starting to sag. **Gayden, your machine may be well-oiled, but Rafe’s wide-eyed chaos is still a wrench in the gears — the dinner table showdown remains the real battle.**
