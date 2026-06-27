@@ -25,7 +25,7 @@
       "tier": 2,
       "W": 2,
       "D": 0,
-      "L": 0,
+      "L": 1,
       "points": 6.0
     },
     {
@@ -113,10 +113,10 @@
       "team": "France",
       "owner": "Gunner",
       "tier": 1,
-      "W": 2,
+      "W": 3,
       "D": 0,
       "L": 0,
-      "points": 6.0
+      "points": 9.0
     },
     {
       "team": "Morocco",
@@ -131,10 +131,10 @@
       "team": "Senegal",
       "owner": "Gunner",
       "tier": 2,
-      "W": 0,
+      "W": 1,
       "D": 0,
       "L": 2,
-      "points": 0.0
+      "points": 3.0
     },
     {
       "team": "Egypt",

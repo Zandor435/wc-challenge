@@ -1,23 +1,23 @@
-### Devin — 24 pts · 1st · Ghost Pepper on thin ice
+### Gunner — 28 pts · 1st · Bubba G's data-driven comeback
 
-**Ghost Pepper** Devin somehow remains atop the heap, yet again, but his USA squad folding against Turkey leaves a bitter aftertaste. Somehow, even with the best champion odds, he's managing to look vulnerable. **Devin, your powerhouse reputation is starting to look like a paper tiger, and all it takes is one tiny ember from the bottom to set it aflame.**
+**Bubba G** Gunner, the comeback king, rides a data tsunami back to the top of the table. France and Senegal are your aces in the hole, and today’s double win proves you're finally getting the returns on those 'broken algorithms.' **Gunner, you've rigged the numbers in your favor and torpedoed the rest with the mathmagic you were supposed to own all along.**
 
-### Rafe — 24 pts · 2nd · The Noisemaker's delightful chaos
+### Devin — 24 pts · 2nd · Ghost Pepper loses the spark
 
-**The Noisemaker** Rafe is proving that ignorance is bliss, turning his supposed draft disaster into pure gold by driving Ecuador past mighty Germany. The kid's got the upset bonus and continues to shake the foundations of this league, causing tremors at the top. **Rafe, your underdog symphony keeps hitting the right notes while everyone else fumbles for the right tune.** The family dinner table must be a circus act, with this young upstart clowning on Gayden every chance he gets.
+**Ghost Pepper** Devin, what happened to bringing the heat? Norway's flamethrower got doused by France in a 4-1 dismantling, leaving you stuck at second with no hope of advancement or upsets to pad your lead. **Devin, your fantasy empire's starting to crumble like stale chips, and Gunner just took the salsa and ran.**
 
-### Gayden — 23 pts · 3rd · Backpass Assassin's dual assault
+### Rafe — 24 pts · 3rd · Noisemaker's symphony hits a sour note
 
-**Backpass Assassin** Gayden is knocking on the door of greatness, orchestrating a major coup with Turkey's dismantling of the USA. A nine-point day is nothing to scoff at, reflecting his strategic mastery. **Gayden, you're stuck in a chess match with a jokester who didn't even know the rules, but your cunning might be the antidote to Rafe's chaos.** The father's ready to prove there's still wisdom in age over youthful exuberance.
+**The Noisemaker** Rafe, your chaotic charm is beginning to wear thin, as you hit a roadblock with a two-game losing slip. But hey, an upset over Germany still keeps you in the mix, and the champion probability is not a mirage. **Rafe, keep shaking the tree, but be ready to catch the branches before they hit the ground.**
 
-### Zach — 23 pts · 4th · Mustard Boy loses zing
+### Gayden — 23 pts · 4th · Backpass Assassin stuck in neutral
 
-**Mustard Boy** Zach, where's the spice, man? Dropping two places feels like you're on a fast track to blandsville. Brazil may still be carrying your bag, but the rest of your picks are leaving you stranded on a deserted island of mediocrity. **Zach, without some much-needed zest, your barbecue's about to burn out.** Rediscover the sizzle or say goodbye to the top spots.
+**Backpass Assassin** Gayden, you're the master of your domain, but it seems your strategies are deadlocked in a tactical draw against your son. No points today is a danger sign — your cunning moves need to actually move the needle. **Gayden, your son's gunning for you; don't let him turn your wisdom into yesterday's newsprint.**
 
-### Gunner — 22 pts · 5th · Bubba G's false computation
+### Zach — 23 pts · 5th · Mustard Boy's taste going stale
 
-**Bubba G** Gunner, the supposed favorite, is now floundering like a broken algorithm. Your reliance on stats has become a liability rather than an asset, as Senegal's nosedive continues to drag your standing down. **Gunner, recalibrate before this season morphs into a testament of your spreadsheet's betrayal.** You were the chosen one, and now you're chasing a teenage sensation — check your math before it's too late.
+**Mustard Boy** Zach, the zest is M.I.A. as you drop to last place with zero points today. Brazil may still be a giant in your corner, but Switzerland and Austria are fading faster than last night's hot dog leftovers. **Zach, get back to the drawing board before you're permanently stuck in the condiment aisle.**
 
 ### THE FATHER-SON SAGA
 
-The seismic battle between **Backpass Assassin** Gayden and **The Noisemaker** Rafe is the epitome of family tension, threatening to spill over into every aspect of their lives. Rafe's riotous unpredictability continues to baffle his old man, robbing Gayden of peace both on the fantasy field and at home. **Gayden, your son's chaotic antics are reshaping the league's landscape while keeping your blood pressure high.** This saga's got more drama than a primetime soap opera, with the Thanksgiving table ready to host the epic showdown of strategy versus serendipity.
+The tension continues to simmer between **Backpass Assassin** Gayden and **The Noisemaker** Rafe, with no decisive advantage for either as the group stages heat up. Rafe's late-game chaos is throwing wrenches into Gayden's well-oiled machine. **Gayden, be careful — Rafe’s unpredictability isn't just rattling the standings, it's near the pressure point at the dinner table.** As the World Cup plays on, this father-son feud remains the true heavyweight bout to watch.
