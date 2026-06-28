@@ -1317,6 +1317,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-28",
+      "matches": [
+        {
+          "date": "2026-06-28",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "South Africa",
+          "away": "Canada",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "South Africa 0-1 Canada",
+          "points": {
+            "Gunner": 5.0,
+            "Devin": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Canada (Gunner) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: South Africa (Devin) +0"
+          ]
+        }
+      ]
     }
   ]
 }
