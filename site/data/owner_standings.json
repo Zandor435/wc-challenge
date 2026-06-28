@@ -24,6 +24,16 @@
       "rank": 2
     },
     {
+      "owner": "Gayden",
+      "total_points": 26,
+      "breakdown": {
+        "match": 24.0,
+        "upset": 2.0,
+        "advancement": 0
+      },
+      "rank": 3
+    },
+    {
       "owner": "Rafe",
       "total_points": 24,
       "breakdown": {
@@ -31,7 +41,7 @@
         "upset": 2.0,
         "advancement": 0
       },
-      "rank": 3
+      "rank": 4
     },
     {
       "owner": "Zach",
@@ -39,16 +49,6 @@
       "breakdown": {
         "match": 24.0,
         "upset": 0,
-        "advancement": 0
-      },
-      "rank": 4
-    },
-    {
-      "owner": "Gayden",
-      "total_points": 23,
-      "breakdown": {
-        "match": 21.0,
-        "upset": 2.0,
         "advancement": 0
       },
       "rank": 5

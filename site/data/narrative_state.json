@@ -1,34 +1,34 @@
 {
-  "generated": "2026-06-27T21:26:53Z",
+  "generated": "2026-06-28T00:55:48Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Group Stage",
     "is_preseason": false,
-    "matchdays_played": 16,
-    "matches_played": 66,
-    "matches_remaining": 38,
+    "matchdays_played": 17,
+    "matches_played": 68,
+    "matches_remaining": 36,
     "matches_total": 104,
     "eliminated_teams": []
   },
   "owners": {
     "Zach": {
-      "rank": 4,
-      "rank_change_from_prev_day": 0,
+      "rank": 5,
+      "rank_change_from_prev_day": -1,
       "total_points": 24,
-      "points_today": 1,
+      "points_today": 0,
       "record": {
         "W": 6,
         "D": 6,
-        "L": 4
+        "L": 5
       },
-      "win_probability": 0.17,
+      "win_probability": 0.18,
       "champion_probability": 0.12,
       "streak": {
-        "type": "D",
+        "type": "L",
         "length": 1,
-        "label": "D1"
+        "label": "L1"
       },
       "best_team": {
         "team": "Brazil",
@@ -53,9 +53,9 @@
     },
     "Gunner": {
       "rank": 1,
-      "rank_change_from_prev_day": 4,
+      "rank_change_from_prev_day": 0,
       "total_points": 29,
-      "points_today": 7,
+      "points_today": 0,
       "record": {
         "W": 8,
         "D": 5,
@@ -90,30 +90,30 @@
       }
     },
     "Gayden": {
-      "rank": 5,
-      "rank_change_from_prev_day": -2,
-      "total_points": 23,
-      "points_today": 0,
+      "rank": 3,
+      "rank_change_from_prev_day": 2,
+      "total_points": 26,
+      "points_today": 3,
       "record": {
-        "W": 6,
+        "W": 7,
         "D": 3,
         "L": 7
       },
       "win_probability": 0.16,
       "champion_probability": 0.11,
       "streak": {
-        "type": "D",
+        "type": "W",
         "length": 1,
-        "label": "D1"
+        "label": "W1"
       },
       "best_team": {
-        "team": "Ivory Coast",
-        "tier": 2,
-        "points": 6,
+        "team": "England",
+        "tier": 1,
+        "points": 7,
         "record": {
           "W": 2,
-          "D": 0,
-          "L": 1
+          "D": 1,
+          "L": 0
         }
       },
       "worst_team": {
@@ -129,16 +129,16 @@
     },
     "Devin": {
       "rank": 2,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 27,
-      "points_today": 3,
+      "points_today": 0,
       "record": {
         "W": 8,
         "D": 3,
         "L": 7
       },
-      "win_probability": 0.27,
-      "champion_probability": 0.16,
+      "win_probability": 0.26,
+      "champion_probability": 0.15,
       "streak": {
         "type": "W",
         "length": 1,
@@ -166,7 +166,7 @@
       }
     },
     "Rafe": {
-      "rank": 3,
+      "rank": 4,
       "rank_change_from_prev_day": -1,
       "total_points": 24,
       "points_today": 0,
@@ -175,7 +175,7 @@
         "D": 1,
         "L": 9
       },
-      "win_probability": 0.12,
+      "win_probability": 0.13,
       "champion_probability": 0.08,
       "streak": {
         "type": "L",
@@ -710,12 +710,23 @@
         "Devin": 3,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 17,
+      "date": "2026-06-27",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 3,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.29,
     "Gunner": 0.31,
-    "Gayden": 0.17,
+    "Gayden": 0.27,
     "Devin": 0.26,
     "Rafe": 0.25
   },
@@ -748,16 +759,10 @@
   ],
   "themes": [
     {
-      "tag": "Gunner surge",
-      "owner": "Gunner",
-      "kind": "surge",
-      "description": "Gunner jumped 4 spots in the standings on the latest matchday."
-    },
-    {
-      "tag": "Gayden slide",
+      "tag": "Gayden surge",
       "owner": "Gayden",
-      "kind": "slide",
-      "description": "Gayden dropped 2 spots in the standings on the latest matchday."
+      "kind": "surge",
+      "description": "Gayden jumped 2 spots in the standings on the latest matchday."
     }
   ],
   "golden_boot_leader": {
@@ -1260,6 +1265,37 @@
         "Gunner": 4,
         "Gayden": -2,
         "Devin": -1,
+        "Rafe": -1
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "points": {
+        "Zach": 24,
+        "Gunner": 29,
+        "Gayden": 26,
+        "Devin": 27,
+        "Rafe": 24
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 3,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Gayden": 3,
+        "Rafe": 4,
+        "Zach": 5
+      },
+      "rank_change": {
+        "Zach": -1,
+        "Gunner": 0,
+        "Gayden": 2,
+        "Devin": 0,
         "Rafe": -1
       }
     }

@@ -1,23 +1,23 @@
-### Gunner — 29 pts · 1st · Bubba G back on top
+### Gunner — 29 pts · 1st · Bubba G still riding high
 
-**Bubba G** Gunner, you're playing chess while the rest are still figuring out checkers. Another seven-point haul, with Senegal and France dropping the hammer. **While the other managers fumble like they’re snowboarding on sand, you're carving out a lead that’s looking more and more insurmountable.** Keep that eye on the prize, because right now, you’re cruising down the autobahn while everyone else is stuck in traffic.
+**Bubba G** Gunner, you've managed to hold your ground, but the momentum feels like it's starting to slip. A draw today even with France's prowess doesn't bode well, especially as your competitors close in. **You've got the lead, but it’s hanging by a thread — better tighten that grip or you'll end up just another paper champion.**
 
-### Devin — 27 pts · 2nd · Ghost Pepper maintaining the burn
+### Devin — 27 pts · 2nd · Ghost Pepper cooling down
 
-**Ghost Pepper** Devin, your Spain delivering against Uruguay was the flamethrower moment you needed. But let's address the reality — Norway’s embarrassing crash against France was a chilly slap in the face. **You’ve got the firepower for a title run, but can you handle the heat when the game gets intense?** The question remains, is there enough cayenne in your strategy to put the squeeze on Gunner?
+**Ghost Pepper** Devin, the flames have flickered, and you're running on smoldering coals. Your lack of points today is a troubling sign when you should be making a mad dash to close the gap. **Can your star-studded roster find its form again, or are you going to fizzle out under pressure like a wet matchstick?**
 
-### Rafe — 24 pts · 3rd · The Noisemaker refuses to be silenced
+### Gayden — 26 pts · 3rd · Backpass Assassin plotting revenge
 
-**The Noisemaker** Rafe, despite a lack of points today, your persistent challenge is nothing short of impressive. Mexico is proving its worth, keeping you in the game when others would have faded. **You're the wildcard in a league of straight-liners and seem to thrive in this chaos, turning what should have been a rookie disaster into a genuine threat.** Thanksgiving may just become your victory lap.
+**Backpass Assassin** Gayden, it seems the wraparound pass has finally found its target. England’s display against Panama has pumped life back into your campaign, and now you're breathing down Devin’s neck. **But beware — your triumph could be short-lived if you don't keep your foot on the gas pedal.** The family feud is heating up, and you're back in the hunt.
 
-### Zach — 24 pts · 4th · Mustard Boy clinging to the crumbs
+### Rafe — 24 pts · 4th · The Noisemaker needs a sound check
 
-**Mustard Boy** Zach, you’re still nibbling on Saudi Arabia's meager contributions, and it shows. **Brazil’s the only team keeping you above water; otherwise, you’re just treading tastelessly.** Turn things around quick, or prepare for another bland finish. 
+**The Noisemaker** Rafe, the feedback from your speakers is starting to deafen the room. Mexico keeps you relevant, but when teams like Tunisia drag you down, your playlist sounds more like white noise. **This isn't the time for silence, you need a banger hit, or your time in the spotlight might be shorter than a TikTok trend.**
 
-### Gayden — 23 pts · 5th · Backpass Assassin running backward
+### Zach — 24 pts · 5th · Mustard Boy with no flavor
 
-**Backpass Assassin** Gayden, the theme of the week is stagnation. Ivory Coast couldn't back up your big day, and now you're backpedaling into oblivion. **Keep this up, and you'll be nothing more than a cautionary tale of a father bested by his own creation.** It’s time to stop the bleeding, or Rafe’s knocking will become a battering ram.
+**Mustard Boy** Zach, you are barely holding on like a lukewarm condiment packet at a hotdog stand. Brazil might be your saving grace, but Ghana’s flop today left a sour taste that’s hard to shake. **If you can't spice things up soon, you'll end up as stale as last week's bread.**
 
 ### THE FATHER-SON SAGA
 
-The rivalry between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe continues to rage, with Rafe maintaining an edge that would make any dad quake in his loafers. Thanksgiving is shaping up to be less about turkey and more about serving up humble pie. **The student is in danger of becoming the master, and Gayden, every matchday your legacy is looking a little more like the Titanic.** The family legacy has never been so publicly challenged; buckle up, it’s gonna be a tense holiday season.
+The tension between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe is reaching a boiling point. With only two points separating them, and Thanksgiving looming like a referee ready to blow the whistle on family harmony, **Gayden’s recent surge is a direct challenge to his son’s fragile lead.** The power dynamics in this house are about to get as shaken up as a snow globe in December. Who will reign supreme at the holiday dinner table?

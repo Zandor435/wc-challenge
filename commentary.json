@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-27T21:26:53Z",
-  "source": "daily_results_2026-06-26",
-  "date": "2026-06-27",
-  "rotation": 16,
+  "generated": "2026-06-28T00:55:48Z",
+  "source": "daily_results_2026-06-27",
+  "date": "2026-06-28",
+  "rotation": 17,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "**This is a joke of a fantasy pool, and \"The Noisemaker\" Rafe drafting Germany is the only thing keeping this competition from being a complete farce.** Let's get one thing clear: \"Bubba G\" Gunner may be leading with a fluke 29 points, but drafting France was like taking candy from a baby — no skill involved. Look at \"Mustard Boy\" Zach, languishing at 24 points and praying for a miracle from Brazil while putting his faith in Saudi Arabia to do anything useful. That's not how this works, Zach. And \"The Backpass Assassin\" Gayden? Drafting England screams, \"I know good teams from FIFA video games!\" The only savvy move there was Japan, but his 23 points show it's all talk and no strategy. Meanwhile, \"Ghost Pepper\" Devin hides behind Spain's coattail; he's hardly threatening at 27 points with USA as his second fiddle. Sorry, lads, but Rafe and Germany are the only credible force here — everyone else should be embarrassed."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "**Look, I know \"Ghost Pepper\" Devin is grappling for a win, but when you put your fate in Haiti's hands in the fourth round, you're not exactly scorching the World Cup stage.** I mean, bless his heart, Devin sits just two points behind \"Bubba G\" Gunner in the standings, praying Spain pulls more than just its own weight, while clinging desperately to the USA and Norway like they're lifelines in a stormy sea. Yet, when you pull stunts like drafting Haiti, I can't help but wonder if he was hoping for a new Cinderella story or just forgot other teams existed. Meanwhile, \"Mustard Boy\" Zach is languishing at the bottom, with Ghana's painful loss to Croatia adding insult to injury, and I get it—he means well, but his Tier 4 pick of Saudi Arabia doesn’t scream “strategic foresight.”\n\nNow, we have no idea which teams are going head-to-head in Inglewood, but honestly, it's not like \"The Noisemaker\" Rafe, our wildcard chaos agent, is looking to contribute sound logic to the mix. His selection of teams like Uzbekistan is endearing in its misguided optimism, and sure, he's tied with Zach, the self-proclaimed connoisseur of condiments, but it just goes to show that sometimes knowing absolutely nothing can be its own sort of strategy. Yet here I am, inexplicably confident that Rafe’s pick of Germany is going to somehow shine through with a match-up win today. And \"The Backpass Assassin\" Gayden, riding high off an England victory over Panama, must be savoring his third-place thrill, relying on those upset points like a lifeline in an otherwise predictable pool. In the end, my money's on the kid—chaotic or not—because, well, sometimes luck counts for more than strategy."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Seals Lead as Senegal Smash Iraq 5-0",
-      "subtitle": "Victory leaves Bubba G questioning if he could sub in.",
-      "match": "Senegal vs Iraq",
-      "date": "2026-06-27"
+      "headline": "Gunner's Mastery Confirmed As He Leads World Cup Pool",
+      "subtitle": "Experts suggest others take notes or just give up now.",
+      "match": "Group F Preview",
+      "date": "2026-06-28"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden Optimistic as England Set to Crush Panama",
-      "subtitle": "The Backpass Assassin confident until kickoff whistle.",
-      "match": "Panama vs England",
-      "date": "2026-06-27"
+      "headline": "Rafe's 15-Year-Old Genius Tied With Zach's World Cup Strategy",
+      "subtitle": "Connoisseurs of the game consider drafting non-qualifiers the next big move.",
+      "match": "Group F Preview",
+      "date": "2026-06-28"
     },
     {
       "pundit": "dempsey",
-      "headline": "Zach Hoping for Points in Austria's Upcoming Battle with Algeria",
-      "subtitle": "Mustard Boy still searching for that elusive tier two magic.",
-      "match": "Algeria vs Austria",
-      "date": "2026-06-27"
+      "headline": "Devin's Points Strategy Threatens to Overheat in Texas Showdown",
+      "subtitle": "Ghost Pepper’s spicy picks keep him just shy of the top.",
+      "match": "TBD vs TBD",
+      "date": "2026-06-28"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Bold Strategy of Drafting Random Teams Proves Surprisingly Effective",
-      "subtitle": "The Noisemaker living proof that youth and inexperience trump logic.",
-      "match": "Group J Preview",
-      "date": "2026-06-27"
+      "headline": "Gayden's England Triumph Extends His Commanding World Cup Pool Run",
+      "subtitle": "The Backpass Assassin found success over Panama without looking back.",
+      "match": "Panama vs England",
+      "date": "2026-06-28"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner surges to the top, while Gayden's family feud leaves him rock bottom.",
-    "Rafe is still standing strong after a draft that's a flat-out comedy club act.",
-    "Rafe owns Devin with a six-point differential, making Devin his personal punching bag.",
-    "The sim pegged Gunner as the champ, until a rookie 15-year-old entered the fray."
+    "Rafe's chaos reigns supreme, keeping him alive at 13% win probability.",
+    "Rafe dragged Germany, Ecuador, and Mexico to relevance despite no World Cup knowledge.",
+    "Devin can't stop losing to 15-year-old Rafe, down 6 points head-to-head.",
+    "Chaos agent Rafe has the sim questioning its life choices, and I love it."
   ]
 }

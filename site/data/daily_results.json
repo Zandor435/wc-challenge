@@ -1211,6 +1211,45 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-27",
+      "matches": [
+        {
+          "date": "2026-06-27",
+          "stage": "group",
+          "round": null,
+          "home": "Panama",
+          "away": "England",
+          "home_score": 0,
+          "away_score": 2,
+          "score": "Panama 0-2 England",
+          "points": {
+            "Gayden": 3.0
+          },
+          "math": [
+            "WIN: England (Gayden, T1) +3 (win) (no upset: favorite won)",
+            "LOSS: Panama (T4) undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-27",
+          "stage": "group",
+          "round": null,
+          "home": "Croatia",
+          "away": "Ghana",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "Croatia 2-1 Ghana",
+          "points": {
+            "Zach": 0.0
+          },
+          "math": [
+            "WIN: Croatia (T1) undrafted, no points",
+            "LOSS: Ghana (Zach, T3) +0 (loss)"
+          ]
+        }
+      ]
     }
   ]
 }
