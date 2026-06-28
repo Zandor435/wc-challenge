@@ -1,23 +1,23 @@
-### Gunner — 32 pts · 1st · Bubba G still in the driver's seat
+### Gunner — 32 pts · 1st · Bubba G is cruising on auto-pilot
 
-**Bubba G** continues his unbeaten tour atop the rankings, with his Tier-4 DR Congo dismantling Rafe's Uzbekistan and adding another 3 points to his impressive haul. Gunner's squad is like a well-oiled machine, showing no signs of rust or slowing down. **Keep rolling with that Cinderella dream, Gunner, because the slipper fits and everyone else is just trying to catch up.**
+**Bubba G**, with his DR Congo smacking down Uzbekistan, keeps the wheels turning at the top. Gunner's team operates like a precision timepiece, and his Tier-4 heroes continue to defy expectations. **This Cinderella story is set for a fairytale ending, unless another owner finds a glass slipper of their own.**
 
-### Devin — 27 pts · 2nd · Ghost Pepper fizzles again
+### Devin — 27 pts · 2nd · Ghost Pepper can't handle the heat
 
-Devin stays in second, but barely moved the needle this round. With top-tier talent like Spain and Norway under his belt, you'd expect fireworks, yet we saw more sparks from a wet match. **Ghost Pepper, you might be the top draft champ, but your execution is begging for an exorcist.**
+Devin's simmering potential sits unfulfilled with a goose egg for the day. Haaland might lead the golden boot race, but that means jack without consistent points from the rest of the roster. **Devin, it's time to turn up the spice — or get ready for a bland finale.**
 
-### Gayden — 26 pts · 3rd · Backpass Assassin strikes back
+### Gayden — 26 pts · 3rd · Backpass Assassin sharpening the blade
 
-Gayden bounces back to third with England's latest victory over Panama, showcasing just why they call him **The Backpass Assassin**. But, the saga is not complete without mentioning Jordan's predictable loss to Argentina. **Gayden's climb from obscurity is a masterclass in precision, but can he handle the young gun breathing down his neck at home?**
+**The Backpass Assassin** takes decisive action with England trouncing Panama, inching closer to the top. But Jordan's predictable stumble leaves him wrestling with dead weight. Gayden's climb up the leaderboard is a classic case of risk management, but the real fight is the one happening under his own roof.
 
-### Zach — 25 pts · 4th · Mustard Boy still mild
+### Zach — 25 pts · 4th · Mustard Boy's flavor lacking punch
 
-Zach is still hanging in there with a shaky draw from Austria to Ghana's worsting by Croatia. His Brazil team might be his only savior from a mustard-less campaign. **Mustard Boy, how long can you keep spreading thin before someone finally takes a bite out of your blandness?**
+Zach's day sees Austria squeeze a draw out of Algeria, but Ghana flounders once again. His Brazil pick is the only thing keeping him afloat, like a lifeboat in a sea of missed opportunities. **Mustard Boy, your strategy is spreading too thin — it’s time to add some spice or get left in the condiment aisle.**
 
-### Rafe — 24 pts · 5th · The Noisemaker is getting drowned out
+### Rafe — 24 pts · 5th · The Noisemaker turned mute
 
-**The Noisemaker** Rafe's recent rendition of silence continues with Uzbekistan falling to Gunner's DR Congo. Despite being in the company of chaos, his squad draft still reads like an inside joke at his expense. **Rafe, the holiday table could use some fireworks — it’s time to make your dad choke on his prim and proper Thanksgiving plans.**
+Rafe's tale of woe continues as Uzbekistan's loss to DR Congo typifies his team's downward spiral. **The Noisemaker** might need a megaphone to be heard at the Thanksgiving table because his on-field performances are whisper quiet. Rafe, you need to conjure some chaos fast, or face being a footnote in your dad's inevitable victory speech.
 
 ### THE FATHER-SON SAGA
 
-**The Noisemaker** Rafe's fall to last place has become an annual Thanksgiving tale of two strategies: the father's precision versus the son's reckless ambition. With Gayden shooting back up the ranks and Rafe slipping down, it’s clear Rafe's draft picks haven't aged as gracefully as his father's seasoned teams. **Rafe, this rivalry needs a plot twist, or you're simply setting the table for your dad's storytelling glory.**
+It's Shakespearean in scope: **The Noisemaker** versus **The Backpass Assassin** — a rivalry etched in family history. Rafe's controversial draft picks have done him no favors, while Gayden's calculated climb continues with surgical precision. With every result adding fuel to their family feud, this is one showdown where losing means the turkey tastes just a bit less savory. **Rafe, your dad's laying down the gauntlet — time to pick it up or admit defeat.**
