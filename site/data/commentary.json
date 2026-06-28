@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T12:34:02Z",
+  "generated": "2026-06-28T15:31:17Z",
   "source": "daily_results_2026-06-27",
   "date": "2026-06-28",
   "rotation": 17,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why people say Gunner is leading, but let's credit France for that rather than Bubba G's draft intellect.** I mean, the guy's name is synonymous with chaos in the drafting community, and yet here he is, surfing on the coattails of Les Bleus. While Devin—bless his heart—finds himself second, you have to wonder about the conversation he was having when he picked Haiti in the fourth round. Sure, Gayden's English squad is doing fine after dispatching Panama, but you'd think The Backpass Assassin would have a grander strategy than relying on last-minute miracles. And then we have Zach, Mustard Boy, who loves an underdog story that rarely comes to fruition, as evidenced by Ghana's recent loss. I feel for Rafe, The Noisemaker; despite his last-place position, he does mean well. You have to admire his pure chaos strategy, drafting teams like Uzbekistan. Some might call it a misguided venture, but you know, sometimes life's simple mysteries are the most fun to watch unravel. Looking ahead, I fully expect Bubba G's DR Congo to keep their surprising form going, while all eyes will be on Mustard Boy's Brazil to pull something out of the hat they were never actually in."
+    "take": "I think \"Bubba G\" is in first place almost by accident, just staggering through like a guy who won the lottery but can't remember where he bought the ticket. Gunner's reliance on France clearly works, but it's not the mark of tactical genius when you pick one of the tournament's favorites and they actually perform well. Look, Devin—our dear \"Ghost Pepper\"—has impressed with Spain, but when Haiti's your fourth-round darling, it's like expecting to unlock a room with Monopoly money. Gayden, oh bless his heart, must feel vindicated by England's steady march, even if it's akin to a stopped clock being right twice a day. And, of course, we can't forget \"The Noisemaker,\" young Rafe, who looks at soccer like a Jackson Pollock painting: full of random choices that no one understands but at least have a splash of chaotic charm. While Zach's \"Mustard Boy\" persona gives us vim and vigor, his declining position suggests it's more condiment than commanding. So, for today's big matchup, with all these missteps in mind, I think we can confidently predict that the winner will be the one who shows up, since that seems to be the real challenge in this pool."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Zach's Brazil Strategy Backfires as Austria Draws with Algeria",
-      "subtitle": "A draw netted one point, matching Austria's ambition under Zach.",
-      "match": "Algeria vs Austria",
+      "headline": "Gayden Fails To Capitalize On England's Win, Drops In Standings",
+      "subtitle": "Even a 2-0 victory can't fix poor management choices.",
+      "match": "Panama vs England",
       "date": "2026-06-28"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden's England Victory Overshadowed by Jordan's Consistent Underperformance",
-      "subtitle": "\"Scoring three against my team wasn't part of the plan,\" quipped Gayden.",
-      "match": "Jordan vs Argentina",
+      "headline": "Zach Struggles Despite Tier 1 Brazil, Drops To Fourth Place",
+      "subtitle": "Drafting Brazil was genius, managing rest of team less so.",
+      "match": "Croatia vs Ghana",
       "date": "2026-06-28"
     },
     {
       "pundit": "dempsey",
-      "headline": "Devin's Second Place Journey Continues as Spain Faces Swedish Showdown",
-      "subtitle": "Holding second just chill, unless Spain decides to spice it up.",
-      "match": "Group F Preview",
+      "headline": "Gunner Solidifies Lead As DR Congo Triumphs Over Uzbekistan",
+      "subtitle": "Bubba G quietly letting Tier 4 team do heavy lifting.",
+      "match": "DR Congo vs Uzbekistan",
       "date": "2026-06-28"
     },
     {
       "pundit": "lalas",
-      "headline": "Gunner Maintains Top Spot Thanks to DR Congo's Unexpected Heroics",
-      "subtitle": "\"Our secret weapon: a Tier 4 masterclass,\" revealed Bubba G.",
-      "match": "DR Congo vs Uzbekistan",
+      "headline": "Devin Set To Challenge Gunner With Tier 2 USA Match",
+      "subtitle": "Ghost Pepper banking on USA to spice up his score.",
+      "match": "TBD vs TBD",
       "date": "2026-06-28"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's sitting pretty with France's perfect 3-0 record and a 30% win chance.",
-    "Rafe, your Tier-1 Germany is getting schooled by Ecuador. Nice draft strategy, rookie.",
-    "Rafe vs. Gayden is dead even at 0. Thanksgiving will be awkward, pops.",
-    "Sim accuracy? More like a joke—Rafe still grinning with a 12% win probability."
+    "Gunner's sitting pretty atop the leaderboard, but even a toddler could dethrone him.",
+    "Rafe's Tier-3 Tunisia is a trust fall with zero wins. Solid draft, kid.",
+    "Rafe embarrasses Devin with a +6 spread. The kid's really grounding Ghost Pepper.",
+    "Rafe's 12% chance of victory? The sim's clowning us all with this chaos agent."
   ]
 }
