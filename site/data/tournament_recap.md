@@ -1,23 +1,23 @@
-### Gunner — 32 pts · 1st · Bubba G proving untouchable
+### Gunner — 32 pts · 1st · Bubba G on cruise control
 
-**Bubba G** keeps the pedal to the metal as DR Congo delivers yet another spicy win, stomping all over Rafe's Uzbekistan. Gunner's Tier-4 miracle men continue their fairy-tale rise while the rest of the field watches in disbelief. **The champ-elect is making the league feel like it's on cruise control, unless someone sharpens their game fast.**
+**Bubba G** continues to ride the Cinderella express, with DR Congo securing another victory over Rafe's Uzbekistan. Gunner's Tier-4 team is doing what no one thought possible — teaching the rest of the owners that sometimes, fairy tales write themselves. **Keep those shades on, Gunner, because no one else can see as clearly as you do from the top.**
 
-### Devin — 27 pts · 2nd · Ghost Pepper flickers
+### Devin — 27 pts · 2nd · Ghost Pepper merely simmering
 
-Devin's **Ghost Pepper** persona is more smoke than fire as another day passes without points. The odds might still favor Devin to claim the trophy, but those numbers mean zilch if they aren’t backed up on the pitch. **You're running out of time to find that championship spark, Ghost Pepper — time to stop daydreaming.**
+The **Ghost Pepper** is still more of a mirage than a blaze, failing to capture any points today. Devin's relying on the numbers to back him up, but as it stands, those digits aren’t translating into wins. **Time's ticking, Devin—maybe it's time to switch from ghost stories to ghostbusters.**
 
-### Gayden — 26 pts · 3rd · Backpass Assassin's precise strike
+### Gayden — 26 pts · 3rd · Backpass Assassin striking true
 
-Not even Panama could stop **The Backpass Assassin** as Gayden's England scooped up 3 essential points. While Jordan crumbles under Argentina's weight, Gayden keeps his scalpel sharp — slicing through the standings with surgical precision. **Stay vigilant, Gayden— or face your son's clumsy teenage wrath.**
+With England doing the heavy lifting, **The Backpass Assassin** Gayden cut through Panama with ease, pocketing a neat 3 points. Not even Jordan's collapse against Argentina could dull that edge today. **Gayden's back in prime form, continuing his assault — but what about facing that looming domestic threat?**
 
-### Zach — 25 pts · 4th · Mustard Boy's bland batch
+### Zach — 25 pts · 4th · Mustard Boy missing the zing
 
-**Mustard Boy** Zach can't seem to shake off the mediocrity, scraping a point from Austria's lackluster draw with Algeria. Brazil might be his golden goose, but there's no sauce to back up the flavors elsewhere. **Raise the heat, Zach, or be forever known as the condiment of indifference.**
+**Mustard Boy** Zach is still searching for that spicy edge, drawing yet again, this time with Algeria. Switzerland and Brazil continue to hold potential, but elsewhere it’s a bland, flavorless march. **Shake up the roster, Zach, or settle into the bland monotony of middle table safety.**
 
-### Rafe — 24 pts · 5th · The Noisemaker's broken amp
+### Rafe — 24 pts · 5th · The Noisemaker hitting static
 
-The teenage chaos engine known as **The Noisemaker** hit a false note today as Uzbekistan fell against Gunner's machinations. **This isn’t Call of Duty, kid — you don't respawn points here.** While Germany and Mexico are propping up some credibility, it's time for Rafe to turn that static into a trumpet call, or be piped out of relevance.
+**The Noisemaker** Rafe has been silenced, dropping further down the table after Uzbekistan's loss. The young chaos engine needs to find the reboot button before he's relegated to league court jester status. **Time to blow the horn, Rafe, and stop your father's smug march to Thanksgiving glory.**
 
 ### THE FATHER-SON SAGA
 
-The eternal clash of family titans, **The Backpass Assassin** Gayden surges ahead with England's triumph, while **The Noisemaker** Rafe falters. Thanksgiving is looking like a wholly uncomfortable affair, with Gayden ready to roast more than a turkey: his own son's ambitions. **Can Rafe conjure up one of those comic book-style comebacks, or will Gayden's smug satisfaction reign supreme?**
+**The Backpass Assassin** Gayden won today with England, but his teen nemesis **The Noisemaker** Rafe is spiraling. The father's precision is the son's downfall, as Rafe's drafting disasters keep coming home to roost. **Rafe, it's time for the underdog comeback story; unless you want this holiday to be a quiet one.**

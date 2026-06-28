@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T10:02:42Z",
+  "generated": "2026-06-28T12:34:02Z",
   "source": "daily_results_2026-06-27",
   "date": "2026-06-28",
   "rotation": 17,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**I think if you're Gunner, you can't really be proud of leading, can you? It feels more like you're benefiting from the chaos swirling around you than any real strategy.** Look, I get why fans of Bubba G might think he's got the magic touch with France cruising to inevitable dominance, but let’s face it, playing DR Congo against Uzbekistan is like betting your house on a coin flip and calling it genius. But I guess when you’re at the top, even stumbling around starts to look like choreography. \n\nNow, speaking of choreography you just can’t look away from, Ghost Pepper Devin might want to rethink his strategy. I feel for him, I really do, but picking Haiti in the fourth round was always going to be an uphill climb. Spain's boundless potential can only cover so many draft sins, and the USA's inconsistency isn't exactly the cavalry he hoped for. As for Gayden, a.k.a. The Backpass Assassin, his mix of England's clear win over Panama and Jordan's spirited but futile performance against Argentina feels like a metaphor for his managerial skills: dazzling and hopelessly naive. Meanwhile, Mustard Boy Zach got a raw deal with Ghana's narrow loss to Croatia, but that one-point draw from Austria still leaves him lingering in fourth, bless his heart.\n\nAnd what can we even say about The Noisemaker, Rafe? Losing to Gunner with Uzbekistan might sound unfortunate, but when your first three picks don't even qualify, it's like watching someone trip over their own shoelaces and then blaming the universe. Of course, Zach’s Brazil might turn things around for him with some magic of their own. But if I were a betting man, which I'm not, I'd say this whole competition is far from decided. Yet as sure as night follows day, Bubba G will find a way to stumble into more points, Devin will keep drafting disaster, and Gayden... well, aimlessly dribbling around the midfield is called passing for a reason."
+    "take": "**Look, I get why people say Gunner is leading, but let's credit France for that rather than Bubba G's draft intellect.** I mean, the guy's name is synonymous with chaos in the drafting community, and yet here he is, surfing on the coattails of Les Bleus. While Devin—bless his heart—finds himself second, you have to wonder about the conversation he was having when he picked Haiti in the fourth round. Sure, Gayden's English squad is doing fine after dispatching Panama, but you'd think The Backpass Assassin would have a grander strategy than relying on last-minute miracles. And then we have Zach, Mustard Boy, who loves an underdog story that rarely comes to fruition, as evidenced by Ghana's recent loss. I feel for Rafe, The Noisemaker; despite his last-place position, he does mean well. You have to admire his pure chaos strategy, drafting teams like Uzbekistan. Some might call it a misguided venture, but you know, sometimes life's simple mysteries are the most fun to watch unravel. Looking ahead, I fully expect Bubba G's DR Congo to keep their surprising form going, while all eyes will be on Mustard Boy's Brazil to pull something out of the hat they were never actually in."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's DR Congo Triumph Explains First Place Standing",
-      "subtitle": "Critics suggest same strategy could work wonders on actual soccer teams.",
-      "match": "DR Congo vs Uzbekistan",
+      "headline": "Zach's Brazil Strategy Backfires as Austria Draws with Algeria",
+      "subtitle": "A draw netted one point, matching Austria's ambition under Zach.",
+      "match": "Algeria vs Austria",
       "date": "2026-06-28"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden Boosts Points Despite Jordan's Predictable Defeat",
-      "subtitle": "Leapfrogs Zach by riding coattails of England's win over Panama.",
-      "match": "Panama vs England",
+      "headline": "Gayden's England Victory Overshadowed by Jordan's Consistent Underperformance",
+      "subtitle": "\"Scoring three against my team wasn't part of the plan,\" quipped Gayden.",
+      "match": "Jordan vs Argentina",
       "date": "2026-06-28"
     },
     {
       "pundit": "dempsey",
-      "headline": "Zach's Pointless Ghana Performance Raises Roster Concerns",
-      "subtitle": "Hopes for a comeback rest on the shoulders of Saudi Arabia.",
-      "match": "Croatia vs Ghana",
+      "headline": "Devin's Second Place Journey Continues as Spain Faces Swedish Showdown",
+      "subtitle": "Holding second just chill, unless Spain decides to spice it up.",
+      "match": "Group F Preview",
       "date": "2026-06-28"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Mismanaged Uzbekistan Team Suffers Predictable Defeat",
-      "subtitle": "Demonstrates impressive commitment to not knowing anything about soccer.",
+      "headline": "Gunner Maintains Top Spot Thanks to DR Congo's Unexpected Heroics",
+      "subtitle": "\"Our secret weapon: a Tier 4 masterclass,\" revealed Bubba G.",
       "match": "DR Congo vs Uzbekistan",
       "date": "2026-06-28"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's three-match losing streak proves sometimes chaos is just plain losing.",
-    "Rafe drafted ghost teams, yet somehow isn't dead last. How is that possible?",
-    "Gunner absolutely sonning Rafe with a monstrous +6 point differential head-to-head.",
-    "Sim predicted Rafe's demise; who knew chaos had its limitations?"
+    "Gunner's sitting pretty with France's perfect 3-0 record and a 30% win chance.",
+    "Rafe, your Tier-1 Germany is getting schooled by Ecuador. Nice draft strategy, rookie.",
+    "Rafe vs. Gayden is dead even at 0. Thanksgiving will be awkward, pops.",
+    "Sim accuracy? More like a joke—Rafe still grinning with a 12% win probability."
   ]
 }
