@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T13:34:55Z",
+  "generated": "2026-06-29T16:20:48Z",
   "source": "daily_results_2026-06-28",
   "date": "2026-06-29",
   "rotation": 18,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Bubba G takin' over with his hot Canada pick, leavin' Ghost Pepper to stew like last night's chili.** South Africa got blanked by Canada yesterday, and Gunner's squad picked up five sweet points 'cause of it. Bubba G out here lookin' like a fortune teller, draftin' DR Congo like it's the next Brazil; somehow, it paid off with Canada instead. Devin, or should I say Ghost Pepper, got cooked on that one and only got zeros — like he’s shoppin' at the dollar store for points.\n\nNow, let's predict how these upcoming matchups are gonna go down. I'm callin' it: whoever's playin' in Houston ain't seein' the ball more than Gunner's team after tryin' to one-up his barber's expert advice. Over in Foxborough, it's gonna be a battle like Mustard Boy chasin' stripes on a fresh pair of kicks — nobody's gonna shine but one manager’s gettin' all the glory. And down in Guadalupe, Mexico, we’re lookin’ at a surprise upset so big it'd make The Backpass Assassin's head spin faster than when he picked Jordan in tier four. You heard it here first, folks!"
+    "take": "**Gunner livin' large in first place like he's eatin' BBQ while everybody else is stuck with coleslaw.**\n\nMan, Gunner's sittin' pretty sweet right now after that Canada win over Devin's South Africa. Bubba G's got a knack for pickin' teams like he's got a crystal ball hidden in his cowboy hat. Meanwhile, Mustard Boy over here thought Saudi Arabia would turn oil into goals, but he's slippin' down to fourth, y'all. As for Devin, Ghost Pepper's burnin' up his lead, and the only spice left is the salt from that loss. Lookin' ahead, ain't no way Gunner’s teams are gonna fumble in the upcoming matchups — I've got France baggin' a win as easy as catchin' a cold in a Texas winter. So, Rafe's got Germany in the mix, but The Noisemaker's about to learn that soccer ain't just about makin' noise, it's about backin' some winners. Whatever happens next, you know Bubba G's got this thing locked like a safe in a bank vault."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Tightens Grip On Top Spot After Canada's Victory",
-      "subtitle": "35 match points solidify his rightful place at the summit.",
+      "headline": "Bubba G's Canada Triumphs, Devin Regrets Drafting South Africa",
+      "subtitle": "South Africa fails to score as Gunner secures five-point haul.",
       "match": "South Africa vs Canada",
       "date": "2026-06-29"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin Falls Behind In Standings As South Africa Comes Up Short",
-      "subtitle": "Ghost Pepper's choice of South Africa yields zero points once again.",
-      "match": "South Africa vs Canada",
+      "headline": "Mustard Boy's Brazil Expected to Shine as Zach Remains Fourth",
+      "subtitle": "Despite Brazil's potential, Zach's chances of climbing remain slim.",
+      "match": "Group F Preview",
       "date": "2026-06-29"
     },
     {
       "pundit": "dempsey",
-      "headline": "Mustard Boy Struggles As Brazil Pick Fails To Break Top Three",
-      "subtitle": "Zach's Tier 1 pick hasn't translated well into standings success.",
+      "headline": "The Backpass Assassin’s England Poised for Dominance in Upcoming Matches",
+      "subtitle": "Ranked third, Gayden looks to England for much-needed points boost.",
       "match": "Group F Preview",
       "date": "2026-06-29"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe Remains At Bottom Of Standings Despite Underdog Upsets",
-      "subtitle": "Young gun's drafting missteps overshadow rare moments of triumph.",
+      "headline": "Noisemaker’s Germany Set to Deliver, Rafe Continues to Flounder",
+      "subtitle": "Germany's potential performance undermined by Rafe's lackluster management skills.",
       "match": "Group F Preview",
       "date": "2026-06-29"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner dominates with 37 points—Rafe, the chaos kid, still in last place.",
-    "Rafe's Tier-1 Germany selection is a rare bright spot in his draft disaster.",
-    "Rafe vs. Gayden is a zero-sum family feud—Father-son ties with no edge.",
-    "Sim predictions crumble as 15-year-old Rafe disrupts with Mexico's winning streak."
+    "Devin's South Africa takes an early flight home from the Round of 32. Brutal.",
+    "Rafe’s Tier-4 Uzbekistan might as well be a forgotten sock under the couch.",
+    "Devin’s -6 against a teenager? That’s more embarrassing than losing your lunch money.",
+    "The sim's got losers winning and winners losing—it's like picking stocks blindfolded."
   ]
 }
