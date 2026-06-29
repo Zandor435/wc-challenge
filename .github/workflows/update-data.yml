@@ -139,6 +139,19 @@ jobs:
             exit 0
           fi
           python scoring.py --results data/live_results.json --out-dir site/data
+      - name: Resolve knockout schedule
+        # Fills the knockout fixtures in matches.csv (R32->Final) with the real
+        # teams once the group stage is complete, so the homepage "Today's Matches"
+        # hero, the email "Up Next" and the match-cover art stop showing TBD vs TBD.
+        # Reuses the SAME bracket engine as win_probability.py (sim/), reading the
+        # committed daily_results.json — so it RESHAPES existing scored data and is
+        # deliberately NOT gated on the fetch outcome (it must still run on a feed
+        # outage, like the narrative steps). It self-gates: before the groups finish
+        # the standings aren't final and it makes no changes, so it is safe ungated.
+        # Idempotent (overwrite-by-default); writes both the source and the served
+        # copy and only when the resolved fixtures actually changed.
+        run: |
+          python resolve_knockout_schedule.py
       - name: Update win probability timeline
         # Runs AFTER scoring. Locks the results scoring.py just consumed and
         # simulates the remaining matches forward (5,000 sims). --skip-if-empty
@@ -292,7 +305,7 @@ jobs:
           # on that missing pathspec aborts with exit 128 and kills the push.
           # Same guard covers site/assets/banners/dynamic (only created once a
           # dynamic banner is generated).
-          for p in site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers site/assets/banners/dynamic; do
+          for p in data/matches.csv site/data/matches.csv site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers site/assets/banners/dynamic; do
             [ -e "$p" ] && git add "$p"
           done
           if git diff --staged --quiet; then
