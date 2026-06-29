@@ -1340,6 +1340,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-29",
+      "matches": [
+        {
+          "date": "2026-06-29",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "Brazil",
+          "away": "Japan",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "Brazil 2-1 Japan",
+          "points": {
+            "Zach": 5.0,
+            "Gayden": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Brazil (Zach) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Japan (Gayden) +0"
+          ]
+        }
+      ]
     }
   ]
 }

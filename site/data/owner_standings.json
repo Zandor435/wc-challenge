@@ -14,6 +14,16 @@
       "rank": 1
     },
     {
+      "owner": "Zach",
+      "total_points": 30,
+      "breakdown": {
+        "match": 28.0,
+        "upset": 0,
+        "advancement": 2.0
+      },
+      "rank": 2
+    },
+    {
       "owner": "Devin",
       "total_points": 27,
       "breakdown": {
@@ -21,7 +31,7 @@
         "upset": 0,
         "advancement": 0
       },
-      "rank": 2
+      "rank": 3
     },
     {
       "owner": "Gayden",
@@ -29,16 +39,6 @@
       "breakdown": {
         "match": 24.0,
         "upset": 2.0,
-        "advancement": 0
-      },
-      "rank": 3
-    },
-    {
-      "owner": "Zach",
-      "total_points": 25,
-      "breakdown": {
-        "match": 25.0,
-        "upset": 0,
         "advancement": 0
       },
       "rank": 4

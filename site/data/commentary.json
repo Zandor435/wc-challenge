@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-29T18:45:54Z",
-  "source": "daily_results_2026-06-28",
-  "date": "2026-06-29",
-  "rotation": 18,
+  "generated": "2026-06-29T21:33:52Z",
+  "source": "daily_results_2026-06-29",
+  "date": "2026-06-30",
+  "rotation": 19,
   "pundit": {
-    "name": "Clint Dempsey",
-    "tone": "chill",
-    "color": "#28c060",
-    "take": "Yo, Gunner’s got his nose out in front — not sure if he’s got a secret strategy or just pickin’ teams like he picks his favorite BBQ joint. Canada just edged out South Africa, baggin' him a sweet 5 points, while Devin’s \"Ghost Pepper\" lineup lost the flame. Gunner sittin' comfy at 37 points like he knew DR Congo would save him from the gutter — what’s next, Bubba G? DR Congo takin' the Cup? I reckon he’s got a horseshoe somewhere, 'cause he’s almost got more luck than Mustard Boy’s got excuses for why Saudi Arabia ain’t gettin' them wins. \n\nMeanwhile, Zach’s still kickin' it with Brazil up his sleeve when they wake up, but he’s lettin' them other picks weigh him down like cement boots on a rainy Texas day. With no upsets in sight, his 25 points ain't scarin' no one. Gayden’s playin' that middle game like a pro — The Backpass Assassin probably wishes Jordan could score him more than 2 upset points. Look out, though, cause Rafe’s wild picks are only a point behind Zach. Imagine The Noisemaker bouncin’ back from three duds and stealin' the show. But hey, I got a feelin’ that Mexico’s gonna turn it up in Guadalupe, backin' Rafe with unexpected fire in front of their home crowd. \n\nWith Devin and his USA squad in a bit of a rut, maybe he'll bounce back in Foxborough next week. But I’m callin' it: Gunner’s France team is gonna have a field day in Houston, puttin’ on a clinic like the Tex-Mex at my favorite taco joint. Don’t sleep on Gayden’s England, though — they might just snatch the game plan and run with it. At the end of the day, though, these standings can flip faster than a pancake on a hot skillet. Stay tuned, y’all."
+    "name": "Alexi Lalas",
+    "tone": "bombastic",
+    "color": "#f4a423",
+    "take": "**Gayden, you call yourself 'The Backpass Assassin', but after Brazil burned your Japan pic like hot tea on a cold day, I think it's time you embrace your fate as 'The Misfire Master'.** Let me tell you something, Gayden. England may have some of the best young talent, but you can’t ride Harry Kane’s coattails forever. Yesterday, Zach’s Brazil left your Japan squad in the dust, as expected, but I've seen more heart from a cold cup of coffee than your draft strategy. Look at me, Gayden, if England doesn’t pull through in Arlington, it's time to question your loyalty to the Three Lions. So here's the deal: that game’s going nowhere good for you.\n\nGunner, \"Bubba G\", sitting pretty at the top of this fantasy pile with 37 points, but don't get too comfortable. France is all well and good, but you’ve wagered a lot on DR Congo playing like it's New Jersey’s Meadowlands miracle. What were you thinking going all in on them? I'll tell you what — you weren’t thinking. Your luck’s about to run out faster than a bag of Beignets at a New Orleans café, and today, it melts down to nothing.\n\nAnd Devin, \"Ghost Pepper\", your faith in Spain shows you've got spice, but Bosnia? Really? Let’s get real: adopting a Tier 3 lineup with the USA and Norway doesn’t scream ‘winner’ it screams ‘mid-table’. That’s not grit, Devin. That's a lack of imagination that even Kasper Schmeichel would stop dead. I predict another dry run for your pick.\n\nLastly, Rafe, \"The Noisemaker\", you’ve brought the chaos with Germany and fell flat, because right now, my friend, they’re the Volvo of international football — reliable but not designed to thrill. Are you even watching this tournament, or do you prepare these line-ups at random just to get a rise out of us? Look at me, you’re sitting at the bottom of the pile and you’re betting on Uzbekistan making a splash in Mexico City. You'll be lucky to not end up in the negative come next week. Ladies and gentlemen, I can assure you of one thing: today's fantasy plays will turn out to be more of a comedy show than a serious competition. Mic drop!"
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Canada win overshadowed by Gunner's zero upset strategy",
-      "subtitle": "Gunner scores five points without breaking a sweat or risking one.",
-      "match": "South Africa vs Canada",
-      "date": "2026-06-29"
+      "headline": "Zach's Brazil Victory Overshadows Gayden's Zero Point Strategy",
+      "subtitle": "Mustard Boy racks up points while Backpass Assassin defends team's honor.",
+      "match": "Brazil vs Japan",
+      "date": "2026-06-30"
     },
     {
       "pundit": "donovan",
-      "headline": "Noisemaker Rafe slips to last, blames coaching staff",
-      "subtitle": "Rafe insists soccer knowledge isn't necessary for a winning strategy.",
-      "match": "Current Standings Overview",
-      "date": "2026-06-29"
+      "headline": "Gunner's Senegal Faces Mysterious Foe in World Cup Showdown",
+      "subtitle": "Bubba G hopes points materialize against the formidable TBD squad.",
+      "match": "TBD vs TBD",
+      "date": "2026-06-30"
     },
     {
       "pundit": "dempsey",
-      "headline": "Devin's World Cup dreams stalled as Canada edges South Africa",
-      "subtitle": "Ghost Pepper sees potential points melt away in the Houston heat.",
-      "match": "South Africa vs Canada",
-      "date": "2026-06-29"
+      "headline": "Ghost Pepper Devin Still Waiting for That Upset Magic",
+      "subtitle": "Chillin' with zero upset points, looks more like a mild salsa.",
+      "match": "Group F Preview",
+      "date": "2026-06-30"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G's methodical climb to first leaves rivals baffled",
-      "subtitle": "Gunner attributes success to a strict no-upset policy.",
-      "match": "Current Standings Overview",
-      "date": "2026-06-29"
+      "headline": "Rafe's Managerial Genius Brings Uzbekistan's World Cup Adventure to Forefront",
+      "subtitle": "The Noisemaker maintains steadfast faith in teams yet to qualify.",
+      "match": "Group F Preview",
+      "date": "2026-06-30"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's sitting pretty at the top, but Rafe's chaos looms large.",
-    "Rafe's Tier-3 disaster draft is a masterclass in comedic incompetence.",
-    "Rafe's tied with Dad Gayden—Thanksgiving's going to need a referee.",
-    "The sim forgot to factor in 'kid with no soccer knowledge' chaos."
+    "Gayden's Japan and Devin's South Africa both crash out, a double dose of fail.",
+    "Rafe drafted three teams not even in the World Cup—pure rookie comedy gold.",
+    "Devin owns a negative score against everyone—call him the league's friendly punching bag.",
+    "Gunner slipped as top dog after Rafe entered—teen chaos rewrote the predictions."
   ]
 }
