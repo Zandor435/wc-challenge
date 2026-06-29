@@ -1,23 +1,23 @@
-### Gunner — 37 pts · 1st · Bubba G dominates the field
+### Gunner — 37 pts · 1st · Bubba G uncatchable
 
-**Bubba G** is living in a fantasy land, and it’s not just because of his taste in kits. Gunner's Canada defeats South Africa, securing a spot in the Round of 16 and padding his lead with a tasty five points. **Let's face it** — Gunner’s competitors need a miracle to stop this kid’s show.
+What can you say about **Bubba G**? The kid's lighting it up like the Vegas Strip. With Canada's win over South Africa, Gunner pockets five points, extending his lead and firmly planting his flag at the top. **If you’re one of the other guys chasing him, better stock up on miracle grow because Bubba G is in full bloom.**
 
-### Devin — 27 pts · 2nd · Ghost Pepper loses his spark
+### Devin — 27 pts · 2nd · Ghost Pepper cooled off
 
-**Devin**, the self-proclaimed fiery contender, just got iced out with South Africa crashing out embarrassingly against Canada. Sitting at 27 points and watching his golden boot hero Haaland carry the torch isn’t gonna cut it when your support teams are letting you down. **Devin, you better start lighting a fire under your squad or you'll be left tasting defeat.**
+**Devin’s** fire has flickered to an ember. The elimination of South Africa is a dagger to his squad’s heart, as he watches his once-promising prospects drift into dusk. Haaland's boots can't carry the team alone, Devin. **It's time to rekindle that flame or watch Gunner bask in the victory glow.**
 
-### Gayden — 26 pts · 3rd · Backpass Assassin plotting a comeback
+### Gayden — 26 pts · 3rd · Backpass Assassin on life support
 
-While the **Backpass Assassin** suffered a no-score day, Gayden remains in striking distance. England’s next match could be make or break, but it’s his underperforming squad that could really use a motivational halftime talk. **Gayden, don’t let your kid steal your spotlight at the dinner table**, because right now, your turkey’s getting cold.
+**Gayden**, your England bet might as well be a coin flip at this point. Sitting in third with no gain today, he needs a wake-up call that even Gordon Ramsay could appreciate. **The Backpass Assassin** is dangerously close to becoming a family punchline — can we get some hustle out there, Gayden? 
 
-### Zach — 25 pts · 4th · Mustard Boy failing to cut the mustard
+### Zach — 25 pts · 4th · Mustard Boy on a cold streak
 
-Zach unwaveringly holds the fourth position with no momentum in sight. His reliance on Brazil is beginning to look like a faltering romance — they may be hot, but they aren’t keeping the spark alive. **Mustard Boy, if you don’t switch up your game plan, you’ll be left looking like a soggy pretzel.**
+Zach can't seem to escape the fourth-place void, and it’s starting to look bleak. With no points today and Brazil failing to ignite, he's left wondering if his strategy needs an overhaul. **Mustard Boy, you might want to draught a bold new game plan before you drift completely out of the picture.**
 
-### Rafe — 24 pts · 5th · The Noisemaker still on mute
+### Rafe — 24 pts · 5th · The Noisemaker's silence is deafening
 
-**The Noisemaker** is slinking further into the shadows, unable to recover from his self-made draft disaster. With his current losing streak, Rafe’s attempt to turn this into a Cinderella story seems more pumpkin than coach. **Rafe, your father’s victory is looking more inevitable with each passing day — are you going to let him take the crown unchallenged?**
+**The Noisemaker** is running out of ways to make any meaningful sound. Continually seated at the bottom, Rafe’s pick flukes have done little to overturn his father’s dominance in their living room rivalry. **Rafe, you’ve got to flip the script before you are cemented as the punchline of this father-son saga.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin** vs. **The Noisemaker** isn't just a battle for family pride — it's a full-blown generational clash. Gayden might be sluggish today, but he's still ahead of his son Rafe, who remains in the basement of the leaderboard. **Rafe**, it's time to charge up the volume, or prepare for a Thanksgiving of jabs and Dad jokes that cut like a knife.
+In this high-stakes family drama, the generational clash between **The Backpass Assassin** and **The Noisemaker** continues to be the must-watch match-up. Gayden might not be in the best form, but he's still avoiding the basement his son is stuck in. **Rafe**, the clock is ticking, and Thanksgiving dinner will be here before you know it — do you really want to be the butt of all the Dad jokes?
