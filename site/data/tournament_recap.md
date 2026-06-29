@@ -1,23 +1,23 @@
-### Gunner — 37 pts · 1st · Bubba G reigning supreme
+### Gunner — 37 pts · 1st · Bubba G untouchable
 
-It’s not even funny anymore. **Bubba G** is still flying high above the rest, showing no signs of slowing down. Sorry, Devin — South Africa got the boot, and there goes another dream dashed by the soaring might of **Gunner**’s Canada. **The rest of you better get comfy because it's looking like Gunner's throne for the rest of this tournament.**
+**Gunner, a.k.a. Bubba G**, is not just leading this league, he's dancing on its grave. Canada’s triumph over South Africa added another 5 nails to the coffin of Devin's hopes. The rest of you might as well get out the lawn chairs and admire from a distance because Bubba G's lead is almost mythical at this point. **If you think you can catch him, you might as well try catching a unicorn.**
 
-### Devin — 27 pts · 2nd · Ghost Pepper evaporating fast
+### Devin — 27 pts · 2nd · Ghost Pepper needs a miracle
 
-**Devin**, what is happening over there? Your South Africa pick just got trashed by Gunner’s juggernaut, leaving **the Ghost Pepper**'s fantasy hopes on thin ice. Despite sitting second, a 14% chance of grabbing the trophy isn't comforting when you’re staring up at Gunner’s fortress. **Without some serious magic, Devin, you might just be left holding the bag of last hopes.**
+**Devin**, it's almost tragic how quickly your 2nd place feels like last. Watching your South Africa get dumped by Gunner's Canada must burn hotter than a Ghost Pepper should. You're facing a 21% win probability, but right now, it feels like 0.21%. **Consider this a wake-up call, Devin. This dream's getting crushed faster than your hopes for a trophy.**
 
-### Gayden — 26 pts · 3rd · The Backpass Assassin backpedaling
+### Gayden — 26 pts · 3rd · The Backpass Assassin stuck in neutral
 
-Once again, **Gayden** finds himself on the wrong end of a momentum shift. With his England hopes fading and no points today, **The Backpass Assassin** seems more like the backpedal artist. As if battling long-time rivals wasn’t enough, his own son is itching to dethrone him. **Better rethink your strategy, Gayden, or prepare for a family coup.**
+**Gayden**, the world keeps spinning while your points stay stagnant. England might be your knight in shining armor, but they’re more like a jester in this lineup. With a measly 26 points and no juice today, **The Backpass Assassin** needs to conjure some fantasy magic or face a familiar Thanksgiving dinner cold dish of humble pie. **Time to step it up before your son does the impossible and overtakes you.**
 
-### Zach — 25 pts · 4th · Mustard Boy marinating in mediocrity
+### Zach — 25 pts · 4th · Mustard Boy missing the spice
 
-**Zach**, if your Brazil can't save you, nothing will. **Mustard Boy** is still treading water with zero points today, while his once promising samba moves are now just a background beat. With Devin stumbling, this was your moment to surge — and you missed it. **If you don't find your rhythm fast, it’ll be Zach’s tournament of missed opportunities.**
+**Zach**, another day and still nothing sizzling. Brazil can only do so much while Czechia drags you down like an anchor in the deep blue. You’re marinating in more mediocrity while others lap you. **Mustard Boy**, if your Brazil doesn’t samba to the rescue soon, you’ll see a slow fade into fantasy oblivion. Step on the gas, mustard isn’t supposed to be bland. 
 
-### Rafe — 24 pts · 5th · The Noisemaker cranking up the volume
+### Rafe — 24 pts · 5th · The Noisemaker biding time
 
-**The Noisemaker** may be trailing, but you can still hear the rumbles of a comeback. **Rafe** is the wild card everyone underestimated, thanks to Mexico’s surprise performances. Sure, it’s been a tough streak, but with 9% champion odds, this kid isn’t quitting. **Gayden, your son is nipping at your heels and could very well be the narrative twist the league never saw coming.**
+**The Noisemaker** remains the wildcard of this league. **Rafe**, even with a 3-loss streak, you’ve shown tenacity that belies your 15 years and your chaotic draft misadventures. Gayden might have named you unwittingly, but if Mexico keeps performing, your ascent could turn into a roar that nobody expected. **Whatever happens, Dad better look out — Turkey might not be the only thing getting cooked this holiday season.**
 
 ### THE FATHER-SON SAGA
 
-The never-ending drama between **The Backpass Assassin** and **The Noisemaker** is reaching its peak. Gayden's stale England pick means Rafe’s unpredictable, yet oddly effective squad is closing in. Thanksgiving is going to be a battleground this year, where winning the fantasy league means much more than just bragging rights. **Gayden, watch out — your son might just serve you a slice of humble pie at the family table.**
+It's the plot twist everyone foresaw: the day **The Backpass Assassin** has to stare down his own flesh and blood, **The Noisemaker**. Gayden’s England limp along, while Rafe’s Mexico surprises with rhythm and flair. Thanksgiving will be more than a calorie showdown; it’s a face-off, and Gayden might just get served an extra helping of humility. **This fantasy world is young Rafe’s to command if he plays his cards right, so Gayden — heed the warning, or become the punchline.**
