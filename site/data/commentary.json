@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T04:35:27Z",
+  "generated": "2026-06-29T07:51:20Z",
   "source": "daily_results_2026-06-28",
   "date": "2026-06-29",
   "rotation": 18,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Bubba G's Canadian Maple Leafs are sproutin' points while Ghost Pepper's South African spice comes up bland.** Big boy Gunner \"Bubba G\" racked up another five points with Canada puttin' in work against Devin's South Africa, showin' everyone why he's top of the heap in this fantasy World Cup chaos. Meanwhile, Ghost Pepper's squad is colder than an Alaskan winter, barely showin' up when it counts. Now, lookin' ahead — with no specific matchups in play — you got that thick air in Houston and those unpredictable vibes in Foxborough; anything can happen, but I'm tellin' ya, DR Congo's gonna light it up like a frat party DJ. Mustard Boy Zach probably thinks Switzerland's gonna yodel their way to glory despite their Swiss cheese defense, but there ain't much promise there. And The Noisemaker, young Rafe, is still learnin' the ropes like a baby deer on ice; let's just hope he can find his way to double digits before the final whistle blows."
+    "take": "**Gunner's sittin' pretty on top while Rafe's still tryin' to figure out if soccer's played with a round ball or a triangle.** Gunner's boys just grabbed an easy 5 points with Canada over South Africa, like he knew some secret soccer voodoo. Meanwhile, \"The Noisemaker\" Rafe must've thought Germany was in a different tournament 'cause his picks ain't makin' much noise. Watch out for France, folks — they're gonna dance circles 'round whoever they face next, while Gayden continues his love affair with the backpass and might actually score... against himself.\n\nZach's Saudi paycheck FC is still puttin' in overtime, hopin' to buy their way out of Group A, while \"Ghost Pepper\" Devin watches Spain try to salsa their way past the USA. Expect Spain to spice it up, though, and unleash a heat Devin would appreciate more as Sriracha than as soccer. For now, Gunner's king of the hill — but like I said, Rafe's not even sure if he's on the right field, bless his heart."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Ghost Pepper's Spain Squad Poised to Underwhelm Fans Yet Again",
-      "subtitle": "Devin relies on Spain's history instead of their current form.",
-      "match": "Group F Preview",
+      "headline": "Gunner Secures Top Spot as Devin's South Africa Falters",
+      "subtitle": "\"Winning was the easy part,\" says Gunner as Devin struggles.",
+      "match": "South Africa vs Canada",
       "date": "2026-06-29"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy's Brazil Roster Expected to Sizzle In The Standings",
-      "subtitle": "Zach bets on Brazil to boost his last-place finish.",
+      "headline": "Rafe's World Cup Dream Slips as Germany Faces Uncertainty",
+      "subtitle": "Father's shadow looms large as Rafe sits at the bottom.",
       "match": "Group F Preview",
       "date": "2026-06-29"
     },
     {
       "pundit": "dempsey",
-      "headline": "Bubba G's Canada Triumphs Over South Africa, Keeps Top Spot Secure",
-      "subtitle": "Gunner collects points while others keep dreaming.",
-      "match": "South Africa vs Canada",
+      "headline": "Ghost Pepper's Strategic USA Pick Set to Warm the Pitch",
+      "subtitle": "Devin banking on home advantage as USA yet to play.",
+      "match": "Group F Preview",
       "date": "2026-06-29"
     },
     {
       "pundit": "lalas",
-      "headline": "The Noisemaker's German Team Set to Silence Critics Today",
-      "subtitle": "Rafe's strategy: draft powerhouses and hope for miracles.",
+      "headline": "Zach's Mustard Boy Tactics Leave Saudi Arabia Waiting for Miracle",
+      "subtitle": "Ranked fourth, Zach's hopes hinge on a tier 4 comeback.",
       "match": "Group F Preview",
       "date": "2026-06-29"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's cruising at the top; Devin's hanging by a thread with South Africa gone.",
-    "Rafe's Tier-1 Germany pulling more weight than his nonexistent soccer knowledge predicted.",
-    "Rafe's trashing Devin with a 6-point differential – Dad's not the only target.",
-    "Rafe's chaos playbook had Gunner's win odds sweating – 15-year-old soccer savant incoming?"
+    "Gunner's sitting pretty on top, but Devin's hoping his champion odds aren't ghosted.",
+    "Rafe's Tier-1 dependency is shockingly lower than his dad's disappointment every Thanksgiving.",
+    "Rafe vs. Devin: Chaos Agent here to school Mr. Ghost Pepper with a six-point swing.",
+    "Sim can't predict a dad's nightmare; Gayden's worst-case scenario coming true in real time."
   ]
 }
