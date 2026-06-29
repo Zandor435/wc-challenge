@@ -1,23 +1,23 @@
-### Gunner — 37 pts · 1st · Bubba G's runaway train
+### Gunner — 37 pts · 1st · Bubba G's freight train
 
-**Bubba G**, they say fortune favors the bold, and bold you certainly are. Canada crushed South Africa while Devin was left holding zeros — and you just keep stacking those points like it’s child’s play. Sitting at a commanding 37 points, you're making this fantasy league look like a walk in the park. **If you keep this pace, Gunner, the only competition left will be you versus any semblance of humility.**
+**Bubba G**, you’re just rolling over the competition. Canada’s win over South Africa has not only kept the train on track but supercharged it with a knockout punch. With a 33% chance of taking it all, this Cinderella story isn’t just alive; it’s stomping through the ballroom. **Keep plowing ahead, Gunner, because at this pace, humility will be left at the starting line.**
 
-### Devin — 27 pts · 2nd · Ghost Pepper on ice
+### Devin — 27 pts · 2nd · Ghost Pepper's flicker of hope
 
-**Devin**, the star cook of spicy narratives, but right now all you've got is a cold dish. South Africa's exit without a point has left you standing still in second place. With a 21% win chance, you're not out of the running yet, but you'd best hustle before Bubba G leaves you eating his dust. **The Ghost Pepper’s heat is in need of a serious rekindle, or you'll be ghosting the leaderboard soon.**
+**Devin**, you’re still hanging onto second by the skin of your teeth. South Africa’s exit was a gut punch, leaving you vulnerably stagnant in a pool where Bubba’s momentum is merciless. With a 21% chance of victory, the Ghost Pepper needs to find the flame before this cold streak turns into a permanent freeze. **Time to bring that heat back, or you'll fade into fantasy irrelevance.**
 
-### Gayden — 26 pts · 3rd · The Backpass Assassin still searching
+### Gayden — 26 pts · 3rd · The Backpass Assassin's conundrum
 
-**Gayden**, you're 26 points deep into this tournament, but those killer instincts have yet to come out of hiding. England stands as your fortress, but the rest of your squad needs to wake up or you'll be counting on hope more than strategy. The Backpass Assassin is playing with a loaded deck; it’s time to **quit being the jester and start playing like a real threat**. Maybe focus more on your own game instead of your son’s antics.
+**Gayden**, you took a step back today, stuck at 26 points while Bubba G steamed ahead. England might be your fortress, but your lineup is as unreliable as your son's promise to take out the trash. The so-called **Backpass Assassin needs to stop passing the buck and start banging in the points**. Forget the father-son feud—focus on the scoreboard before Thanksgiving schadenfreude becomes your reality.
 
-### Zach — 25 pts · 4th · Mustard Boy’s condiment crisis
+### Zach — 25 pts · 4th · Mustard Boy's missed opportunity
 
-**Zach**, at 25 points, you're lagging just behind the leaders like a ketchup bottle refusing to flow. Brazil is your ace, but the rest of your lineup is dripping into mediocrity. You need to shake things up, Mustard Boy, and stop waiting for others to falter. **The fantasy world is brutal and rewards action — don't let your condiment kingdom crumble.**
+**Zach**, you remain entangled in fourth like ketchup stuck in the bottle neck. Brazil's your golden goose, but the rest of your squad is laying eggs instead of goals. If you want to move up, Mustard Boy, start squeezing out those points and shake off the lethargy. **Sitting still is for the condiment shelf, not fantasy rankings.**
 
-### Rafe — 24 pts · 5th · The Noisemaker’s silent film
+### Rafe — 24 pts · 5th · The Noisemaker's silent protest
 
-**Rafe**, the marvel of youthful chaos, the underdog with a love for long odds, and right now, you're bottom of the pack. Mexico's points can't hide your losing streak any longer. Your draft disaster tale is funny, but **it's time for The Noisemaker to crank it up, or you’ll have silence as a soundtrack.** Remember, **The Backpass Assassin is just waiting to mock your moves at the dinner table.**
+**Rafe**, your antics might delight at the dinner table, but the fantasy stage is telling a different tale. Losing streaks and draft blunders have dropped you to the league's basement. Mexico’s heroics aren't enough; you need something louder than a whisper if you want to climb out of last. **The Noisemaker needs to find some decibels fast before his father's gloating becomes a weekly affair.**
 
 ### THE FATHER-SON SAGA
 
-In the war at home, **The Backpass Assassin** and **The Noisemaker** continue their intense rivalry. Rafe’s rookie mistakes might get attention, but Gayden’s ongoing struggle to outshine his son is the real headline here. Thanksgiving is going to be a circus act, where points aren't just numbers — they're tickets to family dominance. Gayden, if you want to reclaim the family throne, **it’s time to show your son the difference between noise and substance.**
+Well, well, well—**The Backpass Assassin** and **The Noisemaker** just can’t seem to shake each other off! Rafe, your underdog story is captivating, but some basic soccer acumen would help. Gayden, you’ve built quite a challenge within your own household, but instead of fuming over Rafe's chaos, you should own the family narrative by turning the tables. A final word: **dominate the scores, or watch the sword of Thanksgiving mockery hang over your head.**
