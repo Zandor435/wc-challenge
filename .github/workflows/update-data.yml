@@ -85,9 +85,13 @@ jobs:
       # 0-match clobber guard), just with the gate inserted.
       - name: Fetch live results
         # Fixtures now come from the free worldcup26.ir feed (no auth) — the default
-        # source in fetch_results.py. API_FOOTBALL_KEY is intentionally NOT wired in:
-        # the fetch must not depend on the paid key. The secret stays in the repo so
-        # `--source api-football` remains available as a manual fallback.
+        # source in fetch_results.py. The primary fetch still does NOT depend on the
+        # paid key; API_FOOTBALL_KEY is wired through only for the on-demand penalty
+        # fallback (resolve_level_knockouts): when a knockout ends level the free feed
+        # carries no shootout aggregate, so the key is consulted ONLY for those few
+        # fixtures and ONLY when data/knockout_overrides.json has no entry. If the
+        # secret is unset it renders empty and fetch_results.py falls back to the
+        # built-in challenge key (so an empty value can't break auth).
         #
         # continue-on-error: a feed outage must NOT take the whole pipeline dark.
         # worldcup26.ir drops connections for hours at a time; on 2026-06-21 a 6h+
@@ -101,6 +105,8 @@ jobs:
         # in both modes. Scoring needs new data; commentary does not.
         id: fetch
         continue-on-error: true
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --out data/live_results.json
       - name: Note feed-outage bypass
@@ -139,6 +145,19 @@ jobs:
             exit 0
           fi
           python scoring.py --results data/live_results.json --out-dir site/data
+      - name: Resolve knockout schedule
+        # Fills the knockout fixtures in matches.csv (R32->Final) with the real
+        # teams once the group stage is complete, so the homepage "Today's Matches"
+        # hero, the email "Up Next" and the match-cover art stop showing TBD vs TBD.
+        # Reuses the SAME bracket engine as win_probability.py (sim/), reading the
+        # committed daily_results.json — so it RESHAPES existing scored data and is
+        # deliberately NOT gated on the fetch outcome (it must still run on a feed
+        # outage, like the narrative steps). It self-gates: before the groups finish
+        # the standings aren't final and it makes no changes, so it is safe ungated.
+        # Idempotent (overwrite-by-default); writes both the source and the served
+        # copy and only when the resolved fixtures actually changed.
+        run: |
+          python resolve_knockout_schedule.py
       - name: Update win probability timeline
         # Runs AFTER scoring. Locks the results scoring.py just consumed and
         # simulates the remaining matches forward (5,000 sims). --skip-if-empty
@@ -292,7 +311,7 @@ jobs:
           # on that missing pathspec aborts with exit 128 and kills the push.
           # Same guard covers site/assets/banners/dynamic (only created once a
           # dynamic banner is generated).
-          for p in site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers site/assets/banners/dynamic; do
+          for p in data/matches.csv site/data/matches.csv site/data/*.json site/data/tournament_recap.md commentary.json site/assets/email site/assets/match-covers site/assets/banners/dynamic; do
             [ -e "$p" ] && git add "$p"
           done
           if git diff --staged --quiet; then
