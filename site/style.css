@@ -339,7 +339,8 @@ h1, h2, .brand-word, .mainnav a, .block-head h2, .ticker-label, .leaguebar-name 
   color: #dfe3ea; background: var(--surface-3);
   border-left: 3px solid var(--c, var(--blue-br)); border-radius: 3px; padding: 1px 6px; white-space: nowrap;
 }
-.yr-score { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.2rem; font-variant-numeric: tabular-nums; color: #fff; padding: 0 2px; flex: 0 0 auto; }
+.yr-score { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.2rem; font-variant-numeric: tabular-nums; color: #fff; padding: 0 2px; flex: 0 0 auto; display: inline-flex; align-items: baseline; gap: 5px; }
+.yr-pen { font-family: inherit; font-weight: 600; font-size: 0.62rem; letter-spacing: .04em; text-transform: uppercase; color: var(--blue-br); white-space: nowrap; }
 .yr-pts { display: flex; gap: 10px; flex-wrap: wrap; }
 .yr-pt { font-size: .78rem; color: #cdd2da; border-left: 3px solid var(--c, var(--blue-br)); padding-left: 8px; white-space: nowrap; }
 .yr-pt b { color: #fff; font-weight: 700; }

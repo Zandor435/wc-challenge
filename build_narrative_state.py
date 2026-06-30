@@ -95,9 +95,14 @@ def match_phase_key(m):
 
 
 def winner_loser(m):
-    """Return (winner_team, loser_team) or (None, None) for a draw."""
+    """Return (winner_team, loser_team) or (None, None) for a draw. A level
+    knockout decided on penalties carries the advancing side as an explicit
+    `winner` (preferred) or via the shootout score."""
     hs, as_ = m["home_score"], m["away_score"]
     if hs == as_:
+        if m.get("winner") in (m["home"], m["away"]):
+            w = m["winner"]
+            return (w, m["away"] if w == m["home"] else m["home"])
         pw = m.get("pen_home", 0) - m.get("pen_away", 0)
         if pw == 0:
             return None, None  # genuine draw (group stage)

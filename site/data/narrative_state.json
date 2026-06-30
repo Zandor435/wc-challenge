@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T18:41:50Z",
+  "generated": "2026-06-30T19:00:00Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -14,6 +14,16 @@
       {
         "team": "South Africa",
         "owner": "Devin",
+        "round": "Round of 32"
+      },
+      {
+        "team": "Germany",
+        "owner": "Rafe",
+        "round": "Round of 32"
+      },
+      {
+        "team": "Netherlands",
+        "owner": null,
         "round": "Round of 32"
       },
       {
@@ -75,9 +85,9 @@
       "win_probability": 0.5,
       "champion_probability": 0.21,
       "streak": {
-        "type": "D",
-        "length": 1,
-        "label": "D1"
+        "type": "W",
+        "length": 3,
+        "label": "W3"
       },
       "best_team": {
         "team": "Morocco",
@@ -189,9 +199,9 @@
       "win_probability": 0.02,
       "champion_probability": 0.02,
       "streak": {
-        "type": "D",
-        "length": 1,
-        "label": "D1"
+        "type": "L",
+        "length": 4,
+        "label": "L4"
       },
       "best_team": {
         "team": "Mexico",
@@ -813,6 +823,22 @@
       "owner": "Devin",
       "round": "Round of 32",
       "description": "South Africa (Devin) eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-06-29",
+      "team": "Germany",
+      "owner": "Rafe",
+      "round": "Round of 32",
+      "description": "Germany (Rafe) eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-06-29",
+      "team": "Netherlands",
+      "owner": null,
+      "round": "Round of 32",
+      "description": "Netherlands eliminated in the Round of 32"
     },
     {
       "type": "elimination",
