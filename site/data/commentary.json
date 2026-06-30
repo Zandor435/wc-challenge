@@ -1,48 +1,48 @@
 {
-  "generated": "2026-06-30T18:41:50Z",
-  "source": "daily_results_2026-06-29",
-  "date": "2026-06-30",
-  "rotation": 19,
+  "generated": "2026-06-30T21:35:16Z",
+  "source": "daily_results_2026-06-30",
+  "date": "2026-07-01",
+  "rotation": 20,
   "pundit": {
-    "name": "Alexi Lalas",
-    "tone": "bombastic",
-    "color": "#f4a423",
-    "take": "**Let me tell you something, \"Mustard Boy,\" you have the audacity to draft Brazil and yet you're sitting there in second place like a deer in headlights.** Zach, Brazil may have carried you with a win over Japan yesterday, but being second place is like celebrating a participation trophy. Germany just drew with Paraguay, giving nothing to Rafe, \"The Noisemaker,\" who’s managing his fantasy team with the precision of a blindfolded toddler in a candy store. Next up, we have the likes of Gunner, “Bubba G,” riding high with Morocco’s draw against the Dutch, but don't let that fool you; his advancement points are as empty as a diving pool with no water. I'm calling it now: Devin, \"Ghost Pepper,\" with Spain and the USA, will burst under today's pressure like a soggy popcorn kernel in Arlington. And Gayden, \"The Backpass Assassin,\" your England squad better hope the next match doesn't go to penalties, or you'll be down and out faster than a World War Three prediction. Look at me now: You all think you're playing a fantasy game, but the reality is you're living a nightmare of your own making. Bam! Mic drop."
+    "name": "Eric Wynalda",
+    "tone": "arrogant",
+    "color": "#e2231a",
+    "take": "**Gunner proves that even a broken clock is right twice a day, while Gayden continues to define soccer ignorance.**\n\nAlright, \"Bubba G,\" looks like you've lucked into the top spot of this fantasy pool — but let's get real, it's like a blind squirrel finding a nut. Your DR Congo pick against \"The Backpass Assassin's\" England is just a hilarious mismatch. England should dominate this sideshow, and it'll be another reason to question the logic behind Gayden's team selections. Did you pick those teams based on their names alone, hoping they’d magically become giants? You're wrong, that's not how this works, and frankly, this is a joke.\n\nMoving on to Devin, or \"Ghost Pepper,\" who thinks drafting his home country the USA alongside Bosnia somehow makes sense. Sure, you've got Spain in your pocket, but this USA vs. Bosnia matchup is an internal head-scratcher. You're playing alone, buddy! It's like you've set up a scrimmage where nobody wins. Predicting USA to take this one just because Bosnia is still finding its feet on the world stage. Face it, Devin, you're not breaking through with these middle-of-the-road picks.\n\nSo, there you have it. Gunner sits at the top, confirming that his success is a fluke of mediocrity, while Gayden and Devin continue to flounder in their own self-inflicted incompetence. Anyone who thinks otherwise clearly never played in a World Cup, and definitely never rubbed shoulders with the greats."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Bubba G Consolidates Lead Despite Morocco's Draw Against Netherlands",
-      "subtitle": "Gunner applauds his team's ability to secure points without actually winning.",
-      "match": "Netherlands vs Morocco",
-      "date": "2026-06-30"
+      "headline": "Gayden plots bold England strategy, despite no advancement points",
+      "subtitle": "The Backpass Assassin committed to keeping the 'no advancement' streak alive.",
+      "match": "England vs DR Congo",
+      "date": "2026-07-01"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy's Brazil Saves Face With Narrow Victory Over Japan",
-      "subtitle": "Zach attributes success to Brazilian flair, saves drafts for actual mustard.",
-      "match": "Brazil vs Japan",
-      "date": "2026-06-30"
+      "headline": "Zach remains hopeful as Saudi Arabia poised for World Cup glory",
+      "subtitle": "Mustard Boy's blind optimism is only surpassed by Saudi Arabia's chances.",
+      "match": "Group F Preview",
+      "date": "2026-07-01"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's Steady Third Place Streak Likely to Continue Uninterrupted",
-      "subtitle": "Devin excels at maintaining the calm, unwavering mediocrity of bronze.",
-      "match": "Group F Preview",
-      "date": "2026-06-30"
+      "headline": "Devin prepares to dominate his own match with USA vs Bosnia",
+      "subtitle": "Ghost Pepper set to secure victory over himself in Seattle showdown.",
+      "match": "USA vs Bosnia",
+      "date": "2026-07-01"
     },
     {
       "pundit": "lalas",
-      "headline": "The Noisemaker's Standstill with Paraguay Keeps Valuable Zero-Point Tradition Alive",
-      "subtitle": "Rafe enjoys the view from last place, seeing it as a fresh perspective.",
-      "match": "Germany vs Paraguay",
-      "date": "2026-06-30"
+      "headline": "Gunner eyes guaranteed points with DR Congo facing England",
+      "subtitle": "Bubba G confident in defying logic with a tier-four masterpiece.",
+      "match": "England vs DR Congo",
+      "date": "2026-07-01"
     }
   ],
   "rome_analytics_quotes": [
-    "Devin's South Africa dream crushed before he even got to the dessert round.",
-    "Gayden's Tier-1 dependency is paying dividends like a broken vending machine.",
-    "Gunner mows down Devin with an eight-point differential buzzsaw.",
-    "Rafe's chaos agent act is wrecking the model's prediction party."
+    "Gayden's squad crashes harder than a teenager's curfew.",
+    "Rafe drafted a ghost town, but Jordan's still haunting Gayden's dreams.",
+    "Rafe's got Devin's number, and it's not even close: 6-0 shutout.",
+    "The sim had more faith in Rafe's picks than good sense would allow."
   ]
 }

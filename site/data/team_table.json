@@ -11,16 +11,16 @@
       "points": 7.0
     },
     {
-      "team": "USA",
+      "team": "Norway",
       "owner": "Devin",
       "tier": 2,
-      "W": 2,
+      "W": 3,
       "D": 0,
       "L": 1,
-      "points": 6.0
+      "points": 11.0
     },
     {
-      "team": "Norway",
+      "team": "USA",
       "owner": "Devin",
       "tier": 2,
       "W": 2,
@@ -70,7 +70,7 @@
       "tier": 2,
       "W": 2,
       "D": 0,
-      "L": 1,
+      "L": 2,
       "points": 6.0
     },
     {

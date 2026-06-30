@@ -1,23 +1,23 @@
-### Gunner — 42 pts · 1st · Bubba G's fortress gets a new tower
+### Gunner — 42 pts · 1st · Bubba G's castle stands strong
 
-**Bubba G** continues to dominate this castle of competition with Morocco advancing past the Netherlands. **It's clear Gunner's crafted a medieval fortress in this league with Morocco as his chief knight.** With each victory, he's smelting another link in the chainmail that's guarding his lead — good luck breaking through that, challengers!
+**Bubba G** remains atop the mountain, staring down at the mere mortals trying to climb their way up. **Gunner's fortress is proving impenetrable with France and Morocco holding the line like seasoned veterans.** If anyone hopes to dethrone this king, they'll need more than a miracle — they'll need an army.
 
-### Zach — 30 pts · 2nd · Mustard Boy won't go gentle
+### Devin — 32 pts · 2nd · Ghost Pepper reignites
 
-**Zach** and his Brazilian blitzkrieg aren't going anywhere, and Brazil's victory over Japan just secured him another 5 points. **Mustard Boy is keeping his foot on the pedal — Bubba G better watch his rearview, because Zach's coming in hot.** As long as the Samba stays strong, Zach's title hopes linger in the atmosphere.
+**Devin**’s campaign is sizzling once more after Norway's victory over Ivory Coast. **Ghost Pepper doesn't just burn—he scorches, with Erling Haaland leading the golden boot race.** Devin's got the firepower, but he's got to sustain it if he wants to light up Bubba G’s fortress.
 
-### Devin — 27 pts · 3rd · Ghost Pepper cools for now
+### Zach — 30 pts · 3rd · Mustard Boy in neutral
 
-**Devin** might find himself feeling the heat of disappointment as he watches Gunner and Zach pull ahead. **Ghost Pepper once offered fiery prospects, but now they seem to be cooling faster than expected.** It’s time for Spain and Haaland to reignite Devin’s campaign before it's too late.
+**Zach** and his Brazilian juggernaut speedster is momentarily stuck in neutral with no points to show today. **Mustard Boy better get his spicy game back on track or risk being left behind in this mustard race.** Zach's Samba party needs another beat — or it might end sooner than expected.
 
-### Gayden — 26 pts · 4th · The Backpass Assassin faces domestic turmoil
+### Gayden — 26 pts · 4th · The Backpass Assassin under siege
 
-**Gayden**, it's looking like you're plummeting faster than Japan's World Cup dreams. **The Backpass Assassin is taking gut punches from his own household, losing points faster than he can make them.** England might be the last trick up your sleeve — better unleash it before the family dinner turns into an inquisition.
+**Gayden**, after watching both Japan and Ivory Coast pack their bags, finds himself deep in the trenches. **The Backpass Assassin is desperately searching for a way to stop the bleeding.** England is his last bastion of hope; otherwise, Gayden's season might end in a family-dinner embarrassment.
 
-### Rafe — 24 pts · 5th · The Noisemaker's roar quiets
+### Rafe — 24 pts · 5th · The Noisemaker's silence deafening
 
-**Rafe**, your Germany’s draw with Paraguay isn't gonna cut it, but you're still hanging on just enough to **keep the old man sweating.** **The Noisemaker loves making things chaotic, but maybe this time, a bit more strategy could prevent you from being just another subplot in this father's saga.**
+**Rafe**, you've been outgunned and outmaneuvered, as your Germany has been sent home packing. **The Noisemaker finally got the volume turned down in this cutthroat competition.** Still, with Mexico and Ecuador around, can this chaos agent make one last noise before he's snuffed out?
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin and The Noisemaker are set for a Thanksgiving clash that might put every turkey in the nation to shame.** Gayden's sinking ship is riddled with holes while young Rafe, once the league's wildcard punchline, is doggedly staying in the mix. **If Rafe swings another upset, this holiday is going to be more awkward than watching dad dance at prom.**
+**Rafe's early mistakes and late comebacks have built up this dramatic father-son clash like a classic Hollywood tale.** With Germany gone and Gayden's squad crumbling, the Thanksgiving table stakes have never been higher. **Can The Noisemaker pipe up one last time, or will The Backpass Assassin reclaim his rightful place as the family's soccer king?** This saga isn't over, but it’s Gayden’s to fumble and Rafe’s to snatch.

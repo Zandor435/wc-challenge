@@ -1401,6 +1401,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-30",
+      "matches": [
+        {
+          "date": "2026-06-30",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "Ivory Coast",
+          "away": "Norway",
+          "home_score": 1,
+          "away_score": 2,
+          "score": "Ivory Coast 1-2 Norway",
+          "points": {
+            "Devin": 5.0,
+            "Gayden": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Norway (Devin) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Ivory Coast (Gayden) +0"
+          ]
+        }
+      ]
     }
   ]
 }
