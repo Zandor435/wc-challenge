@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T00:53:57Z",
+  "generated": "2026-06-30T04:29:04Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Round of 32",
     "is_preseason": false,
     "matchdays_played": 19,
-    "matches_played": 75,
-    "matches_remaining": 29,
+    "matches_played": 76,
+    "matches_remaining": 28,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -34,7 +34,7 @@
         "D": 7,
         "L": 5
       },
-      "win_probability": 0.23,
+      "win_probability": 0.19,
       "champion_probability": 0.17,
       "streak": {
         "type": "W",
@@ -65,27 +65,27 @@
     "Gunner": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 37,
-      "points_today": 0,
+      "total_points": 42,
+      "points_today": 5,
       "record": {
-        "W": 10,
+        "W": 11,
         "D": 5,
         "L": 4
       },
-      "win_probability": 0.4,
-      "champion_probability": 0.19,
+      "win_probability": 0.5,
+      "champion_probability": 0.21,
       "streak": {
-        "type": "W",
-        "length": 2,
-        "label": "W2"
+        "type": "D",
+        "length": 1,
+        "label": "D1"
       },
       "best_team": {
-        "team": "France",
-        "tier": 1,
-        "points": 9,
+        "team": "Morocco",
+        "tier": 2,
+        "points": 12,
         "record": {
           "W": 3,
-          "D": 0,
+          "D": 1,
           "L": 0
         }
       },
@@ -110,8 +110,8 @@
         "D": 3,
         "L": 9
       },
-      "win_probability": 0.12,
-      "champion_probability": 0.1,
+      "win_probability": 0.1,
+      "champion_probability": 0.11,
       "streak": {
         "type": "L",
         "length": 2,
@@ -148,7 +148,7 @@
         "D": 3,
         "L": 8
       },
-      "win_probability": 0.22,
+      "win_probability": 0.19,
       "champion_probability": 0.15,
       "streak": {
         "type": "L",
@@ -187,7 +187,7 @@
         "L": 11
       },
       "win_probability": 0.02,
-      "champion_probability": 0.01,
+      "champion_probability": 0.02,
       "streak": {
         "type": "D",
         "length": 1,
@@ -773,7 +773,7 @@
       "date": "2026-06-29",
       "points": {
         "Zach": 5,
-        "Gunner": 0,
+        "Gunner": 5,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
@@ -782,7 +782,7 @@
   ],
   "dependency_index": {
     "Zach": 0.4,
-    "Gunner": 0.24,
+    "Gunner": 0.21,
     "Gayden": 0.27,
     "Devin": 0.26,
     "Rafe": 0.25
@@ -875,10 +875,10 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -3,
+        "Zach": -2,
         "Gunner": -3,
         "Gayden": 3,
-        "Devin": 0,
+        "Devin": -1,
         "Rafe": 3
       }
     },
@@ -1413,14 +1413,14 @@
       "date": "2026-06-29",
       "points": {
         "Zach": 30,
-        "Gunner": 37,
+        "Gunner": 42,
         "Gayden": 26,
         "Devin": 27,
         "Rafe": 24
       },
       "points_today": {
         "Zach": 5,
-        "Gunner": 0,
+        "Gunner": 5,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0

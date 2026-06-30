@@ -1365,6 +1365,23 @@
           "date": "2026-06-29",
           "stage": "knockout",
           "round": "R32",
+          "home": "Netherlands",
+          "away": "Morocco",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Netherlands 1-1 Morocco",
+          "points": {
+            "Gunner": 5.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Morocco (Gunner) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Netherlands undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-29",
+          "stage": "knockout",
+          "round": "R32",
           "home": "Brazil",
           "away": "Japan",
           "home_score": 2,

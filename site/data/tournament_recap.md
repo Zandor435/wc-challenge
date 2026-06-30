@@ -1,23 +1,23 @@
-### Gunner — 37 pts · 1st · Bubba G hangs on
+### Gunner — 42 pts · 1st · Bubba G back in business
 
-**Bubba G**, you’re still gliding by on your early momentum. But the freight train has hit the brakes, as you're fresh out of points today. Your grip on first may feel secure, but **with Mustard Boy's hot sauce breathing down your neck, that throne is starting to sweat.** Get back on track, or become this league's most tragic "what could've been" story.
+**Bubba G**, you're back to doing what you do best: winning. Morocco's triumph over the Dutch lined your pockets with an extra 5 points, showing that the freight train's back on track. **The key to your kingdom lies in Morocco's Cinderella run**, but don't get too comfy. The target on your back is brighter than ever, and Zach is storming your gates with Brazil's samba swagger.
 
-### Zach — 30 pts · 2nd · Mustard Boy's bombardment
+### Zach — 30 pts · 2nd · Mustard Boy's fiery pursuit
 
-**Zach**, the rocket is gaining altitude. Brazil's win over Japan didn't just boost your points—it catapulted your championship dreams into the stratosphere with 5 solid points. Your ascent from condiment obscurity to near-supremacy **is rewriting the spicy script**, and **Bubba G better brace himself, 'cause Mustard Boy's coming in hot.** Keep the heat on, and the summit's in sight.
+**Zach**, Brazil just handed you the ladder to success, and you're climbing it like a champ. That Round of 32 win over Japan keeps your hopes blazing hot, with another 5 points stoking the fire. **Mustard Boy's not just bringing the heat; he's bringing the whole kitchen**, and with championship probabilities rising, Gunner should be ready for a spicy showdown.
 
-### Devin — 27 pts · 3rd · Ghost Pepper's fading flame
+### Devin — 27 pts · 3rd · Ghost Pepper's simmering turn
 
-**Devin**, your grip on glory is slipping like a greased-up pig. Without South Africa, your once-blazing trail is now little more than a smoldering wick. Despite the fading flame, you still have a respectable champion probability—buckle up and crank up that heat before the others pull clear. **Ghost Pepper, you're too good to fizzle out.**
+**Devin**, the flame might not be roaring, but the embers are alive. Losing South Africa stung, yet you're still in the mix with Spain's precision. **Ghost Pepper, it's time to drop the ghost and amp up the heat**, or watch the leaders roast you from the top.
 
-### Gayden — 26 pts · 4th · The Backpass Assassin on the brink
+### Gayden — 26 pts · 4th · The Backpass Assassin's shadow bout
 
-**Gayden**, the **Backpass Assassin** has somehow managed to hit a self-imposed roadblock. Japan's knockout spells disaster, leaving you languishing in mediocrity. The path to redemption is narrower than ever, and with your son Rafe still nipping at your heels, you better **wake up or Thanksgiving will serve you a side of humble pie.**
+**Gayden**, the clock's ticking, and Japan's exit just punched a hole in your game plan. The once-feared **Backpass Assassin** seems more like a self-backstabbing debacle these days. When will you realize this chilling truth: the only assassin left is your own son, who's inching ever closer? **Thanksgiving might bring more than turkey to the table this year, maybe humility.**
 
-### Rafe — 24 pts · 5th · The Noisemaker's defiant echo
+### Rafe — 24 pts · 5th · The Noisemaker's lurking storm
 
-**Rafe**, the Noisemaker might be experiencing a quiet day, but you're far from silent. Your journey from draft calamity to competitive chaos continues to bemuse and disrupt. With a standing as the youngest contender, you've garnered respect where there once was skepticism. **Keep causing those tremors, Rafe, 'cause nothing's more terrifying than an unpredictable wild card.**
+**Rafe**, while today’s storm might have calmed, the Noisemaker is still drumming for attention. Sure, Germany's tie with Paraguay held you scoreless, but you've shown us time and again that the next upset is always around the corner. **Keep brewing that chaos, and let the others hear your thunder — because silence is never the end.**
 
 ### THE FATHER-SON SAGA
 
-The **Backpass Assassin** vs. **Noisemaker** tale rages on with no signs of cooling off. Gayden's struggles are now in stark contrast to Rafe's rise from chaotic draft ruins. As the league watches this familial face-off, the drama is as rich as the Thanksgiving gravy simmering back home. Gayden, **you might want to rethink that seating arrangement at the dinner table, because sharing it with the Noisemaker could get spicy** if you don't turn this around fast.
+In this ongoing duel of wills, the **Backpass Assassin** is discovering the lurking danger of his own progeny. While Gayden flounders with elimination woes, Rafe's unpredictability keeps him relevant at every twist and turn. The league is watching this narrative unfold as the tension stacks up like Thanksgiving leftovers. **The Noisemaker isn't just a bystander — he's a storm in the making**, and Gayden, you better brace for impact.
