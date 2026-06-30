@@ -1348,6 +1348,23 @@
           "date": "2026-06-29",
           "stage": "knockout",
           "round": "R32",
+          "home": "Germany",
+          "away": "Paraguay",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Germany 1-1 Paraguay",
+          "points": {
+            "Rafe": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Paraguay undrafted, no points",
+            "KO LOSS: Germany (Rafe) +0"
+          ]
+        },
+        {
+          "date": "2026-06-29",
+          "stage": "knockout",
+          "round": "R32",
           "home": "Brazil",
           "away": "Japan",
           "home_score": 2,
