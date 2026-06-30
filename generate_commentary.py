@@ -676,10 +676,22 @@ def format_finished_results(daily):
     for m in day["matches"]:
         score = m.get("score") or (
             f'{m.get("home")} {m.get("home_score")}-{m.get("away_score")} {m.get("away")}')
+        # A level knockout decided on penalties is NOT a draw — spell out who
+        # advanced so the pundits never call it one (the score alone reads 1-1).
+        if m.get("decided_by") == "penalties" and m.get("winner"):
+            pk = (f' ({m["pen_home"]}-{m["pen_away"]} pens)'
+                  if m.get("pen_home") is not None and m.get("pen_away") is not None
+                  else "")
+            score += f' — {m["winner"]} won on penalties{pk}, {_loser(m)} eliminated'
         pts = m.get("points") or {}
         tag = ", ".join(f"{o} {p:+g}" for o, p in pts.items())
         lines.append(f"- {score}" + (f"  [{tag} pts]" if tag else ""))
     return day["date"], "\n".join(lines)
+
+
+def _loser(m):
+    """The eliminated side of a penalty-decided knockout."""
+    return m["away"] if m.get("winner") == m["home"] else m["home"]
 
 
 def todays_fixtures(rows, today):
