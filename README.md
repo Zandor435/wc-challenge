@@ -20,6 +20,7 @@ data/
   draft_board.json      4 owners × 6 teams
   tiers.json            all 48 teams tiered (1=strong … 4=weak) for the upset bonus
   team_aliases.json     API/schedule spellings → canonical draft names
+  knockout_overrides.json  manual penalty-shootout winners the free feed can't express
   fake_results.json     JOB 2 test fixtures (June 11 & 13)
 scoring.py              results JSON → owner_standings / daily_results / team_table
 fetch_results.py        API-Football fixtures → results JSON (+ optional goal events)

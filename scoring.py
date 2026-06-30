@@ -217,6 +217,15 @@ def run(results, cfg, draft, tiers, aliases):
         if stage.startswith("group"):
             events, detail = score_group_match(m, cfg, owner_of, tiers, canon)
         else:
+            # A knockout that ended level needs a shootout result to name a winner.
+            # Without one we must NOT score it (the old pen_home-pen_away default of
+            # 0 silently handed the win to `away`) — skip until it's resolved
+            # (data/knockout_overrides.json or the api-football fallback in fetch).
+            if (m["home_score"] == m["away_score"]
+                    and m.get("pen_home") is None and m.get("pen_away") is None):
+                print(f"  skipping unresolved knockout {m.get('home')} v {m.get('away')} "
+                      f"({m.get('date')}): level score, no shootout result.")
+                continue
             events, detail = score_knockout_match(m, cfg, owner_of, tiers, canon)
 
         # tally owner points

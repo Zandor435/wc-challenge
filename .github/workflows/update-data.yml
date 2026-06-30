@@ -85,9 +85,13 @@ jobs:
       # 0-match clobber guard), just with the gate inserted.
       - name: Fetch live results
         # Fixtures now come from the free worldcup26.ir feed (no auth) — the default
-        # source in fetch_results.py. API_FOOTBALL_KEY is intentionally NOT wired in:
-        # the fetch must not depend on the paid key. The secret stays in the repo so
-        # `--source api-football` remains available as a manual fallback.
+        # source in fetch_results.py. The primary fetch still does NOT depend on the
+        # paid key; API_FOOTBALL_KEY is wired through only for the on-demand penalty
+        # fallback (resolve_level_knockouts): when a knockout ends level the free feed
+        # carries no shootout aggregate, so the key is consulted ONLY for those few
+        # fixtures and ONLY when data/knockout_overrides.json has no entry. If the
+        # secret is unset it renders empty and fetch_results.py falls back to the
+        # built-in challenge key (so an empty value can't break auth).
         #
         # continue-on-error: a feed outage must NOT take the whole pipeline dark.
         # worldcup26.ir drops connections for hours at a time; on 2026-06-21 a 6h+
@@ -101,6 +105,8 @@ jobs:
         # in both modes. Scoring needs new data; commentary does not.
         id: fetch
         continue-on-error: true
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           python fetch_results.py --season "${{ github.event.inputs.season || '2026' }}" --out data/live_results.json
       - name: Note feed-outage bypass

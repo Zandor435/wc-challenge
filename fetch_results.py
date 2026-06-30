@@ -21,6 +21,13 @@ normalized schema scoring.py expects:
 
 Only finished matches are emitted (they're the ones that score points).
 
+Penalty shootouts: the free worldcup26ir feed exposes no shootout aggregate, so a
+knockout that ends level in regulation has no advancing side. resolve_level_knockouts
+fills the winner in priority order — data/knockout_overrides.json first, then an
+optional api-football fallback (--ko-fallback, default auto) — and DROPS anything still
+unresolved, so scoring never fabricates a winner. The api-football source already
+carries score.penalty and needs no such handling.
+
 Usage:
     # 2026 World Cup from the free feed (default source):
     python fetch_results.py --out data/live_results.json
@@ -53,8 +60,12 @@ from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
+OVERRIDES_PATH = os.path.join(DATA, "knockout_overrides.json")
 BASE = "https://v3.football.api-sports.io"
-KEY = os.environ.get("API_FOOTBALL_KEY", "fa4a83828c1f8b553acba91e321faabb")
+# `or` (not the dict default): an env var present-but-empty — e.g. a workflow that
+# wires `API_FOOTBALL_KEY: ${{ secrets.X }}` when the secret is unset — must still
+# fall back to the challenge key rather than auth with "".
+KEY = os.environ.get("API_FOOTBALL_KEY") or "fa4a83828c1f8b553acba91e321faabb"
 WORLD_CUP_LEAGUE_ID = 1
 WC26_URL = "https://worldcup26.ir/get/games"
 
@@ -207,6 +218,130 @@ def parse_scorers(raw, team, fixture_id, date):
     return out
 
 
+# ---------------------------------------------------------------------------
+# Penalty-shootout resolution for the free feed
+# ---------------------------------------------------------------------------
+# The worldcup26.ir feed reports a knockout that ended level in regulation as a
+# draw with no shootout aggregate, so it carries no advancing side. We resolve
+# those in priority order — manual overrides, then an optional api-football
+# fallback — and DROP whatever is left so neither scoring.py nor sim/engine.py
+# fabricates a winner from the away team (their `pen_home - pen_away` defaults to
+# 0, which silently picks `away`).
+
+def _pair_key(a, b):
+    """Order-independent key for a knockout fixture. A given pair meets at most
+    once in a single-elimination bracket, so the team pair alone is unambiguous
+    (no date needed — which also sidesteps feed/API date drift)."""
+    return frozenset((a, b))
+
+
+def load_ko_overrides(path, canon):
+    """Read data/knockout_overrides.json -> {pair_key: {winner, winner_pens,
+    loser_pens}}. Missing/empty/malformed file -> {} (overrides are optional)."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            raw = json.load(fh)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        if isinstance(e, json.JSONDecodeError):
+            print(f"  knockout overrides {path} is not valid JSON ({e}); ignoring")
+        return {}
+    out = {}
+    for key, v in (raw.get("overrides") or {}).items():
+        parts = [p.strip() for p in key.split("|")]
+        if len(parts) != 3:
+            print(f"  skipping malformed override key {key!r} (want 'DATE|TeamA|TeamB')")
+            continue
+        a, b = canon(parts[1]), canon(parts[2])
+        winner = canon((v.get("winner") or "").strip())
+        if winner not in (a, b):
+            print(f"  skipping override {key!r}: winner {v.get('winner')!r} "
+                  "is not one of the two teams")
+            continue
+        out[_pair_key(a, b)] = {
+            "winner": winner,
+            "winner_pens": v.get("winner_pens"),
+            "loser_pens": v.get("loser_pens"),
+        }
+    return out
+
+
+def _apply_ko_result(rec, winner, winner_pens=None, loser_pens=None):
+    """Attach a shootout result to a level-knockout record, orienting pen_home/
+    pen_away to the record's own home/away so scoring picks `winner`."""
+    wp = winner_pens if winner_pens is not None else 1
+    lp = loser_pens if loser_pens is not None else 0
+    if winner == rec["home"]:
+        rec["pen_home"], rec["pen_away"] = wp, lp
+    else:
+        rec["pen_home"], rec["pen_away"] = lp, wp
+    rec["decided_by"] = "penalties"
+
+
+def _af_penalty_lookup(season, league, canon):
+    """One api-football /fixtures call -> {pair_key: (winner, winner_pens,
+    loser_pens)} for every fixture decided on penalties. Returns {} on any
+    failure — the fallback must never take the whole fetch down."""
+    try:
+        data = api_get("/fixtures", {"league": league, "season": season})
+    except Exception as e:   # noqa: BLE001 - any API/network error -> graceful skip
+        print(f"  api-football penalty fallback unavailable ({e!r}); leaving unresolved")
+        return {}
+    out = {}
+    for f in data.get("response", []):
+        fx, teams = f["fixture"], f["teams"]
+        if fx.get("status", {}).get("short") != "PEN":
+            continue
+        h, a = canon(teams["home"]["name"]), canon(teams["away"]["name"])
+        pen = f.get("score", {}).get("penalty", {}) or {}
+        ph, pa = pen.get("home") or 0, pen.get("away") or 0
+        winner, wp, lp = (h, ph, pa) if ph >= pa else (a, pa, ph)
+        out[_pair_key(h, a)] = (winner, wp, lp)
+    return out
+
+
+def resolve_level_knockouts(matches, overrides, args, canon):
+    """Resolve (or drop) every finished knockout that ended level with no shootout
+    aggregate. Overrides first, then the api-football fallback (unless --ko-fallback
+    off); anything still unresolved is dropped with a warning. Returns the surviving
+    match list."""
+    def needs_winner(m):
+        return (m.get("stage") == "knockout"
+                and m["home_score"] == m["away_score"]
+                and "pen_home" not in m)
+
+    level = [m for m in matches if needs_winner(m)]
+    if not level:
+        return matches
+    print(f"{len(level)} level knockout(s) need a shootout result.")
+
+    for m in level:
+        ov = overrides.get(_pair_key(m["home"], m["away"]))
+        if ov:
+            _apply_ko_result(m, ov["winner"], ov["winner_pens"], ov["loser_pens"])
+            print(f"  resolved {m['home']} v {m['away']} via override -> "
+                  f"{ov['winner']} on penalties")
+
+    unresolved = [m for m in level if needs_winner(m)]
+    if unresolved and args.ko_fallback != "off":
+        lookup = _af_penalty_lookup(args.season, args.league, canon)
+        for m in unresolved:
+            hit = lookup.get(_pair_key(m["home"], m["away"]))
+            if hit:
+                _apply_ko_result(m, *hit)
+                print(f"  resolved {m['home']} v {m['away']} via api-football -> "
+                      f"{hit[0]} on penalties")
+
+    still = [m for m in level if needs_winner(m)]
+    if still:
+        drop = {id(m) for m in still}
+        for m in still:
+            print(f"  WARNING: dropping unresolved knockout {m['home']} v {m['away']} "
+                  f"({m['date']}) — level score, no shootout result. Add an entry to "
+                  "data/knockout_overrides.json (or enable the api-football fallback).")
+        matches = [m for m in matches if id(m) not in drop]
+    return matches
+
+
 def run_worldcup26ir(args, canon):
     """Fetch the free worldcup26.ir feed and write live_results.json (+ goals)."""
     source = "worldcup26.ir live games"
@@ -248,9 +383,10 @@ def run_worldcup26ir(args, canon):
         }
         if rnd:
             rec["round"] = rnd
-        # NOTE: this feed exposes no penalty-shootout aggregate, so a knockout
-        # that ends level (decided_by/pen_home/pen_away) can't be resolved here.
-        # No finished knockouts exist this early; revisit if the feed adds them.
+        # This feed exposes no penalty-shootout aggregate, so a knockout that ends
+        # level arrives with no advancing side. We append it as-is here and resolve
+        # (or drop) it below in resolve_level_knockouts — overrides, then the
+        # api-football fallback — so scoring never has to guess a winner.
         matches.append(rec)
 
         if args.with_goals:
@@ -259,6 +395,11 @@ def run_worldcup26ir(args, canon):
 
     matches.sort(key=lambda m: (m["date"],
                                 m["fixture_id"] if isinstance(m["fixture_id"], int) else 0))
+
+    # Resolve level knockouts (penalty shootouts the free feed can't express):
+    # overrides first, then the optional api-football fallback, drop the rest.
+    overrides = load_ko_overrides(args.overrides, canon)
+    matches = resolve_level_knockouts(matches, overrides, args, canon)
 
     out = {"source": source, "fetched_finished": len(matches), "matches": matches}
     with open(args.out, "w", encoding="utf-8") as fh:
@@ -390,6 +531,12 @@ def main():
     ap.add_argument("--out", default=os.path.join(DATA, "live_results.json"))
     ap.add_argument("--with-goals", action="store_true",
                     help="also collect goal scorers -> data/goals.json")
+    ap.add_argument("--overrides", default=OVERRIDES_PATH,
+                    help="manual knockout results JSON for penalty shootouts the free "
+                         "feed can't resolve (default: data/knockout_overrides.json)")
+    ap.add_argument("--ko-fallback", choices=["auto", "off"], default="auto",
+                    help="when a level knockout has no override, query api-football for "
+                         "the shootout result (auto) or skip the fallback (off)")
     ap.add_argument("--max-goal-fixtures", type=int, default=0,
                     help="api-football only: cap fixtures to pull goal events for "
                          "(0 = no cap). Protects the free-tier quota.")
