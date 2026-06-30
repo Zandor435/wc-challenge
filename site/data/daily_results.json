@@ -1359,7 +1359,9 @@
           "math": [
             "KO WIN (Round of 32): Paraguay undrafted, no points",
             "KO LOSS: Germany (Rafe) +0"
-          ]
+          ],
+          "decided_by": "penalties",
+          "winner": "Paraguay"
         },
         {
           "date": "2026-06-29",
@@ -1376,7 +1378,9 @@
           "math": [
             "KO WIN (Round of 32): Morocco (Gunner) +3  +2 advancement (reached round_of_16)",
             "KO LOSS: Netherlands undrafted, no points"
-          ]
+          ],
+          "decided_by": "penalties",
+          "winner": "Morocco"
         },
         {
           "date": "2026-06-29",

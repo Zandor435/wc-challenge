@@ -137,11 +137,14 @@ function renderScoreStrip(fixtures, ownerIdx, resultIdx, opts = {}) {
     if (final) {
       s1 = result.home === t1 ? result.home_score : result.away_score;
       s2 = result.home === t1 ? result.away_score : result.home_score;
-      w1 = s1 > s2; w2 = s2 > s1;
+      const win = resultWinner(result);
+      w1 = win === t1; w2 = win === t2;
     }
     const grp = fx.phase === "group" ? `Group ${esc(fx.group || "—")}`
               : esc(KO_GROUP_LABEL[fx.phase] || fx.phase || "Knockout");
-    const foot = final ? `<span class="tf-final">FINAL</span>` : `<span class="tf-time">${esc(fx.time_et || "TBD")}</span>`;
+    const foot = final
+      ? `<span class="tf-final">FINAL${isPK(result) ? " · PK" : ""}</span>`
+      : `<span class="tf-time">${esc(fx.time_et || "TBD")}</span>`;
     return `
       <div class="tick ${clash ? "clash" : ""}">
         <div class="tick-grp">${grp}</div>
@@ -171,6 +174,27 @@ const GROUP_WIN = 3, GROUP_DRAW = 1, UPSET_PER_TIER = 2;
 const ADV_BONUS = { round_of_32: 2, round_of_16: 2, quarterfinal: 5, semifinal: 10, final: 18, third_place: 0 };
 const ADV_LABEL = { round_of_32: "R32", round_of_16: "R16", quarterfinal: "QF", semifinal: "SF", final: "Final", third_place: "3rd" };
 const KO_GROUP_LABEL = { round_of_32: "Round of 32", round_of_16: "Round of 16", quarterfinal: "Quarterfinal", semifinal: "Semifinal", final: "Final", third_place: "Third Place" };
+
+/* The advancing side of a scored result, accounting for a penalty shootout: a
+   level knockout carries decided_by:"penalties" plus the winner (and the shootout
+   score when known). Returns the winning team name, or null for a true draw
+   (group stage). Used everywhere a result is shown so a 1-1 PK win renders as a
+   win, not a draw. */
+function resultWinner(r) {
+  if (!r) return null;
+  if (r.home_score > r.away_score) return r.home;
+  if (r.away_score > r.home_score) return r.away;
+  if (r.decided_by === "penalties") {
+    if (r.winner) return r.winner;
+    if (r.pen_home != null && r.pen_away != null)
+      return r.pen_home > r.pen_away ? r.home : r.away;
+  }
+  return null;
+}
+const isPK = (r) => !!r && r.decided_by === "penalties";
+// Shootout score in home–away order, or "" when only the winner is known.
+const penScore = (r) => (r && r.pen_home != null && r.pen_away != null)
+  ? `${r.pen_home}–${r.pen_away}` : "";
 
 /* Minimal CSV parser: handles quoted fields containing commas (venues like
    "Zapopan, Mexico"). Returns an array of row objects keyed by the header. */
@@ -324,14 +348,17 @@ function tmCard(fx, ownerIdx, tierOf, result, cover) {
   if (final) {
     s1 = result.home === t1 ? result.home_score : result.away_score;
     s2 = result.home === t1 ? result.away_score : result.home_score;
-    w1 = s1 > s2; w2 = s2 > s1;
+    const win = resultWinner(result);
+    w1 = win === t1; w2 = win === t2;
     const pts = Object.entries(result.points || {});
     ptsHTML = pts.length
       ? `<div class="tm-result-pts">${pts.map(([o, p]) => ptsPill(o, p)).join("")}</div>`
       : "";
   }
+  const pkNote = final && isPK(result)
+    ? ` · ${penScore(result) ? esc(penScore(result)) + " pen" : "won on PKs"}` : "";
   const stateHTML = final
-    ? `<span class="tm-state final">FINAL</span>`
+    ? `<span class="tm-state final">FINAL${pkNote}</span>`
     : `<span class="tm-state upcoming">${esc(fx.time_et || "TBD")}</span>`;
 
   const groupLabel = isGroup
@@ -419,16 +446,15 @@ function renderTodaysMatches(rows, ownerIdx, tierOf, resultIdx) {
    color tags, points each owner banked, and an OWNER CLASH verdict when two owners'
    teams met. Hidden entirely until there is at least one scored day. */
 function ownerResultLine(team, owner, m) {
-  const isHome = m.home === team;
-  const my = isHome ? m.home_score : m.away_score;
-  const opp = isHome ? m.away_score : m.home_score;
   const pts = (m.points && m.points[owner]) || 0;
+  const win = resultWinner(m);                    // accounts for PK shootouts
   let reason;
-  if (my > opp) {
-    const bonus = pts - 3;                       // group/KO win base = 3
+  if (win === team) {
+    const bonus = pts - 3;                        // group/KO win base = 3
     reason = bonus > 0 ? `win + ${fmtNum(bonus)} bonus` : "win";
-  } else if (my === opp) { reason = "draw"; }
-  else { reason = "loss"; }
+    if (isPK(m)) reason += " (PK)";
+  } else if (win) { reason = isPK(m) ? "loss (PK)" : "loss"; }
+  else { reason = "draw"; }                       // true draw (group stage only)
   return { owner, pts, reason };
 }
 function renderYesterday(daily, ownerIdx) {
@@ -449,7 +475,8 @@ function renderYesterday(daily, ownerIdx) {
 
   box.innerHTML = `<div class="yr-list">${matches.map((m) => {
     const oh = ownerIdx[m.home] || "", oa = ownerIdx[m.away] || "";
-    const hw = m.home_score > m.away_score, aw = m.away_score > m.home_score;
+    const win = resultWinner(m);                  // PK-aware (a 1-1 shootout has a winner)
+    const hw = win === m.home, aw = win === m.away;
     const clash = oh && oa && oh !== oa;
 
     const teamCell = (team, owner, win) => `
@@ -485,7 +512,8 @@ function renderYesterday(daily, ownerIdx) {
       <div class="yr-row ${clash ? "clash" : ""}">
         <div class="yr-fixture">
           ${teamCell(m.home, oh, hw)}
-          <span class="yr-score">${m.home_score} – ${m.away_score}</span>
+          <span class="yr-score">${m.home_score} – ${m.away_score}${
+            isPK(m) ? `<span class="yr-pen">${penScore(m) ? esc(penScore(m)) + " pen" : "PK"}</span>` : ""}</span>
           ${teamCell(m.away, oa, aw)}
         </div>
         ${ledger}

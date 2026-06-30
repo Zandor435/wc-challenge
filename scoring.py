@@ -157,11 +157,15 @@ def score_knockout_match(m, cfg, owner_of, tiers, canon):
     home, away = canon(m["home"]), canon(m["away"])
     hs, as_ = m["home_score"], m["away_score"]
     # knockout: a tie in regulation is decided by penalties; the input carries the
-    # final advancing side via 'winner' or via penalty scores. We require a winner.
+    # final advancing side via an explicit 'winner' (preferred) or via penalty
+    # scores. We require one of them — run() drops a level KO with neither.
     if hs == as_:
-        # expect explicit shootout result
-        pw = m.get("pen_home", 0) - m.get("pen_away", 0)
-        winner, loser = (home, away) if pw > 0 else (away, home)
+        explicit = canon(m["winner"]) if m.get("winner") else None
+        if explicit in (home, away):
+            winner, loser = explicit, (away if explicit == home else home)
+        else:
+            pw = m.get("pen_home", 0) - m.get("pen_away", 0)
+            winner, loser = (home, away) if pw > 0 else (away, home)
         decided = "penalties"
     else:
         winner, loser = (home, away) if hs > as_ else (away, home)
@@ -221,7 +225,7 @@ def run(results, cfg, draft, tiers, aliases):
             # Without one we must NOT score it (the old pen_home-pen_away default of
             # 0 silently handed the win to `away`) — skip until it's resolved
             # (data/knockout_overrides.json or the api-football fallback in fetch).
-            if (m["home_score"] == m["away_score"]
+            if (m["home_score"] == m["away_score"] and not m.get("winner")
                     and m.get("pen_home") is None and m.get("pen_away") is None):
                 print(f"  skipping unresolved knockout {m.get('home')} v {m.get('away')} "
                       f"({m.get('date')}): level score, no shootout result.")
@@ -244,14 +248,25 @@ def run(results, cfg, draft, tiers, aliases):
         hs, as_ = m["home_score"], m["away_score"]
         _tally_team(team_rows, events, home, away, hs, as_, m, canon)
 
-        daily[m["date"]].append({
+        rec = {
             "date": m["date"], "stage": stage, "round": m.get("round"),
             "home": home, "away": away,
             "home_score": hs, "away_score": as_,
             "score": f"{home} {hs}-{as_} {away}",
             "points": {o: match_pts_by_owner[o] for o in match_pts_by_owner},
             "math": detail,
-        })
+        }
+        # A level knockout decided on penalties: record the advancing side (and the
+        # shootout score, when known) so the site renders a win, not a draw.
+        if not stage.startswith("group") and hs == as_ and (
+                m.get("winner") or m.get("pen_home") is not None):
+            rec["decided_by"] = "penalties"
+            rec["winner"] = (canon(m["winner"]) if m.get("winner")
+                             else (home if (m.get("pen_home") or 0) > (m.get("pen_away") or 0)
+                                   else away))
+            if m.get("pen_home") is not None and m.get("pen_away") is not None:
+                rec["pen_home"], rec["pen_away"] = m["pen_home"], m["pen_away"]
+        daily[m["date"]].append(rec)
 
     # ---- assemble standings ----
     standings = []

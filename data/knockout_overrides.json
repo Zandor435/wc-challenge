@@ -1,6 +1,9 @@
 {
   "_README": "Manual knockout results for fixtures the free worldcup26.ir feed can't resolve. That feed exposes no penalty-shootout aggregate, so a knockout that ends level in regulation arrives with no winner. fetch_results.py applies these overrides first, then (optionally) falls back to api-football, then DROPS any still-unresolved level knockout so scoring never guesses a winner. OVERWRITE-BY-EXCEPTION: add an entry only when a shootout result is missing, and remove it once the feed/API carries the decided result. Ships empty on purpose — do not commit speculative scores.",
-  "_schema": "overrides: { 'YYYY-MM-DD|TeamA|TeamB': { 'winner': 'TeamA', 'winner_pens': 4, 'loser_pens': 3 } }. Teams use canonical draft-board spelling (see data/team_aliases.json); the team order in the key does not matter and the date is informational (matching is by the team pair, which is unique in a single-elimination bracket). 'winner' is required; 'winner_pens'/'loser_pens' are optional and default to 1-0.",
+  "_schema": "overrides: { 'YYYY-MM-DD|TeamA|TeamB': { 'winner': 'TeamA', 'winner_pens': 4, 'loser_pens': 3 } }. Teams use canonical draft-board spelling (see data/team_aliases.json); the team order in the key does not matter and the date is informational (matching is by the team pair, which is unique in a single-elimination bracket). 'winner' is required; 'winner_pens'/'loser_pens' are optional — when omitted, only the advancing side is recorded and the site shows 'won on PKs' without a scoreline (add the pens to display the exact shootout score).",
   "_example": { "2026-06-29|Germany|Paraguay": { "winner": "Paraguay", "winner_pens": 4, "loser_pens": 3 } },
-  "overrides": {}
+  "overrides": {
+    "2026-06-29|Germany|Paraguay": { "winner": "Paraguay" },
+    "2026-06-29|Netherlands|Morocco": { "winner": "Morocco" }
+  }
 }

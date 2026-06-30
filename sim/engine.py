@@ -245,14 +245,19 @@ def split_results(ctx: Context, results: dict) -> LockedResults:
             n_group += 1
         else:
             if hs == as_:
-                # Level knockout with no shootout aggregate: don't fabricate a
+                # Level knockout: take the advancing side from an explicit `winner`
+                # (preferred) or the shootout score. With neither, don't fabricate a
                 # winner (the old `pen_home - pen_away` default silently picked
-                # `away`). Skip it so it's treated as not-yet-decided and gets
-                # simulated forward, rather than locking a bogus result.
-                if m.get("pen_home") is None and m.get("pen_away") is None:
+                # `away`) — skip it so it's treated as not-yet-decided and simulated
+                # forward, rather than locking a bogus result.
+                explicit = canon(m["winner"]) if m.get("winner") else None
+                if explicit in (home, away):
+                    winner = explicit
+                elif m.get("pen_home") is None and m.get("pen_away") is None:
                     continue
-                pw = m.get("pen_home", 0) - m.get("pen_away", 0)
-                winner = home if pw > 0 else away
+                else:
+                    pw = m.get("pen_home", 0) - m.get("pen_away", 0)
+                    winner = home if pw > 0 else away
             else:
                 winner = home if hs > as_ else away
             ko[key] = winner

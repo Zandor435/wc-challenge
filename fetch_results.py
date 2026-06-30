@@ -266,15 +266,18 @@ def load_ko_overrides(path, canon):
 
 
 def _apply_ko_result(rec, winner, winner_pens=None, loser_pens=None):
-    """Attach a shootout result to a level-knockout record, orienting pen_home/
-    pen_away to the record's own home/away so scoring picks `winner`."""
-    wp = winner_pens if winner_pens is not None else 1
-    lp = loser_pens if loser_pens is not None else 0
-    if winner == rec["home"]:
-        rec["pen_home"], rec["pen_away"] = wp, lp
-    else:
-        rec["pen_home"], rec["pen_away"] = lp, wp
+    """Mark a level-knockout record as decided on penalties for `winner`. Sets an
+    explicit `winner` (so scoring/display never has to guess) and `decided_by`.
+    The actual shootout score is recorded ONLY when known — oriented to the
+    record's home/away — so we never display a fabricated scoreline; winner-only
+    overrides resolve the result without inventing a number."""
+    rec["winner"] = winner
     rec["decided_by"] = "penalties"
+    if winner_pens is not None and loser_pens is not None:
+        if winner == rec["home"]:
+            rec["pen_home"], rec["pen_away"] = winner_pens, loser_pens
+        else:
+            rec["pen_home"], rec["pen_away"] = loser_pens, winner_pens
 
 
 def _af_penalty_lookup(season, league, canon):
@@ -307,7 +310,7 @@ def resolve_level_knockouts(matches, overrides, args, canon):
     def needs_winner(m):
         return (m.get("stage") == "knockout"
                 and m["home_score"] == m["away_score"]
-                and "pen_home" not in m)
+                and "winner" not in m and "pen_home" not in m)
 
     level = [m for m in matches if needs_winner(m)]
     if not level:
