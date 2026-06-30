@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T15:54:47Z",
+  "generated": "2026-06-30T18:41:50Z",
   "source": "daily_results_2026-06-29",
   "date": "2026-06-30",
   "rotation": 19,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "**Devin, LOOK AT ME. You drafted Bosnia like you're expecting a miracle from a team that can't even spell \"victory\"!** Let me tell you something, Ghost Pepper. Spain's going to need all the divine intervention it can get today when they face off in Arlington, and yet, the pep in your step only gets you so far when your roster's more patchwork than purposeful. Over in East Rutherford, it's Zach's Mustard Boy Brazil against a European powerhouse that will surely remind him why Switzerland's neutrality isn't always the best strategy on the pitch. And don't think I've forgotten about you, Backpass Assassin—Gayden, even Japan feels your team's lack of vision as they face off against an as-yet-unnamed giant that will surely wipe the floor with your poor draft decisions. Gunner, you've got the lead with 42 points, but you should be embarrassed it took you this long to lord over this ragtag bunch. And Rafe, \"The Noisemaker,\" when Germany ends up drawing against Paraguay, and you're left clutching that 5th place like a participation trophy, don't act surprised. Because if you weren't, you wouldn't have drafted teams that started on vacation and never came back! On the World Cup stage, mediocrity isn't just a label—it's a lifestyle."
+    "take": "**Let me tell you something, \"Mustard Boy,\" you have the audacity to draft Brazil and yet you're sitting there in second place like a deer in headlights.** Zach, Brazil may have carried you with a win over Japan yesterday, but being second place is like celebrating a participation trophy. Germany just drew with Paraguay, giving nothing to Rafe, \"The Noisemaker,\" who’s managing his fantasy team with the precision of a blindfolded toddler in a candy store. Next up, we have the likes of Gunner, “Bubba G,” riding high with Morocco’s draw against the Dutch, but don't let that fool you; his advancement points are as empty as a diving pool with no water. I'm calling it now: Devin, \"Ghost Pepper,\" with Spain and the USA, will burst under today's pressure like a soggy popcorn kernel in Arlington. And Gayden, \"The Backpass Assassin,\" your England squad better hope the next match doesn't go to penalties, or you'll be down and out faster than a World War Three prediction. Look at me now: You all think you're playing a fantasy game, but the reality is you're living a nightmare of your own making. Bam! Mic drop."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner extends lead with Morocco's draw against Netherlands",
-      "subtitle": "Says it's all part of his 'draw it out' strategy.",
+      "headline": "Bubba G Consolidates Lead Despite Morocco's Draw Against Netherlands",
+      "subtitle": "Gunner applauds his team's ability to secure points without actually winning.",
       "match": "Netherlands vs Morocco",
       "date": "2026-06-30"
     },
     {
       "pundit": "donovan",
-      "headline": "Rafe celebrates Germany's draw against Paraguay like a victory",
-      "subtitle": "Sources say he mistook 1-1 for advancement points.",
-      "match": "Germany vs Paraguay",
-      "date": "2026-06-30"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Zach's Brazil keeps him in the running, barely",
-      "subtitle": "Insider claims Zach hoped for a more mustardy performance.",
+      "headline": "Mustard Boy's Brazil Saves Face With Narrow Victory Over Japan",
+      "subtitle": "Zach attributes success to Brazilian flair, saves drafts for actual mustard.",
       "match": "Brazil vs Japan",
       "date": "2026-06-30"
     },
     {
-      "pundit": "lalas",
-      "headline": "Devin remains in third place, banking on USA's potential",
-      "subtitle": "He insists it's all going according to his 'ghost pepper' plan.",
+      "pundit": "dempsey",
+      "headline": "Ghost Pepper's Steady Third Place Streak Likely to Continue Uninterrupted",
+      "subtitle": "Devin excels at maintaining the calm, unwavering mediocrity of bronze.",
       "match": "Group F Preview",
+      "date": "2026-06-30"
+    },
+    {
+      "pundit": "lalas",
+      "headline": "The Noisemaker's Standstill with Paraguay Keeps Valuable Zero-Point Tradition Alive",
+      "subtitle": "Rafe enjoys the view from last place, seeing it as a fresh perspective.",
+      "match": "Germany vs Paraguay",
       "date": "2026-06-30"
     }
   ],
   "rome_analytics_quotes": [
-    "Gayden's Japan crashes out, leaving him with as much hope as a broken GPS.",
-    "Rafe drafting teams with his eyes closed was more productive than Gayden's fancy selections.",
-    "Devin being skull-crushed by Rafe twice—age is just a number, pal.",
-    "Sim prediction skills with Rafe is like trusting a compass in a minefield."
+    "Devin's South Africa dream crushed before he even got to the dessert round.",
+    "Gayden's Tier-1 dependency is paying dividends like a broken vending machine.",
+    "Gunner mows down Devin with an eight-point differential buzzsaw.",
+    "Rafe's chaos agent act is wrecking the model's prediction party."
   ]
 }
