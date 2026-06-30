@@ -1,23 +1,23 @@
-### Gunner — 42 pts · 1st · Bubba G's Moroccan fortress holds strong
+### Gunner — 42 pts · 1st · Bubba G holds firm atop the mountain
 
-**Bubba G** keeps flexing with that unshakeable Moroccan wall. With another clutch performance against the Netherlands, Gunner puts another 5 points in the bank and tightens his grip on the top spot. **The rest of the league is swimming in quicksand while Gunner's playing on a rock.** The Moroccan magic carpet keeps soaring, and right now, there's no turbulence in sight.
+**Bubba G** continues to reign from his Moroccan fortress, holding steady with another 5-point day. Morocco's advancement is like adding rocket fuel to his already potent machine. **His competition better buckle up because Gunner's not leaving the throttle anytime soon.** With 50% win probability, the rest of the league is playing catch-up on a muddy field.
 
-### Zach — 30 pts · 2nd · Mustard Boy gains momentum with Brazilian boost
+### Zach — 30 pts · 2nd · Mustard Boy's Brazilian blitz persists
 
-**Zach**, your Brazilian cavalry just ran through Japan like a hot knife through butter, firing you up to a solid second place. With Brazil advancing, **Mustard Boy's heading to the chocolate factory with a golden ticket in hand**. This is the time to ride that Brazilian wave or risk being swept away by Bubba G's Moroccan tsunami.
+**Zach**, your Brazilian juggernaut keeps you in the hunt, adding another 5 points to your tally. **Mustard Boy's no stranger to springing surprises, and guess what, he's not about to hit the brakes while Bubba G's fortress looms.** With a 19% win probability, you're still in the race — it's Brazil or bust, my man.
 
-### Devin — 27 pts · 3rd · Ghost Pepper stuck in neutral
+### Devin — 27 pts · 3rd · Ghost Pepper blinks, but still eyes the prize
 
-**Devin**, you're left reeling from South Africa's exit, but there's still hope on the horizon with Spain. **Ghost Pepper might be simmering, but at this point, you're heating up lukewarm leftovers at best.** Haaland's golden boot pursuits could still be your saving grace, but you'll need more spice and less drizzle if you're aiming to top this league.
+**Devin**, you're still licking your wounds from South Africa's exit, but don't sleep on that Spanish hope. **The Ghost Pepper's reaching for the heat, but right now, you're letting it simmer on the back burner instead of cranking it up.** Haaland's golden boot heroics could be your ticket to leapfrogging into contention.
 
-### Gayden — 26 pts · 4th · The Backpass Assassin's rough patch
+### Gayden — 26 pts · 4th · The Backpass Assassin gets the boot
 
-**Gayden**, Japan's defeat by Brazil took the wind out of your sails, leaving you high and dry. Without Japan, your hopes now rest entirely on England's shoulders. **The Backpass Assassin is wielding a butter knife instead of a blade — time to sharpen up or be carved out of the competition.** Your strategy better be ready for a comeback special.
+**Gayden**, Japan's exit leaves you hanging on England by the skin of your teeth. **The Backpass Assassin is wielding a plastic sword, and we're not at Disneyland.** The loss of Japan stings, but if there's some British steel in your strategy, now's the time to reveal it.
 
-### Rafe — 24 pts · 5th · The Noisemaker's muted mayhem
+### Rafe — 24 pts · 5th · The Noisemaker's sporadic show
 
-**Rafe**, Germany's draw with Paraguay wasn't the noise you needed, but the **Noisemaker's youngest chaos agent still has a wildcard up his sleeve**. Mexico and Ecuador are your lifeline now, and Thanksgiving could still serve up an upset. Keep that unpredictability alive — nothing is more dangerous than an agent of chaos with nothing to lose and everything to prove.
+**Rafe**, Germany's draw with Paraguay wasn't the firecracker you needed. But you know what? **The Noisemaker might be down, but he's never out, with Mexico still dancing the samba.** Thanksgiving looms, and you're still the wildcard no one can afford to underestimate.
 
 ### THE FATHER-SON SAGA
 
-The Backpass Assassin just can't catch a break, suffering a double blow as Japan’s flame was extinguished and his son, The Noisemaker, dodges another bullet from the bottom. **Rafe mocks his father's strategic blunders from across the dinner table, with his teenage smirk unphased by a 2-point drop.** Gayden's parental control over the standings is slipping like sand through his fingers, and Thanksgiving still promises a heated confrontation over who's in charge of the remote.
+**Gayden's collapsing empire and Rafe's brazen unpredictability serve up this father-son Thanksgiving showdown on a silver platter.** The Backpass Assassin is desperate to salvage some fatherly pride while The Noisemaker relishes his role as the gremlin under the turkey table. **Rafe's turning the family dinner into a combat zone, all at the ripe age of 15 — pass the gravy, this one's gonna need it.**
