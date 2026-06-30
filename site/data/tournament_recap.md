@@ -1,23 +1,23 @@
-### Gunner — 42 pts · 1st · Bubba G holds the throne
+### Gunner — 42 pts · 1st · Bubba G rides the Moroccan wave
 
-**Bubba G**, the Moroccan magic carpet ride isn't losing altitude anytime soon. That Round of 32 nail-biter with the Netherlands was all you needed to stretch your lead further. Keep riding the North African wave, but remember: **every fairytale has its end, and Zach's Brazil is dancing dangerously close to it.**
+**Bubba G** just can’t get off that Moroccan magic carpet. The Atlas Lions not only secured a point but also advanced to the Round of 16, cementing Gunner's lead. While the rest are looking like they're stuck in a desert, **Bubba G is rocking an oasis in the league**. Sit back, relax, and enjoy the ride, because it's yours to lose.
 
-### Zach — 30 pts · 2nd · Mustard Boy's golden samba
+### Zach — 30 pts · 2nd · Mustard Boy's Brazilian blitz
 
-**Zach**, Brazil is your golden ticket, and you're sprinting towards the chocolate factory. Their victory over Japan not only sent Gayden's dreams packing but also kept your sights ablaze for the championship. **Mustard Boy, you're the Big Bad Wolf ready to huff and puff Bubba G's castle down**, but only if your samba squad keeps the rhythm.
+**Zach**, your samba squad is delivering the goods, sending Japan home and keeping you right on Bubba G’s tail. Brazil's knockout punch added a vital 5 points, and **Mustard Boy's wrapped his hands around that golden ticket**. Now's the time to hold firm and push harder to catch Bubba G — the chocolate factory's still in sight.
 
-### Devin — 27 pts · 3rd · Ghost Pepper's quiet simmer
+### Devin — 27 pts · 3rd · Ghost Pepper's simmering uncertainty
 
-**Devin**, the South African exit left you high and dry, but Spain's still your lifeline in this ocean of fierce competition. **Keep your ghostly flame alive and let it blaze again**, or risk becoming just another haunted memory by the wayside.
+**Devin**, that South African exit stung, but Spain still holds the key to your destiny. As Haaland leads the golden boot race, **Ghost Pepper could still spice up this championship**. Keep the flame alive and trust in your squad's pedigree — you've got more than just fumes in the tank.
 
-### Gayden — 26 pts · 4th · The Backpass Assassin's fall
+### Gayden — 26 pts · 4th · The Backpass Assassin's strategic stumble
 
-**Gayden**, those knockout stage aspirations crumbled as Japan's dreams were dashed by Brazil. England's your only hope now, but **The Backpass Assassin is looking more like a training dummy** these days. Thanksgiving is creeping in with a side of humility, and you might find yourself needing a double serving if this keeps up.
+**Gayden**, Brazil's takedown of Japan has left you on the chopping block. England's your only knight but right now, **The Backpass Assassin is wielding a wooden spoon**. The strategy session at the dinner table is looking grim, so you'd better hope England's stiff upper lip holds firm.
 
-### Rafe — 24 pts · 5th · The Noisemaker's resilient rattle
+### Rafe — 24 pts · 5th · The Noisemaker's untapped chaos
 
-**Rafe**, every storm has its calm, but your Germany drop seemed more like a drizzle. Still, **the Noisemaker isn't muted just yet with Mexico and Ecuador ready to shake things up**. Stay unpredictable and let your silent storm build — the big noise is always a surprise.
+**Rafe**, Germany's deadlock with Paraguay was about as exciting as watching paint dry, but the **Noisemaker isn't silenced yet**. With Mexico and Ecuador still ripe for a breakout, Thanksgiving could get loud. Stay unpredictable; the chaos agent has a knack for creating noise when least expected.
 
 ### THE FATHER-SON SAGA
 
-The relentless saga continues as **The Backpass Assassin** stands toe-to-toe with his kin, the relentless **Noisemaker**. Rafe might be at the bottom, but he's firing shots like a seasoned veteran. While Gayden watches his strategies unravel, his own son is gleefully navigating the chaos, reminding everyone that youth often carries its own brand of wisdom. **Thanksgiving will taste different this year, with Gayden gorging on a full plate of son's hustle and his own humble pie.**
+As the plot thickens, The Backpass Assassin faces a two-pronged dilemma: the European dream's slipping, and his own son, the unyielding Noisemaker, continues to snicker from the bottom. Gayden's pride took a hit with Japan's knockout, but Rafe remains a wildcard, lurking with a potential upset on the horizon. **Thanksgiving’s menu now includes a serving of humble pie — Gayden’s digging in, whether he likes it or not.**
