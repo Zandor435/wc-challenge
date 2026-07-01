@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-01T15:54:30Z",
-  "source": "daily_results_2026-06-30",
-  "date": "2026-07-01",
-  "rotation": 20,
+  "generated": "2026-07-01T18:44:06Z",
+  "source": "daily_results_2026-07-01",
+  "date": "2026-07-02",
+  "rotation": 21,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "**If they put people like \"The Backpass Assassin\" in charge, it makes me wonder if anyone even knows what soccer is anymore.**\n\nWhen you’ve got a manager like Gunner, aka \"Bubba G,\" who understands soccer enough to draft France, the winning results are inevitable. France’s 3-0 triumph over Sweden says it all. Compare that to Gayden’s pitiful setup—England against DR Congo? You can see how the term \"Backpass Assassin\" perfectly describes a guy who drafts like a turtle in hibernation. It’s like he just picked countries from FIFA 23 without considering actual tactics. England will stumble, and \"Bubba G\" will just keep on cruising.\n\nDevin, or \"Ghost Pepper,\" has the strategic brain that only drafting both USA and Bosnia can reveal—it's either a stroke of genius or complete oversight. Fortunately for him, the USA is cracking form, and he’ll collect points like I used to collect yellow cards. Let’s get real: Bosnia is just a freebie Devin gave himself. Expect \"Ghost Pepper\" to sit pretty high and mighty by the end of the day, the mirror opposite of Gayden’s hopeless escapades. When you're left with Zach and Rafe, both scrambling in the middle of the pack, you realize there’s only one true maestro in this charade: Gunner is your man."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "**I feel for Devin, I really do, but when you draft Haiti in the fourth round, I mean... what conversation were you having with yourself?** Look, I get why Devin thought Spain was a solid choice as a T1 team, given their storied history, but when your other picks include the U.S. and Norway, it's like betting on a horse race with a unicorn. Bless his heart, at least Devin has a dreamer's spirit. As for Zach, aka \"Mustard Boy,\" he might have thought drafting Austria was clever, but let’s be honest—Austria's form has been more lukewarm than the side of ketchup at a hot dog stand. I'm absurdly confident Spain will outclass Austria in Toronto, not because Devin's strategic mind shines, but more because Austria isn't likely to be the surprise of the tournament Zach envisioned."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "The Backpass Assassin's England Set to Misfire Against Bubba G's DR Congo",
-      "subtitle": "Gayden expected to rely on son's strategy of hoping for miracles.",
-      "match": "England vs DR Congo",
-      "date": "2026-07-01"
+      "headline": "Ghost Pepper Devin and Mustard Boy Zach Set for Fiery Duel",
+      "subtitle": "Devin relies on Spain's sizzle, while Zach hopes Austria's spice won't fizzle.",
+      "match": "Spain vs Austria",
+      "date": "2026-07-02"
     },
     {
       "pundit": "donovan",
-      "headline": "Ghost Pepper Positions USA Against Bosnia In Tactical High-Five Session",
-      "subtitle": "Devin hopes new formation where everyone plays forward will confuse opponents.",
-      "match": "USA vs Bosnia",
-      "date": "2026-07-01"
+      "headline": "Gayden's England Triumphs Over Bubba G's DR Congo Without Upset Points",
+      "subtitle": "Gayden expertly avoids upsets by letting DR Congo lose as expected.",
+      "match": "England vs DR Congo",
+      "date": "2026-07-02"
     },
     {
       "pundit": "dempsey",
-      "headline": "Mustard Boy Zach Relies on Saudi Arabia's Magic to Climb Rankings",
-      "subtitle": "Zach wonders if mustard can be imported for spirit boost.",
-      "match": "Group F Preview",
-      "date": "2026-07-01"
+      "headline": "Mustard Boy Zach Hoping for a Smooth Spread with Switzerland",
+      "subtitle": "Zach dreams of an easy match-up where Swiss precision meets Algerian chaos.",
+      "match": "Switzerland vs Algeria",
+      "date": "2026-07-02"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G's Senegal Poised to Surpass Belgian Waffles in Santa Clara",
-      "subtitle": "Gunner claims points are tastier when churro fries follow the match.",
-      "match": "Belgium vs Senegal",
-      "date": "2026-07-01"
+      "headline": "Undrafted Nations Poised to Outshine Fantasy Giants at World Cup",
+      "subtitle": "Portugal and Croatia aim to prove managers are no talent scouts.",
+      "match": "Portugal vs Croatia",
+      "date": "2026-07-02"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's cruising with 56% win probability; the rest look like JV tryouts.",
-    "Rafe's Tier-1 Germany exits early, yet Gayden's living on a prayer at 0 points.",
-    "Rafe handing Devin a -6 head-to-head differential—worse than Devin's cooking.",
-    "Sim had Rafe at 2% champion chance; even blind squirrels find acorns, I guess."
+    "Rafe's Germany just got knocked out—same story, different day for the teenage chaos agent.",
+    "Gunner holds on top with a Tier-4 beast, while Rafe drafts in his sleep.",
+    "Rafe's 6-point differential against Devin is a family-friendly demolition job.",
+    "Teen novice Rafe disrupts Gunner's odds—guess the sim loves a wild card."
   ]
 }

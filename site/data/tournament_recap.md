@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G's fortress holds firm
+### Gunner — 47 pts · 1st · Bubba G's fortress takes a hit
 
-**Bubba G** continues to reign supreme, and at 56% win probability, he’s locking down dreams like a bouncer on New Year’s Eve. France’s demolition of Sweden keeps Gunner comfortably at the top. **Keep the victory lap at bay, Bubba, because the teen chaos agent is closing fast.**
+**Bubba G** might still sit atop the throne, but his empire took a hit with England's takedown of DR Congo. His 55% win probability might feel like a safety net, but it's quickly becoming a noose with the challengers gaining ground. **Gunner, you better tighten the screws before Ghost Pepper lights up your world.**
 
-### Devin — 32 pts · 2nd · Ghost Pepper reignites with Norway's surge
+### Devin — 32 pts · 2nd · Ghost Pepper's flames flicker
 
-Devin climbs back to second as Norway weathers Ivory Coast. With Haaland's golden boot aspirations lining his pockets, Devin’s flames of hope aren’t doused yet. **Ghost Pepper might be drifting behind, but he's still ready to torch Gunner's party.**
+Devin holds onto second but the death of South Africa is a cold splash of reality. Haaland's golden boot run might keep him in it, but **Ghost Pepper's fire is more sparkler than bonfire right now.** Devin needs a serious rally to prevent his champion dreams from going up in smoke.
 
-### Zach — 30 pts · 3rd · Mustard Boy's flavor remains lackluster
+### Gayden — 31 pts · 3rd · The Backpass Assassin's comeback
 
-**Mustard Boy** has dropped a spot but remains in the thick of it — not that anyone’s noticed. Brazil is doing all the lifting, while Czechia’s been a no-show. **Zach’s squad flavor is more plain than a tofu burger, with the clock ticking down.**
+Gayden's England kept him alive, with a Round of 16 berth slapping a fresh coat of paint on what was a rundown operation. **The Backpass Assassin finally decided to trade stealth for steel, climbing two spots and planting a flag of defiance for all to see.** Now, if only he could edge out his own kid.
 
-### Rafe — 29 pts · 4th · The Noisemaker's teen rampage
+### Zach — 30 pts · 4th · Mustard Boy remains tepid
 
-**The Noisemaker** rattles the standings again with Mexico’s march into the Round of 16. **Rafe’s sitting in fourth, but with 2% odds and the audacity of youth, he’s the wild card no one saw coming.** The family dynasty seems like an antique whenever Rafe steps up to the World Cup mic.
+**Mustard Boy** is sinking fast with Brazil as the only hot sauce in his lineup. It's the same bland story — a one-man army with no backup to carry the flavor. **Zach's squad is about as thrilling as lukewarm mustard on a soggy bun.**
 
-### Gayden — 26 pts · 5th · The Backpass Assassin sinks deeper
+### Rafe — 29 pts · 5th · The Noisemaker's racket quiets
 
-**The Backpass Assassin’s** stealth mission is an absolute bust — with Ivory Coast and Japan eliminated, it’s the bottom of the barrel. **Gayden’s squad is in tatters, and the only thing getting assassinated are his chances.** Every move he makes is undone by the teenage upstart he shares a roof with.
+**The Noisemaker** isn't shouting anymore. With Germany and Ecuador ejected, Rafe is staring at the abyss and it’s not blinking. **He still boasts the youthful gall to challenge Papa Assassin, but right now, his big plays could use a little more substance and a lot less noise.**
 
 ### THE FATHER-SON SAGA
 
-**Rafe is redefining the family feud, treating every match like a Thanksgiving rumble.** **The Noisemaker's last-minute Mexico victory delivers another jab to Gayden's ribs.** With **The Backpass Assassin** suffering knockout after knockout, Rafe's scene-stealing is the stuff of family legend.
+**Rafe might be the chaos agent, but Gayden's sneak attack with England shows that the assassin never reveals his hand too early.** It's a Shakespearean drama at every dinner table, with Rafe poking and prodding just enough to keep his father unsettled. **But as it stands, the elder statesman looks poised to reclaim some familial pride.** It's a slow burn worth watching.

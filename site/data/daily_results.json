@@ -1458,6 +1458,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-01",
+      "matches": [
+        {
+          "date": "2026-07-01",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "England",
+          "away": "DR Congo",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "England 2-1 DR Congo",
+          "points": {
+            "Gayden": 5.0,
+            "Gunner": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 32): England (Gayden) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: DR Congo (Gunner) +0"
+          ]
+        }
+      ]
     }
   ]
 }
