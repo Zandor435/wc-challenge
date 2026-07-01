@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T21:35:16Z",
+  "generated": "2026-07-01T00:57:07Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Round of 32",
     "is_preseason": false,
     "matchdays_played": 20,
-    "matches_played": 77,
-    "matches_remaining": 27,
+    "matches_played": 78,
+    "matches_remaining": 26,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -32,6 +32,11 @@
         "round": "Round of 32"
       },
       {
+        "team": "Sweden",
+        "owner": null,
+        "round": "Round of 32"
+      },
+      {
         "team": "Ivory Coast",
         "owner": "Gayden",
         "round": "Round of 32"
@@ -49,8 +54,8 @@
         "D": 7,
         "L": 5
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.16,
+      "win_probability": 0.17,
+      "champion_probability": 0.17,
       "streak": {
         "type": "W",
         "length": 1,
@@ -80,27 +85,27 @@
     "Gunner": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 42,
-      "points_today": 0,
+      "total_points": 47,
+      "points_today": 5,
       "record": {
-        "W": 11,
+        "W": 12,
         "D": 5,
         "L": 4
       },
-      "win_probability": 0.49,
-      "champion_probability": 0.22,
+      "win_probability": 0.55,
+      "champion_probability": 0.25,
       "streak": {
         "type": "W",
-        "length": 3,
-        "label": "W3"
+        "length": 4,
+        "label": "W4"
       },
       "best_team": {
-        "team": "Morocco",
-        "tier": 2,
-        "points": 12,
+        "team": "France",
+        "tier": 1,
+        "points": 14,
         "record": {
-          "W": 3,
-          "D": 1,
+          "W": 4,
+          "D": 0,
           "L": 0
         }
       },
@@ -125,8 +130,8 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.1,
-      "champion_probability": 0.11,
+      "win_probability": 0.08,
+      "champion_probability": 0.1,
       "streak": {
         "type": "L",
         "length": 3,
@@ -163,8 +168,8 @@
         "D": 3,
         "L": 8
       },
-      "win_probability": 0.22,
-      "champion_probability": 0.16,
+      "win_probability": 0.2,
+      "champion_probability": 0.15,
       "streak": {
         "type": "W",
         "length": 1,
@@ -201,7 +206,7 @@
         "D": 1,
         "L": 11
       },
-      "win_probability": 0.02,
+      "win_probability": 0.01,
       "champion_probability": 0.02,
       "streak": {
         "type": "L",
@@ -807,7 +812,7 @@
       "date": "2026-06-30",
       "points": {
         "Zach": 0,
-        "Gunner": 0,
+        "Gunner": 5,
         "Gayden": 0,
         "Devin": 5,
         "Rafe": 0
@@ -816,7 +821,7 @@
   ],
   "dependency_index": {
     "Zach": 0.4,
-    "Gunner": 0.21,
+    "Gunner": 0.3,
     "Gayden": 0.27,
     "Devin": 0.22,
     "Rafe": 0.25
@@ -871,6 +876,14 @@
       "owner": "Gayden",
       "round": "Round of 32",
       "description": "Japan (Gayden) eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-06-30",
+      "team": "Sweden",
+      "owner": null,
+      "round": "Round of 32",
+      "description": "Sweden eliminated in the Round of 32"
     },
     {
       "type": "elimination",
@@ -1496,14 +1509,14 @@
       "date": "2026-06-30",
       "points": {
         "Zach": 30,
-        "Gunner": 42,
+        "Gunner": 47,
         "Gayden": 26,
         "Devin": 32,
         "Rafe": 24
       },
       "points_today": {
         "Zach": 0,
-        "Gunner": 0,
+        "Gunner": 5,
         "Gayden": 0,
         "Devin": 5,
         "Rafe": 0

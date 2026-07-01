@@ -1,23 +1,23 @@
-### Gunner — 42 pts · 1st · Bubba G's castle stands strong
+### Gunner — 47 pts · 1st · Bubba G is untouchable
 
-**Bubba G** remains atop the mountain, staring down at the mere mortals trying to climb their way up. **Gunner's fortress is proving impenetrable with France and Morocco holding the line like seasoned veterans.** If anyone hopes to dethrone this king, they'll need more than a miracle — they'll need an army.
+**Bubba G** continues to reign supreme, showing no mercy with France brutalizing Sweden 3-0. **Gunner's dominance is so relentless it's starting to look like he's reading a different script from everyone else.** He's the emperor of the pitch, and all challengers are falling in line.
 
-### Devin — 32 pts · 2nd · Ghost Pepper reignites
+### Devin — 32 pts · 2nd · Ghost Pepper with a hot streak
 
-**Devin**’s campaign is sizzling once more after Norway's victory over Ivory Coast. **Ghost Pepper doesn't just burn—he scorches, with Erling Haaland leading the golden boot race.** Devin's got the firepower, but he's got to sustain it if he wants to light up Bubba G’s fortress.
+**Devin** is back with a vengeance, thanks to Norway torching Ivory Coast in a 2-1 victory. **Ghost Pepper is setting the field ablaze, riding the golden boot frontrunner Erling Haaland.** Can Devin maintain this heat wave long enough to make Gunner sweat?
 
-### Zach — 30 pts · 3rd · Mustard Boy in neutral
+### Zach — 30 pts · 3rd · Mustard Boy still stuck
 
-**Zach** and his Brazilian juggernaut speedster is momentarily stuck in neutral with no points to show today. **Mustard Boy better get his spicy game back on track or risk being left behind in this mustard race.** Zach's Samba party needs another beat — or it might end sooner than expected.
+**Zach** hasn't moved an inch, watching the action from the sidelines again today. **Mustard Boy's Brazil needs to remember what samba football means, or he'll be left behind swaying in the wind.** It's no time for a festive siesta if he’s eyeing the crown.
 
-### Gayden — 26 pts · 4th · The Backpass Assassin under siege
+### Gayden — 26 pts · 4th · The Backpass Assassin facing extinction
 
-**Gayden**, after watching both Japan and Ivory Coast pack their bags, finds himself deep in the trenches. **The Backpass Assassin is desperately searching for a way to stop the bleeding.** England is his last bastion of hope; otherwise, Gayden's season might end in a family-dinner embarrassment.
+**Gayden** is enduring another brutal day as Ivory Coast meets its demise against Norway. **The Backpass Assassin is getting outmaneuvered at every corner, with England carrying his last hopes.** If Gayden can't rally the troops, dinner talk will never be the same.
 
-### Rafe — 24 pts · 5th · The Noisemaker's silence deafening
+### Rafe — 24 pts · 5th · The Noisemaker whispers away
 
-**Rafe**, you've been outgunned and outmaneuvered, as your Germany has been sent home packing. **The Noisemaker finally got the volume turned down in this cutthroat competition.** Still, with Mexico and Ecuador around, can this chaos agent make one last noise before he's snuffed out?
+**Rafe** has let the chaos dwindle, with no points rolling in today. **The Noisemaker is failing to live up to his loud potential, as his Germany takes an early exit.** Rafe's draft of underdogs is running out of chances to stir the pot.
 
 ### THE FATHER-SON SAGA
 
-**Rafe's early mistakes and late comebacks have built up this dramatic father-son clash like a classic Hollywood tale.** With Germany gone and Gayden's squad crumbling, the Thanksgiving table stakes have never been higher. **Can The Noisemaker pipe up one last time, or will The Backpass Assassin reclaim his rightful place as the family's soccer king?** This saga isn't over, but it’s Gayden’s to fumble and Rafe’s to snatch.
+**The dinner-table drama is heating up as Gayden's empire crumbles while Rafe's underdog army stands idle.** The Backpass Assassin faces grim prospects with only England left to fend off the embarrassment of a takeover by The Noisemaker. **This contest of fatherly pride might turn into a generational victory if Gayden doesn't find a way to fight back.** Will Rafe's youthful bravado be enough to topple his dad's seasoned strategy, or is the teenager about to learn a harsh lesson in humility?

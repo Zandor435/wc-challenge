@@ -1409,6 +1409,23 @@
           "date": "2026-06-30",
           "stage": "knockout",
           "round": "R32",
+          "home": "France",
+          "away": "Sweden",
+          "home_score": 3,
+          "away_score": 0,
+          "score": "France 3-0 Sweden",
+          "points": {
+            "Gunner": 5.0
+          },
+          "math": [
+            "KO WIN (Round of 32): France (Gunner) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Sweden undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-06-30",
+          "stage": "knockout",
+          "round": "R32",
           "home": "Ivory Coast",
           "away": "Norway",
           "home_score": 1,
