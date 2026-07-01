@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G on a victory march
+### Gunner — 47 pts · 1st · Bubba G on cruise control
 
-**Bubba G** continues his reign of dominance, courtesy of France steamrolling Sweden. **Gunner's got a W4 streak that’s keeping the rest of the field choking on his dust and 56% of the model singing his praises.** With a squad firing on all cylinders, Gunner might as well start etching his name on the trophy now. It's his world cup, everyone else is just living in it.
+**Bubba G’s** victory parade continues, stomping Sweden faster than a marching band in rehearsal. With France leading his blitzkrieg, Gunner's accumulated 5 more points to keep a firm boot on the neck of this league. **Gunner’s got a death-grip on the trophy with a 56% chance to win it all.** At this pace, every other manager might as well start prepping their consolation speeches.
 
-### Devin — 32 pts · 2nd · Ghost Pepper keeping it spicy
+### Devin — 32 pts · 2nd · Ghost Pepper still burning
 
-**Devin's** not letting Gunner get too comfortable at the top, racking up points with Norway's narrow victory over Ivory Coast. **Ghost Pepper has the arsenal to turn up the heat, especially with Haaland leading the charge, and 15% champion odds keeping him in every conversation.** Devin’s making sure no one's checking out of this thriller early.
+**Devin’s** Norway danced all over the Ivory Coast and kept him in the thick of the title chase. **Ghost Pepper's got a 19% shot at the crown and Haaland lighting it up as if he's hosting a fireworks show.** Dimming Bubba G's victory march isn't impossible — it’s just Devin's spicy challenge now.
 
-### Zach — 30 pts · 3rd · Mustard Boy fizzling out
+### Zach — 30 pts · 3rd · Mustard Boy still a messy condiment
 
-**Zach** is stuck on the treadmill, failing to add to his point total today while others leapfrog him. **Mustard Boy’s Brazil-dependent strategy is like putting all his toppings on the wrong hot dog, hoping it somehow works out.** With a win probability of just 15%, Zach’s world cup dreams are slipping faster than his condiment of choice.
+**Zach's** fantasy is tanking faster than a soggy hot dog bun with zero additions to his point total today. **Mustard Boy’s Brazil-reliant strategy is now a glorified house of cards built on wobbly toppings.** With just a 15% chance of sniffing the trophy, hoping for a Brazilian carnival to drag him out of this pickle seems more fantasy than reality.
 
-### Rafe — 29 pts · 4th · The Noisemaker proving he belongs
+### Rafe — 29 pts · 4th · The Noisemaker just won't quit
 
-**Rafe's** relentless spirit pays off with Mexico delivering a crucial win against Ecuador, and finding himself only a point behind Zach. **The Noisemaker’s refusal to stay quiet is a testament to his uncanny knack for surprise, with a chaotic draft not holding back his 2% win probability.** Here's hoping the underdog keeps causing upsets and shaking up the dinner table.
+**Rafe’s** Mexico side delivered a masterclass, ensuring this chaotic agent stays one point shy of toppling Mustard Boy. **The Noisemaker's 2% odds are a testament to his unflinching tenacity and bizarre draft decisions that have morphed into beautiful chaos.** Every point gained is a reminder that logic is overrated in this blood sport.
 
-### Gayden — 26 pts · 5th · The Backpass Assassin’s blunders continue
+### Gayden — 26 pts · 5th · The Backpass Assassin’s last stand
 
-**Gayden’s** troubles deepen with Ivory Coast crashing out, and it's more salt in the wound as he's overtaken by his own prodigy. **The Backpass Assassin's tactical missteps are overshadowing the talent he once boasted, leaving him with England as the last straw to clutch.** He better hope that sword of St. George is as sharp as advertised, or it’s curtains.
+**Gayden’s** game plan is fraying like an old sweater, with England representing his lone hope after Ivory Coast's trouncing by Norway. **The Backpass Assassin must be wondering if it's time to hang up his cloak and dagger; only 10% chance to win with fatherly pride on the line.** A comeback might be likelier than a blizzard in July, but never say never in this family feud.
 
 ### THE FATHER-SON SAGA
 
-**The battle for familial supremacy takes a fierce turn as Rafe’s Mexico dethrones Ecuador, leaving The Noisemaker lodged in his dad's shadow no more.** With Gayden’s hopes dwindling faster than a sandcastle in high tide, the question remains: Can the father reclaim his honor before the family feast sees a new head of the table? **Rafe’s edge may be youthful indiscretion, but he's winning the war of psychological warfare every step of the way.** Thanksgiving 2026 is setting up to be a world cup of its own.
+**The Noisemaker's conquest over Ecuador has once again knocked **The Backpass Assassin** further down the family pecking order.** Rafe's fantasy wizardry — fueled more by guts than knowledge — is making Thanksgiving 2026 look like a roast of Dad's past glories. **Gayden's sinking faster than a lead balloon, while his son soars in a league he should've owned.** It's an age-old tale of the student besting the master — one upset victory at a time.
