@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T00:57:07Z",
+  "generated": "2026-07-01T04:35:00Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Round of 32",
     "is_preseason": false,
     "matchdays_played": 20,
-    "matches_played": 78,
-    "matches_remaining": 26,
+    "matches_played": 79,
+    "matches_remaining": 25,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -40,6 +40,11 @@
         "team": "Ivory Coast",
         "owner": "Gayden",
         "round": "Round of 32"
+      },
+      {
+        "team": "Ecuador",
+        "owner": "Rafe",
+        "round": "Round of 32"
       }
     ]
   },
@@ -54,8 +59,8 @@
         "D": 7,
         "L": 5
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.17,
+      "win_probability": 0.15,
+      "champion_probability": 0.15,
       "streak": {
         "type": "W",
         "length": 1,
@@ -92,8 +97,8 @@
         "D": 5,
         "L": 4
       },
-      "win_probability": 0.55,
-      "champion_probability": 0.25,
+      "win_probability": 0.56,
+      "champion_probability": 0.26,
       "streak": {
         "type": "W",
         "length": 4,
@@ -121,8 +126,8 @@
       }
     },
     "Gayden": {
-      "rank": 4,
-      "rank_change_from_prev_day": 0,
+      "rank": 5,
+      "rank_change_from_prev_day": -1,
       "total_points": 26,
       "points_today": 0,
       "record": {
@@ -168,7 +173,7 @@
         "D": 3,
         "L": 8
       },
-      "win_probability": 0.2,
+      "win_probability": 0.19,
       "champion_probability": 0.15,
       "streak": {
         "type": "W",
@@ -197,28 +202,28 @@
       }
     },
     "Rafe": {
-      "rank": 5,
-      "rank_change_from_prev_day": 0,
-      "total_points": 24,
-      "points_today": 0,
+      "rank": 4,
+      "rank_change_from_prev_day": 1,
+      "total_points": 29,
+      "points_today": 5,
       "record": {
-        "W": 7,
+        "W": 8,
         "D": 1,
-        "L": 11
+        "L": 12
       },
-      "win_probability": 0.01,
+      "win_probability": 0.02,
       "champion_probability": 0.02,
       "streak": {
         "type": "L",
-        "length": 4,
-        "label": "L4"
+        "length": 1,
+        "label": "L1"
       },
       "best_team": {
         "team": "Mexico",
         "tier": 2,
-        "points": 9,
+        "points": 14,
         "record": {
-          "W": 3,
+          "W": 4,
           "D": 0,
           "L": 0
         }
@@ -815,7 +820,7 @@
         "Gunner": 5,
         "Gayden": 0,
         "Devin": 5,
-        "Rafe": 0
+        "Rafe": 5
       }
     }
   ],
@@ -824,7 +829,7 @@
     "Gunner": 0.3,
     "Gayden": 0.27,
     "Devin": 0.22,
-    "Rafe": 0.25
+    "Rafe": 0.21
   },
   "notable_events": [
     {
@@ -892,6 +897,14 @@
       "owner": "Gayden",
       "round": "Round of 32",
       "description": "Ivory Coast (Gayden) eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-06-30",
+      "team": "Ecuador",
+      "owner": "Rafe",
+      "round": "Round of 32",
+      "description": "Ecuador (Rafe) eliminated in the Round of 32"
     },
     {
       "type": "biggest_day",
@@ -1512,28 +1525,28 @@
         "Gunner": 47,
         "Gayden": 26,
         "Devin": 32,
-        "Rafe": 24
+        "Rafe": 29
       },
       "points_today": {
         "Zach": 0,
         "Gunner": 5,
         "Gayden": 0,
         "Devin": 5,
-        "Rafe": 0
+        "Rafe": 5
       },
       "ranks": {
         "Gunner": 1,
         "Devin": 2,
         "Zach": 3,
-        "Gayden": 4,
-        "Rafe": 5
+        "Rafe": 4,
+        "Gayden": 5
       },
       "rank_change": {
         "Zach": -1,
         "Gunner": 0,
-        "Gayden": 0,
+        "Gayden": -1,
         "Devin": 1,
-        "Rafe": 0
+        "Rafe": 1
       }
     }
   ]

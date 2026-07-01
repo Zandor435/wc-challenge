@@ -1439,6 +1439,23 @@
             "KO WIN (Round of 32): Norway (Devin) +3  +2 advancement (reached round_of_16)",
             "KO LOSS: Ivory Coast (Gayden) +0"
           ]
+        },
+        {
+          "date": "2026-06-30",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "Mexico",
+          "away": "Ecuador",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "Mexico 2-0 Ecuador",
+          "points": {
+            "Rafe": 5.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Mexico (Rafe) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Ecuador (Rafe) +0"
+          ]
         }
       ]
     }
