@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G strides toward triumph
+### Gunner — 47 pts · 1st · Bubba G's fortress holds firm
 
-**Bubba G** remains the king of the hill, extending his reign with France's smackdown of Sweden. **Gunner's got a chokehold on the title, and at this point, it's his to lose.** With a 56% chance of taking the crown, Gunner's got everyone else's dreams locked in a sleeper hold.
+**Bubba G** continues to reign supreme, and at 56% win probability, he’s locking down dreams like a bouncer on New Year’s Eve. France’s demolition of Sweden keeps Gunner comfortably at the top. **Keep the victory lap at bay, Bubba, because the teen chaos agent is closing fast.**
 
-### Devin — 32 pts · 2nd · Ghost Pepper still simmering
+### Devin — 32 pts · 2nd · Ghost Pepper reignites with Norway's surge
 
-Devin holds steady in second as Norway thrusts him closer to an upset. **Ghost Pepper might be on the trail of Gunner's heat, but he’s still got Haaland’s fireworks display to thank for hanging on.** Keep those dreams alive, Devin — extinguishing Bubba G’s flame would be the peppery triumph of a lifetime.
+Devin climbs back to second as Norway weathers Ivory Coast. With Haaland's golden boot aspirations lining his pockets, Devin’s flames of hope aren’t doused yet. **Ghost Pepper might be drifting behind, but he's still ready to torch Gunner's party.**
 
-### Zach — 30 pts · 3rd · Mustard Boy's stale flavor
+### Zach — 30 pts · 3rd · Mustard Boy's flavor remains lackluster
 
-**Mustard Boy** needs to double-check the expiration date on his roster strategy. **Zach's Brazil-themed fantasy hasn't been spicy enough to catch up, leaving him stuck in third.** Hope's fading quicker than a backyard barbecue at a monsoon, with only a measly 15% chance of spicing up the leaderboard.
+**Mustard Boy** has dropped a spot but remains in the thick of it — not that anyone’s noticed. Brazil is doing all the lifting, while Czechia’s been a no-show. **Zach’s squad flavor is more plain than a tofu burger, with the clock ticking down.**
 
-### Rafe — 29 pts · 4th · The Noisemaker stirs the pot
+### Rafe — 29 pts · 4th · The Noisemaker's teen rampage
 
-**The Noisemaker** is anything but silent, marching to glory with Mexico's triumph over Ecuador. **Rafe’s odds may be slim, but this teen is defying the odds at a rate of 2%.** He might have more draft mishaps than the Browns' last five seasons, but he's still stirring up chaos like it's a family potluck.
+**The Noisemaker** rattles the standings again with Mexico’s march into the Round of 16. **Rafe’s sitting in fourth, but with 2% odds and the audacity of youth, he’s the wild card no one saw coming.** The family dynasty seems like an antique whenever Rafe steps up to the World Cup mic.
 
-### Gayden — 26 pts · 5th · The Backpass Assassin hits rock bottom
+### Gayden — 26 pts · 5th · The Backpass Assassin sinks deeper
 
-**The Backpass Assassin is left in the dust**, with Ivory Coast falling to Devin’s Norway. **Gayden's cloak-and-dagger tactics are unraveling, now teetering at just 8% to win it all.** It's a bitter pill — outmaneuvered by kin a quarter of his age and strategy, he's now the laughingstock at the family table.
+**The Backpass Assassin’s** stealth mission is an absolute bust — with Ivory Coast and Japan eliminated, it’s the bottom of the barrel. **Gayden’s squad is in tatters, and the only thing getting assassinated are his chances.** Every move he makes is undone by the teenage upstart he shares a roof with.
 
 ### THE FATHER-SON SAGA
 
-**From father to punchline: Gayden's dynasty is crumbling beneath Rafe's wild rise.** **The Noisemaker’s resounding success against Ecuador hammered home the generational shift, with the old guard gasping in disbelief.** Thanksgiving is brewing with tension — where **The Backpass Assassin** is more jest than jester, and **The Noisemaker** reigns as the family chaos king.
+**Rafe is redefining the family feud, treating every match like a Thanksgiving rumble.** **The Noisemaker's last-minute Mexico victory delivers another jab to Gayden's ribs.** With **The Backpass Assassin** suffering knockout after knockout, Rafe's scene-stealing is the stuff of family legend.
