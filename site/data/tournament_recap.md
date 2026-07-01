@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G's fortress takes a hit
+### Gunner — 47 pts · 1st · Bubba G still on a shaky throne
 
-**Bubba G** might still sit atop the throne, but his empire took a hit with England's takedown of DR Congo. His 55% win probability might feel like a safety net, but it's quickly becoming a noose with the challengers gaining ground. **Gunner, you better tighten the screws before Ghost Pepper lights up your world.**
+**Bubba G** manages to cling to the top spot despite his DR Congo taking a beating from Gayden's England. That 55% win probability should feel solid, but it's a sandcastle against the rising tide of **The Backpass Assassin**. **Gunner, if France doesn't bring the heat, it's only a matter of time before you get blown away.**
 
-### Devin — 32 pts · 2nd · Ghost Pepper's flames flicker
+### Devin — 32 pts · 2nd · Ghost Pepper clings by a thread
 
-Devin holds onto second but the death of South Africa is a cold splash of reality. Haaland's golden boot run might keep him in it, but **Ghost Pepper's fire is more sparkler than bonfire right now.** Devin needs a serious rally to prevent his champion dreams from going up in smoke.
+Devin's got that silver medal position thanks to Haaland's golden boot heroics, but let's be real — it's more desperation than domination. South Africa's exit was a knockout punch, and while he still has Spain in his arsenal, the rest of his squad looks shaky at best. **Ghost Pepper better hope that golden boot translates to golden luck or risk incinerating his slim chances.**
 
-### Gayden — 31 pts · 3rd · The Backpass Assassin's comeback
+### Gayden — 31 pts · 3rd · The Backpass Assassin strikes back
 
-Gayden's England kept him alive, with a Round of 16 berth slapping a fresh coat of paint on what was a rundown operation. **The Backpass Assassin finally decided to trade stealth for steel, climbing two spots and planting a flag of defiance for all to see.** Now, if only he could edge out his own kid.
+Gayden's England performed a masterclass takedown of Gunner's DR Congo, adding 5 sweet points to his resurrection. **The Backpass Assassin finally seems to be waking up from his slumber, dropping hammers on competitors and ascending the ranks with more swagger than a high school prom king.** With a little more of this magic, he might just silence all the doubters — and his son.
 
-### Zach — 30 pts · 4th · Mustard Boy remains tepid
+### Zach — 30 pts · 4th · Mustard Boy on a stale bun
 
-**Mustard Boy** is sinking fast with Brazil as the only hot sauce in his lineup. It's the same bland story — a one-man army with no backup to carry the flavor. **Zach's squad is about as thrilling as lukewarm mustard on a soggy bun.**
+**Mustard Boy** stays stuck in a never-ending malaise, as Brazil seems to be the only condiment in his drab lineup. Switzerland and Austria might bring some flavor now and then, but the rest of the roster is as tepid as ever. **Zach's season is looking more like a science experiment gone wrong than a championship campaign.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's racket quiets
+### Rafe — 29 pts · 5th · The Noisemaker runs out of steam
 
-**The Noisemaker** isn't shouting anymore. With Germany and Ecuador ejected, Rafe is staring at the abyss and it’s not blinking. **He still boasts the youthful gall to challenge Papa Assassin, but right now, his big plays could use a little more substance and a lot less noise.**
+**The Noisemaker's** early chaos tactics have hit a wall, as Germany's ouster has him gasping for breath. He started as the high-flyer, the Cinderella chaos agent promising drama, yet now finds himself trailing the pack. **Rafe better crank up the volume or risk fading into the background of his own saga.**
 
 ### THE FATHER-SON SAGA
 
-**Rafe might be the chaos agent, but Gayden's sneak attack with England shows that the assassin never reveals his hand too early.** It's a Shakespearean drama at every dinner table, with Rafe poking and prodding just enough to keep his father unsettled. **But as it stands, the elder statesman looks poised to reclaim some familial pride.** It's a slow burn worth watching.
+**As the son falters, the father rises — The Backpass Assassin is making this family feud a one-man show.** Rafe's youthful enthusiasm and messy draft strategy once seemed charmingly chaotic, but it's his dad Gayden who’s capitalizing on the chaos, leaving Rafe in his dust. **The dinner table drama is shifting, with Papa Assassin looking to school his young upstart on what it means to be a champion.** This Shakespearean drama is reaching its boiling point, and Gayden looks ready to deliver the final act.
