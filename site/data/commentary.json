@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02T11:33:52Z",
+  "generated": "2026-07-02T14:00:40Z",
   "source": "daily_results_2026-07-01",
   "date": "2026-07-02",
   "rotation": 21,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why Gunner must be feeling confident at the top, but let's not pretend it's anything other than France carrying \"Bubba G\" on its back.** He's racked up a total of 47 points, which, to be fair, is impressive, but when your T2 and T3 picks are floundering like fish out of water, well, that's not exactly a masterclass in strategy. Devin, bless his heart, has managed to hold the second spot with 37 points despite his inexplicable affection for Haiti. I feel for \"Ghost Pepper,\" who's certainly feeling the heat with Spain facing off against \"Mustard Boy\" Zach's Austria in Toronto. Given Spain's recent form, one might think Devin's got an edge here, but let's not forget Zach’s uncanny ability to do just enough to keep things interesting — it’s not like Austria is a powerhouse, after all.\n\nBut what about Rafe, \"The Noisemaker\"? After all, it's not every day you find yourself at the bottom of the standings, especially when your mother, \"The Backpass Assassin,\" is showing you up by a whole two points. Rafe's enthusiastic but chaotic drafting strategy saw him pick three teams that didn't even qualify. You might call it naïveté, others \"unpredictable genius\" — although the latter feels generous. Perhaps Germany will miraculously lift the young maverick out of last place, but unfortunately, I suspect he'll be learning a few hard lessons about the beautiful game and the perils of relying on Scotland.\n\nMeanwhile, Gayden's managed to keep things marginally more respectable, sitting in third place with 31 points, thanks in part to England's win over DR Congo. It's hardly the stuff of legends, but it does keep \"The Backpass Assassin\" just afloat in this motley pool. Zach's 30-point tally could see a minor boost if Austria holds its ground against Spain, but then again, his penchant for unexpected drafting choices like Saudi Arabia always leaves me scratching my head. So, in today's clash in Toronto, I'm going out on a limb here — Spain over Austria, because, really, Devin needs a break from his own questionable decisions."
+    "take": "**Look, you have to feel sorry for Rafe, I really do, but drafting Germany as your first pick doesn't magically translate into understanding what offsides means.** It's as if \"The Noisemaker\" thinks soccer is akin to a wrestling match where yelling is a strategic move—unfortunately, it isn't, and that's probably why he's languishing in last place. Yet, I can see why Gunner, or should I say \"Bubba G,\" is leading the pool, but let's admit it: his choices read more like a best-seller list of safe picks than a stroke of genius. France, Senegal, Morocco—it's rather predictable but effective, kind of like drinking boring vanilla smoothies for breakfast. Meanwhile, Devin's Spain versus Zach’s Austria is today’s clash of the titans, and I empathize with \"Ghost Pepper\" because he surely drafted Spain thinking they'd spice things up a bit more. But bless his heart, running with Haiti in tow. In a show of baffling certainty, I expect Spain to edge through, simply because Austria might not remember to play both halves."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Brazil Strategy Lost in Sauce as Team Slides",
-      "subtitle": "Zach hopes for a comeback with Austria against Spain.",
+      "headline": "Mustard Boy Zach Poised for Bitter Reunion with Former Pick",
+      "subtitle": "Spain vs Austria set to reveal if Zach's draft regret runs deep.",
       "match": "Spain vs Austria",
       "date": "2026-07-02"
     },
     {
       "pundit": "donovan",
-      "headline": "Backpass Assassin Sneaks England Past DR Congo, Forgets Other Teams",
-      "subtitle": "Gayden's other squads remain unnoticed while England saves the day.",
+      "headline": "Backpass Assassin Gayden's Tactical Genius Keeps Him Third in Standings",
+      "subtitle": "Defeating Gunner's DR Congo is latest masterstroke in the art of minimal advancement.",
       "match": "England vs DR Congo",
       "date": "2026-07-02"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's Standout Strategy: Riding USA's Coattails Up the Table",
-      "subtitle": "Devin banks on USA after Bosnian sweep leaves him in second.",
+      "headline": "Ghost Pepper Devin Closes Gap, Lets USA Do Heavy Lifting",
+      "subtitle": "Scoring USA win over Bosnia pushes Devin a step ahead in standings heat.",
       "match": "USA vs Bosnia",
       "date": "2026-07-02"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G Loses Points in Senegal's Battle with Belgium",
-      "subtitle": "Gunner's top-ranked position remains elusive as points slip away.",
+      "headline": "Gunner Bubba G's Senegal Stumbles Against Belgium, Perfect Revenge Plot",
+      "subtitle": "The art of losing: how zero-point strategies fortify the lead.",
       "match": "Belgium vs Senegal",
       "date": "2026-07-02"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's Germany exit screams 'dad's league,' yet the kid's still hanging on.",
-    "Rafe's draft mess includes Nigeria, Poland, Jamaica; none qualified, yet still laughs last.",
-    "Gunner's 8-point demolition of Devin shows why he's the king; school is in session.",
-    "The sim favors Gunner at 49%, but the pesky teen is breaking algorithms."
+    "Rafe's chaos theory: Only 2% to win, yet still giving the veterans nightmares.",
+    "Rafe's Tier-3 Tunisia: A masterclass in doing absolutely nothing and going nowhere.",
+    "Devin's 0-2 head-to-head against Rafe? That's gotta sting worse than ghost pepper sauce.",
+    "Gunner's 49% favorite status plummeted faster than DR Congo's championship dreams."
   ]
 }
