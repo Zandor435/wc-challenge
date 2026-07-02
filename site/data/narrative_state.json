@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T21:35:02Z",
+  "generated": "2026-07-02T00:53:42Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Round of 32",
     "is_preseason": false,
     "matchdays_played": 21,
-    "matches_played": 80,
-    "matches_remaining": 24,
+    "matches_played": 81,
+    "matches_remaining": 23,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -50,6 +50,11 @@
         "team": "DR Congo",
         "owner": "Gunner",
         "round": "Round of 32"
+      },
+      {
+        "team": "Senegal",
+        "owner": "Gunner",
+        "round": "Round of 32"
       }
     ]
   },
@@ -64,7 +69,7 @@
         "D": 7,
         "L": 5
       },
-      "win_probability": 0.15,
+      "win_probability": 0.17,
       "champion_probability": 0.15,
       "streak": {
         "type": "W",
@@ -100,14 +105,14 @@
       "record": {
         "W": 12,
         "D": 5,
-        "L": 5
+        "L": 6
       },
-      "win_probability": 0.55,
-      "champion_probability": 0.26,
+      "win_probability": 0.51,
+      "champion_probability": 0.25,
       "streak": {
         "type": "L",
-        "length": 1,
-        "label": "L1"
+        "length": 2,
+        "label": "L2"
       },
       "best_team": {
         "team": "France",
@@ -126,7 +131,7 @@
         "record": {
           "W": 1,
           "D": 0,
-          "L": 2
+          "L": 3
         }
       }
     },
@@ -140,8 +145,8 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.09,
-      "champion_probability": 0.11,
+      "win_probability": 0.11,
+      "champion_probability": 0.12,
       "streak": {
         "type": "W",
         "length": 1,
@@ -178,8 +183,8 @@
         "D": 3,
         "L": 8
       },
-      "win_probability": 0.2,
-      "champion_probability": 0.15,
+      "win_probability": 0.19,
+      "champion_probability": 0.14,
       "streak": {
         "type": "W",
         "length": 1,
@@ -217,7 +222,7 @@
         "L": 12
       },
       "win_probability": 0.01,
-      "champion_probability": 0.02,
+      "champion_probability": 0.01,
       "streak": {
         "type": "L",
         "length": 1,
@@ -949,6 +954,14 @@
       "owner": "Gunner",
       "round": "Round of 32",
       "description": "DR Congo (Gunner) eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-01",
+      "team": "Senegal",
+      "owner": "Gunner",
+      "round": "Round of 32",
+      "description": "Senegal (Gunner) eliminated in the Round of 32"
     },
     {
       "type": "biggest_day",
