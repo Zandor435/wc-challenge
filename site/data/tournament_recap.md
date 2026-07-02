@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G's shaky dynasty
+### Gunner — 47 pts · 1st · Bubba G's house of cards
 
-**Bubba G** continues to reign with a 51.0% win probability, but his empire is crumbling faster than a cookie in milk. DR Congo and Senegal are now memories of a forgotten Cinderella story, and with a losing streak hanging over his head, Gunner's once-solid lead is looking as fragile as wet tissue paper. **You better hope France doesn't choke, Gunner, or it's lights out for the king.**
+**Bubba G** may still cling to the top spot, but it's more precarious than a house of cards in a hurricane. Seeing both of his Cinderella teams, DR Congo and Senegal, crash out in the Round of 32 without a whimper only highlights that Gunner's empire is as stable as balancing on a unicycle. **All eyes are now on France — you better pray Les Bleus don't crumble or it's curtains for your shaky reign.**
 
-### Devin — 32 pts · 2nd · Ghost Pepper holding steady
+### Devin — 37 pts · 2nd · Ghost Pepper simmering nicely
 
-Devin sits comfortably in second, thanks largely to Haaland's golden boot magic. The Norwegian wizardry might keep him afloat for now, but with Spain and Norway as his only remaining heavyweights, this isn't a cruise-control situation. **Ghost Pepper better start investing in some serious luck — or watch Devin's dreams of glory burn to ashes.**
+Devin is hanging tight in second, with USA saving the day and advancing to the Round of 16. With Haaland still leading the golden boot race, **Ghost Pepper is smelling like a champion but has got to keep the flame on high to fend off Gayden's surge.** It's a volatile mix but Devin looks like he might have the right ingredients to spice up the leaderboard.
 
-### Gayden — 31 pts · 3rd · The Backpass Assassin rising
+### Gayden — 31 pts · 3rd · The Backpass Assassin's steady climb
 
-**The Backpass Assassin** is back, slicing through the league with elegance and efficiency, as England's win over Gunner's DR Congo marks another scalping for Gayden. With England advancing and carrying that 11% win probability, Gayden’s got the momentum swinging harder than a wrecking ball. **Don't look now, but the old man's got swagger, and he's closing in fast on those podium spots.**
+**The Backpass Assassin** is single-handedly redefining the comeback playbook, pulling off another power move with England's advance at Gunner's expense. The momentum has swung in his favor with England's knockout round win, and Gayden's looking to storm the top ranks harder than ever. **Father's Day may be long gone, but Gayden's reminding everyone that he's still the boss, including his own son.**
 
-### Zach — 30 pts · 4th · Mustard Boy lost in a sauce
+### Zach — 30 pts · 4th · Mustard Boy struggling to preserve his flavor
 
-**Mustard Boy** may have Brazil as the only saving grace, but the rest of his lineup is as stale as week-old bread. **Zach's campaign continues to look more like a bad kitchen experiment than a serious title contender.** With a measly advancement point haul, his championship hopes are fading faster than a cheap dye job.
+**Mustard Boy** is sitting in the middle of the pack with Brazil carrying his hopes like a faltering lifeline. Zach's squad is more unreliable than a generic off-brand condiment, with Czechia's fizzled performance adding to the frustration. **The 'mustard' seems more of a stain than a spicy addition to this league standing.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's silent downfall
+### Rafe — 29 pts · 5th · The Noisemaker's plans unraveling
 
-**The Noisemaker** is sinking, the youthful chaos is quieting, and his dad Gayden is relishing every moment of it. His draft disaster is returning to haunt him in this Shakespearean tale. **Rafe's got the enthusiasm but lacks the experience, and the league keeps serving him a slice of humble pie.**
+**The Noisemaker** is now the quietest in the standings, with **Rafe** experiencing the kind of collapse even his teenage enthusiasm can't mend. Germany's early exit put a serious dent in his ambitious novice plans, leaving him to mull over what could have been. **Dad's sitting pretty ahead while Rafe is learning the harsh lessons of fantasy soccer in real time.**
 
 ### THE FATHER-SON SAGA
 
-The dynamic between **The Backpass Assassin** and **The Noisemaker** is reaching a fever pitch. This father-son drama is turning into a full-blown Shakespearean tragedy for Rafe. **While Gayden rises through the ranks with a laser-like focus, Rafe's haphazard strategy is letting him down.** Thanksgiving dinner? Expect some extra servings of crow served by Papa Assassin.
+The tale of **The Backpass Assassin** versus **The Noisemaker** continues to captivate as Gayden inches ahead, leaving Rafe in the dust yet again. While Gayden celebrates another strategic victory with England advancing, Rafe's chaotic approach once again bites the dust, with Germany and Ecuador stumbling out. **The kid is realizing that the master still holds the cards, setting up an awkward Thanksgiving dinner showdown.**

@@ -1484,6 +1484,23 @@
           "date": "2026-07-01",
           "stage": "knockout",
           "round": "R32",
+          "home": "USA",
+          "away": "Bosnia",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "USA 2-0 Bosnia",
+          "points": {
+            "Devin": 5.0
+          },
+          "math": [
+            "KO WIN (Round of 32): USA (Devin) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Bosnia (Devin) +0"
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "stage": "knockout",
+          "round": "R32",
           "home": "Belgium",
           "away": "Senegal",
           "home_score": 3,
