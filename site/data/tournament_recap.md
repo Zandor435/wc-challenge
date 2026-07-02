@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G's glass slipper is cracking
+### Gunner — 47 pts · 1st · Bubba G's living on the edge
 
-Gunner might still be perched at the top, but **Bubba G** is reeling from another pair of knockout punches. With DR Congo and Senegal biting the dust, France is looking more like a Hail Mary than a blueprint of success. **That 49% win probability feels like a paper tiger with a 2-loss streak, Gunner — your lead's getting about as credible as a tourist trap.**
+**Bubba G** Gunner's in first but beleaguered like a sunset boulevard. The 47-point anchor isn’t the sure bet you’d think, especially with France as his last hope in the tier-1 wars. **That 48% win probability is looking as tepid as a reheated TV dinner — shape up or ship out, Gunner.**
 
-### Devin — 37 pts · 2nd · Ghost Pepper won't cool down
+### Devin — 42 pts · 2nd · Ghost Pepper keeps ascending
 
-**Ghost Pepper** Devin just scorched his way into solidifying second place with a knockout blow from the USA over Bosnia. Haaland continues to make defenders look like they're standing still, and those 5 points today are more proof that Devin’s pot is bubbling. **At a 21% win probability, this firebrand’s got the scary blend of potential and momentum; he's the one to watch if you don't want to get burned.**
+Devin's **Ghost Pepper** persona sizzles onward with Spain's surgical 3-0 dismantling of Austria. With 42 points and riding Haaland's coattails, this spicy entrant is just one knockout away from dominating the leaderboards. **At 24% win chance, Devin is the type who might snag the trophy without even breaking a sweat — hotter than a jalapeño in July.**
 
-### Gayden — 31 pts · 3rd · The Backpass Assassin sharpens his blade
+### Gayden — 31 pts · 3rd · The Backpass Assassin is plotting
 
-**The Backpass Assassin** Gayden is mounting a charge worthy of its own highlight reel, pulling up two ranks today with a decisive win, thanks to England teaching DR Congo a lesson. Gayden's momentum finally matches his strategy, and the 5-point surge is a shot across the bow to all his rivals. **With an 11% win probability and a son gunning for him, it’s not just pride but family bragging rights on the line, Gayden — and you're making all the right moves.**
+**The Backpass Assassin** Gayden is picking up the pieces, but his elimination woes are far from over. England is his shining knight, yet the steady drip of points demonstrates a sinister patience. **Gayden, the family’s battle royale is upon you — time to show your son why the Assassin's blade still cuts deep.**
 
-### Zach — 30 pts · 4th · Mustard Boy is stuck in the jar
+### Zach — 30 pts · 4th · Mustard Boy's flavor is faded
 
-**Mustard Boy** Zach took another hit today, unable to muster a single point while the rest of the pack circles him like hungry vultures. Brazil might be the only thing keeping Zach afloat, but can it really carry the whole weight of a teetering empire? **Zach, you're on thin ice with mustard-yellow cracks all over it — time to take some lessons from Gayden’s playbook before you’re history.**
+**Mustard Boy** Zach’s fortunes remain as stagnant as a forgotten jar in the fridge — 30 points and counting. With Austria's knockout blow, reliance on Brazil is reaching desperate heights. **Zach, stop soul searching and start soul-scoring — or wave goodbye to any dreams of championship mustard glory.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's static gets louder
+### Rafe — 29 pts · 5th · The Noisemaker is whimpering
 
-**The Noisemaker** Rafe found himself on the wrong side of the results again, showing all the signs of a young gun facing real adversity. Germany’s ousting is yet another sting, but Mexico’s spark keeps the fading hope alive. **Sitting at a 2% win probability, Rafe, you’re looking like a flickering bulb in a dim room — time to either let it flicker out or dial up the voltage.**
+**The Noisemaker** Rafe, sitting in last place, needs more than Mexico’s mirages to escape the shadow of Pops. With a paltry 29 points and a 1% chance to win, it's time to turn his floundering orchestra into a crescendo. **Rafe, crash the Thanksgiving dinner or be the punchline you swore you wouldn’t be — make some noise before silence sets in.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin** Gayden is proving exactly why experience beats youthful exuberance, as he forces young **The Noisemaker** Rafe to keep wondering if he should have stuck to baseball. Each family dinner must feel more like strategy meetings on neutral grounds, with Thanksgiving promising to be less about giving thanks and more about laying down stakes. **Rafe, it’s time to turn the volume up if you don’t want Dad to lay claim to all the family bragging rights — the battlefield is your family room now.**
+The family feud thickens as **The Backpass Assassin** Gayden squares off with his progeny, **The Noisemaker** Rafe, all for household supremacies. The simmering tension is as palpable as a garage door opener in a thunderstorm, with bragging rights tapping anxiously on the line. **Thanksgiving promises fiery debates if Rafe can flip the script, but time's running short on his rookie symphony.**

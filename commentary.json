@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-02T19:24:40Z",
-  "source": "daily_results_2026-07-01",
-  "date": "2026-07-02",
-  "rotation": 21,
+  "generated": "2026-07-02T22:06:18Z",
+  "source": "daily_results_2026-07-02",
+  "date": "2026-07-03",
+  "rotation": 22,
   "pundit": {
-    "name": "Landon Donovan",
-    "tone": "hedging",
-    "color": "#2f6dff",
-    "take": "**Look, I get why people say drafting DR Congo in the fourth round shows optimism, but bless Bubba G's heart, that's just football poetry in the wrong language.** I feel for Gunner, who's sitting pretty at the top with 47 points, but it's clear his roster decisions are a high-stakes game of Russian roulette. DR Congo's performance against England didn't exactly set the world on fire, and although France was a solid Tier 1 pick, yesterday's zero against Belgium's stout play must have smarted. \n\nOn the flip side, Devin, or \"Ghost Pepper,\" seems to be locked in a strange romance with mediocrity. I mean, what can you expect when Haiti is your dark horse? Still, his Spain side has the strength to edge out Mustard Boy's Austria, especially after yesterday's solid win by the USA over Bosnia. Not that Zach's choices inspire much confidence, mind you. Brazil might be the jewel in his crown, but Austria isn't exactly Europe’s finest heavyweight. So, in today's matchup in Toronto, I'm confidently predicting Spain will take the win—not because Devin is a tactical genius, but because Zach's roster is in desperate need of a savior."
+    "name": "Clint Dempsey",
+    "tone": "chill",
+    "color": "#28c060",
+    "take": "**Bubba G's sittin' on top like he stole the crown jewels, while Mustard Boy's slide down the mountain faster than gravy on Thanksgiving dinner.** Gunner's got France and their baguette-loving skills racking up points like he paid 'em in croissants, sittin' pretty with 47. Meanwhile, Devin's Ghost Pepper is hot on his heels, five points back, tryin' to make a run with Spain's finesse — though Zach's Brazil ain't helpin' him one bit 'cause Austria got cooked 3-0, leaving him with a goose egg in his basket yesterday. Gayden, aka The Backpass Assassin, is stuck in neutral with England, more worried 'bout not losin' than winnin'. And let's not get started on The Noisemaker, Rafe — the kid's fantasy roster looks more like a geography lesson gone wrong. Uzbekistan, really? You'd think he was draftin' countries based on their food. If Zach and Rafe wanna avoid bottom dwellerville, they better start throwin' hail marys, 'cause right now it's lookin' like Bubba G's world and they just livin' in it."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's Senegal Fails to Score in Loss to Belgium",
-      "subtitle": "First-place team rattled after another frustrated outing on offense.",
-      "match": "Belgium vs Senegal",
-      "date": "2026-07-02"
+      "headline": "Spain Dominates As Ghost Pepper Proves Too Hot For Mustard Boy",
+      "subtitle": "Devin's strategic menu leaves Zach struggling for table condiments.",
+      "match": "Spain vs Austria",
+      "date": "2026-07-03"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin's USA Defense Secures Victory Against Bosnia With Clean Sheet",
-      "subtitle": "Manager's pragmatic tactics pay off with crucial points in standings.",
-      "match": "USA vs Bosnia",
-      "date": "2026-07-02"
+      "headline": "Argentina Set To Sweep Cape Verde While Rafe Watches On",
+      "subtitle": "The Noisemaker continues studying teams that actually made it.",
+      "match": "Argentina vs Cape Verde",
+      "date": "2026-07-03"
     },
     {
       "pundit": "dempsey",
-      "headline": "Zach's Brazil Strategy Falters With Austria Set to Face Spain",
-      "subtitle": "Mustard Boy hoping for a miracle in upcoming group clash.",
-      "match": "Spain vs Austria",
-      "date": "2026-07-02"
+      "headline": "Colombia Poised To Challenge Ghana, Zach Hopes For Underdog Win",
+      "subtitle": "Mustard Boy's last condiment packet might not save the day.",
+      "match": "Colombia vs Ghana",
+      "date": "2026-07-03"
     },
     {
       "pundit": "lalas",
-      "headline": "Gayden's England Triumphs Over DR Congo to Boost Team Morale",
-      "subtitle": "The Backpass Assassin's bold moves cement position in top three.",
-      "match": "England vs DR Congo",
-      "date": "2026-07-02"
+      "headline": "Bubba G Prepares For Egypt's Clash With Australia's Kangaroo Tactics",
+      "subtitle": "Gunner banks on Egypt to jump over standings competition.",
+      "match": "Australia vs Egypt",
+      "date": "2026-07-03"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's Germany got bounced in Round of 32—so much for family bragging rights.",
-    "Rafe's Tier-1 Germany: out—and you thought his draft couldn't get worse.",
-    "Rafe vs. Devin: 6-point beatdown; someone's losing at Thanksgiving this year.",
-    "The model bungled Germany's potential—Rafe's chaos ruins everyone’s math."
+    "Gunner still tops despite back-to-back losses and Devin breathing down his neck.",
+    "Rafe's Tier-1 picks crashing out faster than Gayden's Thanksgiving jokes.",
+    "Rafe schooled Devin 6-0 head-to-head; talk about a generational gap in skill!",
+    "Sim's got Gunner at 48% but can't foresee his Senegalese slip-ups."
   ]
 }
