@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G still clinging
+### Gunner — 47 pts · 1st · Bubba G's glass slipper is cracking
 
-**Bubba G** Gunner remains out front with the lead, but the glossy veneer of dominance is starting to crack. Back-to-back losses with Senegal and DR Congo bowing out only highlight France's herculean load-bearing. **That 49% win probability can't dance around reality forever, Gunner — the foundation's shaky, and one misstep could see your Jenga tower tumbling.**
+Gunner might still be perched at the top, but **Bubba G** is reeling from another pair of knockout punches. With DR Congo and Senegal biting the dust, France is looking more like a Hail Mary than a blueprint of success. **That 49% win probability feels like a paper tiger with a 2-loss streak, Gunner — your lead's getting about as credible as a tourist trap.**
 
-### Devin — 37 pts · 2nd · Ghost Pepper heats up
+### Devin — 37 pts · 2nd · Ghost Pepper won't cool down
 
-**Ghost Pepper** Devin is turning up the intensity one degree at a time. With the USA pushing through Bosnia and Haaland's goal-scoring rage, Devin's gliding under the radar with skillful execution. **That 21% chance to win is looking like a fire that just won't go out, folks — don't touch the Ghost Pepper unless you want to play with fire.**
+**Ghost Pepper** Devin just scorched his way into solidifying second place with a knockout blow from the USA over Bosnia. Haaland continues to make defenders look like they're standing still, and those 5 points today are more proof that Devin’s pot is bubbling. **At a 21% win probability, this firebrand’s got the scary blend of potential and momentum; he's the one to watch if you don't want to get burned.**
 
-### Gayden — 31 pts · 3rd · The Backpass Assassin stays lethal
+### Gayden — 31 pts · 3rd · The Backpass Assassin sharpens his blade
 
-**The Backpass Assassin** Gayden is slicing through the competition with England’s win over DR Congo. He's not just charging up the ranks, folks; he's carving out his legacy one strategic move at a time. **With just 11% win probability, Gayden's long game could make Thanksgiving a time of war stories rather than turkey.**
+**The Backpass Assassin** Gayden is mounting a charge worthy of its own highlight reel, pulling up two ranks today with a decisive win, thanks to England teaching DR Congo a lesson. Gayden's momentum finally matches his strategy, and the 5-point surge is a shot across the bow to all his rivals. **With an 11% win probability and a son gunning for him, it’s not just pride but family bragging rights on the line, Gayden — and you're making all the right moves.**
 
-### Zach — 30 pts · 4th · Mustard Boy's flavor fades
+### Zach — 30 pts · 4th · Mustard Boy is stuck in the jar
 
-**Mustard Boy** Zach’s results are more mild sauce than hot mustard at the moment. With Brazil as his only beacon of hope, the endgame looks bleak. **Zach, your condiment empire is starting to sour — it might be time to switch up the recipe.**
+**Mustard Boy** Zach took another hit today, unable to muster a single point while the rest of the pack circles him like hungry vultures. Brazil might be the only thing keeping Zach afloat, but can it really carry the whole weight of a teetering empire? **Zach, you're on thin ice with mustard-yellow cracks all over it — time to take some lessons from Gayden’s playbook before you’re history.**
 
-### Rafe — 29 pts · 5th · The Noisemaker fades into static
+### Rafe — 29 pts · 5th · The Noisemaker's static gets louder
 
-**The Noisemaker** Rafe keeps getting muffled by the overwhelming pressure of competition. With Germany and Ecuador both getting the boot, Rafe's drafted inexperience is showing its cracks. **A 2% chance feels like a whisper in a hurricane, kid — your early bravado’s now a gentle whimper.**
+**The Noisemaker** Rafe found himself on the wrong side of the results again, showing all the signs of a young gun facing real adversity. Germany’s ousting is yet another sting, but Mexico’s spark keeps the fading hope alive. **Sitting at a 2% win probability, Rafe, you’re looking like a flickering bulb in a dim room — time to either let it flicker out or dial up the voltage.**
 
 ### THE FATHER-SON SAGA
 
-This World Cup isn't just a global spectacle—it's a powder keg of familial tension, with **The Backpass Assassin** teaching **The Noisemaker** a hard lesson in tactical warfare. Rafe, the kid who thought he could upstage his seasoned dad, is starting to realize playtime's over, especially as Gayden sharpens his assassin's blade. **Thanksgiving's shaping up to be a feast of not just turkey but some serious humble pie for young Rafe.**
+**The Backpass Assassin** Gayden is proving exactly why experience beats youthful exuberance, as he forces young **The Noisemaker** Rafe to keep wondering if he should have stuck to baseball. Each family dinner must feel more like strategy meetings on neutral grounds, with Thanksgiving promising to be less about giving thanks and more about laying down stakes. **Rafe, it’s time to turn the volume up if you don’t want Dad to lay claim to all the family bragging rights — the battlefield is your family room now.**
