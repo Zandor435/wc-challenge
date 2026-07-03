@@ -1551,6 +1551,23 @@
             "KO WIN (Round of 32): Spain (Devin) +3  +2 advancement (reached round_of_16)",
             "KO LOSS: Austria (Zach) +0"
           ]
+        },
+        {
+          "date": "2026-07-02",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "Switzerland",
+          "away": "Algeria",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "Switzerland 2-0 Algeria",
+          "points": {
+            "Zach": 5.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Switzerland (Zach) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Algeria undrafted, no points"
+          ]
         }
       ]
     }

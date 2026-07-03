@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G's fortress is crumbling
+### Gunner — 47 pts · 1st · Bubba G's empire on shaky ground
 
-**Bubba G** Gunner's ride atop the leaderboard is starting to look like a Ferris wheel teetering in a hurricane. With a two-game losing streak and a reliance on France built shakier than a house of cards, his 48% win probability is the only thing holding up this wobbly dome. **If DR Congo and Senegal had any fight left, Gunner, maybe your team wouldn't be performing like a soap opera.**
+**Gunner**, the king of the castle with his 47 points, but the cracks are showing. **Bubba G**, your fortress is looking like a sandcastle facing a rising tide after a two-game losing streak. France continues to carry your hopes, but with DR Congo and Senegal biting the dust, you need more than a hope and a prayer to stay ahead. **Can Bubba G keep the crown, or will his house of cards collapse under pressure?**
 
-### Devin — 42 pts · 2nd · Ghost Pepper ignites again
+### Devin — 42 pts · 2nd · Ghost Pepper keeps the heat on
 
-Devin's **Ghost Pepper** continues to annihilate his challengers with Spain's thrashing of Austria earning him a spicy 5 points. Sitting comfortably with a 22% chance to take it all, Devin’s ascent is an inferno. **Devin, you might just ghost past everyone with Erling Haaland blazing a trail — the trophy is yours to lose.**
+**Ghost Pepper** Devin is turning up the heat with another fiery performance, courtesy of Spain’s demolition of Austria — a cool 5 points stacked up today. With Norway's Haaland still gunning for glory, Devin's 17% champion odds seem anything but ghostly. **Devin, can you scorch past Bubba G, or will your flame flicker out in the home stretch?**
 
-### Gayden — 31 pts · 3rd · The Backpass Assassin bides his time
+### Zach — 35 pts · 3rd · Mustard Boy back in the race
 
-**The Backpass Assassin** Gayden may not be making any loud moves, but with England still in the mix, this saga isn’t over. With Japan and Ivory Coast gone, Gayden needs England and his other hidden pieces to rev up the assault. **Gayden, don’t let your tactician plans go quiet — unleash the assassin within or risk the family throne.**
+**Mustard Boy** Zach is proving that he’s not just yesterday’s condiment with Switzerland advancing, adding a solid 5 points to his stash. Brazil is still his golden ticket, but Switzerland's double scoops of joy today lifted him into the 35-point club. **Zach, if you keep spreading points like butter, Mustard Boy might just turn into the mustard man.**
 
-### Zach — 30 pts · 4th · Mustard Boy's spread is thinning
+### Gayden — 31 pts · 4th · Backpass Assassin's silent strike
 
-**Mustard Boy** Zach’s Brazil dependency smells pungent like old leftovers. After Austria’s elimination, he’s now clutching the samba dream of Brazil tighter than ever, with a desperate 17% chance to win. **Zach, if Brazil doesn’t pour the points like ketchup, you’ll soon be mustard with no heat.**
+**The Backpass Assassin** Gayden is feeling the pinch after Japan and Ivory Coast bowed out, leaving him with England to carry the torch. His England squad continues to fight, but with only 31 points, Gayden needs to channel his inner killer instinct if he wants to knock on the leaderboard's door. **Gayden, don’t let this be your swan song — strike now or forever hold your peace.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's last chance saloon
+### Rafe — 29 pts · 5th · The Noisemaker's last gasp for glory
 
-**The Noisemaker** Rafe is eerily silent, still choking on those non-qualifying draft picks. His 1% chance is a barely smoldering ember, yet Mexico remains his beacon of hope. **Rafe, in this father-son face-off, it’s time to pick up that trumpet and blare the underdog anthem — or accept your fate as a fantasy footnote.**
+**The Noisemaker** Rafe is finding himself gasping for air, with his once hopeful squad now dwindling. Mexico remains his final blow, the last vuvuzela blast of hope in a sea of eliminated dreams. **Rafe, as the youngest owner, it’s time to turn chaos into calculated strategy — can the underdog howl one more time, or is this the end of the crescendo?**
 
 ### THE FATHER-SON SAGA
 
-The familial battlefield rages on as **The Backpass Assassin** Gayden and his son, **The Noisemaker** Rafe, duel for household supremacy. With Thanksgiving bragging rights at stake, Gayden’s England faces off against Rafe’s last breath in Mexico. **Will Rafe silence his father with an upset, or will The Backpass Assassin reaffirm why he’s the king of this league?**
+The battle within the household of the **Backpass Assassin** and **The Noisemaker** is reaching a climax. With only a 2-point difference and Thanksgiving bragging rights on the line, it's a high-stakes, family affair. **Will young Rafe's chaotic energy drown out his father’s calculated tactics, or will Gayden remind everyone why he’s the undisputed patriarch of fantasy football?**

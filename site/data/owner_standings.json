@@ -24,21 +24,21 @@
       "rank": 2
     },
     {
+      "owner": "Zach",
+      "total_points": 35,
+      "breakdown": {
+        "match": 31.0,
+        "upset": 0,
+        "advancement": 4.0
+      },
+      "rank": 3
+    },
+    {
       "owner": "Gayden",
       "total_points": 31,
       "breakdown": {
         "match": 27.0,
         "upset": 2.0,
-        "advancement": 2.0
-      },
-      "rank": 3
-    },
-    {
-      "owner": "Zach",
-      "total_points": 30,
-      "breakdown": {
-        "match": 28.0,
-        "upset": 0,
         "advancement": 2.0
       },
       "rank": 4
