@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T19:22:32Z",
+  "generated": "2026-07-03T22:04:26Z",
   "source": "daily_results_2026-07-02",
   "date": "2026-07-03",
   "rotation": 22,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Bubba G has y'all cooked like Sunday BBQ, and Ghost Pepper's got Mustard Boy second-guessin' his sauce.** Gunner's sittin’ pretty at the top with 47 points thanks to Les Bleus and those North African juggernauts, proving that sometimes he does know better than his dog when it comes to pickin' teams. Devin ain't too far behind at 42 points, tryin' to turn the heat up with Spain givin' Austria a proper lesson — Ghost Pepper keepin' the spicy comebacks rollin’. But Mustard Boy, man, Zach thought Saudi Arabia was gonna be unfurlin' oil money on the pitch, but they're playin' like they got stage fright at a middle school talent show, leavin’ him stuck at 35 points. Over in Gayden's camp, The Backpass Assassin's down with 31 points — guess he's been spendin' too much time passin' backwards and not movin' up in the ranks. Then there's The Noisemaker, Rafe, bringin' up the rear; his 29 points are just as chaotic as his draft strategy — pickin' Germany like he thought Oktoberfest came with goals. Today’s all about who’s gonna seize the moment, but if you're Gayden or Zach, you better start draftin' a miracle, 'cause this league ain't slowin’ down."
+    "take": "**Ghost Pepper's got Spain turnin' up the heat while Mustard Boy's got Brazil dippin' in ketchup.**\n\nDevin's over here chillin' with Spain pullin' a 3-0 smackdown on Austria, rackin' up those points like it's his birthday and puttin' Ghost Pepper right on Gunner's tail with 42 points. Meanwhile, Mustard Boy Zach thought draftin' Saudi Arabia was gonna look like a Texas oil strike, but all he's struck is pure fantasy heartbreak. Gunner, aka Bubba G, sittin' pretty at the top with 47 points, probably 'cause he thinks DR Congo's a future champ after a secret chat with his barber. Rafe, \"The Noisemaker,\" should stick to causin' chaos 'cause it looks like he drafted Germany thinkin' they were still contenders when they last were... well, let's just say he could’ve thrown darts at a map and got better picks. Gayden, aka The Backpass Assassin, better pray England's got more than tea bags in their arsenal, 'cause sitting at 31 points ain't impressin' anyone right now. But hey, there's still time for miracles — or for Mustard Boy to finally get his act together."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's Egypt Expected to Cruise Past Australia Despite Late Kickoff",
-      "subtitle": "Bubba G bets on Pharaohs over Socceroos to fortify standings lead.",
+      "headline": "Ghost Pepper Set to Spice Up Standings with Egypt Match",
+      "subtitle": "Devin's points trail only Bubba G, just like his team choice.",
       "match": "Australia vs Egypt",
       "date": "2026-07-03"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy's Ghana Set to Tackle Colombia in Miami Heat",
-      "subtitle": "Zach hopes for cooler heads and a warmer reception after Austria loss.",
+      "headline": "Mustard Boy Struggling as Ghana Faces Colombia in Critical Match",
+      "subtitle": "Zach desperately needs Ghana's win to keep pace in standings.",
       "match": "Colombia vs Ghana",
       "date": "2026-07-03"
     },
     {
       "pundit": "dempsey",
-      "headline": "Devin's Spain Finally Silences Critics with Dominant Win Over Austria",
-      "subtitle": "Ghost Pepper's blend too spicy for Zach, claiming full match points.",
-      "match": "Spain vs Austria",
+      "headline": "The Noisemaker's Germany-Heavy Bet Proving Noisy, Yet Silent in Points",
+      "subtitle": "Rafe wisely stuck to what he knows best: not football.",
+      "match": "Group F Overview",
       "date": "2026-07-03"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Bold Draft Strategy Keeping Him Comfortable in Last Place",
-      "subtitle": "The Noisemaker's choice still echoes as he trails entire standings.",
-      "match": "Group F Preview",
+      "headline": "Bubba G's Reign at the Top Unchallenged as Egypt Prepares for Battle",
+      "subtitle": "Gunner confidently leads standings, thanks largely to others' incompetence.",
+      "match": "Group F Overview",
       "date": "2026-07-03"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner rides high at the top, but he just can't shake that L2 streak.",
-    "Rafe's Tier-1 Germany is out, yet he's still not dead last. Impressive.",
-    "Rafe owns Devin with a +6 differential; who needs experience when you have youth?",
-    "Sim says Rafe's champion hopes are 1 percent. They forgot the chaos factor."
+    "Gunner flops on a losing streak but somehow keeps the top spot warm.",
+    "Gayden's Tier-1 dependency is so high, you'd think he's paying rent.",
+    "Rafe and Gayden have a draw in their head-to-head, proving like father, like son.",
+    "The sim nailed Rafe's 1% chance—he's still firmly in last place!"
   ]
 }
