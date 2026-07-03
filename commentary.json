@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T06:37:45Z",
+  "generated": "2026-07-03T11:32:51Z",
   "source": "daily_results_2026-07-02",
   "date": "2026-07-03",
   "rotation": 22,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Mustard Boy's faith in Saudi Arabia might get him benched for draft day.** Zach's sittin' third with 35 points, but his oil-money dreams ain't gonna flow into goals anytime soon. Over in the top spot, Bubba G's got Gunner grindin' like he's got Ronaldo on speed dial — 47 points and cruisin' like it's a Sunday drive. Now, the Backpass Assassin, a.k.a. Gayden, is lookin' real shaky down there at 31 points, almost gettin' outsmarted by his 15-year-old, Rafe, who drafted like he thought Scotland was playin' hurling. Devin's hangin' tough in second with 42 points, Spain puttin' in work like a laid-back Texas party, but his gamble on Haiti and USA feels like bringin' a knife to a gunfight."
+    "take": "**Mustard Boy's Saudi adventure ain't payin' the bills—Zach's gettin' cooked in the standings, and you hate to see it.** Ain't no wins comin' from that Tier 4 desert gamble — oil money don't mean goals, folks. Meanwhile, Gunner, a.k.a. \"Bubba G,\" is sittin' pretty at the top, smilin' like he knew Morocco was his secret weapon all along — boy probably heard it from his barber. With 47 points, he's cruisin' like he's on the Champs-Élysées. Devin \"Ghost Pepper\" is nippin' at his heels with 42 points, still hot from that big Spain win over Austria. Rafe \"The Noisemaker\" is down there at fifth — but hey, maybe he's just settin' us all up for an epic comeback with Germany. As for \"The Backpass Assassin,\" Gayden's 31 points are clingier than Jordan to the World Cup which, let's be honest, is a whole mood. But, hey, it's all love — until the cup's in your hands, it's just a grind."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Declares France World Champions Before Final, Ranks First Anyway",
-      "subtitle": "Confidence soared as France remained undefeated in Gunner's imagination.",
-      "match": "Group F Preview",
+      "headline": "Mustard Boy's Ghana Ready to Stumble Against Undrafted Colombia",
+      "subtitle": "Zach's Tier 3 strategy as solid as Swiss cheese after defeat.",
+      "match": "Colombia vs Ghana",
       "date": "2026-07-03"
     },
     {
       "pundit": "donovan",
-      "headline": "Zach's Brazil Pick Fails To Shield From 3rd Place Reality",
-      "subtitle": "Mustard Boy's strategic condiment choice now under severe scrutiny.",
-      "match": "Group F Preview",
+      "headline": "Bubba G Poised for Victory as Egypt Faces Australia",
+      "subtitle": "Gunner confident no upsets will ruin his perfect upset record.",
+      "match": "Australia vs Egypt",
       "date": "2026-07-03"
     },
     {
       "pundit": "dempsey",
-      "headline": "Devin's Spain to Dominate; Ghost Pepper Keeps Cool in Second",
-      "subtitle": "Predicts chill vibes despite spicy play from top-tier Spain.",
+      "headline": "Backpass Assassin Strategizes From Fourth as England Prepares for Rest",
+      "subtitle": "Gayden hopes waiting until tomorrow will improve son's draft choices.",
       "match": "Group F Preview",
       "date": "2026-07-03"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe Proudly Claims Fifth, Names it 'Victory for the Noisemaker'",
-      "subtitle": "Attributes success to drafting lessons learned from reality TV.",
-      "match": "Group F Preview",
+      "headline": "Ghost Pepper's Spain Dominates Austria, Solidifies Second Spot",
+      "subtitle": "Devin claims no need for upsets when you have a ghostly plan.",
+      "match": "Spain vs Austria",
       "date": "2026-07-03"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner chokes with a losing streak yet still clutches the top spot. Brutal.",
-    "Gayden burnt by Jordan's zero points, proving Tier-4's a dumpster fire.",
-    "Devin owns Rafe, but Rafe still serves a 6-point knockout. Sweet kid-revenge!",
-    "Sim can’t predict Gunner’s nosedive while banking on his 47% win probability."
+    "Gunner leads but can't buy a point, holding that throne by pure luck now.",
+    "Rafe's Tier-1 dependency is a joke, yet somehow he survives. Incredible chaos vibes.",
+    "Devin owns Rafe with -6 differential; father-son showdown gets spicier by the match.",
+    "Sim's love for Gunner is slipping; Haaland's magic can't bail the model out."
   ]
 }
