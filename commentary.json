@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T11:32:51Z",
+  "generated": "2026-07-03T14:04:17Z",
   "source": "daily_results_2026-07-02",
   "date": "2026-07-03",
   "rotation": 22,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Mustard Boy's Saudi adventure ain't payin' the bills—Zach's gettin' cooked in the standings, and you hate to see it.** Ain't no wins comin' from that Tier 4 desert gamble — oil money don't mean goals, folks. Meanwhile, Gunner, a.k.a. \"Bubba G,\" is sittin' pretty at the top, smilin' like he knew Morocco was his secret weapon all along — boy probably heard it from his barber. With 47 points, he's cruisin' like he's on the Champs-Élysées. Devin \"Ghost Pepper\" is nippin' at his heels with 42 points, still hot from that big Spain win over Austria. Rafe \"The Noisemaker\" is down there at fifth — but hey, maybe he's just settin' us all up for an epic comeback with Germany. As for \"The Backpass Assassin,\" Gayden's 31 points are clingier than Jordan to the World Cup which, let's be honest, is a whole mood. But, hey, it's all love — until the cup's in your hands, it's just a grind."
+    "take": "**Mustard Boy's dream of goal-scoring oil fields dries up faster than his Saudi Arabia pick.** So, Zach's sittin' pretty in third with 35 points, but man, the way Austria just got steamrolled by Spain, you'd think he believed in fairy tales. Gunner, though—that's Bubba G, y'all—cruisin' at the top with 47 points. Bet he's smilin' like he knows somethin' we don’t, like he found gold in pickin' DR Congo just 'cause his barber said they got flair. Meanwhile, The Backpass Assassin's just back-passin' his chances of trophies away, sittin' fourth with an empty 31 points, probably replayin' Japan’s every beautiful back pass in slow motion. And Rafe, \"The Noisemaker,\" bringin' up the rear like he picked Germany just 'cause he thought Bavaria was a beach. Dee Ghost Pepper, keepin' it spicy in second place with a solid 42, ridin' on Spain’s shoulders like he knows what he's doin'. Gettin' tight up top with Gunner, but man, Mustard Boy better hope Switzerland keeps deliverin' 'cause that oil ain't comin' in."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Ghana Ready to Stumble Against Undrafted Colombia",
-      "subtitle": "Zach's Tier 3 strategy as solid as Swiss cheese after defeat.",
+      "headline": "Mustard Boy Banks on Ghana to End Dry Spell",
+      "subtitle": "Zach optimistic despite Ghana's lineup learning the offside rule yesterday.",
       "match": "Colombia vs Ghana",
       "date": "2026-07-03"
     },
     {
       "pundit": "donovan",
-      "headline": "Bubba G Poised for Victory as Egypt Faces Australia",
-      "subtitle": "Gunner confident no upsets will ruin his perfect upset record.",
-      "match": "Australia vs Egypt",
-      "date": "2026-07-03"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Backpass Assassin Strategizes From Fourth as England Prepares for Rest",
-      "subtitle": "Gayden hopes waiting until tomorrow will improve son's draft choices.",
+      "headline": "The Backpass Assassin Strategizes Japan's Overhaul of Soccer History",
+      "subtitle": "Gayden claims drafting non-qualifiers maximizes emotional investment in the game.",
       "match": "Group F Preview",
       "date": "2026-07-03"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Bubba G Advocates for Underdog Status by Banking on Egypt",
+      "subtitle": "Gunner insists DR Congo was drafted for moral support, not points.",
+      "match": "Australia vs Egypt",
+      "date": "2026-07-03"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Ghost Pepper's Spain Dominates Austria, Solidifies Second Spot",
-      "subtitle": "Devin claims no need for upsets when you have a ghostly plan.",
-      "match": "Spain vs Austria",
+      "headline": "Ghost Pepper Threatens Elite Status, Demands More Points from Spain",
+      "subtitle": "Devin denies rumors of trying to swap Haiti for better team in T4.",
+      "match": "Spain 3-0 Austria",
       "date": "2026-07-03"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner leads but can't buy a point, holding that throne by pure luck now.",
-    "Rafe's Tier-1 dependency is a joke, yet somehow he survives. Incredible chaos vibes.",
-    "Devin owns Rafe with -6 differential; father-son showdown gets spicier by the match.",
-    "Sim's love for Gunner is slipping; Haaland's magic can't bail the model out."
+    "Rafe's 'know-nothing' strategy has him ranked 5th, leaving seasoned pros shaking their heads.",
+    "Gunner rides France's coattails while his Tier-4 DR Congo does nothing but charm.",
+    "Devin must be seeing red after losing head-to-head against a soccer rookie like Rafe.",
+    "Gunner's win streak collided head-on with Rafe, the rookie chaos agent. Sim never saw it coming."
   ]
 }
