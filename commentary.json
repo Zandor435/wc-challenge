@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T14:04:17Z",
+  "generated": "2026-07-03T16:24:23Z",
   "source": "daily_results_2026-07-02",
   "date": "2026-07-03",
   "rotation": 22,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Mustard Boy's dream of goal-scoring oil fields dries up faster than his Saudi Arabia pick.** So, Zach's sittin' pretty in third with 35 points, but man, the way Austria just got steamrolled by Spain, you'd think he believed in fairy tales. Gunner, though—that's Bubba G, y'all—cruisin' at the top with 47 points. Bet he's smilin' like he knows somethin' we don’t, like he found gold in pickin' DR Congo just 'cause his barber said they got flair. Meanwhile, The Backpass Assassin's just back-passin' his chances of trophies away, sittin' fourth with an empty 31 points, probably replayin' Japan’s every beautiful back pass in slow motion. And Rafe, \"The Noisemaker,\" bringin' up the rear like he picked Germany just 'cause he thought Bavaria was a beach. Dee Ghost Pepper, keepin' it spicy in second place with a solid 42, ridin' on Spain’s shoulders like he knows what he's doin'. Gettin' tight up top with Gunner, but man, Mustard Boy better hope Switzerland keeps deliverin' 'cause that oil ain't comin' in."
+    "take": "**Rafe out here draftin' Germany like it's 1990, but he's gettin' cooked like it's a grill-out at my uncle's ranch.** Ain't too surprising, though, with The Noisemaker's first three picks not even showin' up at the World Cup party — his squad's barely hangin' at 29 points. Meanwhile, Bubba G is sittin' pretty on top with 47 points, feelin' like the cool kid in school. Mustard Boy Zach might wanna rethink his Saudi Arabia oil-strategy after only gettin' points off Switzerland's win; he's got 35 in the bag but still trailing. And The Backpass Assassin Gayden is tryin' to sneak up at 31, but drafting Jordan? That's tough, like checkin' Messi in a phone booth. Ghost Pepper Devin's playin' it safe in the second spot with 42, but watch out — Spain's got him burnin' through the scoresheet like jalapenos in July."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy Banks on Ghana to End Dry Spell",
-      "subtitle": "Zach optimistic despite Ghana's lineup learning the offside rule yesterday.",
+      "headline": "Colombia set to expose Mustard Boy's questionable Ghana strategy",
+      "subtitle": "Zach hopes for more than moral support from Tier 3.",
       "match": "Colombia vs Ghana",
       "date": "2026-07-03"
     },
     {
       "pundit": "donovan",
-      "headline": "The Backpass Assassin Strategizes Japan's Overhaul of Soccer History",
-      "subtitle": "Gayden claims drafting non-qualifiers maximizes emotional investment in the game.",
-      "match": "Group F Preview",
-      "date": "2026-07-03"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Bubba G Advocates for Underdog Status by Banking on Egypt",
-      "subtitle": "Gunner insists DR Congo was drafted for moral support, not points.",
+      "headline": "Bubba G's Tier 3 Egypt poised for easy win over Australia",
+      "subtitle": "Gunner trusts Egypt like it's still 2019.",
       "match": "Australia vs Egypt",
       "date": "2026-07-03"
     },
     {
+      "pundit": "dempsey",
+      "headline": "The Backpass Assassin's England may need more backpasses to catch up",
+      "subtitle": "Gayden's upset points can't cover his advancement deficit.",
+      "match": "Group F Preview",
+      "date": "2026-07-03"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Ghost Pepper Threatens Elite Status, Demands More Points from Spain",
-      "subtitle": "Devin denies rumors of trying to swap Haiti for better team in T4.",
-      "match": "Spain 3-0 Austria",
+      "headline": "Rafe's unqualified picks secure his rightful place at the bottom",
+      "subtitle": "Three teams, zero qualifications, infinite learning opportunities.",
+      "match": "Group F Preview",
       "date": "2026-07-03"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's 'know-nothing' strategy has him ranked 5th, leaving seasoned pros shaking their heads.",
-    "Gunner rides France's coattails while his Tier-4 DR Congo does nothing but charm.",
-    "Devin must be seeing red after losing head-to-head against a soccer rookie like Rafe.",
-    "Gunner's win streak collided head-on with Rafe, the rookie chaos agent. Sim never saw it coming."
+    "Gunner smells the finish line, but two straight losses? Choking like a rookie.",
+    "Gayden's Jordan is a black hole - zero points, zero hope, zero shame.",
+    "Gunner owns Devin with a +8 point differential. Devin's got no answer, no chance.",
+    "Rafe's 1% chance proves this sim needs a new crystal ball, stat."
   ]
 }
