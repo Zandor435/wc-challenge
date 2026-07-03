@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02T22:06:18Z",
+  "generated": "2026-07-03T02:57:57Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Round of 32",
     "is_preseason": false,
     "matchdays_played": 22,
-    "matches_played": 83,
-    "matches_remaining": 21,
+    "matches_played": 84,
+    "matches_remaining": 20,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -62,6 +62,11 @@
         "round": "Round of 32"
       },
       {
+        "team": "Croatia",
+        "owner": null,
+        "round": "Round of 32"
+      },
+      {
         "team": "Austria",
         "owner": "Zach",
         "round": "Round of 32"
@@ -79,8 +84,8 @@
         "D": 7,
         "L": 6
       },
-      "win_probability": 0.16,
-      "champion_probability": 0.14,
+      "win_probability": 0.17,
+      "champion_probability": 0.16,
       "streak": {
         "type": "L",
         "length": 1,
@@ -118,7 +123,7 @@
         "L": 6
       },
       "win_probability": 0.48,
-      "champion_probability": 0.24,
+      "champion_probability": 0.23,
       "streak": {
         "type": "L",
         "length": 2,
@@ -155,7 +160,7 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.1,
+      "win_probability": 0.11,
       "champion_probability": 0.11,
       "streak": {
         "type": "W",
@@ -193,8 +198,8 @@
         "D": 3,
         "L": 9
       },
-      "win_probability": 0.24,
-      "champion_probability": 0.18,
+      "win_probability": 0.22,
+      "champion_probability": 0.17,
       "streak": {
         "type": "W",
         "length": 1,
@@ -232,7 +237,7 @@
         "L": 12
       },
       "win_probability": 0.01,
-      "champion_probability": 0.01,
+      "champion_probability": 0.02,
       "streak": {
         "type": "L",
         "length": 1,
@@ -999,6 +1004,14 @@
       "owner": "Gunner",
       "round": "Round of 32",
       "description": "Senegal (Gunner) eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-02",
+      "team": "Croatia",
+      "owner": null,
+      "round": "Round of 32",
+      "description": "Croatia eliminated in the Round of 32"
     },
     {
       "type": "elimination",

@@ -1523,6 +1523,21 @@
           "date": "2026-07-02",
           "stage": "knockout",
           "round": "R32",
+          "home": "Portugal",
+          "away": "Croatia",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "Portugal 2-1 Croatia",
+          "points": {},
+          "math": [
+            "KO WIN (Round of 32): Portugal undrafted, no points",
+            "KO LOSS: Croatia undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "stage": "knockout",
+          "round": "R32",
           "home": "Spain",
           "away": "Austria",
           "home_score": 3,

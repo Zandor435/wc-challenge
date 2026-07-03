@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02T22:06:18Z",
+  "generated": "2026-07-03T02:57:57Z",
   "source": "daily_results_2026-07-02",
   "date": "2026-07-03",
   "rotation": 22,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Bubba G's sittin' on top like he stole the crown jewels, while Mustard Boy's slide down the mountain faster than gravy on Thanksgiving dinner.** Gunner's got France and their baguette-loving skills racking up points like he paid 'em in croissants, sittin' pretty with 47. Meanwhile, Devin's Ghost Pepper is hot on his heels, five points back, tryin' to make a run with Spain's finesse — though Zach's Brazil ain't helpin' him one bit 'cause Austria got cooked 3-0, leaving him with a goose egg in his basket yesterday. Gayden, aka The Backpass Assassin, is stuck in neutral with England, more worried 'bout not losin' than winnin'. And let's not get started on The Noisemaker, Rafe — the kid's fantasy roster looks more like a geography lesson gone wrong. Uzbekistan, really? You'd think he was draftin' countries based on their food. If Zach and Rafe wanna avoid bottom dwellerville, they better start throwin' hail marys, 'cause right now it's lookin' like Bubba G's world and they just livin' in it."
+    "take": "Gunner sittin' pretty on top, but Devin's breathin' down his neck like a squirrel on a pecan tree. Zach's gotta be feelin' like Mustard Boy out here after that 3-0 Spain beatdown on his precious Austria — he drafted Saudi Arabia hopin' they'd strike oil on the pitch, but so far they're just drillin' empty wells. Gayden, a.k.a. The Backpass Assassin, actually thought Jordan was his secret weapon — they can't even find the net with Google Maps. Meanwhile, Rafe, The Noisemaker, is tryin' to play fantasy soccer when he should be studyin' for his learner's permit — he didn't even know three of his teams weren't at the World Cup. This race ain't over, but Rafe better hope Uzbekistan's got magic boots."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Spain Dominates As Ghost Pepper Proves Too Hot For Mustard Boy",
-      "subtitle": "Devin's strategic menu leaves Zach struggling for table condiments.",
+      "headline": "Mustard Boy Zach tanks Austria as Spain cruises 3-0",
+      "subtitle": "Zach blames Austria's poor showing on lack of spicy mustard.",
       "match": "Spain vs Austria",
       "date": "2026-07-03"
     },
     {
       "pundit": "donovan",
-      "headline": "Argentina Set To Sweep Cape Verde While Rafe Watches On",
-      "subtitle": "The Noisemaker continues studying teams that actually made it.",
-      "match": "Argentina vs Cape Verde",
+      "headline": "Backpass Assassin Gayden stays third despite England's Tier 1 status",
+      "subtitle": "Gayden's England pick shows even the best ideas can underperform.",
+      "match": "Group F Preview",
       "date": "2026-07-03"
     },
     {
       "pundit": "dempsey",
-      "headline": "Colombia Poised To Challenge Ghana, Zach Hopes For Underdog Win",
-      "subtitle": "Mustard Boy's last condiment packet might not save the day.",
-      "match": "Colombia vs Ghana",
+      "headline": "Ghost Pepper Devin spicy with Spain, leaves Mustard Boy in tears",
+      "subtitle": "Devin's 3-0 success over Zach proves variety is the spice of life.",
+      "match": "Spain vs Austria",
       "date": "2026-07-03"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G Prepares For Egypt's Clash With Australia's Kangaroo Tactics",
-      "subtitle": "Gunner banks on Egypt to jump over standings competition.",
-      "match": "Australia vs Egypt",
+      "headline": "Noisemaker Rafe holds last place with unqualified soccer knowledge",
+      "subtitle": "Rafe's draft strategy inspired by a shuffle of random soccer teams.",
+      "match": "Group F Preview",
       "date": "2026-07-03"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner still tops despite back-to-back losses and Devin breathing down his neck.",
-    "Rafe's Tier-1 picks crashing out faster than Gayden's Thanksgiving jokes.",
-    "Rafe schooled Devin 6-0 head-to-head; talk about a generational gap in skill!",
-    "Sim's got Gunner at 48% but can't foresee his Senegalese slip-ups."
+    "Rafe's chaos reigns with Germany exiting early, keeping the league unpredictable.",
+    "Rafe's Tier-3 mess shines with Mexico scoring 14 points, defying expectations.",
+    "Gunner stomps Devin with an 8-point differential; the ghost got ghosted.",
+    "Sim bowled a gutter ball letting Rafe be more than a 1% joke."
   ]
 }
