@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T16:24:23Z",
+  "generated": "2026-07-03T19:22:32Z",
   "source": "daily_results_2026-07-02",
   "date": "2026-07-03",
   "rotation": 22,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Rafe out here draftin' Germany like it's 1990, but he's gettin' cooked like it's a grill-out at my uncle's ranch.** Ain't too surprising, though, with The Noisemaker's first three picks not even showin' up at the World Cup party — his squad's barely hangin' at 29 points. Meanwhile, Bubba G is sittin' pretty on top with 47 points, feelin' like the cool kid in school. Mustard Boy Zach might wanna rethink his Saudi Arabia oil-strategy after only gettin' points off Switzerland's win; he's got 35 in the bag but still trailing. And The Backpass Assassin Gayden is tryin' to sneak up at 31, but drafting Jordan? That's tough, like checkin' Messi in a phone booth. Ghost Pepper Devin's playin' it safe in the second spot with 42, but watch out — Spain's got him burnin' through the scoresheet like jalapenos in July."
+    "take": "**Bubba G has y'all cooked like Sunday BBQ, and Ghost Pepper's got Mustard Boy second-guessin' his sauce.** Gunner's sittin’ pretty at the top with 47 points thanks to Les Bleus and those North African juggernauts, proving that sometimes he does know better than his dog when it comes to pickin' teams. Devin ain't too far behind at 42 points, tryin' to turn the heat up with Spain givin' Austria a proper lesson — Ghost Pepper keepin' the spicy comebacks rollin’. But Mustard Boy, man, Zach thought Saudi Arabia was gonna be unfurlin' oil money on the pitch, but they're playin' like they got stage fright at a middle school talent show, leavin’ him stuck at 35 points. Over in Gayden's camp, The Backpass Assassin's down with 31 points — guess he's been spendin' too much time passin' backwards and not movin' up in the ranks. Then there's The Noisemaker, Rafe, bringin' up the rear; his 29 points are just as chaotic as his draft strategy — pickin' Germany like he thought Oktoberfest came with goals. Today’s all about who’s gonna seize the moment, but if you're Gayden or Zach, you better start draftin' a miracle, 'cause this league ain't slowin’ down."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Colombia set to expose Mustard Boy's questionable Ghana strategy",
-      "subtitle": "Zach hopes for more than moral support from Tier 3.",
-      "match": "Colombia vs Ghana",
-      "date": "2026-07-03"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Bubba G's Tier 3 Egypt poised for easy win over Australia",
-      "subtitle": "Gunner trusts Egypt like it's still 2019.",
+      "headline": "Gunner's Egypt Expected to Cruise Past Australia Despite Late Kickoff",
+      "subtitle": "Bubba G bets on Pharaohs over Socceroos to fortify standings lead.",
       "match": "Australia vs Egypt",
       "date": "2026-07-03"
     },
     {
+      "pundit": "donovan",
+      "headline": "Mustard Boy's Ghana Set to Tackle Colombia in Miami Heat",
+      "subtitle": "Zach hopes for cooler heads and a warmer reception after Austria loss.",
+      "match": "Colombia vs Ghana",
+      "date": "2026-07-03"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "The Backpass Assassin's England may need more backpasses to catch up",
-      "subtitle": "Gayden's upset points can't cover his advancement deficit.",
-      "match": "Group F Preview",
+      "headline": "Devin's Spain Finally Silences Critics with Dominant Win Over Austria",
+      "subtitle": "Ghost Pepper's blend too spicy for Zach, claiming full match points.",
+      "match": "Spain vs Austria",
       "date": "2026-07-03"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's unqualified picks secure his rightful place at the bottom",
-      "subtitle": "Three teams, zero qualifications, infinite learning opportunities.",
+      "headline": "Rafe's Bold Draft Strategy Keeping Him Comfortable in Last Place",
+      "subtitle": "The Noisemaker's choice still echoes as he trails entire standings.",
       "match": "Group F Preview",
       "date": "2026-07-03"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner smells the finish line, but two straight losses? Choking like a rookie.",
-    "Gayden's Jordan is a black hole - zero points, zero hope, zero shame.",
-    "Gunner owns Devin with a +8 point differential. Devin's got no answer, no chance.",
-    "Rafe's 1% chance proves this sim needs a new crystal ball, stat."
+    "Gunner rides high at the top, but he just can't shake that L2 streak.",
+    "Rafe's Tier-1 Germany is out, yet he's still not dead last. Impressive.",
+    "Rafe owns Devin with a +6 differential; who needs experience when you have youth?",
+    "Sim says Rafe's champion hopes are 1 percent. They forgot the chaos factor."
   ]
 }

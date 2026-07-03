@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G lives dangerously
+### Gunner — 47 pts · 1st · Bubba G's cold throne
 
-**Bubba G** Gunner might still be king of the hill, but with a two-day cold streak, he's starting to look like a jester playing king. France continues to be his sole saving grace, but the model's 47% win probability feels like a cruel joke if Gunner can't find his footing soon. **Gunner, keep pulling those royal tricks out of the hat, or you'll be the punchline of this fairy tale.**
+**Bubba G** Gunner still clings to the top spot, but boy, is that throne frosty right now. A two-match losing streak has his regal grip slipping like a court jester trying to juggle too many balls. With France as his only beacon, Gunner's 47% win probability feels more like a burden than a blessing. **Gunner, if your best trick is stalling at the top, you're about to be dethroned by the underdog pack.**
 
-### Devin — 42 pts · 2nd · Ghost Pepper's midnight kitchen
+### Devin — 42 pts · 2nd · Ghost Pepper's fiery ascent
 
-**Ghost Pepper** Devin's Spain sizzled Austria out of the kitchen with a scorching 3-0 victory, netting a sweet 5-point haul. With Haaland still in the Golden Boot race, Devin's 17% chance of taking the champion's crown keeps him near the boiling point. **Devin, you're playing with fire, and it might just cook up a championship dinner.**
+**Ghost Pepper** Devin is cooking up a storm with Spain torching Austria 3-0 for a sizzling five points. With Haaland still in the Golden Boot race, Devin's 23% win probability is nothing to sneeze at. But let's be real — sitting second with a champion's chance of 17%? **Devin, you're the master chef here, just don’t let complacency spoil your culinary masterpiece.**
 
-### Zach — 35 pts · 3rd · Mustard Boy's tangy surprise
+### Zach — 35 pts · 3rd · Mustard Boy's flavorful momentum
 
-**Mustard Boy** Zach savored Switzerland's 2-0 victory over Algeria, adding five spicy points to his mix. With Brazil still simmering, Zach's blend of bold flavors could make him a sleeper threat. **Zach, don't let your rise go stale, or you'll end up nothing more than a condiment footnote.**
+**Mustard Boy** Zach is back in the thick of it, riding Switzerland's 2-0 over Algeria to spice things up. Despite Austria's exit, Brazil's might is still marinating, keeping Zach in the conversation and his 18% win probability within reach. **Zach, if you don't let your ascent ferment, you might dish out an upset that nobody saw coming.**
 
-### Gayden — 31 pts · 4th · Backpass Assassin's fading legend
+### Gayden — 31 pts · 4th · Backpass Assassin's bruised ego
 
-**The Backpass Assassin** Gayden's hopes are resting entirely on England now, a precarious position for the so-called patriarch of the league. His 11% win probability is more a nod to past glories than present prowess. **Gayden, your knives are dulling; the only thing you're slicing is your own pride.**
+**The Backpass Assassin** Gayden is bleeding teams with Japan and Ivory Coast both biting the dust. England is his last thread, with that 11% chance of a triumph feeling more like a consolation nod these days. **Gayden, your legendary backstory is starting to sound like bedtime fiction — it's time to write a new chapter or bow out unceremoniously.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's lingering echo
+### Rafe — 29 pts · 5th · The Noisemaker's dwindling roar
 
-**The Noisemaker** Rafe's quiet days continue with no new points, but with Mexico still clanging around, the echoes of his early chaos might just reach a crescendo. The kid's win probability limping at 1% seems like an old ship taking on water. **Rafe, you might be the youngest at the table, but take this chance to roar before the curtain drops.**
+**The Noisemaker** Rafe's storm is dissipating, but the kid is still fighting with Mexico making noise in the Round of 16. With Germany gone and his record now dreadful, his 1% chance seems all too logical. **Rafe, you're the wild card that refuses to fold — make some crazy moves, or you’ll be just another 'what if' in this tale.**
 
 ### THE FATHER-SON SAGA
 
-As the second act of the family drama unfolds, **The Backpass Assassin** Gayden and **The Noisemaker** Rafe find themselves running on parallel, divergent paths. Gayden's crown of thorns grows heavier, while Rafe continues to shake the table, albeit with dwindling power. **Will father or son rewrite the script, or are they destined to fade into the sunset together?**
+The father-son face-off between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe is a saga of falling giants. Rafe's youthful chaos still challenges his father's tenure, but with both sitting at the bottom, we're left with a tantalizing question: **Can either rewrite the narrative, or will they dine on humble pie this Thanksgiving?** The clock is ticking, gentlemen — it's time to make your move or become dust in the annals of father-son lore.
