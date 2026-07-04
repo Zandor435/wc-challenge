@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-04T16:01:38Z",
+  "generated": "2026-07-04T19:13:07Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
-    "current_round": "Round of 32",
+    "current_round": "Round of 16",
     "is_preseason": false,
-    "matchdays_played": 23,
-    "matches_played": 87,
-    "matches_remaining": 17,
+    "matchdays_played": 24,
+    "matches_played": 88,
+    "matches_remaining": 16,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -85,6 +85,11 @@
         "team": "Ghana",
         "owner": "Zach",
         "round": "Round of 32"
+      },
+      {
+        "team": "Canada",
+        "owner": "Gunner",
+        "round": "Round of 16"
       }
     ]
   },
@@ -99,8 +104,8 @@
         "D": 7,
         "L": 7
       },
-      "win_probability": 0.16,
-      "champion_probability": 0.14,
+      "win_probability": 0.17,
+      "champion_probability": 0.15,
       "streak": {
         "type": "L",
         "length": 1,
@@ -130,27 +135,27 @@
     "Gunner": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 47,
-      "points_today": 0,
+      "total_points": 55,
+      "points_today": 8,
       "record": {
-        "W": 12,
+        "W": 13,
         "D": 5,
-        "L": 6
+        "L": 7
       },
       "win_probability": 0.49,
-      "champion_probability": 0.24,
+      "champion_probability": 0.23,
       "streak": {
         "type": "L",
-        "length": 2,
-        "label": "L2"
+        "length": 1,
+        "label": "L1"
       },
       "best_team": {
-        "team": "France",
-        "tier": 1,
-        "points": 14,
+        "team": "Morocco",
+        "tier": 2,
+        "points": 20,
         "record": {
           "W": 4,
-          "D": 0,
+          "D": 1,
           "L": 0
         }
       },
@@ -213,8 +218,8 @@
         "D": 3,
         "L": 9
       },
-      "win_probability": 0.23,
-      "champion_probability": 0.17,
+      "win_probability": 0.22,
+      "champion_probability": 0.16,
       "streak": {
         "type": "W",
         "length": 1,
@@ -923,11 +928,22 @@
         "Devin": 0,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 24,
+      "date": "2026-07-04",
+      "points": {
+        "Zach": 0,
+        "Gunner": 8,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.34,
-    "Gunner": 0.3,
+    "Gunner": 0.25,
     "Gayden": 0.39,
     "Devin": 0.29,
     "Rafe": 0.21
@@ -1070,6 +1086,14 @@
       "owner": "Zach",
       "round": "Round of 32",
       "description": "Ghana (Zach) eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-04",
+      "team": "Canada",
+      "owner": "Gunner",
+      "round": "Round of 16",
+      "description": "Canada (Gunner) eliminated in the Round of 16"
     },
     {
       "type": "biggest_day",
@@ -1788,6 +1812,37 @@
       "points_today": {
         "Zach": 0,
         "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Zach": 3,
+        "Gayden": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "points": {
+        "Zach": 35,
+        "Gunner": 55,
+        "Gayden": 31,
+        "Devin": 42,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 8,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0

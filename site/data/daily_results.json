@@ -1607,6 +1607,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-04",
+      "matches": [
+        {
+          "date": "2026-07-04",
+          "stage": "knockout",
+          "round": "R16",
+          "home": "Canada",
+          "away": "Morocco",
+          "home_score": 0,
+          "away_score": 3,
+          "score": "Canada 0-3 Morocco",
+          "points": {
+            "Gunner": 8.0
+          },
+          "math": [
+            "KO WIN (Round of 16): Morocco (Gunner) +3  +5 advancement (reached quarterfinal)",
+            "KO LOSS: Canada (Gunner) +0"
+          ]
+        }
+      ]
     }
   ]
 }
