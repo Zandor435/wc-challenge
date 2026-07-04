@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T13:25:46Z",
+  "generated": "2026-07-04T16:01:38Z",
   "source": "daily_results_2026-07-03",
   "date": "2026-07-04",
   "rotation": 23,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "**Gunner's Senegal and Morocco have done the heavy lifting, but Bubba G, your squad is a house of cards waiting for a strong draft to blow it down.**\n\nLet me tell you something, Bubba G: when you lean on France to carry your load and ignore the rest, you're basically handing the keys to the football kingdom over to fate — and we all know how that plays out. Devin, look at me. LOOK AT ME. You drafted Bosnia, and yet here you are, in second place. It's testament to some miracle-by-Spain strategy rather than any managerial genius. Zach, aka Mustard Boy, wake up and smell the sauerkraut! You think Brazil’s gonna do all the work? Ghana just showed you the door with a loss to Colombia, contributing zilch to your prospects. And Gayden, The Backpass Assassin, England and Japan can only drag your sorry squad so far before they decide diving into oblivion with Turkey and Jordan is less embarrassing. As for you, The Noisemaker Rafe, the fact that Germany anchors your team and yet you're still in last reeks of legendary mismanagement — even for a 15-year-old! Here's the prediction you didn't know you needed: Gunner stays on top, but not because of skill, just blind luck. Wow! What a strategy!"
+    "take": "**The Noisemaker Rafe, your Germany pick is as desperate as a goalkeeper without gloves.** Look at me, kid, LET ME TELL YOU SOMETHING—thinking Ecuador, Mexico, and a Scotland pick from the depths of Scottish football obscurity would pave your way to fantasy glory is like trying to score goals with flip-flops. Gunner, aka Bubba G, sitting in first with 47 points, your meticulous strategy of going for African powerhouses like Senegal and Morocco makes everyone else's roster look like a punter's midnight disaster. But here's a shocker: today’s face-offs might just tilt the scales. Germany may be due for an uptick or just another round of heartbreak, but don’t think your eco-friendly picks are saving the planet OR your roster. And Gayden, aka The Backpass Assassin, your England selection is perpetually on the verge of \"it’s coming home,\" yet here you are, wallowing in fourth. My prediction? Bubba G solidifies his hold at the top while The Noisemaker continues his symphony of chaos in the basement. Mic drop, folks!"
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Brazil Fails to Deliver Any Points for Zach",
-      "subtitle": "Zach invests heavily in style over substance, finds neither in Ghana's loss.",
+      "headline": "Ghana Falls Short Against Colombia, Mustard Boy Loses Points",
+      "subtitle": "Zach's Tier 3 pick fails to meet expectations, again.",
       "match": "Colombia vs Ghana",
       "date": "2026-07-04"
     },
     {
       "pundit": "donovan",
-      "headline": "Ghost Pepper's Strategy Brings Heat but Lacks Flavor in Rankings",
-      "subtitle": "Devin's total points fail to surpass Gunner; too hot for his own good.",
-      "match": "Group F Preview",
+      "headline": "Ghost Pepper's American Dreams Do Not Include Today's Matches",
+      "subtitle": "Devin's USA squad has day off; strategy unclear.",
+      "match": "TODAY'S UPCOMING",
       "date": "2026-07-04"
     },
     {
       "pundit": "dempsey",
-      "headline": "Bubba G Maintains Top Spot, Proves Winning Not Just Dumb Luck",
-      "subtitle": "Gunner's lead extends; could be talent, but who are we kidding?",
+      "headline": "Bubba G Enjoys First Place Serenity Before Next Roll of Dice",
+      "subtitle": "Gunner's gamble pays off with his eclectic roster leading the pool.",
       "match": "Group F Preview",
       "date": "2026-07-04"
     },
     {
       "pundit": "lalas",
-      "headline": "The Noisemaker's Random Draft Approach Keeps Him at the Bottom",
-      "subtitle": "Rafe's strategy questioned as he remains last; no substitute for knowledge.",
+      "headline": "Backpass Assassin's Son Stuck At Bottom With Noisemaker Tactics",
+      "subtitle": "Rafe's teams continue to impress with their solid bottom position.",
       "match": "Group F Preview",
       "date": "2026-07-04"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner leads with 47 points, but he’s on an L2. Collapse imminent?",
-    "Gayden drafted Tier 4 Jordan - zero points, no wins, medieval embarrassment!",
-    "Rafe handed Devin two losses, even with no World Cup clue. Savage!",
-    "Rafe’s draft bungles, yet the sim has him surviving. Pure chaos magic."
+    "Gunner's frontrunner status is slipping like a greased pig at a county fair.",
+    "Rafe's draft looks like a blindfolded dartboard showdown—yet he's still standing.",
+    "Rafe serves Devin a minus-six serving of humility pie; father's pride takes a hit.",
+    "The sim gave Rafe a 2% chance, yet he's turning it into a masterclass."
   ]
 }
