@@ -1,23 +1,23 @@
-### Gunner — 55 pts · 1st · Bubba G's fortress
+### Gunner — 55 pts · 1st · A kingdom built on Moroccan stone
 
-**Bubba G** Gunner flexes his muscles as his fortress of Morocco delivers a thunderous knockout punch to Canada, firming up his lead at the top. **Gunner's sitting pretty, but don't get too comfy on that throne, because even kings can fall.** With Morocco's success, the pressure's on for the rest of the pack to pull out something bigger than a Hail Mary.
+**Bubba G** Gunner flexes his managerial muscles, as Morocco bulldozes Canada to gift him a hefty 8-point boost. **But count those eggs before they hatch, Gunner, because Rafe's chaos magic might just saw those legs off your throne.** With a staggering 49% win probability, the pressure is no longer if he'll win, but how he'll handle the target on his back.
 
-### Devin — 42 pts · 2nd · Ghost Pepper's strategic simmer
+### Devin — 42 pts · 2nd · Ghost Pepper’s quiet-burning ambition
 
-**Ghost Pepper** Devin keeps the pot bubbling under the surface, but even with Spain and Norway still in the mix, he's burning out of time to catch Bubba G's fireworks. **Devin, this isn't the time for a light-show, it's time for a full-blown inferno if you plan to turn up the heat.** The scoreboard isn't lying, but Devin's got the tools to stir up a comeback.
+**Ghost Pepper** Devin simmers in second, with Spain and Norway still in the fight. Even as the odds say he might just crown himself king at the end, **Devin, it's time to turn up the flame on that spice rack you call a team.** There's no room for complacency when you're still trailing behind Bubba G.
 
-### Zach — 35 pts · 3rd · Mustard Boy's taste of defeat
+### Zach — 35 pts · 3rd · Mustard Boy’s flavorless journey
 
-**Mustard Boy** Zach stares down the abyss of underachievement as his roster looks more like a grocery list than a team of contenders. With Brazil as his lone shining star, **Zach, your World Cup dreams are turning into a mustard stain on summer vacation.** It's now or never to find some flavor and spice things up, or you'll find yourself eating cold soup.
+**Mustard Boy** Zach manages to stay in the same spot, despite a silent matchday. **Zach, your picks are looking as bland as your nickname.** With Brazil carrying the heavy load, it's time to find some teammates with a little more vinegar.
 
-### Gayden — 31 pts · 4th · Backpass Assassin's English gamble
+### Gayden — 31 pts · 4th · Backpass Assassin's English prayer
 
-**The Backpass Assassin** Gayden's bet on England is the last card in his deck, and he's doubling down. With Japan and Ivory Coast already wiped off the board, **Gayden, it's high time England repays your loyalty, or the table's gonna be pretty awkward at home.** The clock is ticking, and the family throne's under siege from his own kid.
+**The Backpass Assassin** Gayden is hanging his hopes on England, his unlikely savior. **Gayden, if it blows up, your dinner-table bravado is going South just as fast as your Ivory Coast pick.** The son is watching, and the father's fantasy legacy teeters on the edge.
 
-### Rafe — 29 pts · 5th · The Noisemaker's unexpected symphony
+### Rafe — 29 pts · 5th · The Noisemaker holds the wildcard
 
-**The Noisemaker** Rafe isn't skipping a beat as Mexico hits the high notes, the only tune left in his symphony of chaos. **Rafe's still the league's wild card; while mistakes have been his forte, his persistence keeps him punching above his weight class.** As the family dinner looms, all eyes are on the youngest maestro to see if he can orchestrate a last-minute miracle.
+**The Noisemaker** Rafe refusing to be the league's butt end, with Mexico still alive to make noise. **Rafe, let’s see if you can orchestrate a comeback symphony or if Dad’s face will be your victory horn.** You're still the underdog at 2% to win, but Rafe wouldn't have it any other way.
 
 ### THE FATHER-SON SAGA
 
-The saga gets juicier as **The Backpass Assassin** Gayden braces for England's moment of truth, while **The Noisemaker** Rafe rides Mexico's wave into the unknown. Every match, every goal is a family duel, setting the stage for a Thanksgiving showdown like no other. Rafe's youthful defiance has Gayden looking over his shoulder in his own backyard, making every dinner conversation an ambush of bragging rights. Who will emerge victorious at the head of the family table? The knives are out, and they're carving more than just turkey this year.
+As the clock ticks down, **The Backpass Assassin** Gayden is fighting not just the league, but his own son's potential coup. **The Noisemaker** Rafe’s chaos-laden ride with Mexico has turned this father-son saga into an epic tale of generational warfare. Who will reign supreme at the family table and beyond? Thanksgiving dinner is going to be spicier than Devin's Ghost Pepper chili.

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T19:13:07Z",
+  "generated": "2026-07-04T21:58:43Z",
   "source": "daily_results_2026-07-04",
   "date": "2026-07-05",
   "rotation": 24,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**You're All Playing Soccer Monopoly, and Gunner's the Only One Who Bought Boardwalk.** Let's face it, Gunner's sitting pretty at the top because he drafted with a brain, unlike the rest of these newbies wandering around like they stumbled into a FIFA simulation. Look at Devin over there, \"Ghost Pepper,\" thinking he's spicy by matching Spain against Brazil. Don't make me laugh—Spain's midfield isn't scaring anyone these days, and Brazil will casually roll through Norway like it's a training session. Rafe, \"The Noisemaker,\" is an absolute circus act. Drafting three squads that aren't even in the tournament? It's like he's picked them from thin air while blindfolded. Meanwhile, Gayden, the \"Backpass Assassin,\" is about to watch Mexico out-hustle the Three Lions in Mexico City, not that he'd know—he's too busy trying to make sure Jordan is ready for glory. At the end of the day, this is a joke. Gunner’s running circles around these guys, accumulating points while the rest pretend they’ve got a clue."
+    "take": "\"The Noisemaker\" should focus more on schoolwork than assembling a fantasy soccer team. Look, Rafe, or \"The Noisemaker\" as he likes to call himself, had the audacity to pick Germany as his Tier 1 team despite their recent struggles on the world stage. Pairing them with picks like Uzbekistan and Scotland, who have the attacking prowess of a Sunday league, questions whether he even knows the rules of this sport or just recognizes these countries from FIFA video games. In the Mexico vs. England clash, the odds are firmly stacked against him as Gayden's \"Backpass Assassin\" squad is likely to dismantle Mexico, sending Rafe back to dreaming of his non-qualifying heroes.\n\nMeanwhile, Zach, aka \"Mustard Boy,\" somehow ended up drafting a mix of underachievers like Switzerland and Austria. Facing Devin's \"Ghost Pepper\" in today's Brazil vs. Norway match, it's painfully obvious that Zach's unbalanced roster won't stand a chance against anyone fielding a Tier 1 like Brazil, even if Devin can't really match any significant strategy with his Tier 2 and Tier 3 choices. Expect Brazil to cruise through Norway as if they're taking a leisurely stroll through Central Park. If there's any manager with a clue, it's Gunner, sitting at the top without any of these laughable inconsistencies. These guys could use a lesson in the reality of the sport, maybe from someone who's scored in a World Cup, like me."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy Counting on Brazil to Spice Up His Standings",
-      "subtitle": "Zach needs Brazil to outperform Norway to climb from 3rd place.",
+      "headline": "Mustard Boy's Brazil reportedly confident against Ghost Pepper's Norway",
+      "subtitle": "Zach unfazed by Devin's second place, citing superior tier advantage.",
       "match": "Brazil vs Norway",
       "date": "2026-07-05"
     },
     {
       "pundit": "donovan",
-      "headline": "Bubba G Rides Morocco's Win to Pad First Place Lead",
-      "subtitle": "Gunner remains comfortably on top after Morocco's decisive 3-0 victory.",
-      "match": "Canada vs Morocco",
+      "headline": "The Noisemaker braces for clash against Backpass Assassin's England",
+      "subtitle": "Rafe's Mexico faces daunting task against higher-ranked Gayden's team.",
+      "match": "Mexico vs England",
       "date": "2026-07-05"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper Looks to Ignite with Help from Norway's Underdogs",
-      "subtitle": "Devin expects Norway to play above their tier against Brazil.",
-      "match": "Brazil vs Norway",
+      "headline": "Bubba G extends lead with Morocco's dominant win over Canada",
+      "subtitle": "Gunner secures first-place rank thanks to judicious Tier 2 picks.",
+      "match": "Canada vs Morocco",
       "date": "2026-07-05"
     },
     {
       "pundit": "lalas",
-      "headline": "Backpass Assassin Aims for Precision Shot Against The Noisemaker's Mexico",
-      "subtitle": "Gayden's England set to face Rafe's Mexican squad in a crucial match.",
-      "match": "Mexico vs England",
+      "headline": "Rafe's WC challenge dreams dwindle as he remains at the bottom",
+      "subtitle": "The Noisemaker blames the draft, not his nonexistent soccer knowledge.",
+      "match": "Group F Preview",
       "date": "2026-07-05"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's soccer ignorance still only nets 2% win chance—must be the dad effect.",
-    "Gayden bet the farm on England, now he's stuck with zero Jordan points.",
-    "Rafe's Dad? Unphased; 0 differential—a Thanksgiving disappointment in the making.",
-    "Chaos agent Rafe spooked Gunner—makes the model look like FIFA Street mode."
+    "Rafe's Germany? Eliminated early. Not bad for a kid who drafted ghost squads.",
+    "Gayden's Tier-4 Jordan is a zero-point beauty. Father's day gift for Rafe.",
+    "Rafe owning Devin with a 6-point differential, but can't touch Gunner's dominance.",
+    "Sim's a genius: gunner's favorite got shaken by a 15-year-old wildcard."
   ]
 }
