@@ -1,23 +1,23 @@
-### Gunner — 47 pts · 1st · Bubba G's icy grip
+### Gunner — 47 pts · 1st · Bubba G holding steady
 
-**Bubba G** Gunner is desperately trying to thaw out his frozen assets at the top of the table. With another pointless day and a lingering two-match losing streak, the king's crown is starting to feel heavy, and the pack is closing in, especially with Devin breathing fire in second place. France is Gunner's last bastion of hope, but **if your strategy is waiting for others to mess up, you're not leading — you're delaying the inevitable fall.**
+**Bubba G** Gunner might be feeling the pressure from below, but he's clinging to the top like a cat on a screen door. France continues to be his fortress, ensuring the throne stays in reach. However, with a win probability still at 48%, **it seems the models love you more than your actual matchday performance deserves, Gunner — tighten up or your lucky streak might go the way of your DR Congo dreams.**
 
-### Devin — 42 pts · 2nd · Ghost Pepper's heat wave
+### Devin — 42 pts · 2nd · Ghost Pepper simmering
 
-**Ghost Pepper** Devin bolstered his claim with Spain's fiery 3-0 victory over Austria, catapulting him back into serious contention with another five points. Sitting just behind Bubba G, Devin's got the momentum and the spice with Haaland still gunning for Golden Boot glory. **Devin, this is your kitchen to command — keep the heat cranked up, or someone else will walk away with your well-seasoned dreams.**
+**Ghost Pepper** Devin is keeping the heat just under a boil, but not quite enough to overtake Bubba G. With Spain as his ace and Haaland's Golden Boot chase as sweet vindication, he's poised to cause a late upset. **Devin, you’re still a heavy favorite with the spice to spare — don’t lose your nerve or you’ll end up seasoning Bubba G’s victory parade instead of leading your own.**
 
-### Zach — 35 pts · 3rd · Mustard Boy's spicy revival
+### Zach — 35 pts · 3rd · Mustard Boy's performance flatlining
 
-**Mustard Boy** Zach is keeping his squad flavorful, with Switzerland's 2-0 triumph over Algeria adding a zesty five points to his total. Even with Austria falling by the wayside, Brazil's might offers a robust second wind. **Zach, don't let the heat dissipate — keep those spicy plays coming, and you could ketchup to the competition.**
+**Mustard Boy** Zach's hot streak has cooled off with Switzerland and Brazil as his few saving graces. The gap behind Devin feels like it's growing faster than Zach can put points on the board. **Zach, wake up! If you don't ketchup soon, staying competitive will be harder than squeezing mustard out of a rock.**
 
-### Gayden — 31 pts · 4th · Backpass Assassin's unraveling
+### Gayden — 31 pts · 4th · Backpass Assassin scrambling
 
-**The Backpass Assassin** Gayden is now firmly in a two-front war, fighting his way up the standings and battling his own son's insurgence. England's progression is his last grasp at narrative redemption, but with Japan and Ivory Coast gone, the struggle is real. **Gayden, your backpasses are outdated plays — evolve your game or end up in your own backyard, dethroned.**
+**The Backpass Assassin** Gayden continues to live up to his moniker, missing opportunities like it’s his favorite hobby. England keeps his hopes hanging by a thread, but with Japan and Ivory Coast gone, his squad lacks firepower. **Gayden, you're just looking back while moving sideways — try not to trip over your own feet as your son keeps gaining.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's silent vigil
+### Rafe — 29 pts · 5th · The Noisemaker's wild ride
 
-**The Noisemaker** Rafe is sitting quietly at the bottom, but don't let that fool you — Mexico's unbeaten streak still raises eyebrows. His early draft blunders are now legendary, yet there’s an odd charm to his chaotic approach. **Rafe, you’re the Joker in this deck — embrace the madness and you might just laugh your way to a shocking comeback.**
+**The Noisemaker** Rafe is relishing his role as the league’s chaos agent, turning heads with Mexico’s undefeated run. His draft began as a comedy, but his persistence has the league feeling more like a thriller. **Rafe, keep embracing the madness — the crown might not be yours this year, but the drama certainly is.**
 
 ### THE FATHER-SON SAGA
 
-We're witnessing a Shakespearean drama in the **Backpass Assassin** Gayden and **The Noisemaker** Rafe duel. Both are stuck in the lower rungs, but the real stakes are the Thanksgiving bragging rights — and the family honor hanging precariously in the balance. **Will the father cement his legacy, or will Rafe's youthful chaos rewrite history's script?** This rivalry isn't about points anymore; it's a battle for the family crest.
+The Shakespearean duel between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe continues unabated. Rafe's chaotic rise and his hold on Mexico challenge Gayden's more traditional, yet faltering, approach. Thanksgiving dinner is looking more like a battleground, and with each match, **the younger Noisemaker inches closer to etching his name in the family crest, possibly over his father's legacy.** Who knew a 15-year-old could script such a gripping story?

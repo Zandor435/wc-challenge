@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-03T22:04:26Z",
+  "generated": "2026-07-04T02:54:14Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Round of 32",
     "is_preseason": false,
-    "matchdays_played": 22,
-    "matches_played": 85,
-    "matches_remaining": 19,
+    "matchdays_played": 23,
+    "matches_played": 86,
+    "matches_remaining": 18,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -75,22 +75,27 @@
         "team": "Algeria",
         "owner": null,
         "round": "Round of 32"
+      },
+      {
+        "team": "Cape Verde",
+        "owner": null,
+        "round": "Round of 32"
       }
     ]
   },
   "owners": {
     "Zach": {
       "rank": 3,
-      "rank_change_from_prev_day": 1,
+      "rank_change_from_prev_day": 0,
       "total_points": 35,
-      "points_today": 5,
+      "points_today": 0,
       "record": {
         "W": 8,
         "D": 7,
         "L": 6
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.15,
+      "win_probability": 0.17,
+      "champion_probability": 0.14,
       "streak": {
         "type": "W",
         "length": 1,
@@ -127,7 +132,7 @@
         "D": 5,
         "L": 6
       },
-      "win_probability": 0.47,
+      "win_probability": 0.48,
       "champion_probability": 0.23,
       "streak": {
         "type": "L",
@@ -157,7 +162,7 @@
     },
     "Gayden": {
       "rank": 4,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 31,
       "points_today": 0,
       "record": {
@@ -197,7 +202,7 @@
       "rank": 2,
       "rank_change_from_prev_day": 0,
       "total_points": 42,
-      "points_today": 5,
+      "points_today": 0,
       "record": {
         "W": 11,
         "D": 3,
@@ -902,6 +907,17 @@
         "Devin": 5,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 23,
+      "date": "2026-07-03",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
@@ -1033,6 +1049,14 @@
       "owner": null,
       "round": "Round of 32",
       "description": "Algeria eliminated in the Round of 32"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-03",
+      "team": "Cape Verde",
+      "owner": null,
+      "round": "Round of 32",
+      "description": "Cape Verde eliminated in the Round of 32"
     },
     {
       "type": "biggest_day",
@@ -1735,6 +1759,37 @@
         "Zach": 1,
         "Gunner": 0,
         "Gayden": -1,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "points": {
+        "Zach": 35,
+        "Gunner": 47,
+        "Gayden": 31,
+        "Devin": 42,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Zach": 3,
+        "Gayden": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
       }

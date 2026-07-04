@@ -1570,6 +1570,26 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-03",
+      "matches": [
+        {
+          "date": "2026-07-03",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "Argentina",
+          "away": "Cape Verde",
+          "home_score": 3,
+          "away_score": 2,
+          "score": "Argentina 3-2 Cape Verde",
+          "points": {},
+          "math": [
+            "KO WIN (Round of 32): Argentina undrafted, no points",
+            "KO LOSS: Cape Verde undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }
