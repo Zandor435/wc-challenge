@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · Untouchable Titan
+### Gunner — 63 pts · 1st · Fortress of Dominance
 
-**Bubba G** Gunner is smashing through the opposition like a freight train through a picket fence. **When France and Morocco have your back like they're building your fortress, how do you even falter?** His squads are doing nothing short of lifting an entire mini-civilization on his shoulders. At this point, Gunner is brushing aside mere mortals on his way to World Cup immortality.
+**Bubba G** Gunner is just a beast ripping through the contest. **France and Morocco are not just carrying you; they're giving you wings, knight.** Advancing to the quarters with a 16-point explosion is like ripping open a can of ruthlessness. The rest of you might want to check your rearview; Gunner's fortress just turned into a juggernaut.
 
-### Devin — 42 pts · 2nd · The Phantom in Pursuit
+### Devin — 42 pts · 2nd · Ghostly Presence with a Glimmer
 
-**Ghost Pepper** Devin is barely keeping the chase alive at 42 points. **Erling Haaland might be your golden boy, but Europe’s not sending you any urgent invites to the winner’s circle.** Spain and Norway are flickering like a distant lighthouse over foggy waters. You better hope Gunner's fortress gets stormed, otherwise, you'll be seeing it in your rearview mirror.
+**Ghost Pepper** Devin, you're hanging on in second by sheer will. **But with Haaland as golden boot bait and Norway hanging tough, don’t expect roses, just cauterizations.** Spain might keep this blindfolded drive alive, but Gunner’s accelerating away like he's got NOS in his veins. Start overhauling or watch the leader's dust settle.
 
-### Zach — 35 pts · 3rd · A Mirage on the Horizon
+### Zach — 35 pts · 3rd · Mustard Chaos
 
-**Mustard Boy** Zach, you've been hanging on to that Swiss Army knife of a Brazilian miracle for dear life. **Your roster reads like a failed hotline to glory.** Mustard's turned sour, and unless Brazil samba their way to the finals, you might want to look forward to being lost in the desert. The top three is a slippery slope, and right now, you're gravity's favorite.
+**Mustard Boy** Zach, you've plateaued on 35 points, barely clinging onto Brazil's coattails. **Just waiting for the Swiss to become supermen won’t win you any medals.** You're teetering on the edge while the top spots dance just out of reach. It’s time to do less miraging and more maneuvering.
 
-### Gayden — 31 pts · 4th · The Backpass Assassin Wallowing
+### Gayden — 31 pts · 4th · The Backpass Assassin’s Identity Crisis
 
-**The Backpass Assassin** Gayden is having a crisis of faith. **When England is your knight in shining armor but the rust is starting to show, maybe it's time to switch tactics.** The bank robbery's been foiled, and your son is snapping at your heels in this generational duel. You might need a miracle fit for the ages, or at least a therapy session post-cup.
+**The Backpass Assassin** Gayden, still entangled in underachievement. **England’s progress is the only thing hanging by a thread in your disjointed defense strategy.** With Turkey desperate for your guidance, it seems like all roads lead to frustration. Perhaps it's time to reassess what tactics actually show on the scoreboard.
 
-### Rafe — 29 pts · 5th · The Noisemaker's Quiet Reverie
+### Rafe — 29 pts · 5th · Teenage Tornado in Waiting
 
-**The Noisemaker** Rafe continues to strum the strings of chaos with 29 points. **Mexico's march has you pounding the drums in the family orchestra, but it's mostly drowned out in the cacophony of missed opportunity.** The underdog symphony plays on, but without crescendo, it's a waiting game for future accolades. Still, the only way is up when you're already at the bottom.
+**The Noisemaker** Rafe is biding time for that next thunderclap. **Nice try dismantling giants like Germany, too bad the exit ramp was open for Ecuador too.** Mexico's still your flag bearer, but in the shadow of your dad's castle, you're eyeing that next gust. Pro tip: chaos means nothing if it’s just playing the silence game.
 
 ### THE FATHER-SON SAGA
 
-The drama between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe is turning into the kind of theater you'd expect on Broadway. **Gayden**, England is supposed to be your stalwart, yet it's looking like their armor's dented. **Rafe**, against all odds, you’ve turned chaos into strategy — Mexico's still your relentless banner. Thanksgiving isn't just a dinner anymore, it’s a battlefront.
+Fresh off family tensions and dinner-table theories, **The Backpass Assassin** Gayden is learning that the gap between words and results is as wide as a teenager's attention span. **Rafe,'s Noisemaker chaos is far from silenced, and with Mexico still advancing, the kid's strategy might just outlive your English knight's rust.** Thanksgiving discussions are about to be spicier than ever.
