@@ -1615,6 +1615,23 @@
           "date": "2026-07-04",
           "stage": "knockout",
           "round": "R16",
+          "home": "Paraguay",
+          "away": "France",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "Paraguay 0-1 France",
+          "points": {
+            "Gunner": 8.0
+          },
+          "math": [
+            "KO WIN (Round of 16): France (Gunner) +3  +5 advancement (reached quarterfinal)",
+            "KO LOSS: Paraguay undrafted, no points"
+          ]
+        },
+        {
+          "date": "2026-07-04",
+          "stage": "knockout",
+          "round": "R16",
           "home": "Canada",
           "away": "Morocco",
           "home_score": 0,

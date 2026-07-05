@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T21:58:43Z",
+  "generated": "2026-07-05T03:23:58Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Round of 16",
     "is_preseason": false,
     "matchdays_played": 24,
-    "matches_played": 88,
-    "matches_remaining": 16,
+    "matches_played": 89,
+    "matches_remaining": 15,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -87,6 +87,11 @@
         "round": "Round of 32"
       },
       {
+        "team": "Paraguay",
+        "owner": null,
+        "round": "Round of 16"
+      },
+      {
         "team": "Canada",
         "owner": "Gunner",
         "round": "Round of 16"
@@ -104,8 +109,8 @@
         "D": 7,
         "L": 7
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.15,
+      "win_probability": 0.15,
+      "champion_probability": 0.14,
       "streak": {
         "type": "L",
         "length": 1,
@@ -135,27 +140,27 @@
     "Gunner": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 55,
-      "points_today": 8,
+      "total_points": 63,
+      "points_today": 16,
       "record": {
-        "W": 13,
+        "W": 14,
         "D": 5,
         "L": 7
       },
-      "win_probability": 0.49,
-      "champion_probability": 0.23,
+      "win_probability": 0.53,
+      "champion_probability": 0.26,
       "streak": {
         "type": "L",
         "length": 1,
         "label": "L1"
       },
       "best_team": {
-        "team": "Morocco",
-        "tier": 2,
-        "points": 20,
+        "team": "France",
+        "tier": 1,
+        "points": 22,
         "record": {
-          "W": 4,
-          "D": 1,
+          "W": 5,
+          "D": 0,
           "L": 0
         }
       },
@@ -180,7 +185,7 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.1,
+      "win_probability": 0.09,
       "champion_probability": 0.1,
       "streak": {
         "type": "W",
@@ -218,7 +223,7 @@
         "D": 3,
         "L": 9
       },
-      "win_probability": 0.22,
+      "win_probability": 0.21,
       "champion_probability": 0.16,
       "streak": {
         "type": "W",
@@ -256,7 +261,7 @@
         "D": 1,
         "L": 12
       },
-      "win_probability": 0.02,
+      "win_probability": 0.01,
       "champion_probability": 0.02,
       "streak": {
         "type": "L",
@@ -934,7 +939,7 @@
       "date": "2026-07-04",
       "points": {
         "Zach": 0,
-        "Gunner": 8,
+        "Gunner": 16,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
@@ -943,7 +948,7 @@
   ],
   "dependency_index": {
     "Zach": 0.34,
-    "Gunner": 0.25,
+    "Gunner": 0.35,
     "Gayden": 0.39,
     "Devin": 0.29,
     "Rafe": 0.21
@@ -1090,6 +1095,14 @@
     {
       "type": "elimination",
       "date": "2026-07-04",
+      "team": "Paraguay",
+      "owner": null,
+      "round": "Round of 16",
+      "description": "Paraguay eliminated in the Round of 16"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-04",
       "team": "Canada",
       "owner": "Gunner",
       "round": "Round of 16",
@@ -1097,10 +1110,10 @@
     },
     {
       "type": "biggest_day",
-      "date": "2026-06-25",
-      "owner": "Gayden",
-      "points": 9,
-      "description": "Gayden banked 9 pts on 2026-06-25 -- the biggest single-day haul so far"
+      "date": "2026-07-04",
+      "owner": "Gunner",
+      "points": 16,
+      "description": "Gunner banked 16 pts on 2026-07-04 -- the biggest single-day haul so far"
     }
   ],
   "themes": [
@@ -1835,14 +1848,14 @@
       "date": "2026-07-04",
       "points": {
         "Zach": 35,
-        "Gunner": 55,
+        "Gunner": 63,
         "Gayden": 31,
         "Devin": 42,
         "Rafe": 29
       },
       "points_today": {
         "Zach": 0,
-        "Gunner": 8,
+        "Gunner": 16,
         "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
