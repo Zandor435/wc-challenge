@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · The Moroccan Magician keeps conjuring wins
+### Gunner — 63 pts · 1st · The Sultan of Surge
 
-**Bubba G** Gunner notched an unprecedented 16-point haul, riding France and Morocco straight through the Round of 16. **Gunner, every point you rack up is a nail in the coffin of your rivals' dreams.** With a staggering 53% chance of victory, you're not just in the driver's seat, you're practically on cruise control towards the championship.
+**Bubba G** Gunner continues to dominate with a ruthless knockout performance. **Your France-Morocco combo is upending the league like a sandstorm over a desert.** With a jarring 16-point haul, Gunner’s got his championship parade route practically planned out. But don't rest too easy, Gunner — you're one slip away from letting the chaos goblins back in.
 
-### Devin — 42 pts · 2nd · Ghost Pepper needs to spice it up
+### Devin — 42 pts · 2nd · Ghost Pepper's feisty flicker
 
-**Ghost Pepper** Devin, your Norway-South Africa combo hasn't exactly set the world on fire. **Devin, it's like you're waiting for Gunner to trip over his own shoelaces rather than making your own mark.** Spain’s been your saving grace but it’s high time you find another gear to shake off the specter of mediocrity.
+**Ghost Pepper** Devin, you're holding steady but not shaking expectations with 42 points. **You’re lurking in second like a shadow but still look more specter than spook, my man.** Spain's your torch in the night while Norway tries to keep the Haaland hammer pounding. Don't nap on your laurels — Gunner's not slowing down for anyone.
 
-### Zach — 35 pts · 3rd · Mustard Boy's bland performance
+### Zach — 35 pts · 3rd · Mustard Boy's spicy desperation
 
-**Mustard Boy** Zach, Brazil glimmers as the last shining beacon of hope in an otherwise dull roster landscape. **Zach, if you're banking on Brazil to take you to the promised land, you better hope they can carry the whole team on their backs.** Tied to a paper-thin win probability, you're clinging to the edges of relevancy.
+**Mustard Boy** Zach, clinging to Brazil like it’s your lifeboat with the rest of your roster like soggy mustard packets. **Brazil's your last love letter to relevancy in a romance gone cold.** Your hopes are stuck on a thin vine that could snap any moment. It's time to pray for a Brazilian samba surprise or prepare to write your resignation letter from the top three.
 
-### Gayden — 31 pts · 4th · The Backpass Assassin running on fumes
+### Gayden — 31 pts · 4th · The Backpass Assassin's low-energy struggle
 
-**The Backpass Assassin** Gayden, your England squad stands strong but the rest of your lineup's been a letdown. **Gayden, at this point, you might as well be handing your son the keys to the family trophy case.** With Japan and Ivory Coast eliminated, it’s up to England to save your bacon from absolute embarrassment.
+**The Backpass Assassin** Gayden, when England is your last hope, you know the struggle's real. **At least the family trophy case won't be crammed with new memories, right Gayden?** Your once-proud England veers into survival mode, and your son's gunning for you to boot. You're playing defense in more ways than one, pal.
 
-### Rafe — 29 pts · 5th · The Noisemaker's quiet rebellion
+### Rafe — 29 pts · 5th · The Noisemaker's silent threat
 
-**The Noisemaker** Rafe, while the odds are long and the points are sparse, you continue to defy expectations with the raw audacity of Mexico. **Rafe, even with zero knowledge, you've somehow managed to troll your way into the heated family feud of the year.** Your father may have a better roster, but you've got the youthful spark to keep things interesting — for now.
+**The Noisemaker** Rafe, 15 years old and already sending shivers up your dad's spine. **Your chaotic Energy of Mexico is your competitive hammer — it’s the only rhythm keeping your dream alive.** While the other teams crumble, you’ve still got a foot in the door of this family feud. Thanksgiving might as well be the new World Cup stage.
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin** Gayden vs. **The Noisemaker** Rafe continues to be the Clash of the Titans we didn't know we needed. **Gayden**, with England as your last hope, you're on thin ice if anything goes wrong. **Rafe**, while your draft was a comedy, Mexico’s magic dance into the next rounds keeps you in the conversation. This isn’t just fantasy; it’s family history being written with every kick. Thanksgiving dinner might turn into a soccer showdown fit for a Pay-Per-View event.
+The scorched earth between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe grows ever tense in this Shakespearean drama. **Gayden**, England’s brittle armor is your last defense against your son's relentless advance. **Rafe**, while your roster reads like a punchline, Mexico continues its defiant march. Expect fireworks — or a firestorm — at the next family gathering.
