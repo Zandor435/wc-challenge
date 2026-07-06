@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · Dominance Personified
+### Gunner — 63 pts · 1st · Dominance Reaffirmed
 
-**Bubba G** Gunner has delivered yet another masterclass in fantasy dominance. **France and Morocco are your knights in shining armor, storming into the quarterfinals while the rest can only wish upon a star.** Your 16-point haul today was nothing short of a fireworks display on the Fourth of July. The gap is widening, and **the silver platter is practically engraved with your name.**
+**Bubba G** Gunner, while Canada bit the dust, your lead remains as stable as a rock. France continues to be your saving grace, sending your opponents scurrying like they just saw the monster under the bed. **Your 54.0% win probability makes everyone else look like they're playing bingo at church,** and **good luck finding a challenger brave enough to dethrone you.**
 
-### Devin — 42 pts · 2nd · Ghost Pepper's Flickering Flame
+### Devin — 50 pts · 2nd · Still Haunting the Leader
 
-**Ghost Pepper** Devin, that 16-point gap might as well be the Grand Canyon at this point. **Haaland's golden boot threats are your only saving grace, but that won't pull down Bubba G's fortress.** Spain and Norway need to morph into juggernauts overnight if you want a prayer of catching Gunner. Heads up, it's not looking likely.
+**Ghost Pepper** Devin, climbing eight points thanks to Norway's defiant march past Brazil. Haaland's golden boot continues to be your beacon in this stormy tournament. **Despite that 19.0% championship radar, you're nothing more than a ghost caught in Gunner's headlights.** Keep the fire alive because you're doing a heck of a lot better than your draft should allow.
 
-### Zach — 35 pts · 3rd · Mustard in the Middle
+### Gayden — 39 pts · 3rd · Back in the Game?
 
-**Mustard Boy** Zach, you're stuck in the quicksand of mediocrity. **Brazil is still your only spearhead, while the likes of Switzerland and the Czech Republic are as forgettable as a condiment packet in a junk drawer.** You need to conjure up some Brazilian magic fast, or this World Cup trek will end in a pointless dance routine.
+**The Backpass Assassin** Gayden, England's thrilling win against Mexico reignites some flickering hope. A solid eight-point day gives you a welcomed sigh of relief in a campaign otherwise filled with botched plans. **Rafe might have been piping hot, but you've smothered his Mexico with an avalanche of English goals — dinner table stakes are rising.**
 
-### Gayden — 31 pts · 4th · Assassin's Struggles Continue
+### Zach — 35 pts · 4th · Brazilian Heartbreak
 
-**The Backpass Assassin** Gayden, your campaign is less of an assassination and more of a botched operation. **England's the only torchbearer left in a team that is otherwise surrounded by shadows and faint whimpers.** Draft better, play better, or resign to watching Rafe outdo you with his accidental marvels. England's armor has cracks, and your options are running thin.
+**Mustard Boy** Zach, Brazil's late-stage collapse means your campaign is as mustard as the name suggests. **Zero points today, and Brazil's departure spells nothing short of disaster in what was a mirage of a third-place dream.** Switzerland better step up, or you'll be running to the cellar with a taste of pure mediocrity.
 
-### Rafe — 29 pts · 5th · Noisemaker's Chaotic Symphony
+### Rafe — 29 pts · 5th · The End of the Beginning
 
-**The Noisemaker** Rafe, it seems your glorious chaos is hitting the mute button. **Mexico is your lone ranger in a field of ghost towns and another round of eliminations.** Your draft was a complete disaster, yet you still manage to hang on with the stubbornness only a teenager could muster. Stay scrappy, kid; it's making Thanksgiving far more interesting than anything Dad's got planned.
+**The Noisemaker** Rafe, Mexico's defeat leaves you clinging to the smallest of hopes. Your chaotic symphony has hit a sour note, and dad's squad sent your dreams packing. **Your draft-disaster origin is not just comedy; it's a tragic opera that might finally have its curtain call.** Stay noisy in the background, kid.
 
 ### THE FATHER-SON SAGA
 
-The plot thickens between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe. **Rafe's Mexican stand-in might be outsized, but he's breathing neck-to-neck with Dad, whose England is showing signs they're ready to pack for home.** This is no ordinary family feud — it's psychological warfare, and Rafe's young chaos tactics have given Gayden a serious headache. The dinner table stakes have never been higher.
+The epic drama between **The Backpass Assassin** Gayden and **The Noisemaker** Rafe took another twist today. **Rafe's wild dance with destiny hit the dance floor in Mexico, only to be outplayed by Dad's England.** Now, Gayden holds the upper hand, and the Thanksgiving table is set for a showdown of epic proportions. The father-son saga continues, and it's nothing short of must-see television.

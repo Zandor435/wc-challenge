@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-05T22:02:11Z",
-  "source": "daily_results_2026-07-04",
-  "date": "2026-07-05",
-  "rotation": 24,
+  "generated": "2026-07-06T03:32:03Z",
+  "source": "daily_results_2026-07-05",
+  "date": "2026-07-06",
+  "rotation": 25,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "**Gunner's on top, schooling these clowns while the \"Noisemaker\" drafts like he's never watched a match.** Listen, folks, Gunner, or should I say \"Bubba G,\" is making everyone else look like they're playing checkers while he's playing chess. France and Morocco making waves? No surprise there. He's got 63 points, blowing everyone else out of the water. Meanwhile, \"The Noisemaker,\" Rafe, drafted Germany, Ecuador, and Mexico, and still sits dead last with 29 points. It's almost like he picked teams based on how they sound in FIFA rather than actual soccer prowess. \n\nToday's Brazil vs. Norway matchup is a prime example of \"Mustard Boy\" Zach's clueless drafting style. Brazil should wipe the floor with Norway, leaving Devin's \"Ghost Pepper\" fantasy dreams in the dust. And don't get me started on Mexico vs. England. Gayden, the so-called \"Backpass Assassin,\" might've picked England, but you'd think he'd know better than to pin hopes on Japan and the Ivory Coast. England will absolutely dismantle Mexico, and Rafe will be left wishing he had focused on his homework instead of dreaming up this disaster of a lineup."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "**Look, I get why people think Gunner is leading this pool, but let's not pretend it's anything more than blind luck at this point.** Sure, his roster includes France, a powerhouse in Tier 1, but anyone who drafts DR Congo in Tier 4 is clearly throwing darts while wearing a blindfold. I feel for Devin, I really do—especially after weathering the emotional rollercoaster of Spain's unpredictable form—yet when you watch him draft Haiti in the fourth round, you can't help but question if he's a little too attached to the underdogs. On the other hand, Gayden, the self-proclaimed \"Backpass Assassin,\" might as well be passing his remaining hopes backward with Korea Republic, who aren't exactly setting the world alight. But let's not forget about Zach, or \"Mustard Boy\" as he'd like us to call him, languishing at fourth with a roster that, on paper, should have done better. If you're relying on Saudi Arabia for advancement points, you might as well start training as a mustard sommelier. And bless his heart, young Rafe, or \"The Noisemaker,\" is clearly learning the harsh reality that not all chaos leads to glory—especially when Germany's inconsistency leaves him clinging to the fantasy equivalent of a sinking ship. As we move forward, the schadenfreude is palpable; the only certainty is that the near future is bound to unravel spectacularly for at least one of these bold strategists."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Secures Top Spot With France And Morocco Wins",
-      "subtitle": "Avoids upsets through zero risk and even less creativity.",
-      "match": "Paraguay vs France",
-      "date": "2026-07-05"
+      "headline": "Gunner Secures Spectator Spot with Untouchable First Place Standing",
+      "subtitle": "Bubba G credits his success to drafting teams that actually qualified.",
+      "match": "Group F Preview",
+      "date": "2026-07-06"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy's Brazil Poised To Challenge Ghost Pepper's Norway",
-      "subtitle": "Both managers equally confident after thoroughly Googling 'soccer strategies'.",
-      "match": "Brazil vs Norway",
-      "date": "2026-07-05"
+      "headline": "Devin's Strategy Poised for Double Boost with Spain and USA Matches",
+      "subtitle": "Ghost Pepper aiming to spice up second place with back-to-back wins.",
+      "match": "Portugal vs Spain",
+      "date": "2026-07-06"
     },
     {
       "pundit": "dempsey",
-      "headline": "Rafe's Mexico Set To Face England In High-Stakes Showdown",
-      "subtitle": "The Noisemaker reportedly plans to make noise if Mexico scores.",
-      "match": "Mexico vs England",
-      "date": "2026-07-05"
+      "headline": "Rafe's Underdog Team Picks Continue Impressive Streak of Non-Qualification",
+      "subtitle": "The Noisemaker remains silent, as Mexico and more miss their mark.",
+      "match": "Mexico 2-3 England",
+      "date": "2026-07-06"
     },
     {
       "pundit": "lalas",
-      "headline": "Zach Slides To Third As Gunner's Teams Dominate The Field",
-      "subtitle": "Thanks to his draft strategy: hope and mustard seeds.",
-      "match": "Group F Preview",
-      "date": "2026-07-05"
+      "headline": "Zach's Brazil Loses Again as Mustard Boy Sticks to Hot Dog Strategy",
+      "subtitle": "Apparently, putting mustard on everything doesn't always lead to points.",
+      "match": "Brazil 1-2 Norway",
+      "date": "2026-07-06"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner blasts ahead with a 16-point explosion, leaving Devin eating dust at 42.",
-    "Gayden's Tier-4 Jordan hasn't scored a single point; what a waste of a roster spot!",
-    "Rafe, if you're gonna beat dad, maybe don't let Gunner trample you by six.",
-    "The chaos agent strikes: Rafe gets early eliminations but still competitive. Nice predictions, model."
+    "Gunner destroys the league with a 16-point single-day haul. Steamrolled, next question.",
+    "Gayden's so desperate, he actually relies on Jordan, the zero-point wonders. Tough scene.",
+    "Rafe can't even beat his dad, Gayden's got an 8-point differential edge. Embarrassing.",
+    "The sim respects Gunner, but Rafe's chaos can't be simulated. Sim's got blind spots."
   ]
 }

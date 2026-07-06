@@ -1646,6 +1646,47 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-05",
+      "matches": [
+        {
+          "date": "2026-07-05",
+          "stage": "knockout",
+          "round": "R16",
+          "home": "Brazil",
+          "away": "Norway",
+          "home_score": 1,
+          "away_score": 2,
+          "score": "Brazil 1-2 Norway",
+          "points": {
+            "Devin": 8.0,
+            "Zach": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 16): Norway (Devin) +3  +5 advancement (reached quarterfinal)",
+            "KO LOSS: Brazil (Zach) +0"
+          ]
+        },
+        {
+          "date": "2026-07-05",
+          "stage": "knockout",
+          "round": "R16",
+          "home": "Mexico",
+          "away": "England",
+          "home_score": 2,
+          "away_score": 3,
+          "score": "Mexico 2-3 England",
+          "points": {
+            "Gayden": 8.0,
+            "Rafe": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 16): England (Gayden) +3  +5 advancement (reached quarterfinal)",
+            "KO LOSS: Mexico (Rafe) +0"
+          ]
+        }
+      ]
     }
   ]
 }
