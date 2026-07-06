@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T10:21:35Z",
+  "generated": "2026-07-06T15:32:42Z",
   "source": "daily_results_2026-07-05",
   "date": "2026-07-06",
   "rotation": 25,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, when you're relying on Haiti to get you points, you've already lost the script.** I mean, Devin, I genuinely respect your passion and enthusiasm, but drafting Haiti in the fourth tier and expecting anything other than a zero-point performance feels like asking for a miracle. It's no surprise, then, that Gunner, or \"Bubba G,\" is leading the pack with 63 points, riding on the strengths of teams like France and the surprise package Morocco. But before we go applauding his savvy, let's just acknowledge he's had the good fortune of a higher number of matches involving his teams so far, which hasn't exactly been a test of managerial brilliance.\n\nMeanwhile, \"Ghost Pepper\" Devin sits at second with a respectable 50 points, largely thanks to Spain and USA, but he's teetering on the edge and might soon find out that hoping for redemption through Tier 4 won't cut it. Gayden, affectionately known as \"The Backpass Assassin,\" made a bold move with England, yet his 39 total points show the risk hasn't quite paid off, leaving him squarely mid-table. Zach, or \"Mustard Boy,\" is floundering just below Gayden with 35 points, possibly reconsidering his decision to hitch his team to Saudi Arabia for advancement points—a decision that truly feels like penning a sad, slow farewell note to victory. \n\nThen there's Rafe, \"The Noisemaker,\" bless his heart. With a pitiful 29 points, his strategy appears to rely on a roulette wheel rather than a plan, picking teams not even present in this World Cup. The comedic aspect of his roster choices is the only saving grace in his otherwise mismanaged campaign. But who knows? In fantasy, as in soccer, it's the random bounces that sometimes provide the greatest drama, even if they leave some managers wondering why they ever stepped into the pool."
+    "take": "Gunner \"Bubba G\" leads, but let's not pretend dominance when it's just France doing all the work. Look, I get why people might think Gunner's victory is a foregone conclusion, but with only 16 advancement points and zero upsets, he's leaning more on the French than a Parisian café chair. Devin \"Ghost Pepper\" lurks in second, and I feel for him, I really do, but when your biggest win comes from having Norway upset Brazil, it's not exactly what I'd call a sustainable strategy—bless his heart. Meanwhile, Gayden \"The Backpass Assassin\" is lingering in third, and while his England squad did give him a satisfying win over Rafe, he’s really hanging by a thread here with only a paltry 39 total points. Zach \"Mustard Boy\" must be savoring the irony of drafting Brazil only for them to get outfoxed by Devin's Norwegian gambit; I mean, what conversation was he having with himself? And Rafe \"The Noisemaker,\" bless his heart, sits in last place, and with three teams that aren't even playing in the tournament, it seems his strategy was more \"chaos reigns\" than \"carefully drafted excellence.\" So, in a game of inches where Mustard Boy would need leaps, and Bubba G clings nervously to his lead, there's still plenty of room for movement—or missteps."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Draft Strategy Questioned After Norway Upsets Brazil",
-      "subtitle": "Zach puzzled how a Tier 1 team fell to a Tier 2 pick.",
-      "match": "Brazil vs Norway",
-      "date": "2026-07-06"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Ghost Pepper Poised to Spice Up Standings with Spain's Performance",
-      "subtitle": "Devin eyes points boost as Spain set to face Portugal.",
+      "headline": "Ghost Pepper Devin set to heat up against Portugal",
+      "subtitle": "Experts predict Devin will score more points than Rafe's whole tournament.",
       "match": "Portugal vs Spain",
       "date": "2026-07-06"
     },
     {
+      "pundit": "donovan",
+      "headline": "Mustard Boy Zach's Brazil falters; team unsure of condiment choice",
+      "subtitle": "Norway leaves Brazil's World Cup hopes and Zach's strategy in doubt.",
+      "match": "Brazil 1-2 Norway",
+      "date": "2026-07-06"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Bubba G's Arsenal Quietly Dominating with Top Points in Pool",
-      "subtitle": "Gunner stays calm as competitors scramble to catch up.",
+      "headline": "Rookie Rafe's Germany quietly waits on the bench for relevance",
+      "subtitle": "Some say their biggest challenge is explaining offside to Rafe.",
       "match": "Group F Preview",
       "date": "2026-07-06"
     },
     {
       "pundit": "lalas",
-      "headline": "Devin's USA Aims to Blaze Past Belgium in Crucial Clash",
-      "subtitle": "Ghost Pepper seeks to ignite a comeback in the rankings.",
+      "headline": "USA expected to showcase Ghost Pepper Devin's fiery management in Seattle",
+      "subtitle": "Devin plans to outshine the Space Needle against Belgium.",
       "match": "USA vs Belgium",
       "date": "2026-07-06"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's sitting at the top, but a teen who can't name players shook him.",
-    "Rafe's draft blunders are epic: his first three picks aren't even in the Cup.",
-    "Rafe's faceoff with dad Gayden is like a Thanksgiving dinner gone wild.",
-    "Devin might own the trophy but still lose the league? That's classic Ghost Pepper."
+    "Gunner's stock soars while Rafe's crash course in soccer becomes a masterclass in faceplants.",
+    "Rafe's Tier-1 pick Germany exited early; epic draft bomb turned historic comic relief.",
+    "Gayden's 8-point crack-down on son Rafe: Father's Day just got real awkward.",
+    "Rafe's chaos potential nullified; 0.0% win rate predicted his epic international blunders."
   ]
 }

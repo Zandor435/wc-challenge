@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · The Throne Holder
+### Gunner — 63 pts · 1st · The Untouchable King
 
-**Bubba G** Gunner continues to sit on his iron throne, basking in the glory of France's rampage through the tournament. Even when Canada waves goodbye, his lead is as robust as ever. **DR Congo's Cinderella moment might be in the past, but at 54% win probability, Gunner's grip on the top is a steel vice.** Who's got the stones to challenge him?
+**Bubba G** Gunner maintains his unyielding dominance, sitting comfortably atop the standings with a cushy 13-point lead. His powerhouse France keeps him riding high, and frankly, it's a fortress the rest simply can't breach. **The dude banks a 54% win probability as if it's just another day at the office.** Who's daring enough to jiggle this juggernaut?
 
-### Devin — 50 pts · 2nd · Sneaky Contender
+### Devin — 50 pts · 2nd · The Relentless Force
 
-**Ghost Pepper** Devin, riding Norway like a Valkyrie through the fog of battle. With Haaland's dazzling feet, you're creeping right behind Gunner like a ghost in the night, ready to snatch the lead with that 19% championship probability. **You just need that one big hit to make Bubba G sweat under the spotlights.** 
+**Ghost Pepper** Devin is creeping ever closer to the top, powered by Norway's electric charge to the quarterfinals that added 8 big ones to his stash. With Haaland pouring in goals and Spain still alive, Devin is a shadow on Gunner's castle, ready to storm the gates with a 19% championship shot. **Your plan is cooking, and it's time to spice things up.** 
 
-### Gayden — 39 pts · 3rd · The Assassin's Creed
+### Gayden — 39 pts · 3rd · Stealing the Spotlight
 
-**The Backpass Assassin** Gayden went full Robin Hood, looting Rafe's dreams with England's win over Mexico. From third place, he's sharpening his blades for a deeper cut into the standings, fueled by the sweet eight-point haul. **With a 20% chance to play kingmaker, don't count out Gayden's cunning.** 
+**The Backpass Assassin** Gayden isn't just playing in Gunner's wake; he's cutting his own path with England's thrilling win over Mexico, also netting him 8 sweet points. Dad's got the moves, Rafe, and with a ruthless 20% chance to upset the hierarchy, the assassin is more than a whisper in the dark. **Experience can still school youthful chaos any day.** 
 
-### Zach — 35 pts · 4th · Floundering Flames
+### Zach — 35 pts · 4th · The Adrift Armada
 
-**Mustard Boy** Zach, Brazil's collapse was your iceberg, and you are the Titanic. Look at Switzerland and hope they don't follow the same fate, or you'll be paddling back to mediocrity's pit. **Time to muster some magic mustard moves, or your ship's sunk.**
+**Mustard Boy** Zach, you're stuck in neutral, watching Brazil buckle under Norway's sword. Dropping a rank while Gunner and Devin pull away is not a good look, my friend. **With a minuscule 2% win probability, you've got to get creative fast or else your campaign's over before you even blink.** 
 
-### Rafe — 29 pts · 5th · Noise Without Notes
+### Rafe — 29 pts · 5th · Hurricane Halter
 
-**The Noisemaker** Rafe, once a symphony of chaos, now just a whispering echo after Mexico's exit. **Your draft was a comedy of errors that's evolved into a full-blown tragedy show.** Keep banging those pots and pans, kid, because as of now, you're playing for family pride alone.
+**The Noisemaker** Rafe, the comic draft is catching up with you as Mexico's exit leaves a big, echoing void in your lineup. You've made some noise, but it was all sound and fury, signifying nothing, son. **Gayden pulled the rug out again, and your lessons in fantasy footy just keep coming courtesy of the family patriarch.**
 
 ### THE FATHER-SON SAGA
 
-In the never-ending duel of legends, **The Backpass Assassin** Gayden vs. **The Noisemaker** Rafe, dad flexes his experience with England's win over Mexico, adding salt to Rafe's wound. **Thanksgiving's table gets another heaping serving of humble pie for the young upstart.** Keep that TV locked on, because this saga is the gift that keeps on giving.
+This blood feud just keeps hitting new heights as **The Backpass Assassin** Gayden bests **The Noisemaker** Rafe again in a thrilling England/Mexico showdown. With Thanksgiving approaching, the young upstart must find a way to restore some bragging rights, while Gayden relishes adding another notch against his progeny. **It's a table-turning drama that would make Shakespeare proud.**
