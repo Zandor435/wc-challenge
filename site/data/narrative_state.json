@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-06T19:57:03Z",
+  "generated": "2026-07-06T22:13:43Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Round of 16",
     "is_preseason": false,
-    "matchdays_played": 25,
-    "matches_played": 91,
-    "matches_remaining": 13,
+    "matchdays_played": 26,
+    "matches_played": 92,
+    "matches_remaining": 12,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -105,13 +105,18 @@
         "team": "Mexico",
         "owner": "Rafe",
         "round": "Round of 16"
+      },
+      {
+        "team": "Portugal",
+        "owner": null,
+        "round": "Round of 16"
       }
     ]
   },
   "owners": {
     "Zach": {
       "rank": 4,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 35,
       "points_today": 0,
       "record": {
@@ -157,8 +162,8 @@
         "D": 5,
         "L": 7
       },
-      "win_probability": 0.54,
-      "champion_probability": 0.27,
+      "win_probability": 0.45,
+      "champion_probability": 0.25,
       "streak": {
         "type": "L",
         "length": 1,
@@ -187,16 +192,16 @@
     },
     "Gayden": {
       "rank": 3,
-      "rank_change_from_prev_day": 1,
+      "rank_change_from_prev_day": 0,
       "total_points": 39,
-      "points_today": 8,
+      "points_today": 0,
       "record": {
         "W": 9,
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.2,
+      "win_probability": 0.17,
+      "champion_probability": 0.19,
       "streak": {
         "type": "W",
         "length": 2,
@@ -226,28 +231,28 @@
     "Devin": {
       "rank": 2,
       "rank_change_from_prev_day": 0,
-      "total_points": 50,
+      "total_points": 58,
       "points_today": 8,
       "record": {
-        "W": 12,
+        "W": 13,
         "D": 3,
         "L": 9
       },
-      "win_probability": 0.25,
-      "champion_probability": 0.19,
+      "win_probability": 0.36,
+      "champion_probability": 0.27,
       "streak": {
         "type": "W",
-        "length": 2,
-        "label": "W2"
+        "length": 3,
+        "label": "W3"
       },
       "best_team": {
-        "team": "Norway",
-        "tier": 2,
-        "points": 19,
+        "team": "Spain",
+        "tier": 1,
+        "points": 20,
         "record": {
           "W": 4,
-          "D": 0,
-          "L": 1
+          "D": 1,
+          "L": 0
         }
       },
       "worst_team": {
@@ -981,13 +986,24 @@
         "Devin": 8,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 26,
+      "date": "2026-07-06",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 8,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.34,
     "Gunner": 0.35,
     "Gayden": 0.51,
-    "Devin": 0.24,
+    "Devin": 0.34,
     "Rafe": 0.21
   },
   "notable_events": [
@@ -1160,6 +1176,14 @@
       "owner": "Rafe",
       "round": "Round of 16",
       "description": "Mexico (Rafe) eliminated in the Round of 16"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-06",
+      "team": "Portugal",
+      "owner": null,
+      "round": "Round of 16",
+      "description": "Portugal eliminated in the Round of 16"
     },
     {
       "type": "biggest_day",
@@ -1955,6 +1979,37 @@
         "Zach": -1,
         "Gunner": 0,
         "Gayden": 1,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "points": {
+        "Zach": 35,
+        "Gunner": 63,
+        "Gayden": 39,
+        "Devin": 58,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 8,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Gayden": 3,
+        "Zach": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
       }

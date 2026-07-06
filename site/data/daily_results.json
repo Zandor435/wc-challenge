@@ -1687,6 +1687,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-06",
+      "matches": [
+        {
+          "date": "2026-07-06",
+          "stage": "knockout",
+          "round": "R16",
+          "home": "Portugal",
+          "away": "Spain",
+          "home_score": 0,
+          "away_score": 1,
+          "score": "Portugal 0-1 Spain",
+          "points": {
+            "Devin": 8.0
+          },
+          "math": [
+            "KO WIN (Round of 16): Spain (Devin) +3  +5 advancement (reached quarterfinal)",
+            "KO LOSS: Portugal undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · The Untouchable King
+### Gunner — 63 pts · 1st · The High and Mighty
 
-**Bubba G** Gunner might've taken a breather today, but it doesn't matter when he cranked out a 16-point day earlier this week that everyone else is still reeling from. **France remains the crown jewel of his empire, unbeaten and untamed.** Let's be real, at a commanding 54% chance to hoist the trophy, it's gonna take more than whispers and shadows to dethrone this titan.
+**Bubba G** Gunner’s empire might have had a pause, but who needs to move when you're already sitting on a commanding lead? France stands tall at 22 points, a towering juggernaut everyone else envies. **You might look unbeatable, but remember, karma struck the moment Rafe entered the league. Keep your eyes peeled, Gunner.**
 
-### Devin — 50 pts · 2nd · The Relentless Force
+### Devin — 58 pts · 2nd · The Heat is On
 
-**Ghost Pepper** Devin's Norway delivered yet another dagger, dismissing Zach's Brazil and securing those sweet, sweet advancement points. This guy's made a living out of countering **Bubba G's** supremacy, and with Haaland lighting up the scoreboard, Devin's 25% win probability should give anyone shivers. **You’re making a compelling case, Devin. Don't stop cooking.**
+**Ghost Pepper** Devin rides the momentum train after Norway and Spain tag-teamed a win, bumping his score by 8 points. With Spain marching into the quarterfinals, this guy's relentless quest for glory is heating up. **Devin, you're not just cooking—you're torching the competition. Keep dancing with Haaland and Spain, and the trophy might be yours.**
 
-### Gayden — 39 pts · 3rd · The Strategist's Revenge
+### Gayden — 39 pts · 3rd · The Veteran's Position
 
-**The Backpass Assassin** Gayden coolly prowled into third with England's epic triumph over Rafe's Mexico. England’s in the quarterfinals, folks, and Gayden just moved from stealth mode to spotlight status. He's juggling rivalries like flame-tipped swords, but while others falter, Dad's got England and a razor-sharp 18% chance to upset the field. **Experience? More like a master's class, Rafe.**
+**The Backpass Assassin** Gayden holds firm in third, but England's survival in the tourney is the last gasp of a once-mighty roster. With a razor's edge of strategy, Gayden’s keeping pace, but will his steam hold up against Devin's firepower? **Experience is your ally, Gayden, but don't let the young guns outmaneuver you. Old lions need sharp claws.**
 
-### Zach — 35 pts · 4th · The Sailing Shipwreck
+### Zach — 35 pts · 4th · The Wrecked Armada
 
-**Mustard Boy** Zach, what is going on, pal? Brazil just got bounced by Norway, and you're holding steady in no man's land. With a fractional 2% probability of winning, your armada's drifted aimlessly into the Bermuda Triangle of fantasy failure. **Consider this your SOS—start rowing or start sinking.**
+**Mustard Boy** Zach's non-progress should be a class taught in what-not-to-do in fantasy pools. Brazil’s knockout is the ultimate Titanic moment, and now you're adrift with a 2% probability of grasping victory. **Consider yourself officially SOS’d, Zach. You need a miracle more than you need a map.**
 
-### Rafe — 29 pts · 5th · The Noisemaker Dazed
+### Rafe — 29 pts · 5th · The Learner's Plummet
 
-**The Noisemaker** Rafe has gotten a brutal education from Dad and the rest of the league this week. Mexico’s collapse against England sees young Rafe destined to become a footnote rather than a fairy tale. **Father's lessons are harsh but enduring, Rafe, and as an 'agent of chaos,' you're running out of moves.**
+**The Noisemaker** Rafe, the Cinderella story is running on fumes, and the clock’s about to strike midnight. Learning under fire, young padawan, but Mexico’s exit feels like a masterstroke in frustration. **Father Time will tell if you turn this narrative around, though right now, it’s looking like a stone-cold schooling.**
 
 ### THE FATHER-SON SAGA
 
-The familial battlefield saw **The Backpass Assassin** once again toppling **The Noisemaker** in a clash where England slammed the door on Mexico. This tale is less about a conquering underdog and more about the father mastering his creation. **Thanksgiving’s gonna be awkward, son—unless you somehow turn this beatdown into a bold comeback.**
+**The Backpass Assassin** vs. **The Noisemaker** continues its crushing narrative as Gayden’s England dispatched Rafe’s Mexico in a family feud that’s becoming the saga of the season. Gayden’s tactical prowess cuts through the rookie mistakes, reinforcing that father still knows best. **Thanksgiving’s shaping up to be a lecture series, Rafe, unless you cook up a comeback dish.**

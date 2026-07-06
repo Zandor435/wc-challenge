@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-06T19:57:03Z",
-  "source": "daily_results_2026-07-05",
-  "date": "2026-07-06",
-  "rotation": 25,
+  "generated": "2026-07-06T22:13:43Z",
+  "source": "daily_results_2026-07-06",
+  "date": "2026-07-07",
+  "rotation": 26,
   "pundit": {
-    "name": "Landon Donovan",
-    "tone": "hedging",
-    "color": "#2f6dff",
-    "take": "**Look, I get why people say Ghost Pepper is a genius, but when Spain's brilliant rebound doesn't even crack the top spot, you start to wonder what the plan was there.** I truly feel for Devin, I really do. Norway’s win over Brazil was the kind of unexpected brilliance that boosts your confidence and drags Mustard Boy further into the culinary oblivion, but the gap between the reality of 50 points and the fantasy at play here is rather telling. Meanwhile, Bubba G’s steady hand with France and the steady African contingent—Senegal, Morocco, and the like—might seem unshakeable, but bless his heart, it’ll take more than zero upsets to convince anyone he’s got a stranglehold on this. Then we have The Backpass Assassin, who, with 39 points and the innovative blend of England’s flair and Japan’s efficiency, might not realize he's drafting a narrative and not a winning team. And poor Noisemaker—Rafe's 29-point valiant chaos is the kind of youthful optimism we all admire but nobody bets on. His Germany-based dreams, alongside a panicked dive into Uzbekistani waters, read less like strategy and more like a beautifully abstract painting of soccer irrelevance. The standings say one thing, but let's be honest, this entire pool is a mix of accidental brilliance and strategic tragedies waiting to unfold."
+    "name": "Clint Dempsey",
+    "tone": "chill",
+    "color": "#28c060",
+    "take": "**Mustard Boy's strategy is lookin' as solid as a paper umbrella in a Texas thunderstorm.** I mean, Zach thought draftin' Saudi Arabia was like hittin' an ATM for goals — newsflash, partner, ain't gonna happen, even with their oil money. While Gunner's sittin' pretty at the top with France puttin' in work like a pit crew at NASCAR, Zach's Brazil ain't been pullin' their weight lately, and it's showin' with them measly 35 points. Meanwhile, Devin's Spain just put the smackdown on Portugal, so I'd back them to keep rollin' like a tumbleweed through the next match. Don't get too cozy, Gunner — Devin's climbin' faster than a cat up a tree. But at the end of the day, Mustard Boy's still out here runnin' like a broken lawnmower, and I'm callin' it now: Zach's team picks won't even sniff the semis — book it!"
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Tier 1 Pick Falls to Underdog Norway",
-      "subtitle": "Zach blames humidity for Brazil's slip, ignores Mustard effect.",
-      "match": "Brazil vs Norway",
-      "date": "2026-07-06"
+      "headline": "Mustard Boy Banking on Longshot as Switzerland Faces Colombia",
+      "subtitle": "Zach remains confident despite Swiss neutrality on winning matches.",
+      "match": "Switzerland vs Colombia",
+      "date": "2026-07-07"
     },
     {
       "pundit": "donovan",
-      "headline": "Ghost Pepper's Spain Set to Sizzle Against Undrafted Portugal",
-      "subtitle": "Devin looks to spice up standings with easy fixture.",
-      "match": "Portugal vs Spain",
-      "date": "2026-07-06"
+      "headline": "Gunner Sits Smugly Atop Standings With France Yet to Play",
+      "subtitle": "\"Being in first without France lifting a finger is impressive,\" says no one.",
+      "match": "Group F Preview",
+      "date": "2026-07-07"
     },
     {
       "pundit": "dempsey",
-      "headline": "USA Hopes to Outshine Belgium as Ghost Pepper Turns Up Heat",
-      "subtitle": "Devin's chill strategy hinges on all-American showdown.",
-      "match": "USA vs Belgium",
-      "date": "2026-07-06"
+      "headline": "Ghost Pepper Quietly Climbing as Spain Secures Crucial Points",
+      "subtitle": "Devin's strategy: let Spain do the talking on the pitch.",
+      "match": "Portugal vs Spain",
+      "date": "2026-07-07"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G Firmly Secures Lead with Impressive 63 Points",
-      "subtitle": "Gunner hopes DR Congo doesn't Congo his perfect record.",
+      "headline": "The Noisemaker's Silent Strategy Leaves Rafe Dead Last",
+      "subtitle": "Drafting non-qualifiers: an innovative approach to avoid success.",
       "match": "Group F Preview",
-      "date": "2026-07-06"
+      "date": "2026-07-07"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's 16-point day made him untouchable, but Devin's still a ghost pepper threat.",
-    "Rafe's Tier-1 picks are more MIA than his knowledge of soccer.",
-    "Rafe might beat Devin, but Gayden owns his son with an 8-point lead.",
-    "The simulation couldn't predict Rafe's chaos, but it nailed Gunner crushing it."
+    "Gunner's got 45% win odds but still needed Rafe's chaos to mess things up!",
+    "Rafe drafted three non-qualifiers—zero points, but maximum comedic value!",
+    "Rafe beat Devin twice—Halloween's arrived early for Ghost Pepper!",
+    "Sim had Rafe competitive at 0%. The stats team misses a layup!"
   ]
 }
