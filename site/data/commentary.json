@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-07T17:14:05Z",
-  "source": "daily_results_2026-07-06",
-  "date": "2026-07-07",
-  "rotation": 26,
+  "generated": "2026-07-07T19:55:04Z",
+  "source": "daily_results_2026-07-07",
+  "date": "2026-07-09",
+  "rotation": 27,
   "pundit": {
-    "name": "Clint Dempsey",
-    "tone": "chill",
-    "color": "#28c060",
-    "take": "**Rafe out here draftin' teams like he's pickin' random letter tiles from a Scrabble bag.** Man's got Germany, Ecuador, Mexico, Tunisia, Scotland, and Uzbekistan like he's tryna cover all continents in one go. It's no wonder The Noisemaker is sittin' dead last with 29 points — can't win a soccer pool when your strategy is pure chaos and your first picks don't even hit the field. He might be throwin' darts blindfolded, but hey, maybe that's just his style; don't hold your breath for a miracle on this one.\n\nNow, Devin, aka Ghost Pepper, is heatin' things up after that 1-0 win by Spain over Portugal, rackin' up a cool 8 points — boy's just 5 points shy of catchin' Bubba G at the top. But I gotta say, Devin pickin' the USA thinkin' it's gonna be a win against Belgium is like bettin' on a tortoise in a NASCAR race — wishful at best. He better hope Spain keeps puttin' in work 'cause ain't nobody else on his roster backin' him up.\n\nThen there's Bubba G cruisin' in first place with France leadin' his charge — my man's actin' like he knows somethin' we don't with his DR Congo pick, probably got that intel from his favorite taco truck guy. But if France keeps playin' like they got gas in the tank, Gunner might just grind out that top spot all the way through. Still, can't wait to see how this man's mystery roster holds up when it counts; he's gonna need all the luck his local bodega can offer.\n\nMustard Boy, aka Zach, got Brazil up in there, but hold the phone — Saudi Arabia? Looks like my boy thought oil money meant goals, but he's just tryin' to refine his way outta fourth place with 35 points. Brazil's gonna have to play like they're samba dancin' on the field if Zach wants to climb outta that hole. Gayden's the only thing standin' between him and the cellar, and The Backpass Assassin's tofu lineup ain't exactly knockin' anyone's socks off.\n\nEnough with the fancy stats and sheet music analysis — put your money on Rafe, and you'll be cryin' all the way home. But hey, when the dust settles and the matches are done, who knows, the"
+    "name": "Alexi Lalas",
+    "tone": "bombastic",
+    "color": "#f4a423",
+    "take": "**Let me tell you something, 'Bubba G,' your top spot is nothing more than a fluke of fate, just waiting to be snatched away like a kid's candy at a '90s locker room brawl.** Gunner, you might be perched at the top with 63 points, but yesterday's fiery Argentine tango set Egypt aflame, leaving you with a big, fat zero in return. It's a clear testament to your shallow drafting. Remember this: you will be exposed. Your reliance on France won't save you forever, just like the 1994 USA team's reliance on home-field advantage went up in smoke.\n\n'Ghost Pepper' Devin, you've clawed your way to second place with 58 points, and that's commendable, but the walls are closing in. The USA and Norway are hardly a world-class combo worthy of your bravado, and I can promise you Spain alone won't carry your weight. Bosnia, really? Look at me, Devin. LOOK AT ME. That team choice reveals a stunning lack of insight — it's practically a gift to the competition, much like my mullet was to the photographers back in the day.\n\nOh, 'The Backpass Assassin,' how the mighty sink with 39 points. You've assembled a collection of teams that would embarrass even the most charitable of 1990s soccer managers. England might offer you a motherland prayer, but your ineffectual mix of Japan and Ivory Coast needs a shake-up akin to a proper halftime speech. Your draft strategy looks like you were asleep on the bench, dreaming of offside traps instead of glory.\n\n'Mustard Boy' Zach, dragging in fourth with 35 points, you are the cautionary tale of what happens when you trust hope over history. Picking Brazil might seem like a bold way to splash the cash, but Switzerland and Austria aren't doing you any favors. It’s as if you're trying to butter bread without the knife. Let me be blunt: fourth place is the new last, and you're positioned perfectly for it.\n\nAnd last but certainly not least is 'The Noisemaker' Rafe, who is either a comedic genius or chaos incarnate with a mere 29 points. Germany, Ecuador, and Mexico are your frontrunners? Your draft strategy is about as clear-headed as a goalie scrambling in the '94 mist. You can scream all you like, but it's just sound and fury, Rafe. Pure, glorious nothingness.\n\nConsider this"
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy Hoping For Swiss Miracle Against Undrafted Colombia",
-      "subtitle": "Makes sense given Zach's record-breaking last place finish prediction.",
-      "match": "Switzerland vs Colombia",
-      "date": "2026-07-07"
+      "headline": "Rafe's Non-Qualifying Teams Continue to Exceed Expectations with Zero Wins",
+      "subtitle": "The Noisemaker's strategy of ignoring tournament entry remains groundbreaking.",
+      "match": "Rafe's Draft Strategy",
+      "date": "2026-07-09"
     },
     {
       "pundit": "donovan",
-      "headline": "Gunner Poised To Stay On Top Without Any Upset Points",
-      "subtitle": "Staying first with no surprises — a strategy some call 'calculated'.",
-      "match": "Group F Preview",
-      "date": "2026-07-07"
+      "headline": "Zach's Tier 1 Brazil Overshadowed by Saudi Arabia's Impressive Benchwarming",
+      "subtitle": "Mustard Boy's draft looks more like a condiment selection.",
+      "match": "Zach's Roster Evaluation",
+      "date": "2026-07-09"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's No Points From USA Not A Surprise",
-      "subtitle": "Devin must have seen it coming after that Belgium beating.",
-      "match": "USA vs Belgium",
-      "date": "2026-07-07"
+      "headline": "Ghost Pepper Devin Relies on USA to Spice Up Standings",
+      "subtitle": "Devin's culinary knowledge doesn't yet translate to World Cup victory.",
+      "match": "USA vs TBD",
+      "date": "2026-07-09"
     },
     {
       "pundit": "lalas",
-      "headline": "Backpass Assassin's Recent Surge Not Enough To Catch Bubba G",
-      "subtitle": "Gayden's late-game heroics fall flat against Gunner's steady dominance.",
-      "match": "Group F Preview",
-      "date": "2026-07-07"
+      "headline": "Gunner's Egypt Team Learns Valuable Lessons in Close Loss to Argentina",
+      "subtitle": "Bubba G's zero-point gain somehow a triumph of strategy.",
+      "match": "Argentina vs Egypt",
+      "date": "2026-07-09"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's cruising with 63 points, but Devin's golden boy Haaland might just be his kryptonite.",
-    "Rafe's draft day blunder still haunts: zero World Cup teams in his first picks.",
-    "Devin vs. Rafe: Double zero champion odds, but Rafe dominates head-to-head 6 to -6.",
-    "Sim's feeling generous: Rafe, a soccer rookie, remains surprisingly competitive despite a 0% win chance."
+    "Rafe puts Devin to shame with a 6-point sweep despite zero win probability.",
+    "Rafe picked three non-qualifiers and still avoids last place—luck or disaster genius?",
+    "Devin can't catch a break, Rafe's got his number with a 6-point difference.",
+    "Predictions? More like suggestions—the sim didn't see Rafe outplaying Devin twice."
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-07T17:14:05Z",
+  "generated": "2026-07-07T19:55:04Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Round of 16",
     "is_preseason": false,
-    "matchdays_played": 26,
-    "matches_played": 93,
-    "matches_remaining": 11,
+    "matchdays_played": 27,
+    "matches_played": 94,
+    "matches_remaining": 10,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -115,6 +115,11 @@
         "team": "USA",
         "owner": "Devin",
         "round": "Round of 16"
+      },
+      {
+        "team": "Egypt",
+        "owner": "Gunner",
+        "round": "Round of 16"
       }
     ]
   },
@@ -130,7 +135,7 @@
         "L": 8
       },
       "win_probability": 0.02,
-      "champion_probability": 0.02,
+      "champion_probability": 0.01,
       "streak": {
         "type": "L",
         "length": 2,
@@ -165,14 +170,14 @@
       "record": {
         "W": 14,
         "D": 5,
-        "L": 7
+        "L": 8
       },
       "win_probability": 0.48,
-      "champion_probability": 0.24,
+      "champion_probability": 0.25,
       "streak": {
         "type": "L",
-        "length": 1,
-        "label": "L1"
+        "length": 2,
+        "label": "L2"
       },
       "best_team": {
         "team": "France",
@@ -206,7 +211,7 @@
         "L": 10
       },
       "win_probability": 0.17,
-      "champion_probability": 0.18,
+      "champion_probability": 0.17,
       "streak": {
         "type": "W",
         "length": 2,
@@ -237,14 +242,14 @@
       "rank": 2,
       "rank_change_from_prev_day": 0,
       "total_points": 58,
-      "points_today": 8,
+      "points_today": 0,
       "record": {
         "W": 13,
         "D": 3,
         "L": 10
       },
       "win_probability": 0.33,
-      "champion_probability": 0.25,
+      "champion_probability": 0.24,
       "streak": {
         "type": "L",
         "length": 1,
@@ -1002,6 +1007,17 @@
         "Devin": 8,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 27,
+      "date": "2026-07-07",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
@@ -1197,6 +1213,14 @@
       "owner": "Devin",
       "round": "Round of 16",
       "description": "USA (Devin) eliminated in the Round of 16"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-07",
+      "team": "Egypt",
+      "owner": "Gunner",
+      "round": "Round of 16",
+      "description": "Egypt (Gunner) eliminated in the Round of 16"
     },
     {
       "type": "biggest_day",
@@ -2010,6 +2034,37 @@
         "Gunner": 0,
         "Gayden": 0,
         "Devin": 8,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Gayden": 3,
+        "Zach": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "points": {
+        "Zach": 35,
+        "Gunner": 63,
+        "Gayden": 39,
+        "Devin": 58,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
         "Rafe": 0
       },
       "ranks": {
