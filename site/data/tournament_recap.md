@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · Barely Hanging On
+### Gunner — 63 pts · 1st · The Fragile Goliath
 
-**Bubba G**, what happened to that air of invincibility? Your once comfortable lead is now looking less like a fortress and more like a sandcastle at high tide. France is your saving grace, but Egypt's knockout exit shines a spotlight on a roster full of holes. **Watch out, Gunner, because your top-dog status is now like a trophy on a precarious shelf.**
+**Bubba G** is holding onto first with the delicate grace of a Jenga tower on the brink. Your reliance on France as your knight in shining armor is laughably transparent now that Egypt's exit left you empty-handed. **Stay vigilant, Gunner, because your fortress is more like a house of cards in a hurricane.**
 
-### Devin — 58 pts · 2nd · Biding His Time
+### Devin — 58 pts · 2nd · The Silent Stalker
 
-**Ghost Pepper** Devin is playing the long game, waiting for Gunner's house of cards to collapse. Spain and Haaland are still your power pieces, and while the USA's elimination stings, your path still looks promising. **Don't slip into complacency, Devin, because opportunities like this are as rare as a snowstorm in July.**
+**Ghost Pepper** Devin remains Gunner's shadow, always lurking just five points behind. With Spain and Haaland still in your arsenal, your chances to usurp Bubba G's throne are tantalizingly real. **Just be sure you don't settle into a comfort zone that turns your ghostly prowess into a Casper-like friendly puff.**
 
-### Gayden — 39 pts · 3rd · Fighting for Relevance
+### Gayden — 39 pts · 3rd · Grinding In the Trenches
 
-**The Backpass Assassin** is hanging on to England like a lifeline in stormy seas. Gayden, your roster is a medley of misfires, but at least you're still dancing at the party with Turkey's upset over the USA. **But let's face it, Gayden, keeping up with the leaders is like trying to win a marathon on a treadmill.** 
+**The Backpass Assassin** Gayden, you’re like an old record that just can't climb the charts. England's your frontman, but without a supporting act, you’re looking more like a one-hit wonder. **Your marathon is looking more like slow-motion treadmill running, Gayden — it's gotta be demoralizing to see the kid you raised nipping at your heels.**
 
-### Zach — 35 pts · 4th · Wishing upon Lost Stars
+### Zach — 35 pts · 4th · Shattered Hopes and Dreams
 
-**Mustard Boy** Zach is now hoping for miracles from Switzerland after Brazil's exit. Your strategy feels about as sound as a chocolate teapot, and the prospect of advancing further seems dim when your teams are dropping like flies. **Zach, if hope were a currency, your vault would still be empty.**
+**Mustard Boy** Zach, what a pity. With Brazil and Austria both shown the door, your strategy seems about as crusty as week-old bread. **Your vault of hope is barren, Zach; the fantasy gods are laughing at your team choices.**
 
-### Rafe — 29 pts · 5th · A Storm in a Teacup
+### Rafe — 29 pts · 5th · Punching Above His Weight
 
-**The Noisemaker** Rafe, your charming ignorance acts as both a shield and a sword in this brutal battle. The echoes of your draft night folly still reverberate, but your brief stint at the top provided a glimpse of the chaos you can cause. **Dad didn’t build you up just to watch you crash, Rafe; your story isn’t over yet, but you're gonna need a new script.**
+**The Noisemaker** Rafe’s audacity in the face of defeat is something to behold as he clings to his 0.0% win probability like it's a badge of honor. Despite the draft-night debacle that saw you select a trio of non-qualifiers, being just ten points behind Gayden isn't too shabby. **Your chaotic heroics are carving an unexpected chapter in this family saga.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin vs. The Noisemaker** continues with Gayden's England narrowly besting Rafe's Mexico, a clash for the ages that might just heighten the tension at the family dinner table. Thanksgiving isn't just a holiday now; it's a battlefield, and Rafe's youthful exuberance is as much a thorn in Gayden's side as a tick-tock on the clock. **Rafe, you’re the pipsqueak poet writing a family epic that Gayden never saw coming.**
+The whispers of tension build as **The Backpass Assassin** and **The Noisemaker** sit at a knock-out stalemate — leaving Gayden's England to edge out Rafe's Mexico in a clash worthy of Thanksgiving table debate. Blood may be thicker than water, but it seems not in the fantasy pool, where Rafe's spirited unpredictability continues to agitate Gayden's traditionalist approach. Rafe, your draft disaster might be comedic gold, but your persistence is starting to look like a strategic masterstroke dad never planned for — or can stop.
