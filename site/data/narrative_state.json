@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T22:13:43Z",
+  "generated": "2026-07-07T03:22:24Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Round of 16",
     "is_preseason": false,
     "matchdays_played": 26,
-    "matches_played": 92,
-    "matches_remaining": 12,
+    "matches_played": 93,
+    "matches_remaining": 11,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -110,6 +110,11 @@
         "team": "Portugal",
         "owner": null,
         "round": "Round of 16"
+      },
+      {
+        "team": "USA",
+        "owner": "Devin",
+        "round": "Round of 16"
       }
     ]
   },
@@ -162,8 +167,8 @@
         "D": 5,
         "L": 7
       },
-      "win_probability": 0.45,
-      "champion_probability": 0.25,
+      "win_probability": 0.48,
+      "champion_probability": 0.24,
       "streak": {
         "type": "L",
         "length": 1,
@@ -201,7 +206,7 @@
         "L": 10
       },
       "win_probability": 0.17,
-      "champion_probability": 0.19,
+      "champion_probability": 0.18,
       "streak": {
         "type": "W",
         "length": 2,
@@ -236,14 +241,14 @@
       "record": {
         "W": 13,
         "D": 3,
-        "L": 9
+        "L": 10
       },
-      "win_probability": 0.36,
-      "champion_probability": 0.27,
+      "win_probability": 0.33,
+      "champion_probability": 0.25,
       "streak": {
-        "type": "W",
-        "length": 3,
-        "label": "W3"
+        "type": "L",
+        "length": 1,
+        "label": "L1"
       },
       "best_team": {
         "team": "Spain",
@@ -1184,6 +1189,14 @@
       "owner": null,
       "round": "Round of 16",
       "description": "Portugal eliminated in the Round of 16"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-06",
+      "team": "USA",
+      "owner": "Devin",
+      "round": "Round of 16",
+      "description": "USA (Devin) eliminated in the Round of 16"
     },
     {
       "type": "biggest_day",

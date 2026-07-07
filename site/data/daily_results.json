@@ -1707,6 +1707,23 @@
             "KO WIN (Round of 16): Spain (Devin) +3  +5 advancement (reached quarterfinal)",
             "KO LOSS: Portugal undrafted, no points"
           ]
+        },
+        {
+          "date": "2026-07-06",
+          "stage": "knockout",
+          "round": "R16",
+          "home": "USA",
+          "away": "Belgium",
+          "home_score": 1,
+          "away_score": 4,
+          "score": "USA 1-4 Belgium",
+          "points": {
+            "Devin": 0.0
+          },
+          "math": [
+            "KO WIN (Round of 16): Belgium undrafted, no points",
+            "KO LOSS: USA (Devin) +0"
+          ]
         }
       ]
     }
