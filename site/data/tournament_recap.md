@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · Reigning, For Now
+### Gunner — 63 pts · 1st · Stumbling Toward the Finish Line
 
-**Bubba G** Gunner's throne, once looking ironclad, now feels like it's built on sand after France’s potential wobbles. With Canada out and no upset points to cushion his lead, maintaining the top spot isn’t a stroll in the park anymore. **Bubba G, your frosty crown might not survive if your streak becomes more skid than slide.**
+**Bubba G** somehow still holds the top spot, but let's be real — it's by the skin of his fingernails. France is propping him up like an overworked Atlas holding up the heavens. **Your lead is a mirage, Gunner, just like Morocco's chances to carry you any further.**
 
-### Devin — 58 pts · 2nd · Dark Horse Charging
+### Devin — 58 pts · 2nd · Fire Breathing Down Gunner's Neck
 
-**Ghost Pepper** Devin's second place is searing with Spain lighting up the night sky like Fourth of July fireworks. With Erling Haaland now the Golden Boot favorite, Devin's claim to championship fame is more real than ever. **The heat is on, Devin, and you're cooking up a coup d'état against Gunner's shaky reign!**
+**Ghost Pepper** Devin is knocking at the door, with Spain delivering yet another clutch win. The World Cup is his oyster, and Erling Haaland has a foot in every pearl. **Keep that pressure, Devin, because once Gunner falters, you’re ready to ignite the throne.**
 
-### Gayden — 39 pts · 3rd · Steady as She Goes
+### Gayden — 39 pts · 3rd · Keeping It Fashionably Late
 
-**The Backpass Assassin** Gayden, hanging tough in third, still relies on the Three Lions and a tactical sprinkle of Turkish delight. Coming off a loss and needing more than England’s stiff upper lip, Gayden’s prospects demand precision to fend off the heat from below. **Stay vigilant, Gayden, or you might find yourself outflanked by the very chaos that fuels your son's ambitions.**
+**The Backpass Assassin** Gayden is holding steady in third place with England's heroics keeping the dream alive. **You're the tortoise in this hare race, Gayden, but make no mistake, your son is nipping at your shell!** With his two-front war, Gayden better hope for another upset from Turkey to maintain position.
 
-### Zach — 35 pts · 4th · From Bad to Worse
+### Zach — 35 pts · 4th · The Mustard Is Gone
 
-**Mustard Boy** Zach, if lifeboats are about survival, then you’re treading water with a hole in the hull following Brazil’s premature exit. With Switzerland now your mainstay, your trajectory is veering dangerously towards the iceberg. **Captain Zach, better start bailing before your ship hits the final wave.**
+**Mustard Boy** Zach is riding on fumes with Brazil out of the picture. If ever there was a sinking ship in the fantasy fleet, this is it. **Switzerland might be neutral, but your campaign is actively waving the white flag, Zach.**
 
-### Rafe — 29 pts · 5th · Underdog or Underdone?
+### Rafe — 29 pts · 5th · The Rookie That Roared
 
-**The Noisemaker** Rafe may sit at the bottom but drafts blunders or not, he's turned into the league's X-factor with his wildcard plays—just ask Gayden's Turkey. **A learning curve steeper than K2, Rafe, but you're still in the game like a stubborn tick, refusing to be written off.**
+**The Noisemaker** Rafe may be at the bottom, but he's made enough waves to rival Poseidon in his old man’s mythos. Draft blunders aside, he’s still the joker in the deck, throwing chaos into the mix like a seasoned prankster. **Rafe, you might not win, but you’ve already won the drama award of the league.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin vs. The Noisemaker** continues to be the league's magnetic drama. Despite Rafe's draft blunder origins, he manages to disrupt, often at dear ol' Dad's expense. With Gayden losing to Devin again, the gauntlet is thrown down for a grand familial showdown. **Rafe, for every inch you gain, you put another crease in the Thanksgiving tablecloth of your father's league legacy.**
+**The Backpass Assassin vs. The Noisemaker** continues to entertain as Rafe, despite his underdog status, relishes in poking holes in Gayden's voyage. The ultimate wildcard in this pool, Rafe's unpredictability places Gayden in the unenviable position of watching his back against his own kin. **Rafe, every chaotic move you make is like another spoonful of tension for the family harvest dinner.**

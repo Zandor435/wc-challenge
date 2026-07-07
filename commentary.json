@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T09:41:03Z",
+  "generated": "2026-07-07T14:33:58Z",
   "source": "daily_results_2026-07-06",
   "date": "2026-07-07",
   "rotation": 26,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Rafe picked half his teams like he was throwin' darts at a map blindfolded — Germany's the only thing keepin' \"The Noisemaker\" in the game.** Listen up, Rafe's tryin' to rally his ragtag squad of non-qualifyin' favorites, but let's just say his \"strategic chaos\" ain’t workin’ out like he thought. Rafe out here thinkin' Uzbekistan's gonna pull a miracle just 'cause he saw 'em in FIFA's best goals of 2012. I reckon Tunisia and Scotland are just along for the ride, livin' on borrowed time.\n\nMeanwhile, Gunner's sittin' pretty up top thanks to his French connection — my man \"Bubba G\" backed France like they’re the surest thing since Texas BBQ. With Senegal and Morocco lookin' like they're ready to grind it out in any weather, Gunner might be pullin' away faster than a winger on a break. Mustard Boy Zach's down in fourth, still waitin' on that Saudi oil money to spark some magic goals, but you can't blame him for havin' faith in Ghana and Czechia to give him a leg up.\n\nDevin's holdin' his ground in second, though. Thanks to Spain's tidy win over Portugal, he's churnin' up those points steady like Ghost Pepper in the clutch. His USA squad met Belgium and got cooked, but I reckon Norway and that wild card Haiti might just do some surprise damage. Remember, folks, puttin' your money on Rafe's \"mystery box\" of teams ain't the move unless you just love livin' dangerously."
+    "take": "**Bubba G's Draft Strategy Would Make a Blindfolded Squirrel Look Genius**\n\nMan, Gunner's sittin' pretty on top with 63 points, but you gotta wonder if he made a deal with the soccer gods. France, Senegal, Morocco, and, of all things, DR Congo — it's like he let his cat do the draftin'. Meanwhile, Devin's right on his tail, shoutin' \"¡Viva España!\" while his USA boys got cooked by Belgium, 4-1. Ghost Pepper bettin' big on Spain, but he's gotta be sweatin' his salsa with that USA pick.\n\nOn the flip side, we got Mustard Boy, a.k.a. Zach, servin' up drafts like they're hot dogs on a damp day. Brazil and Switzerland ain't savin' him from the dungeon of disappointment, and his Saudi Arabia pick? Man must've thought oil money buys goals. Then there's The Backpass Assassin, Gayden, who's got England and Japan workin' hard, but Jordan? Might as well have drafted the moon. Lastly, young Noisemaker, Rafe — the poor kid drafted teams that ain't even qualified, like he was pickin' names out of a hat at random. But y'know, sometimes ignorance is bliss, and maybe Uzbekistan will pull a rabbit outta their hat. Predictin' it now: Spain's takin' another W while the rest of y'all ready to watch Bubba G somehow stay on top."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy Zach Banks on Switzerland to Boost Ranking",
-      "subtitle": "Hopes are high for points against undrafted Colombia in Vancouver.",
-      "match": "Switzerland vs Colombia",
-      "date": "2026-07-07"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Devin Remains Second Despite Spain's Victory Over Portugal",
-      "subtitle": "Ghost Pepper fails to capitalize on USA's crushing loss to Belgium.",
-      "match": "Portugal vs Spain",
-      "date": "2026-07-07"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Bubba G Gunner Leads with France and Senegal on Deck",
-      "subtitle": "Calm and collected, Gunner enjoys life at the top of the table.",
+      "headline": "Gunner Leads Standings, Attributes Success to Picking Like a Dartboard",
+      "subtitle": "Points accumulated through France alone, proving tiers are just numbers.",
       "match": "Group F Preview",
       "date": "2026-07-07"
     },
     {
+      "pundit": "donovan",
+      "headline": "Mustard Boy Faces Uphill Battle as Switzerland Set to Play Colombia",
+      "subtitle": "Zach's roster depth tested; must squeeze points beyond Tier 1 Brazil.",
+      "match": "Switzerland vs Colombia",
+      "date": "2026-07-07"
+    },
+    {
+      "pundit": "dempsey",
+      "headline": "Ghost Pepper's Spain Defies the Odds, Secures Win Against Portugal",
+      "subtitle": "Devin's other team, USA, meanwhile, lights up scoreboard for Belgium.",
+      "match": "Portugal vs Spain",
+      "date": "2026-07-07"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Rafe The Noisemaker Still Last After Mexico's Lackluster Show",
-      "subtitle": "Picking three non-qualifiers a bold move that hasn't paid off.",
+      "headline": "Rafe's Cellar-Dwelling Strategy Unfazed by Germany Draft Choice",
+      "subtitle": "Teen prodigy Rafe remains committed to watching World Cup from last place.",
       "match": "Group F Preview",
       "date": "2026-07-07"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's win probability is 0%, yet still a thorn in everyone's side. Unreal.",
-    "Rafe's draft debacle: his top three picks couldn't even qualify. Classic rookie mistake.",
-    "Devin got owned twice by Rafe, a kid who can't even spell 'soccer.'",
-    "Gunner was the favorite until Rafe entered; the sim never saw teenager chaos coming!"
+    "Gunner's got 48% odds but Rafe's still here laughing at 0.0% win prob.",
+    "Gayden's 51% Tier-1 dependency? Can't pass if you can't draft.",
+    "Rafe losing 8 points to dad Gayden? Thanksgiving's gonna be a roast.",
+    "Sim predicted Gunner's favorite status, but Devin's 25% champ odds make it a clown show."
   ]
 }
