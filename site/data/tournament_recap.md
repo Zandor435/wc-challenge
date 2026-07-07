@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · Stumbling Toward the Finish Line
+### Gunner — 63 pts · 1st · Holding Steady Under Pressure
 
-**Bubba G** somehow still holds the top spot, but let's be real — it's by the skin of his fingernails. France is propping him up like an overworked Atlas holding up the heavens. **Your lead is a mirage, Gunner, just like Morocco's chances to carry you any further.**
+**Bubba G** remains atop the mountain, clutching onto his lead like a tired climber on Everest. France keeps delivering as expected, but with Canada’s exit, Gunner’s depth is as thin as the air up there. **Keep watching your back, Gunner, because Devin's Spain is lurking like a hungry lion ready to pounce.**
 
-### Devin — 58 pts · 2nd · Fire Breathing Down Gunner's Neck
+### Devin — 58 pts · 2nd · Closing the Gap
 
-**Ghost Pepper** Devin is knocking at the door, with Spain delivering yet another clutch win. The World Cup is his oyster, and Erling Haaland has a foot in every pearl. **Keep that pressure, Devin, because once Gunner falters, you’re ready to ignite the throne.**
+**Ghost Pepper** Devin keeps the heat on with Spain slashing through Portugal in a masterclass of tactical supremacy. Haaland's goal spree keeps the pressure on like a ticking clock in Gunner's ear. **Devin, you're the silent assassin of this league, and Bubba G better not get too comfortable on that throne.**
 
-### Gayden — 39 pts · 3rd · Keeping It Fashionably Late
+### Gayden — 39 pts · 3rd · A Steady Middle Ground
 
-**The Backpass Assassin** Gayden is holding steady in third place with England's heroics keeping the dream alive. **You're the tortoise in this hare race, Gayden, but make no mistake, your son is nipping at your shell!** With his two-front war, Gayden better hope for another upset from Turkey to maintain position.
+**The Backpass Assassin** Gayden might have built his strategy around England's stalwarts, but the rest of his squad is looking more like a liability than an asset. **You've got one foot in a very shallow winner's circle, Gayden, and it's a long shot to outsprint Devin at this point.** The fabled Turkey gamble could still clutch you some solace points, but don't bet the farm on it.
 
-### Zach — 35 pts · 4th · The Mustard Is Gone
+### Zach — 35 pts · 4th · Not Going Anywhere
 
-**Mustard Boy** Zach is riding on fumes with Brazil out of the picture. If ever there was a sinking ship in the fantasy fleet, this is it. **Switzerland might be neutral, but your campaign is actively waving the white flag, Zach.**
+**Mustard Boy** Zach is still stuck in neutral, with Brazil's elimination creating a void that Switzerland can’t fill. **Zach, your war chest is looking more like a collection of war bonds — valuable but not spendable in this theater of operations.** The losses mount, and all the Swiss watches in the world won't turn back time for your fantasy hopes.
 
-### Rafe — 29 pts · 5th · The Rookie That Roared
+### Rafe — 29 pts · 5th · Still Stirring the Pot
 
-**The Noisemaker** Rafe may be at the bottom, but he's made enough waves to rival Poseidon in his old man’s mythos. Draft blunders aside, he’s still the joker in the deck, throwing chaos into the mix like a seasoned prankster. **Rafe, you might not win, but you’ve already won the drama award of the league.**
+**The Noisemaker** Rafe might be last, but he’s made a habit of toppling giants, even if reality caught up with Mexico. Draft disasters be damned, this kid refuses to be a cautionary tale. **Rafe, you’re the tornado in a teacup, and the family dinner table chatter keeps getting spicier thanks to your antics.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin vs. The Noisemaker** continues to entertain as Rafe, despite his underdog status, relishes in poking holes in Gayden's voyage. The ultimate wildcard in this pool, Rafe's unpredictability places Gayden in the unenviable position of watching his back against his own kin. **Rafe, every chaotic move you make is like another spoonful of tension for the family harvest dinner.**
+**The Backpass Assassin vs. The Noisemaker** continues its Shakespearean turn with Rafe’s rabble-rousing keeping Gayden on edge. Thanksgiving promises to be a delicate dance around the table, with each move scrutinized like a game of chess. **Rafe, you’re writing the chapters in this family saga that your dad wishes were fiction, and every upset is another plot twist.**
