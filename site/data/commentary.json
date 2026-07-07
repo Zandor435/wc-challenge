@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T03:22:24Z",
+  "generated": "2026-07-07T09:41:03Z",
   "source": "daily_results_2026-07-06",
   "date": "2026-07-07",
   "rotation": 26,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Gunner's draft strategy must be a secret only his barber knows, 'cause he somehow leads with DR Congo in the mix.** Man's sittin' pretty at the top while Devin's ghost pepper wasn't spicy enough to avoid that Belgium blunder. Devin's boys in red and yellow got straight up cooked by Belgium, yet he managed to snatch up a slick win with Spain over Portugal—bailin' him out like an extra-time goal. Meanwhile, \"The Backpass Assassin\" Gayden's lineup, led by England, ain't backin' nothin' but heartbreaks, sittin' in third, huffin' and puffin' with 39 points. Then there's \"Mustard Boy\" Zach, hangin' on with 35 points – he probably thought Saudi Arabia was stockpiling goals, not oil. Down at the bottom, Rafe \"The Noisemaker,\" pickin' teams like he's throwin' darts blindfolded, can't make sense of it all. I'm callin' it now: if his Germany squad doesn't get their act together, that 29 points he's collectin' is gonna age like milk. Predicting Atlanta's matchup, I reckon whoever's got the stronger bench will take it, but if y'all expectin' exact scores from me, you must be havin' a laugh!"
+    "take": "**Rafe picked half his teams like he was throwin' darts at a map blindfolded — Germany's the only thing keepin' \"The Noisemaker\" in the game.** Listen up, Rafe's tryin' to rally his ragtag squad of non-qualifyin' favorites, but let's just say his \"strategic chaos\" ain’t workin’ out like he thought. Rafe out here thinkin' Uzbekistan's gonna pull a miracle just 'cause he saw 'em in FIFA's best goals of 2012. I reckon Tunisia and Scotland are just along for the ride, livin' on borrowed time.\n\nMeanwhile, Gunner's sittin' pretty up top thanks to his French connection — my man \"Bubba G\" backed France like they’re the surest thing since Texas BBQ. With Senegal and Morocco lookin' like they're ready to grind it out in any weather, Gunner might be pullin' away faster than a winger on a break. Mustard Boy Zach's down in fourth, still waitin' on that Saudi oil money to spark some magic goals, but you can't blame him for havin' faith in Ghana and Czechia to give him a leg up.\n\nDevin's holdin' his ground in second, though. Thanks to Spain's tidy win over Portugal, he's churnin' up those points steady like Ghost Pepper in the clutch. His USA squad met Belgium and got cooked, but I reckon Norway and that wild card Haiti might just do some surprise damage. Remember, folks, puttin' your money on Rafe's \"mystery box\" of teams ain't the move unless you just love livin' dangerously."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Swiss Gamble Poised to Define Tournament Fortune",
-      "subtitle": "Zach banks on Tier 2 power while slipping to fourth place.",
+      "headline": "Mustard Boy Zach Banks on Switzerland to Boost Ranking",
+      "subtitle": "Hopes are high for points against undrafted Colombia in Vancouver.",
       "match": "Switzerland vs Colombia",
       "date": "2026-07-07"
     },
     {
       "pundit": "donovan",
-      "headline": "Bubba G's Dominance Continues Unchallenged at Top of Standings",
-      "subtitle": "Gunner rides France's coat-tails with no upsets in sight.",
-      "match": "Group F Preview",
-      "date": "2026-07-07"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Ghost Pepper's Spanish Sizzle Keeps Him Firmly in Second",
-      "subtitle": "A narrow win over Portugal leaves Devin five points shy.",
+      "headline": "Devin Remains Second Despite Spain's Victory Over Portugal",
+      "subtitle": "Ghost Pepper fails to capitalize on USA's crushing loss to Belgium.",
       "match": "Portugal vs Spain",
       "date": "2026-07-07"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Bubba G Gunner Leads with France and Senegal on Deck",
+      "subtitle": "Calm and collected, Gunner enjoys life at the top of the table.",
+      "match": "Group F Preview",
+      "date": "2026-07-07"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Noisemaker's Team Selection Reflects Youthful Optimism Over Experience",
-      "subtitle": "Rafe hopes drafting teams that didn't qualify pays off eventually.",
+      "headline": "Rafe The Noisemaker Still Last After Mexico's Lackluster Show",
+      "subtitle": "Picking three non-qualifiers a bold move that hasn't paid off.",
       "match": "Group F Preview",
       "date": "2026-07-07"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's miracle run ends with a 0% win probability; nice try, champ!",
-    "Zach's Tier-3 Czechia is more invisible than the Predator in a jungle.",
-    "Gayden is Rafe's soccer daddy with an 8-point head-to-head spanking.",
-    "The model's love affair with Gunner hit a snag thanks to Rafe's chaos."
+    "Rafe's win probability is 0%, yet still a thorn in everyone's side. Unreal.",
+    "Rafe's draft debacle: his top three picks couldn't even qualify. Classic rookie mistake.",
+    "Devin got owned twice by Rafe, a kid who can't even spell 'soccer.'",
+    "Gunner was the favorite until Rafe entered; the sim never saw teenager chaos coming!"
   ]
 }
