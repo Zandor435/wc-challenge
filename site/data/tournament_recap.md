@@ -1,23 +1,23 @@
-### Gunner — 68 pts · 1st · Leading, but for how long?
+### Gunner — 68 pts · 1st · Living on Borrowed Time
 
-**Bubba G**, your throne is shakier than ever. With Egypt's dramatic fall at the hands of Argentina, your roster just got thinner than a sheet of paper. France is your only saving grace, and they'd better be the Eiffel Tower holding up the whole city. **You might be the model's favorite, but the pressure is on — and it's mounting fast.**
+**Bubba G**, you’re hanging on by the skin of your teeth. The model may still have you as a favorite, but today’s scoreless effort from Egypt was a wake-up call that the sands are slipping through your fingers. France is your last bastion against the tide. **Either fortify that position or prepare to wave goodbye to the throne.**
 
-### Devin — 58 pts · 2nd · Chasing the Crown with Haaland’s Firepower
+### Devin — 58 pts · 2nd · Sizzling and Seeking a Seismic Shift
 
-**Ghost Pepper**, you're still piping hot and hungry for that top spot. Haaland’s relentless goal-scoring machine and Spain's solid form make your climb toward Gunner all the more believable. You’re the predator in the grass, waiting for **Bubba G** to slip. **Grip tighter, because this could easily swing in your favor.**
+**Ghost Pepper**, Devin, you’re still a force to be reckoned with. Haaland's goal-scoring remains an ace up your sleeve, and with Spain and Norway left in the mix, the distance to Gunner is eminently bridgeable. **Stay relentless, the door to the top is barely ajar and ready to be kicked wide open.**
 
-### Zach — 43 pts · 3rd · The Resurrection of Mustard Boy
+### Zach — 43 pts · 3rd · Mustard Boy Rising
 
-**Mustard Boy** Zach, holy comeback! Switzerland's dramatic shootout victory has you back in the fight, and you picked up a spicy 8 points for your efforts. You're not out of the running yet, and with the right luck, you could marinate your way to a surprising finish. **From fading out to finding form, who could've seen this coming?**
+**Mustard Boy** Zach, from bottom feeder to a position of hope, Switzerland’s penalty win was a shot of hot mustard to the system. Grabbing a juicy 8 points today shows you’re back in business. **Continue this upward trajectory and who knows how spicy the finish can get?**
 
-### Gayden — 39 pts · 4th · The Backpass Assassin Back on the Hunt
+### Gayden — 39 pts · 4th · The Backpass Assassin Fading
 
-**The Backpass Assassin**, it looks like grace under pressure is your style. England is your shining beacon in this turbulent sea, but with little room for error, you better keep your son Rafe on the losing side of history. The family dinner table needs a new champion and **you don't plan on stepping down easily**.
+**The Backpass Assassin**, Gayden, England might still be your flagship, but it's not enough to keep you from slipping. Every day without points puts you deeper in the pack, a place unbefitting a league veteran. **Shape up or prepare to be outshined at the family dinner table.**
 
-### Rafe — 29 pts · 5th · The Noisemaker Still Making Waves
+### Rafe — 29 pts · 5th · The Noisemaker’s Lasting Echo
 
-**The Noisemaker** Rafe, you might be the wildcard in this deck, but let’s face it — your tactics look like they were inspired by a random dartboard. Mexico’s fall might have been your downfall, but nothing can silence your chaotic spirit. **The scoreboard may say you're last, but your impact on the league is anything but forgettable.**
+**The Noisemaker**, Rafe, what’s up with that low roar against the leaderboard giants? Mexico's loss ended any unlikely Cinderella run, leaving you in the dust. **But hey, you’ve put up a fight to remember, even with a draft as ridiculous as a Netflix comedy special.**
 
 ### THE FATHER-SON SAGA
 
-The ongoing chess match between **The Backpass Assassin** and **The Noisemaker** continues to provide endless entertainment. Gayden may have outmaneuvered Rafe in their latest clash with England's triumph over Mexico, but don't underestimate Rafe’s knack for creating chaos at every turn. Thanksgiving is set for another round of power plays and verbal volleys — who will emerge with the bragging rights at the family feast? **The stage is set, the players are ready, and this saga is far from over.**
+The father-son battle between **The Backpass Assassin** and **The Noisemaker** continues to be the soap opera we didn't know we needed. Gayden’s England outlasted Rafe's Mexico, scoring some crucial bragging rights. Yet, the family dinner showdown will be as indulging as the turkey — and who can predict the twists in this ever-evolving feud?

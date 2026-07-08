@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T16:38:49Z",
+  "generated": "2026-07-08T19:25:20Z",
   "source": "daily_results_2026-07-07",
   "date": "2026-07-09",
   "rotation": 27,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "**\"Bubba G, you magnificent madman, you drafted yourself into a battle against your own reflection!\"** Now, let me tell you something: France sitting pretty at the top of their group should be a no-brainer, a sure bet, a cornerstone for your fantasy strategy. But then you went and picked Morocco too, because hey, why not pit them against each other in a bizarre act of self-sabotage? This is like drafting the '94 USA team and then saying \"but what if we also bet on Brazil?\" Bubba G, your dual allegiance is the stuff of Greek tragedies. Look at me—you're setting yourself up to lose no matter who wins! My prediction? France will emerge victorious like a phoenix from your managerial ashes, but let's face it, this is a lose-lose situation, and it speaks volumes about your lack of foresight. Mic drop."
+    "take": "**In the cutthroat world of fantasy soccer, there is no greater crime than Mustard Boy's lackluster roster crawling in at third place!** Zach, let me tell you something pal: your Brazil pick might have the samba flair, but your team drafts are about as bland as a bucket of plain mustard. The Swiss did bail you out with a penalty shoot-out win over Colombia, but you better pray they can keep squeezing out magic, because your hopes ride on them like a dollar store pony! Now let's talk about Bubba G — Gunner, you've got France and Morocco clashing, like you're playing chess with yourself. But let's be honest, with two teams eating away each other's points, it's like watching you trying to pick up the pieces of a self-inflicted implosion, and for some reason, I see the French Le Coq crowing at the end. The Backpass Assassin, here's a lesson for you: while your England squad might dream of coming home, your selections are certainly going nowhere fast — Japan and Ivory Coast are about as potent as a discarded banger. Ghost Pepper, Devin, LOOK AT ME. You put your faith in Spain and the USA and somehow you seem to be the only one who thinks that's enough to win a World Cup fantasy draft. And finally, The Noisemaker — Rafe, my child, you may have Germany, but your drafting strategy makes as much sense as a silent soccer stadium. You're young and inexperienced, but even you have to see that Germany's last hurrah can't save you from your mishaps. Remember these words, gentlemen: standings are a reflection of life, and if you're at the bottom, maybe it's time to rethink what that says about who you are."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's Points Surge Reaches New Heights with Self-Versus-Self Matchup",
-      "subtitle": "Expert strategy: Guarantee points by owning both teams on the field.",
-      "match": "France vs Morocco",
+      "headline": "Mustard Boy Celebrates Swiss Victory Like He Planned It All Along",
+      "subtitle": "Zach claims 8-point boost is part of grand master strategy.",
+      "match": "Switzerland vs Colombia",
       "date": "2026-07-09"
     },
     {
       "pundit": "donovan",
-      "headline": "Zach Celebrates Switzerland's Penalty Win, Forgets Brazil Still in Tournament",
-      "subtitle": "'Maybe I should've drafted more penalty takers,' Zach remarks sheepishly.",
-      "match": "Switzerland 0-0 Colombia",
+      "headline": "Ghost Pepper Quietly Climbs to Second, Avoids Actual Spice",
+      "subtitle": "Devin's zero upsets reflect a cautious, yet effective, approach.",
+      "match": "Group F Overview",
       "date": "2026-07-09"
     },
     {
       "pundit": "dempsey",
-      "headline": "Devin Calm as Spain's Consistent Form Keeps Him Safe in Second",
-      "subtitle": "Ghost Pepper's teams are hot on the field, but he's chill as ice.",
-      "match": "Group Stage Overview",
+      "headline": "Bubba G Faces Existential Crisis as France Plays Morocco",
+      "subtitle": "Gunner guaranteed at least one victory in inter-squad clash.",
+      "match": "France vs Morocco",
       "date": "2026-07-09"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Mastery of Soccer Pool Evident as Non-Qualifiers Dominate Roster",
-      "subtitle": "Bold strategy: Draft teams directly from World Cup fans' imagination.",
-      "match": "Rafe's Draft Choices",
+      "headline": "The Noisemaker's Precarious Position Blamed on Overconfidence, Geography",
+      "subtitle": "Rafe drafted three non-qualifiers, securing top spot for last place.",
+      "match": "Group F Overview",
       "date": "2026-07-09"
     }
   ],
   "rome_analytics_quotes": [
-    "Gayden's Japan flopped hard; daddy's got no chance with eliminated Tier-2 teams.",
-    "Rafe’s Tier-1 dependency is 0.21—more like zero chance than zero percent.",
-    "Rafe owns Devin face-to-face, but can't reclaim dinner table respect from Gayden.",
-    "Gunner's fall from top dog shows the sim's got a teenage problem. Ouch."
+    "Rafe's teams are history but he's still roasting Dad with 29 points.",
+    "Gayden's Tier-1 dependency screams: 'Help, I've fallen and I can't get up!'",
+    "Rafe might be grounded if he keeps owning Devin head-to-head: 6-0.",
+    "Sim's trash, a teenager's mix-your-own disaster still made Gunner sweat."
   ]
 }
