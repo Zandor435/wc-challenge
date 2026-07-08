@@ -81,12 +81,14 @@ def load_completed(ctx: engine.Context, results_path: str):
     with open(results_path, encoding="utf-8") as fh:
         raw = json.load(fh)
     if "days" in raw:   # site/data/daily_results.json shape
-        matches = [
-            {"stage": m["stage"], "round": m.get("round"),
-             "home": m["home"], "away": m["away"],
-             "home_score": m["home_score"], "away_score": m["away_score"]}
-            for day in raw.get("days", []) for m in day.get("matches", [])
-        ]
+        # Carry the shootout fields through: a level knockout's advancing side lives
+        # in `winner`/`decided_by` (and maybe pen scores). Dropping them here would
+        # leave split_results unable to lock a PK winner, so the bracket would never
+        # advance past a shootout (the QF/SF slots it feeds would stay TBD).
+        keep = ("stage", "round", "home", "away", "home_score", "away_score",
+                "winner", "decided_by", "pen_home", "pen_away")
+        matches = [{k: m[k] for k in keep if k in m}
+                   for day in raw.get("days", []) for m in day.get("matches", [])]
     else:               # live_results.json / fetch_results.py shape
         matches = raw.get("matches", [])
     locked = engine.split_results(ctx, {"matches": matches})

@@ -5,11 +5,11 @@
   "standings": [
     {
       "owner": "Gunner",
-      "total_points": 63,
+      "total_points": 68,
       "breakdown": {
-        "match": 47.0,
+        "match": 50.0,
         "upset": 0,
-        "advancement": 16.0
+        "advancement": 18.0
       },
       "rank": 1
     },
@@ -24,22 +24,22 @@
       "rank": 2
     },
     {
+      "owner": "Zach",
+      "total_points": 43,
+      "breakdown": {
+        "match": 34.0,
+        "upset": 0,
+        "advancement": 9.0
+      },
+      "rank": 3
+    },
+    {
       "owner": "Gayden",
       "total_points": 39,
       "breakdown": {
         "match": 30.0,
         "upset": 2.0,
         "advancement": 7.0
-      },
-      "rank": 3
-    },
-    {
-      "owner": "Zach",
-      "total_points": 35,
-      "breakdown": {
-        "match": 31.0,
-        "upset": 0,
-        "advancement": 4.0
       },
       "rank": 4
     },

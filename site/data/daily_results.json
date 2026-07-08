@@ -1605,6 +1605,25 @@
             "KO WIN (Round of 32): Colombia undrafted, no points",
             "KO LOSS: Ghana (Zach) +0"
           ]
+        },
+        {
+          "date": "2026-07-03",
+          "stage": "knockout",
+          "round": "R32",
+          "home": "Australia",
+          "away": "Egypt",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Australia 1-1 Egypt",
+          "points": {
+            "Gunner": 5.0
+          },
+          "math": [
+            "KO WIN (Round of 32): Egypt (Gunner) +3  +2 advancement (reached round_of_16)",
+            "KO LOSS: Australia undrafted, no points"
+          ],
+          "decided_by": "penalties",
+          "winner": "Egypt"
         }
       ]
     },
@@ -1746,6 +1765,25 @@
             "KO WIN (Round of 16): Argentina undrafted, no points",
             "KO LOSS: Egypt (Gunner) +0"
           ]
+        },
+        {
+          "date": "2026-07-07",
+          "stage": "knockout",
+          "round": "R16",
+          "home": "Switzerland",
+          "away": "Colombia",
+          "home_score": 1,
+          "away_score": 1,
+          "score": "Switzerland 1-1 Colombia",
+          "points": {
+            "Zach": 8.0
+          },
+          "math": [
+            "KO WIN (Round of 16): Switzerland (Zach) +3  +5 advancement (reached quarterfinal)",
+            "KO LOSS: Colombia undrafted, no points"
+          ],
+          "decided_by": "penalties",
+          "winner": "Switzerland"
         }
       ]
     }
