@@ -1,23 +1,23 @@
-### Gunner — 63 pts · 1st · Holding the Line
+### Gunner — 63 pts · 1st · Perched on the Edge
 
-**Bubba G**, you're still rocking the throne, but let's not ignore the cracks forming beneath you. With Egypt getting the boot and no points to bolster your lead, the days of your reign could be numbered. **France is your last line of defense — guard it like your fantasy life depends on it, because it does.**
+**Bubba G**, you're still holding the top spot, but with Egypt’s exit, your **once-intimidating fortress now has more holes than Swiss cheese**. France is your only hope left, and it's time to pray they don't falter. Keep clinging to that slim lead, because it's a ticking time bomb ready to explode.
 
-### Devin — 58 pts · 2nd · Chasing the Crown
+### Devin — 58 pts · 2nd · On the Edge of Glory
 
-**Ghost Pepper**, you're riding the coattails of Spain and Norway, but where's the leap to first? With Haaland lighting up the score sheets, you're just a stone's throw from taking the lead. **Turn the pressure up a notch and you might just dethrone the current king.**
+**Ghost Pepper**, you’re in striking distance of the throne and it’s clear you’re not here to play second fiddle forever. With Haaland smashing goals and Spain's consistent form, the title is well within your grasp. **Your mission: snatch that crown from Gunner’s cold, lifeless hands.**
 
-### Gayden — 39 pts · 3rd · Rally in the Works
+### Gayden — 39 pts · 3rd · Eyeing the Comeback
 
-**The Backpass Assassin**, your England talisman has been carrying you, but is it enough? With a recent win against your son’s Mexico, you've not only hit him where it hurts but also edged closer in the standings. **The rivalry stings both ways — keep your eyes peeled for your son's retaliation.**
+**The Backpass Assassin**, you're on a minor hot streak, but England can only do so much heavy lifting. And while you delivered a blow to your son's Mexico, you better stay alert, because Rafe might just turn the tables. **The father vs. son drama isn’t over — far from it.**
 
-### Zach — 35 pts · 4th · Running on Fumes
+### Zach — 35 pts · 4th · Fading into Obscurity
 
-**Mustard Boy** Zach, it's been a rough ride; Brazil's exit leaves your roster looking like a graveyard of eliminated hopefuls. Your only lifeline is Switzerland — but how much longer can you cling to it? **You're in a rut, my man, and unless you pull a rabbit out of your fantasy hat, you're stuck.**
+**Mustard Boy** Zach, at this point, calling your campaign “lackluster” would be a kindness. With Brazil gone, you're like a deflated air mattress — there's nothing left to support you. **Time's almost up, and unless a miracle happens, you might as well start planning for next season.**
 
-### Rafe — 29 pts · 5th · Chaos Reigns Supreme
+### Rafe — 29 pts · 5th · The Underdog Chronicles
 
-**The Noisemaker** Rafe, you continue to defy the sim's grim prognosis, though Germany's early exit has stung. Yet, being a 15-year-old in a man's league, your antics provide a sideshow like no other. **Keep it wild, kid. You may just become the league's ultimate wild card.**
+**The Noisemaker** Rafe, the underdog role suits you, but the fairytale needs an ending — preferably one that doesn't involve you at the bottom. With Mexico out, your storyline of chaos and hilarity is winding down, but not without your signature bang. **You're winless, but never irrelevant.**
 
 ### THE FATHER-SON SAGA
 
-In the ongoing saga of father vs. son, **The Backpass Assassin** Gayden and **The Noisemaker** Rafe find themselves at odds, with Gayden landing a solid punch by eliminating Mexico. Thanksgiving dinner is shaping up to be less of a family gathering and more of a scoreboard showdown. **Rafe, the world’s watching whether you’ll finally land that big blow on the old man.**
+The unending saga between **The Backpass Assassin** and **The Noisemaker** continues to simmer. Gayden nudged ahead with a knockout punch to Rafe’s Mexico, but as the dust settles, Thanksgiving dinner promises more than just turkey — it's a front-row seat to the best showdown of 2026. **Will Rafe finally get his revenge, or is Gayden destined to keep the family bragging rights?**
