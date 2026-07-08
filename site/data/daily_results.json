@@ -1772,9 +1772,9 @@
           "round": "R16",
           "home": "Switzerland",
           "away": "Colombia",
-          "home_score": 1,
-          "away_score": 1,
-          "score": "Switzerland 1-1 Colombia",
+          "home_score": 0,
+          "away_score": 0,
+          "score": "Switzerland 0-0 Colombia",
           "points": {
             "Zach": 8.0
           },

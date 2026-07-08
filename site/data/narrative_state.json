@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T12:30:00Z",
+  "generated": "2026-07-08T16:38:49Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -144,8 +144,8 @@
         "D": 7,
         "L": 9
       },
-      "win_probability": 0.02,
-      "champion_probability": 0.01,
+      "win_probability": 0.04,
+      "champion_probability": 0.04,
       "streak": {
         "type": "W",
         "length": 1,
@@ -182,8 +182,8 @@
         "D": 5,
         "L": 8
       },
-      "win_probability": 0.48,
-      "champion_probability": 0.25,
+      "win_probability": 0.46,
+      "champion_probability": 0.24,
       "streak": {
         "type": "L",
         "length": 2,
@@ -220,8 +220,8 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.17,
+      "win_probability": 0.18,
+      "champion_probability": 0.18,
       "streak": {
         "type": "W",
         "length": 2,
