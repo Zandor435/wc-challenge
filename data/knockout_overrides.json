@@ -1,9 +1,11 @@
 {
-  "_README": "Manual knockout results for fixtures the free worldcup26.ir feed can't resolve. That feed exposes no penalty-shootout aggregate, so a knockout that ends level in regulation arrives with no winner. fetch_results.py applies these overrides first, then (optionally) falls back to api-football, then DROPS any still-unresolved level knockout so scoring never guesses a winner. OVERWRITE-BY-EXCEPTION: add an entry only when a shootout result is missing, and remove it once the feed/API carries the decided result. Ships empty on purpose — do not commit speculative scores.",
+  "_README": "Manual knockout results for fixtures the free worldcup26.ir feed can't resolve. That feed exposes no penalty-shootout aggregate, so a knockout that ends level in regulation arrives with no winner. fetch_results.py resolves these in order: (1) these manual overrides, (2) bracket inference — a team that reached a later round must have won, so most past-round shootouts self-resolve with no entry here, (3) api-football fallback; only a level knockout still unresolved after all three is DROPPED so scoring never guesses. You mainly need an entry here for the MOST-RECENT round's shootout, before the next round is played (inference can't see the future yet). OVERWRITE-BY-EXCEPTION: remove an entry once inference/the feed carries the result. Do not commit speculative scores.",
   "_schema": "overrides: { 'YYYY-MM-DD|TeamA|TeamB': { 'winner': 'TeamA', 'winner_pens': 4, 'loser_pens': 3 } }. Teams use canonical draft-board spelling (see data/team_aliases.json); the team order in the key does not matter and the date is informational (matching is by the team pair, which is unique in a single-elimination bracket). 'winner' is required; 'winner_pens'/'loser_pens' are optional — when omitted, only the advancing side is recorded and the site shows 'won on PKs' without a scoreline (add the pens to display the exact shootout score).",
   "_example": { "2026-06-29|Germany|Paraguay": { "winner": "Paraguay", "winner_pens": 4, "loser_pens": 3 } },
   "overrides": {
     "2026-06-29|Germany|Paraguay": { "winner": "Paraguay" },
-    "2026-06-29|Netherlands|Morocco": { "winner": "Morocco" }
+    "2026-06-29|Netherlands|Morocco": { "winner": "Morocco" },
+    "2026-07-03|Australia|Egypt": { "winner": "Egypt" },
+    "2026-07-07|Switzerland|Colombia": { "winner": "Switzerland" }
   }
 }
