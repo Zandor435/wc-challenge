@@ -302,11 +302,39 @@ def _af_penalty_lookup(season, league, canon):
     return out
 
 
+# Advancement rounds in bracket order. A team appearing in one of these must have
+# WON its match in the previous round. The third-place game (3RD) is deliberately
+# absent: its participants are SF LOSERS, so appearing there proves the opposite.
+_KO_ADVANCE_RANK = {"R32": 1, "R16": 2, "QF": 3, "SF": 4, "FINAL": 5}
+
+
+def _bracket_inferred_winner(m, matches):
+    """Infer a level knockout's winner from the bracket: the side that later shows
+    up in a further advancement round must have won this match. Deterministic and
+    free — no feed or API needed. Returns the winner, or None if neither (or both)
+    side has advanced yet (e.g. the most-recent round, before the next is played)."""
+    rk = _KO_ADVANCE_RANK.get(str(m.get("round", "")).upper())
+    if not rk:
+        return None
+    advanced = set()
+    for other in matches:
+        r = _KO_ADVANCE_RANK.get(str(other.get("round", "")).upper())
+        if other.get("stage") == "knockout" and r and r > rk:
+            advanced.update((other["home"], other["away"]))
+    a, b = m["home"], m["away"]
+    if a in advanced and b not in advanced:
+        return a
+    if b in advanced and a not in advanced:
+        return b
+    return None
+
+
 def resolve_level_knockouts(matches, overrides, args, canon):
     """Resolve (or drop) every finished knockout that ended level with no shootout
-    aggregate. Overrides first, then the api-football fallback (unless --ko-fallback
-    off); anything still unresolved is dropped with a warning. Returns the surviving
-    match list."""
+    aggregate. In priority order: manual overrides, then bracket inference (a team
+    that reached a later round won this one), then the api-football fallback (unless
+    --ko-fallback off); anything still unresolved is dropped with a warning. Returns
+    the surviving match list."""
     def needs_winner(m):
         return (m.get("stage") == "knockout"
                 and m["home_score"] == m["away_score"]
@@ -323,6 +351,13 @@ def resolve_level_knockouts(matches, overrides, args, canon):
             _apply_ko_result(m, ov["winner"], ov["winner_pens"], ov["loser_pens"])
             print(f"  resolved {m['home']} v {m['away']} via override -> "
                   f"{ov['winner']} on penalties")
+
+    for m in [m for m in level if needs_winner(m)]:
+        w = _bracket_inferred_winner(m, matches)
+        if w:
+            _apply_ko_result(m, w)
+            print(f"  resolved {m['home']} v {m['away']} via bracket inference -> "
+                  f"{w} advanced (won on penalties)")
 
     unresolved = [m for m in level if needs_winner(m)]
     if unresolved and args.ko_fallback != "off":
