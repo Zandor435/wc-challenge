@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T15:25:38Z",
+  "generated": "2026-07-09T19:46:33Z",
   "source": "daily_results_2026-07-07",
   "date": "2026-07-09",
   "rotation": 27,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "**Mustard Boy, look at me. LOOK AT ME. You thought Switzerland would carry you to glory? Well, they saved your bacon against Colombia, but your roster screams desperate mediocrity. At 43 points, you're stuck in third place like traffic on the I-405. Bubba G, you have the audacity to pit France against Morocco, your own picks going head-to-head like a WWE undercard match? Just because you’re sitting comfortably on top with 68 points doesn’t mean you’re running a soccer daycare. I'll tell you now, France will do the job with style, leaving you to question if you ever really knew the beautiful game.\n\nAnd then there's Ghost Pepper, 58 points in second place—an offensive juggernaut on paper but a stunted midfielder in reality. Imagine pinning your hopes on Bosnia. Spain might save your skin for now, but your draft was as courageous as a defender diving into a pool of marshmallows. As for you, Backpass Assassin, your England pick is about as inspiring as a nil-nil draw on a soggy Tuesday night. And don’t get me started on Japan and Korea Republic—solid nations, sure, but your strategy is as unclear as a VAR decision gone wrong. Sitting at fourth with 39 points, you're just a bit too comfortable with mediocrity.\n\nMeanwhile, The Noisemaker, standing at a humiliating last place with 29 points, you have three teams that didn't even qualify. How does that happen? Your first World Cup pool: think of it as a learning curve, not a death spiral. Let me predict, like the oracle I am: Germany will come out on top, but it won’t be enough to redeem the chaos you brought to this draft. Keep dreaming, gentlemen, because the real World Cup is about grit, not hot takes.\""
+    "take": "**Let me tell you something, Bubba G, nobody drafts teams to fight each other like they're staging a civil war except you, with this France versus Morocco showdown proving you're the master of drafting chaos.** Look at me, Gunner! What was going through your head when you picked both France and Morocco? Did you think a mystical force would unite them against your other hapless foes? France is burning hot with top-flight form, while Morocco has shown gritty surprises, but this scheduling face-off screams one thing: you’re splitting your own squad in half like a piñata at a kid's party. You’re lucky France usually has a knack for elegance and style, giving you a solid chance for points. I’m predicting a French win not because of your expert drafting, but because it's as obvious as the USA's jersey colors. Zach, you're still just Mustard Boy stuck in third place mediocrity despite Switzerland's timely penalty win; it's like giving a chef's kiss to ketchup on hot dogs. Rafe, \"The Noisemaker\", you should keep playing the chaos card and get your fantasy soccer issues sorted by your sweet sixteen — you can’t ride on the flapping wings of the Eagle of Uzbekistan forever. And Gayden, \"The Backpass Assassin,\" 4th place is just the beginning of a slippery slope—after all, being an assassin with no upsets is like taking a Nerf gun to a sword fight. Gunner, your first-place standing may be barely adequate, but let’s face it: you’ll always have a shadow of doubt when your teams play against themselves and hand out points like candy. Mic drop."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy Leads Triumph After Switzerland's Penalty Victory Over Colombia",
-      "subtitle": "Zach claims credit, says his managerial skills are as sharp as mustard.",
-      "match": "Switzerland vs Colombia",
-      "date": "2026-07-09"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Gunner's France Poised To Dominate His Own Morocco",
-      "subtitle": "Bubba G faces existential crisis as his teams collide in friendly fire.",
+      "headline": "Gunner Convinced His Teams Will Win Even Against Each Other",
+      "subtitle": "Manager believes his color-coded spreadsheets guarantee success in Foxborough.",
       "match": "France vs Morocco",
       "date": "2026-07-09"
     },
     {
+      "pundit": "donovan",
+      "headline": "Zach's Swiss Team Prodigy Sparks Debate on Managerial Luck",
+      "subtitle": "'Getting lucky isn't a strategy,' claimed rival managers after penalty win.",
+      "match": "Switzerland 0-0 Colombia",
+      "date": "2026-07-09"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Backpass Assassin Still Searching For Upset Magic In Lower Ranks",
-      "subtitle": "With just 2 upset points, Gayden's strategy seems less killer instinct, more backpedal.",
-      "match": "Gayden's Strategy",
+      "headline": "Rafe Hopes Germany Will Justify His Roster's Existence",
+      "subtitle": "Drafting three non-qualifiers puts pressure on Germany for any points.",
+      "match": "Group F Preview",
       "date": "2026-07-09"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Management Skills As Questionable As His Team's Qualifications",
-      "subtitle": "The Noisemaker echoes in fifth place, drowning in unqualified drafts.",
-      "match": "Rafe's Draft Strategy",
+      "headline": "Devin Shifts Focus to Spain After USA's Quiet Performance",
+      "subtitle": "Ghost Pepper spices up strategy with a shift to top-tier talent.",
+      "match": "Group F Preview",
       "date": "2026-07-09"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's chaos reigns as zero win probability can't keep him from wrecking Gunner's chances.",
-    "Gayden's Tier-4 Jordan is so bad they're mistaken for a ghost squad.",
-    "Rafe humiliates his dad Gayden, 8-point differential, while studying for algebra exams.",
-    "Gunner, the model's favorite, got punked by a teenager who can't define 'offside.'"
+    "Gunner's got 68 points and a 0.46 win probability, yet still sweating Rafe.",
+    "Rafe's Tier-1 picks are just ghosts, but hey, there's always next year, kid.",
+    "Devin-Destroyer Zach got schooled with a massive -10 H2H differential.",
+    "Rafe's league entry blew up Gunner's 46% win simulation. Teenage chaos strikes again!"
   ]
 }

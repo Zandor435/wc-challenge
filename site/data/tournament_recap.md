@@ -1,23 +1,23 @@
-### Gunner — 68 pts · 1st · Still Clinging to the Summit
+### Gunner — 68 pts · 1st · Gripping the Edge of Glory
 
-**Bubba G**, you've been sitting pretty at the top, but that **L2** streak has left you looking shaky. With Egypt bowing out and no points to show for it, the only thing propping up your lead is France. **But beware, all it takes is one stumble, and the pack is ready to pounce on the first whiff of blood.**
+**Bubba G**, riding on France's coattails can only take you so far. Getting nada from Egypt's ouster by Argentina is a stark reminder that your dominance hangs by a thread. **This could be your Cinderella moment or the plot twist nobody saw coming. Either way, the throne is shaky.**
 
-### Devin — 58 pts · 2nd · The Quiet Threat
+### Devin — 58 pts · 2nd · The Silent Assassin
 
-**Ghost Pepper**, your spice hasn't lost its kick with Spain and Norway still in the mix. Even with the USA taking an early exit, you're poised to capitalize on any slip-ups from Gunner. **Keep steady, and you might just sneak in when nobody's watching, trophy in hand.**
+**Ghost Pepper**, keep savoring that steady climb with Spain and Norway looming large. Haaland continues to light it up on the pitch, and with 7 goals to his name, you're silently stalking Gunner's throne. **Stay the course, and you might just deliver the upset of the season.**
 
-### Zach — 43 pts · 3rd · The Penalty Prodigy 
+### Zach — 43 pts · 3rd · Clutch in the Crunch
 
-**Mustard Boy**, Switzerland's nerve-wracking penalty triumph has you grinning like a Cheshire cat. Those eight points today are a testament to your knack for unpredictability. **Ride this momentum and you might just snatch a surprise podium finish.**
+**Mustard Boy**, your penalty shootout triumph with Switzerland is the stuff of legends, snagging you a much-needed 8-point haul. This surge from behind is the kind of wild card action that makes legends. **Keep serving up those surprises and who knows, the podium could be yours for the taking.**
 
-### Gayden — 39 pts · 4th · Hanging by a Thread
+### Gayden — 39 pts · 4th · Hope in the Home Stretch
 
-**The Backpass Assassin**, those 39 points are starting to feel like the comfort food of mediocrity. England is the last bastion of hope, but it's a steep climb unless you pull another rabbit out of the hat. **Time's ticking, and the family dinner stakes are higher than ever.**
+**The Backpass Assassin**, England is your last bastion, and it might just be enough to salvage your season. Those 39 points whisper of dormant greatness, but whispers don't win cups. **It's high time you turn up the heat before your own son leaves you out in the cold at the dinner table.**
 
-### Rafe — 29 pts · 5th · The Bold Basement Dweller
+### Rafe — 29 pts · 5th · The Perennial Underdog
 
-**The Noisemaker**, your chaotic draft decisions have left you in familiar territory—the cellar. Mexico's recent farewell was another nail in the coffin, but your swagger remains unshaken. **Keep making that noise, but if you want to be more than an afterthought, you need results, not just bravado.**
+**The Noisemaker**, bravado is entertaining, but you've got a 29-point handicap staring you down. Despite the odds, you just won't quit, a testament to your underdog spirit. **If you ever find a way to translate swagger into points, you might just shake the standings.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin** versus **The Noisemaker** continues to be the highlight reel of this league. Gayden's England dreams are basically all that's keeping him afloat, while Rafe's freewheeling chaos lands him squarely in last. **Thanksgiving's shaping up to be more awkward than a missed penalty at a cup final—with bragging rights in the balance.**
+The family feud between **The Backpass Assassin** and **The Noisemaker** is reaching a boiling point. Gayden banks on England for a desperate comeback, while Rafe keeps swinging from the basement like a true underdog. **The Thanksgiving table might just erupt into their own war of words as the father-son rivalry heats up.**
