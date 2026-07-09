@@ -1,23 +1,23 @@
-### Gunner — 68 pts · 1st · Gripping the Edge of Glory
+### Gunner — 81 pts · 1st · King of the Mountain, For Now
 
-**Bubba G**, riding on France's coattails can only take you so far. Getting nada from Egypt's ouster by Argentina is a stark reminder that your dominance hangs by a thread. **This could be your Cinderella moment or the plot twist nobody saw coming. Either way, the throne is shaky.**
+**Bubba G**, with France mowing down Morocco, you're clocking in those sweet 13 points. But let's be clear, your score line is the only thing fortress-like here. **Losing Morocco exposes the fragility of your lead; the slip is coming, and it might be Rafe's doing.**
 
-### Devin — 58 pts · 2nd · The Silent Assassin
+### Devin — 58 pts · 2nd · The Haaland Express
 
-**Ghost Pepper**, keep savoring that steady climb with Spain and Norway looming large. Haaland continues to light it up on the pitch, and with 7 goals to his name, you're silently stalking Gunner's throne. **Stay the course, and you might just deliver the upset of the season.**
+**Ghost Pepper**, your steady second-place standing is like a quiet storm waiting to unleash. Spain and Norway are still in the fight, and Haaland's scoring spree is your golden ticket. **Watch out, Gunner's lead isn’t too far out of reach — it's time to turn up the heat and cook up some chaos.**
 
-### Zach — 43 pts · 3rd · Clutch in the Crunch
+### Zach — 43 pts · 3rd · Hanging by a Swiss Thread
 
-**Mustard Boy**, your penalty shootout triumph with Switzerland is the stuff of legends, snagging you a much-needed 8-point haul. This surge from behind is the kind of wild card action that makes legends. **Keep serving up those surprises and who knows, the podium could be yours for the taking.**
+**Mustard Boy**, Switzerland is your only dance partner still on the floor, and they better have some moves. At 43 points, you’re the wildcard no one bet on, refusing to fade into obscurity. **Czechia and Saudi Arabia won't save you now, so let's see if you can pull another penalty shootout miracle.**
 
-### Gayden — 39 pts · 4th · Hope in the Home Stretch
+### Gayden — 39 pts · 4th · England's Last Stand
 
-**The Backpass Assassin**, England is your last bastion, and it might just be enough to salvage your season. Those 39 points whisper of dormant greatness, but whispers don't win cups. **It's high time you turn up the heat before your own son leaves you out in the cold at the dinner table.**
+**The Backpass Assassin**, you're clutching at England like it's your last breath. That 39-point total whispers "has-been" louder and louder every matchday. **With your son, Rafe, breathing down your neck, you'll need more than a stiff upper lip to dodge familial humiliation.**
 
-### Rafe — 29 pts · 5th · The Perennial Underdog
+### Rafe — 29 pts · 5th · Still Swinging in the Basement
 
-**The Noisemaker**, bravado is entertaining, but you've got a 29-point handicap staring you down. Despite the odds, you just won't quit, a testament to your underdog spirit. **If you ever find a way to translate swagger into points, you might just shake the standings.**
+**The Noisemaker**, despite resting in the cellar with 29 points, you're the specter that haunts **Gunner's** dreams. You can't name three players but you can sure crash this party. **Draft disaster origin aside, you're the wildcard nobody saw coming — keep rattling the cage.**
 
 ### THE FATHER-SON SAGA
 
-The family feud between **The Backpass Assassin** and **The Noisemaker** is reaching a boiling point. Gayden banks on England for a desperate comeback, while Rafe keeps swinging from the basement like a true underdog. **The Thanksgiving table might just erupt into their own war of words as the father-son rivalry heats up.**
+The never-ending showdown between **The Backpass Assassin** and **The Noisemaker** is as fierce as a World Cup Final. Gayden needs England to resurrect his season, while Rafe churns unexpected drama from the basement. **Thanksgiving won't just serve turkey; it's gonna dish out some serious family feuding as these two angle for a seat at the grown-ups' table.**

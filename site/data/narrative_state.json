@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-09T19:46:33Z",
+  "generated": "2026-07-09T22:27:40Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
-    "current_round": "Round of 16",
+    "current_round": "Quarterfinal",
     "is_preseason": false,
-    "matchdays_played": 27,
-    "matches_played": 96,
-    "matches_remaining": 8,
+    "matchdays_played": 28,
+    "matches_played": 97,
+    "matches_remaining": 7,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -130,22 +130,27 @@
         "team": "Colombia",
         "owner": null,
         "round": "Round of 16"
+      },
+      {
+        "team": "Morocco",
+        "owner": "Gunner",
+        "round": "Quarterfinal"
       }
     ]
   },
   "owners": {
     "Zach": {
       "rank": 3,
-      "rank_change_from_prev_day": 1,
+      "rank_change_from_prev_day": 0,
       "total_points": 43,
-      "points_today": 8,
+      "points_today": 0,
       "record": {
         "W": 8,
         "D": 7,
         "L": 9
       },
-      "win_probability": 0.04,
-      "champion_probability": 0.04,
+      "win_probability": 0.03,
+      "champion_probability": 0.03,
       "streak": {
         "type": "W",
         "length": 1,
@@ -175,26 +180,26 @@
     "Gunner": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 68,
-      "points_today": 0,
+      "total_points": 81,
+      "points_today": 13,
       "record": {
-        "W": 15,
+        "W": 16,
         "D": 5,
-        "L": 8
+        "L": 9
       },
-      "win_probability": 0.46,
-      "champion_probability": 0.24,
+      "win_probability": 0.51,
+      "champion_probability": 0.29,
       "streak": {
         "type": "L",
-        "length": 2,
-        "label": "L2"
+        "length": 1,
+        "label": "L1"
       },
       "best_team": {
         "team": "France",
         "tier": 1,
-        "points": 22,
+        "points": 35,
         "record": {
-          "W": 5,
+          "W": 6,
           "D": 0,
           "L": 0
         }
@@ -212,7 +217,7 @@
     },
     "Gayden": {
       "rank": 4,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 39,
       "points_today": 0,
       "record": {
@@ -220,8 +225,8 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.18,
-      "champion_probability": 0.18,
+      "win_probability": 0.17,
+      "champion_probability": 0.17,
       "streak": {
         "type": "W",
         "length": 2,
@@ -258,8 +263,8 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.33,
-      "champion_probability": 0.24,
+      "win_probability": 0.29,
+      "champion_probability": 0.21,
       "streak": {
         "type": "L",
         "length": 1,
@@ -1028,11 +1033,22 @@
         "Devin": 0,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 28,
+      "date": "2026-07-09",
+      "points": {
+        "Zach": 0,
+        "Gunner": 13,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.28,
-    "Gunner": 0.32,
+    "Gunner": 0.43,
     "Gayden": 0.51,
     "Devin": 0.34,
     "Rafe": 0.21
@@ -1247,6 +1263,14 @@
       "owner": null,
       "round": "Round of 16",
       "description": "Colombia eliminated in the Round of 16"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-09",
+      "team": "Morocco",
+      "owner": "Gunner",
+      "round": "Quarterfinal",
+      "description": "Morocco (Gunner) eliminated in the Quarterfinal"
     },
     {
       "type": "biggest_day",
@@ -2104,6 +2128,37 @@
         "Zach": 1,
         "Gunner": 0,
         "Gayden": -1,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "points": {
+        "Zach": 43,
+        "Gunner": 81,
+        "Gayden": 39,
+        "Devin": 58,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 13,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Zach": 3,
+        "Gayden": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
         "Devin": 0,
         "Rafe": 0
       }

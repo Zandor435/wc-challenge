@@ -5,11 +5,11 @@
   "standings": [
     {
       "owner": "Gunner",
-      "total_points": 68,
+      "total_points": 81,
       "breakdown": {
-        "match": 50.0,
+        "match": 53.0,
         "upset": 0,
-        "advancement": 18.0
+        "advancement": 28.0
       },
       "rank": 1
     },

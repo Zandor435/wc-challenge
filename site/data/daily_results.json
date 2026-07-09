@@ -1786,6 +1786,28 @@
           "winner": "Switzerland"
         }
       ]
+    },
+    {
+      "date": "2026-07-09",
+      "matches": [
+        {
+          "date": "2026-07-09",
+          "stage": "knockout",
+          "round": "QF",
+          "home": "France",
+          "away": "Morocco",
+          "home_score": 2,
+          "away_score": 0,
+          "score": "France 2-0 Morocco",
+          "points": {
+            "Gunner": 13.0
+          },
+          "math": [
+            "KO WIN (Quarterfinal): France (Gunner) +3  +10 advancement (reached semifinal)",
+            "KO LOSS: Morocco (Gunner) +0"
+          ]
+        }
+      ]
     }
   ]
 }

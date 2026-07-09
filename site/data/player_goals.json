@@ -11,33 +11,33 @@
       "rank": 1
     },
     {
-      "player": "Ismaïla Sarr",
-      "team": "Senegal",
-      "owner": "Gunner",
-      "goals": 4,
-      "penalties": 0,
-      "rank": 2
-    },
-    {
       "player": "Kylian Mbappé",
       "team": "France",
       "owner": "Gunner",
-      "goals": 4,
+      "goals": 5,
       "penalties": 0,
-      "rank": 3
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
-      "owner": "Devin",
-      "goals": 4,
-      "penalties": 0,
-      "rank": 4
+      "rank": 2
     },
     {
       "player": "Ousmane Dembélé",
       "team": "France",
       "owner": "Gunner",
+      "goals": 5,
+      "penalties": 0,
+      "rank": 3
+    },
+    {
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "owner": "Gunner",
+      "goals": 4,
+      "penalties": 0,
+      "rank": 4
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "owner": "Devin",
       "goals": 4,
       "penalties": 0,
       "rank": 5

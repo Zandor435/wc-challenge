@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-09T19:46:33Z",
-  "source": "daily_results_2026-07-07",
-  "date": "2026-07-09",
-  "rotation": 27,
+  "generated": "2026-07-09T22:27:40Z",
+  "source": "daily_results_2026-07-09",
+  "date": "2026-07-10",
+  "rotation": 28,
   "pundit": {
-    "name": "Alexi Lalas",
-    "tone": "bombastic",
-    "color": "#f4a423",
-    "take": "**Let me tell you something, Bubba G, nobody drafts teams to fight each other like they're staging a civil war except you, with this France versus Morocco showdown proving you're the master of drafting chaos.** Look at me, Gunner! What was going through your head when you picked both France and Morocco? Did you think a mystical force would unite them against your other hapless foes? France is burning hot with top-flight form, while Morocco has shown gritty surprises, but this scheduling face-off screams one thing: you’re splitting your own squad in half like a piñata at a kid's party. You’re lucky France usually has a knack for elegance and style, giving you a solid chance for points. I’m predicting a French win not because of your expert drafting, but because it's as obvious as the USA's jersey colors. Zach, you're still just Mustard Boy stuck in third place mediocrity despite Switzerland's timely penalty win; it's like giving a chef's kiss to ketchup on hot dogs. Rafe, \"The Noisemaker\", you should keep playing the chaos card and get your fantasy soccer issues sorted by your sweet sixteen — you can’t ride on the flapping wings of the Eagle of Uzbekistan forever. And Gayden, \"The Backpass Assassin,\" 4th place is just the beginning of a slippery slope—after all, being an assassin with no upsets is like taking a Nerf gun to a sword fight. Gunner, your first-place standing may be barely adequate, but let’s face it: you’ll always have a shadow of doubt when your teams play against themselves and hand out points like candy. Mic drop."
+    "name": "Eric Wynalda",
+    "tone": "arrogant",
+    "color": "#e2231a",
+    "take": "**Gunner is the only manager here who remotely understands soccer, and the rest of you are making me question if you've even seen a game outside of FIFA 23.** Look at the standings — Gunner sits comfortably at the top with 81 points, while the rest of you fumble around like you've never dribbled a ball in your life. \"Mustard Boy\" Zach, your Brazil pick might be the only thing keeping you alive, but don't think even for a second that your Tier 4 debacle with Saudi Arabia isn't embarrassing. \"The Backpass Assassin\" Gayden, you're hoping England and Japan can drag you out of the gutter, but your over-reliance on Tier 3 nobodies like Korea Republic is amateur hour at best. And let's talk about \"The Noisemaker\" Rafe, the kid who drafted three teams that didn't even qualify. This is a joke, right? You can't just recognize names and pretend you have a strategy. Stick to the video games, kid. Meanwhile, Devin, at least you have the U.S. — but relying on Bosnia and Haiti to save your bacon? That's not how this works. Embrace the fact that Gunner is your superior and start taking notes."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Convinced His Teams Will Win Even Against Each Other",
-      "subtitle": "Manager believes his color-coded spreadsheets guarantee success in Foxborough.",
+      "headline": "Bubba G's France Triumph Leaves Rivals Chasing Ghosts",
+      "subtitle": "Gunner sits comfortably at the top, proving points aren't for sharing.",
       "match": "France vs Morocco",
-      "date": "2026-07-09"
+      "date": "2026-07-10"
     },
     {
       "pundit": "donovan",
-      "headline": "Zach's Swiss Team Prodigy Sparks Debate on Managerial Luck",
-      "subtitle": "'Getting lucky isn't a strategy,' claimed rival managers after penalty win.",
-      "match": "Switzerland 0-0 Colombia",
-      "date": "2026-07-09"
+      "headline": "Ghost Pepper Devin's Spain Expected to Sizzle Against Undrafted Belgium",
+      "subtitle": "3 p.m. showdown in Inglewood sees Devin eyeing Gunner's lead.",
+      "match": "Spain vs Belgium",
+      "date": "2026-07-10"
     },
     {
       "pundit": "dempsey",
-      "headline": "Rafe Hopes Germany Will Justify His Roster's Existence",
-      "subtitle": "Drafting three non-qualifiers puts pressure on Germany for any points.",
+      "headline": "Mustard Boy Zach's Brazil Team Missing in Action from Victory Parade",
+      "subtitle": "Zach's standings stagnation suggests it's not all mustard and glory.",
       "match": "Group F Preview",
-      "date": "2026-07-09"
+      "date": "2026-07-10"
     },
     {
       "pundit": "lalas",
-      "headline": "Devin Shifts Focus to Spain After USA's Quiet Performance",
-      "subtitle": "Ghost Pepper spices up strategy with a shift to top-tier talent.",
+      "headline": "The Noisemaker Rafe's World Cup Strategy Questioned Amid Rank Struggles",
+      "subtitle": "Drafting non-qualifiers might not be the shock strategy Rafe hoped for.",
       "match": "Group F Preview",
-      "date": "2026-07-09"
+      "date": "2026-07-10"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's got 68 points and a 0.46 win probability, yet still sweating Rafe.",
-    "Rafe's Tier-1 picks are just ghosts, but hey, there's always next year, kid.",
-    "Devin-Destroyer Zach got schooled with a massive -10 H2H differential.",
-    "Rafe's league entry blew up Gunner's 46% win simulation. Teenage chaos strikes again!"
+    "Rafe's Germany gone early — even his own father can't save him now.",
+    "Gayden's relying on England because Jordan's doing zero lifting.",
+    "Devin gets owned by Rafe, a kid who can't name one player.",
+    "Gunner's Morocco run proves sim accuracy isn't the real MVP here."
   ]
 }
