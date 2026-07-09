@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T12:08:05Z",
+  "generated": "2026-07-09T15:25:38Z",
   "source": "daily_results_2026-07-07",
   "date": "2026-07-09",
   "rotation": 27,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "**Bubba G, let me tell you something, you’ve somehow pitted both your teams, France and Morocco, against each other, and it shows exactly why you're barely clinging to first place — sheer luck and outrageous drafting chaos!** Look at me, Gunner, this is all you: you hogged the draft for a fantasy scenario where you cannibalize your own teams! France may be cruising in, seasoned with the flair of Mbappé, but your strategic ineptitude is laid bare with Morocco on the chopping block. The French are worldly, measured in dominance; they’re not doing you a favor, they're doing the tournament a favor — they're going to systematically dismantle the very Moroccan spirit you touted as your secret sauce. I predict with the hyperbolic certainty you all should adopt: France reigns supreme, and Gunner's leads mean nothing when your own roster visits self-destruction."
+    "take": "**Mustard Boy, look at me. LOOK AT ME. You thought Switzerland would carry you to glory? Well, they saved your bacon against Colombia, but your roster screams desperate mediocrity. At 43 points, you're stuck in third place like traffic on the I-405. Bubba G, you have the audacity to pit France against Morocco, your own picks going head-to-head like a WWE undercard match? Just because you’re sitting comfortably on top with 68 points doesn’t mean you’re running a soccer daycare. I'll tell you now, France will do the job with style, leaving you to question if you ever really knew the beautiful game.\n\nAnd then there's Ghost Pepper, 58 points in second place—an offensive juggernaut on paper but a stunted midfielder in reality. Imagine pinning your hopes on Bosnia. Spain might save your skin for now, but your draft was as courageous as a defender diving into a pool of marshmallows. As for you, Backpass Assassin, your England pick is about as inspiring as a nil-nil draw on a soggy Tuesday night. And don’t get me started on Japan and Korea Republic—solid nations, sure, but your strategy is as unclear as a VAR decision gone wrong. Sitting at fourth with 39 points, you're just a bit too comfortable with mediocrity.\n\nMeanwhile, The Noisemaker, standing at a humiliating last place with 29 points, you have three teams that didn't even qualify. How does that happen? Your first World Cup pool: think of it as a learning curve, not a death spiral. Let me predict, like the oracle I am: Germany will come out on top, but it won’t be enough to redeem the chaos you brought to this draft. Keep dreaming, gentlemen, because the real World Cup is about grit, not hot takes.\""
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Bubba G Faces Existential Crisis as France Clashes with Morocco",
-      "subtitle": "Gunner unsure whether to celebrate or curse France's potential victory.",
-      "match": "France vs Morocco",
+      "headline": "Mustard Boy Leads Triumph After Switzerland's Penalty Victory Over Colombia",
+      "subtitle": "Zach claims credit, says his managerial skills are as sharp as mustard.",
+      "match": "Switzerland vs Colombia",
       "date": "2026-07-09"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy Climbs to Third After Switzerland's Climactic Penalty Victory",
-      "subtitle": "Zach credits victory to his nuanced understanding of European cuisine.",
-      "match": "Switzerland 0-0 Colombia (Switzerland win on penalties)",
+      "headline": "Gunner's France Poised To Dominate His Own Morocco",
+      "subtitle": "Bubba G faces existential crisis as his teams collide in friendly fire.",
+      "match": "France vs Morocco",
       "date": "2026-07-09"
     },
     {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper's USA Set to Vaporize Competition with Spanish Heat",
-      "subtitle": "Devin's dynamic duo poised to spice up tournament results.",
-      "match": "Spain vs USA",
+      "headline": "Backpass Assassin Still Searching For Upset Magic In Lower Ranks",
+      "subtitle": "With just 2 upset points, Gayden's strategy seems less killer instinct, more backpedal.",
+      "match": "Gayden's Strategy",
       "date": "2026-07-09"
     },
     {
       "pundit": "lalas",
-      "headline": "The Backpass Assassin Left Reeling as England Struggles for Points",
-      "subtitle": "Gayden contemplates renaming team 'The Frontpass Fumblers'.",
-      "match": "Group Standings",
+      "headline": "Rafe's Management Skills As Questionable As His Team's Qualifications",
+      "subtitle": "The Noisemaker echoes in fifth place, drowning in unqualified drafts.",
+      "match": "Rafe's Draft Strategy",
       "date": "2026-07-09"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's Germany exits early; who's teaching who about fantasy, Gayden?",
-    "Rafe's Tier-4 team Uzbekistan is as useless as a screen door on a submarine.",
-    "Devin is Rafe's whipping boy; 0-2 and a six-point differential - ouch!",
-    "Gunner's Cinderella simulation success is more fairy tale than accurate prediction."
+    "Rafe's chaos reigns as zero win probability can't keep him from wrecking Gunner's chances.",
+    "Gayden's Tier-4 Jordan is so bad they're mistaken for a ghost squad.",
+    "Rafe humiliates his dad Gayden, 8-point differential, while studying for algebra exams.",
+    "Gunner, the model's favorite, got punked by a teenager who can't define 'offside.'"
   ]
 }
