@@ -1,23 +1,23 @@
-### Gunner — 68 pts · 1st · Holding the Line, But For How Long?
+### Gunner — 68 pts · 1st · Slippery Slope Ahead?
 
-**Bubba G**, you're still sitting on top, but let's not pretend that 68 points are rock solid, especially after a zero-point day. Egypt's exit lets you know that relying solely on France might just be as shaky as a Jenga tower in a windstorm. **If you don’t strategize, your king-of-the-hill status could turn into a slip-and-slide down the standings.**
+**Bubba G**, that cushion at the top is looking more like a paper-thin napkin after another zero-point showing. Egypt's fall was expected, but your dependency on France is now glaringly obvious. **Complacency could be your downfall, so unless you want to see that lead turn into a pumpkin, tighten up your game plan.**
 
-### Devin — 58 pts · 2nd · The Ghost Pepper's Game-Changing Presence
+### Devin — 58 pts · 2nd · Steady as She Goes, But for How Long?
 
-**Ghost Pepper**, you're right there in the mix, and Spain's consistent performance keeps you in striking distance. Haaland's golden boot campaign might be just the turbo boost you need to reel in the leader. **Passion and persistence make you dangerous — you're not out, and you know it.**
+**Ghost Pepper**, it's still you vs. the world out there, and while you held ground today, Spain and Haaland remain your ticket to glory. With the USA out, your margin for error just shrank significantly. **Stay clever or stay second, Devin; you've got the firepower — now ignite that comeback.**
 
-### Zach — 43 pts · 3rd · Consistently Climbing with Swiss Precision
+### Zach — 43 pts · 3rd · The Swiss Dream Continues
 
-**Mustard Boy** Zach, today was your day! Switzerland’s penalty triumph over Colombia was a showstopper, hauling in eight massive points. **From mustard to mayhem, your ascent is legit — keep this momentum, and you’ll be breathing down Ghost Pepper's neck faster than you can say “Wasabi!”**
+**Mustard Boy**, your reliance on Switzerland is paying off big time. Taking Colombia to penalties and snatching victory gives you a massive 8-point boost and more importantly, keeps you in the hunt. **As long as you're playing that penalty game, you're staying in this thing — so ketchup to the leaders before it's too late!**
 
-### Gayden — 39 pts · 4th · An Assassin’s Comeback Stalled
+### Gayden — 39 pts · 4th · Scrambling for Respect
 
-**The Backpass Assassin**, Gayden, that early swagger feels so long ago now. England flatters to deceive, but Turkey's little glimmer of hope might just keep your dreams alive. **Time to show your son that the “old man” has some tricks left — if you don’t, the Thanksgiving turkey might be your only victory.**
+**The Backpass Assassin**, it's another day of lost ground and fading dreams. England holds your hopes, but they’ve got their work cut out for them. **You can't keep relying on past glory — it's time for some new tactics, Gayden, or face the turkey of defeat from your own son at Thanksgiving.**
 
-### Rafe — 29 pts · 5th · The Underdog Still Chirps
+### Rafe — 29 pts · 5th · Learning Pains and Teenage Dreams
 
-**The Noisemaker**, Rafe, the bell might not be tolled yet, but the rope's getting slippery. Mexico was your shining star, and now even that light’s dimmed; still, you've got the kind of unpredictable spirit that keeps everyone on edge. **You’ve made this ride entertaining, but it's time to put up a fight or take the night!**
+**The Noisemaker**, Mexico's knockout was the latest in your unending series of unfortunate events. Yet, you’re still chirping and battling, even from the basement of the standings. **Is the defiant spirit enough, or will you finally have to admit that Dad knows a thing or two about drafting? We'll see.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin's** clash with **The Noisemaker** is the stuff family legends are made of. Gayden outlasted Rafe with England's footwork, but the psychological warfare at home is just starting to heat up. **Rafe gets to remind his dad at every meal that youth is reckless but sometimes that's exactly the advantage — there's no love lost here, just love of the game.** Thanksgiving promises to be an absolute battleground, as both sides of the table gear up for one last family showdown.
+The battle between **The Backpass Assassin** and **The Noisemaker** remains as fierce as ever. Gayden's England may be his last hope to stave off the relentless youthful energy of Rafe. **Dinner at the family table is going to be spicier than Ghost Pepper’s hottest day, with words as sharp as their strategies. Thanksgiving could turn into a full-blown sporting tribunal.**
