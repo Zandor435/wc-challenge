@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Cracking the French Code
+### Gunner — 81 pts · 1st · Solid as a Rock
 
-**Bubba G**, still planted snugly at the top with 81 points, thanks to France continuing their unblemished march into the semis. You dumped Morocco, but who needs them when you've got **Les Bleus** doing all the heavy lifting? **The house of cards stands firm — but remember, a gust from Ghost Pepper can still wipe it all away.**
+Bubba G is still at the summit with a whopping 81 points, as France steamrolls into the semifinals and racks up 13 points yesterday alone. **You've got the Eiffel Tower of fantasy teams, towering over your competition.** But remember, France's elegant stride could be knocked off balance without Morocco in your pocket.
 
-### Devin — 58 pts · 2nd · In Haaland We Trust
+### Devin — 58 pts · 2nd · Haaland's Hammers
 
-**Ghost Pepper**, sitting comfortably in second with 58 points — Spain and Norway are your twin engines, but with Haaland scoring goals like it's free candy, you're poised for a surge. **Don't get cozy in the shadows, because it's time to grab a flashlight and hunt Bubba G down.** Your USA flop is in the rear-view; look forward and overtake.
+Ghost Pepper is perched securely in second, trailing Gunner by 23 points, but still packing a serious punch with those Haaland and Spain powerhouses. **You've got Haaland dishing out goals like Oprah gives out cars.** It's a two-man race for now, but keep your foot on the gas because Bubba G’s got that 51.0% claim on the throne.
 
-### Zach — 43 pts · 3rd · Alpine Dreams Hold the Key
+### Zach — 43 pts · 3rd · Swiss Mountain Stagnation
 
-**Mustard Boy**, still hanging on at 43 points, and it's Switzerland all the way for you now. That Swiss cheese defense is holding up a lot better than expected; perhaps they took a hint from the Alps. **Consider drafting a backup plan because even miracles have expiration dates.**
+Mustard Boy’s been holding steady at third with 43 points, but guess what? Switzerland is no longer your miracle mountain, and the summit looks further away with each passing day. **Your team's stuck like the cheese in a supermarket display — it’s time to try a new snack.**
 
-### Gayden — 39 pts · 4th · Last Call for England
+### Gayden — 39 pts · 4th · English Patience
 
-**The Backpass Assassin**, clinging to England like it's the last lifeboat. You're at 39 points, and without Turkey or Japan to bail you out, it's the English channel or bust. **Your son is tailgating you hard — maybe it's time for some fatherly advice: avoid conceding early.**
+The Backpass Assassin isn’t budging with 39 points, sailing the high seas with England and waving goodbye to Japan and Turkey. **Gunning for glory while your son’s gunning for a seat at the adult table — how’s that for pressure?** It’s father vs. son, and the finish line is in sight.
 
-### Rafe — 29 pts · 5th · The Noisemaker Keeps Buzzing
+### Rafe — 29 pts · 5th · The Chaos Agent's Gambit
 
-**The Noisemaker**, dead last but refusing to be just a punchline with 29 points. **Your draft was a joke, but guess what? The punchline is on us because you're still stirring the pot.** Turkey day is around the corner — time to crank the chaos dial and keep the family guessing.
+The Noisemaker might be stuck in last at 29 points, but Rafe just won’t back down. **Taking on this challenge with all the grace of a stumbling toddler, and somehow we're all still watching.** With Thanksgiving around the corner, you're right on Pops' tail — and that's the real battle.
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin** might have England in his corner, but **The Noisemaker** is the wildcard this league never saw coming. Rafe's draft disaster isn't over, and he's just 10 points behind Gayden — who needs Hunger Games when you have Thanksgiving to settle scores? **Talk about tension! Forget fantasy glory, this is about who gets the last slice of pumpkin pie.**
+The Noisemaker is neck-deep in a father-son tug-of-war with The Backpass Assassin. Rafe might be the league’s chaos agent with a 0.0% shot at the title, but he's dragging Gayden to the family table showdown. **Forget about the trophy — this is becoming a battle for who gets to carve the turkey and who watches.**
