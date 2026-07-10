@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-10T19:27:38Z",
+  "generated": "2026-07-10T22:03:01Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Quarterfinal",
     "is_preseason": false,
-    "matchdays_played": 28,
-    "matches_played": 97,
-    "matches_remaining": 7,
+    "matchdays_played": 29,
+    "matches_played": 98,
+    "matches_remaining": 6,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -135,6 +135,11 @@
         "team": "Morocco",
         "owner": "Gunner",
         "round": "Quarterfinal"
+      },
+      {
+        "team": "Belgium",
+        "owner": null,
+        "round": "Quarterfinal"
       }
     ]
   },
@@ -181,14 +186,14 @@
       "rank": 1,
       "rank_change_from_prev_day": 0,
       "total_points": 81,
-      "points_today": 13,
+      "points_today": 0,
       "record": {
         "W": 16,
         "D": 5,
         "L": 9
       },
-      "win_probability": 0.51,
-      "champion_probability": 0.29,
+      "win_probability": 0.38,
+      "champion_probability": 0.27,
       "streak": {
         "type": "L",
         "length": 1,
@@ -225,8 +230,8 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.17,
-      "champion_probability": 0.17,
+      "win_probability": 0.15,
+      "champion_probability": 0.15,
       "streak": {
         "type": "W",
         "length": 2,
@@ -256,26 +261,26 @@
     "Devin": {
       "rank": 2,
       "rank_change_from_prev_day": 0,
-      "total_points": 58,
-      "points_today": 0,
+      "total_points": 71,
+      "points_today": 13,
       "record": {
-        "W": 13,
+        "W": 14,
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.29,
-      "champion_probability": 0.21,
+      "win_probability": 0.44,
+      "champion_probability": 0.33,
       "streak": {
-        "type": "L",
+        "type": "W",
         "length": 1,
-        "label": "L1"
+        "label": "W1"
       },
       "best_team": {
         "team": "Spain",
         "tier": 1,
-        "points": 20,
+        "points": 33,
         "record": {
-          "W": 4,
+          "W": 5,
           "D": 1,
           "L": 0
         }
@@ -1044,13 +1049,24 @@
         "Devin": 0,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 29,
+      "date": "2026-07-10",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 13,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.28,
     "Gunner": 0.43,
     "Gayden": 0.51,
-    "Devin": 0.34,
+    "Devin": 0.46,
     "Rafe": 0.21
   },
   "notable_events": [
@@ -1273,6 +1289,14 @@
       "description": "Morocco (Gunner) eliminated in the Quarterfinal"
     },
     {
+      "type": "elimination",
+      "date": "2026-07-10",
+      "team": "Belgium",
+      "owner": null,
+      "round": "Quarterfinal",
+      "description": "Belgium eliminated in the Quarterfinal"
+    },
+    {
       "type": "biggest_day",
       "date": "2026-07-04",
       "owner": "Gunner",
@@ -1320,9 +1344,9 @@
       },
       "rank_change": {
         "Zach": -1,
-        "Gunner": -3,
+        "Gunner": -2,
         "Gayden": 2,
-        "Devin": -1,
+        "Devin": -2,
         "Rafe": 3
       }
     },
@@ -2146,6 +2170,37 @@
         "Gunner": 13,
         "Gayden": 0,
         "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Zach": 3,
+        "Gayden": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "points": {
+        "Zach": 43,
+        "Gunner": 81,
+        "Gayden": 39,
+        "Devin": 71,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 13,
         "Rafe": 0
       },
       "ranks": {

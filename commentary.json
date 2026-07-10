@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-10T19:27:38Z",
-  "source": "daily_results_2026-07-09",
-  "date": "2026-07-10",
-  "rotation": 28,
+  "generated": "2026-07-10T22:03:02Z",
+  "source": "daily_results_2026-07-10",
+  "date": "2026-07-11",
+  "rotation": 29,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
-    "take": "**Gunner's running a masterclass while Rafe's living in la-la land.**\n\nLet's be clear: Gunner, or should I say \"Bubba G,\" is the only one who drafted with any semblance of intelligence in this fantasy pool. Leading the pack with 81 points, he's riding on France's coattails like any logical manager would. Meanwhile, Devin's doing his best with Spain and the USA, but that's like trying to win a Formula 1 race in a go-kart. \"Mustard Boy\" Zach, with his shaky Brazil picks and desperate grabs like Saudi Arabia, is fooling no one but himself. However, the absurdity crown goes to \"The Noisemaker\" Rafe, whose roster resembles a blindfolded dartboard throw: Germany, then a free fall into chaos with Ecuador and Uzbekistan, really? Does this kid even watch soccer, or is he just picking names he remembered from his video games? He's lucky to have scraped together a measly 29 points. Frankly, the only real competition here is for second place, and it looks like Devin has the edge. But if we're talking about who's embarrassed themselves the most, Gayden \"The Backpass Assassin,\" your strategy of backpassing to a team like Jordan shows why you're comfortably lounging in fourth place with 39 points. Remember, folks: there's only one Gunner, and the rest of you are just firing blanks."
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
+    "take": "**I think you've got to admire 'Ghost Pepper' Devin's courage—taking a chance on Haiti and still managing to stay in second place, bless his heart.** But when you see him betting on Norway against 'The Backpass Assassin' Gayden's England, you have to wonder if he has some secret insight the rest of us just aren't privy to, or if he's just having a prolonged conversation with fantasy. Look, England is England, with their perennial promise and potential to stumble, but you can't ignore their world-class quality against a Norway side that only occasionally flashes brilliance.\n\nI get why Devin's optimistic; he did just snag 13 points from Spain's win over Belgium, and that can give you a false sense of security. However, when 'The Backpass Assassin' rolls out a Tier 1 team like England and still finds himself languishing in the standings, it's more like watching someone untangle themselves from their own net than execute a perfect backpass. So, with absurd confidence and very little to back it up, I'm calling this one for Gayden. England will likely overpower Norway with the kind of performance that explains why Gayden still has hope, even from the depths of fourth place."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Consolidates Top Spot as France Defeats Morocco 2-0",
-      "subtitle": "Gunner claims his leadership is purely coincidental to drafting France.",
-      "match": "France vs Morocco",
-      "date": "2026-07-10"
+      "headline": "Gunner's France Poised to Outshine As They Top Standings",
+      "subtitle": "Experts say the only upset Gunner knows is in his lunch.",
+      "match": "Group F Preview",
+      "date": "2026-07-11"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin Poised to Challenge Gunner in Spain vs Belgium Clash",
-      "subtitle": "Devin says his secret weapon is having zero Belgians on his roster.",
-      "match": "Spain vs Belgium",
-      "date": "2026-07-10"
+      "headline": "Mustard Boy's Swiss Ready for Argentina Challenge at World Cup",
+      "subtitle": "Zach remains hopeful despite Swiss cheese defense strategy.",
+      "match": "Argentina vs Switzerland",
+      "date": "2026-07-11"
     },
     {
       "pundit": "dempsey",
-      "headline": "Zach Climbs to Third While Still Reflecting on Austria's Existence",
-      "subtitle": "Zach admits he only drafted Austria because it sounded 'neutral.'",
+      "headline": "Ghost Pepper Gains Momentum with Spain's Win Over Belgium",
+      "subtitle": "Devin's fiery prediction pays off with a spicy 13 points.",
       "match": "Group F Preview",
-      "date": "2026-07-10"
+      "date": "2026-07-11"
     },
     {
       "pundit": "lalas",
-      "headline": "Gayden Laments Ranking as Backpass Strategy Fails to Deliver",
-      "subtitle": "Gayden insists he almost picked a team that didn't lose badly.",
-      "match": "Group F Preview",
-      "date": "2026-07-10"
+      "headline": "Backpass Assassin Faces Potential Defeat Against Ghost Pepper's Norway",
+      "subtitle": "Gayden's theatrical drafting style may not translate to real matches.",
+      "match": "Norway vs England",
+      "date": "2026-07-11"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's Morocco implodes in quarterfinals—trophy dreams crushed by reality.",
-    "Rafe picked three teams who didn't qualify, pure comedy gold.",
-    "Rafe's -8 against Dad needs a lot more grounding.",
-    "Sim called Rafe's chaos, but left Gunner still standing tall."
+    "Rafe's at 0% win probability, yet still in his dad's nightmares.",
+    "Rafe's three World Cup draft picks went MIA. Scholarly genius or epic fail?",
+    "Rafe gets schooled by Dad Gayden in a classic father-son beatdown: -8 differential.",
+    "Sim says Gunner's golden, but Rafe entering the chat suggests otherwise."
   ]
 }

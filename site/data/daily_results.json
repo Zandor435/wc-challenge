@@ -1808,6 +1808,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-10",
+      "matches": [
+        {
+          "date": "2026-07-10",
+          "stage": "knockout",
+          "round": "QF",
+          "home": "Spain",
+          "away": "Belgium",
+          "home_score": 2,
+          "away_score": 1,
+          "score": "Spain 2-1 Belgium",
+          "points": {
+            "Devin": 13.0
+          },
+          "math": [
+            "KO WIN (Quarterfinal): Spain (Devin) +3  +10 advancement (reached semifinal)",
+            "KO LOSS: Belgium undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }
