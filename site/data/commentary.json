@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T22:27:40Z",
+  "generated": "2026-07-10T03:18:28Z",
   "source": "daily_results_2026-07-09",
   "date": "2026-07-10",
   "rotation": 28,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Gunner is the only manager here who remotely understands soccer, and the rest of you are making me question if you've even seen a game outside of FIFA 23.** Look at the standings — Gunner sits comfortably at the top with 81 points, while the rest of you fumble around like you've never dribbled a ball in your life. \"Mustard Boy\" Zach, your Brazil pick might be the only thing keeping you alive, but don't think even for a second that your Tier 4 debacle with Saudi Arabia isn't embarrassing. \"The Backpass Assassin\" Gayden, you're hoping England and Japan can drag you out of the gutter, but your over-reliance on Tier 3 nobodies like Korea Republic is amateur hour at best. And let's talk about \"The Noisemaker\" Rafe, the kid who drafted three teams that didn't even qualify. This is a joke, right? You can't just recognize names and pretend you have a strategy. Stick to the video games, kid. Meanwhile, Devin, at least you have the U.S. — but relying on Bosnia and Haiti to save your bacon? That's not how this works. Embrace the fact that Gunner is your superior and start taking notes."
+    "take": "**Rafe's draft strategy was as intellectually bankrupt as his points total.** Look, as someone who's put on the national team jersey, I can't help but find \"The Noisemaker\" Rafe's choices as laughable to say the least. Germany? Fine, but Ecuador, Mexico, Tunisia, and Scotland? Did he just line up CONCACAF teams he remembered from FIFA 23? At this point, Rafe isn't just last — he's a case study in what not to do. Gunner, or \"Bubba G,\" gives the rest of you a soccer clinic, topping the standings with 81 points, a whopping 23-point lead over his nearest rival, Devin. And Mustard Boy, Zach, don't think you're off the hook; your love affair with mid-tier teams like Switzerland and Austria put you firmly in third with a lackluster 43 points. As for \"The Backpass Assassin,\" Gayden, stick to passing backward because your 39 points say you don’t know forward momentum if it hit you in the face. If you amateurs want to learn something, give Gunner a call. Or, better yet, maybe just watch my highlight reels — you'd play the game better just by osmosis."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Bubba G's France Triumph Leaves Rivals Chasing Ghosts",
-      "subtitle": "Gunner sits comfortably at the top, proving points aren't for sharing.",
+      "headline": "Gunner Dominates Standings After France Victory Over Morocco",
+      "subtitle": "Observers wonder if scoring 81 points is even worth celebrating.",
       "match": "France vs Morocco",
       "date": "2026-07-10"
     },
     {
       "pundit": "donovan",
-      "headline": "Ghost Pepper Devin's Spain Expected to Sizzle Against Undrafted Belgium",
-      "subtitle": "3 p.m. showdown in Inglewood sees Devin eyeing Gunner's lead.",
+      "headline": "Devin's Spain Set to Face Belgium in Inglewood",
+      "subtitle": "Ghost Pepper likely to claim victory, but 1st place still elusive.",
       "match": "Spain vs Belgium",
       "date": "2026-07-10"
     },
     {
       "pundit": "dempsey",
-      "headline": "Mustard Boy Zach's Brazil Team Missing in Action from Victory Parade",
-      "subtitle": "Zach's standings stagnation suggests it's not all mustard and glory.",
+      "headline": "Zach's Brazil Team Stuck in Third Despite Promising Roster",
+      "subtitle": "Mustard Boy's reliance on Saudis questioned by fans everywhere.",
       "match": "Group F Preview",
       "date": "2026-07-10"
     },
     {
       "pundit": "lalas",
-      "headline": "The Noisemaker Rafe's World Cup Strategy Questioned Amid Rank Struggles",
-      "subtitle": "Drafting non-qualifiers might not be the shock strategy Rafe hoped for.",
+      "headline": "Rafe's Cellar-Dwelling Strategy Leaves Him Last in Standings",
+      "subtitle": "The Noisemaker's roster includes three non-qualifiers, applause ensues.",
       "match": "Group F Preview",
       "date": "2026-07-10"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's Germany gone early — even his own father can't save him now.",
-    "Gayden's relying on England because Jordan's doing zero lifting.",
-    "Devin gets owned by Rafe, a kid who can't name one player.",
-    "Gunner's Morocco run proves sim accuracy isn't the real MVP here."
+    "Gunner is stacking points like Red Bull cans—81 and counting, baby!",
+    "Rafe's Tier-1 strategy is as sound as his bedtime routine: nonexistent.",
+    "Gayden's 8-point differential over son Rafe is a Thanksgiving roast waiting to happen.",
+    "Devin can't escape the sim's precision—spotted another champion yet ranked only second."
   ]
 }
