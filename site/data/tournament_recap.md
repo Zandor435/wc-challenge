@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Perched Atop, But For How Long?
+### Gunner — 81 pts · 1st · Cracking the French Code
 
-**Bubba G**, still holding the top spot with 81 points, but let's not get overly comfortable. France's win over Morocco is padding your score, but with your Cinderella teams punched out, it's one horse left in the French race. **Your kingdom is more of a house of cards right now and Devin is lurking, ready to snatch the crown.**
+**Bubba G**, still planted snugly at the top with 81 points, thanks to France continuing their unblemished march into the semis. You dumped Morocco, but who needs them when you've got **Les Bleus** doing all the heavy lifting? **The house of cards stands firm — but remember, a gust from Ghost Pepper can still wipe it all away.**
 
-### Devin — 58 pts · 2nd · On The Haaland Hunt
+### Devin — 58 pts · 2nd · In Haaland We Trust
 
-**Ghost Pepper**, you're hanging tough at 58 points with Spain and Norway steamrolling forward. Haaland is leading the Golden Boot charge, which is your ace in the hole — but your USA squad got iced in the Round of 16. **You're the shadow waiting to jump Gunner in the alley, but you’ll need more firepower from those Spanish strikers.**
+**Ghost Pepper**, sitting comfortably in second with 58 points — Spain and Norway are your twin engines, but with Haaland scoring goals like it's free candy, you're poised for a surge. **Don't get cozy in the shadows, because it's time to grab a flashlight and hunt Bubba G down.** Your USA flop is in the rear-view; look forward and overtake.
 
-### Zach — 43 pts · 3rd · Swiss Hopes, Swiss Cheese Defense
+### Zach — 43 pts · 3rd · Alpine Dreams Hold the Key
 
-**Mustard Boy**, at 43 points, it's all about Switzerland now. Brazil may have bowed out, but the Swiss are standing up straight for your campaign. **The rest of your roster could use a phone call to the bench because it's looking more anemic than ever. Can you squeeze another miracle from the alpine underdogs?**
+**Mustard Boy**, still hanging on at 43 points, and it's Switzerland all the way for you now. That Swiss cheese defense is holding up a lot better than expected; perhaps they took a hint from the Alps. **Consider drafting a backup plan because even miracles have expiration dates.**
 
-### Gayden — 39 pts · 4th · Clinging to the Dream
+### Gayden — 39 pts · 4th · Last Call for England
 
-**The Backpass Assassin**, you're trailing at 39 points, but England remains your saving grace. Clinging onto England for dear life is starting to look like a longshot. **As Rafe continues to hang close, Turkey's early exit is putting your mental resolve to the test. It's time to console yourself with a stiff drink, old chap.**
+**The Backpass Assassin**, clinging to England like it's the last lifeboat. You're at 39 points, and without Turkey or Japan to bail you out, it's the English channel or bust. **Your son is tailgating you hard — maybe it's time for some fatherly advice: avoid conceding early.**
 
-### Rafe — 29 pts · 5th · Still Making Noise in the Basement
+### Rafe — 29 pts · 5th · The Noisemaker Keeps Buzzing
 
-**The Noisemaker**, at the bottom with 29 points, but you're the undercurrent that keeps everyone on edge. **You might've lost Germany and Mexico, but your draft mishaps are serving comedic gold and, shockingly, still keeping you relevant. Thanksgiving is coming — keep rattling those cages and maybe you'll get a seat at the grown-ups' table.**
+**The Noisemaker**, dead last but refusing to be just a punchline with 29 points. **Your draft was a joke, but guess what? The punchline is on us because you're still stirring the pot.** Turkey day is around the corner — time to crank the chaos dial and keep the family guessing.
 
 ### THE FATHER-SON SAGA
 
-The Father-Son Saga only intensifies as **The Backpass Assassin** desperately tries to fend off **The Noisemaker's** chaotic advances. Gayden's England is his last bastion, but Rafe's unpredictability is a constant thorn in his side. **This family feud isn't just for fantasy glory; it's for the pure essence of bragging rights at every family function to come.**
+**The Backpass Assassin** might have England in his corner, but **The Noisemaker** is the wildcard this league never saw coming. Rafe's draft disaster isn't over, and he's just 10 points behind Gayden — who needs Hunger Games when you have Thanksgiving to settle scores? **Talk about tension! Forget fantasy glory, this is about who gets the last slice of pumpkin pie.**
