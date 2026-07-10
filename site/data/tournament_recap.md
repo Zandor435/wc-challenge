@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Fortress France Standing Tall
+### Gunner — 81 pts · 1st · Unstoppable French Express
 
-Bubba G doesn't just stand on top; he towers, built on a foundation as solid as the Eiffel Tower itself. With France marching to the semifinals after dispatching Morocco, you've practically wrapped your hands around the trophy. **Rival managers can only dream of scaling this French fortress — Gunner, you're the king of the fantasy battlefield.**
+Bubba G continues to roll through the competition like an unstoppable train, with yesterday's tidy 2-0 victory over Morocco courtesy of France. You stand tall and mighty, the only one surfing the knockout phase wave. **No one can touch you, Gunner. You're the fortress everyone else can only dream of breaching.**
 
-### Devin — 58 pts · 2nd · Close, Yet So Far
+### Devin — 58 pts · 2nd · Holding on by Threads
 
-Ghost Pepper sits cozily in the silver chair, but let's be real: it’s getting hotter and not in a good way. Despite Haaland working overtime on goals, France's steamrolling run has your championship odds looking like a mirage. **Devin, keep dreaming — because Bubba G’s seat is not getting any colder.**
+Ghost Pepper remains precariously in second, but let's call it what it is—you're clinging to silver status while Gunner cruises miles ahead. With Spain still in the mix, there’s a glimmer of hope, but optimism doesn't convert into points without action. **Devin, you’re in the dance, but don’t expect Gunner to leave the floor unless you bring the moves.**
 
-### Zach — 43 pts · 3rd · Stuck in the Mud
+### Zach — 43 pts · 3rd · Surviving by Pulse Alone
 
-Mustard Boy is stuck in neutral with those 43 points, Switzerland's once-mighty mountain now looks like a molehill. You were hoping for a miracle, but Zach, you might want to pack it in before the final whistle. **Frozen in third like an overcooked cheese soufflé — no comeback in sight.**
+Mustard Boy remains planted like a tree with deep roots. Switzerland’s serviceable run has kept you from a complete collapse, but this is hardly a winning strategy. **You've become part of the scenery, Zach—like that wallpaper you keep meaning to change but never do.**
 
-### Gayden — 39 pts · 4th · Sailing Past Shadows
+### Gayden — 39 pts · 4th · Sailing with Leaks
 
-The Backpass Assassin continues to find himself in a sea of missed opportunities, with England now his only sail. Gayden, you did well to get this far, but you're about to be swallowed by the shadows of your son's ambition. **You're fighting a losing battle, and your own kid's the one turning up the heat on your rear.**
+The Backpass Assassin’s ship has more holes than promise despite England's continued campaign. Winning battles against your son is one thing, but taking on the Gunner juggernaut is quite another. **Gayden, your helm's broken and your sails are weak—prepare for the shipwreck.**
 
-### Rafe — 29 pts · 5th · Clawing at the Edges
+### Rafe — 29 pts · 5th · Chaos Without the Kaboom
 
-The Noisemaker's antics have led him to 29 points, but who needs a champion shot when you make every matchday unpredictable? Rafe is the embodiment of chaos, dragging himself into conversation despite zero World Cup knowledge. **A chaotic whirlwind in a human form, giving his old man a run for the money — who’s the real winner here?**
+The Noisemaker remains the wildcard everyone talks about, yet you'd think the cards were marked. None of your original draft picks even made the field, and yet here you are, making noise, if not quite music. **Rafe, your chaos style lacks the bite you were gunning for, but at 15, you're a loud force—they’ll remember you.**
 
 ### THE FATHER-SON SAGA
 
-**The Noisemaker** and **The Backpass Assassin** are locked in a familial showdown as the tournament's final stages loom. Gayden, you've got England, but **Rafe's draft disaster still echoes as a laughing stock turned nightmare.** Destiny or disaster — the Thanksgiving showdown is on the horizon, and Rafe's resilience is nothing short of a spectacle. Expect fireworks at the family table this summer!
+The drama between **The Backpass Assassin** and **The Noisemaker** intensifies as Gayden narrowly holds his lead over his ambitious son. Rafe's chaotic march may lack wins, but it’s still making his father uneasy. **Thanksgiving might get heated, as Rafe's presence is as much a thorn as a tale worth telling.**
