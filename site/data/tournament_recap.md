@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Living on the Edge
+### Gunner — 81 pts · 1st · The Thin Line
 
-Gunner is sitting precariously at the top with 81 points, but let's not get too comfortable. With his roster thinning out faster than ice cream on a summer day, he's hanging his hopes on France to carry him to the finish line. **Bubba G, you've had your fun dancing with Cinderella, but you're a slip away from losing your glass slipper to Devin's Ghost Pepper hustle.**
+Gunner's holding onto the top spot like it's his last cup of coffee, and with France as his only knight in shining armor, he's skating on thin ice. The Cinderella story with DR Congo may have been fun, but now it's time to face the reality: Morocco's exit lights the way to an empty palace. **Bubba G, the throne may still be yours, but the crown is slipping quicker than sand through your fingers.**
 
-### Devin — 71 pts · 2nd · Spain’s Matador
+### Devin — 71 pts · 2nd · The Matador Still Charges
 
-Devin's relentless charge continues with Spain's victory over Belgium, netting him a solid 13 points. He's making strides with Spain as his bull, charging fearlessly towards Gunner's precarious perch. **Ghost Pepper, you're slicing through the competition like it's Iberian ham — just don't let your momentum fang you in the foot.**
+Devin continues his relentless pursuit of the top with Spain's latest victory over Belgium, pocketing him a sweet 13 points. The Ghost Pepper's spicy charge is getting him closer to the ultimate prize, and with the best champion odds, he could very well cook Gunner's goose. **Ghost Pepper, you're not just in the running — you might be the one holding the trophy while others just hold their breath.**
 
-### Zach — 43 pts · 3rd · Frozen in Time
+### Zach — 43 pts · 3rd · Stuck In Neutral
 
-Zach remains stuck in third, like a glacier refusing to melt. Switzerland is the lone star in his otherwise murky sky, and it's becoming apparent that his dreams of seizing the title are slipping away. **Mustard Boy, if this is your best, then maybe you should go back to playing checkers — because chess, this is not.**
+Zach is stuck in the mud with 43 points and no momentum to push him forward. Switzerland might be the only bright spot in his lackluster arsenal, but it's nowhere near enough to challenge for glory. **Mustard Boy, you're still trying to play chess when you're barely moving checkers, and the board is getting smaller by the day.**
 
-### Gayden — 39 pts · 4th · A Flicker of Hope
+### Gayden — 39 pts · 4th · A Legacy in Peril
 
-Gayden finds a flicker of hope with his two-game winning streak, yet the gap between his aspirations and reality remains a chasm. Clinging to England with a white-knuckle grip, he's trying desperately to salvage a legacy that's teetering. **The Backpass Assassin should be checking his rearview — your son’s got you in his sights and isn't slowing down.**
+Gayden's dreams of fantasy greatness are fading fast despite England’s competence. As his son continues to embarrass him, the Backpass Assassin is left clutching at straws, desperate to save face at home and in the league. **Gayden, if England doesn't bring you back from the brink, your son might just lock you out of the family trophy cabinet for good.**
 
-### Rafe — 29 pts · 5th · The Untamed Spirit
+### Rafe — 29 pts · 5th · The Chaos Agent
 
-Rafe might be trailing with only 29 points, but the spirit of disruption he embodies continues to unsettle the old guard. He's made his mark with shocking upsets, proving he's more than just the league's comic relief. **Noisemaker, your draft was a mess of epic proportions, but your knack for chaos is your ace in the hole. Keep shaking things up, kid.**
+Rafe is still making noise with 29 points, relishing his role as the unpredictable chaos agent in the league. Even with a disastrous draft, he’s managed to rattle a few cages and stick around. **Noisemaker, you're living proof that following the rules is overrated, and maybe, just maybe, you’ll have the last laugh at the family table.**
 
 ### THE FATHER-SON SAGA
 
-In this epic battle of bloodlines, **The Backpass Assassin** is desperately trying to fend off the relentless antics of his own flesh and blood — **The Noisemaker**. Gayden's grasp on family pride slips further as Rafe, fueled by youthful bravado and a disregard for convention, threatens to steal the Thanksgiving spotlight. **Gayden, if you can't lay down the law at the dinner table, how are you ever going to do it on the fantasy field?**
+In this epic clash of kinship, **The Noisemaker** continues to chip away at his father's pride, making Gayden sweat bullets at every family gathering. The young agent of chaos has nothing to lose and everything to disrupt, while **The Backpass Assassin** fights to maintain any semblance of authority. **Gayden, if you can't outwit a 15-year-old at fantasy soccer, Thanksgiving might just become an annual reminder of your fantasy failings.**

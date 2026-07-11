@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T15:56:11Z",
+  "generated": "2026-07-11T19:02:59Z",
   "source": "daily_results_2026-07-10",
   "date": "2026-07-11",
   "rotation": 29,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why people say Gunner's just lucky because no one ever calls Morocco a Tier 2 powerhouse.** Norway's recent form might suggest they're punching above their weight, but when they're up against England, Devin—bless his heart, drafting Haiti in the fourth round without a bit of irony—might realize his luck ran out. \"The Backpass Assassin\" (Gayden) is sitting fourth in this pool, and while some might call that a concerning position for someone with England, Japan, and Ivory Coast in his arsenal, I think it's a masterclass in underachievement. Devin did well yesterday with Spain, but when you're hoping for Norway to break down England's defense, it's sort of like trying to cut steak with a plastic fork—valiant but ultimately messy. My prediction? England takes this one comfortably, and Gayden moves an inch up the standings, but not enough for any real bragging rights."
+    "take": "**Look, I get why people say England should win today, but when \"The Backpass Assassin\" drafts Jordan, you're left asking if he understands geography or soccer.** I feel for Gayden, really I do—he means well—but when you're sitting in fourth place partly because you thought Jordan would do anything other than fill a spot, it's like drafting with a map of the Middle East instead of a strategy book. Meanwhile, Devin's \"Ghost Pepper\" strategy might not be sizzling, but it did earn him a solid 13 points by squeezing a 2-1 victory out of Spain against Belgium. As for Norway facing England today, it's hard to bet against Devin's kind of consistency. So, I confidently (if not wisely) predict Norway will demonstrate that sometimes, erratic picks beat out misguided ones. Bless Gayden's heart, but without an upset miracle, he might want to expand his playbook beyond just passing backwards."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Norway set to outshine England in strategic mastermind showdown",
-      "subtitle": "Gayden hopes England's Tier 1 status actually translates to winning today.",
-      "match": "Norway vs England",
-      "date": "2026-07-11"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Zach's Switzerland poised to surprise Argentina with tier-defying tactics",
-      "subtitle": "Mustard Boy believes in Switzerland's ability to channel their inner Tier 1.",
+      "headline": "Mustard Boy's Swiss Strategy Hinges on Unlikely Victory Over Argentina",
+      "subtitle": "'I'm sure my Tier 2 pick can handle global powerhouses,' says Zach.",
       "match": "Argentina vs Switzerland",
       "date": "2026-07-11"
     },
     {
+      "pundit": "donovan",
+      "headline": "Ghost Pepper Eyes Advancement Surge After Narrow Spain Victory",
+      "subtitle": "Devin's strategic foresight turns a single Spanish win into a points bonanza.",
+      "match": "Spain 2-1 Belgium",
+      "date": "2026-07-11"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Devin maintains title race with decisive Spain victory over Belgium",
-      "subtitle": "Ghost Pepper says Spain's victory is 'spicing up' his title chase.",
-      "match": "Spain vs Belgium",
+      "headline": "Rookie Noisemaker Rafe Quietly Accepts Bottom Rank in Rankings",
+      "subtitle": "Three non-qualifying teams leave room for improvement in future drafts.",
+      "match": "Group F Preview",
       "date": "2026-07-11"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's fantasy draft strategy eclipsed by science's study of randomness",
-      "subtitle": "The Noisemaker remains unwavering in belief that blind luck is skill.",
-      "match": "Group F Preview",
+      "headline": "Bubba G Poised to Cement Lead as Norway Battles England",
+      "subtitle": "Gunner's strategic brilliance aims to keep rivals at bay.",
+      "match": "Norway vs England",
       "date": "2026-07-11"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner leads, but Devin's 13-point comeback should give him nightmares.",
-    "Rafe drafted non-qualifiers yet isn't last—clearly the draft's biggest meltdown.",
-    "Rafe vs. Devin: 6-point swing, proving even rookies spank veterans.",
-    "Sim shows 0.0% win for Rafe, still terrorizing the veterans."
+    "Rafe's win probability: 0%. Kid's playing checkers, not chess.",
+    "Rafe's draft strategy: Pick non-qualifiers. Next level genius or clown show?",
+    "Devin vs. Rafe: Devin's kryptonite is a 15-year-old with zero odds.",
+    "Sim said Rafe would be irrelevant; reality said hold my juice box."
   ]
 }
