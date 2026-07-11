@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T13:18:42Z",
+  "generated": "2026-07-11T15:56:11Z",
   "source": "daily_results_2026-07-10",
   "date": "2026-07-11",
   "rotation": 29,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I feel for Gayden, I really do, but when you're called 'The Backpass Assassin' and you've got England, you'd think a more strategic dive than picking Jordan in a pool where upset points matter.** As England gears up to face Norway, there's a lot of chatter around how Gayden's been banking on historical gravitas, even as Devin, or 'Ghost Pepper', is looking spicier after Spain's recent triumph. I think there's something almost charming about Gayden's misplaced optimism, like a dog chasing its own tail, while Devin's roster decisions showcase a surprising tenacity despite Haiti's drafting fiasco. That said, England should theoretically outclass Norway, but knowing Gayden's knack for back-passing and Devin's fiery unpredictability, I'll boldly predict Norway gets this one, making poor Gayden's lineup look even more like a misfire, bless his heart."
+    "take": "**Look, I get why people say Gunner's just lucky because no one ever calls Morocco a Tier 2 powerhouse.** Norway's recent form might suggest they're punching above their weight, but when they're up against England, Devin—bless his heart, drafting Haiti in the fourth round without a bit of irony—might realize his luck ran out. \"The Backpass Assassin\" (Gayden) is sitting fourth in this pool, and while some might call that a concerning position for someone with England, Japan, and Ivory Coast in his arsenal, I think it's a masterclass in underachievement. Devin did well yesterday with Spain, but when you're hoping for Norway to break down England's defense, it's sort of like trying to cut steak with a plastic fork—valiant but ultimately messy. My prediction? England takes this one comfortably, and Gayden moves an inch up the standings, but not enough for any real bragging rights."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Secures Top Spot, Credits Strategy of Trusting France",
-      "subtitle": "France's tier one advantage keeps Bubba G comfortably in the lead.",
-      "match": "Group F Preview",
+      "headline": "Norway set to outshine England in strategic mastermind showdown",
+      "subtitle": "Gayden hopes England's Tier 1 status actually translates to winning today.",
+      "match": "Norway vs England",
       "date": "2026-07-11"
     },
     {
       "pundit": "donovan",
-      "headline": "Devin's Spanish Advantage Continues to Pay Dividends in Standings",
-      "subtitle": "Ghost Pepper thrives with Spain's recent victory over Belgium.",
-      "match": "Spain 2-1 Belgium",
-      "date": "2026-07-11"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Zach Prepares for Swiss Roll Against Argentina Challenge",
-      "subtitle": "Mustard Boy hopes Switzerland finds juice against undrafted Argentina.",
+      "headline": "Zach's Switzerland poised to surprise Argentina with tier-defying tactics",
+      "subtitle": "Mustard Boy believes in Switzerland's ability to channel their inner Tier 1.",
       "match": "Argentina vs Switzerland",
       "date": "2026-07-11"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Devin maintains title race with decisive Spain victory over Belgium",
+      "subtitle": "Ghost Pepper says Spain's victory is 'spicing up' his title chase.",
+      "match": "Spain vs Belgium",
+      "date": "2026-07-11"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Epic Showdown: Gayden's England Faces Devin's Norway in Miami",
-      "subtitle": "The Backpass Assassin aims to close gap against Ghost Pepper.",
-      "match": "Norway vs England",
+      "headline": "Rafe's fantasy draft strategy eclipsed by science's study of randomness",
+      "subtitle": "The Noisemaker remains unwavering in belief that blind luck is skill.",
+      "match": "Group F Preview",
       "date": "2026-07-11"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's lead holds, but Devin's surprise surge is like a ghost pepper hit.",
-    "Rafe's 0.21 dependency? Apparently the kid knows more about blind faith than soccer.",
-    "Rafe's -8 against Dad Gayden proves family defeat tastes worse with a side of turkey.",
-    "The model picking Gunner as favorite was sneakier than Rafe's draft disaster."
+    "Gunner leads, but Devin's 13-point comeback should give him nightmares.",
+    "Rafe drafted non-qualifiers yet isn't last—clearly the draft's biggest meltdown.",
+    "Rafe vs. Devin: 6-point swing, proving even rookies spank veterans.",
+    "Sim shows 0.0% win for Rafe, still terrorizing the veterans."
   ]
 }
