@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T07:55:45Z",
+  "generated": "2026-07-11T10:14:43Z",
   "source": "daily_results_2026-07-10",
   "date": "2026-07-11",
   "rotation": 29,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why people say Norway's form has been unpredictable, but trusting 'Ghost Pepper' Devin to captain them in a clash against England is like relying on a wet match to start a bonfire.** Norway's recent international showings have been a mix of potential and inconsistency, much like Devin's spotty strategic foresight; I mean, drafting Haiti in the fourth round was a choice, bless his heart. Now, Gayden, known as \"The Backpass Assassin,\" has been soldiering through this challenge with England, a team that's flashed its teeth but often failed to deliver, reflecting Gayden's daring yet directionless style. This matchup in Miami Gardens will either be a testament to Norway’s latent power or another testament to Gayden’s ability to make a brilliant move look utterly mundane. I feel for Devin sitting just behind Gunner at 71 points, he’s got heart, but when you pair it with his draft decisions, it's kind of like watching a toddler with a bicycle—full of enthusiasm, half the competence. I'm predicting an English teardown over Norway, not because they're that dominant, but because Gayden has a way of making lukewarm tea taste like victory wine."
+    "take": "I feel for \"Ghost Pepper,\" I really do, but when you look at Devin drafting Haiti in the fourth round, you have to wonder if he thought he was picking an exotic fruit rather than a national team — bless his heart. Look, Devin's Spain got him 13 points yesterday, but that was more about Belgium's errors than his strategic genius. But I get it, he's in second place, with 71 points and only 10 behind \"Bubba G,\" yet doesn't it seem like he's hanging on with duct tape and dreams? Going into the Norway vs. England match, it's almost endearing to think Devin believes Norway can overpower Gayden's England, the latter being essentially John Stones and a prayer. \n\n\"The Backpass Assassin\" has pulled off 39 points and clearly has a penchant for picking teams like Jordan that you'd expect to see playing five-a-side at the local rec center rather than on the world stage. Norway vs. England promises to be a clash of misplaced hopes, with Gayden basically betting the farm on Harry Kane's ability to outpace the Norwegian defense, which is a bit like betting on a tortoise in a 100m sprint. With England's recent form being as reassuring as a soggy tea bag, I absolutely guarantee England will navigate their way to a win, even if Gayden's team selections still look like he's checked out of a strategy meeting early. Ultimately, both managers mean well, but it's like watching two guys argue over who's got the prettiest rock in a mud pit."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Backpass Assassin Banks on England to Salvage Dismal Tournament Run",
-      "subtitle": "Gayden hopes not knowing soccer pays off against Norway.",
-      "match": "Norway vs England",
-      "date": "2026-07-11"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Zach's Mustard Boy Strategy Relies on Switzerland Against Undrafted Argentina",
-      "subtitle": "\"I've seen worse plans,\" says one casual observer.",
+      "headline": "Zach 'Mustard Boy' Faces Tough Test Against Unscathed Argentina Squad",
+      "subtitle": "Hopes rise as Zach plans to harness Swiss neutrality magic.",
       "match": "Argentina vs Switzerland",
       "date": "2026-07-11"
     },
     {
+      "pundit": "donovan",
+      "headline": "Gayden 'The Backpass Assassin' To Rely On England For Redemption",
+      "subtitle": "Dreams of upsetting 'Ghost Pepper' in Miami to move up ranks.",
+      "match": "Norway vs England",
+      "date": "2026-07-11"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Ghost Pepper’s Spain Win Leaves Mustard Boy in Third Place",
-      "subtitle": "Devin too hot for Zach to handle, apparently.",
-      "match": "Spain vs Belgium",
+      "headline": "Devin 'Ghost Pepper' Still Simmers After Spain Score Fiesta",
+      "subtitle": "Aims to keep the heat on against England in Florida.",
+      "match": "Norway vs England",
       "date": "2026-07-11"
     },
     {
       "pundit": "lalas",
-      "headline": "Bubba G Dominates Standings with Overwhelming 81 Points Margin",
-      "subtitle": "Gunner proves it takes more than noise to win.",
+      "headline": "Gunner 'Bubba G' Claims Top Spot With Unassailable French Flair",
+      "subtitle": "Total dominance as no opponent's upset can phase him.",
       "match": "Group F Preview",
       "date": "2026-07-11"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's freefall from the top is faster than his dad's Internet connection.",
-    "Rafe's draft is like trying to build a house with marshmallows and toothpicks.",
-    "Rafe, you're the Loch Ness of losing to Dad 8-0, just mythically bad.",
-    "Sim got Rafe's chaos wrong—this kid's drafting like it's a game of darts."
+    "Rafe's teams dropped like flies, yet the kid still racked up 29 points.",
+    "Rafe's draft strategy screams 'learning on the job' with zero qualified picks.",
+    "Apparently, Rafe vs. Gayden is the most lopsided father-son beatdown ever at -8.",
+    "Gunner's supposed 38% win chance evaporated faster than a teenager's patience."
   ]
 }
