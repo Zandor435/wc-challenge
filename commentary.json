@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T02:36:59Z",
+  "generated": "2026-07-11T05:41:13Z",
   "source": "daily_results_2026-07-10",
   "date": "2026-07-11",
   "rotation": 29,
@@ -7,42 +7,42 @@
     "name": "Landon Donovan",
     "tone": "hedging",
     "color": "#2f6dff",
-    "take": "**Look, I get why people say \"The Backpass Assassin\" Gayden's strategic choices are more questionable than a Monday night VAR decision.** With England set to face Norway, it seems Devin's \"Ghost Pepper\" might have actually brought a touch of inspiration from the Azores with Spain's recent win over Belgium boosting his standing in the fantasy league. But when you take a step back and consider Gayden's fourth-place position with a mere 39 points, it's hard to ignore a sense of lurking futility—one wonders what cricket match he was watching during his Tier 3 and 4 draft. Maybe England will channel some of that old Three Lions magic tonight, but honestly, I'm not holding my breath... unless I'm holding it in from laughing at this match-up.\n\nNow, bless Rafe's heart—\"The Noisemaker\" may be making waves from the bottom of the pool, but at least he provides a kind of comic relief, given his draft didn't even include teams that qualified. As for Zach, \"Mustard Boy\" seems to have found himself marinating in mediocrity; landing at third with 43 points, one can only ask if he mistook his drafting experience for a backyard BBQ where Brazil would carry the team like a championship steak. Meanwhile, Gunner, or \"Bubba G,\" sits atop the rankings—though not without the luck of having France handle the hard yards. So, while Devin's Norwegian contingent could upset the apple cart, let’s be clear: overestimating Gayden is like expecting a thunderstorm in the desert."
+    "take": "**Look, I understand why people see potential in \"Ghost Pepper\" Devin's roster, but drafting Haiti in the fourth round was like buying fireworks for a rainy day.** I feel for him, truly, because his recent 2-1 win with Spain over Belgium is a glimmer of hope in an otherwise underwhelming strategy. He's sitting in second place with 71 points, but that could just be luck shining down or the cosmic balance correcting itself because, let's face it, Haiti wasn't the universe's best-kept secret. Meanwhile, \"The Backpass Assassin\" Gayden, with his 39 points and English-centric optimism, is probably betting his entire farm on England pulling something close to a miracle against Norway in Miami Gardens.\n\nWhen it comes to Norway facing England, real world form suggests an intriguing contest between structured gameplay and whatever Gayden is hoping England will do. Predicting with the most resounding confidence possible, I foresee England tripping over their own boots while Norway, with all their Scandinavian charm, gracefully navigates the field. But hey, credit to Gayden for trying! Maybe England will surprise us all and decide today is the day that good karma finally cycles back to one perennially drafted team."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Dominates Standings While Rivals Contemplate Pointless Theories",
-      "subtitle": "Management finds 81 points easier when teams actually qualify.",
-      "match": "Group F Preview",
+      "headline": "Gunner Secures First Place Despite Zero Upsets",
+      "subtitle": "Winning strategy involves not risking anything outside the comfort zone.",
+      "match": "Group Standings",
       "date": "2026-07-11"
     },
     {
       "pundit": "donovan",
-      "headline": "Mustard Boy's Switzerland Faces Uncertain Fate Against Argentina",
-      "subtitle": "Zach remains hopeful despite recent form and mustard-related distractions.",
-      "match": "Argentina vs Switzerland",
-      "date": "2026-07-11"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Ghost Pepper Looks to Spice Things Up Against England",
-      "subtitle": "Devin relies on strategy beyond shouting 'Caliente!' from the sidelines.",
+      "headline": "Devin Looks to Extend Lead with Norway Against Gayden's England",
+      "subtitle": "Could be the moment Devin realizes the true value of Norway.",
       "match": "Norway vs England",
       "date": "2026-07-11"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Zach's Switzerland Set for Tough Test Against Undrafted Argentina",
+      "subtitle": "Mustard Boy needs a miracle or a really good fondue pot.",
+      "match": "Argentina vs Switzerland",
+      "date": "2026-07-11"
+    },
+    {
       "pundit": "lalas",
-      "headline": "The Noisemaker Remains at Bottom Despite Germany's Star Power",
-      "subtitle": "Rafe drafts with the precision of a broken vuvuzela.",
-      "match": "Group F Preview",
+      "headline": "Rafe Reaps Rewards for Drafting Non-Qualifying Teams, Still Last",
+      "subtitle": "The Noisemaker's strategy of drafting blind proves less effective than hoped.",
+      "match": "Group Standings",
       "date": "2026-07-11"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's Germany crashing out in Round of 32—wrecked by his own cluelessness.",
-    "Rafe drafted three teams that didn’t qualify; still not the worst drafter.",
-    "Devin can’t beat his 15-year-old nemesis Rafe; two losses, zero wins.",
-    "Rafe has zero win probability—sim still credits him as competitive. Classic chaos agent."
+    "Rafe's Germany flop is the kind of tragedy even Shakespeare would find excessive.",
+    "Gayden's Tier-4 Jordan is 0 points, like a ghost ship in the standings.",
+    "Devin's 0-2 against his son Rafe; who needs enemies with family like this?",
+    "Gunner's Morocco exit proves the sim's accuracy is like a broken clock."
   ]
 }

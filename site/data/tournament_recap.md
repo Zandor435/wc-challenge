@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Despite Cracks, Still the King
+### Gunner — 81 pts · 1st · King of the Hill, For Now
 
-Bubba G holds onto that top spot like it’s his birthright, even as his fortress shows its age with a loss in the quarterfinals. France is your lone wolf now, Gunner, and you better hope they don’t choke like Morocco. **The fortress is cracking, but you’re still the kingpin, for now.**
+Bubba G might be sitting pretty at the top, but with a loss looming over his head, that seat on the throne feels like it’s perched on a pile of sand. Morocco's exit leaves you with France holding the fort, but is that enough? **Stay vigilant, Gunner, because Devin's shadow is growing larger by the minute.**
 
-### Devin — 71 pts · 2nd · Hot on the Heels, Stoking the Flames
+### Devin — 71 pts · 2nd · Breathing Down the Neck
 
-Ghost Pepper, with Spain scorching through Belgium, bags a juicy 13-point haul. Devin, your Spain team is on fire, keeping you firmly on Bubba G's back wheel. **You’re the relentless shadow sticking to Gunner's sunlight—half a slip-up and you just might overtake him.**
+Ghost Pepper is bringing the heat with Spain blazing into the semifinals, pocketing another 13 points. Devin’s got the firepower to dethrone Gunner if he slips up—a testament to a relentless pursuit. **Your path is red hot, and if Gunner blinks, you’re taking over the sun.**
 
-### Zach — 43 pts · 3rd · The Bronze Snail
+### Zach — 43 pts · 3rd · Stuck in Limbo
 
-Mustard Boy’s team is still hanging by a Swiss thread. No matchplay points today, and it’s clear your bronze spot is less a pedestal and more a bench. **Zach, mediocrity is your middle name—you're as constant as a Swiss watch and about as exciting as watching paint dry.**
+Mustard Boy remains frozen in third, stuck like you’ve been dipped in molasses. Switzerland may be your last lifeline, but a lifeline to what? **Zach, you’re the poster child of stagnation—usually solid, never scintillating, always the bridesmaid, never the bride.**
 
-### Gayden — 39 pts · 4th · Long Game Letdown
+### Gayden — 39 pts · 4th · Backpedaling Assassin
 
-The Backpass Assassin manages no gains today. England’s still your ace, but the rest of your deck feels like a joker at best. **Gayden, you’ve got fewer moves than a juggler with broken hands—time to conjure some magic before you’re permanently the punchline of your own story.**
+The Backpass Assassin can’t seem to find the net lately, and with Japan and Ivory Coast gone, you're running out of time and options. England is your only hope now, but do they have the juice? **Gayden, your playbook needs a miracle—your son’s making you look like a setup for his punchline.**
 
-### Rafe — 29 pts · 5th · Still Loud, Still Proud
+### Rafe — 29 pts · 5th · Chaos Kid with Nothin' to Lose
 
-The Noisemaker’s chaos-charged journey might be out of fuel, but the echoes of your disruption still resonate. You’ve earned those headlines, even if it’s mostly for comedy. **Rafe, your table antics barely qualify as footnotes, but keep turning heads—you’re an underdog with a bullhorn and zero expectations.**
+The Noisemaker's run may have quieted, but his entrance into this league was a hurricane of hilarity. His draft disaster is the gift that keeps on giving—still, he’s managed to hang around and cause some noise. **Rafe, you’re operating with house money and you’ve already severed family ties—Thanksgiving’s going to be one for the ages.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin** and **The Noisemaker** are more about words than swords right now. Gayden holds the upper hand in their personal scoreboard, while Rafe plays the wildcard, making Thanksgiving dinners a delicate affair. **Gayden, you might control the scoreboard, but Rafe’s the only one stealing scenes—it’s not a question of skill, but a matter of pride.**
+**The Backpass Assassin** vs. **The Noisemaker** has transcended mere rivalry, becoming a full-blown epic. Gayden, your legacy is under siege from your own progeny—Rafe might be last, but he’s won enough battles to earn a seat at your table. **This isn’t just a contest; it's a proving ground—Rafe’s not aiming for standings, he’s aiming straight for the heart.**
