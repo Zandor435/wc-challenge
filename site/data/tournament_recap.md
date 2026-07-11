@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · King of the Hill, For Now
+### Gunner — 81 pts · 1st · Holding Steady, But Shaky
 
-Bubba G might be sitting pretty at the top, but with a loss looming over his head, that seat on the throne feels like it’s perched on a pile of sand. Morocco's exit leaves you with France holding the fort, but is that enough? **Stay vigilant, Gunner, because Devin's shadow is growing larger by the minute.**
+Bubba G maintains the throne, yet the armor's looking a little dinged with France left holding the fort alone. Morocco's exit in the quarterfinals is a major hit, and the dependency on France feels like an all-or-nothing roulette game. **Gunner, you're sitting pretty, but the throne's already wobbling — time to make every point count unless you want to feel Devin's breath down your neck.**
 
-### Devin — 71 pts · 2nd · Breathing Down the Neck
+### Devin — 71 pts · 2nd · Heating Up
 
-Ghost Pepper is bringing the heat with Spain blazing into the semifinals, pocketing another 13 points. Devin’s got the firepower to dethrone Gunner if he slips up—a testament to a relentless pursuit. **Your path is red hot, and if Gunner blinks, you’re taking over the sun.**
+Ghost Pepper just turned up the dial with Spain's triumphant advance over Belgium. Those 13 points are a statement — you're right in Bubba G's rearview and have the championship odds to back it. **Devin, you're the lurking predator ready to pounce, and Gunner's hearing your footsteps. Keep this momentum, or risk slipping into the shadows.**
 
-### Zach — 43 pts · 3rd · Stuck in Limbo
+### Zach — 43 pts · 3rd · Cemented in Stagnation
 
-Mustard Boy remains frozen in third, stuck like you’ve been dipped in molasses. Switzerland may be your last lifeline, but a lifeline to what? **Zach, you’re the poster child of stagnation—usually solid, never scintillating, always the bridesmaid, never the bride.**
+Mustard Boy can't seem to break free from the concrete of his mediocrity. Switzerland's flickering flame is the only source of light in a dim campaign that has left you knee-deep in molasses. **Zach, you're the eternal third wheel, and frankly, the league's just not into you anymore.**
 
-### Gayden — 39 pts · 4th · Backpedaling Assassin
+### Gayden — 39 pts · 4th · Glimmer of Hope
 
-The Backpass Assassin can’t seem to find the net lately, and with Japan and Ivory Coast gone, you're running out of time and options. England is your only hope now, but do they have the juice? **Gayden, your playbook needs a miracle—your son’s making you look like a setup for his punchline.**
+The Backpass Assassin teeters closer to irrelevance, yet England's quiet surge offers a faint glimpse of redemption. With a narrow focus on your last remaining teams, your strategy borders on desperation. **Gayden, even as your empire crumbles, your son is readying his victory speech — and it won't mention you.**
 
-### Rafe — 29 pts · 5th · Chaos Kid with Nothin' to Lose
+### Rafe — 29 pts · 5th · The Unstoppable Underdog Story
 
-The Noisemaker's run may have quieted, but his entrance into this league was a hurricane of hilarity. His draft disaster is the gift that keeps on giving—still, he’s managed to hang around and cause some noise. **Rafe, you’re operating with house money and you’ve already severed family ties—Thanksgiving’s going to be one for the ages.**
+The Noisemaker's draft disaster is the comedy hit of the season, but don't let the score fool you — Rafe's chaos is shaking the league's foundation. Eliminations mounted, yet his mere presence throws seasoned players like Gunner off balance. **Rafe, you might be the underdog on paper, but in spirit, you've got the old dogs scrambling.**
 
 ### THE FATHER-SON SAGA
 
-**The Backpass Assassin** vs. **The Noisemaker** has transcended mere rivalry, becoming a full-blown epic. Gayden, your legacy is under siege from your own progeny—Rafe might be last, but he’s won enough battles to earn a seat at your table. **This isn’t just a contest; it's a proving ground—Rafe’s not aiming for standings, he’s aiming straight for the heart.**
+In the epic showdown of **The Backpass Assassin** versus **The Noisemaker**, Gayden's legacy is slipping through his fingers while his own son hones the blade to cut it down. Rafe’s unconventional run might be short on points, but it's rich in shock value. **Gayden, your strategy is crumbling while Rafe's proving that chaos knows no hierarchy — and Thanksgiving is going to be a family reunion fit for a soap opera.**
