@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Hanging By a French Thread
+### Gunner — 81 pts · 1st · Tenuous Grasp on Glory
 
-Bubba G holds the top spot like a gambler clutching his last chip, relying heavily on France to keep his lead intact. Yet, it's clear that without Morocco's help, the rest of his squad is just dead weight. **Time to dig deep, Gunner, because Devin's knocking on the door and he's not bringing cookies.**
+Bubba G's fantasy empire is crumbling faster than you can say "Les Bleus". With Morocco now in the dust and only France holding the line, Gunner's lead looks shakier than a juggler on a unicycle. **Gunner, your Cinderella story with DR Congo might've been cute, but it's time to face the harsh reality — Devin is coming like a freight train and you're sitting on the tracks.**
 
-### Devin — 71 pts · 2nd · Breathing Down Gunner's Neck
+### Devin — 71 pts · 2nd · Charging Full Steam Ahead
 
-Ghost Pepper moved within striking distance after Spain secured a crucial win over Belgium, bagging a hefty 13 points. **Devin, you're a shadow in Bubba G's peripheral, and if he stumbles, you're poised to snatch the baton — don't let this momentum slip through your fingers.** With the best odds to take home the trophy, it's time to make your move.
+Ghost Pepper, my man, you're the only one making serious moves as Spain powers through another victory, racking up a sweet 13 points. You're just 10 points shy of Gunner, and with Spain on your side, the champion odds smile favorably upon you. **Devin, you're the only one who sees the light at the end of the tunnel — just don't trip over your own success.**
 
-### Zach — 43 pts · 3rd · Stuck in the Mud
+### Zach — 43 pts · 3rd · On Pause
 
-Mustard Boy remains trapped in his own purgatory, the ticking metronome of mediocrity. Switzerland is his only redeeming quality in a lineup that's gone bust, and honestly, it looks like Zach's draft strategy could use an overhaul. **Zach, you're the league's version of a self-inflicted flat tire, going nowhere fast and whining all the way.**
+Mustard Boy is like a car stuck in neutral — revving the engine but not moving an inch. Switzerland continues to be his life raft, yet there's not enough wind to set sail. **Zach, at this point, watching paint dry would be more exhilarating than your fantasy performance.** Shake things up, or accept that you're just another footnote this year.
 
-### Gayden — 39 pts · 4th · Desperation Peaks
+### Gayden — 39 pts · 4th · Hanging by an English Thread
 
-The Backpass Assassin's plan looks as shaky as a tower of Jenga blocks in a crowded pub. Gayden's hope rests solely on England, but that's a risky cliff to hang from when your son's chaos continues to nip at your heels. **Fatherly advice, Gayden? Hope England can bail you out, or your Thanksgiving dinner is going to be a roast, and not the delicious kind.**
+The Backpass Assassin desperately clings to England, hoping they can propel him to some semblance of respectability. But with two more teams knocked out, Gayden looks helplessly to the skies for deliverance. **Face it, Gayden, the legacy you've prided yourself on is hanging on by a thread — and it’s definitely not silk.**
 
-### Rafe — 29 pts · 5th · The League's Chaos Agent
+### Rafe — 29 pts · 5th · The Underdog Rumbles On
 
-The Noisemaker defies odds with all the unpredictability of lightning in a bottle. Though his points are low, Rafe’s presence has been a psychological straitjacket for these veteran owners, particularly his father. **Rafe, you may be last on the scoreboard, but you're first in everyone's mind — the underdog with the loudest bark, and that's worth more than points.**
+The Noisemaker may be low on the scoreboard, but his presence is the chaos this fantasy league never knew it needed. His mismatched draft picks might have been a disaster, but he's just happy to stir the pot and watch it boil over. **Rafe, your points might be as scarce as hen's teeth, but your ability to ruffle feathers makes you the true anarchist amidst this madness.**
 
 ### THE FATHER-SON SAGA
 
-In this thrilling father-son skirmish, **The Backpass Assassin** tries to cling to a legacy that's rapidly fading with every step his son takes. **The Noisemaker** doesn't need points to strike fear; he's rattling his father and the league with sheer bravado. **Gayden, while Rafe's strategic chaos is your worst nightmare, it’s the league's entertainment gold — and your own flesh and blood is the ringleader.**
+In this blood-pumping narrative, **The Backpass Assassin** tries and fails to outpace the familial chaos orchestrated by **The Noisemaker**. Gayden fights gallantly, but Rafe’s chaotic draft and reckless bravado shake the very foundation of Dad's brittle legacy. **Rafe, the bar might have been set low, but your ability to disrupt and disregard the status quo makes you the unspoken hero of this saga.** Keep that spirit alive, kid.
