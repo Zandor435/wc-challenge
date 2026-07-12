@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T13:19:04Z",
+  "generated": "2026-07-12T15:59:56Z",
   "source": "daily_results_2026-07-11",
   "date": "2026-07-14",
   "rotation": 30,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "Gunner's more committed to DR Congo than knowing how to close out a game with France.\n\nBoth France and Spain have been puttin’ in work, but Gunner, or \"Bubba G,\" is still out here draftin' DR Congo like he's got insider info from his barber, while Devin, \"Ghost Pepper,\" picked Spain with hopes of set pieces hotter than his taco order. You gotta back yourself when your teams are clashin’, but Gunner's roster is all style, no upset points, like a slick haircut with no fade. I'm callin' it now: Ghost Pepper's spicy lineup will outshine Bubba G's overhyped French flair. Get ready to watch this one unfold in Arlington, but don't be surprised when Spain serves a sizzling plate of disappointment to Bubba's barbecue dreams."
+    "take": "Gunner's doin' work at the top, but he's out here draftin' DR Congo like his barber's runnin' a side hustle in Kinshasa. **Bubba G gonna try puttin' some French flair on Devin's Ghost Pepper edition of Spain, but it might end up hotter than a Tex-Mex dish in Arlington.** France is lookin' strong and sittin' top of the group, while Spain's been playin' peek-a-boo with the real contenders. Now Gunner's tryna back himself with that Senegalese spice and Moroccan magic, while Devin's dreamin' that the USA'll show up like it’s the Fourth of July every day. I'm callin' it: France gonna light it up bigger than fireworks over Big Sky Country. Rafe, meanwhile, is feelin' comfortable at the bottom of the standings, maybe 'cause Uzbekistan ain't exactly known for their World Cup heroics. That Noisemaker's picks are as wild as his dad's backpasses, but hey, at least he's consistent at keepin' it unpredictable."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's France set to crush Devin's Spain in Texas showdown",
-      "subtitle": "'Ghost Pepper' may need to turn down the heat today.",
+      "headline": "Gunner's France Set to Dominate Devin's Spain in Texas Clash",
+      "subtitle": "Bubba G confident in his Tier 1 pick against Ghost Pepper.",
       "match": "France vs Spain",
       "date": "2026-07-14"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden ascends to third place thanks to England's narrow win",
-      "subtitle": "The Backpass Assassin celebrates with a cautionary backheel.",
-      "match": "Norway vs England",
-      "date": "2026-07-14"
-    },
-    {
-      "pundit": "dempsey",
-      "headline": "Zach's World Cup dreams dashed as Switzerland loses to Argentina",
-      "subtitle": "Mustard Boy left holding empty condiment bottle after defeat.",
+      "headline": "Mustard Boy's Brazil Awaits Chance to Redeem Zero-Point Swiss Performance",
+      "subtitle": "Zach's fourth-place strategies questioned after Argentina sweeps Switzerland aside.",
       "match": "Argentina vs Switzerland",
       "date": "2026-07-14"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Ghost Pepper Devin Looks to Spice Up Standings Against Bubba G",
+      "subtitle": "Devin hopes Spain can heat up and overtake Gunner's lead in points.",
+      "match": "France vs Spain",
+      "date": "2026-07-14"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Rafe remains dead last despite drafting Germany and Mexico",
-      "subtitle": "The Noisemaker's tactics silenced by a trio of non-qualifiers.",
+      "headline": "Young Rafe's World Cup Experiment Continues to Flounder at Bottom",
+      "subtitle": "The Noisemaker's picks struggle as Germany yet to produce results.",
       "match": "Group F Preview",
       "date": "2026-07-14"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe, Rookie of the Year? Still stuck in last place, buddy.",
-    "Rafe's Tier-3 Tunisia: zero points, zero impact, zero hope. Classic move.",
-    "Gayden's eight-point beatdown on Rafe: Thanksgiving table will be awkward!",
-    "Model's 0.0% for Rafe was spot-on. Blind squirrel never found a nut."
+    "Rafe's win probability is 0.0%, but he still makes noise. Truly chaos.",
+    "Rafe couldn't draft a qualifying team if his life depended on it. Brutal!",
+    "Gayden can't escape being minus 8 to his own son, The Backpass Assassin stunned.",
+    "The model's favorite, Gunner, got blindsided by a 15-year-old. Some favorite, huh?"
   ]
 }

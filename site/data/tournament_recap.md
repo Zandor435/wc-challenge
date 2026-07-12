@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · The French Fortress Holds
+### Gunner — 81 pts · 1st · The Behemoth Stands Tall
 
-Gunner, **Bubba G**, remains the unmovable object at the top, riding on France's shoulders. With a staggering 38% win probability, the only obstacle is complacency. **But remember, Bubba, you're only as good as your last matchday — slight the field and that French Riviera dream turns into a Parisian nightmare.**
+Gunner, or should I say **Bubba G the Giant**, you’re still perched high, cementing your seat at the top with France's clutch play. Despite Morocco's exit, your French fortress remains the last bastion of hope. **Keep your eyes peeled, though, as complacency is a silent killer in this game.**
 
-### Devin — 71 pts · 2nd · Ghost Pepper's Spain-Only Gamble
+### Devin — 71 pts · 2nd · Ghost Pepper's Burning Dilemma
 
-Devin, **Ghost Pepper**, is clinging to Spain like a man on a tightrope. Norway's exit was expected, but now all his chips are on Spain's fiery finesse. The league's best champion odds at 27% isn't helping you sleep at night with no margin for error. **Devin, if Spain stumbles, you'll be drowning in more than just sangria.**
+Devin, **Ghost Pepper**, your Spanish gamble needs to pay off big time after Norway’s downfall today. The scare is real with every passing match, knowing Spain is all you've got left. **Keep praying for that Spanish flair to save you from a tailspin back to obscurity.**
 
-### Gayden — 52 pts · 3rd · The Assassin's England Renaissance
+### Gayden — 52 pts · 3rd · The Assassin Strikes Again
 
-Gayden, **The Backpass Assassin**, executed a flawless English maneuver over Norway, surging 13 points to reclaim territory. Three wins on the bounce and the old lion is roaring back with England now in the semis. **Watch out, Gayden — the young pup behind you is no longer just barking, he's howling.**
+Gayden, **The Backpass Assassin**, England is serving you well with a tactical masterclass against Norway. That 13-point haul today catapulted you squarely into the top three. **Your son may have stepped into the league, but this old hand has England roaring like a well-oiled machine.**
 
-### Zach — 43 pts · 4th · Mustard Boy's Meltdown Complete
+### Zach — 43 pts · 4th · Mustard Boy Fading Fast
 
-Zach, **Mustard Boy**, you've felt the final whiff of Swiss neutrality with their 3-1 loss to Argentina. **It's time to pack up the mustard and admit defeat — your European dependencies have collapsed like day-old bread.** Nine advancement points tell a tale of a season slipping into the abyss.
+Zach, **Mustard Boy**, it’s been a quiet day with Switzerland's valiant effort ending in tears against Argentina. There's no more mustard in that bottle, only sad echoes of your once hopeful campaign. **Face it, Zach; it's time to close shop and call it what it is: a complete meltdown.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's Silent Reverberation
+### Rafe — 29 pts · 5th · The Noisemaker's Echoes Remain
 
-Rafe, **The Noisemaker**, your chaos continues to entertain even if your points don't. You've turned heads with a couple of upsets, but it’s clear the stage for you is set for a future act. **The noise was real, but as the dust settles, all that's left is an echo — one that still rings festive in a father-son face-off.**
+Rafe, **The Noisemaker**, your trajectory screams "underdog tale," but the reality is a tougher pill to swallow. While your picks seemed like an accidental comedy sketch, the spirit of chaos lingers, and the family dinner banter will still revolve around your bold escapades. **The noise was loud, but it seems that you've hit a wall, leaving only whispers of what could have been.**
 
 ### THE FATHER-SON SAGA
 
-The heated rivalry between **The Backpass Assassin** and **The Noisemaker** has become the talk of the pool, with Gayden's England unyielding while Rafe's splash began drying up. Thanksgiving is fast approaching, and this battle is all about who walks away with bragging rights at the family table. **It's more than just a game — it's a legacy and one family feud that's getting juicier by the day.**
+Ah, **The Backpass Assassin** vs. **The Noisemaker**, the battle that turns Thanksgiving into a showdown at the OK Corral. Gayden is pulling no punches with England's charge, carving out a legacy while Rafe clings to his audacious flair despite the mounting losses. **This simmering family rivalry is ready to explode—with pride, spirit, and a touch of familial discord adding fuel to the fire.**
