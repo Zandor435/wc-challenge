@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-11T21:49:31Z",
+  "generated": "2026-07-12T02:44:54Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Quarterfinal",
     "is_preseason": false,
-    "matchdays_played": 29,
-    "matches_played": 98,
-    "matches_remaining": 6,
+    "matchdays_played": 30,
+    "matches_played": 99,
+    "matches_remaining": 5,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -140,13 +140,18 @@
         "team": "Belgium",
         "owner": null,
         "round": "Quarterfinal"
+      },
+      {
+        "team": "Norway",
+        "owner": "Devin",
+        "round": "Quarterfinal"
       }
     ]
   },
   "owners": {
     "Zach": {
-      "rank": 3,
-      "rank_change_from_prev_day": 0,
+      "rank": 4,
+      "rank_change_from_prev_day": -1,
       "total_points": 43,
       "points_today": 0,
       "record": {
@@ -192,8 +197,8 @@
         "D": 5,
         "L": 9
       },
-      "win_probability": 0.38,
-      "champion_probability": 0.27,
+      "win_probability": 0.35,
+      "champion_probability": 0.26,
       "streak": {
         "type": "L",
         "length": 1,
@@ -221,28 +226,28 @@
       }
     },
     "Gayden": {
-      "rank": 4,
-      "rank_change_from_prev_day": 0,
-      "total_points": 39,
-      "points_today": 0,
+      "rank": 3,
+      "rank_change_from_prev_day": 1,
+      "total_points": 52,
+      "points_today": 13,
       "record": {
-        "W": 9,
+        "W": 10,
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.15,
-      "champion_probability": 0.15,
+      "win_probability": 0.25,
+      "champion_probability": 0.25,
       "streak": {
         "type": "W",
-        "length": 2,
-        "label": "W2"
+        "length": 3,
+        "label": "W3"
       },
       "best_team": {
         "team": "England",
         "tier": 1,
-        "points": 20,
+        "points": 33,
         "record": {
-          "W": 4,
+          "W": 5,
           "D": 1,
           "L": 0
         }
@@ -262,18 +267,18 @@
       "rank": 2,
       "rank_change_from_prev_day": 0,
       "total_points": 71,
-      "points_today": 13,
+      "points_today": 0,
       "record": {
         "W": 14,
         "D": 3,
-        "L": 10
+        "L": 11
       },
-      "win_probability": 0.44,
-      "champion_probability": 0.33,
+      "win_probability": 0.38,
+      "champion_probability": 0.28,
       "streak": {
-        "type": "W",
+        "type": "L",
         "length": 1,
-        "label": "W1"
+        "label": "L1"
       },
       "best_team": {
         "team": "Spain",
@@ -377,7 +382,7 @@
       "Gayden": {
         "W": 2,
         "D": 0,
-        "L": 1
+        "L": 2
       }
     },
     "Gayden": {
@@ -392,7 +397,7 @@
         "L": 2
       },
       "Devin": {
-        "W": 1,
+        "W": 2,
         "D": 0,
         "L": 2
       },
@@ -707,6 +712,14 @@
       "via": "England beat Mexico",
       "match": "Mexico 2-3 England",
       "date": "2026-07-05"
+    },
+    {
+      "result": "win",
+      "winner": "Gayden",
+      "loser": "Devin",
+      "via": "England beat Norway",
+      "match": "Norway 1-2 England",
+      "date": "2026-07-11"
     }
   ],
   "h2h_differential": {
@@ -720,12 +733,12 @@
       "Rafe": -6,
       "Gunner": -8,
       "Zach": 10,
-      "Gayden": 3
+      "Gayden": -10
     },
     "Gayden": {
       "Zach": -5,
       "Rafe": 8,
-      "Devin": -3,
+      "Devin": 10,
       "Gunner": 5
     },
     "Zach": {
@@ -1060,12 +1073,23 @@
         "Devin": 13,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 30,
+      "date": "2026-07-11",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 13,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.28,
     "Gunner": 0.43,
-    "Gayden": 0.51,
+    "Gayden": 0.63,
     "Devin": 0.46,
     "Rafe": 0.21
   },
@@ -1295,6 +1319,14 @@
       "owner": null,
       "round": "Quarterfinal",
       "description": "Belgium eliminated in the Quarterfinal"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-11",
+      "team": "Norway",
+      "owner": "Devin",
+      "round": "Quarterfinal",
+      "description": "Norway (Devin) eliminated in the Quarterfinal"
     },
     {
       "type": "biggest_day",
@@ -2214,6 +2246,37 @@
         "Zach": 0,
         "Gunner": 0,
         "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "points": {
+        "Zach": 43,
+        "Gunner": 81,
+        "Gayden": 52,
+        "Devin": 71,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 13,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Gunner": 1,
+        "Devin": 2,
+        "Gayden": 3,
+        "Zach": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": -1,
+        "Gunner": 0,
+        "Gayden": 1,
         "Devin": 0,
         "Rafe": 0
       }

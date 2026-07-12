@@ -16,7 +16,7 @@
       "tier": 2,
       "W": 4,
       "D": 0,
-      "L": 1,
+      "L": 2,
       "points": 19.0
     },
     {
@@ -59,10 +59,10 @@
       "team": "England",
       "owner": "Gayden",
       "tier": 1,
-      "W": 4,
+      "W": 5,
       "D": 1,
       "L": 0,
-      "points": 20.0
+      "points": 33.0
     },
     {
       "team": "Ivory Coast",

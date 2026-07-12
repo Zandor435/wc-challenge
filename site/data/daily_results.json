@@ -1830,6 +1830,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-11",
+      "matches": [
+        {
+          "date": "2026-07-11",
+          "stage": "knockout",
+          "round": "QF",
+          "home": "Norway",
+          "away": "England",
+          "home_score": 1,
+          "away_score": 2,
+          "score": "Norway 1-2 England",
+          "points": {
+            "Gayden": 13.0,
+            "Devin": 0.0
+          },
+          "math": [
+            "KO WIN (Quarterfinal): England (Gayden) +3  +10 advancement (reached semifinal)",
+            "KO LOSS: Norway (Devin) +0"
+          ]
+        }
+      ]
     }
   ]
 }

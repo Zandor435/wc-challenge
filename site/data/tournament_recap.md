@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Slipping While Still On Top
+### Gunner — 81 pts · 1st · Holding Steady with France's Last Stand
 
-Gunner's got a paper-thin lead that feels more like a shaky Jenga tower than a fortress. With only France left to do the heavy lifting, **Bubba G** is one bad result away from losing his kingdom to the relentless competition. You might have the model's support, but don't forget: the thinner the ice, the louder the crack when it all comes crashing down.
+Gunner stays atop the heap, but it's France or bust from here on out. Every point now is critical as the competition closes in, and **Bubba G** must be feeling the pressure like a quarterback facing the blitz. Just remember, Gunner: your Cinderella's already lost her slipper, and the clock's ticking towards midnight.
 
-### Devin — 71 pts · 2nd · Breathing Down Your Neck
+### Devin — 71 pts · 2nd · The Ghost Pepper Cooled Off
 
-Devin is charging hard with Spain delivering another clutch performance, grabbing him a solid 13 points. The Ghost Pepper is heating up the competition, and with Haaland leading the Golden Boot race, he's got every tool to turn this into his grand fiesta. **Ghost Pepper, you’re not just nipping at the heels — you're ready to scorch the earth and claim the crown.**
+Devin had a rough day with Norway's exit, but don't count him out yet; Spain's run can still ignite a late comeback. **Ghost Pepper**, you've got a spicy team, but today was a reminder that sometimes the heat fizzles just when you need it most. The champion race isn’t over, but your path to glory just got bumpier.
 
-### Zach — 43 pts · 3rd · The Great Stagnation
+### Gayden — 52 pts · 3rd · England to the Rescue
 
-Zach, somehow you've turned fantasy football into a tragic comedy stuck at a mere 43 points. Riding Switzerland's coat-tails won't push you past this stagnant third-place finish. **Mustard Boy, you're making more excuses than you've got plays, and the clock is ticking louder than your ambitions.**
+Gayden finds unexpected salvation in England, propelling him past Zach and into third. **The Backpass Assassin** is finally playing forward, and it's about time. **Gayden, your golden days might be past, but this little English renaissance is the only thing keeping the turkey off your Thanksgiving table.**
 
-### Gayden — 39 pts · 4th · Clawing for Relevance
+### Zach — 43 pts · 4th · The Great Stagnation Continues
 
-Gayden's England is his last remaining beacon, and even that might not prevent him from sinking further into mediocrity. With the likes of Japan and Ivory Coast waving him goodbye, **The Backpass Assassin** is less a leader and more a cautionary tale. **Gayden, with every passing day, you're proving that hanging onto the past won't buy you a future.**
+Zach, now you've got Switzerland as your only hope for points, and it seems like the same old story. **Mustard Boy**, your fantasy glory days are about as real as Switzerland's chances to win it all. You've turned into the league's static exhibit, and it's time to spice things up before it's too late.
 
-### Rafe — 29 pts · 5th · The Anomaly in the Chaos
+### Rafe — 29 pts · 5th · Still Making Noise
 
-Rafe's in the basement, but this 15-year-old agent of mayhem refuses to be ignored. His picks may be uninformed, but in this unpredictable game, **The Noisemaker** continues to rattle his dad's cage and keep us all entertained. **Little Noisemaker, you may be last with zero chance to win, but you've given us all a reason to watch this league unfold.**
+Rafe may be firmly in the cellar, but he's managed to rattle some cages along the way. The **Noisemaker** might not have a hope of winning this year, but if entertainment points counted, he would be top of the table. **Little Noisemaker, keep doing what you do best — poking the old man and serving up the chaos.**
 
 ### THE FATHER-SON SAGA
 
-The dynamic duo of Gayden and Rafe continues to provide the family entertainment that Thanksgiving dreams are made of. **The Noisemaker** is missing the mark in the standings, but he’s still making **The Backpass Assassin** break out in cold sweats with every unexpected turn. **Gayden, your son might not be a threat now, but we all know he’s already the reigning champ in the head games department.**
+The family drama rages on as Rafe continues to be that thorn in Gayden's side, even if he's less of a direct threat and more of an unpredictable wildcard. **The Noisemaker** won’t be taking a trophy anytime soon, but he's won the psychological war, forcing **The Backpass Assassin** to watch his back even at home. **Gayden, how does it feel to know the apple didn’t just fall far from the tree, it rolled down the hill and is laughing at you all the way to the kitchen?**
