@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · The Behemoth Stands Tall
+### Gunner — 81 pts · 1st · The Fortress Endures
 
-Gunner, or should I say **Bubba G the Giant**, you’re still perched high, cementing your seat at the top with France's clutch play. Despite Morocco's exit, your French fortress remains the last bastion of hope. **Keep your eyes peeled, though, as complacency is a silent killer in this game.**
+Gunner, you’re holding steady at the top with your ironclad French fortress. Sure, eliminations like Morocco have been bumps on the road, but France is keeping you firmly in the driver’s seat. **Stay vigilant, **Bubba G**, the crown seems close but one slip and Devin is ready to pounce.**
 
-### Devin — 71 pts · 2nd · Ghost Pepper's Burning Dilemma
+### Devin — 71 pts · 2nd · A Sizzling Pepper on Shaky Ground
 
-Devin, **Ghost Pepper**, your Spanish gamble needs to pay off big time after Norway’s downfall today. The scare is real with every passing match, knowing Spain is all you've got left. **Keep praying for that Spanish flair to save you from a tailspin back to obscurity.**
+Devin, you’ve been leaning hard on that Spanish armada, but with Norway bowing out, the pressure is on. **Ghost Pepper, your chances of glory cling to Spain’s feet; and if they stumble, so do you**. You're sitting prettier than most, but shaky ground is no place for a throne.
 
-### Gayden — 52 pts · 3rd · The Assassin Strikes Again
+### Gayden — 52 pts · 3rd · England’s Knight In Shining Armor
 
-Gayden, **The Backpass Assassin**, England is serving you well with a tactical masterclass against Norway. That 13-point haul today catapulted you squarely into the top three. **Your son may have stepped into the league, but this old hand has England roaring like a well-oiled machine.**
+Gayden, your England side is galloping into the semifinals, and it couldn’t have come at a better time. Those 13 points have kept you in the game, proving **The Backpass Assassin** still has a few lethal moves up his sleeve. **Your son might be chirping, but you're the one with skin in the game.**
 
-### Zach — 43 pts · 4th · Mustard Boy Fading Fast
+### Zach — 43 pts · 4th · A Story of Lost Hopes
 
-Zach, **Mustard Boy**, it’s been a quiet day with Switzerland's valiant effort ending in tears against Argentina. There's no more mustard in that bottle, only sad echoes of your once hopeful campaign. **Face it, Zach; it's time to close shop and call it what it is: a complete meltdown.**
+Zach, **Mustard Boy**, your campaign is turning sour faster than a forgotten condiment bottle. Switzerland's exit is the latest in a series of unfortunate events that's drained your momentum. **It’s time to call it, regroup, and think about what went wrong this time around.**
 
-### Rafe — 29 pts · 5th · The Noisemaker's Echoes Remain
+### Rafe — 29 pts · 5th · The Little Engine That Could(n’t)
 
-Rafe, **The Noisemaker**, your trajectory screams "underdog tale," but the reality is a tougher pill to swallow. While your picks seemed like an accidental comedy sketch, the spirit of chaos lingers, and the family dinner banter will still revolve around your bold escapades. **The noise was loud, but it seems that you've hit a wall, leaving only whispers of what could have been.**
+Rafe, your bravado at the beginning was refreshing, but reality has cruelly set in. **The Noisemaker** has gone silent, proving that audacity alone can’t topple seasoned players like your father. While your draft was a comedic gamble that lived up to its billing, the show is over. Enjoy the tales of your exploits—until the next bout, kid.
 
 ### THE FATHER-SON SAGA
 
-Ah, **The Backpass Assassin** vs. **The Noisemaker**, the battle that turns Thanksgiving into a showdown at the OK Corral. Gayden is pulling no punches with England's charge, carving out a legacy while Rafe clings to his audacious flair despite the mounting losses. **This simmering family rivalry is ready to explode—with pride, spirit, and a touch of familial discord adding fuel to the fire.**
+The ongoing duel between **The Backpass Assassin** and **The Noisemaker** is turning into a Shakespearean drama. Gayden solidifies his legacy with England's march forward, while Rafe is left to ponder what might have been. **This battle for family bragging rights is less about the now and more about the dinner table stories to come.**
