@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T19:05:48Z",
+  "generated": "2026-07-12T21:50:46Z",
   "source": "daily_results_2026-07-11",
   "date": "2026-07-14",
   "rotation": 30,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Bubba G sittin' pretty at the top like he's Jardin' Arsenal, but Ghost Pepper's bringin' the heat to test them French fancies.** Gunner's been ridin' high on France's coattails, actin' like he discovered the secret sauce when really he's just openin' the ketchup packet, but France is solid so far. Meanwhile, Devin's bankin' on Spain like it's 2010 all over again — he must've seen another tiki-taka highlight reel and forgot Xavi ain't walkin' through that door. Spain ain't been puttin' on no masterclasses lately, but Ghost Pepper's still got 'em to his name and they could pull off a Texas-sized surprise in a world-class showdown in Arlington. I'm callin' it: Bubba G's gravy train is leavin' the station, and Ghost Pepper's gonna shake things up good. Mark my words, y'all — Spain's turnin' cowboy and lassoin' 'em up, 3-1."
+    "take": "**Bubba G vs. Ghost Pepper: Doin' the Texas Two-Step, but Someone's Dancin' Offbeat**\n\nAlright, folks, Bubba G and his French flair square off against Ghost Pepper’s Spanish sizzle right here in Arlington, Texas — could this get any juicier? Gunner, I don't know what kinda voodoo magic you pulled with that draft, but somehow you made DR Congo look like a Top 10 pick. Meanwhile, Devin, you gotta back Spain by red-hot faith alone, but we know you picked 'em 'cause they share a flavor profile with your favorite salsa. The way I see it, France is gonna take their baguette and dunk it right in that spicy Spanish stew — a buttery mix of magic and madness. And if there's one thing I'm certain of, it's that Bubba G is headin' to pound town with Ghost Pepper's draft faster than a Texas jackrabbit."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner's France poised to outmaneuver Devin's Spain in Arlington",
-      "subtitle": "Ghost Pepper's over-reliance on USA already costing him precious points.",
-      "match": "France vs Spain",
-      "date": "2026-07-14"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Mustard Boy Zach sinks further as Switzerland falters against Argentina",
-      "subtitle": "Relying on Brazil now looks desperate with only 9 advancement points.",
+      "headline": "Mustard Boy Zach Left Empty-Handed as Switzerland Falls to Argentina",
+      "subtitle": "Zach's hopes deflated as his Tier 2 pick scores zero.",
       "match": "Argentina vs Switzerland",
       "date": "2026-07-14"
     },
     {
+      "pundit": "donovan",
+      "headline": "Backpass Assassin Gayden Celebrates England's Victory Over Devin's Norway",
+      "subtitle": "Gayden gains 13 points while Devin's Tier 2 pick stalls.",
+      "match": "Norway vs England",
+      "date": "2026-07-14"
+    },
+    {
       "pundit": "dempsey",
-      "headline": "Rafe's World Cup strategy wobbles, but Uzbekistan's untapped potential remains",
-      "subtitle": "Drafting teams that missed qualification seems bold for fifteenth-place aim.",
-      "match": "Group F Preview",
+      "headline": "Bubba G Set to Defend Top Rank Against Ghost Pepper's Spain",
+      "subtitle": "Gunner's squad aims to maintain lead in Arlington showdown.",
+      "match": "France vs Spain",
       "date": "2026-07-14"
     },
     {
       "pundit": "lalas",
-      "headline": "Gayden's England triumph fuels hopes for escape from middle management",
-      "subtitle": "The Backpass Assassin revels in low-upset efficiency with 13-point booster.",
-      "match": "Norway vs England",
+      "headline": "Noisemaker Rafe's Draft Strategy Pays Off with Stagnant Points Total",
+      "subtitle": "Rafe's eclectic team selection secures last place with 29 points.",
+      "match": "Group F Preview",
       "date": "2026-07-14"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's zero win chances are more impressive than Zach's zero points today.",
-    "Rafe drafted blindfolded yet outscored Zach's Tier-1 Brazil — embarrassing.",
-    "Rafe's got more wins on Devin than a discount wing night.",
-    "Sim can't predict Rafe's chaos — he defies all logic and stats."
+    "Rafe's guys got nuked, yet still gives pops the cold turkey at dinner.",
+    "Rafe drafted ghost teams; who knew their haunted screams net 25 match points?",
+    "Devin's down 10 to Gayden; he might as well tip his dad hat now.",
+    "Model's Hogwarts prediction spells let Rafe banish Gunner's Cinderella dreams into oblivion."
   ]
 }
