@@ -139,12 +139,20 @@
       "rank": 17
     },
     {
+      "player": "Dn Andvi",
+      "team": "Switzerland",
+      "owner": "Zach",
+      "goals": 2,
+      "penalties": 0,
+      "rank": 18
+    },
+    {
       "player": "Dniz Avndav",
       "team": "Germany",
       "owner": "Rafe",
       "goals": 2,
       "penalties": 0,
-      "rank": 18
+      "rank": 19
     },
     {
       "player": "Emam Ashour",
@@ -152,7 +160,7 @@
       "owner": "Gunner",
       "goals": 2,
       "penalties": 0,
-      "rank": 19
+      "rank": 20
     },
     {
       "player": "F. Balogun",
@@ -160,7 +168,7 @@
       "owner": "Devin",
       "goals": 2,
       "penalties": 0,
-      "rank": 20
+      "rank": 21
     },
     {
       "player": "H. Kane",
@@ -168,7 +176,7 @@
       "owner": "Gayden",
       "goals": 2,
       "penalties": 1,
-      "rank": 21
+      "rank": 22
     },
     {
       "player": "Habib Diarra",
@@ -176,7 +184,7 @@
       "owner": "Gunner",
       "goals": 2,
       "penalties": 0,
-      "rank": 22
+      "rank": 23
     },
     {
       "player": "K. Havertz",
@@ -184,7 +192,7 @@
       "owner": "Rafe",
       "goals": 2,
       "penalties": 1,
-      "rank": 23
+      "rank": 24
     },
     {
       "player": "K. Mbappé",
@@ -192,7 +200,7 @@
       "owner": "Gunner",
       "goals": 2,
       "penalties": 0,
-      "rank": 24
+      "rank": 25
     },
     {
       "player": "Malik Tillman",
@@ -200,7 +208,7 @@
       "owner": "Devin",
       "goals": 2,
       "penalties": 0,
-      "rank": 25
+      "rank": 26
     },
     {
       "player": "Mikel Merino",
@@ -208,7 +216,7 @@
       "owner": "Devin",
       "goals": 2,
       "penalties": 0,
-      "rank": 26
+      "rank": 27
     },
     {
       "player": "Mostafa Ziko",
@@ -216,7 +224,7 @@
       "owner": "Gunner",
       "goals": 2,
       "penalties": 0,
-      "rank": 27
+      "rank": 28
     },
     {
       "player": "Nikvlas Ph Ph",
@@ -224,7 +232,7 @@
       "owner": "Gayden",
       "goals": 2,
       "penalties": 0,
-      "rank": 28
+      "rank": 29
     },
     {
       "player": "Paph Gviih",
@@ -232,7 +240,7 @@
       "owner": "Gunner",
       "goals": 2,
       "penalties": 0,
-      "rank": 29
+      "rank": 30
     },
     {
       "player": "Svfian Rhimi",
@@ -240,7 +248,7 @@
       "owner": "Gunner",
       "goals": 2,
       "penalties": 0,
-      "rank": 30
+      "rank": 31
     },
     {
       "player": "A. Diallo",
@@ -248,7 +256,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 31
+      "rank": 32
     },
     {
       "player": "Abas Bk Fiz Allh Af",
@@ -256,7 +264,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 32
+      "rank": 33
     },
     {
       "player": "Abdulelah Al-Amri",
@@ -264,7 +272,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 33
+      "rank": 34
     },
     {
       "player": "Abvnad",
@@ -272,7 +280,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 34
+      "rank": 35
     },
     {
       "player": "Achraf Hakimi",
@@ -280,7 +288,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 35
+      "rank": 36
     },
     {
       "player": "Ailman Andiaih",
@@ -288,7 +296,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 36
+      "rank": 37
     },
     {
       "player": "Al Rashdan",
@@ -296,7 +304,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 37
+      "rank": 38
     },
     {
       "player": "Aldvr Shvmvrvdvf",
@@ -304,7 +312,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 38
+      "rank": 39
     },
     {
       "player": "Alex Freeman",
@@ -312,7 +320,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 39
+      "rank": 40
     },
     {
       "player": "Ali Avlvan",
@@ -320,7 +328,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 40
+      "rank": 41
     },
     {
       "player": "Amad Diallo",
@@ -328,7 +336,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 41
+      "rank": 42
     },
     {
       "player": "Andrias Shldrvp",
@@ -336,7 +344,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 42
+      "rank": 43
     },
     {
       "player": "Antonio Nusa",
@@ -344,7 +352,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 43
+      "rank": 44
     },
     {
       "player": "Arda Güler",
@@ -352,7 +360,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 44
+      "rank": 45
     },
     {
       "player": "Astfan Avstakviv",
@@ -360,7 +368,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 45
+      "rank": 46
     },
     {
       "player": "Auston Trusty",
@@ -368,7 +376,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 46
+      "rank": 47
     },
     {
       "player": "Aymen Hussein",
@@ -376,7 +384,7 @@
       "owner": "Devin",
       "goals": 1,
       "penalties": 0,
-      "rank": 47
+      "rank": 48
     },
     {
       "player": "B. Barcola",
@@ -384,7 +392,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 48
+      "rank": 49
     },
     {
       "player": "Baris Alpr Ailmaz",
@@ -392,7 +400,7 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 49
+      "rank": 50
     },
     {
       "player": "Bradley Barcola",
@@ -400,7 +408,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 50
+      "rank": 51
     },
     {
       "player": "Braian Sipnga",
@@ -408,7 +416,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 51
+      "rank": 52
     },
     {
       "player": "C. Larin",
@@ -416,7 +424,7 @@
       "owner": "Gunner",
       "goals": 1,
       "penalties": 0,
-      "rank": 52
+      "rank": 53
     },
     {
       "player": "Casemiro",
@@ -424,7 +432,7 @@
       "owner": "Zach",
       "goals": 1,
       "penalties": 0,
-      "rank": 53
+      "rank": 54
     },
     {
       "player": "D. Undav",
@@ -432,7 +440,7 @@
       "owner": "Rafe",
       "goals": 1,
       "penalties": 0,
-      "rank": 54
+      "rank": 55
     },
     {
       "player": "Daichi Kamada",
@@ -440,20 +448,12 @@
       "owner": "Gayden",
       "goals": 1,
       "penalties": 0,
-      "rank": 55
+      "rank": 56
     },
     {
       "player": "Daizen Maeda",
       "team": "Japan",
       "owner": "Gayden",
-      "goals": 1,
-      "penalties": 0,
-      "rank": 56
-    },
-    {
-      "player": "Dn Andvi",
-      "team": "Switzerland",
-      "owner": "Zach",
       "goals": 1,
       "penalties": 0,
       "rank": 57

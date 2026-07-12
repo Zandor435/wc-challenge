@@ -1851,6 +1851,23 @@
             "KO WIN (Quarterfinal): England (Gayden) +3  +10 advancement (reached semifinal)",
             "KO LOSS: Norway (Devin) +0"
           ]
+        },
+        {
+          "date": "2026-07-11",
+          "stage": "knockout",
+          "round": "QF",
+          "home": "Argentina",
+          "away": "Switzerland",
+          "home_score": 3,
+          "away_score": 1,
+          "score": "Argentina 3-1 Switzerland",
+          "points": {
+            "Zach": 0.0
+          },
+          "math": [
+            "KO WIN (Quarterfinal): Argentina undrafted, no points",
+            "KO LOSS: Switzerland (Zach) +0"
+          ]
         }
       ]
     }

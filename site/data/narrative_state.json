@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T02:44:54Z",
+  "generated": "2026-07-12T05:58:40Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
@@ -7,8 +7,8 @@
     "current_round": "Quarterfinal",
     "is_preseason": false,
     "matchdays_played": 30,
-    "matches_played": 99,
-    "matches_remaining": 5,
+    "matches_played": 100,
+    "matches_remaining": 4,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -145,6 +145,11 @@
         "team": "Norway",
         "owner": "Devin",
         "round": "Quarterfinal"
+      },
+      {
+        "team": "Switzerland",
+        "owner": "Zach",
+        "round": "Quarterfinal"
       }
     ]
   },
@@ -157,14 +162,14 @@
       "record": {
         "W": 8,
         "D": 7,
-        "L": 9
+        "L": 10
       },
-      "win_probability": 0.03,
-      "champion_probability": 0.03,
+      "win_probability": 0,
+      "champion_probability": 0,
       "streak": {
-        "type": "W",
+        "type": "L",
         "length": 1,
-        "label": "W1"
+        "label": "L1"
       },
       "best_team": {
         "team": "Switzerland",
@@ -173,7 +178,7 @@
         "record": {
           "W": 3,
           "D": 1,
-          "L": 1
+          "L": 2
         }
       },
       "worst_team": {
@@ -197,8 +202,8 @@
         "D": 5,
         "L": 9
       },
-      "win_probability": 0.35,
-      "champion_probability": 0.26,
+      "win_probability": 0.38,
+      "champion_probability": 0.25,
       "streak": {
         "type": "L",
         "length": 1,
@@ -235,8 +240,8 @@
         "D": 3,
         "L": 10
       },
-      "win_probability": 0.25,
-      "champion_probability": 0.25,
+      "win_probability": 0.21,
+      "champion_probability": 0.21,
       "streak": {
         "type": "W",
         "length": 3,
@@ -273,8 +278,8 @@
         "D": 3,
         "L": 11
       },
-      "win_probability": 0.38,
-      "champion_probability": 0.28,
+      "win_probability": 0.41,
+      "champion_probability": 0.27,
       "streak": {
         "type": "L",
         "length": 1,
@@ -1327,6 +1332,14 @@
       "owner": "Devin",
       "round": "Quarterfinal",
       "description": "Norway (Devin) eliminated in the Quarterfinal"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-11",
+      "team": "Switzerland",
+      "owner": "Zach",
+      "round": "Quarterfinal",
+      "description": "Switzerland (Zach) eliminated in the Quarterfinal"
     },
     {
       "type": "biggest_day",
