@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Hanging by a French Thread
+### Gunner — 81 pts · 1st · Still The French Fancy
 
-Gunner, **Bubba G**, still clings to the top spot, but with only France still playing, that 38.0% win probability is starting to feel shaky. The fairytale of DR Congo has turned to a dream of France's consistency. **Don't sleep on the kid, though — Rafe's crash-landing into the league has proven this throne isn't as secure as it once seemed.**
+Gunner, **Bubba G**, is holding firm at the top with France as his sole torchbearer. With 38% win probability, it's France or bust, and the rest of the league is hungry to seize any slip. Yet, despite the mounting pressure, Bubba's got the coolest head in the pool. **But remember, one wrong move and this fairy tale crashes down under the Eiffel Tower.**
 
-### Devin — 71 pts · 2nd · The Ghost Stumbles on the Big Stage
+### Devin — 71 pts · 2nd · Ghost Pepper Needs a Miracle
 
-Devin, **Ghost Pepper**, watched as Norway hit a glacier against England, and now you're down one more team. Spain is your lone savior, and with the best champion odds, maybe there's still a ghost of a chance. **But face it, if Spain slips, you'll be left haunting the second spot indefinitely.**
+Devin, **Ghost Pepper**, watched the Norwegian fjords freeze over his fantasy dreams. Spain is now his only hope of keeping any trophy dreams alive. You've got the best champion odds at 27%, but you're haunted by that specter of uncertain victory. **Can you keep up the faint hope or will Spain’s salsa go flat?**
 
-### Gayden — 52 pts · 3rd · Keep Riding the English Wave
+### Gayden — 52 pts · 3rd · Charging Forward with English Might
 
-Gayden, **The Backpass Assassin**, what a climb! England pulling through against Norway handed you a juicy 13-point haul. You're riding that English wave all the way into the semi-finals, but with just them left, every game is a knife fight. **Watch out though, the family feud's still hot at your heels, and Rafe's chaos factor hasn't fizzled yet.**
+Gayden, **The Backpass Assassin**, just pulled another heist with England's win over Norway for a 13-point boost. Riding a juicy three-match win streak, dad's got the kid breathing down his neck, but isn't ready to pass the crown yet. The Father-Son rivalry is now at its tipping point, and the Assassin knows Rafe's chaos is a constant threat. **Hold your line, Gayden, Thanksgiving talking points are at stake!**
 
-### Zach — 43 pts · 4th · From Swiss Miss to Total Dismiss
+### Zach — 43 pts · 4th · Mustard Boy’s Well is Running Dry
 
-Zach, Switzerland's exit might as well be your swan song this tournament. **Mustard Boy** can't afford to bask in the afterglow of past victories any longer. Your season's theme of static persists, and unless the soccer gods themselves intervene, you're looking at a photo finish in the wooden spoon race.
+Zach, **Mustard Boy**, saw Switzerland get dunked by Argentina, sealing his fate in the bottom half of the standings. The Swiss exit leaves you without hope, and just nine advancement points reflect the silently slipping season. **The death knell sounded with today's results, as another European dream is deferred to soccer's eternal abyss.**
 
-### Rafe — 29 pts · 5th · Chaos Agent Keeps Swinging
+### Rafe — 29 pts · 5th · Still the Crowd's Chaos Agent
 
-Rafe, **The Noisemaker**, keeps throwing a party in his own basement. Sure, today's matches didn't add points to your tally, but your early chaos has left a lasting impression on this league. **Your draft-disaster debut is now legend, proving this kid knows how to make a spectacle even when he's not winning the war.**
+Rafe, **The Noisemaker**, continues to prove he’s not just a sideshow. Even without gaining points today, the chaos you’ve cast over this pool will echo long after the tournament ends. **You may be last in the standings, but your debut chaos ensures your legacy isn’t going quietly into the night.**
 
 ### THE FATHER-SON SAGA
 
-Gayden emerged victorious in the England vs. Norway match, but **The Noisemaker** isn't disappearing without a bang. Thanksgiving dinner will be the clash of titans — or at least a titanic clash of wills — as Rafe's unpredictability keeps haunting his father's calculated plays. **The Backpass Assassin's household has become the league's most electrifying battleground.**
+The rivalry between **The Backpass Assassin** and **The Noisemaker** has reached fever pitch. Gayden's England keeps pulling his train ahead, but Rafe's early season chaos means the steaks at the Thanksgiving family feast couldn't be juicier. **This is not just about points anymore; it's about proving who has the final word at the dinner table.**
