@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Holding Strong at the Top
+### Gunner — 81 pts · 1st · The Undisputed King
 
-Gunner, your fortress made of French stone continues to hold the high ground. With a commanding lead in both match and advancement points, you’re the king of this hill for a reason. **But don't let your guard down**; while you're sitting pretty, **Bubba G**, one crack in the armor, and the field will be on you like vultures.
+**Bubba G**, you’re sitting pretty at the top with that fortress built on French resilience. Despite the knockouts taking a toll on your roster, none have come close enough to threaten your reign. **Still, don't get too comfortable**; Devin’s Spain is on your tail, and the final hurdles are often the toughest. Can you keep the lead when it truly counts?
 
-### Devin — 71 pts · 2nd · Spain or Bust
+### Devin — 71 pts · 2nd · Hanging by a Thread
 
-Devin, **Ghost Pepper**, it’s clear that your fate lies with Spain and Spain alone now that Norway has been shown the exit. Your second-place ranking is hanging by a thread, barely supported by the Spanish tower. **Don't blink, or the gap between you and Gunner will only widen**. The clock's ticking, Devin; time to spice things up if you want that trophy.
+Devin, **Ghost Pepper**, your reliance on Spain is becoming as thin as the air in the Andes. Norway’s exit is a devastating blow, leaving you with only Spain to carry your championship dreams. **You're playing a dangerous game** — it’s clutch time now, find that spark or watch Gunner waltz with the trophy.
 
-### Gayden — 52 pts · 3rd · The Last Stand
+### Gayden — 52 pts · 3rd · The Comeback Kid
 
-Gayden, the magical run continues as England propels you with a mighty 13-point haul. With England marching into the semifinals, **The Backpass Assassin** has put on an impressive show, silencing the doubters — including your son, Rafe. Your meteoric rise is straight out of a fairytale, but can the storybook ending hold against the top dogs?
+**The Backpass Assassin** is slicing through the competition like a knife through butter. England's knockout win over Norway has propelled you with a mighty 13-point haul — putting you right back into the mix. Sons might be rolling their eyes at the dinner table, but this old dog still has bite. **Keep the fairytale alive while everyone else stumbles**.
 
-### Zach — 43 pts · 4th · Mustard on the Side
+### Zach — 43 pts · 4th · Stuck in the Mud
 
-Zach, **Mustard Boy**, what’s left to say? Switzerland's downfall is just the latest entry in your playbook of misfortune. Your fantasy campaign is a condiment that’s lost its flavor, with every now-and-then glimmer of hope quickly snuffed out. **Hold your head high — it’s time to learn and rebuild**.
+Zach, **Mustard Boy**, it's time to face the facts — Switzerland's exit has left you clutching at straws. Your campaign has been one disappointment after another. **It's like trying to paint a masterpiece with a condiment packet**. Build from the ashes and prep for the next season, the taste of redemption might just be what you need.
 
-### Rafe — 29 pts · 5th · The Young Pretender
+### Rafe — 29 pts · 5th · The Young Pretender’s Reality Check
 
-Rafe, your journey was always going to be an uphill battle, yet you've stood your ground longer than anyone expected. **The Noisemaker** might be silent in last place, but the comedic saga of your draft is still the seasons' finest punchline. You’ve shown glimpses of brilliance, but for now, just enjoy the ride and the chance to regroup for the next round of family bragging rights.
+Rafe, **The Noisemaker**, you've been nothing if not entertaining. Unfortunately, Mexico’s demise has all but sealed your fate in this fantasy world. **You’ve been swinging haymakers all season but now it's time for the knockout**. Bask in the learning experience — it's a long game, and you’ve got miles to go.
 
 ### THE FATHER-SON SAGA
 
-The duel between Gayden and his son Rafe is still the fantasy world’s headline act. Gayden's England continues to grant him both points and family credentials, while Rafe has been left to lick his wounds after Germany and Mexico's exits. **The Backpass Assassin** is making Thanksgiving dinner a little more uncomfortable for his son, proving that in fantasy, age matters — at least this time. This battle is far from over, but the storied clashes at the dinner table will be worth the price of admission.
+In the heart of this fantasy madness, the rivalry between Gayden and his son Rafe is the talk of the town. **The Backpass Assassin** has carved out a path through the tournament, leaving his son to contemplate the lesson that age and strategy can sometimes trump youthful exuberance. With every victory, Gayden’s Thanksgiving insights are aging like fine wine, while Rafe’s youthful hubris is being served a cold dish of reality. This saga isn’t just about points; it’s about legacy, respect, and the kind of bragging rights that hang above the mantle for decades to come.
