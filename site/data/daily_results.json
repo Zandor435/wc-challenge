@@ -1870,6 +1870,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-14",
+      "matches": [
+        {
+          "date": "2026-07-14",
+          "stage": "knockout",
+          "round": "SF",
+          "home": "France",
+          "away": "Spain",
+          "home_score": 0,
+          "away_score": 2,
+          "score": "France 0-2 Spain",
+          "points": {
+            "Devin": 21.0,
+            "Gunner": 0.0
+          },
+          "math": [
+            "KO WIN (Semifinal): Spain (Devin) +3  +18 advancement (reached final)",
+            "KO LOSS: France (Gunner) +0"
+          ]
+        }
+      ]
     }
   ]
 }

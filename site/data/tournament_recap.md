@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · Fortress France Is Shaking
+### Devin — 92 pts · 1st · Ghost Pepper's Ghostly Surge
 
-Gunner, you've clung onto the top with 81 points, but the fortress is showing cracks. France is still in the game, holding your dreams aloft, but all those advancing teams have gone kaput. **Bubba G**, you're one bad French performance away from total catastrophe. That favorite tag? More like a lead weight around your neck now.
+Devin, with 92 points, you've finally ghosted past the competition into first. Spain's 2-0 demolition of France in the semis has catapulted you into pole position, and 21 points in a single day is a flex even **Ghost Pepper** couldn't have dreamt of. The win probability and champion odds are firmly in your court now — your ghostly whispers are now deafening roars.
 
-### Devin — 71 pts · 2nd · Ghost Pepper Out, But Not Out
+### Gunner — 81 pts · 2nd · Fortress France Falls
 
-Devin, you're hanging in there with 71 points, thanks to Spain's ongoing run. But after Norway's slip against England, your Norwegian hopes sank faster than a lead balloon. **So, Ghost Pepper, got any more spice left or are we just sautéing air now?** Time for Spain to be your salvation — or you might find yourself in a hot seat with nothing to show.
+Gunner, the fortress has crumbled and so has your lead. France hitting the knockout canvas without a whisper of resistance? That's a harsh reminder of the volatile world of fantasy soccer. **Bubba G**, you're now clinging to second, and with no teams left standing, it's lights out. Time to call for a regroup in the off-season.
 
-### Gayden — 52 pts · 3rd · The Backpass Assassin Rises
+### Gayden — 52 pts · 3rd · The Backpass Assassin Steady
 
-Gayden, the England express keeps you alive and kicking in third with 52 points, charging straight into the semifinals. The queen's lions roared with a decisive knockout over Norway, netting you 13 crucial points. **Watch your back, Assassin — your son might still have a trick or two up his sleeve.** But for now, Daddy dearest holds the cards in this family saga.
+Gayden, sitting at 52, third place is your domain, thanks to England's persistence. While the dad-son rivalry simmers, your England pick still gives you a flicker of hope. **The Backpass Assassin** is far from done, with champion aspirations alive on a 0.2% lifeline. Your next move could still disrupt the standings, but will it be enough?
 
-### Zach — 43 pts · 4th · Mustard Boy's Swiss Deflation
+### Zach — 43 pts · 4th · Mustard Boy's Wilted Finish
 
-Zach, it’s déjà vu all over again as Argentina sizzled your Swiss chances, keeping you stranded at 43 points. **Mustard Boy, your fantasy seasoning needs a shake-up because your line-up is running out of gas.** With every other hope dashed, your once-proud mustard empire is crumbling. Are you the condiment or the main course here?
+Zach, at 43 points, it seems your once hot dog-worthy mustard has run out of steam and spice. The Swiss were your last line of defense, and now, nothing but crickets. **Mustard Boy**, you've been reduced to a condiment, not the pedestal. Perhaps it's time to start planning for some off-season transfers to bring the tang back.
 
-### Rafe — 29 pts · 5th · The Noisemaker's Noble Failure
+### Rafe — 29 pts · 5th · The Noisemaker Still Echoing
 
-Rafe, **The Noisemaker**, at a mere 29 points, your run is more akin to white noise in a packed stadium. Your initial draft was a comedy of errors, but you've shown more heart than some veterans. **Never let anyone tell you age equals wisdom — sometimes it takes a fearless 15-year-old to show the way.** Dad might still best you at dinner table banter, but your spirit is undeniable.
+Rafe, at 29 points, it's been a tough road, but the noise you made wasn't just empty echoes. No more teams, but the saga with your dad, **The Backpass Assassin**, continues to be the headline act. Your draft even sparked chaos in the standings for a time. **The Noisemaker** might be quiet now, but the league knows what your roar sounds like. Time to take notes and plan for next season's ambush.
 
 ### THE FATHER-SON SAGA
 
-Gayden has shown Rafe no quarter as England charged through to the semifinals, putting The Backpass Assassin ahead in their familial saga. With Thanksgiving looming and the family table set, Rafe might have to learn a few lessons from Dad's storied playbook. But even with the elder statesman pulling ahead, **The Noisemaker** stands unbowed, ready to draft his own story of redemption next time. **This isn't just a competition — it's a crucible for the next generation of fantasy legends.**
+With Gayden steady in 3rd and Rafe holding onto the spirit of competition, their duel remains the most electrifying narrative. Thanksgiving's going to be a riot around the dinner table between The Backpass Assassin and **The Noisemaker**. Rafe may be trailing, but this storyline is about more than just points — it's about the birth of a rivalry dynasty. **The Noisemaker**'s spirit might just be the stuff of legends in the making.

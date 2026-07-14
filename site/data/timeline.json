@@ -1394,5 +1394,50 @@
       "Rafe": 0.0,
       "Zach": 0.0
     }
+  },
+  {
+    "date": "2026-07-14",
+    "matchday": 31,
+    "win_probability": {
+      "Devin": 0.7966,
+      "Gayden": 0.2034,
+      "Gunner": 0.0,
+      "Rafe": 0.0,
+      "Zach": 0.0
+    },
+    "projected_points": {
+      "Devin": {
+        "p10": 92,
+        "median": 125,
+        "p90": 125
+      },
+      "Gayden": {
+        "p10": 52,
+        "median": 55,
+        "p90": 106
+      },
+      "Gunner": {
+        "p10": 81,
+        "median": 84,
+        "p90": 84
+      },
+      "Rafe": {
+        "p10": 29,
+        "median": 29,
+        "p90": 29
+      },
+      "Zach": {
+        "p10": 43,
+        "median": 43,
+        "p90": 43
+      }
+    },
+    "champion_probability": {
+      "Devin": 0.5182,
+      "Gayden": 0.2034,
+      "Gunner": 0.0,
+      "Rafe": 0.0,
+      "Zach": 0.0
+    }
   }
 ]

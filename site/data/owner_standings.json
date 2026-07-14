@@ -4,22 +4,22 @@
   "source": "worldcup26.ir live games",
   "standings": [
     {
+      "owner": "Devin",
+      "total_points": 92,
+      "breakdown": {
+        "match": 48.0,
+        "upset": 0,
+        "advancement": 44.0
+      },
+      "rank": 1
+    },
+    {
       "owner": "Gunner",
       "total_points": 81,
       "breakdown": {
         "match": 53.0,
         "upset": 0,
         "advancement": 28.0
-      },
-      "rank": 1
-    },
-    {
-      "owner": "Devin",
-      "total_points": 71,
-      "breakdown": {
-        "match": 45.0,
-        "upset": 0,
-        "advancement": 26.0
       },
       "rank": 2
     },
