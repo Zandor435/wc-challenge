@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T08:04:26Z",
+  "generated": "2026-07-14T10:46:34Z",
   "source": "daily_results_2026-07-11",
   "date": "2026-07-14",
   "rotation": 30,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "Bubba G draftin' DR Congo like they were about to sneak-attack the tournament from the back door, and yet he's sittin' pretty at the top of the table. **France is comin' in strong, but Bubba better be careful Spain don't rain on his parade.** Meanwhile, Ghost Pepper's got Spain ready to spice things up in Arlington, but drafting Haiti like he was pickin' out exotic hot sauces might be puttin' some heat on his own roster. You gotta back yourself in these matchups, but I'm callin' it: France is gonna put Spain in the chili pot and stir the gumbo — 3-1 for Bubba G."
+    "take": "Bubba G better bring more than his usual backyard BBQ game if he wants France to handle Ghost Pepper's Spain down in Arlington. France is lookin' sharp, but we all know Gunner's draftin' strategy was inspired by his barber's wild tales of a DR Congo Cinderella story. Meanwhile, Spain's been like Devin's homemade salsa — occasionally too hot to handle but just right when the pressure's on. This one's gonna be tighter than new boots on match day, but I'm callin' it for Ghost Pepper — he's gettin' spicy and takin' the W."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Set to Dominate Devin in Clash of Top Teams",
-      "subtitle": "Bubba G's France expected to remind Ghost Pepper who's boss.",
+      "headline": "Bubba G's French Strategy Poised to Outmaneuver Ghost Pepper's Spain",
+      "subtitle": "Gunner's first-place tactics aim to keep Devin at second place.",
       "match": "France vs Spain",
       "date": "2026-07-14"
     },
     {
       "pundit": "donovan",
-      "headline": "Zach's Brazil Looks to Rise Above Humiliation of Switzerland Defeat",
-      "subtitle": "\"Mustard Boy hopes for more than a zero-point day,\" insiders say.",
-      "match": "Group F Preview",
+      "headline": "Mustard Boy's Swiss Precision Fails to Counter Argentine Tango",
+      "subtitle": "Zach's 0 points reflect unmatched overconfidence this round.",
+      "match": "Argentina vs Switzerland",
       "date": "2026-07-14"
     },
     {
       "pundit": "dempsey",
-      "headline": "Rafe's Quest for Soccer Knowledge Continues Despite Bottom Ranking",
-      "subtitle": "The Noisemaker's Germany squad remains his best shot at glory.",
-      "match": "Group F Preview",
+      "headline": "The Noisemaker's Team Sails Steady in Last Place Waters",
+      "subtitle": "Rafe's 29 points showcase commitment to underdog strategy.",
+      "match": "Group Stage Review",
       "date": "2026-07-14"
     },
     {
       "pundit": "lalas",
-      "headline": "Gayden Regroups After England's Victory Over Devin's Norway",
-      "subtitle": "The Backpass Assassin claims it's all part of his master plan.",
+      "headline": "Backpass Assassin Narrowly Edges Ghost Pepper in Tactical Thriller",
+      "subtitle": "Gayden grabs 13 points with England's win over Norway.",
       "match": "Norway vs England",
       "date": "2026-07-14"
     }
   ],
   "rome_analytics_quotes": [
-    "Gunner's banks 81 points, yet somehow DR Congo's Cinderella dream dies early.",
-    "Rafe's Tier-1 Germany flop shows this kid drafted like he's picking names from a hat.",
-    "Rafe's taking -8 points off dad Gayden, making family dinners spicier than ghost peppers.",
-    "Sim keeps Rafe at 0.0% win chance, still blindsided by teenage chaos."
+    "Rafe's Germany bit the dust in the Round of 32 — brutal entry fee!",
+    "Rafe's Tier-1 Germany tanked hard, but at least he's not tier-dependent!",
+    "Gayden taught Rafe an 8-point lesson in head-to-head family feuds.",
+    "Sim's 0.0% chance for Rafe, yet he's still making noise — chaos agent!"
   ]
 }
