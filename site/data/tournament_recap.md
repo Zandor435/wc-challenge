@@ -1,23 +1,23 @@
-### Gunner — 81 pts · 1st · France’s Fortress Under Siege
+### Gunner — 81 pts · 1st · Fortress France Needs No Siege
 
-**Bubba G** sits at the top, but it's looking more like a wobbly perch than an iron throne. France is your last soldier standing, and they're carrying the weight of your fantasy dreams on their shoulders. With Devin breathing down your neck, **you better hope Les Bleus don’t collapse like a soufflé in a thunderstorm**. Gunner, you don’t just need wins now; you need a miracle.
+**Bubba G** stands tall with the mighty Les Bleus still in the game, making 81 points feel like a fortuitous bastion, impenetrable by challengers. But in the cutthroat world of fantasy football, the crown is ever slippery. With Devin and Gayden plotting your downfall, your fortress needs its last tower to hold firm. **Luck may favor the bold, but don’t get too comfortable on that throne, Gunner — the hounds are at the gates**.
 
-### Devin — 71 pts · 2nd · Spain's Last Stand
+### Devin — 71 pts · 2nd · Spain's Must-Ride Flamenco
 
-Devin, **Ghost Pepper**, the flames are flickering, but they haven't burned out yet. Norway’s gut-wrenching exit didn’t help, and now all eyes are on Spain to salvage the campaign. Your lead in win probability might feel like dancing on quicksand now. **Better hope Spain doesn't crash out faster than a faulty Flamenco routine**.
+Devin, your last hope, Spain, must now be the engine in the Ghost Pepper machine. Norway’s heroic battle ended up in the dirt against England, denying you precious advancement points and leaving your 71 total points feeling rather shaky. **You need Spain to whirl through the semis like an ecstatic Flamenco dancer**. Otherwise, your high win probability tempers into just another empty stat.
 
-### Gayden — 52 pts · 3rd · England’s Noble Charge
+### Gayden — 52 pts · 3rd · England’s Lionhearted Roar
 
-Gayden, **The Backpass Assassin**, rides high with England’s march into the semis, scoring a massive 13 points. England’s precision keeps slicing through the competition, showing the young guns and old rivals alike he’s no dinosaur in this game. **It’s a masterclass in fantasy management your son can only dream of**. If England keeps on this rampage, watch out, top two — the old lion is roaring back.
+Gayden, **The Backpass Assassin**, you pulled England out of the fire once again as they vanquished Norway in the quarters! Your 13-point haul roars you up the table, breathing down Devin’s neck like a lion ready to pounce. It’s a masterstroke of fantasy management that keeps your family's Thanksgiving table a nerve-wracking chess match. **Who’s your Daddy, Rafe? Oh right, it’s still Gayden.**
 
-### Zach — 43 pts · 4th · Swiss Dreams Dashed
+### Zach — 43 pts · 4th · Swiss Cheese Defense
 
-Zach, **Mustard Boy**, you’re grimacing through the reality of another barren fantasy table, with Switzerland bowing out after getting flattened by Argentina. **That’s the Swiss exit, and you’re left with nothing but stale pretzels for comfort**. Your only solace might be the comedy of errors and the offseason reshuffle, starting by slapping some sense into your drafting strategy.
+Zach, **Mustard Boy**, the Swiss dreams have turned into Swiss cheese with Argentina carving their way to a semifinal spot. With the curtain falling on Switzerland’s campaign, the 43 points you cling to are feeling more like forgotten crumbs at a picnic than a noble feast. Your drafting mistakes are now on full display — **now’s the time for a strategic overhaul instead of just condiments on the sidelines**.
 
-### Rafe — 29 pts · 5th · The Long Road Up
+### Rafe — 29 pts · 5th · School's Still in Session
 
-**The Noisemaker** is still learning to strike a chord, but Rafe, that overly optimistic draft pick of Germany seems like eons ago. Experience and a real-time soccer lesson are all you’re walking away with so far. **You’re still getting schooled by Dad, but there’s a hint of maverick spirit in you yet**. Remember, every prodigy needs time — just not forever in the basement.
+**The Noisemaker**, Rafe, your fantasy football education continues, as life lessons outnumber championship wins at this point. With Germany's early exit and no more contenders in the dance, you’re at 29 points and staring at Dad from the wrong end of the table. **While you’ll be playing catch-up, no one can deny your maverick spirit, even if it’s in a losing cause**. Keep learning, and maybe next year you'll do some shaking in the standings, not just make noise.
 
 ### THE FATHER-SON SAGA
 
-The family feud is as hot as England’s glorious surge, with **The Backpass Assassin** throwing down the gauntlet and adding another chapter to his legacy over **The Noisemaker**. Gayden's impressive points haul today with England's victory is yet another reminder to Rafe of the chasm between youthful dreams and seasoned strategy. **Rafe, maybe it's time to steal Dad's playbook come Thanksgiving**. You’re down, but if you keep punching above your weight, Dad’s dominance is only as secure as England’s next match.
+This isn't just any family feud; it's the World Cup showdown at the family dinner table. **The Backpass Assassin**, wielding England like a royal sword, has once again shown **The Noisemaker** what seasoned strategy looks like. Gayden’s moves keep stacking the deck against Rafe, leaving the young upstart to ponder his next move. **Come on, Rafe** — Thanksgiving might be your chance to sneak a nibble from Dad’s playbook if you want to claw your way up this league next season.
