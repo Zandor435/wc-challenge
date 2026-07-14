@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T13:42:53Z",
+  "generated": "2026-07-14T16:14:57Z",
   "source": "daily_results_2026-07-11",
   "date": "2026-07-14",
   "rotation": 30,
@@ -7,42 +7,42 @@
     "name": "Clint Dempsey",
     "tone": "chill",
     "color": "#28c060",
-    "take": "**Bubba G’s got the grind squad, but Ghost Pepper’s lookin’ to turn up the heat in Texas.**\n\nAlright, folks, we’ve got ourselves a real clash comin’ up in Arlington: France takin’ on Spain. Bubba G’s sittin’ pretty at the top of the standings 'cause he’s been relyin’ on France to put in some serious work. Devin, the Ghost Pepper, is right on his tail, ridin’ that Spanish flair like he’s tryin’ to impress the waitstaff at a tapas bar. You gotta love Bubba G thinkin' draftin' DR Congo was a mastermind play, but I reckon his barber's got a better shot at cuttin' prime rib than cuttin' goals. Devin’s got all the spice with Spain and the USA, though he probably picked Haiti thinkin’ he was goin’ for the hottest underdog—turns out they’re more like a mild salsa. My money’s on Devin pullin’ out a stunner here; Ghost Pepper’s about to bring the fire and singe France’s baguettes. Write home to momma, Bubba G’s goin’ down!"
+    "take": "**\"Mustard Boy\" Zach might need a map 'cause he's lost out there with his picks.** Yesterday's beatdown of Switzerland by Argentina exposed Zach's strategy like a winger tryin' to play sweeper. With Brazil not quite livin' up to the samba, and Saudi Arabia hittin' like a dead ball, Zach's got some soul searchin' to do. Meanwhile, \"Bubba G\" Gunner and \"Ghost Pepper\" Devin are squarin' off in Arlington with France and Spain goin' toe-to-toe. Look, France's attack is as spicy as a Texas BBQ pit, but Gunner might be bluffin' like he picked DR Congo hopin' they're hidden world-beaters. Devin's Spain is lookin' slicker than an oil spill off the Gulf, but I reckon Gunner's gonna edge this one out, ridin' France's flair like he stumbled on a cheat code. Back yourselves, fellas, but my money's on France puttin' the peppers back in their place."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Mustard Boy's Brazil Strategy Fizzles as Switzerland Adds No Points",
-      "subtitle": "Zach's Tier 1 Brazil vision sees zero aid from Swiss backups.",
-      "match": "Argentina vs Switzerland",
+      "headline": "Gunner's France Faces Devin's Spain in Crucial Showdown",
+      "subtitle": "Bubba G hopes France can solidify his top spot over Ghost Pepper.",
+      "match": "France vs Spain",
       "date": "2026-07-14"
     },
     {
       "pundit": "donovan",
-      "headline": "The Backpass Assassin Rises to Third Despite Poor Draft",
-      "subtitle": "Gayden's underdog strategy yields unexpected success, outclassing Mustard Boy.",
-      "match": "Norway vs England",
+      "headline": "Devin Looks to Narrow Gap in Standings Against Gunner",
+      "subtitle": "Ghost Pepper must rely on Spain to disrupt Bubba G's lead.",
+      "match": "France vs Spain",
       "date": "2026-07-14"
     },
     {
       "pundit": "dempsey",
-      "headline": "Bubba G and Ghost Pepper Prepare for Epic Texas Showdown",
-      "subtitle": "Gunner and Devin set for a managerial clash in Arlington.",
+      "headline": "France and Spain Clash as Devin Eyes Top Ranking",
+      "subtitle": "Ghost Pepper banking on Spanish flair to outshine Bubba G's strategy.",
       "match": "France vs Spain",
       "date": "2026-07-14"
     },
     {
       "pundit": "lalas",
-      "headline": "The Noisemaker Remains Silent as Rafe Holds Last Place",
-      "subtitle": "Rafe's famously loud draft now echoes in fifth, behind all others.",
-      "match": "Group F Preview",
+      "headline": "Gunner's Lead at Risk in France vs Spain Battle",
+      "subtitle": "Bubba G's command tested against Ghost Pepper's Spanish Armada.",
+      "match": "France vs Spain",
       "date": "2026-07-14"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's chaos agent status confirmed: zero win chance, yet still a contender.",
-    "Rafe's draft picks scream disaster: not a single qualified team in top three.",
-    "Gayden's dad-bod record: son Rafe may own him, but only head-to-head.",
-    "Gunner dethroned by teenager! Sim favorites need a better sponsor."
+    "Gunner's ahead with 81 points, but Rafe's just happy to not finish last.",
+    "Rafe's draft disaster made him the king of Tier-4 chaos, accidentally.",
+    "Gayden's schooling Rafe with an 8-point differential; Father knows best, kid.",
+    "Sim's accuracy took a nosedive with Rafe causing chaos left and right."
   ]
 }
