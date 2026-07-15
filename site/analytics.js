@@ -277,8 +277,13 @@ function computeEliminated(daily, matchesMeta, narrative) {
 
   try {
     if (!matchesMeta || !matchesMeta.length) return out;
-    const teamGroup = {}; const groupTeams = {};
+    const teamGroup = {}; const groupTeams = {}; const koTeams = new Set();
     matchesMeta.forEach((m) => {
+      if (m.phase && m.phase !== "group") {
+        // Teams that reached the knockout bracket (resolved fixtures only).
+        [m.team1, m.team2].forEach((t) => { if (t && t !== "TBD") koTeams.add(t); });
+        return;
+      }
       if (m.phase !== "group" || !m.group) return;
       [m.team1, m.team2].forEach((t) => {
         if (!t || t === "TBD") return;
@@ -295,17 +300,19 @@ function computeEliminated(daily, matchesMeta, narrative) {
       h.played++; a.played++; h.gf += hs; a.gf += as; h.gd += hs - as; a.gd += as - hs;
       if (hs > as) h.pts += 3; else if (as > hs) a.pts += 3; else { h.pts += 1; a.pts += 1; }
     }));
-    Object.entries(groupTeams).forEach(([, teams]) => {
-      const ts = [...teams];
-      if (ts.length < 4) return;
-      const complete = ts.every((t) => (tbl[t] && tbl[t].played >= 3));
-      if (!complete) return;
-      const ranked = ts.slice().sort((x, y) => {
-        const X = tbl[x], Y = tbl[y];
-        return (Y.pts - X.pts) || (Y.gd - X.gd) || (Y.gf - X.gf) || x.localeCompare(y);
+    // A team that finished the group stage but did NOT reach the knockout bracket
+    // is out — that includes 3rd-place non-qualifiers (only 8 of 12 thirds advance),
+    // not just the last-place team. Guard on a resolved bracket (koTeams populated)
+    // so a whole group is never marked out before the R32 is drawn.
+    if (koTeams.size) {
+      Object.entries(groupTeams).forEach(([, teams]) => {
+        const ts = [...teams];
+        if (ts.length < 4) return;
+        const complete = ts.every((t) => (tbl[t] && tbl[t].played >= 3));
+        if (!complete) return;
+        ts.forEach((t) => { if (!koTeams.has(t)) out.add(t); });
       });
-      out.add(ranked[ranked.length - 1]);
-    });
+    }
   } catch (_) { /* degrade to KO-only */ }
   return out;
 }
