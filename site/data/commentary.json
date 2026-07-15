@@ -1,48 +1,48 @@
 {
-  "generated": "2026-07-15T19:10:44Z",
-  "source": "daily_results_2026-07-14",
-  "date": "2026-07-15",
-  "rotation": 31,
+  "generated": "2026-07-15T22:00:33Z",
+  "source": "daily_results_2026-07-15",
+  "date": "2026-07-18",
+  "rotation": 32,
   "pundit": {
-    "name": "Alexi Lalas",
-    "tone": "bombastic",
-    "color": "#f4a423",
-    "take": "**Devin, you think you're top of the pile with Spain's glory, but let me tell you something: you're one slip away from flopping like a fish out of water!** Yeah, you got Spain pulling a wonder show against Gunner's France, but don't think for a second that makes you the king of this fantasy hill. You've got USA and Norway dragging behind like anchors, and Bosnia? Seriously, Devin, LOOK AT ME. You drafted Bosnia. Now, Mustard Boy, Zach—your Brazil might be samba-ing, but the rest of your squad is a hodgepodge of \"what were you thinking?\" territories. Switzerland and Austria aren't exactly setting the world on fire, and Saudi Arabia? You might as well have drafted a team of my old World Cup mullets from '94. Bubba G, Gunner, you're the only one keeping this pool competitive, but falling short against Spain shows you lack that killer edge. And Ghost Pepper, you need to ignite that spice or get ready to cry in the basement with The Noisemaker, who, frankly, is doing exactly what we expected: chaos incarnate, still thinking every match is a goal-fest like it's his fifteenth birthday party. This pool is shaping up to be a battle of attrition, and if you don't all step up, we'll be crowning the least pathetic rather than the most dominant. Now, you all think on that."
+    "name": "Eric Wynalda",
+    "tone": "arrogant",
+    "color": "#e2231a",
+    "take": "**The Backpass Assassin fumbles, while Bubba G knows how to win like champions.** France is coming off a dominant group stage and looks every bit the contender you'd expect from a world-class squad, and yet here we have Gayden, The Backpass Assassin, who drafted England— a team famous for underachieving when it matters most. It's like drafting a Ferrari that consistently loses to Hyundai. This is a joke. England's recent loss to Argentina proves my point; their fragile psyche will crumble against France's flair and tenacity. On the other hand, Gunner, or \"Bubba G,\" clearly understood the assignment by picking France in Tier 1, a team built for glory. Unlike Gayden, whose knowledge seems to evaporate under pressure, Bubba G executed a draft strategy that reflects a mind steeped in actual football understanding. England stands no chance here, folks. Expect Bubba G's France to thump the English and further cement Gayden's role as the comic relief of this fantasy pool."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Devin's Spain Outclasses Gunner's France, Solidifies Top Spot",
-      "subtitle": "Ghost Pepper's strategic brilliance leaves Bubba G's team goalless.",
-      "match": "France vs Spain",
-      "date": "2026-07-15"
+      "headline": "Bubba G's France Set to Outclass The Backpass Assassin's England",
+      "subtitle": "Gunner's strategy: spend most points on teams that win matches.",
+      "match": "France vs England",
+      "date": "2026-07-18"
     },
     {
       "pundit": "donovan",
-      "headline": "England Faces Argentina with Gayden Avoiding Eye Contact",
-      "subtitle": "The Backpass Assassin reportedly focused on scouring tier three talent.",
-      "match": "England vs Argentina",
-      "date": "2026-07-15"
+      "headline": "The Backpass Assassin Hopes England Avoids Backpass Against France",
+      "subtitle": "After Argentina loss, Gayden's tactics include praying and wishful thinking.",
+      "match": "France vs England",
+      "date": "2026-07-18"
     },
     {
       "pundit": "dempsey",
-      "headline": "Zach's Brazil Seeks Redemption as Standings Slide Continues",
-      "subtitle": "Mustard Boy contemplates coaching from the condiment aisle.",
+      "headline": "Mustard Boy Acknowledges Real Bad Choice with Switzerland Pick",
+      "subtitle": "Zach's method: draft random European countries for cultural diversity.",
       "match": "Group F Preview",
-      "date": "2026-07-15"
+      "date": "2026-07-18"
     },
     {
       "pundit": "lalas",
-      "headline": "Rafe's Teams Still Searching for the World Cup Entry",
-      "subtitle": "The Noisemaker's strategic draft includes teams spectating in Uzbekistan.",
+      "headline": "Noisemaker Rafe Likely to Stay Quiet as Germany Underperforms",
+      "subtitle": "Rafe's bold move: selecting teams with more vowels than wins.",
       "match": "Group F Preview",
-      "date": "2026-07-15"
+      "date": "2026-07-18"
     }
   ],
   "rome_analytics_quotes": [
-    "Devin swings a 21-point day like a hammer on Gunner's dreams.",
-    "Gayden's 63% Tier-1 dependency screams 'England's carrying me, guys!'",
-    "Rafe owns Devin with a +6 head-to-head shocker — the kid's got chops.",
-    "Sim had Gunner as favorite; now it's watching him eat Rafe's dust."
+    "Devin leads with a max single-day haul of 21 points—total domination, people.",
+    "Gunner's Cinderella DR Congo scores, but Tier-1 dependency still crushes dreams.",
+    "Rafe spanks Devin twice; clearly, youth is wasted on the not-so-young.",
+    "The model says Devin should win, yet Rafe continues to break the matrix."
   ]
 }

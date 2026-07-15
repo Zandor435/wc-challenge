@@ -1893,6 +1893,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-15",
+      "matches": [
+        {
+          "date": "2026-07-15",
+          "stage": "knockout",
+          "round": "SF",
+          "home": "England",
+          "away": "Argentina",
+          "home_score": 1,
+          "away_score": 2,
+          "score": "England 1-2 Argentina",
+          "points": {
+            "Gayden": 0.0
+          },
+          "math": [
+            "KO WIN (Semifinal): Argentina undrafted, no points",
+            "KO LOSS: England (Gayden) +0"
+          ]
+        }
+      ]
     }
   ]
 }

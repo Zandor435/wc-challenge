@@ -1,23 +1,23 @@
-### Devin — 92 pts · 1st · The Ghost Pepper Ignites
+### Devin — 92 pts · 1st · Ghost Pepper Reigns Supreme
 
-Devin, continuing to dominate from the top like the true **Ghost Pepper** you are, cooked Gunner's France with Spain's emphatic 2-0 win. A massive 21-point eruption has you sitting pretty with a foot in the door of the finals, and everyone else looking like they're gasping for air. **Just don't choke, it's a long way down from that summit if you slip up in these final matches**.
+Devin, you're still reigning supreme at the summit with **Spain** as your ace, and you’ve turned this league into your personal showcase. The **Ghost Pepper** continues to keep the heat on Gunner and the rest of the pack. With the WC Challenge's end in sight, just don't let that 50.0% champion probability turn into a fantasy sports tragedy. **You're one hiccup away from a meltdown of epic proportions.**
 
-### Gunner — 81 pts · 2nd · Bubba G’s Burnt Ends
+### Gunner — 81 pts · 2nd · Bubba G’s Smoking Taper
 
-Gunner, **Bubba G**, saw your dreams go up in smoke with France hitting a dead end against Devin's Spain. You watched the points slip through your fingers like sand at the beach—**all you have left now are fond memories of what could've been**. Your once bright flame is now just a flicker in the rearview mirror.
+Gunner, **Bubba G**, you're still sitting pretty in second place, but the loss of France in the semis means your chances have gone the way of the dodo. Your points total is sturdy, but without a team left in the fight, **you're the scariest ghost at the party without a costume**. The only thing that could save you now is divine intervention or a miracle from the soccer gods.
 
-### Gayden — 52 pts · 3rd · The Backpass Assassin Lays in Wait
+### Gayden — 52 pts · 3rd · The Backpass Assassin’s Last Stand
 
-Despite Devin's leap, Gayden remains steadfast at third, clinging to England like a lifeline. **The Backpass Assassin** is playing the long con, waiting for a crack in the top two. With your W3 streak, you still have an ace up your sleeve; but remember, your own son **The Noisemaker** is lurking, igniting family pride over tournament gold.
+Gayden, the stage was set for England to deliver, but alas, the curtains came down all too soon. **The Backpass Assassin's** hiding in the shadows, hoping for a comeback that never arrived. Your W3 streak is long gone, and Rafe's laughing louder than your roar. **Time to plan for the next season before your child claims the throne.**
 
-### Zach — 43 pts · 4th · Mustard Boy’s Expired Condiments
+### Zach — 43 pts · 4th · Mustard Boy’s Humble No-Show
 
-Zach, for **Mustard Boy**, it's been more of the same, and that's not a compliment. With the elimination of Switzerland, you're in a pickle with nowhere to go and nobody to tow ya. **You've been trying to pump some life into this failing brand, but the bitter taste of defeat is all that's left on your palate**.
+Zach, **Mustard Boy**, your condiment kingdom has officially crumbled with no match points to speak of today. Sitting in a pickle with **Brazil** out and a roster that just couldn't cut the mustard, **all you have left now is expired relish and the bitter taste of missed opportunities.** You might want to consider drafting a new strategy because what you've got ain't cutting it.
 
-### Rafe — 29 pts · 5th · The Noisemaker’s Silent Show
+### Rafe — 29 pts · 5th · The Noisemaker’s Unheard Racket
 
-Little Rafe, **The Noisemaker**, you might be in last place but you're still a thorn in the side of the so-called veterans. Boasting two victories over Devin shows your disruptive potential, yet the standings tell the truth—zero chance to win, but a definite win for chaos. **Keep up the antics, rookie; your presence is louder than your score shows**.
+Rafe, **The Noisemaker**, you continue to be that pesky mosquito buzzing in everyone's ear despite your last-place standing. Your draft disaster and zero chance of victory don't stop you from pulling off upsets and a head-to-head record against Devin that's obscene. **Chaos is your friend, but a higher rank isn't in the cards.** Keep causing a ruckus; it's the only thing you're winning at.
 
 ### THE FATHER-SON SAGA
 
-The tension in the **Backpass Assassin** versus **The Noisemaker** showdown is boiling over. Gayden, the seasoned contender, is holding his own against the youthful dynamism of Rafe. This family feud is more intense than any Thanksgiving turkey, and with only a few matches left, **who takes home the ultimate bragging rights is anyone's guess**.
+The epic showdown of Gayden vs. Rafe — **The Backpass Assassin** versus **The Noisemaker** — has simmered down into a family affair no one saw coming. Gayden's England crashing out puts even more pressure on family dinner dynamics. With Rafe's insatiable desire to dethrone dad, **it's the battle of pride over points**, and Thanksgiving's gonna be must-watch reality TV.

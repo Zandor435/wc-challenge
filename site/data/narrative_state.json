@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-15T19:10:44Z",
+  "generated": "2026-07-15T22:00:33Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
     "current_round": "Semifinal",
     "is_preseason": false,
-    "matchdays_played": 31,
-    "matches_played": 101,
-    "matches_remaining": 3,
+    "matchdays_played": 32,
+    "matches_played": 102,
+    "matches_remaining": 2,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -155,6 +155,11 @@
         "team": "France",
         "owner": "Gunner",
         "round": "Semifinal"
+      },
+      {
+        "team": "England",
+        "owner": "Gayden",
+        "round": "Semifinal"
       }
     ]
   },
@@ -199,7 +204,7 @@
     },
     "Gunner": {
       "rank": 2,
-      "rank_change_from_prev_day": -1,
+      "rank_change_from_prev_day": 0,
       "total_points": 81,
       "points_today": 0,
       "record": {
@@ -243,14 +248,14 @@
       "record": {
         "W": 10,
         "D": 3,
-        "L": 10
+        "L": 11
       },
-      "win_probability": 0.2,
-      "champion_probability": 0.2,
+      "win_probability": 0,
+      "champion_probability": 0,
       "streak": {
-        "type": "W",
-        "length": 3,
-        "label": "W3"
+        "type": "L",
+        "length": 1,
+        "label": "L1"
       },
       "best_team": {
         "team": "England",
@@ -259,7 +264,7 @@
         "record": {
           "W": 5,
           "D": 1,
-          "L": 0
+          "L": 1
         }
       },
       "worst_team": {
@@ -275,16 +280,16 @@
     },
     "Devin": {
       "rank": 1,
-      "rank_change_from_prev_day": 1,
+      "rank_change_from_prev_day": 0,
       "total_points": 92,
-      "points_today": 21,
+      "points_today": 0,
       "record": {
         "W": 15,
         "D": 3,
         "L": 11
       },
-      "win_probability": 0.8,
-      "champion_probability": 0.52,
+      "win_probability": 1,
+      "champion_probability": 0.5,
       "streak": {
         "type": "W",
         "length": 1,
@@ -1113,6 +1118,17 @@
         "Devin": 21,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 32,
+      "date": "2026-07-15",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
@@ -1374,6 +1390,14 @@
       "description": "France (Gunner) eliminated in the Semifinal"
     },
     {
+      "type": "elimination",
+      "date": "2026-07-15",
+      "team": "England",
+      "owner": "Gayden",
+      "round": "Semifinal",
+      "description": "England (Gayden) eliminated in the Semifinal"
+    },
+    {
       "type": "biggest_day",
       "date": "2026-07-14",
       "owner": "Devin",
@@ -1420,9 +1444,9 @@
         "Zach": 5
       },
       "rank_change": {
-        "Zach": -2,
-        "Gunner": 0,
-        "Gayden": 1,
+        "Zach": -3,
+        "Gunner": -1,
+        "Gayden": 3,
         "Devin": -2,
         "Rafe": 3
       }
@@ -2354,6 +2378,37 @@
         "Gunner": -1,
         "Gayden": 0,
         "Devin": 1,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "points": {
+        "Zach": 43,
+        "Gunner": 81,
+        "Gayden": 52,
+        "Devin": 92,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Devin": 1,
+        "Gunner": 2,
+        "Gayden": 3,
+        "Zach": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
         "Rafe": 0
       }
     }
