@@ -1,23 +1,23 @@
-### Devin — 92 pts · 1st · Ghost Pepper's High Heat
+### Devin — 92 pts · 1st · Ghost Pepper's Blaze
 
-Devin, you're still the one haunting the leaderboard at 92 points. Spain's takedown of France was **Ghost Pepper** in peak form, as your 21-point single-day haul could be the knockout punch to the pool. With the championship odds in your corner, are you just warming up, or will the pressure crack the ghost?
+Devin, you're hotter than a Carolina Reaper right now! **Ghost Pepper** is burning up the leaderboard with Spain's 21-point demolition of France, catapulting you to a commanding 92 points. With the best win probability and champion odds, you’re making it spicy at the top. Are you cruising to glory, or is there a hiccup waiting in the last act?
 
-### Gunner — 81 pts · 2nd · Bubba G's Broken Bastion
+### Gunner — 81 pts · 2nd · Bubba G's French Fizzle
 
-**Bubba G**, you had France in your corner, and now all you have is a shattered dream. Your 0-point slap in the face from Spain's victory has left your fortress in ruins. You might still be second, but without any teams left, it's damage control time — better luck next cup!
+**Bubba G**, France was your last bastion, and now it’s nothing but a memory. That 0-point nightmare against Spain means your chances of chasing Devin are as good as winning the lottery. You've been knocked from your Cinderella perch and now it's all over but the crying. Hold your head high, big man—there’s always next year.
 
-### Gayden — 52 pts · 3rd · The Backpass Assassin's Last Stand
+### Gayden — 52 pts · 3rd · The Backpass Assassin's Twilight
 
-Gayden, **The Backpass Assassin** is hanging in there with 52 points. England stands tall for you, keeping your championship hopes barely flickering. Rivalries and strategies aside, are you daring to dream or facing the harsh light of reality? Time to conjure those backpass miracles.
+Gayden, **The Backpass Assassin** is slipping into the shadows at 52 points with only England to carry your dreams. It's been a gutsy run, but it’s time to face the music—your son's footsteps are growing louder. You might have taught **The Noisemaker** everything he knows, but maybe not everything you know.
 
-### Zach — 43 pts · 4th · Mustard Boy's Flat Finals
+### Zach — 43 pts · 4th · Mustard Boy's Sour Finish
 
-Zach, at 43 points, it's been a washout. With your Swiss hopes dashed, the **Mustard Boy**'s tang has completely fizzled out — more like expired mustard than the kick we expected. The offseason can't come soon enough for your tarnished condiment throne.
+Zach, at 43 points, the mustard has officially gone sour. **Mustard Boy** couldn’t cut the mustard this season as your Swiss dreams vanished and Brazil didn’t quite sizzle. The off-season is knocking, and it's time to recharge that condiment empire for another go.
 
-### Rafe — 29 pts · 5th · The Noisemaker's Silent End
+### Rafe — 29 pts · 5th · The Noisemaker's Learning Curve
 
-Rafe, you’ve got the fire of a 15-year-old and the points of a busted echobox at 29. **The Noisemaker**'s draft calamities are now folklore, and any chance of noise-making is going to be mere whispers at this rate. But don't count the youngest out just yet—every great story starts with a scrappy underdog.
+Rafe, you're holding steady with the scrappy energy of youth, even if **The Noisemaker** is ending in last place with 29 points. Your draft disasters have been the stuff of legends, but don’t let it haunt you. This season was a learning curve—next time, you’ll bring the noise for real.
 
 ### THE FATHER-SON SAGA
 
-In the Rome dome, the father-son clash is the stuff of legends. Gayden holds a comfy lead at 52 points over Rafe's 29, but this isn't just about point totals. This Thanksgiving, pass the cranberry sauce and watch the sparks fly as **The Backpass Assassin** faces **The Noisemaker** at the family table. The kid might still be learning the ropes, but the heart? It's pure championship material.
+The father-son drama continues to simmer. Gayden holds a lead over Rafe, but **The Backpass Assassin** knows he’s created a worthy adversary in **The Noisemaker**. Thanksgiving dinner will be a showdown of wits and banter, as the young underdog shares the table with a seasoned vet. Rafe might be down, but watch out world—he’s far from out!
