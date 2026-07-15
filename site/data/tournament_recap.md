@@ -1,23 +1,23 @@
-### Devin — 92 pts · 1st · Ghost Pepper at the Summit
+### Devin — 92 pts · 1st · The Ghost Pepper Blaze
 
-Devin, the **Ghost Pepper** has seared its way to an unassailable lead with a fiery 21-point takedown in the semifinals. Spain’s dominance has you sitting pretty at the top, and with the tournament winding down, your victory tour may as well begin now. You're living up to the spicy moniker—just hope it doesn’t get extinguished at the last.
+Devin, aka the **Ghost Pepper**, is incinerating the competition with Spain blazing a path to the final. A 21-point haul today has you sitting like a king on the mountain, looking down at the world. You're the 52.0% favorite to take the crown, but remember, the summit is windy and unstable—**just don't trip on that last step down**.
 
-### Gunner — 81 pts · 2nd · Bubba G's Fall
+### Gunner — 81 pts · 2nd · Bubba G’s Fading Flame
 
-Well, **Bubba G**, looks like the fairytale carriage has turned back into a pumpkin. France's flameout means you're left clinging to a distant second with zero chances of catching the runaway **Ghost Pepper**. The only thing left is to admire the view on your way down the mountain.
+**Bubba G**, your run-up the hill was something to behold, but the loss against Devin’s Spain leaves you in second place, and that’s where you'll stay. France's defeat is the final nail in your World Cup coffin. It's time to wave the white flag as **the Ghost Pepper** torches your dreams of a miraculous comeback.
 
-### Gayden — 52 pts · 3rd · The Backpass Assassin's Last Stand
+### Gayden — 52 pts · 3rd · The Backpass Assassin's Resilience
 
-Gayden, **The Backpass Assassin** continues to muster a respectable performance with England carrying the torch. But let’s face facts—you're out of moves, and the only noise left is the echo of a father scrambling to stay ahead. Thanksgiving's gonna get awkward with **The Noisemaker** breathing down your neck.
+Gayden, **The Backpass Assassin**, still clings to third place while England seems like your only lifeline. Your W3 streak has everyone wondering if you still got some tricks up your sleeve. **Just be careful—your son, The Noisemaker, is primed to pounce the second you slip**.
 
-### Zach — 43 pts · 4th · Mustard Boy's Exit
+### Zach — 43 pts · 4th · Mustard Boy's Yellow Card
 
-Zach, it's game over for **Mustard Boy** as you finish in a mustard-free zone. Your Swiss hopes and Brazilian dreams evaporated long ago, leaving you adrift in fourth place. Time to regroup and rebrand for another condiment campaign next season.
+Zach, the sputtering engine of **Mustard Boy's** squad continues to run on fumes. With Switzerland eliminated, your team is stuck in neutral, and it’s going to take more than hope and condiments to pull you out of this one. **Your rebranding can’t come soon enough**, because this campaign is definitely leaving a bad taste.
 
-### Rafe — 29 pts · 5th · The Noisemaker's Echo
+### Rafe — 29 pts · 5th · The Noisemaker's Echo Still Heard
 
-Rafe, **The Noisemaker** may have ended in last place, but you're far from a punchline. Your draft disaster was epic, yet you still managed to rattle some cages—twice beating the flaming-hot **Ghost Pepper**. You've shown the instincts of a sleeper agent. Keep the noise coming, rook.
+Rafe, **The Noisemaker**, your echo still lingers in the halls of this competition. Despite ending in last place with no hope of climbing, your knack for shaking up the leaders—**especially when rattling Devin’s Ghost Pepper**—earns you a badge of honor. For a 15-year-old rookie, your presence has done anything but fade.
 
 ### THE FATHER-SON SAGA
 
-Talk about a house divided! **The Backpass Assassin** is teetering on the brink as he eyes a surging **Noisemaker** ready to make his own mark. Gayden is desperately holding his spot in the standings as his son Rafe refuses to be just another footnote. This father-son dynamic is setting the stage for a spicy family reunion, with bragging rights lasting right up to the next World Cup.
+The eternal battle between **The Backpass Assassin** and **The Noisemaker** reaches a simmering climax. Gayden might have the edge now, but Rafe’s been chipping away at his old man’s lead with strategic victories. This is more than just a scoreboard—**it’s a generational duel for the ages**, where the real prize is familial bragging rights.
