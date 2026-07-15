@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T13:43:00Z",
+  "generated": "2026-07-15T16:21:43Z",
   "source": "daily_results_2026-07-14",
   "date": "2026-07-15",
   "rotation": 31,
@@ -7,42 +7,42 @@
     "name": "Alexi Lalas",
     "tone": "bombastic",
     "color": "#f4a423",
-    "take": "Devin, look at me. LOOK AT ME. Your Ghost Pepper squad is leading this merry band of misfits, but it’s more like you're barely surviving on life support rather than dominating the competition. Sure, you snagged a hefty 21 points when Spain embarrassed Gunner's beloved France in a display that redefined the term 'flop,' but let's not pretend your picks came from some prophetic vision. Meanwhile, Gunner, also known as the ever-hopeful Bubba G, your second-place standing feels more like a participation trophy—congratulations on maintaining mediocrity with a pitiful 81 points, most of which are crumbs picked up because other managers are even less competent. Gayden, the so-called Backpass Assassin, your 52 points are just a testament to what happens when you draft teams like you're playing FIFA on easy mode and forget midfielders need to advance the ball—not pass it backward like a jittery meerkat. And Zach, Mustard Boy, you sit quietly in fourth with just 43 points, proving once again that picking Brazil doesn’t make up for the fact that the rest of your roster screams \"we almost didn’t qualify!\" Lastly, there's Rafe, The Noisemaker, who with 29 points has fewer points than I have had decent haircuts — kid, you're either the ballsiest manager or just blissfully unaware, and I'm betting on the latter. Let me tell you something: in this game of fantasy soccer, there's no room for timid hearts. You all think you've seen competition, but unless you start drafting like you mean it, you'll never touch the glory of those who truly bled for the beautiful game. Mic drop."
+    "take": "Gunner, you should be downright embarrassed that your beloved France couldn't even muster a single goal against Devin's Spain—0-2, bub! Let me tell you something, \"Bubba G,\" you strut around like you've got this in the bag, but the only bag you've got is full of hot air! Devin, yeah, you're at the top right now with 92 points, but don't start booking your victory parade yet. You picked Bosnia, and in my book, that says you've got a weakness, a chink in the armor, a moment of ill-preparation that will cost you dearly. Gayden, \"The Backpass Assassin,\" how could you possibly allow yourself to languish in third place at 52 points with England at the helm? Look at me! This sport is about risk and courage, and you picking Jordan? It's like you threw a dart blindfolded and hoped for magic! And Zach—oh, \"Mustard Boy,\" you're sitting at fourth with a paltry 43 points, and you've got Brazil on your roster. It's like owning a Ferrari and driving it like a minivan. Rafe, \"The Noisemaker,\" when you drafted three teams that didn't even qualify, you set a new low in the annals of fantasy sport. You're at 29 points; the only thing you're leading is a youth soccer team to the nearest ice cream truck. This battle is far from over, gentlemen, but mark my words, if you don't wise up, you'll find yourself further humiliated faster than you can say \"1994 World Cup glory days.\""
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Devin Stuns World Cup Pool with Spain's Clinical Victory Over France",
-      "subtitle": "Ghost Pepper says strategy of not drafting France was 'deliberate'",
-      "match": "France vs Spain",
-      "date": "2026-07-15"
-    },
-    {
-      "pundit": "donovan",
-      "headline": "Gayden's England Set to Face Argentina Amid Mid-table Managerial Struggles",
-      "subtitle": "The Backpass Assassin faces high-stakes clash, remains third overall",
+      "headline": "Gayden's England poised for tactical backpass extravaganza against Argentina",
+      "subtitle": "Sources say the midfielders are practicing backwards passes at camp.",
       "match": "England vs Argentina",
       "date": "2026-07-15"
     },
     {
-      "pundit": "dempsey",
-      "headline": "Zach Optimistic Despite Brazil's Upcoming Match Amidst Standings Slump",
-      "subtitle": "Mustard Boy claims fourth place 'just a pit stop'",
+      "pundit": "donovan",
+      "headline": "Mustard Boy Zach holds onto fourth with innovative Saudi Arabia pick",
+      "subtitle": "Experts claim drafting non-contenders might be key to Zach's strategy.",
       "match": "Group F Preview",
       "date": "2026-07-15"
     },
     {
+      "pundit": "dempsey",
+      "headline": "Devin boosts lead as Spain shuts out heavily favored France",
+      "subtitle": "Ghost Pepper spices up the competition by dropping Gunner to second.",
+      "match": "France vs Spain",
+      "date": "2026-07-15"
+    },
+    {
       "pundit": "lalas",
-      "headline": "Rafe's Draft Strategy Questioned as Germany Fails to Lift Points",
-      "subtitle": "The Noisemaker insists on long-term vision, currently ranked fifth",
+      "headline": "Rafe 'The Noisemaker' falls silent with three unqualified teams",
+      "subtitle": "Youngest manager sets bold new record for drafting non-participants.",
       "match": "Group F Preview",
       "date": "2026-07-15"
     }
   ],
   "rome_analytics_quotes": [
-    "Devin banks 21 points in a day, leaving the competition in the dust.",
-    "Rafe drafted three ghosts to the World Cup: Nigeria, Poland, Jamaica. Pillar of success.",
-    "Rafe schooled Devin twice. Chaos kid toppling giants, one dad at a time.",
-    "Gunner's 0.0% win probability turned into a teenager's biggest nightmare. Overrated much?"
+    "Devin's win probability laughs at Rafe's draft disaster - 0.8% to 0.0%.",
+    "Rafe's Tier-1 picks were a master class in non-qualification comedy gold.",
+    "Rafe couldn't buy a win against Gunner; crushed 0-2 in head-to-head.",
+    "Sim's best was predicting Devin as champion; everything else is chaos predictions."
   ]
 }
