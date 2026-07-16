@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T11:00:13Z",
+  "generated": "2026-07-16T13:49:55Z",
   "source": "daily_results_2026-07-15",
   "date": "2026-07-18",
   "rotation": 32,
@@ -7,42 +7,42 @@
     "name": "Eric Wynalda",
     "tone": "arrogant",
     "color": "#e2231a",
-    "take": "**Rafe, are you even aware this isn't a FIFA video game?**\n\nThe Noisemaker's performance in this pool is nothing short of a disaster, and his draft picks scream pure chaos from a 15-year-old who clearly can't tell a corner kick from a goal kick. With Germany as his only serious pick, Rafe's been left dreaming of fantasy glory while stuck at the bottom with a paltry 29 points. At least Devin, aka Ghost Pepper, looks like he's played the game before, cruising in first place thanks to savvy choices like Spain and USA. Now, coming up in Miami Gardens, we have Bubba G’s France ready to dismantle Gayden’s England. This isn’t just a clash between European soccer giants; it's a showcase of Bubba G’s superior drafting might. Gayden’s England just fell to Argentina, exposing their vulnerability, while Gunner’s France is poised to exploit every little weakness. Mark my words: France will dominate, because unlike The Backpass Assassin, Bubba G actually understands that football isn’t just about playing it safe."
+    "take": "Pundits are warming up..."
   },
   "pundit_takes": [
     {
       "pundit": "wynalda",
-      "headline": "Gunner Prepares For Clash With England, Confident In France's Tier 1 Status",
-      "subtitle": "Bubba G banking on 'always beating England' strategy despite no actual upsets.",
-      "match": "France vs England",
+      "match": "League Preview",
+      "headline": "Analyst Declares Draft Already Over Before Opening Whistle",
+      "subtitle": "'I have seen enough,' says man who has watched zero qualifiers",
       "date": "2026-07-18"
     },
     {
       "pundit": "donovan",
-      "headline": "Gayden's England Faces France In Challenge To Climb From Third Place",
-      "subtitle": "The Backpass Assassin hopes Japan's vending machines offer strategic inspiration.",
-      "match": "France vs England",
+      "match": "League Preview",
+      "headline": "Manager Commended For Bold Plan Of Hoping His Teams Score",
+      "subtitle": "Sources confirm no contingency exists beyond that",
       "date": "2026-07-18"
     },
     {
       "pundit": "dempsey",
-      "headline": "Bubba G Eyes Chance To Close Gap On Devin With French Flair",
-      "subtitle": "With zero upset points, Gunner prefers predictability over surprises.",
-      "match": "France vs England",
+      "match": "League Preview",
+      "headline": "Owner Insists Last-Place Projection Is Exactly Where He Wants To Be",
+      "subtitle": "Model gives the strategy a four percent chance of working",
       "date": "2026-07-18"
     },
     {
       "pundit": "lalas",
-      "headline": "Devin Holds Top Spot As France And England Set For Showdown",
-      "subtitle": "Ghost Pepper's spicy lead remains untouched by England's scoring struggles.",
-      "match": "France vs England",
+      "match": "League Preview",
+      "headline": "Pundit Demands All Five Managers Explain Themselves To His Face",
+      "subtitle": "Reportedly, not one of them can",
       "date": "2026-07-18"
     }
   ],
   "rome_analytics_quotes": [
-    "Rafe's Mexico made it past Round of 32 while Germany got KO'd early. Ouch.",
-    "Gunner's Tier-1 France barely saved his draft day from being a total catastrophe.",
-    "Devin can't touch Rafe in H2H, losing twice to the kid everyone said was clueless.",
-    "The sim bet on Gunner but got blindsided by the rookie, Rafe. Embarrassing."
+    "The numbers don't lie, but your draft does.",
+    "You spent a first-round pick on THAT? Bold strategy, Cotton.",
+    "Somebody in this pool is getting bullied. Check the tape.",
+    "The sim called it. You're just here for the receipts."
   ]
 }
