@@ -1,23 +1,23 @@
-### Devin — 92 pts · 1st · Ghost Pepper's Grip Tightens
+### Devin — 92 pts · 1st · Ghost Pepper Dominance
 
-Devin, the **Ghost Pepper** just keeps sizzling at the summit with his unrivaled run. Spain's been the anchor to success, and with only two matches left, the trophy seems to be all but gift wrapped for you. **Let's hope your epic fantasy prowess is a touch spicier than your actual soccer knowledge**, given that lucky draft.
+Devin, **Ghost Pepper**, it's still your world and the rest of us are just living in it. Spain’s perfect run keeps your grip iron-tight on the top spot. **Even if your soccer IQ is questionable**, your team management is anything but. The trophy seems all but secured, yet the chaos of this league suggests we wait for the final whistle.
 
-### Gunner — 81 pts · 2nd · Bubba G’s Fall from Grace
+### Gunner — 81 pts · 2nd · Bubba G's Last Gasps
 
-Gunner, **Bubba G**, despite a solid point tally, you're stuck in the mud with no traction. Your path is paved with eliminated hopes and dreams as France crashes out. **Your status as king of the non-winners has never been more pronounced** — maybe Netflix will pick up your Cinderella story, minus the glass slipper.
+Gunner, **Bubba G**, you’re stuck in second gear while Devin speeds towards the finish line. France's exit from the semifinals was the nail in your fantasy coffin. **Your title dreams faded faster than Rafe's random draft picks**, yet you’ve held on to the consolation prize of a respectable finish.
 
-### Gayden — 52 pts · 3rd · The Backpass Assassin's Final Misstep
+### Gayden — 52 pts · 3rd · Backpass Assassin’s Tactical Fumble
 
-Gayden, your **Backpass Assassin** tactics have left you stranded with England's recent exit. Zero new points today underline the agony of your broken strategies. **Your shot at glory crumbled faster than your dignity**, leaving Rafe to deliver the post-game shade at the dinner table.
+Gayden, **The Backpass Assassin**, England's knockout by Argentina is the final dagger. Your tactics have run dry, leaving you with nothing but a seat at Rafe’s relentless laugh table. **Looks like you’ll be passing that salt at Thanksgiving**, and not just because of the turkey.
 
-### Zach — 43 pts · 4th · Mustard Boy’s Last-Place Finish
+### Zach — 43 pts · 4th · Mustard Boy’s Stale Recipe
 
-Zach, **Mustard Boy**, the expiration date on your championship hopes expired weeks ago. Switzerland's limited contribution spelled doom, leaving an uninspired finale. **Your roster's as vibrant as a stale hot dog**, but with no more room on the condiment shelf.
+Zach, **Mustard Boy**, you’ve done nothing to season your performance. Switzerland’s early departure left you high and dry, as the clock ticked down on your relevance this season. **Your squad was more lukewarm than a convenience store hot dog**, and it’s showing.
 
-### Rafe — 29 pts · 5th · The Noisemaker's Laugh Lasts
+### Rafe — 29 pts · 5th · The Noisemaker’s Mischievous Delight
 
-Rafe, **The Noisemaker**, you've orchestrated chaos with impeccable flair, even while rooted at the bottom. Your draft looked more like a comedy club lineup, yet here you are, still causing family fireworks. **Keep stirring the pot, kid — the real showdown is at Thanksgiving, where the scoreline matters less than the smirk on your face.**
+Rafe, **The Noisemaker**, you’re the true wild card of this league, straddling the line between a laughing stock and a courtroom jester. Despite a draft that started as a joke, you’ve made Gayden sweat every family dinner. **Who knew a 15-year-old could teach a masterclass in playful rivalry?**
 
 ### THE FATHER-SON SAGA
 
-This ongoing duel between **The Backpass Assassin** and **The Noisemaker** keeps the league entertaining. With England's downfall, Gayden's formal descent is complete, and Rafe holds the upper hand in family banter. **Thanksgiving should be a riot**, with Rafe's unyielding spirit trumping Gayden's battle-worn demeanor. **The real victor here is the one who gets the bragging rights at the dinner table.**
+As the dust settles, the **Backpass Assassin** crumbles under the weight of his own creation — **The Noisemaker** holding court at the family table. Rafe might not be a champion, but he's a winner in the banter department, having turned his father’s fantasy dreams into dust. **Thanksgiving will be one for the ages**, with Gayden’s muted pride on one side and Rafe’s victorious grin on the other.
