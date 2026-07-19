@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-18T21:51:33Z",
-  "source": "daily_results_2026-07-15",
-  "date": "2026-07-18",
-  "rotation": 32,
+  "generated": "2026-07-19T02:41:35Z",
+  "source": "daily_results_2026-07-18",
+  "date": "2026-07-19",
+  "rotation": 33,
   "pundit": {
-    "name": "Eric Wynalda",
-    "tone": "arrogant",
-    "color": "#e2231a",
+    "name": "Landon Donovan",
+    "tone": "hedging",
+    "color": "#2f6dff",
     "take": "Pundits are warming up..."
   },
   "pundit_takes": [
@@ -15,28 +15,28 @@
       "match": "League Preview",
       "headline": "Analyst Declares Draft Already Over Before Opening Whistle",
       "subtitle": "'I have seen enough,' says man who has watched zero qualifiers",
-      "date": "2026-07-18"
+      "date": "2026-07-19"
     },
     {
       "pundit": "donovan",
       "match": "League Preview",
       "headline": "Manager Commended For Bold Plan Of Hoping His Teams Score",
       "subtitle": "Sources confirm no contingency exists beyond that",
-      "date": "2026-07-18"
+      "date": "2026-07-19"
     },
     {
       "pundit": "dempsey",
       "match": "League Preview",
       "headline": "Owner Insists Last-Place Projection Is Exactly Where He Wants To Be",
       "subtitle": "Model gives the strategy a four percent chance of working",
-      "date": "2026-07-18"
+      "date": "2026-07-19"
     },
     {
       "pundit": "lalas",
       "match": "League Preview",
       "headline": "Pundit Demands All Five Managers Explain Themselves To His Face",
       "subtitle": "Reportedly, not one of them can",
-      "date": "2026-07-18"
+      "date": "2026-07-19"
     }
   ],
   "rome_analytics_quotes": [

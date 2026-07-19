@@ -1915,6 +1915,29 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-18",
+      "matches": [
+        {
+          "date": "2026-07-18",
+          "stage": "knockout",
+          "round": "3RD",
+          "home": "France",
+          "away": "England",
+          "home_score": 4,
+          "away_score": 6,
+          "score": "France 4-6 England",
+          "points": {
+            "Gayden": 3.0,
+            "Gunner": 0.0
+          },
+          "math": [
+            "KO WIN (Third-place game): England (Gayden) +3  (3rd-place game: match points only, no advancement)",
+            "KO LOSS: France (Gunner) +0"
+          ]
+        }
+      ]
     }
   ]
 }
