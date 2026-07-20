@@ -5,11 +5,11 @@
   "standings": [
     {
       "owner": "Devin",
-      "total_points": 92,
+      "total_points": 125,
       "breakdown": {
-        "match": 48.0,
+        "match": 51.0,
         "upset": 0,
-        "advancement": 44.0
+        "advancement": 74.0
       },
       "rank": 1
     },

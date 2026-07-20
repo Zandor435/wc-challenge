@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-19T21:52:24Z",
+  "generated": "2026-07-20T02:55:13Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
-    "current_round": "Third-place Game",
+    "current_round": "Final",
     "is_preseason": false,
-    "matchdays_played": 33,
-    "matches_played": 103,
-    "matches_remaining": 1,
+    "matchdays_played": 34,
+    "matches_played": 104,
+    "matches_remaining": 0,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -165,6 +165,11 @@
         "team": "France",
         "owner": "Gunner",
         "round": "Third-place Game"
+      },
+      {
+        "team": "Argentina",
+        "owner": null,
+        "round": "Final"
       }
     ]
   },
@@ -249,7 +254,7 @@
       "rank": 3,
       "rank_change_from_prev_day": 0,
       "total_points": 55,
-      "points_today": 3,
+      "points_today": 0,
       "record": {
         "W": 11,
         "D": 3,
@@ -286,26 +291,26 @@
     "Devin": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 92,
-      "points_today": 0,
+      "total_points": 125,
+      "points_today": 33,
       "record": {
-        "W": 15,
+        "W": 16,
         "D": 3,
         "L": 11
       },
       "win_probability": 1,
-      "champion_probability": 0.49,
+      "champion_probability": 1,
       "streak": {
         "type": "W",
-        "length": 1,
-        "label": "W1"
+        "length": 2,
+        "label": "W2"
       },
       "best_team": {
         "team": "Spain",
         "tier": 1,
-        "points": 54,
+        "points": 87,
         "record": {
-          "W": 6,
+          "W": 7,
           "D": 1,
           "L": 0
         }
@@ -1153,13 +1158,24 @@
         "Devin": 0,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 34,
+      "date": "2026-07-19",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 33,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.28,
     "Gunner": 0.43,
     "Gayden": 0.65,
-    "Devin": 0.59,
+    "Devin": 0.7,
     "Rafe": 0.21
   },
   "notable_events": [
@@ -1430,11 +1446,19 @@
       "description": "France (Gunner) eliminated in the Third-place Game"
     },
     {
+      "type": "elimination",
+      "date": "2026-07-19",
+      "team": "Argentina",
+      "owner": null,
+      "round": "Final",
+      "description": "Argentina eliminated in the Final"
+    },
+    {
       "type": "biggest_day",
-      "date": "2026-07-14",
+      "date": "2026-07-19",
       "owner": "Devin",
-      "points": 21,
-      "description": "Devin banked 21 pts on 2026-07-14 -- the biggest single-day haul so far"
+      "points": 33,
+      "description": "Devin banked 33 pts on 2026-07-19 -- the biggest single-day haul so far"
     }
   ],
   "themes": [
@@ -2458,6 +2482,37 @@
         "Gunner": 0,
         "Gayden": 3,
         "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Devin": 1,
+        "Gunner": 2,
+        "Gayden": 3,
+        "Zach": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "points": {
+        "Zach": 43,
+        "Gunner": 81,
+        "Gayden": 55,
+        "Devin": 125,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 33,
         "Rafe": 0
       },
       "ranks": {

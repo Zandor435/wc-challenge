@@ -1938,6 +1938,28 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-19",
+      "matches": [
+        {
+          "date": "2026-07-19",
+          "stage": "knockout",
+          "round": "FINAL",
+          "home": "Spain",
+          "away": "Argentina",
+          "home_score": 1,
+          "away_score": 0,
+          "score": "Spain 1-0 Argentina",
+          "points": {
+            "Devin": 33.0
+          },
+          "math": [
+            "KO WIN (Final): Spain (Devin) +3  +30 advancement (reached win_world_cup)",
+            "KO LOSS: Argentina undrafted, no points"
+          ]
+        }
+      ]
     }
   ]
 }
