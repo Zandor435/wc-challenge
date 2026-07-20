@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-16T05:40:47Z",
+  "generated": "2026-07-20T06:18:40Z",
   "rules_version": "rebalanced_v3",
   "tournament": "FIFA World Cup 2026",
   "source": "worldcup26.ir live games",
   "phase": {
-    "current_round": "Semifinal",
+    "current_round": "Final",
     "is_preseason": false,
-    "matchdays_played": 32,
-    "matches_played": 102,
-    "matches_remaining": 2,
+    "matchdays_played": 34,
+    "matches_played": 104,
+    "matches_remaining": 0,
     "matches_total": 104,
     "eliminated_teams": [
       {
@@ -160,6 +160,16 @@
         "team": "England",
         "owner": "Gayden",
         "round": "Semifinal"
+      },
+      {
+        "team": "France",
+        "owner": "Gunner",
+        "round": "Third-place Game"
+      },
+      {
+        "team": "Argentina",
+        "owner": null,
+        "round": "Final"
       }
     ]
   },
@@ -210,14 +220,14 @@
       "record": {
         "W": 16,
         "D": 5,
-        "L": 10
+        "L": 11
       },
       "win_probability": 0,
       "champion_probability": 0,
       "streak": {
         "type": "L",
-        "length": 2,
-        "label": "L2"
+        "length": 3,
+        "label": "L3"
       },
       "best_team": {
         "team": "France",
@@ -226,7 +236,7 @@
         "record": {
           "W": 6,
           "D": 0,
-          "L": 1
+          "L": 2
         }
       },
       "worst_team": {
@@ -243,26 +253,26 @@
     "Gayden": {
       "rank": 3,
       "rank_change_from_prev_day": 0,
-      "total_points": 52,
+      "total_points": 55,
       "points_today": 0,
       "record": {
-        "W": 10,
+        "W": 11,
         "D": 3,
         "L": 11
       },
       "win_probability": 0,
       "champion_probability": 0,
       "streak": {
-        "type": "L",
+        "type": "W",
         "length": 1,
-        "label": "L1"
+        "label": "W1"
       },
       "best_team": {
         "team": "England",
         "tier": 1,
-        "points": 33,
+        "points": 36,
         "record": {
-          "W": 5,
+          "W": 6,
           "D": 1,
           "L": 1
         }
@@ -281,26 +291,26 @@
     "Devin": {
       "rank": 1,
       "rank_change_from_prev_day": 0,
-      "total_points": 92,
-      "points_today": 0,
+      "total_points": 125,
+      "points_today": 33,
       "record": {
-        "W": 15,
+        "W": 16,
         "D": 3,
         "L": 11
       },
       "win_probability": 1,
-      "champion_probability": 0.5,
+      "champion_probability": 1,
       "streak": {
         "type": "W",
-        "length": 1,
-        "label": "W1"
+        "length": 2,
+        "label": "W2"
       },
       "best_team": {
         "team": "Spain",
         "tier": 1,
-        "points": 54,
+        "points": 87,
         "record": {
-          "W": 6,
+          "W": 7,
           "D": 1,
           "L": 0
         }
@@ -417,7 +427,7 @@
         "L": 2
       },
       "Gunner": {
-        "W": 1,
+        "W": 2,
         "D": 0,
         "L": 0
       }
@@ -463,7 +473,7 @@
       "Gayden": {
         "W": 0,
         "D": 0,
-        "L": 1
+        "L": 2
       }
     }
   },
@@ -743,6 +753,14 @@
       "via": "Spain beat France",
       "match": "France 0-2 Spain",
       "date": "2026-07-14"
+    },
+    {
+      "result": "win",
+      "winner": "Gayden",
+      "loser": "Gunner",
+      "via": "England beat France",
+      "match": "France 4-6 England",
+      "date": "2026-07-18"
     }
   ],
   "h2h_differential": {
@@ -762,7 +780,7 @@
       "Zach": -5,
       "Rafe": 8,
       "Devin": 10,
-      "Gunner": 5
+      "Gunner": 8
     },
     "Zach": {
       "Gayden": 5,
@@ -774,7 +792,7 @@
       "Devin": -13,
       "Zach": -3,
       "Rafe": 6,
-      "Gayden": -5
+      "Gayden": -8
     }
   },
   "matchday_point_history": [
@@ -1129,13 +1147,35 @@
         "Devin": 0,
         "Rafe": 0
       }
+    },
+    {
+      "matchday": 33,
+      "date": "2026-07-18",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 3,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "matchday": 34,
+      "date": "2026-07-19",
+      "points": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 33,
+        "Rafe": 0
+      }
     }
   ],
   "dependency_index": {
     "Zach": 0.28,
     "Gunner": 0.43,
-    "Gayden": 0.63,
-    "Devin": 0.59,
+    "Gayden": 0.65,
+    "Devin": 0.7,
     "Rafe": 0.21
   },
   "notable_events": [
@@ -1398,11 +1438,27 @@
       "description": "England (Gayden) eliminated in the Semifinal"
     },
     {
+      "type": "elimination",
+      "date": "2026-07-18",
+      "team": "France",
+      "owner": "Gunner",
+      "round": "Third-place Game",
+      "description": "France (Gunner) eliminated in the Third-place Game"
+    },
+    {
+      "type": "elimination",
+      "date": "2026-07-19",
+      "team": "Argentina",
+      "owner": null,
+      "round": "Final",
+      "description": "Argentina eliminated in the Final"
+    },
+    {
       "type": "biggest_day",
-      "date": "2026-07-14",
+      "date": "2026-07-19",
       "owner": "Devin",
-      "points": 21,
-      "description": "Devin banked 21 pts on 2026-07-14 -- the biggest single-day haul so far"
+      "points": 33,
+      "description": "Devin banked 33 pts on 2026-07-19 -- the biggest single-day haul so far"
     }
   ],
   "themes": [
@@ -2395,6 +2451,68 @@
         "Gunner": 0,
         "Gayden": 0,
         "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Devin": 1,
+        "Gunner": 2,
+        "Gayden": 3,
+        "Zach": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "points": {
+        "Zach": 43,
+        "Gunner": 81,
+        "Gayden": 55,
+        "Devin": 92,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 3,
+        "Devin": 0,
+        "Rafe": 0
+      },
+      "ranks": {
+        "Devin": 1,
+        "Gunner": 2,
+        "Gayden": 3,
+        "Zach": 4,
+        "Rafe": 5
+      },
+      "rank_change": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 0,
+        "Rafe": 0
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "points": {
+        "Zach": 43,
+        "Gunner": 81,
+        "Gayden": 55,
+        "Devin": 125,
+        "Rafe": 29
+      },
+      "points_today": {
+        "Zach": 0,
+        "Gunner": 0,
+        "Gayden": 0,
+        "Devin": 33,
         "Rafe": 0
       },
       "ranks": {
