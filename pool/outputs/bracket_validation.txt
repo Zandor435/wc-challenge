@@ -1,0 +1,45 @@
+======================================================================
+BRACKET VALIDATION  (Phase 1 gate - 20 sample sims, no scoring)
+======================================================================
+
+[Layer 0] Schedule R32 matchups vs official bracket (R32_DEFS)
+    All 16 R32 matchups in schedule match the official bracket: OK
+
+[Annex C] Official table rows loaded: 495 (expected 495)
+
+[Layers 1 & 2] Running 20 reproducible sample simulations
+  sim  0: champion=England              thirds=ABCDEHKL  OK
+  sim  1: champion=Spain                thirds=ABCFGIKL  OK
+  sim  2: champion=Netherlands          thirds=BCDFGIJK  OK
+  sim  3: champion=Germany              thirds=ABCDGHKL  OK
+  sim  4: champion=Germany              thirds=ABDEFHIK  OK
+  sim  5: champion=England              thirds=BDEFGIJK  OK
+  sim  6: champion=Iran                 thirds=BCDFHIJK  OK
+  sim  7: champion=England              thirds=ABCEFHIK  OK
+  sim  8: champion=Spain                thirds=BDEFGHKL  OK
+  sim  9: champion=Czechia              thirds=ABCDEFGI  OK
+  sim 10: champion=Brazil               thirds=BCDEFGHI  OK
+  sim 11: champion=Argentina            thirds=ABDFGHIK  OK
+  sim 12: champion=France               thirds=ABDFHIJK  OK
+  sim 13: champion=Argentina            thirds=BCDEFHIJ  OK
+  sim 14: champion=France               thirds=ABEFGHKL  OK
+  sim 15: champion=United States        thirds=ABEFIJKL  OK
+  sim 16: champion=Netherlands          thirds=ACDGHIKL  OK
+  sim 17: champion=Germany              thirds=ADEGHIJL  OK
+  sim 18: champion=Spain                thirds=ABCFGIJK  OK
+  sim 19: champion=Belgium              thirds=ADEFGHKL  OK
+
+[Detail] Sample sim 0 third-place allocation
+    M79: 1A (Czechia) vs 3H (Cape Verde)
+    M85: 1B (Bosnia and Herzegovina) vs 3E (Germany)
+    M81: 1D (Australia) vs 3B (Switzerland)
+    M74: 1E (Ecuador) vs 3C (Brazil)
+    M82: 1G (Iran) vs 3A (South Korea)
+    M77: 1I (Iraq) vs 3D (United States)
+    M87: 1K (Portugal) vs 3L (Croatia)
+    M80: 1L (England) vs 3K (Colombia)
+    Champion path winner: England
+
+======================================================================
+RESULT: ALL BRACKET CHECKS PASSED (20 sims, Layers 0/1/2)
+======================================================================

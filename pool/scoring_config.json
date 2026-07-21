@@ -1,0 +1,39 @@
+{
+  "version": "rebalanced_v3",
+  "group_stage": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0,
+    "upset_mode": "tier_gap",
+    "upset_bonus_per_tier_gap": 2,
+    "upset_note": "Upset bonus = 2 x (winner_tier_number - loser_tier_number). Fires only when the winner's tier number is higher (weaker) than the loser's: 1-tier gap = +2, 2-tier gap = +4, 3-tier gap = +6. Tiers come from tiers.csv (all 48 teams); points go only to the drafting owner."
+  },
+  "knockout_stage": {
+    "match_points_apply": true,
+    "third_place_game": {
+      "generates_points": true,
+      "note": "The match-104-day third-place playoff is played; its winner earns the +3 knockout match-win point but no advancement bonus."
+    },
+    "advancement_bonuses": {
+      "round_of_32": 0,
+      "round_of_16": 2,
+      "quarterfinal": 5,
+      "semifinal": 10,
+      "final": 18,
+      "win_world_cup": 30
+    }
+  },
+  "meta": {
+    "buyin": 10,
+    "payout": "winner_takes_all",
+    "tournament": "FIFA World Cup 2026"
+  },
+  "rebalance_note": {
+    "chosen_from": "run_sweep.py over 25 configs, 20,000 sims, seed 20260603",
+    "objective": "Compress four-way owner win-probability spread toward 25/25/25/25 without degenerating into a group-stage-dominant OR a knockout-lottery scoring system.",
+    "what_changed": "v2: advancement bonus curve 3/5/7/10/15 -> 2/5/10/18/30 (R16/QF/SF/Final/WinWC). v3: group upset bonus changed from flat +2 to tier-gap scaled, +2 per tier gap (1/2/3-gap = +2/+4/+6). In the sweep this 'gap x2' variant scored 8.8% spread, within Monte Carlo noise of v2's 7.9%; adopted for the better incentive shape (bigger upsets pay more).",
+    "effect": "Owner win% spread ~7.9-8.8% (within noise). Group-stage share of total points ~44-48%, so neither stage is degenerate.",
+    "residual": "~7-8% spread appears to be the practical floor: Gunner's roster is genuinely stronger (qualifies more, goes deeper), so its mean-score lead is robust to any sane scoring change. Reaching exactly 25% each would require knockout-lottery variance that makes the group stage near-meaningless.",
+    "locked_unchanged": "draw=1, loss=0, knockout match win=3, round_of_32 advancement=0, knockouts have no draw, third-place game generates points."
+  }
+}

@@ -1,0 +1,54 @@
+Monte Carlo scoring run  |  20,000 sims  |  seed 20260603
+Scoring config: rebalanced_v2  (winner-takes-all, $10 buy-in)
+==========================================================================
+
+POOL WIN PROBABILITY (share of sims with the top score; ties split)
+  Gunner    30.0%  ###############
+  Devin     25.0%  #############
+  Gayden    22.9%  ###########
+  Zach      22.1%  ###########
+  spread (leader - laggard): 7.9 pts
+
+MEAN SCORE AND COMPOSITION (points per tournament)
+  owner       mean  median  grp_base  upset  ko_match  ko_adv  qual
+  Gunner     70.52    62.0     27.01   2.77     14.16   26.59  4.38
+  Devin      63.86    55.0     24.79   2.29     12.47   24.31  3.88
+  Gayden     62.61    55.0     25.74   3.40     12.08   21.39  4.15
+  Zach       61.29    52.0     25.43   2.34     11.84   21.69  4.04
+
+UPSET BONUS BREAKDOWN  (+2 each; fires when a drafted team beats a
+stronger-tier opponent; tiers from tiers.csv, all 48 teams)
+  total upset bonuses per sim: 5.396   (= 10.79 bonus pts/sim across the pool)
+
+  matchup        gap  per_sim   by owner (per sim)
+  T2 beats T1      1    1.411   Devin 0.234  Gayden 0.495  Gunner 0.494  Zach 0.189
+  T3 beats T2      1    1.845   Devin 0.544  Gayden 0.676  Gunner 0.316  Zach 0.309
+  T4 beats T3      1    0.420   Devin 0.189  Gayden 0.231  Gunner 0.000  Zach 0.000
+  T3 beats T1      2    0.628   Devin 0.000  Gayden 0.000  Gunner 0.221  Zach 0.407
+  T4 beats T2      2    0.322   Devin 0.110  Gayden 0.212  Gunner 0.000  Zach 0.000
+  T4 beats T1      3    0.769   Devin 0.068  Gayden 0.084  Gunner 0.353  Zach 0.263
+
+  upset bonuses by owner (per sim, all matchup types):
+    Devin    1.145 bonuses  ->  2.29 pts/sim
+    Gayden   1.699 bonuses  ->  3.40 pts/sim
+    Gunner   1.384 bonuses  ->  2.77 pts/sim
+    Zach     1.168 bonuses  ->  2.34 pts/sim
+  (note: T2-beats-T1 is included though it was not in the requested list,
+   because under the rule winner_tier > loser_tier it also fires.)
+
+CHAMPION PROBABILITY BY OWNER (owner holds the team that wins it all)
+  Devin     15.5%
+  Gunner    15.3%
+  Zach      12.2%
+  Gayden    10.9%
+  any drafted team champion: 53.9%  (undrafted: 46.1%)
+
+TOP 8 MOST-LIKELY CHAMPIONS (all teams)
+  Argentina                 12.9%   owner: -
+  Spain                     12.7%   owner: Devin
+  France                    10.8%   owner: Gunner
+  Brazil                    10.1%   owner: Zach
+  England                    8.3%   owner: Gayden
+  Germany                    6.6%   owner: -
+  Portugal                   6.2%   owner: -
+  Belgium                    5.1%   owner: -

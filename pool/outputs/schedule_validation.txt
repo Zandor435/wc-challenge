@@ -1,0 +1,71 @@
+======================================================================
+SCHEDULE VALIDATION REPORT  (Phase 1 - parser only, no simulation)
+======================================================================
+
+[1] Stage / match counts
+    group      expected  72   got  72   OK
+    R32        expected  16   got  16   OK
+    R16        expected   8   got   8   OK
+    QF         expected   4   got   4   OK
+    SF         expected   2   got   2   OK
+    3rd_place  expected   1   got   1   OK
+    Final      expected   1   got   1   OK
+
+[2] Groups and membership
+    Groups found: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']  (expected ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'])
+    Group A: 6 matches, 4 teams -> ['Czechia', 'Mexico', 'South Africa', 'South Korea']
+    Group B: 6 matches, 4 teams -> ['Bosnia and Herzegovina', 'Canada', 'Qatar', 'Switzerland']
+    Group C: 6 matches, 4 teams -> ['Brazil', 'Haiti', 'Morocco', 'Scotland']
+    Group D: 6 matches, 4 teams -> ['Australia', 'Paraguay', 'Türkiye', 'United States']
+    Group E: 6 matches, 4 teams -> ['Curacao', 'Ecuador', 'Germany', 'Ivory Coast']
+    Group F: 6 matches, 4 teams -> ['Japan', 'Netherlands', 'Sweden', 'Tunisia']
+    Group G: 6 matches, 4 teams -> ['Belgium', 'Egypt', 'Iran', 'New Zealand']
+    Group H: 6 matches, 4 teams -> ['Cape Verde', 'Saudi Arabia', 'Spain', 'Uruguay']
+    Group I: 6 matches, 4 teams -> ['France', 'Iraq', 'Norway', 'Senegal']
+    Group J: 6 matches, 4 teams -> ['Algeria', 'Argentina', 'Austria', 'Jordan']
+    Group K: 6 matches, 4 teams -> ['Colombia', 'DR Congo', 'Portugal', 'Uzbekistan']
+    Group L: 6 matches, 4 teams -> ['Croatia', 'England', 'Ghana', 'Panama']
+
+[3] Team appearance counts (group stage)
+    Distinct teams in group stage: 48 (expected 48)
+    All teams appear exactly 3 times: OK
+
+[4] Duplicate group games
+    None: OK
+
+[5] Name reconciliation (schedule vs team_tiers.csv)
+    team_tiers.csv exactly matches the 48 schedule teams: OK
+
+[6] Drafted teams present in schedule
+    All 24 drafted teams found in schedule: OK
+
+[7] Aliases applied during parsing
+    line  19: 'Curaçao' -> 'Curacao'
+
+[8] Lines that failed to parse
+    (none) OK
+    Ignored preamble (before first section, not an error):
+        line   1: 2026 FIFA World Cup fixtures and results
+
+[9] Round-of-32 feeder coverage
+    Group winners referenced: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
+    Group runners-up referenced: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
+    Third-place slots: 8 (expected 8)
+        eligible groups: A/B/C/D/F
+        eligible groups: C/D/F/G/H
+        eligible groups: C/E/F/H/I
+        eligible groups: E/H/I/J/K
+        eligible groups: A/E/H/I/J
+        eligible groups: B/E/F/I/J
+        eligible groups: E/F/G/I/J
+        eligible groups: D/E/I/J/L
+    32 R32 feeder slots = 12 winners + 12 runners-up + 8 thirds: OK
+
+[10] Tier completeness (blank tiers must be filled before scoring)
+    Teams needing a tier (24): ['Algeria', 'Argentina', 'Australia', 'Belgium', 'Cape Verde', 'Colombia', 'Croatia', 'Curacao', 'Ecuador', 'Germany', 'Iran', 'Iraq', 'Mexico', 'Netherlands', 'New Zealand', 'Panama', 'Paraguay', 'Portugal', 'Qatar', 'Scotland', 'Sweden', 'Tunisia', 'Uruguay', 'Uzbekistan']
+    NOTE: allowed during parser testing; must be filled (provisional_tiers.csv)
+          before the 5,000-sim scoring run.
+
+======================================================================
+RESULT: ALL STRUCTURAL CHECKS PASSED
+======================================================================

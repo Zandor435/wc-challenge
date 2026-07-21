@@ -1,0 +1,49 @@
+team,tier,source
+Brazil,1,drafted_fixed
+France,1,drafted_fixed
+England,1,drafted_fixed
+Spain,1,drafted_fixed
+Switzerland,2,drafted_fixed
+Austria,2,drafted_fixed
+Senegal,2,drafted_fixed
+Morocco,2,drafted_fixed
+Japan,2,drafted_fixed
+Ivory Coast,2,drafted_fixed
+United States,2,drafted_fixed
+Norway,2,drafted_fixed
+Ghana,3,drafted_fixed
+Czechia,3,drafted_fixed
+Egypt,3,drafted_fixed
+Canada,3,drafted_fixed
+South Korea,3,drafted_fixed
+Türkiye,3,drafted_fixed
+South Africa,3,drafted_fixed
+Bosnia and Herzegovina,3,drafted_fixed
+Saudi Arabia,4,drafted_fixed
+DR Congo,4,drafted_fixed
+Jordan,4,drafted_fixed
+Haiti,4,drafted_fixed
+Mexico,,NEEDS_TIER
+Qatar,,NEEDS_TIER
+Scotland,,NEEDS_TIER
+Paraguay,,NEEDS_TIER
+Australia,,NEEDS_TIER
+Germany,,NEEDS_TIER
+Curacao,,NEEDS_TIER
+Ecuador,,NEEDS_TIER
+Netherlands,,NEEDS_TIER
+Sweden,,NEEDS_TIER
+Tunisia,,NEEDS_TIER
+Belgium,,NEEDS_TIER
+Iran,,NEEDS_TIER
+New Zealand,,NEEDS_TIER
+Cape Verde,,NEEDS_TIER
+Uruguay,,NEEDS_TIER
+Iraq,,NEEDS_TIER
+Argentina,,NEEDS_TIER
+Algeria,,NEEDS_TIER
+Portugal,,NEEDS_TIER
+Uzbekistan,,NEEDS_TIER
+Colombia,,NEEDS_TIER
+Croatia,,NEEDS_TIER
+Panama,,NEEDS_TIER
